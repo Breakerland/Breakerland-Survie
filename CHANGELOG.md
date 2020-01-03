@@ -1,8 +1,6 @@
 # Changelog Breakerland
 
-##V3.15
-
-###Changelog 25/11
+## V3.15 - 25 novembre 2019
 
  - Ajout d'une nouvelle récompense de vote : Possibilité d'obtenir une tête aléatoire dans plus de 26.000 têtes décorative. Chances : 1%
  - Correction des récompenses de votes.
