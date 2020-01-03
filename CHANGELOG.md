@@ -1,146 +1,36 @@
 # Changelog Breakerland
-
-## V3.15 - 25 novembre 2019
-
- - Ajout d'une nouvelle récompense de vote : Possibilité d'obtenir une tête aléatoire dans plus de 26.000 têtes décorative. Chances : 1%
- - Correction des récompenses de votes.
- - Correction d'un soucis de de kits.
- - Ouverture d'une partie du tunnel vers l'accès a la zone supérieur du spawn.
- - Ajout d'un PNJ téléporteur communautaire afin de faciliter aux nouveaux joueurs le tp dans les warps des autres joueurs. Ce pnj ce situe a droite du portail du monde survie.
- - Modification du cooldown de téléportation : 15sec -> 5sec
-
-## V3.16 - 27 novembre 2019
-
- - Ajout d'un manoir en vente à la boutique pour 1000 Jetons.
- - Le prix d'un land par défaut reste à 200 mais augmente de 50 à chaque claim que vous achetez. 
- - Exemple : 1er claim : 200B     2ème claim : 250B     3ème claim : 300B
- Chaque grade est désormais également limité en nombre de claim :
- Survivant : 50
- Aventurier : 100
- Baron : 150
- Duc : 200
- Comte : 250
- Marquis : 300
- Héro : 350
- Prince : 400
- Légende : 400
- Roi : 450
- Fantôme : 450
- Empereur : 500
- - Le cooldown pour le /condense est désormais réduit : 15sec -> 5sec
- - Ajout de quelques quêtes.
  
-## V3.17 - 28 novembre 2019
+## V5.2 - 3 janvier 2020
 
- - Ajout d'un bonhomme de neige à durée limité possédant dejà 1000XP dans le /petshop
- - Ajout d'une faible taxe quand un joueur achète un objet dans un chest shop pour le propriétaire du shop 10%
- - Ajout d'une quête récupérable près de Ollie permettant l'accès à l'achat de bébé familiers dans le /petshop
- - Suppression du gain d'argent pour le cactus dans le métier de chasseur.
+ - Les cadeaux que vous pouviez vous offrir sont toujours présent mais plus au même endroit et sont maintenant dans la boite à cadeaux.
+ - Zone du père noël fermée, il est juste devant et disparaitra dans quelques jours tout comme les items de noël de la table des mages.  Le calendrier de l'avent quand à lui reste également en place encore un petit moment.
+ - Disparition de l'onglet "Changelog" sur le site
+ - Le portail vers le monde survie fonctionne à nouveau ( et reste payant ) et ajout d'une trace de redstone qui mène à une sortie gratuite.
+ - Suppression du bonhomme de neige dans le /petshop
  
-## V4.0 - 1 décembre 2019
+## V5.1 - 2 janvier 2020
 
- - Ajout à partir du grade baron la possibilité d'obtenir des animaux de compagnie (Voir Wiki)
- - Ajout d'une catégorie de noël pour une durée limité à la table des mages ( /mage )
- - Ajout de quêtes de Noël à aller récupérer en zone event auprès du père noel
- - Ajout d'un système de calendrier de l'avant. Du 1 au 24 vous pourrez trouver des têtes numérotées de 1 à 24 comportant chacune un cadeau ouvrable le jour indiqué sur le cadeau. Chaque cadeau ne peut être ouvert qu'une seule fois et peut être ouvert uniquement le jour J.
- - Ajout d'une réduction et boutique du 1er au 24 Décembre de 30% !
- - Ajout de la possibilité d'envoyé un cadeau à l'un de vos amis. Pour envoyé un cadeau a un de vos a amis faites '/gift pseudo' avec l'objet que vous souhaitez lui envoyer dans votre main, il pourra ouvrir votre cadeau près du sapin le 25.
- - Suppression de la tax d'achat de 10%
- - Possibilité de vous marrié avec la personne que vous aimer le plus ( /marry ) disponible a partir du grade aventurier.
- - Modifications de la génération du nether entièrement revue, et possibilité de crée un land dans ce dernier. Le nether ne sera donc plus reset en débuts de mois désormais.
- - Le Site passe en mode hiver, flocons et images de thème sont présente.
- - Le serveur ce paye également un nouveau logo, l'ancien va nous manquer.
- 
-## V4.01 - 2 décembre 2019
- 
- - Corrections de bugs concernant les Lands et le Spawn
- - Correction d'un bug via la table des mages
- - Correction concernant les mariages
- - Correction du calendrier de l'avent taille réelle
- - Suppression de la régénération naturelle
+ - Correction du /kit marquis
+ - Correction de bugs de lands
+ - Le spawn est repasser en mode normal
 
-## V4.02 - 3 décembre 2019
- 
- - Correction d'un bug concernant les pets.
- 
-## V4.03 - 4 décembre 2019
+## V5.0 - 1 janvier 2020
 
- - Toutes les régions qui avaient étais reset du à un bug de mise à jour ont étais restaurées. En cas de soucis merci d'ouvrir un ticket sur le discord.
- - Correction du point de téléportation du nether via le spawn
- - Ajout de la commande /l setspawn aux survivants
- 
-## V4.04 - 5 décembre 2019
+ - Le grade Marquis est désormais disponible.
+ - Correction de bugs de lands
+ - Correction de bugs des spawners
+ - Correction d'autres bugs mineur
 
- - Modification des flocons du site ainsi que le logo du site
+## V4.17 - 28 décembre 2019
 
-## V4.05 - 6 décembre 2019
-
- - Correction de certains soucis lié aux lands
- - Correction d'un soucis qui faisait survenir des baisses de tps
- - La commande /petcapturehelpeur est uniquement réservé aux premiums maintenant
- - Ajout pour les Barons de la commande /petshop pour acheter des familiers
- - Ajout pour les Barons de la commande /petrelease pour libéré son familier
- - Suppression du Villageois et Zombie Villageois (et aussi les versions bébé) pour familier au /petshop pour éviter les abus
- - Modification de la description du premium en boutique
- - Modification du wiki des grades
-
-## V4.06 - 7 décembre 2019
-
- - Ajout à partir du grade  Baron du /petname
- - Remise en place des NPC au spawn du à un bug inconnu :/
- 
-## V4.07 - 8 décembre 2019
-
- - Correction de quelques bugs concernant les lands
- - Ajout de 79 têtes obtenable en votant aléatoirement dans la récompense de tête, pour un total de plus de 27.000 têtes
- 
-## V4.08 - 9 décembre 2019
-
- - Correction de bugs concernants les Lands 
- - Les versions 1.15 et supérieures peuvent désormais ce connecter au serveur
- - Modification des bannière de certains site de vote 
-
-## V4.09 - 10 décembre 2019
-
- - Correction du Motd (message dans le menu des serveurs) 
- - Correction de bugs concernants les lands
- - Ajout du /hdb recherche nomdelitem
- - Ajout d'une nuit rouge, cette dernière fait spawner énormément de monstre mais a peu de chances d'apparaitre, attention à vous !
- - Ajout de 3 emoji sur le Discord
- - Le setrole des lands est désormais disponnible à partir du grade Survivant et non plus Duc
- - Correction du soucis de la table des mages concernant certains objets.
-
-## V4.10 - 12 décembre 2019
-
- - Correction de certaines quêtes
- - Correction de la table du Mage
- - Correction des portails de téléportations
- - Correction de l'hotel des ventes
- - Ajout d'une nouvelle offre disponible en boutique dans la catégorie structure.
-
-## V4.11 - 14 décembre 2019
-
- - Modification du wiki du site, ajout d'une catégorie "tutoriel' qui répertorie les tutoriels concernants des fonctionnalitées complexes du serveur.
- 
-## V4.12 - 16 décembre 2019
-
- - Ajout de structure customisé qui spawn aléatoirement dans la map.
- - Régénération de la map remise en place.
- 
-## V4.13 - 18 décembre 2019
-
- - Modification du wiki du site, ajout dans la catégorie "tutoriel" un tuto pour les lands.
- 
-## V4.14 - 20 décembre 2019
-
- - Modification du wiki catégorie tutoriel.
- - Correction de nombreux bugs concernant le serveur survie
- - Serveur créatif update en version de jeu 1.15
-
-## V4.15 - 24 décembre 2019
-
- - Serveur update en 1.15.1 Abeilles au rendez-vous.
- - Correction de plusieurs bugs.
+ - Migration du serveur sous paperspigot
+ - Optimisation du générateur custom
+ - Correction de Lands
+ - Correction des objets de Noël à la table des Mages
+ - Mise à jour des membres du staff sur la page "staff" du site et en jeu
+ - Commande /rtp corrigée
+ - Calendrier de l'avent de nouveau fonctionnel
+ - Ajout de 183 têtes customs
  
 ## V4.16 - 26 décembre 2019
 
@@ -170,34 +60,144 @@ Membre (trust)/Admin:
 + entrer dans le terrain
 Vous pouvez bien sur les modifier à votre guise.
 
-## V4.17 - 28 décembre 2019
+## V4.15 - 24 décembre 2019
 
- - Migration du serveur sous paperspigot
- - Optimisation du générateur custom
- - Correction de Lands
- - Correction des objets de Noël à la table des Mages
- - Mise à jour des membres du staff sur la page "staff" du site et en jeu
- - Commande /rtp corrigée
- - Calendrier de l'avent de nouveau fonctionnel
- - Ajout de 183 têtes customs
-
-## V5.0 - 1 janvier 2020
-
- - Le grade Marquis est désormais disponible.
- - Correction de bugs de lands
- - Correction de bugs des spawners
- - Correction d'autres bugs mineur 
+ - Serveur update en 1.15.1 Abeilles au rendez-vous.
+ - Correction de plusieurs bugs.
  
-## V5.01 - 2 janvier 2020
+## V4.14 - 20 décembre 2019
 
- - Correction du /kit marquis
- - Correction de bugs de lands
- - Le spawn est repasser en mode normal
+ - Modification du wiki catégorie tutoriel.
+ - Correction de nombreux bugs concernant le serveur survie
+ - Serveur créatif update en version de jeu 1.15
  
-## V5.02 - 3 janvier 2020
+## V4.13 - 18 décembre 2019
 
- - Les cadeaux que vous pouviez vous offrir sont toujours présent mais plus au même endroit et sont maintenant dans la boite à cadeaux.
- - Zone du père noël fermée, il est juste devant et disparaitra dans quelques jours tout comme les items de noël de la table des mages.  Le calendrier de l'avent quand à lui reste également en place encore un petit moment.
- - Disparition de l'onglet "Changelog" sur le site
- - Le portail vers le monde survie fonctionne à nouveau ( et reste payant ) et ajout d'une trace de redstone qui mène à une sortie gratuite.
- - Suppression du bonhomme de neige dans le /petshop
+ - Modification du wiki du site, ajout dans la catégorie "tutoriel" un tuto pour les lands.
+ 
+## V4.12 - 16 décembre 2019
+
+ - Ajout de structure customisé qui spawn aléatoirement dans la map.
+ - Régénération de la map remise en place.
+
+## V4.11 - 14 décembre 2019
+
+ - Modification du wiki du site, ajout d'une catégorie "tutoriel' qui répertorie les tutoriels concernants des fonctionnalitées complexes du serveur.
+
+## V4.10 - 12 décembre 2019
+
+ - Correction de certaines quêtes
+ - Correction de la table du Mage
+ - Correction des portails de téléportations
+ - Correction de l'hotel des ventes
+ - Ajout d'une nouvelle offre disponible en boutique dans la catégorie structure.
+
+## V4.9 - 10 décembre 2019
+
+ - Correction du Motd (message dans le menu des serveurs) 
+ - Correction de bugs concernants les lands
+ - Ajout du /hdb recherche nomdelitem
+ - Ajout d'une nuit rouge, cette dernière fait spawner énormément de monstre mais a peu de chances d'apparaitre, attention à vous !
+ - Ajout de 3 emoji sur le Discord
+ - Le setrole des lands est désormais disponnible à partir du grade Survivant et non plus Duc
+ - Correction du soucis de la table des mages concernant certains objets.
+ 
+## V4.8 - 9 décembre 2019
+
+ - Correction de bugs concernants les Lands 
+ - Les versions 1.15 et supérieures peuvent désormais ce connecter au serveur
+ - Modification des bannière de certains site de vote
+ 
+## V4.7 - 8 décembre 2019
+
+ - Correction de quelques bugs concernant les lands
+ - Ajout de 79 têtes obtenable en votant aléatoirement dans la récompense de tête, pour un total de plus de 27.000 têtes
+
+## V4.6 - 7 décembre 2019
+
+ - Ajout à partir du grade  Baron du /petname
+ - Remise en place des NPC au spawn du à un bug inconnu :/
+
+## V4.5 - 6 décembre 2019
+
+ - Correction de certains soucis lié aux lands
+ - Correction d'un soucis qui faisait survenir des baisses de tps
+ - La commande /petcapturehelpeur est uniquement réservé aux premiums maintenant
+ - Ajout pour les Barons de la commande /petshop pour acheter des familiers
+ - Ajout pour les Barons de la commande /petrelease pour libéré son familier
+ - Suppression du Villageois et Zombie Villageois (et aussi les versions bébé) pour familier au /petshop pour éviter les abus
+ - Modification de la description du premium en boutique
+ - Modification du wiki des grades
+ 
+## V4.4 - 5 décembre 2019
+
+ - Modification des flocons du site ainsi que le logo du site
+ 
+## V4.3 - 4 décembre 2019
+
+ - Toutes les régions qui avaient étais reset du à un bug de mise à jour ont étais restaurées. En cas de soucis merci d'ouvrir un ticket sur le discord.
+ - Correction du point de téléportation du nether via le spawn
+ - Ajout de la commande /l setspawn aux survivants
+
+## V4.2 - 3 décembre 2019
+ 
+ - Correction d'un bug concernant les pets.
+ 
+## V4.1 - 2 décembre 2019
+ 
+ - Corrections de bugs concernant les Lands et le Spawn
+ - Correction d'un bug via la table des mages
+ - Correction concernant les mariages
+ - Correction du calendrier de l'avent taille réelle
+ - Suppression de la régénération naturelle
+ 
+## V4.0 - 1 décembre 2019
+
+ - Ajout à partir du grade baron la possibilité d'obtenir des animaux de compagnie (Voir Wiki)
+ - Ajout d'une catégorie de noël pour une durée limité à la table des mages ( /mage )
+ - Ajout de quêtes de Noël à aller récupérer en zone event auprès du père noel
+ - Ajout d'un système de calendrier de l'avant. Du 1 au 24 vous pourrez trouver des têtes numérotées de 1 à 24 comportant chacune un cadeau ouvrable le jour indiqué sur le cadeau. Chaque cadeau ne peut être ouvert qu'une seule fois et peut être ouvert uniquement le jour J.
+ - Ajout d'une réduction et boutique du 1er au 24 Décembre de 30% !
+ - Ajout de la possibilité d'envoyé un cadeau à l'un de vos amis. Pour envoyé un cadeau a un de vos a amis faites '/gift pseudo' avec l'objet que vous souhaitez lui envoyer dans votre main, il pourra ouvrir votre cadeau près du sapin le 25.
+ - Suppression de la tax d'achat de 10%
+ - Possibilité de vous marrié avec la personne que vous aimer le plus ( /marry ) disponible a partir du grade aventurier.
+ - Modifications de la génération du nether entièrement revue, et possibilité de crée un land dans ce dernier. Le nether ne sera donc plus reset en débuts de mois désormais.
+ - Le Site passe en mode hiver, flocons et images de thème sont présente.
+ - Le serveur ce paye également un nouveau logo, l'ancien va nous manquer.
+ 
+## V3.17 - 28 novembre 2019
+
+ - Ajout d'un bonhomme de neige à durée limité possédant dejà 1000XP dans le /petshop
+ - Ajout d'une faible taxe quand un joueur achète un objet dans un chest shop pour le propriétaire du shop 10%
+ - Ajout d'une quête récupérable près de Ollie permettant l'accès à l'achat de bébé familiers dans le /petshop
+ - Suppression du gain d'argent pour le cactus dans le métier de chasseur.
+
+## V3.16 - 27 novembre 2019
+
+ - Ajout d'un manoir en vente à la boutique pour 1000 Jetons.
+ - Le prix d'un land par défaut reste à 200 mais augmente de 50 à chaque claim que vous achetez. 
+ - Exemple : 1er claim : 200B     2ème claim : 250B     3ème claim : 300B
+ Chaque grade est désormais également limité en nombre de claim :
+ Survivant : 50
+ Aventurier : 100
+ Baron : 150
+ Duc : 200
+ Comte : 250
+ Marquis : 300
+ Héro : 350
+ Prince : 400
+ Légende : 400
+ Roi : 450
+ Fantôme : 450
+ Empereur : 500
+ - Le cooldown pour le /condense est désormais réduit : 15sec -> 5sec
+ - Ajout de quelques quêtes.
+
+## V3.15 - 25 novembre 2019
+
+ - Ajout d'une nouvelle récompense de vote : Possibilité d'obtenir une tête aléatoire dans plus de 26.000 têtes décorative. Chances : 1%
+ - Correction des récompenses de votes.
+ - Correction d'un soucis de de kits.
+ - Ouverture d'une partie du tunnel vers l'accès a la zone supérieur du spawn.
+ - Ajout d'un PNJ téléporteur communautaire afin de faciliter aux nouveaux joueurs le tp dans les warps des autres joueurs. Ce pnj ce situe a droite du portail du monde survie.
+ - Modification du cooldown de téléportation : 15sec -> 5sec
