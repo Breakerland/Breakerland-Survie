@@ -13,6 +13,7 @@
  - Correction d'un bug pour les portails de téléportation
  - Tout comme le serveur, le site repasse en mode normal
  - Le wiki du site est en travaux, tout est supprimé.
+ - Bot GitHub relié au salon discord #Changelog afin de vous tenir informer de toutes nouveautés
  
 ## V5.2 - 3 janvier 2020
 
