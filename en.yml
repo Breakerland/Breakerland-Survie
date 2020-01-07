@@ -1,0 +1,871 @@
+prefix: '&8[&3Skills&8] &3'
+actionbar:
+  normal: '&8-=( %status% &9∫ %skills_energy_string%&l%skills_energy_symbol% &9∫ &3Lvl.
+    &e%skills_short_level% &9∫ &3%skills_short_xp%&8/&3%skills_short_maxxp% &9∫ &3%skills_short_soul%
+    &9∫ &3%skills_active_cooldown% &8)=-'
+  activated-skill: '&4-=<=[ %status% &c︴ %skills_energy_string%&l%skills_energy_symbol%
+    &c︴ &6ℒνℓ. &e%skills_short_level% &c︴ &6%skills_short_xp%&8/&6%skills_short_maxxp%
+    &c︴ &6%skills_short_soul% &4]=>=-'
+  status:
+    ok: '&2❤'
+    poisoned: '&5☣'
+  cooldown:
+    ready: '&200 ⌛'
+    not-ready: '&c%time% ⌛'
+  status-lowhealth: '&4♥'
+  status-activated: '&0&o❦'
+  energy:
+    charged: '&a❘'
+    empty: '&8❘'
+    full: '&2&o❘'
+    full-second: '&e&o┃'
+skill:
+  swordsman:
+    name: Swordsman
+    description: |-
+      &3Swordsmen are the prime of all melee
+      battles, with superior damage
+      and close-range capabilities.
+
+      &e&lStrength
+      &2Swordsmen are strong in
+      one on one battles,
+      and can win most other
+      skills if fought well.
+
+      &e&lWeakness
+      &cSwordsmen don't have powerful ranged
+      capabilities, and can be outmatched
+      by ranged attacks.
+    dodge-title: '&6Dodge'
+    parry-title: '&6Parry'
+    pierce-title: '&6Pierce'
+    thousandcuts-title: '&6Thousand Cuts'
+    passive: '&3Your attack is increased by &e%amount%%'
+    dodge: |-
+      &3You have a &e%amount%% &3of dodging
+      your opponent's attack.
+      Maximum of &640%
+    dodge-opponent-message: '&cYour attack was dodged!'
+    dodge-message: '&3Dodged attack!'
+    parry: |-
+      &3If you are holding a sword,
+      and your opponent has lesser
+      &eSTR &3than you, you reflect &e%amount%
+      &3damage back to your opponent
+    pierce: |-
+      &3If your &6STR &3is higher
+      than your opponent's &4DEF&3,
+      your attack will deal &e%amount%%
+      &3more damage
+    thousandcuts: |-
+      &3Right click to activate
+      while holding a sword
+      &3Does &e%amount% &3damage per
+      hit to the next target you attack,
+      while disorienting them each hit
+      for the next 2 seconds.
+    active-activation-message: '&3&lThousand Cuts activated! Hit your target as many
+      times as you can!'
+    active-finished-message: '&c&lThousand Cuts has worn off'
+    ready-activation-message: '&3*You raise your weapon* Hit a target to activate
+      Thousand Cuts'
+    notready-activation-message: '&7*You lower your weapon*'
+  devourer:
+    name: Devourer
+    description: |-
+      &3Devourers are fast, agile, and
+      their strikes are very corrosive.
+      Hit-and-run specialists.
+
+      &e&lStrength
+      &2Nothing can outrun a devourer,
+      as they have powerful techniques to
+      get away from danger,
+      and an equally corrosive strike.
+
+      &e&lWeakness
+      &cDevourers have weak defensive capability.
+    evolvegliders-title: '&6Evolve Gliders'
+    evolvecloak-title: '&6Evolve Cloak'
+    evolvesadism-title: '&6Evolve Sadism'
+    consume-title: '&6Consume'
+    passive: |-
+      &3Your attacks inflict corrosion
+      to your enemy, causing them
+      to lose &e%amount% &3health
+      per second for 5 seconds.
+    evolvegliders: |-
+      &3When sprinting,
+      gain &e%amount% &3speed.
+    evolvecloak: |-
+      &3Level 1&8: &eGain invisibility permanently.
+      When you attack, the invisibility
+      is disabled for 30 seconds.
+      &3Level 2: &eHostile mobs will naturally
+      be neutral to you.
+      If you attack a mob, neutrality is
+      disabled for 30 seconds.
+      Some mobs like Enderman, endermite,
+      wither, guardians and the ender dragon
+      will be still able to see you.
+      &3Level 3&8: &eThe first attack you make
+      before becoming invisible will
+      deal &6%amount% &emore damage.
+    invis-disabled: '&cYour invisibility is disabled for 30 seconds!'
+    invis-enabled: '&1You fade into the darkness...'
+    neutrality-disabled: '&cYour neutrality is disabled for 30 seconds!'
+    neutrality-enabled: '&1You are now neutral to mobs.'
+    evolvesadism: |-
+      &3Evolve the ability to have no conscience.
+      When attacking, you delight off your
+      target's suffering, giving a
+      &e%amount% &3chance of healing you
+      for 1 health per attack.
+    consume: |-
+      &3Right click to activate.
+      Bite your target, dealing &e%amount%
+      &3damage, along with 1 additional
+      damage per 5% missing health the target has.
+      If target dies, you are healed by
+      50% of your maximum health.
+    ready-activation-message: '&3*Your teeth glint with glee* Hit a target to activate
+      Consume'
+    notready-activation-message: '&7*You save your meal for another time*'
+    activation-message: '&3&l*CHOMP!*'
+    heal-message: '&3&lYou feast off your victim, regaining %amount% health'
+  mage:
+    name: Mage
+    description: |-
+      &3Mages are masters of offensive
+      and defensive magic,
+      and battle with Staffs to cast
+      spells and curses on their enemies.
+
+      &e&lStrength
+      &2Mages can counter many skill
+      types as their attacks with
+      Staffs can cause different
+      attacks to occur.
+
+      &e&lWeakness
+      &cMages rely on Mana,
+      and are severely weakened without it.
+    reflect-title: '&6Reflect'
+    explosionspell-title: '&6Explosion Spell'
+    healspell-title: '&6Heal Spell'
+    energyflux-title: '&6Energy Flux'
+    passivev2: |-
+      &3When attacking with staffs (hoe),
+      you gain back &e%amount% &3mana per hit.
+      Attacking with hoes will deal more damage,
+      ranging from 3 for a wooden hoe,
+      to 10 for a diamond hoe.
+    reflect: |-
+      &3When you are attacked, and you're holding
+      a staff, have a chance
+      (based on your staff material)
+      to deal &e%amount% &3to the attacker.
+    explosionspell: |-
+      &3When you are attacking, and you're holding a
+      staff, have a chance
+      (based on your staff material)
+      to deal &e%amount%% &3more damage to your enemy.
+    healspell: |-
+      &3For every 10 mana you have,
+      regenerate &e%amount%&3 additional health,
+      if your health is over 20.
+    energyfluxv2: |-
+      &3When right-clicking with a hoe,
+      rapidly fire energy bolts that
+      deal &e%amount% &3damage in a line.
+      Repeated hits on the same target
+      within &6%cooldown%s &3will
+      deal &650% &3less damage.
+      More levels gives you more
+      distance to hit your target.
+    ready-activation-message: '&3*Your staff glows with powerful magic!* Punch in
+      a direction to fire Energy Flux'
+    notready-activation-message: '&7*Your staff dims*'
+    activation-message: '&3&l*WHOOSH!*'
+  firemage:
+    name: FireMage
+    description: |-
+      &3FireMages, unlike Mages,
+      are fully focused on
+      fire-based offensive spells,
+      and don't use staffs.
+      They cast spells by
+      expending their own health.
+
+      &e&lStrength
+      &2While health is spent on spells,
+      the spells can deliver devastating
+      blows to your foes.
+
+      &e&lWeakness
+      &cFireMages are weak against
+      fire-resistance potions.
+    absorbenergy-title: '&6Absorb Energy'
+    phoenixessence-title: '&6Phoenix Essence'
+    blackfire-title: '&6Black Fire'
+    inferno-title: '&6Inferno'
+    passivev2: |-
+      &3When on fire, regain &e%amount% &3extra
+      health when healing.
+      You are also immune to fire damage.
+    absorbenergy: |-
+      &3When attacked, your next attack will
+      set your targets on fire
+      for up to &e%amount% &3seconds.
+    phoenixessence: |-
+      &3Deal &e%amount%% &3more damage
+      for every &61 second
+      &3your target is on fire for.
+    blackfire: |-
+      &3When targets in a radius
+      of &65 blocks &3to you,
+      increase their fire damage by &e%amount%
+    inferno: |-
+      &3Right click, and hit a target
+      with your staff to activate.
+      Immediately deal &e%amount% &3damage,
+      plus 1 damage per 20 fireticks the target has
+    ready-activation-message: '&3*Your hands burns with power* Hit a target to activate
+      Inferno'
+    notready-activation-message: '&7*The power dissipates*'
+    activation-message: '&3&lYour target is blasted with infernal power!'
+  juggernaut:
+    name: Juggernaut
+    description: |-
+      &3The most durable warriors,
+      juggernauts are powerful behemoths
+      that can soak up a lot of damage.
+
+      &e&lStrength
+      &2Very strong against non-healing skills,
+      as you can out last your opponent.
+
+      &e&lWeakness
+      &cVery low damage output.
+      Although you are durable, if you fail
+      to dish out enough damage to take out
+      your enemy before he takes you out,
+      you would be doomed.
+    heavystrikes-title: '&6Heavy Strikes'
+    stoneskin-title: '&6Stone Skin'
+    aegisprotection-title: '&6Aegis Protection'
+    throw-title: '&6Throw'
+    passivev2: '&3Reduce entity attacks by &e%amount%%'
+    heavystrikes: |-
+      &3If you are using an axe to attack,
+      deal &e%amount%% &3more damage to your target.
+    stoneskin: |-
+      &3Level 1&8: &eFall damage is reduced by &650%
+      &3Level 2&8: &eFire damage is reduced by &650%
+      &3Level 3&8: &eYour passive's effect
+      will work against projectiles.
+    aegisprotection: |-
+      &3Every &e%amount%&3 seconds,
+      refresh a shield that negates all
+      damage for the next attack
+    throw: |-
+      &3Sneak and right click at
+      your target to activate.
+      Carry your target for 3 seconds,
+      making you and your target unable
+      to attack for the duration,
+      then toss your enemy in the
+      direction you're looking at.
+      Once your target hits the ground,
+      deal &e%amount% &3damage to your target.
+      While you are carrying your target,
+      all incoming damage is reduced by 50%
+    active-ready-message: '&3*You ready yourself* Hit a target to carry and throw
+      it'
+    active-notready-message: '&7*You lower your fists*'
+    active-activated-message: '&3&lYou grab your opponent above your head!'
+    active-throw-message-countdown: '&c&lAIM! Throwing opponent in your direction
+      in %countdown%'
+    active-throw-success: '&3&lThrew target at location!'
+    aegis-success: '&3Your aegis shield blocks the attack!'
+  arbalist:
+    name: Arbalist
+    description: |-
+      &3Arbalists are adaptive,
+      with different playstyles,
+      up front battle, and sniping from afar.
+      Arbalists utilize Crossbows to fight.
+
+      &e&lStrength
+      &2Arbalists can deal a lot of damage,
+      if the target fails to reach the
+      arbalist in time, and also have
+      a lot of knockback capabilities.
+
+      &e&lWeakness
+      &cArbalists are weak in
+      short range combat,
+      and only rely on knockback to
+      keep their enemies at bay.
+    execute-title: '&6Execute'
+    dualarrow-title: '&6Dual Arrow'
+    minions-title: '&6Minions Arrow'
+    firecrossbow-title: '&6Fire Crossbow'
+    passive: |-
+      &3The longer the distance
+      between you and your target,
+      the higher the damage.
+    execute: |-
+      &3After shooting a single target
+      2 times in a row, have a chance to
+      perform one of these combos.
+
+      &eLevel 1&8: &3Have a chance to set
+      your target on fire for 5 seconds.
+      &eLevel 2&8: &3Have a chance to poison
+      your target.
+      &eLevel 3&8: &3Have a chance to strike
+      a lightning on your target.
+
+      Chances will increase the more
+      you shoot the target.
+      Your combo will reset if you miss
+      or hit another target.
+    dualarrow: |-
+      &3Level 1&8: &eYour crossbow and
+      bow can fire two arrows at once.
+      The second arrow deals 50% damage.
+      &3Level 2&8: &eThe second arrow does 100% damage.
+      &3Level 3&8: &eThe second arrow does 100% damage,
+      along with &6%amount%% &ebonus damage.
+    minions-description: |-
+      &3Right-click and shoot to
+      spawn minion skeletons that will
+      fight for you.
+
+      &eLevel 1&8: &3One skeleton
+      &eLevel 2&8: &3Two skeletons with invisibility
+      effect and better bows.
+      &eLevel 3&8: &33 Pillagers with invisibility
+      and flame arrows.
+    minions-msg: '&cYou spawned your minions.'
+    firecrossbow: |-
+      &3Fire an arrow at your enemy
+      by punching. Does not use arrows,
+      and instead uses energy.
+      Upgrade to reduce cooldown
+    activation-msg: '&3Arrow launched!'
+  vampire:
+    name: Vampire
+    description: |-
+      &3Vampires are majestic
+      yet horrible demons,
+      with the uncanny abilities
+      of regeneration and stealth.
+
+      &e&lStrength
+      &2Attacks can deplete your opponent of Mana,
+      and you also have many healing
+      abilities of your own.
+
+      &e&lWeakness
+      &cVampires are all rounded,
+      but can be outpaced by
+      targets with high mobility.
+    bloodlust-title: '&6Blood Lust'
+    bloodwell-title: '&6Blood Well'
+    bleed-title: '&6Bleed'
+    eternaldarkness-title: '&6Eternal Darkness'
+    passive: |-
+      &3Attacking gives you 3
+      blood per hit. For every
+      2 blood you have, deal an additional
+      &e%amount%% &3melee damage to your targets.
+      Blood levels drop by &e(1+10%)
+      &3every 4 seconds.
+    bloodlust: "&3Level 1: If you have more than 70% of\nyour blood well full, go\
+      \ into a frenzy,\nallowing you to deal\n&e%amount%% &3more damage than usual\n\
+      \nLevel 2: Your natural health regeneration is\ntripled during this time. \n\
+      Level 3: Attacks during this duration\nhave a chance (based on your\ncurrent\
+      \ blood) to heal you by 2"
+    bloodwell: |-
+      &3Increases your maximum blood levels by a large
+      amount every upgrade. Has a &e%amount%% &3chance
+      to stop the loss of blood every 4 seconds.
+    bleed: |-
+      &3Your targets bleed for &e%amount%
+      &3seconds, dealing 1 &3damage to them per 1 second.
+      Also, for each target that is bleeding,
+      have a chance to gain 1 blood each
+      time they bleed based on the
+      amount of blood you have.
+    eternaldarkness: |-
+      &3Sneak and hit a target to become
+      invincible for &e%amount% &3seconds.
+      During this time, you blind the targets
+      you attack for 1 second per hit.
+    active-activation-message: '&3&lEternal Darkness activated! You are now immune
+      to damage!'
+    active-finished-message: '&c&lEternal Darkness has worn off. You are now vulnerable
+      to damage.'
+    ready-activation-message: '&3*Your fangs glint* Hit a target to activate Eternal
+      Darkness'
+    notready-activation-message: '&7*The victim isn''t worth such effort*'
+  eidolon:
+    name: Eidolon
+    description: |-
+      &3Eidolons are spirits, that periodically
+      change form, switching
+      between Dark and Light.
+
+      &e&lStrength
+      &2Eidolon has both defensive and offensive
+      abilities, and if used wisely,
+      can be a very effective melee fighter.
+
+      &e&lWeakness
+      &cOffensive abilites are mostly in
+      Eidolon's Dark form, and vice versa.
+      Complex to master.
+    purify-title: '&6Purify'
+    spiritfire-title: '&6Spirit Fire'
+    spectre-title: '&6Spectre'
+    shapeshifter-title: '&6Shape Shifter'
+    defile-title: '&6Defile'
+    passive: |-
+      &3Eidolon has a light and dark form.
+      When your Imbalance hits &6100&3,
+      you change to another form.
+      Imbalance is gained over time.
+      Upon changing, restore &e%amount% &3health.
+    purify: |-
+      &3Deal &e%amount% &3damage for
+      every 5 health your target has,
+      up to a maximum of &e%max%&3.
+      &6%amount% &3imbalance is gained when you attack.
+    spiritfire: "&3In Light form, absorb &e%amount%%\n&3damage when hit, up to a maximum\
+      \ of &650%.\n&3This amount is stored. \n&3In Dark form, expell the stored\n\
+      amount in the first attack to deal\n1 damage per &e%dark% &3damage absorbed"
+    spectre: "&3In Light form, gain a shield, that will\ngive speed &c%speed%&3 for\
+      \ 3 seconds\nwhen broken by another mob.\nShield refreshes every &e%amount%\
+      \ &3seconds. \nIn Dark form, your attack will\nbe charged every &e%amount% &3seconds.\n\
+      Charged attacks deal &6%dark%%\n&3additional damage."
+    shapeshifter: |-
+      &3When in dark, you'll deal more
+      damage to the enemy.
+      The darker the more damage you deal.
+      When you're in light places,
+      you'll take less damage.
+      The brighter the fewer damage you'll take.
+    defile: |-
+      &3Right click and attack to tip
+      the balance in your target,
+      increasing its damage taken,
+      and reducing its damage dealt to
+      you by &6%amount%% &3for &e%amount% seconds&3.
+    active-ready: '&3*Disruptive energy radiates from you* Punch a target to defile
+      it'
+    active-not-ready: '&c*The energy dissipates*'
+    active-activation-message: '&3&lYou disrupted your target''s spiritual balance!'
+    turn-light: '&eYour darkness fades into light!'
+    turn-dark: '&4Darkness overwhelms the light!'
+    spirit-expell: '&3You blast your target with %damage% extra damage!'
+    shield-refresh: '&3You feel a surge of energy'
+    shield-speed: '&3Your shield shatters to give you speed!'
+    attack-boost: '&3You expell your charged attack to deal %damage%% more damage!'
+  priest:
+    name: Priest &8(&2&lNEW&8)
+    description: |-
+      &3Priests are mainly supporters
+      that can play a huge role in a team.
+      They also have a few extra
+      abilities for survival.
+
+      &e&lStrength
+      &2Priests are mostly defensive.
+      Both for them and their team.
+
+      &e&lWeakness
+      &cPriests are vulnerable to unholiness.
+      Such as nether and the end
+      and creatures like Wither.
+    purification-title: '&6Purification'
+    purification-description: |-
+      &eLevel 1&8: &3Guardians, endermen and
+      slimes will no longer target you.
+      &eLevel 2&8: &3Elder guardians, spiders and
+      phantoms will no longer target you.
+      Not that if you attack them they
+      will attack back.
+      &eLevel 3&8: &3Purify the world as you walk
+      on grass to spread flowers.
+    seal-of-life-title: '&6Seal of Life'
+    seal-of-life-description: |-
+      &3Have a chance to escape enemies
+      when severely wounded.
+      Be invincible and increase regeneration.
+    passive-title: '&6Passive'
+    passive-description: |-
+      &3Walk on water like Jesus (What the fuck)
+      Your body automatically rejects lava.
+      &cYour memories come flooding back as you
+      walk in nether and the end.
+    mind-possession-title: '&6Mind Possession'
+    mind-possession-description: |-
+      &3Have a chance to paralyze your
+      enemies with slowness and blindness.
+      Higher levels give higher chances and duration.
+    kindling-of-life-title: '&6Kindling of Life'
+    kindling-of-life-description: |-
+      &3Right-click and heal your team mates
+      to support them.
+      Higher levels gives higher velocity
+      and higher health.
+    asclepius-title: '&6Asclepius'
+    asclepius-description: |-
+      &3LR to give effects to players around you.
+      Support your teammates before a fight
+      with some buffs.
+  none:
+    name: None
+  select-title: '&8-=( &6%skill_displayname% &8)=-'
+  no-permission: '&cYou don''t have permission to use &e%skill%'
+  owned-error: '&4You already own a skill!'
+  change-cooldown-error: '&cYou need to wait &e%cooldown% &cto change your skill.'
+  affected-by: |-
+    &3This improvement's effectivity is
+    also affected by &e%stat%
+  maximum-level: '&cThis improvement is upgraded to the max level.'
+  passive:
+    title: '&6&lPassive'
+energy:
+  energy: Energy
+  health: Health
+  arrows: Arrows
+  blood: Blood
+  mana: Mana
+  imbalance: Imbalance
+command:
+  help:
+    pages-header: '&8&l&m--------------(&6&l Skills &e%page%&7/&e%maxpages% &8&l&m)--------------'
+    no-hidden-pages: '&cThere are no hidden pages.'
+    pages-commands: '&7/&3Skills %cmd% &8- &e%description%'
+    grouped-header: '&8&l&m--------------(&6&l %group% &8&l&m)--------------'
+    grouped-commands: '&7/&3Skills %cmd% &8- &e%description%'
+    select: '&eUse to select a skill'
+    info: '&eUse to see your skill level, stats and improvements'
+    updates: '&eChecks for updates on Spigot.'
+    refresh: '&eReplenish all your energy/blood/imbalance/mana'
+    improve: '&eUse to open your skill''s improvment menu'
+    showactivemessages: '&eUse to toggle active skill messages'
+    see: '&eUse to see the skill information of another player'
+    stat: '&eUse to manage your statpoints'
+    mastery: '&eUse to manage your masteries'
+    help: '&eUse to display commands'
+    setsouls: '&eUse to manipulate player soul count'
+    setlevel: '&eUse to manipulate level of a player'
+    setxp: '&eUse to manipulate xp of a player. Player must be online'
+    setskill: '&eUse to manipulate player skill'
+    addstatpoints: '&eUse to add statpoints to a player'
+    startxpboost: '&eUse to start a server-wide xp booster'
+    startsoulboost: '&eUse to start a server-wide soul booster'
+    givebonus: '&eUse to give an exp or soul bonus to a player'
+    takebonus: '&eRemoves a bonus from the specified player'
+    resetplayer: '&eUse to wipe the specified player''s data'
+    nextpage: |2-
+
+      &3Use &e/Skills help %page% &3to see the next page.
+    no-more-pages: '&cNo more pages present.'
+    top: '&eUse to see the players with the highest levels'
+    reload: '&eReloads skills config'
+    user-mastery: '&eUse to modify a player''s mastery levels.'
+    user-improvements: '&eUse to modify a player''s skill''s improvements.'
+    user: '&eModify player''s skill data.'
+  unknown: '&cUnknown command!'
+  usage: '&cUsage&7: &e/Skills '
+  top:
+    header: '&8&l&m--------------(&6&l Top 10 Players &8&l&m)--------------'
+    entry: '&6%number%. &3%name% &8- &eLvl %level%'
+    loading: '&eCalculating...'
+  see:
+    player-doesnt-exist: '&cThe player you specified doesn''t exist.'
+  setsoul:
+    success: '&3%amount% has been added to the soul count'
+    not-number: '&cSoulcount must be a number!'
+  refresh:
+    success: '&3Replenished your energy.'
+  setskill:
+    success: '&3%player% &eis now a &3%skill%'
+    not-skill: '&e%skill% &cis not an existing skill&7: &enone&8, &eswordsman&8, &edevourer&8,
+      &emage&8, &efiremage&8, &ejuggernaut&8, &earbalist&8, &evampire&8, &eeidolon'
+  setstatpoints:
+    success: '&3%amount% statpoints have been added to the player'
+    not-number: '&cStatpoints to be added must be a number!'
+  setlevel:
+    success: '&3%amount% has been added to the player''s level'
+    not-number: '&clevel must be a number!'
+  setxp:
+    success: '&e%amount% &3EXP has been added to &e%player%''s &3EXP. New EXP&8: &e%new%'
+  not:
+    number: '&e%arg% &cis not a number! &e%needed% &cmust be a number.'
+  resetplayer:
+    success: '&3%player%''s stats, level, skill, masteries and improvements reset'
+  misc:
+    player-doesnt-exist: '&cThe specified player does not exist'
+    player-no-data: '&cThe specified player does not have any Skills data.'
+    player-not-online: '&cThe specified player is not online!'
+  givebonus:
+    message: '&3You have been given a bonus for &e%time% minutes&3!'
+    confirmation: '&3Given &e%player% &3a bonus for &e%time% minutes&3!'
+    multiplier-error: '&cThe multiplier must contain the keyword EXP or soul! E.g.
+      &e5 * soul'
+    multiplier-invalid: '&cInvalid multiplier. Multipliers are: E.g. &e5 * soul, exp
+      + 20, etc.'
+  takebonus:
+    success: '&3Removed all the boosts from the player.'
+  boost:
+    already-started: '&cThe specified event is already in progress! Remaining time&8:
+      &e%time%'
+    broadcast: '&e%type% &3boost activated for &e%time% minutes&3! Get &ex%multiplier%
+      &3xp per kill!'
+  showactivemessages:
+    'on': '&3Active messages will now be shown.'
+    'off': '&cActive messages will not be shown.'
+  about:
+    description: '&6About the plugin.'
+  user:
+    invalid-setter: '&cInvalid setter&8: &e%setter% &cUse one of the following keywords&8:
+      &eadd/decrease/set'
+    mastery-set-success: '&e%amount% &3has been added to the player''s &e%mastery%
+      &3mastery, new level&8: &e%new%'
+    improvement-set-success: '&e%amount% &3has been added to the player''s &e%ability%
+      &ability, new level&8: &e%new%'
+  reload:
+    done: '&3Reloaded.'
+  select:
+    already-chosen: '&cYou''re already a &e%skill%'
+  bonus:
+    not-found: '&cCould not find &e%bonus% &cbonus.'
+    take-description: '&3Takes an active bonus from a player.'
+    give-description: '&3Gives a player a bonus.'
+    time-description: '&3Change one of a player''s bonuses.'
+  event:
+    not-found: '&cCould not find &e%event% &cevent.'
+    start-description: '&3Starts an event.'
+    stop-description: '&3Stops an event.'
+    time-description: '&3Changes an event''s time.'
+    events-description: '&3Get the current running events.'
+    stop: '&e%player% &3has stopped the &e%event% &3event.'
+    events-exp: '&3Active EXP Event&8: &eDuration&8: &e%xp_duration% &8- &eMultiplier&8:
+      &e%xp_multiplier%'
+    events-soul: '&3Active Soul Event&8: &eDuration&8: &e%soul_duration% &8- &eMultiplier&8:
+      &e%soul_multiplier%'
+    events-nothing: '&cThere are no events running.'
+    time: '&3Changed &e%event% &3event time. New time&8: &e%time%'
+    announce: '&e%player% &3changed &e%event% &3event time. New time&8: &e%time%'
+  info:
+    exp-bonus: '&3Active EXP Bonus&8: &eDuration&8: &e%skills_xp_bonus_duration% &8-
+      &eMultiplier&8: &e%skills_xp_bonus_multiplier%'
+    soul-bonus: '&3Active EXP Bonus&8: &eDuration&8: &e%skills_soul_bonus_duration%
+      &8- &eMultiplier&8: &e%skills_soul_bonus_multiplier%'
+    message: |
+      &8&l&m--------------(&6&l %skills_skill% &8&l&m)--------------
+      &3Souls&7: &e%skills_soul%
+      &3Level&7: &e%skills_level%
+      &3EXP&7: &e%skills_xp%&8/&e%skills_maxxp%
+      &3Total EXP&7: &e%skills_rawxp%
+
+      &6STR &7| &dDEX &7| &9INT &7| &4DEF
+         &6%skills_str% &7| &d%skills_dex% &7| &9%skills_int% &7| &4%skills_def%
+    other: |+
+      &8&l&m--------------(&6&l %player% &8&l&m)--------------
+      &3Level&7: &e%skills_level%
+      &3EXP&7: &e%skills_xp%&8/&e%skills_maxxp%
+      &3Total EXP&7: &e%skills_rawxp%
+
+command-info-other-permission: '&4You don''t have the permission to see others info.'
+command-stats-other-permission: '&4You don''t have the permission to see others stats.'
+not-enough:
+  souls: '&cYou don''t have enough souls!'
+  energy: '&cYou need at least %amount% energy to use this skill!'
+  mana: '&cYou need at least %amount% mana to use this skill!'
+  health: '&cYou need at least %amount% health to use this skill!'
+  statpoints: '&cNot enough stat points.'
+player-not-found: '&cCould not find player &e%player%.'
+invalid-time: '&cInvalid time.'
+players-only: '&cOnly players can use &e/%cmd%'
+party-members-too-far: '&cYour party members are too far apart! No bonus is available.'
+no-skill: '&cYou don''t have a skill!'
+permission: '&4You don''t have permission to use that command!'
+cooldown-active: '&cYou still need to wait %time% before using this skill again!'
+stunned: '&cYou can''t attack while you''re immobilised!'
+soul-loss: '&cYou''ve lost &e%amount% &csoul(s).'
+level-up: '&8[&6%skills_maxxp%XP &7-> &6%next_maxxp%XP&8] &3You''ve leveled up! Do
+  &e/Skill level &3to check on your total levels!'
+gained-statpoints: '&3You''ve gained &e%amount% &3stat points. Do &e/skill stats &3to
+  add it to your total stats.'
+xp-message: '&8[&6%skills_xp%xpXP &7-> &6%skills_maxxp%xpXP&8]'
+event-not-running: '&e%event% &cevent is not running!'
+bonus-inactive: '&cBonus inactive'
+improvement:
+  upgraded: '&3Skill Improvement upgraded!'
+  max: '&cSkill Improvement is at maximum level.'
+stat:
+  str: '&6Strength'
+  int: '&1Intelligence'
+  dex: '&dDexterity'
+  def: '&4Defense'
+  points: '&9Points'
+guis:
+  statmenu:
+    reset:
+      message: '&cYour stat points has been reset.'
+      confirm-title: '&4&lConfirm Reset'
+      cost: '&3Cost&8: &e%cost%'
+      title: '&cReset Stats'
+    add: '&6Add one stat point to &e%stat_type%'
+    add-all: '&6Add all points to &e%stat_type%'
+    statpoints-title: '&2Stat Points'
+    statpoints-description: '&3Amount&8: &e%stats%'
+    statpoints:
+      needed: '&cAt least 2 stat points are required to auto distribute.'
+      distribution: '&e%amount% &3points added into &e%stat%'
+      spent: '&3Used &e%amount% &3stat points.'
+    title: '&8-=( &6&lStats &8)=-'
+    level: '&3Level&8: &e%stats%'
+    autoassign: '&3Auto-Assign'
+    autoassign-desc: |-
+      &eClick to automatically assign
+      stats based on your skill type.
+    explanation: '&2Which one to add?'
+    explanation-message: |-
+      Your statpoints determine the effectiveness
+      of some of your skills.
+      The type of stat that affects your skill
+      improvements can be seen at the bottom of
+      the description of it in &3/Skills improve
+  select:
+    title: '&8-=( &4&lSkills &8)=-'
+  improve:
+    title: '&8-=( &c&lSkill Tree &8)=-'
+    cost: |2-
+
+      &3Cost&8: &e
+  disable:
+    ability: |2-
+
+      &cRight-click to disable ability.
+  enable:
+    ability: |2-
+
+      &2Right-click to enable ability.
+  masteries:
+    description: |-
+      %type%
+
+      &3Level&8: &e%level%
+      &3Cost&8: &e%cost%
+
+      %description%
+skill-selected: '&3You are now a &e%skills_skill%'
+ability:
+  not-found: '&e%ability% &3ability not found.'
+invalid:
+  ability-level: '&cAbility level must be a value between 0-3'
+mastery:
+  title: '&8-=( &c&lMasteries &8)=-'
+  maximum-level: '&cThis mastery is upgraded to the max level.'
+  not-found: '&e%mastery% &3mastery not found.'
+  upgraded: '&3Upgraded &e%mastery% &3mastery.'
+  downgraded: '&3Downgraded &e%mastery% &3mastery.'
+  cant-downgrade: '&cYou can''t downgrade &e%mastery% &cmastery anymore'
+  efficiency:
+    name: '&9Efficiency'
+    logging:
+      title: '&9Logging'
+      desc: |-
+        &2When breaking blocks,
+        have a chance get bonus items.
+    harvesting:
+      title: '&9Harvesting'
+      desc: |-
+        &2When harvesting crops,
+        have a chance to get
+        double the amount
+    mining:
+      title: '&9Mining'
+      desc: |-
+        &2When breaking ores,
+        have a chance to gain
+        1 additional drop
+    pacifist:
+      title: '&9Pacifist'
+      desc: |-
+        &2Gain Skills experience from
+        logging and harvesting crops
+        (XP gained is also increased by logging
+        and harvesting masteries)
+    regeneration:
+      title: '&9Regeneration'
+      desc: |-
+        &2If you have more than 20 health,
+        regain health from eating food
+  brutality:
+    name: '&cBrutality'
+    critical:
+      strikes-title: '&cCritical Strikes'
+      strikes-desc: |-
+        &2Your critical strikes (Jump hits)
+        will deal additional damage.
+        This bonus is doubled
+        against non-players.
+    power:
+      title: '&cPower'
+      desc: |-
+        &2Have a chance to deal
+        an additonal 1 damage
+    brute:
+      force-title: '&cBruteForce'
+      force-desc: |-
+        &2For every piece of armor you're wearing,
+        have a chance to deal 1 more damage
+    glory:
+      title: '&cGlory'
+      desc: |-
+        &2EXP gained from killing mobs
+        is increased by a flat amount
+    thick:
+      skin-title: '&cThick Skin'
+      skin-desc: |-
+        &2Have a chance to reduce
+        damage taken by one
+  finesse:
+    name: '&5Finesse'
+    precision:
+      title: '&5Precision'
+      desc: |-
+        &2Have a chance to critically strike with
+        bows, to deal 50% more damage
+    exploit:
+      title: '&5Exploit'
+      desc: |-
+        &2For each piece of armor your
+        opponent is using, have a chance
+        to deal 1 extra damage for each piece
+    reap:
+      title: '&5Reap'
+      desc: |-
+        &2Have a chance to gain
+        an extra soul per kill.
+    adriot:
+      title: '&5Adriot'
+      desc: |-
+        &2When handling weapons, have
+        a chance to not lose durability
+    serration:
+      title: '&5Serration'
+    serration-desc: |-
+      &2Have a chance to deal additional
+      damage to your target one
+      second after attacking
