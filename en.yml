@@ -21,7 +21,7 @@ actionbar:
     full-second: '&e&o┃'
 skill:
   swordsman:
-    name: Swordsman
+    name: Combattant
     description: |-
       &3Swordsmen are the prime of all melee
       battles, with superior damage
@@ -72,7 +72,7 @@ skill:
       Thousand Cuts'
     notready-activation-message: '&7*You lower your weapon*'
   devourer:
-    name: Devourer
+    name: Cannibale
     description: |-
       &3Devourers are fast, agile, and
       their strikes are very corrosive.
@@ -135,7 +135,7 @@ skill:
     activation-message: '&3&l*CHOMP!*'
     heal-message: '&3&lYou feast off your victim, regaining %amount% health'
   mage:
-    name: Mage
+    name: Magicien
     description: |-
       &3Mages are masters of offensive
       and defensive magic,
@@ -189,7 +189,7 @@ skill:
     notready-activation-message: '&7*Your staff dims*'
     activation-message: '&3&l*WHOOSH!*'
   firemage:
-    name: FireMage
+    name: Enchanteur
     description: |-
       &3FireMages, unlike Mages,
       are fully focused on
@@ -236,7 +236,7 @@ skill:
     notready-activation-message: '&7*The power dissipates*'
     activation-message: '&3&lYour target is blasted with infernal power!'
   juggernaut:
-    name: Juggernaut
+    name: Templier
     description: |-
       &3The most durable warriors,
       juggernauts are powerful behemoths
@@ -290,7 +290,7 @@ skill:
     active-throw-success: '&3&lThrew target at location!'
     aegis-success: '&3Your aegis shield blocks the attack!'
   arbalist:
-    name: Arbalist
+    name: Archer
     description: |-
       &3Arbalists are adaptive,
       with different playstyles,
@@ -475,7 +475,7 @@ skill:
     shield-speed: '&3Your shield shatters to give you speed!'
     attack-boost: '&3You expell your charged attack to deal %damage%% more damage!'
   priest:
-    name: Priest &8(&2&lNEW&8)
+    name: Prêtre
     description: |-
       &3Priests are mainly supporters
       that can play a huge role in a team.
@@ -548,10 +548,10 @@ energy:
   imbalance: Imbalance
 command:
   help:
-    pages-header: '&8&l&m--------------(&6&l Skills &e%page%&7/&e%maxpages% &8&l&m)--------------'
-    no-hidden-pages: '&cThere are no hidden pages.'
+    pages-header: '&8&l&m--------------(&a&l Skills &e%page%&7/&e%maxpages% &8&l&m)--------------'
+    no-hidden-pages: '&cIl n'y à pas de pages cachés.'
     pages-commands: '&7/&3Skills %cmd% &8- &e%description%'
-    grouped-header: '&8&l&m--------------(&6&l %group% &8&l&m)--------------'
+    grouped-header: '&8&l&m--------------(&a&l %group% &8&l&m)--------------'
     grouped-commands: '&7/&3Skills %cmd% &8- &e%description%'
     select: '&eUse to select a skill'
     info: '&eUse to see your skill level, stats and improvements'
@@ -562,7 +562,7 @@ command:
     see: '&eUse to see the skill information of another player'
     stat: '&eUse to manage your statpoints'
     mastery: '&eUse to manage your masteries'
-    help: '&eUse to display commands'
+    help: '&eAffiche ce menu'
     setsouls: '&eUse to manipulate player soul count'
     setlevel: '&eUse to manipulate level of a player'
     setxp: '&eUse to manipulate xp of a player. Player must be online'
