@@ -1,4 +1,18 @@
 # Changelog Breakerland
+
+## V5.3 - 6 janvier 2020
+
+ - Suppression du Père Noël 
+ - Suppression des items de Noël dans la table du mage
+ - Bugs de jobs en cours de travail
+ - Admin Shop de nouveau disponible
+ - Correction d'un bug de l'HDV
+ - Correction d'un bug de Land
+ - Correction d'un bug de Quest
+ - Correction d'un bug des customs heads
+ - Correction d'un bug pour les portails de téléportation
+ - Tout comme le serveur, le site repasse en mode normal
+ - Le wiki du site est en travaux, tout est supprimé
  
 ## V5.2 - 3 janvier 2020
 
