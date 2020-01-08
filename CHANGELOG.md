@@ -8,11 +8,11 @@
  - Refonte du système de vote
  - Ajout de récompenses de vote
  - Modification du prix des grades :
-   . Aventurier 20.000 -> 15.000
-   . Baron 60.000 -> 50.000
-   . Duc 220.000 -> 200.000
-   . Comte 620.000 -> 560.000
-   . Marquis 1.220.000 -> 1.120.000
+   - Aventurier 20.000 -> 15.000
+   - Baron 60.000 -> 50.000
+   - Duc 220.000 -> 200.000
+   - Comte 620.000 -> 560.000
+   - Marquis 1.220.000 -> 1.120.000
 
 ## V5.3 - 6 janvier 2020
 
