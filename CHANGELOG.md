@@ -1,5 +1,11 @@
 # Changelog Breakerland
 
+## V5.4 - 8 janvier 2020
+
+ - Bug de jobs corrigé
+ - Correction de bugs divers
+ - Ajout d'un nouveau Land au Panthéon des Braves
+
 ## V5.3 - 6 janvier 2020
 
  - Suppression du Père Noël 
