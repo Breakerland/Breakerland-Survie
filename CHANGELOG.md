@@ -5,6 +5,8 @@
  - Bug de jobs corrigé
  - Correction de bugs divers
  - Ajout d'un nouveau Land au Panthéon des Braves
+ - Refonte du système de vote
+ - Ajout de récompenses de vote
 
 ## V5.3 - 6 janvier 2020
 
