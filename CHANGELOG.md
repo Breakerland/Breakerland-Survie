@@ -1,5 +1,13 @@
 # Changelog Breakerland
 
+## V5.5 - 12 janvier 2020
+
+ - Modification de la période minimum pour rentrer dans le staff 1mois -> 2 semaines
+ - Modification des certains objets en boutique
+ - Correction de bugs de Lands
+ - Corrections de bug de métier
+ - Ajout de 134 têtes custom
+
 ## V5.4 - 8 janvier 2020
 
  - Bug de jobs corrigé
