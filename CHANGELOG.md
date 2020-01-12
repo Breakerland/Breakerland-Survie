@@ -8,6 +8,7 @@
  - Corrections de bug de métier
  - Ajout de 134 têtes custom
  - Ajout d'environ 1000 succès en jeu
+ - Ajout de la commande /ext pour les marquis. Elle vous permet d'arrêter de brûler
 
 ## V5.4 - 8 janvier 2020
 
