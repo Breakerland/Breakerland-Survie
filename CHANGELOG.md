@@ -7,6 +7,7 @@
  - Correction de bugs de Lands
  - Corrections de bug de métier
  - Ajout de 134 têtes custom
+ - Ajout d'environ 1000 succès en jeu
 
 ## V5.4 - 8 janvier 2020
 
