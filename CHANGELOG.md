@@ -3,11 +3,11 @@
 ## V5.6 - 14 janvier 2020
 
  - Modifications des récompenses de vote :
-- Renard des neiges
-+ 500 BreakerCoins 
-+ 1 Lampe magique ( table des mages )
-+ 1 Full inventaire de terre
-+ Ajout de l'effet mauvais présage
+   - Supprimer : Renard des neiges
+   - Ajout : 500 BreakerCoins 
+   - Ajout : 1 Lampe magique ( table des mages )
+   - Ajout : 1 Full inventaire de terre
+   - Ajout : Ajout de l'effet mauvais présage
  - Modification du wiki du site : https://breakerland.fr/wiki
  - Gain de la roche 0,05 -> 0,15
 
