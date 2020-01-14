@@ -39,21 +39,21 @@ skill:
     dodge-title: '&6Esquiver'
     parry-title: '&6Parer'
     pierce-title: '&6Transpercer'
-    thousandcuts-title: '&6Milles coupes'
+    thousandcuts-title: '&6Milles Coupures'
     passive: '&3Votre attaque augmente de &e%amount%%'
     dodge: |-
       &3You have a &e%amount%% &3of dodging
       your opponent's attack.
       Maximum of &640%
-    dodge-opponent-message: '&cYour attack was dodged!'
+    dodge-opponent-message: '&cTon attaque à été esquiver!'
     dodge-message: '&3Dodged attack!'
     parry: |-
       &3If you are holding a sword,
       and your opponent has lesser
-      &eSTR &3than you, you reflect &e%amount%
+      &eFOR &3than you, you reflect &e%amount%
       &3damage back to your opponent
     pierce: |-
-      &3If your &6STR &3is higher
+      &3If your &6FOR &3is higher
       than your opponent's &4DEF&3,
       your attack will deal &e%amount%%
       &3more damage
@@ -64,10 +64,10 @@ skill:
       hit to the next target you attack,
       while disorienting them each hit
       for the next 2 seconds.
-    active-activation-message: '&3&lThousand Cuts activated! Hit your target as many
-      times as you can!'
-    active-finished-message: '&c&lThousand Cuts has worn off'
-    ready-activation-message: '&3*You raise your weapon* Hit a target to activate
+    active-activation-message: '&3&lMilles Coupures activé ! Frappe ton ennemis 
+      autant que possible !
+    active-finished-message: '&c&lMilles Coupures est terminée'
+    ready-activation-message: '&3*Vous levez votre arme* Hit a target to activate
       Thousand Cuts'
     notready-activation-message: '&7*You lower your weapon*'
   devourer:
@@ -675,7 +675,7 @@ command:
       &3EXP&7: &e%skills_xp%&8/&e%skills_maxxp%
       &3Total EXP&7: &e%skills_rawxp%
 
-      &6STR &7| &dDEX &7| &9INT &7| &4DEF
+      &6FOR &7| &dDEX &7| &9INT &7| &4DEF
          &6%skills_str% &7| &d%skills_dex% &7| &9%skills_int% &7| &4%skills_def%
     other: |+
       &8&l&m--------------(&6&l %player% &8&l&m)--------------
