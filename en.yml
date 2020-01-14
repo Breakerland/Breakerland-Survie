@@ -21,27 +21,26 @@ actionbar:
     full-second: '&e&o┃'
 skill:
   swordsman:
-    name: Combattant
+    name: Épéiste
     description: |-
-      &3Swordsmen are the prime of all melee
-      battles, with superior damage
-      and close-range capabilities.
+      &3Les Épéistes sont les premiers
+      de toutes les batailles, avec des
+      dégats supérieurs, et des compétence
+      avantageuse à courte distance.
 
-      &e&lStrength
-      &2Swordsmen are strong in
-      one on one battles,
-      and can win most other
-      skills if fought well.
+      &e&lForce
+      &2L'Épéiste est fort en batailles
+      individuelles, et est en mesure
+      de vaincre tous ces ennemis si
+      il ce défend bien.
 
-      &e&lWeakness
-      &cSwordsmen don't have powerful ranged
-      capabilities, and can be outmatched
-      by ranged attacks.
-    dodge-title: '&6Dodge'
-    parry-title: '&6Parry'
-    pierce-title: '&6Pierce'
-    thousandcuts-title: '&6Thousand Cuts'
-    passive: '&3Your attack is increased by &e%amount%%'
+      &e&lFaiblesse
+      &cL'Épéiste craint les attaque à distance.
+    dodge-title: '&6Esquiver'
+    parry-title: '&6Parer'
+    pierce-title: '&6Transpercer'
+    thousandcuts-title: '&6Milles coupes'
+    passive: '&3Votre attaque augmente de &e%amount%%'
     dodge: |-
       &3You have a &e%amount%% &3of dodging
       your opponent's attack.
