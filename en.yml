@@ -28,13 +28,13 @@ skill:
       dégats supérieurs, et des compétence
       avantageuse à courte distance.
 
-      &e&lForce
+      &e&lForces :
       &2L'Épéiste est fort en batailles
       individuelles, et est en mesure
       de vaincre tous ces ennemis si
       il ce défend bien.
 
-      &e&lFaiblesse
+      &e&lFaiblesses :
       &cL'Épéiste craint les attaque à distance.
     dodge-title: '&6Esquiver'
     parry-title: '&6Parer'
@@ -42,49 +42,49 @@ skill:
     thousandcuts-title: '&6Milles Coupures'
     passive: '&3Votre attaque augmente de &e%amount%%'
     dodge: |-
-      &3You have a &e%amount%% &3of dodging
-      your opponent's attack.
-      Maximum of &640%
+      &3Tu à &e%amount%% &3de chances
+      d'esquiver l'attaque adverses.
+      Max &640%
     dodge-opponent-message: '&cTon attaque à été esquiver!'
-    dodge-message: '&3Dodged attack!'
+    dodge-message: '&3Attaque esquivée!'
     parry: |-
-      &3If you are holding a sword,
-      and your opponent has lesser
-      &eFOR &3than you, you reflect &e%amount%
-      &3damage back to your opponent
+      &3Si tu tiens une épée et que 
+      ton adversaire à moins de
+      &eFOR &3que toi, tu renverra &e%amount%
+      &3de dégats à ton adversaire.
     pierce: |-
-      &3If your &6FOR &3is higher
-      than your opponent's &4DEF&3,
-      your attack will deal &e%amount%%
-      &3more damage
+      &3si ta &6FOR &3est plus haute
+      que la &4DEF&3 de ton adversaire,
+      ton attaque fera &e%amount%%
+      &3de dégats supplémentaires.
     thousandcuts: |-
-      &3Right click to activate
-      while holding a sword
-      &3Does &e%amount% &3damage per
-      hit to the next target you attack,
-      while disorienting them each hit
-      for the next 2 seconds.
+      &3Clique droit en tenant une épée
+      pour activer ta compétence
+      &3Inflige &e%amount% &3de dégats par
+      coup à l'adversaire,
+      cela le désorientera également
+      pendant 2 secondes.
     active-activation-message: '&3&lMilles Coupures activé ! Frappe ton ennemis 
       autant que possible !
     active-finished-message: '&c&lMilles Coupures est terminée'
-    ready-activation-message: '&3*Vous levez votre arme* Hit a target to activate
-      Thousand Cuts'
-    notready-activation-message: '&7*You lower your weapon*'
+    ready-activation-message: '&3*Vous levez votre arme* Frappe ton ennemis
+      pour activer ta compétence'
+    notready-activation-message: '&7*Vous rengainez votre arme*'
   devourer:
     name: Cannibale
     description: |-
-      &3Devourers are fast, agile, and
-      their strikes are very corrosive.
-      Hit-and-run specialists.
+      &3Les Cannibales sont rapides, agiles
+      et les attaques font de gros dégats.
+      Spécialistes pour frapper et fuir.
 
-      &e&lStrength
-      &2Nothing can outrun a devourer,
-      as they have powerful techniques to
-      get away from danger,
-      and an equally corrosive strike.
+      &e&lForces :
+      &2Rien ne leurs échappe,
+      ils sont très fort pour
+      fuir tout danger,
+      et leurs attaquent font très mal.
 
-      &e&lWeakness
-      &cDevourers have weak defensive capability.
+      &e&lWeakness :
+      &cFaibles capacités défensives
     evolvegliders-title: '&6Evolve Gliders'
     evolvecloak-title: '&6Evolve Cloak'
     evolvesadism-title: '&6Evolve Sadism'
