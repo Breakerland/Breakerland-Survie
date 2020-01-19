@@ -1,5 +1,23 @@
 # Changelog Breakerland
 
+## V5.7 - 19 janvier 2020
+
+ - Ajout d'un premium gratuit 24h achetable qu'une seule fois en boutique catégorie gratuits
+ - Ajout d'une tête gratuite obtenable chaques mois en boutique catégorie gratuits
+ - Ajout d'un bot d'aide faites /help dans le discord
+ - Correction d'un bug pour claim
+ - Correction des fautes d'orthographe des Quêtes
+ - Modifications esthétiques du discord
+ - Ajout d'un bot commerce pour vous informer des échanges
+ - Connexion entre le serveur et discord approfondie
+ - Modification des récompenses de vote :
+   - Ajout de l'effet régénération en vote
+   - Ajout d'une apparition de poulpe
+   - Ajout de 8 cristaux de prismarine
+   - Ajout d'un stack de terracotta
+   - Suppression du premium 24h
+   - Suppression de l'oeuf de dauphin
+
 ## V5.6 - 14 janvier 2020
 
  - Modifications des récompenses de vote :
