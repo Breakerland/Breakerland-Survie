@@ -1,5 +1,13 @@
 # Changelog Breakerland
 
+## V5.8 - 22 janvier 2020
+
+ - Suppression du plugin Advanced Achievement
+ - La grande pioche corrigé, pour avoir la nouvelle pioche craftez là à l'aide de l'ancienne à la table des mages
+ - Modification du réglement
+ - Ajout d'informations concernant les abeilles en faisant un clique droit sur ces dernières ou sur les ruches (pas de grade requis)
+ - Serveur update en 1.15.2
+
 ## V5.7 - 19 janvier 2020
 
  - Ajout d'un premium gratuit 24h achetable qu'une seule fois en boutique catégorie gratuits
