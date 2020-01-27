@@ -3,11 +3,11 @@
 ## V5.9 - 29 janvier 2020
 
  - Suppression des gains suivants suite au sondage : 
-  - 1 inventaire de terre 7.45% (14 votes)
-  - 8 émeraudes 6.38% (12 votes)
-  - 15 lvl d'XP 5.85% (11 votes)
-  - effet : régénération 30 secondes 5.85% (11 votes)
-  - 1 stack de terracotta 5.85% (11 votes)
+   - 1 inventaire de terre 7.45% (14 votes)
+   - 8 émeraudes 6.38% (12 votes)
+   - 15 lvl d'XP 5.85% (11 votes)
+   - effet : régénération 30 secondes 5.85% (11 votes)
+   - 1 stack de terracotta 5.85% (11 votes)
  - Ajout d'un nouveau site de vote votable toutes les 3H
  - Ajout d'une quête auprès de Toryar concernant la futur maj
  - Modification des 4 npc du spawn principale et ajout de commandes en faisant clique droit sur ces derniers
