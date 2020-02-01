@@ -1,5 +1,16 @@
 # Changelog Breakerland
 
+## V5.10 - 1 février 2020
+
+ - Correction de 2 récompenses de vote
+ - Ajout de 2 quêtes
+ - Ajout d'objets liées à la table des mages
+ - Staff du site mis a jour
+ - Ajout du /trash aux marquis
+ - Votes et boutique a nouveau fonctionnel
+ - Réparation de multpiples chunks
+ - Corrections de quelques bugs que personne à capter
+
 ## V5.9 - 29 janvier 2020
 
  - Suppression des gains suivants suite au sondage : 
