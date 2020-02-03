@@ -1,5 +1,18 @@
 # Changelog Breakerland
 
+## V6.0 - 3 février 2020
+
+ - Perte du stuff ré-activer
+ - Fonctionnalité de tombeaux ajouté
+ - Possibilité de payer pour ce téléporter à son endroit de mort
+ - Suppression du //replace en attendant qu'un bug soit corrigé
+ - Le /rtp à maintenant un coût sauf pour les survivants
+ - Ajout du /changelog et /liens en jeu
+ - Ajout d'un spawn aléatoire de coffre à loot du mage
+ - Ajout de la catégorie "consommables" dans la table des mages
+ - Ajout d'objets dans les catégories "Armures" et "Matériaux"
+ - Ajout de quelques quêtes
+ 
 ## V5.10 - 1 février 2020
 
  - Correction de 2 récompenses de vote
