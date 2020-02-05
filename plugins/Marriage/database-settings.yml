@@ -9,13 +9,13 @@
 #
 # Changes apply on restart
 MySQL:
-  enabled: false
-  user: root
-  password: '1234'
-  host: 'localhost:3306'
-  database: 'myserver'
+  enabled: true
+  user: $mysql_user_survie
+  password: $mysql_password_survie
+  host: $mysql_host:$mysql_port
+  database: $mysql_database_survie
   prefix: 'marriage_'
 auto-purge:
   enabled: true
-  purge-married-players: false
-  purge-after-days: 45
+  purge-married-players: true
+  purge-after-days: 90
