@@ -1,0 +1,20 @@
+{
+  "lands": [
+    "544:survie_new",
+    "808:survie_new"
+  ],
+  "stamps": {
+    "lout": 1579550914768,
+    "cd_m": 1579200293454,
+    "cd_w": 1572803839289,
+    "cd_r": 0,
+    "cd_s": 0,
+    "cd_ct": 1569005651294
+  },
+  "el": "Tesla248:survie_new",
+  "in": [],
+  "ct": false,
+  "pt": 2987,
+  "mc": 30,
+  "msc": 0
+}

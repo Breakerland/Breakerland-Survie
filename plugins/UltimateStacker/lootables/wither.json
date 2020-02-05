@@ -1,0 +1,12 @@
+{
+  "Type": "WITHER",
+  "Loot": [
+    {
+      "Type": "NETHER_STAR",
+      "Chance": 100.0,
+      "Min": 1,
+      "Max": 1,
+      "Looting": false
+    }
+  ]
+}

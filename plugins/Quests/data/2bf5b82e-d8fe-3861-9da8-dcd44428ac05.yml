@@ -1,0 +1,13 @@
+currentQuests:
+- Perte de conscience
+currentStages:
+- 3
+quest-points: 1
+questData:
+  Perte de conscience:
+    item-delivery-amounts:
+    - 0
+completed-Quests:
+- 'Bûcheron : I'
+hasJournal: false
+lastKnownName: Ragez_MC

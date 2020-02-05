@@ -1,0 +1,12 @@
+{
+  "Type": "SNOWMAN",
+  "Loot": [
+    {
+      "Type": "SNOWBALL",
+      "Chance": 100.0,
+      "Min": 0,
+      "Max": 15,
+      "Looting": true
+    }
+  ]
+}

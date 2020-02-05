@@ -1,0 +1,58 @@
+currentQuests:
+- 'Le Protecteur : I'
+- Danger ! Creeper
+- 'Le Protecteur : III'
+- Les Créatures de la nuit
+currentStages:
+- 0
+- 0
+- 0
+- 0
+quest-points: 0
+questData:
+  'Le Protecteur : I':
+    mobs-killed:
+    - Zombie
+    mobs-killed-amounts:
+    - 0
+  Danger ! Creeper:
+    mobs-killed:
+    - Creeper
+    mobs-killed-amounts:
+    - 32
+  'Le Protecteur : III':
+    mobs-killed:
+    - Creeper
+    mobs-killed-amounts:
+    - 9
+  Les Créatures de la nuit:
+    mobs-killed:
+    - Spider
+    - Cave Spider
+    - Phantom
+    mobs-killed-amounts:
+    - 1
+    - 0
+    - 0
+completed-Quests:
+- Un forgeron averti en vaux deux
+- 'Le Protecteur : I'
+- 'Le Protecteur : II'
+completedRedoableQuests:
+- 'Le Protecteur : II'
+- Un forgeron averti en vaux deux
+- 'Le Protecteur : I'
+completedQuestTimes:
+- 1567298982517
+- 1567955188134
+- 1567296718335
+amountsCompletedQuests:
+- 'Le Protecteur : II'
+- Un forgeron averti en vaux deux
+- 'Le Protecteur : I'
+amountsCompleted:
+- 1
+- 2
+- 1
+hasJournal: true
+lastKnownName: Vipile

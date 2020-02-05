@@ -1,0 +1,33 @@
+currentQuests: none
+currentStages: none
+quest-points: 12
+completed-Quests:
+- Bienvenue !
+- Globe
+- 'Crafteur : I'
+- Le Vol
+- Le Potager
+completedRedoableQuests:
+- Globe
+completedQuestTimes:
+- 1573774117649
+amountsCompletedQuests:
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+- Danger ! Creeper
+- Mange mon globe
+- Globe
+- Les Créatures de la nuit
+- Un forgeron averti en vaut deux
+- 'Le Protecteur : I'
+amountsCompleted:
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 2
+- 1
+hasJournal: false
+lastKnownName: Bertrand

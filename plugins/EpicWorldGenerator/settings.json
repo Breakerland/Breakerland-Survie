@@ -1,0 +1,9 @@
+{
+  "info": "Looking for the config files? The configuration files is located in the world folder under the settings folder",
+  "worldsWithDefaultWG": [
+    "survie_new_the_end"
+  ],
+  "minecraft_1_7_Map": false,
+  "controlWaterFlow": true,
+  "enableGeneratorSwap": false
+}

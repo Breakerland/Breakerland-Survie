@@ -1,0 +1,21 @@
+currentQuests:
+- 'Le Protecteur : II'
+- 'Le Protecteur : I'
+currentStages:
+- 1
+- 0
+quest-points: 0
+questData:
+  'Le Protecteur : II':
+    mobs-killed:
+    - Skeleton
+    mobs-killed-amounts:
+    - 0
+  'Le Protecteur : I':
+    mobs-killed:
+    - Zombie
+    mobs-killed-amounts:
+    - 9
+completed-Quests: none
+hasJournal: true
+lastKnownName: Keromas

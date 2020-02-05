@@ -1,0 +1,127 @@
+{
+  "lt": 0,
+  "global": {
+    "n": "Global",
+    "rl": {
+      "0": {
+        "name": "\u00264Owner",
+        "prio": 1000,
+        "icon": "PLAYER_HEAD"
+      },
+      "1": {
+        "name": "\u0026cAdmin",
+        "prio": 999,
+        "s": [
+          15,
+          0,
+          4,
+          8,
+          3,
+          1,
+          5,
+          2,
+          11,
+          7,
+          6,
+          9
+        ],
+        "ms": [
+          1,
+          11,
+          12,
+          9,
+          10,
+          2,
+          3,
+          15
+        ],
+        "icon": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2UzZmVhODhlMmI4NWNjZGZiMWIzODcyOTgyZWFlMTY0ODlhODRjNjgxYmQ5ZmU0ZmU5YmM4YmNjMmU1In19fQ\u003d\u003d"
+      },
+      "2": {
+        "name": "\u0026eMember",
+        "prio": 998,
+        "s": [
+          15,
+          0,
+          4,
+          8,
+          3,
+          1,
+          5,
+          10,
+          7,
+          6
+        ],
+        "ms": [],
+        "icon": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjFhZGZkZjA3MTE3NWFkYWQ2NDRmZTRiM2E5NzMxYWM2YThmYTQ3NTExNjJlODEzOGM4OTlmYmFhNWZmMGI5In19fQ\u003d\u003d"
+      },
+      "3": {
+        "name": "\u00267Visitor",
+        "prio": 0,
+        "s": [
+          15,
+          10
+        ],
+        "ms": [],
+        "icon": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZThiOGM2YTQ2ZDg3Y2Y4NmE1NWRmMjE0Y2Y4NGJmNDVjY2EyNWVkYjlhNjc2ZTk2MzY0ZGQ2YTZlZWEyMzViMyJ9fX0\u003d"
+      }
+    },
+    "tr": [
+      "ada150a3-434f-3d4d-8295-da613c554283:1",
+      "ffc31f18-615b-3cbc-89bb-beee73621180:0"
+    ],
+    "ls": [
+      5,
+      4
+    ],
+    "invs": [
+      {
+        "s": "ffc31f18-615b-3cbc-89bb-beee73621180",
+        "r": "a057b4b0-2449-4514-a27a-6add5d5e9a54",
+        "t": 1575911242874
+      }
+    ],
+    "tax": 0.0
+  },
+  "td": {
+    "ada150a3-434f-3d4d-8295-da613c554283": {
+      "b": 1000000000
+    },
+    "ffc31f18-615b-3cbc-89bb-beee73621180": {
+      "b": 150
+    }
+  },
+  "n": "L\u0027enclave",
+  "tax": 0.0,
+  "p_m": 1000000000,
+  "ct": 1575214934669,
+  "b": 0.0,
+  "tm": "\u00267Owned by\u00263 %owner%\u00267.",
+  "spaw": "survie_new:-717.9881107414841:70.0:3469.4363021338017:-115.045105:6.2999177",
+  "ib": [
+    {
+      "k": "player.join",
+      "t": 1575214934669,
+      "p": [
+        "{player}"
+      ],
+      "v": [
+        "Zethow"
+      ]
+    },
+    {
+      "k": "land.created",
+      "t": 1575214934669,
+      "p": [
+        "{land}"
+      ],
+      "v": [
+        "L\u0027enclave"
+      ]
+    }
+  ],
+  "limi": {
+    "lands.members": 1000000000
+  },
+  "ll": {}
+}

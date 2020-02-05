@@ -1,0 +1,13 @@
+currentQuests:
+- Le Vol
+currentStages:
+- 0
+quest-points: 0
+questData:
+  Le Vol:
+    item-delivery-amounts:
+    - 0
+    - 0
+completed-Quests: none
+hasJournal: false
+lastKnownName: KevoWaZ

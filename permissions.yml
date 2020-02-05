@@ -1,0 +1,23 @@
+avantages.premium:
+  default: false
+  children:
+    essentials.repair: true
+    essentials.kits.premium: true
+    essentials.feed: true
+    essentials.condense: true
+    essentials.hat: true
+    essentials.speed: true
+    essentials.speed.walk: true
+    essentials.me: true
+    essentials.sethome.multiple.premium: true
+    jobs.woodcutter.vipmaxlevel: true
+    jobs.miner.vipmaxlevel: true
+    jobs.builder.vipmaxlevel: true
+    jobs.digger.vipmaxlevel: true
+    jobs.farmer.vipmaxlevel: true
+    jobs.hunter.vipmaxlevel: true
+    jobs.crafter.vipmaxlevel: true
+    jobs.fisherman.vipmaxlevel: true
+    jobs.weaponsmith.vipmaxlevel: true
+    essentials.signs.color: true
+    essentials.signs.magic: true

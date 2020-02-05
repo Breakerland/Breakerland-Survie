@@ -1,0 +1,12 @@
+currentQuests: none
+currentStages: none
+quest-points: 3
+completed-Quests: none
+amountsCompletedQuests:
+- Danger ! Creeper
+- Un forgeron averti en vaut deux
+amountsCompleted:
+- 1
+- 1
+hasJournal: false
+lastKnownName: LLIcocoman_Hrz

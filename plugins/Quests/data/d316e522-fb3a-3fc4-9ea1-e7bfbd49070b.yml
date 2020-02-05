@@ -1,0 +1,24 @@
+currentQuests:
+- 'L''apiculture : I'
+- Une envie subite
+currentStages:
+- 0
+- 0
+quest-points: 0
+questData:
+  'L''apiculture : I':
+    citizen-ids-to-talk-to:
+    - 181
+    - 182
+    - 183
+    - 184
+    has-talked-to:
+    - true
+    - true
+    - false
+    - false
+  Une envie subite:
+    fish-caught: 0
+completed-Quests: none
+hasJournal: true
+lastKnownName: Mat2877

@@ -1,0 +1,35 @@
+currentQuests:
+- Collection de minerais
+- Perte de conscience
+currentStages:
+- 0
+- 0
+quest-points: 1
+questData:
+  Collection de minerais:
+    item-delivery-amounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  Perte de conscience:
+    item-delivery-amounts:
+    - 0
+    - 0
+completed-Quests:
+- 'L''apiculture : I'
+completedRedoableQuests:
+- 'L''apiculture : I'
+completedQuestTimes:
+- 1580050967826
+amountsCompletedQuests:
+- 'L''apiculture : I'
+amountsCompleted:
+- 1
+hasJournal: false
+lastKnownName: thefable1

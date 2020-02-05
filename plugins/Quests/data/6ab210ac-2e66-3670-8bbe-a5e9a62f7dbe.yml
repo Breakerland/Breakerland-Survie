@@ -1,0 +1,26 @@
+currentQuests:
+- Le Recueil
+- 'L''apiculture : I'
+currentStages:
+- 0
+- 0
+quest-points: 0
+questData:
+  Le Recueil:
+    item-delivery-amounts:
+    - 0
+    - 0
+  'L''apiculture : I':
+    citizen-ids-to-talk-to:
+    - 181
+    - 182
+    - 183
+    - 184
+    has-talked-to:
+    - true
+    - false
+    - false
+    - false
+completed-Quests: none
+hasJournal: false
+lastKnownName: The_Ninjaz70

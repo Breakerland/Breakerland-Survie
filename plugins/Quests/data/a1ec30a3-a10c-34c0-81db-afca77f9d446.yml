@@ -1,0 +1,35 @@
+currentQuests:
+- 'L''apiculture : I'
+currentStages:
+- 0
+quest-points: 3
+questData:
+  'L''apiculture : I':
+    citizen-ids-to-talk-to:
+    - 181
+    - 182
+    - 183
+    - 184
+    has-talked-to:
+    - false
+    - true
+    - true
+    - false
+completed-Quests:
+- 'Crafteur : I'
+- Etude des Zombies
+- Collection de minerais
+completedRedoableQuests:
+- Collection de minerais
+- Etude des Zombies
+completedQuestTimes:
+- 1580838643502
+- 1580838482944
+amountsCompletedQuests:
+- Collection de minerais
+- Etude des Zombies
+amountsCompleted:
+- 1
+- 1
+hasJournal: false
+lastKnownName: letydexy51

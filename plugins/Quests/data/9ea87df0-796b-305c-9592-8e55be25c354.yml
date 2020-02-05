@@ -1,0 +1,29 @@
+currentQuests:
+- RRAAWRR !
+- 'Fermier : I'
+currentStages:
+- 1
+- 0
+quest-points: 0
+questData:
+  RRAAWRR !:
+    mobs-killed:
+    - Zombie
+    - Husk
+    - Zombie Villager
+    - Drowned
+    mobs-killed-amounts:
+    - 2
+    - 0
+    - 0
+    - 0
+  'Fermier : I':
+    blocks-cut-names:
+    - WHEAT
+    blocks-cut-amounts:
+    - 0
+    blocks-cut-durability:
+    - 0
+completed-Quests: none
+hasJournal: true
+lastKnownName: maxoy2726

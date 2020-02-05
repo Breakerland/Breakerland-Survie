@@ -1,0 +1,29 @@
+currentQuests:
+- Collection de minerais
+currentStages:
+- 0
+quest-points: 0
+questData:
+  Collection de minerais:
+    item-delivery-amounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+completed-Quests:
+- Une envie subite
+completedRedoableQuests:
+- Une envie subite
+completedQuestTimes:
+- 1567764542792
+amountsCompletedQuests:
+- Une envie subite
+amountsCompleted:
+- 1
+hasJournal: false
+lastKnownName: laennolife

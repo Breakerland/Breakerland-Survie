@@ -1,0 +1,32 @@
+currentQuests:
+- Globiliums
+- 'Le Papa Noël et ses embrouilles : I'
+currentStages:
+- 0
+- 0
+quest-points: 0
+questData:
+  Globiliums:
+    mobs-killed:
+    - Zombie
+    mobs-killed-amounts:
+    - 9
+  'Le Papa Noël et ses embrouilles : I':
+    item-delivery-amounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+completed-Quests:
+- Globe
+completedRedoableQuests:
+- Globe
+completedQuestTimes:
+- 1575970873864
+amountsCompletedQuests:
+- Globe
+amountsCompleted:
+- 1
+hasJournal: true
+lastKnownName: Boss

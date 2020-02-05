@@ -1,0 +1,12 @@
+currentQuests:
+- Perte de conscience
+currentStages:
+- 1
+quest-points: 0
+questData:
+  Perte de conscience:
+    item-delivery-amounts:
+    - 0
+completed-Quests: none
+hasJournal: false
+lastKnownName: Murdock_Co

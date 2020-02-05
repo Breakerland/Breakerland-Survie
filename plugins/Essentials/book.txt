@@ -1,0 +1,111 @@
+This is the book file.
+
+This file format works similar to the info.txt, motd.txt and rules.txt
+
+Place content in here that you would like to be used by books ingame.
+
+You can use this content by using the book:<section> meta option in kits or item spawning.
+
+#Colors
+Minecraft colors:
+&0 &&0  &1 &&1  &2 &&2  &3 &&3
+&4 &&4  &5 &&5  &6 &&6  &7 &&7
+&8 &&8  &9 &&9  &a &&a  &b &&b
+&c &&c  &d &&d  &e &&e  &f &&f
+&0 
+&&k &kMagic&r   &&l &lBold
+&&m &mStrike&r  &&n &nUline
+&&o &oItalic&r   &&r &rReset
+
+#Aventurier
+Le grade Aventurier vous donne accès aux commandes suivantes :
+
+ -/l trust
+ -/l untrust 
+ -/l view
+ -/l setspawn
+ -/l setrole
+ -/l rename
+ -/l map
+ -/jobs top
+ -/jobs toggle
+ -/mail
+
+
+ -/mail send
+ -/kit aventurier
+ -/xp
+ -/afk
+
+De plus, ce grade vous permet d'acquerir jusqu'à 4 homes et d'avoir une couleur violette dans
+le tchat, c'est pas la grande classe ça ?
+.
+.
+
+Et pour finir, ce grade vous donnera accès au
+- /warp chevalier
+
+Ce dernier vous permettra d'y acheter votre prochain grade une fois la somme de 30.000 B rassemblée.
+
+Bon jeu a vous.
+
+
+
+#Chevalier
+Le grade Chevalier vous donne accès aux commandes suivantes :
+.
+  -/balancetop
+  -/xp 
+  -/msgtoggle
+  -/l top
+.
+ De plus, a present vous pourrez changer l'entite d'un mobspawner a l'aide d'un oeuf de ce meme 
+type du moment que l'entite est passif.
+.
+ Ce grade vous permet egalement d'acquerir jusqu'a 5 homes et 18 chunks a claim ainsi qu'une couleur rose dans
+le tchat, c'est pas la grande classe sa ?
+.
+Et pour finir, ce grade vous donnera acces au
+ - /warp duc
+.
+ Ce dernier vous permettra d'y acheter votre prochain grade une fois la somme de 80.000 B rassemble.
+.
+Bon jeu a vous.
+
+#Informations
+Bonjour,
+.
+Tout d'abord, Breakerland est un serveur survie qui comporte des metiers pour gagner de l'argent qui te servira a acheter des grades ou divers objets dans la boutique, mais egalement des quetes avec des pnjs plus ou moins caches ainsi qu'un systeme de claim pour proteger ta maison ou autre structure.
+.
+Pour ce qui est de l'objectif de ce serveur, la survie implique que c'est a toi de te fixer tes propres objectifs : tu peux vouloir devenir le plus riche, créer ta propre ville ou meme ton empire ; sur Breakerland, les choix sont multiples et infinis.
+.
+C'est un serveur gratuit donc tous les grades sont achetables avec l'argent du jeu.
+.
+Le serveur se compose de 3 mondes:
+. 
+  - Le Survie : C'est dans ce dernier que vous pouvez cree votre base. C'est le seul monde à ne pas être regénéré tous les 1er du mois, alors prennez en soin.
+.
+  - The End : Ce monde est tout comme le monde Nether, regénéré tous les 1er du mois, donc tu peux y faire ce que tu souhaites. Evidemment en début de mois le dragon est lui aussi de retour.
+.
+  - Le Nether : Ce dernier est tout comme le monde End regénéré tout les 1er du mois.
+.
+Pour ce qui est des events, le staff se charge d'en faire regulierement.
+Les commandes importantes :
+.
+  - La commande pour voir les metiers est "/jobs browse", elle te permettra de voir tous les metiers ainsi que tous les renseignements necessaires mais aussi d'en selectionner un, plus tu gagneras de l"experience dans un metier, plus les gains seront eleves pour ce dernier.
+Tu ne peux choisir qu"un metier (sauf achat en boutique),  et sache que si tu quittes un metier avec la commande "/jobs leave NomDuMetier", tu perdras
+30% de tes lvls dans ce metier.
+Pour les commandes supplementaires en rapport aux metiers tappe "/jobs help".
+.
+- Pour claim un terrain il faut d'abord creer un "Land" avec "/l create" et claim un chunk (carre de blocks de dimensions 16x16) avec "/l claim" : 
+Plus tu augmente en grade plus tu auras de claims (6 pour Survivant, 12 pour Aventurier, 18 pour Chevalier, etc) mais aussi plus de homes : 
+.
+"/home" (2 pour Survivant, 4 pour Aventurier, 5 pour Chevalier, etc) ainsi qu'un acces aux kits specifiques a chacuns des grades : "/kit nomdugrade".
+Pour les commandes supplementaires concernant les "Lands" fais "/l help".
+.
+- Tu as aussi le "/warps" qui te permet de te tp a divers endroits comme le magasin ou le Nether par exemple. Le "/tpa NomDuJoueur" pour te tp a un joueur : le joueur n'aura qu'a accepter avec "/tpyes" ; et le "/spawn" pour te teleporter au spawn.
+Pour plus de questions le staff reste a ta disposition.
+Mes sinceres salutations et bon jeu.
+.
+PS : Le serveur est encore en developpement, n"hesite pas a nous donner des idees pour l"ameliorer sur notre serveur Discord. De plus nous avons egalement un forum sur notre site : "breakerland.fr".
+N'hesite pas egalement a lire le /rules et parcourir le spawn, ce dernier est plein de petits secrets.

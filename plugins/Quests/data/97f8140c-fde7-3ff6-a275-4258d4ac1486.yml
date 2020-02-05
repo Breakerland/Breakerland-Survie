@@ -1,0 +1,17 @@
+currentQuests:
+- 'Le Papa Noël et ses embrouilles : I'
+currentStages:
+- 0
+quest-points: 1
+questData:
+  'Le Papa Noël et ses embrouilles : I':
+    item-delivery-amounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+completed-Quests:
+- 'Bûcheron : I'
+hasJournal: false
+lastKnownName: gamerlenon

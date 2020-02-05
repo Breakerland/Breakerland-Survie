@@ -1,0 +1,14 @@
+currentQuests:
+- Un forgeron averti en vaut deux
+currentStages:
+- 0
+quest-points: 0
+questData:
+  Un forgeron averti en vaut deux:
+    citizen-ids-to-talk-to:
+    - 98
+    has-talked-to:
+    - false
+completed-Quests: none
+hasJournal: false
+lastKnownName: Pinsut

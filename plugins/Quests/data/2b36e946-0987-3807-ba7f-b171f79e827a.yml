@@ -1,0 +1,31 @@
+currentQuests:
+- 'Bûcheron : I'
+currentStages:
+- 0
+quest-points: 0
+questData:
+  'Bûcheron : I':
+    blocks-broken-names:
+    - OAK_LOG
+    blocks-broken-amounts:
+    - 0
+    blocks-broken-durability:
+    - 0
+completed-Quests:
+- Globe
+- Mange mon globe
+- Globiliums
+completedRedoableQuests:
+- Mange mon globe
+- Globe
+completedQuestTimes:
+- 1570572123286
+- 1570571647695
+amountsCompletedQuests:
+- Mange mon globe
+- Globe
+amountsCompleted:
+- 2
+- 3
+hasJournal: false
+lastKnownName: _megamigit_

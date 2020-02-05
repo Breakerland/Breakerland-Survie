@@ -1,0 +1,15 @@
+currentQuests:
+- 'Le Protecteur : II'
+currentStages:
+- 1
+quest-points: 1
+questData:
+  'Le Protecteur : II':
+    mobs-killed:
+    - Skeleton
+    mobs-killed-amounts:
+    - 1
+completed-Quests:
+- Bienvenue !
+hasJournal: false
+lastKnownName: Arthuritos

@@ -1,0 +1,27 @@
+currentQuests:
+- Ils ont envoyé des zombies !
+- 'L''apiculture : I'
+currentStages:
+- 0
+- 0
+quest-points: 0
+questData:
+  Ils ont envoyé des zombies !:
+    mobs-killed:
+    - Husk
+    mobs-killed-amounts:
+    - 0
+  'L''apiculture : I':
+    citizen-ids-to-talk-to:
+    - 181
+    - 182
+    - 183
+    - 184
+    has-talked-to:
+    - false
+    - true
+    - true
+    - true
+completed-Quests: none
+hasJournal: true
+lastKnownName: Adre_Panda

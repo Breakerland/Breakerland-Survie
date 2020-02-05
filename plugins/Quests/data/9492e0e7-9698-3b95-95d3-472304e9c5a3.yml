@@ -1,0 +1,29 @@
+currentQuests:
+- Bienvenue !
+- Mange mon globe
+currentStages:
+- 0
+- 0
+quest-points: 0
+questData:
+  Bienvenue !:
+    citizen-ids-to-talk-to:
+    - 2
+    - 12
+    - 11
+    - 10
+    has-talked-to:
+    - false
+    - true
+    - true
+    - true
+  Mange mon globe:
+    blocks-broken-names:
+    - STONE
+    blocks-broken-amounts:
+    - 0
+    blocks-broken-durability:
+    - 0
+completed-Quests: none
+hasJournal: false
+lastKnownName: PayPal

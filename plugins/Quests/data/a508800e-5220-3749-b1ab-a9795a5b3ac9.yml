@@ -1,0 +1,19 @@
+currentQuests:
+- Repérage II
+- Une envie subite
+currentStages:
+- 0
+- 0
+quest-points: 0
+questData:
+  Repérage II:
+    citizen-ids-to-talk-to:
+    - 4
+    has-talked-to:
+    - false
+  Une envie subite:
+    fish-caught: 0
+completed-Quests:
+- Avant départ
+hasJournal: true
+lastKnownName: iTrikzz

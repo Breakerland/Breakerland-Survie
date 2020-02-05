@@ -1,0 +1,104 @@
+# 
+# AuctionHouse
+announce:
+  chat:
+    listings: true
+    purchases: true
+  action_bar:
+    listings: false
+    purchases: false
+blacklist:
+  '0':
+    item: minecraft:bedrock
+  '1':
+    item: minecraft:barrier
+  '2':
+    item: minecraft:command_block
+  '3':
+    item: minecraft:structure_block
+  example:
+    name: \u00a7cVorpal Sword
+    item: minecraft:diamond_sword
+    lore:
+    - Special Item
+    - Does not list in AuctionHouse
+    enchantments:
+    - ench: minecraft:sharpness
+      level: 10
+    - ench: minecraft:unbreaking
+      level: 3
+    - ench: minecraft:looting
+      level: 3
+    - ench: minecraft:fire_aspect
+      level: 2
+updateTicks: 100
+locale: fr_FR
+decimal_format: '#,##0.00'
+strict: false
+chatHook: true
+sounds:
+  sold: block.note_block.chime
+  click: ui.button.click
+  fail: entity.villager.no
+  drop: entity.player.burp
+buttons:
+  exit: minecraft:iron_door
+  back: minecraft:iron_door
+  previous: minecraft:paper
+  sort_listings: minecraft:sunflower
+  next: minecraft:paper
+  info: minecraft:book
+  howto: minecraft:emerald
+  return_all: minecraft:flower_pot
+  player_listings: minecraft:diamond
+  expired_listings: minecraft:poisonous_potato
+  sold_items: minecraft:gold_ingot
+  clear: minecraft:barrier
+  confirm: minecraft:lime_stained_glass_pane
+  cancel: minecraft:red_stained_glass_pane
+commands:
+  exit: msg %player% Sortie de l'Hôtel des ventes...
+log:
+  listed: true
+  sold: true
+  cancelled: true
+  returned: true
+  dropped: true
+  purged: true
+disabled-worlds: []
+auction:
+  spawnerInfo: true
+  action_bar: false
+  showSeconds: true
+  listingCooldown: 0d0h0m0s
+  minSellPrice: 0.0
+  maxSalesTax: 100000.0
+  unclaimedCheckDuration: 0d0h1m
+  unclaimedCheckOnWorldChange: true
+  replacePlayerNames: false
+  dropAtFeet: false
+  discord: true
+  discord_channel: auctionhouse
+  replaceUUIDs: false
+  listingPrice: 0.0
+  listingRate: 0.0
+  listingDuration: 7d0h0m
+  expiredDuration: 14d0h0m
+  unclaimedDuration: 90d0h0m
+  cleanupDuration: 0d24h0m
+  soldDuration: 365d0h0m
+  preventCreative: true
+  preventSpectator: true
+  maxSellPrice: 1000000.0
+  salesTax: 0.0
+  allowDamagedItems: true
+  defaultMaxListings: 45
+  sortOrder: newest
+  announce: false
+  multiworld: false
+  groupWorlds: false
+triggers:
+  sign: '[HDV]'
+  block_name: Hôtel des Ventes
+  entity_name: Hôtel des Ventes
+configVersion: 25

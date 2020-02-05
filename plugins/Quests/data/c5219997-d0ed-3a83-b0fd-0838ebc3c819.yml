@@ -1,0 +1,24 @@
+currentQuests:
+- Danger ! Creeper
+currentStages:
+- 0
+quest-points: 2
+questData:
+  Danger ! Creeper:
+    mobs-killed:
+    - Creeper
+    mobs-killed-amounts:
+    - 24
+completed-Quests:
+- 'Crafteur : I'
+- Un forgeron averti en vaut deux
+completedRedoableQuests:
+- Un forgeron averti en vaut deux
+completedQuestTimes:
+- 1572623759381
+amountsCompletedQuests:
+- Un forgeron averti en vaut deux
+amountsCompleted:
+- 1
+hasJournal: true
+lastKnownName: SeiyaDxD

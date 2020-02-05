@@ -1,0 +1,13 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&8[&6UltimateStacker&8]'
+# Command Messages
+command:
+  give:
+    success: '&7Sana bir tane &6%type%&7 verildi.'
+# Event Messages
+event:
+  general:
+    nopermission: '&cBunu yapmaya iznin yok.'

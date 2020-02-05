@@ -1,0 +1,43 @@
+currentQuests:
+- RRAAWRR !
+- 'Chercheur avisé : I'
+currentStages:
+- 1
+- 0
+quest-points: 1
+questData:
+  RRAAWRR !:
+    mobs-killed:
+    - Zombie
+    - Husk
+    - Zombie Villager
+    - Drowned
+    mobs-killed-amounts:
+    - 1
+    - 0
+    - 0
+    - 0
+  'Chercheur avisé : I':
+    item-delivery-amounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+completed-Quests:
+- 'Bûcheron : I'
+hasJournal: false
+lastKnownName: Tim_et_Lalie

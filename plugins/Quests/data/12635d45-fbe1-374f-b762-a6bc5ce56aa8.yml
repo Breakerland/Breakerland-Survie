@@ -1,0 +1,14 @@
+currentQuests:
+- 'Le Protecteur : I'
+currentStages:
+- 0
+quest-points: 0
+questData:
+  'Le Protecteur : I':
+    mobs-killed:
+    - Zombie
+    mobs-killed-amounts:
+    - 1
+completed-Quests: none
+hasJournal: true
+lastKnownName: fares88fk

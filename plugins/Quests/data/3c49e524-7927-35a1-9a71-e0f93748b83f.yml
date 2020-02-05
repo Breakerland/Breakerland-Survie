@@ -1,0 +1,16 @@
+currentQuests:
+- Le Potager
+currentStages:
+- 1
+quest-points: 0
+questData:
+  Le Potager:
+    item-delivery-amounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+completed-Quests: none
+hasJournal: false
+lastKnownName: skytoux

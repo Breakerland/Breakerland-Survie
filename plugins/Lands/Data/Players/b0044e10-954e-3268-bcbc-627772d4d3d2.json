@@ -1,0 +1,20 @@
+{
+  "lands": [
+    "1161:survie_new",
+    "1163:survie_new"
+  ],
+  "stamps": {
+    "lout": 1576018237862,
+    "cd_m": 1575059782219,
+    "cd_w": 1575073255932,
+    "cd_r": 0,
+    "cd_s": 0,
+    "cd_ct": 1574100043371
+  },
+  "el": "Chaka:survie_new",
+  "in": [],
+  "ct": false,
+  "pt": 0,
+  "mc": 150,
+  "msc": 0
+}

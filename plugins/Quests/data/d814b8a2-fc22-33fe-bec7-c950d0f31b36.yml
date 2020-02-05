@@ -1,0 +1,50 @@
+currentQuests:
+- Le Potager
+- RRAAWRR !
+currentStages:
+- 1
+- 1
+quest-points: 4
+questData:
+  Le Potager:
+    item-delivery-amounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  RRAAWRR !:
+    mobs-killed:
+    - Zombie
+    - Husk
+    - Zombie Villager
+    - Drowned
+    mobs-killed-amounts:
+    - 30
+    - 5
+    - 1
+    - 0
+completed-Quests:
+- Perte de conscience
+- 'Crafteur : I'
+- 'Bûcheron : I'
+- Tête en l'air
+completedRedoableQuests:
+- Perte de conscience
+- Tête en l'air
+completedQuestTimes:
+- 1578777418291
+- 1578780216493
+amountsCompletedQuests:
+- Perte de conscience
+- Tête en l'air
+amountsCompleted:
+- 1
+- 1
+hasJournal: false
+lastKnownName: GoldenFarmers

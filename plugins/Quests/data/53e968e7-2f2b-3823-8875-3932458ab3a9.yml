@@ -1,0 +1,91 @@
+currentQuests:
+- RRAAWRR !
+currentStages:
+- 1
+quest-points: 22
+questData:
+  RRAAWRR !:
+    mobs-killed:
+    - Zombie
+    - Husk
+    - Zombie Villager
+    - Drowned
+    mobs-killed-amounts:
+    - 30
+    - 10
+    - 0
+    - 5
+completed-Quests:
+- Perte de conscience
+- 'Bûcheron : I'
+- Une envie subite
+- Collection de minerais
+- Une pioche spéciale
+- 'Le Centenaire : I'
+- 'Le Centenaire : II'
+- Un forgeron averti en vaut deux
+- 'Le Protecteur : I'
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+- 'Crafteur : I'
+- Le Vol
+- Défenseur !
+- Ils ont envoyé des zombies !
+- 'Fermier : I'
+- Le Recueil
+- La Bourde !
+- Tomber sur un os
+completedRedoableQuests:
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+- La Bourde !
+- Tomber sur un os
+- Perte de conscience
+- Collection de minerais
+- Défenseur !
+- Le Recueil
+- Une envie subite
+- Un forgeron averti en vaut deux
+- 'Le Protecteur : I'
+completedQuestTimes:
+- 1579711029194
+- 1579887910208
+- 1580052409679
+- 1580052740399
+- 1579537966035
+- 1579694417924
+- 1579945001626
+- 1580052018047
+- 1579540190974
+- 1579710668015
+- 1579710836898
+amountsCompletedQuests:
+- 'Le Protecteur : II'
+- Zombiecalypse
+- Tomber sur un os
+- Collection de minerais
+- Le Recueil
+- Un forgeron averti en vaut deux
+- 'Chercheur avisé : I'
+- 'Le Protecteur : III'
+- La Bourde !
+- Perte de conscience
+- Défenseur !
+- Une envie subite
+- 'Le Protecteur : I'
+amountsCompleted:
+- 1
+- 1
+- 1
+- 1
+- 1
+- 2
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+hasJournal: false
+lastKnownName: OfCourse

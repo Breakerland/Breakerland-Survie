@@ -1,0 +1,23 @@
+currentQuests:
+- Danger ! Creeper
+currentStages:
+- 0
+quest-points: 1
+questData:
+  Danger ! Creeper:
+    mobs-killed:
+    - Creeper
+    mobs-killed-amounts:
+    - 59
+completed-Quests:
+- Un forgeron averti en vaut deux
+completedRedoableQuests:
+- Un forgeron averti en vaut deux
+completedQuestTimes:
+- 1572802034082
+amountsCompletedQuests:
+- Un forgeron averti en vaut deux
+amountsCompleted:
+- 1
+hasJournal: true
+lastKnownName: Scuderia29

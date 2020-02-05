@@ -1,0 +1,14 @@
+currentQuests:
+- Perte de conscience
+currentStages:
+- 0
+quest-points: 1
+questData:
+  Perte de conscience:
+    item-delivery-amounts:
+    - 0
+    - 0
+completed-Quests:
+- 'Bûcheron : I'
+hasJournal: false
+lastKnownName: WyRz_

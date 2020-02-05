@@ -1,0 +1,35 @@
+currentQuests:
+- 'Le Papa Noël et ses embrouilles : I'
+currentStages:
+- 0
+quest-points: 6
+questData:
+  'Le Papa Noël et ses embrouilles : I':
+    item-delivery-amounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+completed-Quests:
+- Mange mon globe
+- 'Crafteur : I'
+- Zombiecalypse
+completedRedoableQuests:
+- Mange mon globe
+- Zombiecalypse
+completedQuestTimes:
+- 1574980593317
+- 1574976722152
+amountsCompletedQuests:
+- Mange mon globe
+- Zombiecalypse
+- Perte de conscience
+- Collection de minerais
+amountsCompleted:
+- 2
+- 1
+- 1
+- 1
+hasJournal: false
+lastKnownName: Zarbikop

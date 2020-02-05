@@ -1,0 +1,45 @@
+currentQuests:
+- Avant départ
+- Danger ! Creeper
+currentStages:
+- 2
+- 0
+quest-points: 0
+questData:
+  Avant départ:
+    passwords:
+    - Que fait le corbeau ?
+    passwords-said:
+    - false
+  Danger ! Creeper:
+    mobs-killed:
+    - Creeper
+    mobs-killed-amounts:
+    - 9
+completed-Quests:
+- 'Le Protecteur : I'
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+- Un forgeron averti en vaux deux
+completedRedoableQuests:
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+- Un forgeron averti en vaux deux
+- 'Le Protecteur : I'
+completedQuestTimes:
+- 1566467105506
+- 1566475539819
+- 1566476122458
+- 1566328307780
+amountsCompletedQuests:
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+- Un forgeron averti en vaux deux
+- 'Le Protecteur : I'
+amountsCompleted:
+- 1
+- 1
+- 1
+- 1
+hasJournal: false
+lastKnownName: fredo

@@ -1,0 +1,20 @@
+{
+  "lands": [
+    "1161:survie_new",
+    "1163:survie_new"
+  ],
+  "stamps": {
+    "lout": 1575915054725,
+    "cd_m": 1575682644011,
+    "cd_w": 1575581200672,
+    "cd_r": 0,
+    "cd_s": 0,
+    "cd_ct": 1575077583703
+  },
+  "el": "Bouya:survie_new",
+  "in": [],
+  "ct": false,
+  "pt": 0,
+  "mc": 150,
+  "msc": 0
+}

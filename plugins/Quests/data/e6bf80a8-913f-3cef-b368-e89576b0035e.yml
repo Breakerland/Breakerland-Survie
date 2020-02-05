@@ -1,0 +1,18 @@
+currentQuests:
+- 'Le Protecteur : I'
+- Une envie subite
+currentStages:
+- 0
+- 0
+quest-points: 0
+questData:
+  'Le Protecteur : I':
+    mobs-killed:
+    - Zombie
+    mobs-killed-amounts:
+    - 3
+  Une envie subite:
+    fish-caught: 0
+completed-Quests: none
+hasJournal: true
+lastKnownName: MrXBreack

@@ -1,0 +1,127 @@
+{
+  "lt": 0,
+  "global": {
+    "n": "Global",
+    "rl": {
+      "0": {
+        "name": "\u00264Propriétaire",
+        "prio": 1000,
+        "icon": "PLAYER_HEAD"
+      },
+      "1": {
+        "name": "\u0026cAdministrateur",
+        "prio": 999,
+        "s": [
+          9,
+          7,
+          5,
+          10,
+          6,
+          0,
+          2,
+          3,
+          11,
+          4,
+          8,
+          15,
+          1
+        ],
+        "ms": [
+          1,
+          2,
+          12,
+          3,
+          11,
+          9,
+          15,
+          10
+        ],
+        "icon": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2UzZmVhODhlMmI4NWNjZGZiMWIzODcyOTgyZWFlMTY0ODlhODRjNjgxYmQ5ZmU0ZmU5YmM4YmNjMmU1In19fQ\u003d\u003d"
+      },
+      "2": {
+        "name": "\u0026eMembre",
+        "prio": 998,
+        "s": [
+          9,
+          7,
+          5,
+          10,
+          6,
+          0,
+          2,
+          3,
+          11,
+          4,
+          8,
+          15,
+          1
+        ],
+        "ms": [],
+        "icon": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjFhZGZkZjA3MTE3NWFkYWQ2NDRmZTRiM2E5NzMxYWM2YThmYTQ3NTExNjJlODEzOGM4OTlmYmFhNWZmMGI5In19fQ\u003d\u003d"
+      },
+      "3": {
+        "name": "\u00267Visiteur",
+        "prio": 0,
+        "s": [
+          15
+        ],
+        "ms": [],
+        "icon": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZThiOGM2YTQ2ZDg3Y2Y4NmE1NWRmMjE0Y2Y4NGJmNDVjY2EyNWVkYjlhNjc2ZTk2MzY0ZGQ2YTZlZWEyMzViMyJ9fX0\u003d"
+      }
+    },
+    "tr": [
+      "68f142b3-e95a-372f-9a49-4cd67764b18f:1",
+      "17b43fea-95d2-3275-8ba2-2354d9467fcd:0",
+      "cf396eea-4683-3344-bc9e-cff710573b53:1"
+    ],
+    "ls": [
+      4
+    ],
+    "invs": [],
+    "tax": 0.0
+  },
+  "td": {
+    "68f142b3-e95a-372f-9a49-4cd67764b18f": {
+      "b": 1000000000
+    },
+    "17b43fea-95d2-3275-8ba2-2354d9467fcd": {
+      "b": 50
+    },
+    "cf396eea-4683-3344-bc9e-cff710573b53": {
+      "b": 1000000000
+    }
+  },
+  "n": "Zbeub",
+  "tax": 0.0,
+  "p_m": 1000000000,
+  "ct": 1576272276163,
+  "b": 0.0,
+  "tm": "\u00267Propriété de\u00263 %owner%\u00267.",
+  "spaw": "survie_new:-122.0:64.0:306.0:99.94208:42.3847",
+  "ib": [
+    {
+      "k": "land.created",
+      "t": 1576272276163,
+      "p": [
+        "{land}"
+      ],
+      "v": [
+        "Zbeub"
+      ]
+    },
+    {
+      "k": "player.join",
+      "t": 1576272276163,
+      "p": [
+        "{player}"
+      ],
+      "v": [
+        "Hakunetsu"
+      ]
+    }
+  ],
+  "limi": {
+    "lands.members": 1000000000
+  },
+  "ll": {}
+}

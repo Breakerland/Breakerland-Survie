@@ -1,0 +1,240 @@
+{
+  "lt": 0,
+  "global": {
+    "n": "Global",
+    "rl": {
+      "0": {
+        "name": "\u00264Propriétaire",
+        "prio": 1000,
+        "icon": "PLAYER_HEAD"
+      },
+      "1": {
+        "name": "\u0026cAdministrateur",
+        "prio": 999,
+        "s": [
+          9,
+          7,
+          5,
+          10,
+          6,
+          0,
+          2,
+          3,
+          11,
+          4,
+          8,
+          15,
+          1
+        ],
+        "ms": [
+          1,
+          2,
+          12,
+          3,
+          11,
+          9,
+          15,
+          10
+        ],
+        "icon": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2UzZmVhODhlMmI4NWNjZGZiMWIzODcyOTgyZWFlMTY0ODlhODRjNjgxYmQ5ZmU0ZmU5YmM4YmNjMmU1In19fQ\u003d\u003d"
+      },
+      "2": {
+        "name": "\u0026eMembre",
+        "prio": 998,
+        "s": [
+          9,
+          7,
+          5,
+          10,
+          6,
+          0,
+          2,
+          3,
+          11,
+          4,
+          8,
+          15,
+          1
+        ],
+        "ms": [],
+        "icon": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjFhZGZkZjA3MTE3NWFkYWQ2NDRmZTRiM2E5NzMxYWM2YThmYTQ3NTExNjJlODEzOGM4OTlmYmFhNWZmMGI5In19fQ\u003d\u003d"
+      },
+      "3": {
+        "name": "\u00267Visiteur",
+        "prio": 0,
+        "s": [
+          15
+        ],
+        "ms": [],
+        "icon": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZThiOGM2YTQ2ZDg3Y2Y4NmE1NWRmMjE0Y2Y4NGJmNDVjY2EyNWVkYjlhNjc2ZTk2MzY0ZGQ2YTZlZWEyMzViMyJ9fX0\u003d"
+      }
+    },
+    "tr": [
+      "739a2890-8e41-3f94-a330-0fd8e759ddea:0"
+    ],
+    "ls": [
+      4
+    ],
+    "invs": [],
+    "tax": 0.0
+  },
+  "td": {
+    "739a2890-8e41-3f94-a330-0fd8e759ddea": {
+      "b": 0
+    }
+  },
+  "n": "Erebor",
+  "tax": 0.0,
+  "p_m": 0,
+  "ct": 1570060490848,
+  "b": 0.0,
+  "tm": "\u00267Propriété de\u0026b %owner%\u00267.",
+  "ib": [
+    {
+      "k": "player.join",
+      "t": 1572189770791,
+      "p": [
+        "{date}",
+        "{player}"
+      ],
+      "v": [
+        "27/10/2019 04:22:50",
+        "CypresL"
+      ]
+    },
+    {
+      "k": "player.join",
+      "t": 1572007594550,
+      "p": [
+        "{date}",
+        "{player}"
+      ],
+      "v": [
+        "25/10/2019 02:46:34",
+        "FlynnCalwin"
+      ]
+    },
+    {
+      "k": "player.join",
+      "t": 1572006737650,
+      "p": [
+        "{date}",
+        "{player}"
+      ],
+      "v": [
+        "25/10/2019 02:32:17",
+        "Neant17"
+      ]
+    },
+    {
+      "k": "player.join",
+      "t": 1572003356490,
+      "p": [
+        "{date}",
+        "{player}"
+      ],
+      "v": [
+        "25/10/2019 01:35:56",
+        "KobaLaDdu7"
+      ]
+    },
+    {
+      "k": "player.join",
+      "t": 1572002745130,
+      "p": [
+        "{date}",
+        "{player}"
+      ],
+      "v": [
+        "25/10/2019 01:25:45",
+        "Wysern"
+      ]
+    },
+    {
+      "k": "player.join",
+      "t": 1571997294540,
+      "p": [
+        "{date}",
+        "{player}"
+      ],
+      "v": [
+        "25/10/2019 11:54:54",
+        "Lenny"
+      ]
+    },
+    {
+      "k": "player.join",
+      "t": 1571996480376,
+      "p": [
+        "{date}",
+        "{player}"
+      ],
+      "v": [
+        "25/10/2019 11:41:20",
+        "shepard5"
+      ]
+    },
+    {
+      "k": "player.join",
+      "t": 1571993633667,
+      "p": [
+        "{date}",
+        "{player}"
+      ],
+      "v": [
+        "25/10/2019 10:53:53",
+        "Shaika1312"
+      ]
+    },
+    {
+      "k": "player.join",
+      "t": 1571993614190,
+      "p": [
+        "{date}",
+        "{player}"
+      ],
+      "v": [
+        "25/10/2019 10:53:34",
+        "By_Nanouf"
+      ]
+    },
+    {
+      "k": "player.join",
+      "t": 1571925285784,
+      "p": [
+        "{date}",
+        "{player}"
+      ],
+      "v": [
+        "24/10/2019 03:54:45",
+        "KobaLaDdu7"
+      ]
+    },
+    {
+      "k": "player.join",
+      "t": 1571925263642,
+      "p": [
+        "{date}",
+        "{player}"
+      ],
+      "v": [
+        "24/10/2019 03:54:23",
+        "Gatsu974"
+      ]
+    },
+    {
+      "k": "player.join",
+      "t": 1571845863771,
+      "p": [
+        "{date}",
+        "{player}"
+      ],
+      "v": [
+        "23/10/2019 05:51:03",
+        "babou271"
+      ]
+    }
+  ],
+  "limi": {},
+  "ll": {}
+}

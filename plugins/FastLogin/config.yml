@@ -1,0 +1,187 @@
+# FastLogin config
+# Project site: https://www.spigotmc.org/resources/fastlogin.14153
+# Source code: https://github.com/games647/FastLogin
+#
+# You can access the newest config here:
+# https://github.com/games647/FastLogin/blob/master/core/src/main/resources/config.yml
+
+# Request a premium login without forcing the player to type a command
+#
+# If you activate autoRegister, this plugin will check/do these points on login:
+# 1. An existing cracked account shouldn't exist
+# -> paid accounts cannot steal the existing account of cracked players
+# - (Already registered players could still use the /premium command to activate premium checks)
+# 2. Automatically registers an account with a strong random generated password
+# -> cracked player cannot register an account for the premium player and so cannot the steal the account
+#
+# Furthermore the premium player check have to be made based on the player name
+# This means if a cracked player connects to the server and we request a paid account login from this player
+# the player just disconnect and sees the message: 'bad login' or 'invalid session'
+# There is no way to change this message
+# For more information: https://github.com/games647/FastLogin#why-do-players-have-to-invoke-a-command
+autoRegister: true
+
+# This is extra configuration option to the feature above. If we request a premium authentication from a player who
+# isn't actual premium but used a premium username, the player will disconnect with the reason "invalid session" or
+# "bad login".
+#
+# If you activate this, we are remembering this player and do not force another premium authentication if the player
+# tries to join again, so the player could join as cracked player.
+secondAttemptCracked: true
+
+# New cracked players will be kicked from server. Good if you want switch from offline-mode to online-mode without
+# losing players!
+#
+# Existing cracked and premium players could still join your server. Moreover you could add playernames to a whitelist.
+# So that these cracked players could join too although they are new players.
+switchMode: false
+
+# If this plugin detected that a player has a premium, it can also set the associated
+# uuid from that account. So if the player changes the username, they will still have
+# the same player data (inventory, permissions, ...)
+#
+# Warning: This also means that the UUID will be different if the player is connecting
+# through a offline mode connection. This **could** cause plugin compatibility issues.
+#
+# This is a example and doesn't apply for every plugin.
+# Example: If you want to ban players who aren't online at the moment, the ban plugin will look
+# after a offline uuid associated to the player, because the server is in offline mode. Then the premium
+# players could still join the server, because they have different UUID.
+#
+# Moreover you may want to convert the offline UUID to a premium UUID. This will ensure that the player
+# will have the same inventory, permissions, ... if they switched to premium authentication from offline/cracked
+# authentication.
+#
+# This feature requires Cauldron, Spigot or a fork of Spigot (Paper)
+premiumUuid: false
+
+# This will make an additional check (only for player names which are not in the database) against the mojang servers
+# in order to get the premium UUID. If that premium UUID is in the database, we can assume on successful login that the
+# player changed it's  username and we just update the name in the database.
+# Examples:
+# #### Case 1
+# nameChangeCheck = false ----- autoRegister = false
+#
+# Player logins as cracked until the player invoked the command /premium. Then we could override the existing database
+# record.
+#
+# #### Case 2
+#
+# nameChangeCheck = true ----- autoRegister = false
+#
+# Connect the Mojang API and check what UUID the player has (UUID exists => Paid Minecraft account). If that UUID is in
+# the database it's an **existing player** and FastLogin can **assume** the player is premium and changed the username.
+# If it's not in the database, it's a new player and **could be a cracked player**. So we just use a offline mode
+# authentication for this player.
+#
+# **Limitation**: Cracked players who uses the new username of a paid account cannot join the server if the database
+# contains the old name. (Example: The owner of the paid account no longer plays on the server, but changed the username
+# in the meanwhile).
+#
+# #### Case 3
+#
+# nameChangeCheck = false ----- autoRegister = true
+#
+# We will always request a premium authentication if the username is unknown to us, but is in use by a paid minecraft
+# account. This means it's kind of a more aggressive check like nameChangeCheck = true and autoRegister = false, because
+# it request a premium authentication which are completely new to us, that even the premium UUID is not in our database.
+#
+# **Limitation**: see below
+#
+# #### Case 4
+#
+# nameChangeCheck = true ----- autoRegister = true
+#
+# Based on autoRegister it checks if the player name is premium and login using a premium authentication. After that
+# fastlogin receives the premium UUID and can update the database record.
+#
+# **Limitation from autoRegister**: New offline players who uses the username of an existing minecraft cannot join the
+# server.
+nameChangeCheck: true
+
+# If your players have a premium account and a skin associated to their account, this plugin
+# can download the data and set it to the online player.
+#
+# Keep in mind that this will only works if the player:
+# * is the owner of the premium account
+# * the server connection is established through a premium connection (paid account authentication)
+# * has a skin
+#
+# This means this plugin doesn't need to create a new connection to the Mojang servers, because
+# the skin data is included in the Auth-Verification-Response sent by Mojang. If you want to use for other
+# players like cracked player, you have to use other plugins.
+#
+# If you want to use skins for your cracked player, you need an additional plugin like
+# ChangeSkin, SkinRestorer, ...
+forwardSkin: true
+
+# Displays a warning message that this message SHOULD only be invoked by
+# users who actually are the owner of this account. So not by cracked players
+#
+# If they still want to invoke the command, they have to invoke /premium again
+premium-warning: true
+
+# If you have autoRegister or nameChangeCheck enabled, you could be rate-limited by Mojang.
+# The requests of the both options will be only made by FastLogin if the username is unknown to the server
+# You are allowed to make 600 requests per 10-minutes (60 per minute)
+# If you own a big server this value could be too low
+# Once the limit is reached, new players are always logged in as cracked until the rate-limit is expired.
+# (to the next ten minutes)
+#
+# The limit is IP-wide. If you have multiple IPv4-addresses you specify them here. FastLogin will then use it in rotating
+# order --> 5 different IP-addresses 5 * 600 per 10 minutes
+# If this list is empty only the default one will be used
+#
+# Lists are created like this:
+#ip-addresses:
+#    - 192-168-0-2
+ip-addresses: []
+
+# How many requests should be established to the Mojang API for Name -> UUID requests. Some other plugins as well
+# as the head minecraft block make such requests as well. Using this option you can limit the amount requests this
+# plugin should make.
+#
+# If you lower this value, other plugins could still make requests while FastLogin cannot.
+# Mojang limits the amount of request to 600 per 10 minutes per IPv4-address.
+mojang-request-limit: 600
+
+# This option automatically registers players which are in the FastLogin database, but not in the auth plugin database.
+# This can happen if you switch your auth plugin or cleared the database of the auth plugin.
+# https://github.com/games647/FastLogin/issues/85
+auto-register-unknown: false
+
+# This disables the auto login from fastlogin. So a premium (like a paid account) authentication is requested, but
+# the player won't be auto logged into the account.
+#
+# This can be used as 2Factor authentication for better security of your accounts. A hacker then needs both passwords.
+# The password of your minecraft and the password to login in with your auth plugin
+autoLogin: true
+
+# Database configuration
+# Recommended is the use of MariaDB (a better version of MySQL)
+
+# Single file SQLite database
+#driver: org.sqlite.JDBC
+# File location
+#database: '{pluginDir}/FastLogin.db'
+
+# MySQL/MariaDB
+driver: com.mysql.jdbc.Driver
+host: $mysql_host
+port: $mysql_port
+database: $mysql_dabatase_proxy
+username: $mysql_user_proxy
+password: $mysql_password_proxy
+
+# It's strongly recommended to enable SSL and setup a SSL certificate if the MySQL server isn't running on the same
+# machine
+useSSL: true
+
+# HTTP proxies for connecting to the Mojang servers in order to check if the username of a player is premium.
+# This is a workaround to prevent rate-limiting by Mojang. These proxies will only be used once your server hit
+# the rate-limit or the custom value above.
+# Please make sure you use reliable proxies.
+proxies:
+  # 'IP:Port' or 'Domain:Port'
+  # - 'xyz.com:1337'
+  # - 'test.com:5131'

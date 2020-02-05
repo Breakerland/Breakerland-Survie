@@ -1,0 +1,21 @@
+{
+  "lands": [
+    "1042:survie_new",
+    "1442:survie_new",
+    "1447:survie_new",
+    "1038:survie_new"
+  ],
+  "stamps": {
+    "lout": 1578067509031,
+    "cd_m": 0,
+    "cd_w": 1577099872549,
+    "cd_r": 1572890449561,
+    "cd_s": 0
+  },
+  "el": "village42:survie_new",
+  "in": [],
+  "ct": false,
+  "pt": 0,
+  "mc": 200,
+  "msc": 0
+}

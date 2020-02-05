@@ -1,0 +1,22 @@
+currentQuests: none
+currentStages: none
+quest-points: 3
+completed-Quests:
+- Globiliums
+- Globe
+- Mange mon globe
+- 'Crafteur : I'
+completedRedoableQuests:
+- Mange mon globe
+- Globe
+completedQuestTimes:
+- 1580556474948
+- 1580638210103
+amountsCompletedQuests:
+- Mange mon globe
+- Globe
+amountsCompleted:
+- 4
+- 5
+hasJournal: true
+lastKnownName: pikatchou82

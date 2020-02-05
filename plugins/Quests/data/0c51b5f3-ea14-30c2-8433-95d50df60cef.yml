@@ -1,0 +1,16 @@
+currentQuests:
+- 'Le Protecteur : I'
+currentStages:
+- 1
+quest-points: 0
+questData:
+  'Le Protecteur : I':
+    citizen-ids-to-talk-to:
+    - 98
+    - 4
+    has-talked-to:
+    - false
+    - false
+completed-Quests: none
+hasJournal: false
+lastKnownName: mahrude

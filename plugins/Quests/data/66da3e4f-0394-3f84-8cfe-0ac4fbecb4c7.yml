@@ -1,0 +1,14 @@
+currentQuests:
+- Ils ont envoyé des zombies !
+currentStages:
+- 0
+quest-points: 0
+questData:
+  Ils ont envoyé des zombies !:
+    mobs-killed:
+    - Husk
+    mobs-killed-amounts:
+    - 0
+completed-Quests: none
+hasJournal: false
+lastKnownName: Squlllol

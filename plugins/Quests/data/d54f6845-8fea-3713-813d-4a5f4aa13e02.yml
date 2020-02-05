@@ -1,0 +1,53 @@
+currentQuests:
+- Avant départ
+- Les Créatures de la nuit
+- Danger ! Creeper
+- 'Le Protecteur : II'
+currentStages:
+- 2
+- 0
+- 0
+- 1
+quest-points: 0
+questData:
+  Avant départ:
+    passwords:
+    - Que fait le corbeau ?
+    passwords-said:
+    - false
+  Les Créatures de la nuit:
+    mobs-killed:
+    - Spider
+    - Cave Spider
+    - Phantom
+    mobs-killed-amounts:
+    - 14
+    - 0
+    - 0
+  Danger ! Creeper:
+    mobs-killed:
+    - Creeper
+    mobs-killed-amounts:
+    - 0
+  'Le Protecteur : II':
+    mobs-killed:
+    - Skeleton
+    mobs-killed-amounts:
+    - 9
+completed-Quests:
+- Un forgeron averti en vaux deux
+- 'Le Protecteur : I'
+completedRedoableQuests:
+- Un forgeron averti en vaux deux
+- 'Le Protecteur : I'
+completedQuestTimes:
+- 1569091484676
+- 1569152698931
+amountsCompletedQuests:
+- Un forgeron averti en vaux deux
+- 'Le Protecteur : I'
+amountsCompleted:
+- 1
+- 1
+hasJournal: true
+lastKnownName: MrEspeon

@@ -1,0 +1,20 @@
+currentQuests:
+- Une envie subite
+- 'Fermier : I'
+currentStages:
+- 0
+- 0
+quest-points: 0
+questData:
+  Une envie subite:
+    fish-caught: 0
+  'Fermier : I':
+    blocks-cut-names:
+    - WHEAT
+    blocks-cut-amounts:
+    - 0
+    blocks-cut-durability:
+    - 0
+completed-Quests: none
+hasJournal: false
+lastKnownName: Zofren

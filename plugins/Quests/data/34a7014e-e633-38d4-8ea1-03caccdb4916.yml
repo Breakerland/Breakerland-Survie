@@ -1,0 +1,32 @@
+currentQuests:
+- Les Créatures de la nuit
+currentStages:
+- 0
+quest-points: 2
+questData:
+  Les Créatures de la nuit:
+    mobs-killed:
+    - Spider
+    - Cave Spider
+    - Phantom
+    mobs-killed-amounts:
+    - 30
+    - 20
+    - 23
+completed-Quests:
+- Un forgeron averti en vaut deux
+- Danger ! Creeper
+completedRedoableQuests:
+- Danger ! Creeper
+- Un forgeron averti en vaut deux
+completedQuestTimes:
+- 1577899502677
+- 1577784968802
+amountsCompletedQuests:
+- Danger ! Creeper
+- Un forgeron averti en vaut deux
+amountsCompleted:
+- 1
+- 1
+hasJournal: false
+lastKnownName: omega2028

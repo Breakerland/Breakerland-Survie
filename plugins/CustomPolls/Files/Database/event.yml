@@ -1,0 +1,15 @@
+Poll: event
+Question: Quel event pour demain?
+Open: true
+OnJoin: true
+Remind: true
+Choice:
+  '1':
+    votes: 8
+    text: Murder
+  '2':
+    votes: 1
+    text: BuildBattle
+  '3':
+    votes: 3
+    text: VillageDefense

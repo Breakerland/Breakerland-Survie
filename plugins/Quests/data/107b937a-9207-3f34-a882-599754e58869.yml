@@ -1,0 +1,22 @@
+currentQuests:
+- Perte de conscience
+- 'Bûcheron : I'
+currentStages:
+- 0
+- 0
+quest-points: 0
+questData:
+  Perte de conscience:
+    item-delivery-amounts:
+    - 0
+    - 0
+  'Bûcheron : I':
+    blocks-broken-names:
+    - OAK_LOG
+    blocks-broken-amounts:
+    - 8
+    blocks-broken-durability:
+    - 0
+completed-Quests: none
+hasJournal: false
+lastKnownName: Prismohs

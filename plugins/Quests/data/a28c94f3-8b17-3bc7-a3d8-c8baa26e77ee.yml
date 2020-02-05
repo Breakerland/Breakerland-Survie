@@ -1,0 +1,29 @@
+currentQuests:
+- Danger ! Creeper
+currentStages:
+- 0
+quest-points: 3
+questData:
+  Danger ! Creeper:
+    mobs-killed:
+    - Creeper
+    mobs-killed-amounts:
+    - 2
+completed-Quests:
+- 'L''apiculture : I'
+- 'Crafteur : I'
+- Zombiecalypse
+completedRedoableQuests:
+- Zombiecalypse
+- 'L''apiculture : I'
+completedQuestTimes:
+- 1580853619594
+- 1580773225293
+amountsCompletedQuests:
+- Zombiecalypse
+- 'L''apiculture : I'
+amountsCompleted:
+- 1
+- 1
+hasJournal: false
+lastKnownName: Gundyr

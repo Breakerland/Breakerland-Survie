@@ -1,0 +1,33 @@
+defaultSetWarpAccess: true
+guiRefreshRateInMinutes: 30
+warpLimit: 0
+checkWarpSafety: true
+paneItem:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GRAY_STAINED_GLASS_PANE
+blacklist:
+- this_is_a_very_random_world
+teleportDelayInSeconds: 0
+worldToWorldTeleport: true
+automatedOldWarpRemoval: true
+automatedInactiveRemovalInMinutes: 1440
+inactiveWarpDays: 30
+warpMoneyPrice:
+  enable: true
+  price: 50000
+guiItem:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: SUNFLOWER
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: Warps Joueurs!
+warpPrice:
+  enable: false
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2230
+    type: DIAMOND
+    amount: 5

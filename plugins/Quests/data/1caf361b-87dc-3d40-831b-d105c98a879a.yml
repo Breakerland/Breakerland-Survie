@@ -1,0 +1,29 @@
+currentQuests:
+- Perte de conscience
+currentStages:
+- 0
+quest-points: 2
+questData:
+  Perte de conscience:
+    item-delivery-amounts:
+    - 0
+    - 0
+completed-Quests:
+- Le Potager
+- Mange mon globe
+- Collection de minerais
+- 'Bûcheron : I'
+completedRedoableQuests:
+- Mange mon globe
+- Collection de minerais
+completedQuestTimes:
+- 1571442589724
+- 1571521233018
+amountsCompletedQuests:
+- Mange mon globe
+- Collection de minerais
+amountsCompleted:
+- 1
+- 1
+hasJournal: true
+lastKnownName: eric2a

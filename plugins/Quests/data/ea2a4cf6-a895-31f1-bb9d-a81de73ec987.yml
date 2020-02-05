@@ -1,0 +1,36 @@
+currentQuests:
+- Danger ! Creeper
+- RRAAWRR !
+currentStages:
+- 0
+- 1
+quest-points: 1
+questData:
+  Danger ! Creeper:
+    mobs-killed:
+    - Creeper
+    mobs-killed-amounts:
+    - 0
+  RRAAWRR !:
+    mobs-killed:
+    - Zombie
+    - Husk
+    - Zombie Villager
+    - Drowned
+    mobs-killed-amounts:
+    - 30
+    - 0
+    - 0
+    - 0
+completed-Quests:
+- Un forgeron averti en vaut deux
+completedRedoableQuests:
+- Un forgeron averti en vaut deux
+completedQuestTimes:
+- 1578786094132
+amountsCompletedQuests:
+- Un forgeron averti en vaut deux
+amountsCompleted:
+- 1
+hasJournal: false
+lastKnownName: Kirito56250

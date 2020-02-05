@@ -1,0 +1,66 @@
+currentQuests: none
+currentStages: none
+quest-points: 55
+completed-Quests:
+- Globe
+- Descente aux Enfers !
+- Préparation à la Fin
+- La fin sans fin
+- Comment être un bon dresseur ?
+- 'Fermier : I'
+- 'Crafteur : I'
+- 'L''apiculture : I'
+- Un morceau de ciel ?
+- Mais où est Amaxet ?
+- L'absorption
+- De la Joie !
+completedRedoableQuests:
+- L'absorption
+- Globe
+- De la Joie !
+- 'L''apiculture : I'
+completedQuestTimes:
+- 1579887280818
+- 1572210838066
+- 1580673798974
+- 1578753390396
+amountsCompletedQuests:
+- 'Le Protecteur : II'
+- Zombiecalypse
+- Collection de minerais
+- De la Joie !
+- Etude des Zombies
+- Un forgeron averti en vaut deux
+- Carnivore
+- 'L''apiculture : I'
+- 'Le Protecteur : III'
+- Danger ! Creeper
+- Mange mon globe
+- L'absorption
+- Globe
+- Alfred l'alchimiste !
+- Défenseur !
+- Un forgeron averti en vaux deux
+- Coloration
+- 'Le Protecteur : I'
+amountsCompleted:
+- 1
+- 1
+- 1
+- 1
+- 1
+- 2
+- 1
+- 1
+- 2
+- 1
+- 2
+- 1
+- 5
+- 1
+- 1
+- 1
+- 2
+- 2
+hasJournal: false
+lastKnownName: CroixVeBaton

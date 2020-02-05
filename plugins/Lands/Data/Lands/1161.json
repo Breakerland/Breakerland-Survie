@@ -1,0 +1,148 @@
+{
+  "lt": 0,
+  "global": {
+    "n": "Global",
+    "rl": {
+      "0": {
+        "name": "\u00264Propriétaire",
+        "prio": 1000,
+        "icon": "PLAYER_HEAD"
+      },
+      "1": {
+        "name": "\u0026cAdministrateur",
+        "prio": 999,
+        "s": [
+          9,
+          7,
+          5,
+          10,
+          6,
+          0,
+          2,
+          3,
+          11,
+          4,
+          8,
+          15,
+          1
+        ],
+        "ms": [
+          1,
+          2,
+          12,
+          3,
+          11,
+          9,
+          15,
+          10
+        ],
+        "icon": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2UzZmVhODhlMmI4NWNjZGZiMWIzODcyOTgyZWFlMTY0ODlhODRjNjgxYmQ5ZmU0ZmU5YmM4YmNjMmU1In19fQ\u003d\u003d"
+      },
+      "2": {
+        "name": "\u0026eMembre",
+        "prio": 998,
+        "s": [
+          9,
+          7,
+          5,
+          10,
+          6,
+          0,
+          2,
+          3,
+          11,
+          4,
+          8,
+          15,
+          1
+        ],
+        "ms": [],
+        "icon": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjFhZGZkZjA3MTE3NWFkYWQ2NDRmZTRiM2E5NzMxYWM2YThmYTQ3NTExNjJlODEzOGM4OTlmYmFhNWZmMGI5In19fQ\u003d\u003d"
+      },
+      "3": {
+        "name": "\u00267Visiteur",
+        "prio": 0,
+        "s": [
+          15
+        ],
+        "ms": [],
+        "icon": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZThiOGM2YTQ2ZDg3Y2Y4NmE1NWRmMjE0Y2Y4NGJmNDVjY2EyNWVkYjlhNjc2ZTk2MzY0ZGQ2YTZlZWEyMzViMyJ9fX0\u003d"
+      }
+    },
+    "tr": [
+      "903aace8-7c86-39b6-82ed-b60d8598880e:0",
+      "76664288-b816-39bf-aa9b-acef82ce1e15:2",
+      "b0044e10-954e-3268-bcbc-627772d4d3d2:1"
+    ],
+    "ls": [
+      4
+    ],
+    "invs": [
+      {
+        "s": "903aace8-7c86-39b6-82ed-b60d8598880e",
+        "r": "72f2a0f3-56af-3c85-9f52-eedda6f2a964",
+        "t": 1575670275449
+      }
+    ],
+    "tax": 0.0
+  },
+  "td": {
+    "903aace8-7c86-39b6-82ed-b60d8598880e": {
+      "b": 150
+    },
+    "76664288-b816-39bf-aa9b-acef82ce1e15": {
+      "b": 1000000000
+    },
+    "b0044e10-954e-3268-bcbc-627772d4d3d2": {
+      "b": 1000000000
+    }
+  },
+  "n": "Bouya",
+  "tax": 0.0,
+  "p_m": 1000000000,
+  "ct": 1573957680198,
+  "b": 0.0,
+  "tm": "\u00267Propriété de\u0026b %owner%\u00267.",
+  "ib": [
+    {
+      "k": "player.join",
+      "t": 1574602493096,
+      "p": [
+        "{date}",
+        "{player}"
+      ],
+      "v": [
+        "24/11/2019 02:34:53",
+        "_Nesta"
+      ]
+    },
+    {
+      "k": "player.join",
+      "t": 1573957934451,
+      "p": [
+        "{date}",
+        "{player}"
+      ],
+      "v": [
+        "17/11/2019 03:32:14",
+        "Uamzp"
+      ]
+    },
+    {
+      "k": "land.created",
+      "t": 1573957680198,
+      "p": [
+        "{date}",
+        "{land}"
+      ],
+      "v": [
+        "17/11/2019 03:28:00",
+        "Bouya"
+      ]
+    }
+  ],
+  "limi": {
+    "lands.members": 1000000000
+  },
+  "ll": {}
+}

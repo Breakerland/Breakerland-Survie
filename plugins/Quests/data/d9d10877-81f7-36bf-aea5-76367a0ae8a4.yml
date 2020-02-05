@@ -1,0 +1,29 @@
+currentQuests:
+- 'Bûcheron : I'
+- 'L''apiculture : I'
+currentStages:
+- 0
+- 0
+quest-points: 0
+questData:
+  'Bûcheron : I':
+    blocks-broken-names:
+    - OAK_LOG
+    blocks-broken-amounts:
+    - 45
+    blocks-broken-durability:
+    - 0
+  'L''apiculture : I':
+    citizen-ids-to-talk-to:
+    - 181
+    - 182
+    - 183
+    - 184
+    has-talked-to:
+    - false
+    - false
+    - false
+    - false
+completed-Quests: none
+hasJournal: false
+lastKnownName: D_Benji

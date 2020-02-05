@@ -1,0 +1,14 @@
+currentQuests:
+- Un forgeron averti en vaux deux
+currentStages:
+- 0
+quest-points: 0
+questData:
+  Un forgeron averti en vaux deux:
+    citizen-ids-to-talk-to:
+    - 4
+    has-talked-to:
+    - false
+completed-Quests: none
+hasJournal: true
+lastKnownName: Waxay

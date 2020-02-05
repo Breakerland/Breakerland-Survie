@@ -1,0 +1,19 @@
+{
+  "lands": [
+    "1173:survie_new",
+    "1407:survie_new"
+  ],
+  "stamps": {
+    "lout": 1578576032741,
+    "cd_m": 0,
+    "cd_w": 1576929755267,
+    "cd_r": 0,
+    "cd_s": 0
+  },
+  "el": "Wenos_XIII:survie_new",
+  "in": [],
+  "ct": false,
+  "pt": 0,
+  "mc": 50,
+  "msc": 1000000000
+}

@@ -1,0 +1,56 @@
+currentQuests:
+- Les Créatures de la nuit
+- Danger ! Creeper
+- Avant départ
+- Alfred l'alchimiste !
+currentStages:
+- 0
+- 0
+- 2
+- 0
+quest-points: 0
+questData:
+  Les Créatures de la nuit:
+    mobs-killed:
+    - Spider
+    - Cave Spider
+    - Phantom
+    mobs-killed-amounts:
+    - 10
+    - 20
+    - 0
+  Danger ! Creeper:
+    mobs-killed:
+    - Creeper
+    mobs-killed-amounts:
+    - 6
+  Avant départ:
+    passwords:
+    - Que fait le corbeau ?
+    passwords-said:
+    - false
+  Alfred l'alchimiste !:
+    item-delivery-amounts:
+    - 0
+completed-Quests:
+- 'Le Protecteur : I'
+- Un forgeron averti en vaux deux
+- 'Le Protecteur : II'
+completedRedoableQuests:
+- 'Le Protecteur : II'
+- Un forgeron averti en vaux deux
+- 'Le Protecteur : I'
+completedQuestTimes:
+- 1568641109283
+- 1568640999515
+- 1568640878344
+amountsCompletedQuests:
+- 'Le Protecteur : II'
+- Un forgeron averti en vaux deux
+- 'Le Protecteur : I'
+amountsCompleted:
+- 1
+- 1
+- 1
+hasJournal: true
+lastKnownName: RedyanGetfor

@@ -1,0 +1,31 @@
+currentQuests: none
+currentStages: none
+quest-points: 3
+completed-Quests:
+- Globe
+- Mange mon globe
+- 'Bûcheron : I'
+- Collection de minerais
+- Etude des Zombies
+completedRedoableQuests:
+- Mange mon globe
+- Globe
+- Collection de minerais
+- Etude des Zombies
+completedQuestTimes:
+- 1574425442740
+- 1574423858686
+- 1575894476678
+- 1575894519083
+amountsCompletedQuests:
+- Mange mon globe
+- Globe
+- Collection de minerais
+- Etude des Zombies
+amountsCompleted:
+- 1
+- 1
+- 1
+- 1
+hasJournal: false
+lastKnownName: leazdinque

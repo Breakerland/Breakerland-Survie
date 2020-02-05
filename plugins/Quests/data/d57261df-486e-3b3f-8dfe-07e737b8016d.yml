@@ -1,0 +1,21 @@
+currentQuests: none
+currentStages: none
+quest-points: 0
+completed-Quests:
+- Avant départ
+- 'Le Protecteur : I'
+- 'Le Protecteur : II'
+completedRedoableQuests:
+- 'Le Protecteur : II'
+- 'Le Protecteur : I'
+completedQuestTimes:
+- 1567696496572
+- 1567528477230
+amountsCompletedQuests:
+- 'Le Protecteur : II'
+- 'Le Protecteur : I'
+amountsCompleted:
+- 1
+- 1
+hasJournal: false
+lastKnownName: RivJug

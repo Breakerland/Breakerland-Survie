@@ -1,0 +1,17 @@
+currentQuests: none
+currentStages: none
+quest-points: 1
+completed-Quests:
+- 'Crafteur : I'
+- Ci-Trouille
+- Mange mon globe
+completedRedoableQuests:
+- Mange mon globe
+completedQuestTimes:
+- 1572979380314
+amountsCompletedQuests:
+- Mange mon globe
+amountsCompleted:
+- 1
+hasJournal: true
+lastKnownName: VeritaBles

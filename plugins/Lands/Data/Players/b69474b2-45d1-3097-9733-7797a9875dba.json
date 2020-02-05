@@ -1,0 +1,20 @@
+{
+  "lands": [
+    "1615:survie_new"
+  ],
+  "stamps": {
+    "lout": 1579434384579,
+    "cd_m": 0,
+    "cd_w": 1578480303424,
+    "cd_r": 0,
+    "cd_s": 0
+  },
+  "el": "Feso:survie_new",
+  "in": [
+    1570
+  ],
+  "ct": false,
+  "pt": 0,
+  "mc": 50,
+  "msc": 1000000000
+}

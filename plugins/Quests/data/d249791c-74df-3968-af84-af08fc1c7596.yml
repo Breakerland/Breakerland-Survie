@@ -1,0 +1,42 @@
+currentQuests: none
+currentStages: none
+quest-points: 5
+completed-Quests:
+- Globiliums
+- Globe
+- Mange mon globe
+- 'Fermier : I'
+- Un forgeron averti en vaut deux
+- 'Le Protecteur : I'
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+completedRedoableQuests:
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+- Mange mon globe
+- Globe
+- Un forgeron averti en vaut deux
+- 'Le Protecteur : I'
+completedQuestTimes:
+- 1580583953387
+- 1580665149442
+- 1580669759209
+- 1579293971024
+- 1580583423699
+- 1580583702726
+amountsCompletedQuests:
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+- Mange mon globe
+- Globe
+- Un forgeron averti en vaut deux
+- 'Le Protecteur : I'
+amountsCompleted:
+- 1
+- 1
+- 2
+- 1
+- 1
+- 1
+hasJournal: false
+lastKnownName: Futsiph

@@ -1,0 +1,19 @@
+{
+  "lands": [
+    "1029:survie_new"
+  ],
+  "stamps": {
+    "lout": 1577294358394,
+    "cd_m": 0,
+    "cd_w": 1572732620784,
+    "cd_r": 0,
+    "cd_s": 0,
+    "cd_ct": 1572722635840
+  },
+  "el": "cleo_craft:survie_new",
+  "in": [],
+  "ct": false,
+  "pt": 0,
+  "mc": 16,
+  "msc": 3
+}

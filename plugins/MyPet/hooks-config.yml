@@ -1,0 +1,21 @@
+# #######################################################################
+#                This is the hook configuration of MyPet                #
+#                  You can find more info on the wiki:                  #
+#   https://wiki.mypet-plugin.de/setup/configurations/hooks-config.yml  #
+# #######################################################################
+
+Lands:
+  Enabled: true
+Vault:
+  Enabled: true
+  Economy: true
+Citizens:
+  Enabled: true
+  Storage-Trait:
+    Costs:
+      Fixed: 5.0
+      Factor: 1.0
+PlaceholderAPI:
+  Enabled: true
+ProtocolLib:
+  Enabled: true

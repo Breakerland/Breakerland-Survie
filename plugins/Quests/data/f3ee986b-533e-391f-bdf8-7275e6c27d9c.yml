@@ -1,0 +1,21 @@
+currentQuests: none
+currentStages: none
+quest-points: 0
+completed-Quests:
+- Globe
+- Mange mon globe
+- Globiliums
+completedRedoableQuests:
+- Mange mon globe
+- Globe
+completedQuestTimes:
+- 1579121336451
+- 1579121603149
+amountsCompletedQuests:
+- Mange mon globe
+- Globe
+amountsCompleted:
+- 2
+- 2
+hasJournal: false
+lastKnownName: JajamGamingYTB

@@ -1,0 +1,188 @@
+%YAML 1.1
+---
+icons: {
+    }
+sets:
+    Quêtes:
+        hide: false
+        circles: {
+            }
+        deficon: default
+        areas: {
+            }
+        label: Quêtes
+        markers:
+            Chasseur:
+                world: survie_new
+                markup: false
+                x: -56.0
+                icon: compass
+                y: 75.0
+                z: -75.0
+                label: Chasseur
+            Gartas_Wook:
+                world: survie_new
+                markup: false
+                x: 5.0
+                icon: compass
+                y: 60.0
+                z: 5.0
+                label: Gartas Wook
+            Pecheur:
+                world: survie_new
+                markup: false
+                x: 11.0
+                icon: compass
+                y: 55.0
+                z: -27.0
+                label: Pecheur
+            marker_5:
+                world: survie_new
+                markup: false
+                x: -3.0
+                icon: compass
+                y: 60.0
+                z: -51.0
+                label: Aaran
+            marker_6:
+                world: survie_new
+                markup: false
+                x: -28.0
+                icon: compass
+                y: 31.0
+                z: -24.0
+                label: Fermier
+            marker_7:
+                world: survie_new
+                markup: false
+                x: 67.0
+                icon: compass
+                y: 71.0
+                z: 112.0
+                label: Giscard
+            Terraformeur:
+                world: survie_new
+                markup: false
+                x: -62.0
+                icon: compass
+                y: 85.0
+                z: -48.0
+                label: Terraformeur
+            Mineur:
+                world: survie_new
+                markup: false
+                x: -1.0
+                icon: compass
+                y: 31.0
+                z: 70.0
+                label: Mineur
+            Asune:
+                world: survie_new
+                markup: false
+                x: -42.0
+                icon: compass
+                y: 59.0
+                z: 3.0
+                label: Asune
+            marker_1:
+                world: survie_new
+                markup: false
+                x: 13.0
+                icon: compass
+                y: 67.0
+                z: -11.0
+                label: La Nuit
+            marker_2:
+                world: survie_new
+                markup: false
+                x: 16.0
+                icon: compass
+                y: 67.0
+                z: 3.0
+                label: Le Ciel
+            marker_3:
+                world: survie_new
+                markup: false
+                x: 34.0
+                icon: compass
+                y: 55.0
+                z: 41.0
+                label: Leroy
+            marker_4:
+                world: survie_new
+                markup: false
+                x: -2.0
+                icon: compass
+                y: 31.0
+                z: -25.0
+                label: Guerrier
+            Constructeur:
+                world: survie_new
+                markup: false
+                x: 66.0
+                icon: compass
+                y: 62.0
+                z: 2.0
+                label: Constructeur
+        lines: {
+            }
+        layerprio: 0
+    markers:
+        hide: true
+        circles: {
+            }
+        deficon: default
+        areas: {
+            }
+        label: Markers
+        markers: {
+            }
+        lines: {
+            }
+        layerprio: 0
+    Warps:
+        hide: false
+        circles: {
+            }
+        deficon: default
+        areas: {
+            }
+        label: Warps
+        markers:
+            marker_1:
+                world: survie_new
+                markup: false
+                x: 58.0
+                icon: cart
+                y: 64.0
+                z: 66.0
+                label: Magasin
+            marker_2:
+                world: survie_new
+                markup: false
+                x: 49.0
+                icon: king
+                y: 34.0
+                z: -37.0
+                label: Panthéon des Braves
+            marker_3:
+                world: survie_new
+                markup: false
+                x: 49.0
+                icon: fire
+                y: 33.0
+                z: 49.0
+                label: Enchantement
+            marker_4:
+                world: survie_new
+                markup: false
+                x: -50.0
+                icon: tornado
+                y: 34.0
+                z: 29.0
+                label: Mage
+        lines: {
+            }
+        layerprio: 0
+playersets: {
+    }

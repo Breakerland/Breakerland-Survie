@@ -1,0 +1,23 @@
+currentQuests:
+- 'Le Protecteur : I'
+currentStages:
+- 0
+quest-points: 1
+questData:
+  'Le Protecteur : I':
+    mobs-killed:
+    - Zombie
+    mobs-killed-amounts:
+    - 0
+completed-Quests:
+- Un forgeron averti en vaut deux
+completedRedoableQuests:
+- Un forgeron averti en vaut deux
+completedQuestTimes:
+- 1571396204585
+amountsCompletedQuests:
+- Un forgeron averti en vaut deux
+amountsCompleted:
+- 1
+hasJournal: false
+lastKnownName: JustLeorik

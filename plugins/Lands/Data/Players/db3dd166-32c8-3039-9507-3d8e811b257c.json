@@ -1,0 +1,21 @@
+{
+  "lands": [
+    "1123:survie_new"
+  ],
+  "stamps": {
+    "lout": 1575920932583,
+    "cd_m": 1575724731425,
+    "cd_w": 1575758723553,
+    "cd_r": 0,
+    "cd_s": 0,
+    "cd_ct": 1574435828298
+  },
+  "el": "TheFaszerre:survie_new",
+  "in": [
+    1087
+  ],
+  "ct": false,
+  "pt": 0,
+  "mc": 100,
+  "msc": 0
+}

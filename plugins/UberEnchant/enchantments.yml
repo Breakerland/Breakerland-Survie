@@ -1,0 +1,333 @@
+aqua_affinity:
+    min_level: 1
+    max_level: 10
+    cost: 1000.0
+    cost_multiplier: 0.02
+    removal_cost: 100.0
+    extraction_cost: 1000.0
+    use_on_anything: false
+    aliases: ["affinity"]
+bane_of_arthropods:
+    min_level: 1
+    max_level: 10
+    cost: 1000.0
+    cost_multiplier: 0.02
+    removal_cost: 100.0
+    extraction_cost: 1000.0
+    use_on_anything: false
+    aliases: ["bane"]
+binding_curse:
+    min_level: 1
+    max_level: 10
+    cost: 100.0
+    cost_multiplier: 0.01
+    removal_cost: 1000.0
+    extraction_cost: 100.0
+    use_on_anything: false
+    aliases: ["curseofbinding"]
+blast_protection:
+    min_level: 1
+    max_level: 10
+    cost: 1000.0
+    cost_multiplier: 0.02
+    removal_cost: 100.0
+    extraction_cost: 1000.0
+    use_on_anything: false
+    aliases: ["blastprotection"]
+channeling:
+    min_level: 1
+    max_level: 10
+    cost: 1000.0
+    cost_multiplier: 0.02
+    removal_cost: 100.0
+    extraction_cost: 1000.0
+    use_on_anything: false
+    aliases: ["channeling"]
+depth_strider:
+    min_level: 1
+    max_level: 10
+    cost: 1000.0
+    cost_multiplier: 0.02
+    removal_cost: 100.0
+    extraction_cost: 1000.0
+    use_on_anything: false
+    aliases: ["depthstrider"]
+efficiency:
+    min_level: 1
+    max_level: 10
+    cost: 1000.0
+    cost_multiplier: 0.02
+    removal_cost: 100.0
+    extraction_cost: 1000.0
+    use_on_anything: false
+    aliases: ["efficiency"]
+feather_falling:
+    min_level: 1
+    max_level: 10
+    cost: 1000.0
+    cost_multiplier: 0.02
+    removal_cost: 100.0
+    extraction_cost: 1000.0
+    use_on_anything: false
+    aliases: ["featherfalling"]
+fire_aspect:
+    min_level: 1
+    max_level: 10
+    cost: 1000.0
+    cost_multiplier: 0.02
+    removal_cost: 100.0
+    extraction_cost: 1000.0
+    use_on_anything: false
+    aliases: ["fireaspect"]
+fire_protection:
+    min_level: 1
+    max_level: 10
+    cost: 1000.0
+    cost_multiplier: 0.02
+    removal_cost: 100.0
+    extraction_cost: 1000.0
+    use_on_anything: false
+    aliases: ["fireprotection"]
+flame:
+    min_level: 1
+    max_level: 10
+    cost: 1000.0
+    cost_multiplier: 0.02
+    removal_cost: 100.0
+    extraction_cost: 1000.0
+    use_on_anything: false
+    aliases: ["flame"]
+fortune:
+    min_level: 1
+    max_level: 10
+    cost: 1000.0
+    cost_multiplier: 0.02
+    removal_cost: 100.0
+    extraction_cost: 1000.0
+    use_on_anything: false
+    aliases: ["fortune"]
+frost_walker:
+    min_level: 1
+    max_level: 10
+    cost: 1000.0
+    cost_multiplier: 0.02
+    removal_cost: 100.0
+    extraction_cost: 1000.0
+    use_on_anything: false
+    aliases: ["frostwalker"]
+impaling:
+    min_level: 1
+    max_level: 10
+    cost: 1000.0
+    cost_multiplier: 0.02
+    removal_cost: 100.0
+    extraction_cost: 1000.0
+    use_on_anything: false
+    aliases: ["impaling"]
+infinity:
+    min_level: 1
+    max_level: 10
+    cost: 1000.0
+    cost_multiplier: 0.02
+    removal_cost: 100.0
+    extraction_cost: 1000.0
+    use_on_anything: false
+    aliases: ["infinity"]
+knockback:
+    min_level: 1
+    max_level: 10
+    cost: 1000.0
+    cost_multiplier: 0.02
+    removal_cost: 100.0
+    extraction_cost: 1000.0
+    use_on_anything: false
+    aliases: ["knockback"]
+looting:
+    min_level: 1
+    max_level: 10
+    cost: 1000.0
+    cost_multiplier: 0.02
+    removal_cost: 100.0
+    extraction_cost: 1000.0
+    use_on_anything: false
+    aliases: ["looting"]
+loyalty:
+    min_level: 1
+    max_level: 10
+    cost: 1000.0
+    cost_multiplier: 0.02
+    removal_cost: 100.0
+    extraction_cost: 1000.0
+    use_on_anything: false
+    aliases: ["loyalty"]
+luck_of_the_sea:
+    min_level: 1
+    max_level: 10
+    cost: 1000.0
+    cost_multiplier: 0.02
+    removal_cost: 100.0
+    extraction_cost: 1000.0
+    use_on_anything: false
+    aliases: ["luck"]
+lure:
+    min_level: 1
+    max_level: 10
+    cost: 1000.0
+    cost_multiplier: 0.02
+    removal_cost: 100.0
+    extraction_cost: 1000.0
+    use_on_anything: false
+    aliases: ["lure"]
+mending:
+    min_level: 1
+    max_level: 10
+    cost: 1000.0
+    cost_multiplier: 0.02
+    removal_cost: 100.0
+    extraction_cost: 1000.0
+    use_on_anything: false
+    aliases: ["mending"]
+multishot:
+    min_level: 1
+    max_level: 10
+    cost: 1000.0
+    cost_multiplier: 0.02
+    removal_cost: 100.0
+    extraction_cost: 1000.0
+    use_on_anything: false
+    aliases: ["multishot"]
+piercing:
+    min_level: 1
+    max_level: 10
+    cost: 1000.0
+    cost_multiplier: 0.02
+    removal_cost: 100.0
+    extraction_cost: 1000.0
+    use_on_anything: false
+    aliases: ["piercing"]
+power:
+    min_level: 1
+    max_level: 10
+    cost: 1000.0
+    cost_multiplier: 0.02
+    removal_cost: 100.0
+    extraction_cost: 1000.0
+    use_on_anything: false
+    aliases: ["power"]
+projectile_protection:
+    min_level: 1
+    max_level: 10
+    cost: 1000.0
+    cost_multiplier: 0.02
+    removal_cost: 100.0
+    extraction_cost: 1000.0
+    use_on_anything: false
+    aliases: ["projectileprotection"]
+protection:
+    min_level: 1
+    max_level: 10
+    cost: 1000.0
+    cost_multiplier: 0.02
+    removal_cost: 100.0
+    extraction_cost: 1000.0
+    use_on_anything: false
+    aliases: ["protection"]
+punch:
+    min_level: 1
+    max_level: 10
+    cost: 1000.0
+    cost_multiplier: 0.02
+    removal_cost: 100.0
+    extraction_cost: 1000.0
+    use_on_anything: false
+    aliases: ["punch"]
+quick_charge:
+    min_level: 1
+    max_level: 10
+    cost: 1000.0
+    cost_multiplier: 0.02
+    removal_cost: 100.0
+    extraction_cost: 1000.0
+    use_on_anything: false
+    aliases: ["quickcharge"]
+respiration:
+    min_level: 1
+    max_level: 10
+    cost: 1000.0
+    cost_multiplier: 0.02
+    removal_cost: 100.0
+    extraction_cost: 1000.0
+    use_on_anything: false
+    aliases: ["respiration"]
+riptide:
+    min_level: 1
+    max_level: 10
+    cost: 1000.0
+    cost_multiplier: 0.02
+    removal_cost: 100.0
+    extraction_cost: 1000.0
+    use_on_anything: false
+    aliases: ["riptide"]
+sharpness:
+    min_level: 1
+    max_level: 10
+    cost: 1000.0
+    cost_multiplier: 0.02
+    removal_cost: 100.0
+    extraction_cost: 1000.0
+    use_on_anything: false
+    aliases: ["sharpness"]
+silk_touch:
+    min_level: 1
+    max_level: 10
+    cost: 1000.0
+    cost_multiplier: 0.02
+    removal_cost: 100.0
+    extraction_cost: 1000.0
+    use_on_anything: false
+    aliases: ["silktouch"]
+sweeping:
+    min_level: 1
+    max_level: 10
+    cost: 1000.0
+    cost_multiplier: 0.02
+    removal_cost: 100.0
+    extraction_cost: 1000.0
+    use_on_anything: false
+    aliases: ["sweepingedge"]
+smite:
+    min_level: 1
+    max_level: 10
+    cost: 1000.0
+    cost_multiplier: 0.02
+    removal_cost: 100.0
+    extraction_cost: 1000.0
+    use_on_anything: false
+    aliases: ["smite"]
+thorns:
+    min_level: 1
+    max_level: 10
+    cost: 1000.0
+    cost_multiplier: 0.02
+    removal_cost: 100.0
+    extraction_cost: 1000.0
+    use_on_anything: false
+    aliases: ["thorns"]
+unbreaking:
+    min_level: 1
+    max_level: 10
+    cost: 1000.0
+    cost_multiplier: 0.02
+    removal_cost: 100.0
+    extraction_cost: 1000.0
+    use_on_anything: false
+    aliases: ["unbreaking"]
+vanishing_curse:
+    min_level: 1
+    max_level: 10
+    cost: 100.0
+    cost_multiplier: 0.01
+    removal_cost: 1000.0
+    extraction_cost: 1000.0
+    use_on_anything: false
+    aliases: ["curseofvanishing"]

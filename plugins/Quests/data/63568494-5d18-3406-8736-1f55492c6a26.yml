@@ -1,0 +1,25 @@
+currentQuests:
+- Collection de minerais
+- Etude des Zombies
+currentStages:
+- 0
+- 0
+quest-points: 0
+questData:
+  Collection de minerais:
+    item-delivery-amounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  Etude des Zombies:
+    item-delivery-amounts:
+    - 0
+completed-Quests: none
+hasJournal: false
+lastKnownName: KappaPride2008

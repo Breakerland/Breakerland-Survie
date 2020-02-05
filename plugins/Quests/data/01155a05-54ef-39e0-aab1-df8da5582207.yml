@@ -1,0 +1,12 @@
+currentQuests:
+- 'Crafteur : I'
+currentStages:
+- 0
+quest-points: 0
+questData:
+  'Crafteur : I':
+    item-craft-amounts:
+    - 0
+completed-Quests: none
+hasJournal: false
+lastKnownName: Clement_FR

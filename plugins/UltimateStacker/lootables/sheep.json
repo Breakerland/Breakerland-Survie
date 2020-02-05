@@ -1,0 +1,20 @@
+{
+  "Type": "SHEEP",
+  "Loot": [
+    {
+      "Type": "MUTTON",
+      "Burned Type": "COOKED_MUTTON",
+      "Chance": 100.0,
+      "Min": 1,
+      "Max": 2,
+      "Looting": true
+    },
+    {
+      "Type": "WHITE_WOOL",
+      "Chance": 100.0,
+      "Min": 2,
+      "Max": 2,
+      "Looting": true
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "Type": "MAGMA_CUBE",
+  "Loot": [
+    {
+      "Type": "MAGMA_CREAM",
+      "Chance": 25.0,
+      "Min": 1,
+      "Max": 1,
+      "Looting": true
+    }
+  ]
+}

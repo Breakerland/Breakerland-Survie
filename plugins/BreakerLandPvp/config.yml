@@ -1,0 +1,6 @@
+pvpEnable: '&cAttention, vous venez d''activer le PVP.'
+pvpNotDisable: '&cLe PVP est déjà activé.'
+pvpDisable: '&cVous venez de désactiver le PVP.'
+pvpNotEnable: '&cLe PVP est déjà désactivé.'
+attackerNoPvp: '&cCe joueur doit activer le PVP pour combattre.'
+defenderNoPvp: '&cVous devez activer le PVP pour combattre.'

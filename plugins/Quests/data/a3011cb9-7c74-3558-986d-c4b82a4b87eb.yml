@@ -1,0 +1,30 @@
+currentQuests:
+- 'Chercheur avisé : I'
+currentStages:
+- 0
+quest-points: 1
+questData:
+  'Chercheur avisé : I':
+    item-delivery-amounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+completed-Quests:
+- 'Bûcheron : I'
+hasJournal: false
+lastKnownName: Shaenarys

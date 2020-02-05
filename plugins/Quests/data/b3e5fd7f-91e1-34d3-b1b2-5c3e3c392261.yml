@@ -1,0 +1,21 @@
+currentQuests:
+- Une envie subite
+currentStages:
+- 0
+quest-points: 2
+questData:
+  Une envie subite:
+    fish-caught: 0
+completed-Quests:
+- Une envie subite
+- 'Crafteur : I'
+completedRedoableQuests:
+- Une envie subite
+completedQuestTimes:
+- 1574882552023
+amountsCompletedQuests:
+- Une envie subite
+amountsCompleted:
+- 1
+hasJournal: false
+lastKnownName: miaouoke

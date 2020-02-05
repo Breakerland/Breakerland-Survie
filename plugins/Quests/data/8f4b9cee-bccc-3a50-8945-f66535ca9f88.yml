@@ -1,0 +1,30 @@
+currentQuests:
+- Globiliums
+currentStages:
+- 1
+quest-points: 1
+questData:
+  Globiliums:
+    mobs-killed:
+    - Skeleton
+    mobs-killed-amounts:
+    - 5
+completed-Quests:
+- Mange mon globe
+- Globe
+completedRedoableQuests:
+- Mange mon globe
+- Globe
+completedQuestTimes:
+- 1573773210410
+- 1574035437500
+amountsCompletedQuests:
+- Un test de quête
+- Mange mon globe
+- Globe
+amountsCompleted:
+- 1
+- 1
+- 1
+hasJournal: true
+lastKnownName: Babas1905

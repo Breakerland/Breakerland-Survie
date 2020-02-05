@@ -1,0 +1,18 @@
+currentQuests:
+- Une envie subite
+- Avant départ
+currentStages:
+- 0
+- 1
+quest-points: 0
+questData:
+  Une envie subite:
+    fish-caught: 0
+  Avant départ:
+    citizen-ids-to-talk-to:
+    - 5
+    has-talked-to:
+    - false
+completed-Quests: none
+hasJournal: false
+lastKnownName: XeltaFr

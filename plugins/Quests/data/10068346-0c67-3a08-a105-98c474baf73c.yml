@@ -1,0 +1,21 @@
+currentQuests:
+- Une envie subite
+currentStages:
+- 1
+quest-points: 0
+questData:
+  Une envie subite:
+    item-delivery-amounts:
+    - 0
+completed-Quests:
+- Globe
+completedRedoableQuests:
+- Globe
+completedQuestTimes:
+- 1570476846867
+amountsCompletedQuests:
+- Globe
+amountsCompleted:
+- 1
+hasJournal: false
+lastKnownName: Kaam98

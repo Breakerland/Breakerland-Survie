@@ -1,0 +1,21 @@
+currentQuests:
+- 'Le Protecteur : I'
+- Avant départ
+currentStages:
+- 0
+- 0
+quest-points: 0
+questData:
+  'Le Protecteur : I':
+    mobs-killed:
+    - Zombie
+    mobs-killed-amounts:
+    - 0
+  Avant départ:
+    citizen-ids-to-talk-to:
+    - 4
+    has-talked-to:
+    - false
+completed-Quests: none
+hasJournal: false
+lastKnownName: Fazdix

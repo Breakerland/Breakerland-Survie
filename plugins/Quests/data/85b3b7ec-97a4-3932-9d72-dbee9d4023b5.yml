@@ -1,0 +1,20 @@
+currentQuests: none
+currentStages: none
+quest-points: 0
+completed-Quests:
+- Mange mon globe
+- Globe
+completedRedoableQuests:
+- Mange mon globe
+- Globe
+completedQuestTimes:
+- 1574913676563
+- 1575000192692
+amountsCompletedQuests:
+- Mange mon globe
+- Globe
+amountsCompleted:
+- 1
+- 1
+hasJournal: false
+lastKnownName: krokks

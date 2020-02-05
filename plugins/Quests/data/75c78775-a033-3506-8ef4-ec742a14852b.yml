@@ -1,0 +1,20 @@
+currentQuests:
+- Le Vol
+- 'Le Protecteur : I'
+currentStages:
+- 0
+- 0
+quest-points: 0
+questData:
+  Le Vol:
+    item-delivery-amounts:
+    - 0
+    - 0
+  'Le Protecteur : I':
+    mobs-killed:
+    - Zombie
+    mobs-killed-amounts:
+    - 7
+completed-Quests: none
+hasJournal: false
+lastKnownName: Skybest90

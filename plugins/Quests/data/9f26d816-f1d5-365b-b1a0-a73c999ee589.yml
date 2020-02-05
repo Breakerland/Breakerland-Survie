@@ -1,0 +1,14 @@
+currentQuests:
+- Avant départ
+currentStages:
+- 0
+quest-points: 0
+questData:
+  Avant départ:
+    citizen-ids-to-talk-to:
+    - 4
+    has-talked-to:
+    - false
+completed-Quests: none
+hasJournal: false
+lastKnownName: Invau

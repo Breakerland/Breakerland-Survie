@@ -1,0 +1,13 @@
+currentQuests:
+- Tête en l'air
+currentStages:
+- 0
+quest-points: 1
+questData:
+  Tête en l'air:
+    item-delivery-amounts:
+    - 0
+completed-Quests:
+- Le Potager
+hasJournal: false
+lastKnownName: Zeelyrules

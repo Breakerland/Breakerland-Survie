@@ -1,0 +1,25 @@
+currentQuests:
+- Le Potager
+currentStages:
+- 1
+quest-points: 1
+questData:
+  Le Potager:
+    item-delivery-amounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+completed-Quests:
+- Un forgeron averti en vaut deux
+completedRedoableQuests:
+- Un forgeron averti en vaut deux
+completedQuestTimes:
+- 1572099364009
+amountsCompletedQuests:
+- Un forgeron averti en vaut deux
+amountsCompleted:
+- 1
+hasJournal: false
+lastKnownName: Gatogma

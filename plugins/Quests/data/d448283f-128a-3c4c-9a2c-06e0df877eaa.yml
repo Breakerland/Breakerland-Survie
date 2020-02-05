@@ -1,0 +1,40 @@
+currentQuests:
+- Descente aux Enfers !
+currentStages:
+- 2
+quest-points: 49
+questData:
+  Descente aux Enfers !:
+    mobs-killed:
+    - Wither
+    mobs-killed-amounts:
+    - 0
+completed-Quests:
+- 'Crafteur : I'
+- Hugo à la recherche de l'Oeuf Magique
+amountsCompletedQuests:
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+- Mange mon globe
+- Globe
+- Zombiecalypse
+- Perte de conscience
+- Une envie subite
+- Un forgeron averti en vaut deux
+- Carnivore
+- 'Le Protecteur : I'
+- Coloration
+amountsCompleted:
+- 2
+- 2
+- 2
+- 1
+- 1
+- 3
+- 6
+- 2
+- 1
+- 3
+- 1
+hasJournal: true
+lastKnownName: Stebanou

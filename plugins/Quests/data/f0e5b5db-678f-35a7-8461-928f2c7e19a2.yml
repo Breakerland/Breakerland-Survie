@@ -1,0 +1,14 @@
+currentQuests:
+- Perte de conscience
+currentStages:
+- 3
+quest-points: 2
+questData:
+  Perte de conscience:
+    item-delivery-amounts:
+    - 0
+completed-Quests:
+- 'Bûcheron : I'
+- 'Crafteur : I'
+hasJournal: false
+lastKnownName: lancelot

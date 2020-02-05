@@ -1,0 +1,64 @@
+####################
+#    BetterBees
+# By AlonsoAliaga
+####################
+
+Messages:
+  #Sent when right clicking a beehive or bee nest without items in hand.
+  Hive-info:
+    #If true and ProtocolLib is installed, message will be sent in action bar.
+    #Otherwise it will be sent as message.
+    Action-bar: false
+    #Available placeholders:
+    # {HONEYLEVEL} - Honey level in hive.
+    # {BEES} - Amount of bees.
+    Message: "&e&lNiveau du Miel: &b&l{HONEYLEVEL}/{MAXHONEYLEVEL} &f&l- &e&lAbeilles: &b&l{BEES} &c❤"
+  #Sent when right clicking a beehive or bee nest item in hand.
+  Hive-item-info:
+    Action-bar: false
+    Message: "&e&lNiveau du Miel : &b&l{HONEYLEVEL}/{MAXHONEYLEVEL} &f&l- &e&lAbeilles: &b&l{BEES} &c❤"
+  Bee-info:
+    Action-bar: false
+    Message: "&e&lNectar: {NECTAR} &f&l- &e&lRuche: {HIVE} &f&l- &e&lFleur: {FLOWER} &f&l- &e&lPeut piquer: {STING}"
+  Keywords:
+    Yes-word: "&a&lOui"
+    No-word: "&c&lNon"
+
+Options:
+  Permissions:
+    #Permissions to get information. If "none", it will be ignored.
+    Hive-info-permission: "betterbees.hive"
+    Hive-item-info-permission: "betterbees.hive-item"
+    Bee-info-permission: "betterbees.bee"
+  Hooks:
+    WorldGuard:
+      #Hook WorldGuard if available. If false nothing related to WorldGuard will not be checked.
+      #Disabled by default. No features requires this yet.
+      Hook: true
+    GriefPrevention:
+      #Hook GriefPrevention if available. If false nothing related to GriefPrevention will not be checked.
+      Hook: true
+      #Prevent bees to be damaged on claims, except for players with permissions in it. This blocks ALL types of damage.
+      #Including EXPLOSION, FIRE, ETC! Only players attack will be allowed. Recommended if using plugins with custom enchants or effects
+      #like CrazyEnchantments or similar where bow enchantment creates explosion inside other players' claims.
+      #This SHOULD not be needed after GriefPrevention updates his plugin to 1.15
+      Prevent-damage: true
+      #Prevent beehives and bee nests to be steal honey where player doesn't have permissions.
+      #This will not be needed after GriefPrevention updates his plugin to 1.15
+      Prevent-steal: true
+  Bees:
+    Path-to-hive:
+      #If enabled, it will show a line between bee and his hive location if available.
+      Enabled: true
+    Path-to-flower:
+      #If enabled, it will show a line between bee and his flower location if available.
+      Enabled: true
+
+Updates:
+  #Check updates? Recommended to leave this enabled!
+  Check-updates: true
+  #Notify updates when a player joins the server?
+  Notify-updates: true
+  #Permission the player must have to be notified of new updates when joining the server.
+  #If none or null, only Operators will be notified.
+  Permission: "betterbees.updatenotify"

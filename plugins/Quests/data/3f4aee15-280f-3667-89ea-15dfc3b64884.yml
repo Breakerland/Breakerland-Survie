@@ -1,0 +1,17 @@
+currentQuests:
+- Une envie subite
+- Le Vol
+currentStages:
+- 0
+- 0
+quest-points: 0
+questData:
+  Une envie subite:
+    fish-caught: 2
+  Le Vol:
+    item-delivery-amounts:
+    - 0
+    - 0
+completed-Quests: none
+hasJournal: false
+lastKnownName: cloclolepedalo

@@ -1,0 +1,19 @@
+{
+  "lands": [
+    "231:survie_new",
+    "572:survie_new"
+  ],
+  "stamps": {
+    "lout": 1575529456230,
+    "cd_m": 1571921656899,
+    "cd_w": 1571688111273,
+    "cd_r": 0,
+    "cd_s": 0
+  },
+  "el": "Cantyo:survie_new",
+  "in": [],
+  "ct": false,
+  "pt": 414059,
+  "mc": 200,
+  "msc": 0
+}

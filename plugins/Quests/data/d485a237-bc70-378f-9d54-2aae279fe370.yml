@@ -1,0 +1,23 @@
+currentQuests:
+- 'Fermier : I'
+- Danger ! Creeper
+currentStages:
+- 0
+- 0
+quest-points: 0
+questData:
+  'Fermier : I':
+    blocks-cut-names:
+    - WHEAT
+    blocks-cut-amounts:
+    - 0
+    blocks-cut-durability:
+    - 0
+  Danger ! Creeper:
+    mobs-killed:
+    - Creeper
+    mobs-killed-amounts:
+    - 0
+completed-Quests: none
+hasJournal: false
+lastKnownName: steve368

@@ -1,0 +1,28 @@
+currentQuests:
+- 'Crafteur : I'
+currentStages:
+- 0
+quest-points: 3
+questData:
+  'Crafteur : I':
+    item-craft-amounts:
+    - 0
+completed-Quests: none
+amountsCompletedQuests:
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+- Danger ! Creeper
+- Alfred l'alchimiste !
+- Etude des Zombies
+- Un forgeron averti en vaux deux
+- 'Le Protecteur : I'
+amountsCompleted:
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+hasJournal: false
+lastKnownName: Mikiu_Ahegao

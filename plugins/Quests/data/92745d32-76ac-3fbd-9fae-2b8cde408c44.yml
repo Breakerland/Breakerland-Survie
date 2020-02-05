@@ -1,0 +1,79 @@
+currentQuests:
+- Avant départ
+- Les Créatures de la nuit
+- Collection de minerais
+- Danger ! Creeper
+- Une envie subite
+- 'Le Protecteur : II'
+currentStages:
+- 2
+- 0
+- 0
+- 0
+- 1
+- 2
+quest-points: 0
+questData:
+  Avant départ:
+    passwords:
+    - Que fait le corbeau ?
+    passwords-said:
+    - false
+  Les Créatures de la nuit:
+    mobs-killed:
+    - Spider
+    - Cave Spider
+    - Phantom
+    mobs-killed-amounts:
+    - 30
+    - 20
+    - 5
+  Collection de minerais:
+    item-delivery-amounts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+    - 1
+    - 1
+  Danger ! Creeper:
+    mobs-killed:
+    - Creeper
+    mobs-killed-amounts:
+    - 28
+  Une envie subite:
+    item-delivery-amounts:
+    - 3
+  'Le Protecteur : II':
+    item-delivery-amounts:
+    - 0
+completed-Quests:
+- 'Le Protecteur : I'
+- Un forgeron averti en vaux deux
+- Alfred l'alchimiste !
+- Etude des Zombies
+completedRedoableQuests:
+- Alfred l'alchimiste !
+- Etude des Zombies
+- Un forgeron averti en vaux deux
+- 'Le Protecteur : I'
+completedQuestTimes:
+- 1568143086595
+- 1569139361336
+- 1568142731619
+- 1567934653403
+amountsCompletedQuests:
+- Alfred l'alchimiste !
+- Etude des Zombies
+- Un forgeron averti en vaux deux
+- 'Le Protecteur : I'
+amountsCompleted:
+- 1
+- 1
+- 1
+- 1
+hasJournal: true
+lastKnownName: LukasLemaire09

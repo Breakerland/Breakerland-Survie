@@ -1,0 +1,32 @@
+currentQuests: none
+currentStages: none
+quest-points: 4
+completed-Quests:
+- 'Le Protecteur : I'
+- 'Le Protecteur : II'
+- Globe
+- 'Le Protecteur : III'
+completedRedoableQuests:
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+- Globe
+- 'Le Protecteur : I'
+completedQuestTimes:
+- 1570284741187
+- 1570710609880
+- 1570397439530
+- 1570284681570
+amountsCompletedQuests:
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+- Globe
+- Un forgeron averti en vaux deux
+- 'Le Protecteur : I'
+amountsCompleted:
+- 1
+- 1
+- 1
+- 1
+- 2
+hasJournal: true
+lastKnownName: Cryyzi

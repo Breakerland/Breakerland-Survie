@@ -1,0 +1,111 @@
+currentQuests:
+- Les Créatures de la nuit
+- Danger ! Creeper
+currentStages:
+- 0
+- 0
+quest-points: 48
+questData:
+  Les Créatures de la nuit:
+    mobs-killed:
+    - Spider
+    - Cave Spider
+    - Phantom
+    mobs-killed-amounts:
+    - 30
+    - 20
+    - 29
+  Danger ! Creeper:
+    mobs-killed:
+    - Creeper
+    mobs-killed-amounts:
+    - 42
+completed-Quests:
+- Hugo à la recherche de l'Oeuf Magique
+- 'L''apiculture : I'
+- Un forgeron averti en vaut deux
+- 'Fermier : I'
+- Comment être un bon dresseur ?
+- Perte de conscience
+- Collection de minerais
+- Etude des Zombies
+- Alfred l'alchimiste !
+- Camédecin
+- Science folle
+- Besoin de pleins de Nonos
+- Le Potager
+- Coloration
+- Le Vol
+- Descente aux Enfers !
+- La nuit sera courte
+- Préparation à la Fin
+- La fin sans fin
+- Le Recueil
+- La Bourde !
+- Tomber sur un os
+- 'Le Protecteur : I'
+- Ils ont envoyé des zombies !
+completedRedoableQuests:
+- Besoin de pleins de Nonos
+- La Bourde !
+- Alfred l'alchimiste !
+- Tomber sur un os
+- Perte de conscience
+- Collection de minerais
+- Le Recueil
+- Etude des Zombies
+- Un forgeron averti en vaut deux
+- 'L''apiculture : I'
+- Coloration
+- 'Le Protecteur : I'
+completedQuestTimes:
+- 1578097454175
+- 1578344869713
+- 1578097091640
+- 1578345054056
+- 1578096500216
+- 1578096962832
+- 1578337743767
+- 1578097044191
+- 1578082147488
+- 1578062913944
+- 1578335384016
+- 1578422198978
+amountsCompletedQuests:
+- 'Le Protecteur : II'
+- Tomber sur un os
+- Collection de minerais
+- Le Recueil
+- Etude des Zombies
+- Un forgeron averti en vaut deux
+- 'L''apiculture : I'
+- Danger ! Creeper
+- Mange mon globe
+- Besoin de pleins de Nonos
+- La Bourde !
+- Alfred l'alchimiste !
+- Globe
+- Perte de conscience
+- Un forgeron averti en vaux deux
+- 'Le Protecteur : I'
+- Coloration
+amountsCompleted:
+- 1
+- 1
+- 2
+- 1
+- 2
+- 2
+- 1
+- 1
+- 1
+- 1
+- 1
+- 2
+- 1
+- 1
+- 1
+- 2
+- 2
+hasJournal: false
+lastKnownName: ianito

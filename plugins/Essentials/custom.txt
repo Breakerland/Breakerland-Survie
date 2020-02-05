@@ -1,0 +1,61 @@
+#Customtext
+Règlement :
+
+Il est interdit de :
+
+-Grief ou piller dans le monde survie
+-Troll
+-Porter un pseudo ou un skin innaproprié
+-Exploiter un bug ou une faille qui génèrerait trop d'argent
+-User de cheats (X-ray, NoFall, AutoFish...)
+-Build des constructions obscène
+-Spam Tchat/Pub/Insultes
+-Arnaquer un joueur
+-Farm les métiers avec des systèmes automatisés
+
+Pour plus de détails consulter l'onglet règlement 
+sur le discord ou le site Breakerland.fr
+
+&6You can use multiple pages, for example type:
+&c/customtext 2
+
+&6To add a custom command you need to do three things:
+&e-&9 Add a section below in the custom.txt
+&e-&9 Add a line to the commands.yml aliases section
+&e-&9 Give players access to 'essentials.customtext'
+
+To add /vote, add this to commands.yml:
+  vote: 
+  - customtext vote $1-
+
+&6The following commands can also be customized:
+&c/rules /motd /news /help
+
+&6These support chapter customization such as:&c /rules grief
+&6You can use custom aliases with these commands too.
+
+#links
+&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e- &6&lLiens utiles &e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-
+&7+ Site internet: &6&nhttps://breakerland.fr
+&7+ Vote: &6&nhttps://breakerland.fr/vote
+&7+ Map: &6&nhttps://map.breakerland.fr/
+&7+ Discord: &6&nhttps://discord.gg/5mtwsGt
+&7+ Facebook: &6&nhttps://www.facebook.com/Breakerland
+&7+ Twitter: &6&nhttps://twitter.com/Breakerland1
+
+#vote
+If you add the correct alias to commands.yml
+This text here will be shown if you type /vote
+
+#stafflist,onlinestaff
+&6Online Staff:
+{PLAYERLIST:MODERATOR} {PLAYERLIST:ADMIN} {PLAYERLIST:OWNER}
+
+#changelog
+&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e- &6&lChangelog &e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-
+&e&nV6.0 - 1 février 2020
+&7+ Activation de la perte du stuff à la mort stocké pendant 1h dans une pière tombale.
+&7+ Ajout de la commande /dback pour retourner son point de mort (prix selon grade).
+&7+ Apparition d'un coffre magique aléatoirement.
+&7+ Prix du /rtp défini selon le grade (gratuit pour les survivants).
+&7+ Ajout de la commande /changelog affichant les notes de mise à jour.

@@ -1,0 +1,49 @@
+currentQuests:
+- 'Fermier : I'
+- 'Le Papa Noël et ses embrouilles : I'
+currentStages:
+- 0
+- 0
+quest-points: 2
+questData:
+  'Fermier : I':
+    blocks-cut-names:
+    - WHEAT
+    blocks-cut-amounts:
+    - 0
+    blocks-cut-durability:
+    - 0
+  'Le Papa Noël et ses embrouilles : I':
+    item-delivery-amounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+completed-Quests:
+- 'Le Protecteur : I'
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+- 'Crafteur : I'
+completedRedoableQuests:
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+- 'Le Protecteur : I'
+completedQuestTimes:
+- 1568466468153
+- 1569054808639
+- 1567831127581
+amountsCompletedQuests:
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+- Danger ! Creeper
+- Un forgeron averti en vaux deux
+- 'Le Protecteur : I'
+amountsCompleted:
+- 1
+- 1
+- 1
+- 1
+- 1
+hasJournal: true
+lastKnownName: rsBlackSmith

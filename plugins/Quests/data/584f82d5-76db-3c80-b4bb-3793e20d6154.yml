@@ -1,0 +1,26 @@
+currentQuests: none
+currentStages: none
+quest-points: 2
+completed-Quests:
+- Un forgeron averti en vaut deux
+- 'Le Protecteur : I'
+- Mange mon globe
+- Globiliums
+completedRedoableQuests:
+- Mange mon globe
+- Un forgeron averti en vaut deux
+- 'Le Protecteur : I'
+completedQuestTimes:
+- 1572519354312
+- 1571394615356
+- 1571846354560
+amountsCompletedQuests:
+- Mange mon globe
+- Un forgeron averti en vaut deux
+- 'Le Protecteur : I'
+amountsCompleted:
+- 2
+- 1
+- 1
+hasJournal: false
+lastKnownName: Caldryk

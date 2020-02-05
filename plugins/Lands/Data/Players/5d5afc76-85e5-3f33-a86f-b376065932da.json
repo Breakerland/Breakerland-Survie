@@ -1,0 +1,19 @@
+{
+  "lands": [
+    "645:survie_new",
+    "1051:survie_new"
+  ],
+  "stamps": {
+    "lout": 1578430505938,
+    "cd_m": 1575114099084,
+    "cd_w": 1574982885643,
+    "cd_r": 0,
+    "cd_s": 1573900934207
+  },
+  "el": "_megamigit_:survie_new",
+  "in": [],
+  "ct": false,
+  "pt": 0,
+  "mc": 250,
+  "msc": 0
+}

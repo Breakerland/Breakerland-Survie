@@ -1,0 +1,28 @@
+currentQuests:
+- Les Créatures de la nuit
+currentStages:
+- 0
+quest-points: 2
+questData:
+  Les Créatures de la nuit:
+    mobs-killed:
+    - Spider
+    - Cave Spider
+    - Phantom
+    mobs-killed-amounts:
+    - 14
+    - 0
+    - 0
+completed-Quests:
+- 'Bûcheron : I'
+- Un forgeron averti en vaut deux
+completedRedoableQuests:
+- Un forgeron averti en vaut deux
+completedQuestTimes:
+- 1572018069886
+amountsCompletedQuests:
+- Un forgeron averti en vaut deux
+amountsCompleted:
+- 1
+hasJournal: false
+lastKnownName: kyouky2008

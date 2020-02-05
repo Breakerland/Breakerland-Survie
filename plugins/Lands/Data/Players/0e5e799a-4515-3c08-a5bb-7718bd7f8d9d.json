@@ -1,0 +1,19 @@
+{
+  "lands": [
+    "1068:survie_new"
+  ],
+  "stamps": {
+    "lout": 1576432537201,
+    "cd_m": 0,
+    "cd_w": 1573997225022,
+    "cd_r": 0,
+    "cd_s": 0,
+    "cd_ct": 1573310722184
+  },
+  "el": "mouton01:survie_new",
+  "in": [],
+  "ct": false,
+  "pt": 0,
+  "mc": 250,
+  "msc": 0
+}

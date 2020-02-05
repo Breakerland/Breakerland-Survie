@@ -1,0 +1,13 @@
+currentQuests:
+- 'Crafteur : I'
+currentStages:
+- 0
+quest-points: 1
+questData:
+  'Crafteur : I':
+    item-craft-amounts:
+    - 0
+completed-Quests:
+- 'Bûcheron : I'
+hasJournal: false
+lastKnownName: PrinceJUULS

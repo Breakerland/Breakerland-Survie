@@ -1,0 +1,120 @@
+{
+  "lt": 0,
+  "global": {
+    "n": "Global",
+    "rl": {
+      "0": {
+        "name": "\u00264Propriétaire",
+        "prio": 1000,
+        "icon": "PLAYER_HEAD"
+      },
+      "1": {
+        "name": "\u0026cAdministrateur",
+        "prio": 999,
+        "s": [
+          9,
+          7,
+          5,
+          10,
+          6,
+          0,
+          2,
+          3,
+          11,
+          4,
+          8,
+          15,
+          1
+        ],
+        "ms": [
+          1,
+          2,
+          12,
+          3,
+          11,
+          9,
+          15,
+          10
+        ],
+        "icon": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2UzZmVhODhlMmI4NWNjZGZiMWIzODcyOTgyZWFlMTY0ODlhODRjNjgxYmQ5ZmU0ZmU5YmM4YmNjMmU1In19fQ\u003d\u003d"
+      },
+      "2": {
+        "name": "\u0026eMembre",
+        "prio": 998,
+        "s": [
+          9,
+          7,
+          5,
+          10,
+          6,
+          0,
+          2,
+          3,
+          11,
+          4,
+          8,
+          15,
+          1
+        ],
+        "ms": [],
+        "icon": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjFhZGZkZjA3MTE3NWFkYWQ2NDRmZTRiM2E5NzMxYWM2YThmYTQ3NTExNjJlODEzOGM4OTlmYmFhNWZmMGI5In19fQ\u003d\u003d"
+      },
+      "3": {
+        "name": "\u00267Visiteur",
+        "prio": 0,
+        "s": [
+          15
+        ],
+        "ms": [],
+        "icon": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZThiOGM2YTQ2ZDg3Y2Y4NmE1NWRmMjE0Y2Y4NGJmNDVjY2EyNWVkYjlhNjc2ZTk2MzY0ZGQ2YTZlZWEyMzViMyJ9fX0\u003d"
+      }
+    },
+    "tr": [
+      "8f4b9cee-bccc-3a50-8945-f66535ca9f88:0"
+    ],
+    "ls": [
+      4
+    ],
+    "invs": [],
+    "tax": 0.0
+  },
+  "td": {
+    "8f4b9cee-bccc-3a50-8945-f66535ca9f88": {
+      "b": 0
+    }
+  },
+  "n": "Manoir",
+  "tax": 0.0,
+  "p_m": 0,
+  "ct": 1571685384760,
+  "b": 0.0,
+  "tm": "\u00267Propriété de\u0026b %owner%\u00267.",
+  "ib": [
+    {
+      "k": "player.join",
+      "t": 1573161275435,
+      "p": [
+        "{date}",
+        "{player}"
+      ],
+      "v": [
+        "07/11/2019 10:14:35",
+        "Babas1905"
+      ]
+    },
+    {
+      "k": "land.created",
+      "t": 1571685384760,
+      "p": [
+        "{date}",
+        "{land}"
+      ],
+      "v": [
+        "21/10/2019 09:16:24",
+        "Lawrence\u0027s"
+      ]
+    }
+  ],
+  "limi": {},
+  "ll": {}
+}

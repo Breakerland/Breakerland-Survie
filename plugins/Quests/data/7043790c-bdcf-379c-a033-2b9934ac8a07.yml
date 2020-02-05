@@ -1,0 +1,22 @@
+currentQuests: none
+currentStages: none
+quest-points: 1
+completed-Quests:
+- 'Crafteur : I'
+- Mange mon globe
+- Globe
+- Globiliums
+completedRedoableQuests:
+- Mange mon globe
+- Globe
+completedQuestTimes:
+- 1572146990500
+- 1572177664791
+amountsCompletedQuests:
+- Mange mon globe
+- Globe
+amountsCompleted:
+- 1
+- 1
+hasJournal: true
+lastKnownName: By_Nanouf

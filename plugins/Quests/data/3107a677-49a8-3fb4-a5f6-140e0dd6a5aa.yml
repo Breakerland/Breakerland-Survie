@@ -1,0 +1,28 @@
+currentQuests:
+- Perte de conscience
+currentStages:
+- 3
+quest-points: 1
+questData:
+  Perte de conscience:
+    item-delivery-amounts:
+    - 0
+completed-Quests:
+- 'Bûcheron : I'
+- Globe
+- Mange mon globe
+- Globiliums
+completedRedoableQuests:
+- Mange mon globe
+- Globe
+completedQuestTimes:
+- 1579032432099
+- 1579031563824
+amountsCompletedQuests:
+- Mange mon globe
+- Globe
+amountsCompleted:
+- 1
+- 1
+hasJournal: false
+lastKnownName: Ender_Shock

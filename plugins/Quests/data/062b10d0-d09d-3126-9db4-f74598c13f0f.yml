@@ -1,0 +1,28 @@
+currentQuests:
+- 'Le Protecteur : III'
+currentStages:
+- 0
+quest-points: 0
+questData:
+  'Le Protecteur : III':
+    mobs-killed:
+    - Creeper
+    mobs-killed-amounts:
+    - 9
+completed-Quests:
+- 'Le Protecteur : I'
+- 'Le Protecteur : II'
+completedRedoableQuests:
+- 'Le Protecteur : II'
+- 'Le Protecteur : I'
+completedQuestTimes:
+- 1569417529658
+- 1569416048904
+amountsCompletedQuests:
+- 'Le Protecteur : II'
+- 'Le Protecteur : I'
+amountsCompleted:
+- 1
+- 1
+hasJournal: true
+lastKnownName: Xyphon_

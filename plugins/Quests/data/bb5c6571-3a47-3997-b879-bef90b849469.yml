@@ -1,0 +1,34 @@
+currentQuests:
+- Alfred l'alchimiste !
+- Une envie subite
+- Collection de minerais
+- Etude des Zombies
+currentStages:
+- 0
+- 0
+- 0
+- 0
+quest-points: 0
+questData:
+  Alfred l'alchimiste !:
+    item-delivery-amounts:
+    - 0
+  Une envie subite:
+    fish-caught: 2
+  Collection de minerais:
+    item-delivery-amounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  Etude des Zombies:
+    item-delivery-amounts:
+    - 0
+completed-Quests: none
+hasJournal: false
+lastKnownName: Legendaires

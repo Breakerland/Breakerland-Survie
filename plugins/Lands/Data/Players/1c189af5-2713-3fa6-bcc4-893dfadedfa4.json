@@ -1,0 +1,18 @@
+{
+  "lands": [
+    "1286:survie_new"
+  ],
+  "stamps": {
+    "lout": 1576126179619,
+    "cd_m": 0,
+    "cd_w": 1575789219775,
+    "cd_r": 0,
+    "cd_s": 0
+  },
+  "el": "Boss:survie_new",
+  "in": [],
+  "ct": false,
+  "pt": 0,
+  "mc": 50,
+  "msc": 0
+}

@@ -1,0 +1,25 @@
+currentQuests:
+- Les Créatures de la nuit
+- Danger ! Creeper
+currentStages:
+- 0
+- 0
+quest-points: 0
+questData:
+  Les Créatures de la nuit:
+    mobs-killed:
+    - Spider
+    - Cave Spider
+    - Phantom
+    mobs-killed-amounts:
+    - 1
+    - 0
+    - 0
+  Danger ! Creeper:
+    mobs-killed:
+    - Creeper
+    mobs-killed-amounts:
+    - 0
+completed-Quests: none
+hasJournal: true
+lastKnownName: Gamma

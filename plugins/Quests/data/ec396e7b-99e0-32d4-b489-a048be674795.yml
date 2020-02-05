@@ -1,0 +1,95 @@
+currentQuests:
+- Danger ! Creeper
+currentStages:
+- 0
+quest-points: 21
+questData:
+  Danger ! Creeper:
+    mobs-killed:
+    - Creeper
+    mobs-killed-amounts:
+    - 35
+completed-Quests:
+- Globe
+- Mange mon globe
+- 'Fermier : I'
+- 'Crafteur : I'
+- 'L''apiculture : I'
+- Collection de minerais
+- 'Le Protecteur : I'
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+- Etude des Zombies
+- Alfred l'alchimiste !
+- Camédecin
+- Hugo à la recherche de l'Oeuf Magique
+- Science folle
+- Besoin de pleins de Nonos
+- Un forgeron averti en vaut deux
+- Tête en l'air
+- Le Potager
+- Perte de conscience
+- Le Recueil
+- Un morceau de ciel ?
+completedRedoableQuests:
+- 'Le Protecteur : II'
+- Collection de minerais
+- Le Recueil
+- Etude des Zombies
+- Un forgeron averti en vaut deux
+- 'L''apiculture : I'
+- 'Le Protecteur : III'
+- Mange mon globe
+- Besoin de pleins de Nonos
+- Globe
+- Alfred l'alchimiste !
+- Perte de conscience
+- Tête en l'air
+- 'Le Protecteur : I'
+completedQuestTimes:
+- 1578834957045
+- 1578754890440
+- 1578863935619
+- 1578858677489
+- 1578861092006
+- 1578861416332
+- 1578837310530
+- 1579720615736
+- 1578860958087
+- 1579720496025
+- 1578858752028
+- 1578863677470
+- 1578862843633
+- 1578834596733
+amountsCompletedQuests:
+- 'Le Protecteur : II'
+- Collection de minerais
+- Le Recueil
+- Etude des Zombies
+- Un forgeron averti en vaut deux
+- 'L''apiculture : I'
+- 'Le Protecteur : III'
+- Mange mon globe
+- Besoin de pleins de Nonos
+- Globe
+- Alfred l'alchimiste !
+- Perte de conscience
+- Tête en l'air
+- 'Le Protecteur : I'
+amountsCompleted:
+- 1
+- 1
+- 1
+- 1
+- 2
+- 2
+- 1
+- 4
+- 1
+- 8
+- 1
+- 1
+- 1
+- 1
+hasJournal: false
+lastKnownName: CouzVeBaton

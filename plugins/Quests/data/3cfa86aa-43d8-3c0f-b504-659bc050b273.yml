@@ -1,0 +1,20 @@
+currentQuests:
+- RRAAWRR !
+currentStages:
+- 1
+quest-points: 0
+questData:
+  RRAAWRR !:
+    mobs-killed:
+    - Zombie
+    - Husk
+    - Zombie Villager
+    - Drowned
+    mobs-killed-amounts:
+    - 2
+    - 0
+    - 0
+    - 0
+completed-Quests: none
+hasJournal: false
+lastKnownName: KrathosOf

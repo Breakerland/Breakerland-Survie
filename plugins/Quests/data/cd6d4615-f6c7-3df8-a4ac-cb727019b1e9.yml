@@ -1,0 +1,46 @@
+currentQuests:
+- 'Le Protecteur : II'
+- Alfred l'alchimiste !
+- Repérage II
+currentStages:
+- 2
+- 0
+- 1
+quest-points: 0
+questData:
+  'Le Protecteur : II':
+    item-delivery-amounts:
+    - 0
+  Alfred l'alchimiste !:
+    item-delivery-amounts:
+    - 0
+  Repérage II:
+    item-craft-amounts:
+    - 0
+    - 2
+    - 0
+    item-delivery-amounts:
+    - 0
+    - 0
+    - 0
+completed-Quests:
+- Une envie subite
+- Avant départ
+- Repérage I
+- 'Le Protecteur : I'
+- 'Une histoire de Pirates : I'
+- 'Une histoire de Pirates : II'
+completedRedoableQuests:
+- Une envie subite
+- 'Le Protecteur : I'
+completedQuestTimes:
+- 1566129788292
+- 1566130812465
+amountsCompletedQuests:
+- Une envie subite
+- 'Le Protecteur : I'
+amountsCompleted:
+- 1
+- 1
+hasJournal: true
+lastKnownName: Fall_king_R7

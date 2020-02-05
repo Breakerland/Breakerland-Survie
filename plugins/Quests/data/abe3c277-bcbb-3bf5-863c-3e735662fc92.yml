@@ -1,0 +1,60 @@
+currentQuests:
+- 'Le Papa Noël et ses embrouilles : I'
+- Alfred l'alchimiste !
+currentStages:
+- 0
+- 0
+quest-points: 0
+questData:
+  'Le Papa Noël et ses embrouilles : I':
+    item-delivery-amounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  Alfred l'alchimiste !:
+    item-delivery-amounts:
+    - 0
+completed-Quests:
+- 'Le Protecteur : I'
+- 'Le Protecteur : II'
+- Alfred l'alchimiste !
+- Collection de minerais
+- Etude des Zombies
+- 'Le Protecteur : III'
+- Une envie subite
+completedRedoableQuests:
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+- Alfred l'alchimiste !
+- Collection de minerais
+- Etude des Zombies
+- Une envie subite
+- 'Le Protecteur : I'
+completedQuestTimes:
+- 1567606081436
+- 1567797382172
+- 1567609388762
+- 1567609816023
+- 1567703353574
+- 1567845821810
+- 1567417424351
+amountsCompletedQuests:
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+- Alfred l'alchimiste !
+- Collection de minerais
+- Etude des Zombies
+- Une envie subite
+- 'Le Protecteur : I'
+amountsCompleted:
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+hasJournal: false
+lastKnownName: _Hipix_

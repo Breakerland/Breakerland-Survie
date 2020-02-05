@@ -1,0 +1,29 @@
+#Plusieurs varaibles dispo : {PLAYER} coorespond au joueur, {MONEY} correspond au symbole de la money, {PRICE} correspond au prix de la téléportaion
+
+survivant: 50
+aventurier : 250
+baron : 750
+duc : 1500
+comte : 2500
+marquis : 10000
+hero : 20000
+legende : 50000
+fantome : 100000
+
+#temps d'invulnérabilité après la téléportation
+tresi : 15
+
+#Correspond au symbole de la monnaie
+money : β
+
+accept_button : §a[ACCEPTER]
+
+death_message : §8[§6Tombeaux§8] §rCliques ci-dessous pour te téléporter à ton point de mort contre §6{PRICE}{MONEY} §r!
+
+valid_teleportation : §aVous venez d'être téléporté à votre point de mort et vous avez été prélevé de {PRICE}{MONEY}
+
+error_money : §cVous n'avez pas assez d'argent pour vous téléporter à votre point de mort, il vous faut {PRICE}{MONEY} !
+
+error_tp : §cVous avez déja été téléporté à votre point de mort.
+
+error_coord : §cVotre point de mort se trouve à des coordonnées non valides.

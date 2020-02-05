@@ -1,0 +1,34 @@
+currentQuests:
+- Danger ! Creeper
+- Les Créatures de la nuit
+currentStages:
+- 0
+- 0
+quest-points: 1
+questData:
+  Danger ! Creeper:
+    mobs-killed:
+    - Creeper
+    mobs-killed-amounts:
+    - 17
+  Les Créatures de la nuit:
+    mobs-killed:
+    - Spider
+    - Cave Spider
+    - Phantom
+    mobs-killed-amounts:
+    - 14
+    - 11
+    - 0
+completed-Quests:
+- Un forgeron averti en vaut deux
+completedRedoableQuests:
+- Un forgeron averti en vaut deux
+completedQuestTimes:
+- 1575923893824
+amountsCompletedQuests:
+- Un forgeron averti en vaut deux
+amountsCompleted:
+- 1
+hasJournal: false
+lastKnownName: Faullissa

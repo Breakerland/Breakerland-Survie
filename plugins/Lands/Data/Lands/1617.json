@@ -1,0 +1,136 @@
+{
+  "lt": 0,
+  "global": {
+    "n": "Default",
+    "rl": {
+      "0": {
+        "name": "\u00264Propriétaire",
+        "prio": 1000,
+        "icon": "PLAYER_HEAD"
+      },
+      "1": {
+        "name": "\u0026cAdministrateur",
+        "prio": 999,
+        "s": [
+          9,
+          7,
+          5,
+          10,
+          6,
+          0,
+          2,
+          3,
+          11,
+          4,
+          8,
+          15,
+          1
+        ],
+        "ms": [
+          5,
+          14,
+          1,
+          2,
+          12,
+          3,
+          6,
+          11,
+          4,
+          9,
+          15,
+          10
+        ],
+        "icon": "STONE_PICKAXE"
+      },
+      "2": {
+        "name": "\u0026eMembre",
+        "prio": 998,
+        "s": [
+          9,
+          7,
+          5,
+          10,
+          6,
+          0,
+          2,
+          3,
+          11,
+          4,
+          8,
+          15,
+          1
+        ],
+        "ms": [],
+        "icon": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjFhZGZkZjA3MTE3NWFkYWQ2NDRmZTRiM2E5NzMxYWM2YThmYTQ3NTExNjJlODEzOGM4OTlmYmFhNWZmMGI5In19fQ\u003d\u003d"
+      },
+      "3": {
+        "name": "\u00267Visiteur",
+        "prio": 0,
+        "s": [
+          15
+        ],
+        "ms": [],
+        "icon": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZThiOGM2YTQ2ZDg3Y2Y4NmE1NWRmMjE0Y2Y4NGJmNDVjY2EyNWVkYjlhNjc2ZTk2MzY0ZGQ2YTZlZWEyMzViMyJ9fX0\u003d"
+      }
+    },
+    "tr": [
+      "0ed854f4-2c2d-3558-9fc6-de98e42d004f:1",
+      "2bf5b82e-d8fe-3861-9da8-dcd44428ac05:1",
+      "19fd5a5c-922b-32a5-aa95-0be4962bca42:0",
+      "29ab0c5f-93dc-35d6-aa9e-0624192d1d47:1"
+    ],
+    "ls": [
+      5,
+      4
+    ],
+    "invs": [],
+    "tax": 0.0
+  },
+  "td": {
+    "0ed854f4-2c2d-3558-9fc6-de98e42d004f": {
+      "b": 1000000000
+    },
+    "2bf5b82e-d8fe-3861-9da8-dcd44428ac05": {
+      "b": 1000000000
+    },
+    "19fd5a5c-922b-32a5-aa95-0be4962bca42": {
+      "b": 100
+    },
+    "29ab0c5f-93dc-35d6-aa9e-0624192d1d47": {
+      "b": 1000000000
+    }
+  },
+  "n": "OZT",
+  "tax": 0.0,
+  "p_m": 1000000000,
+  "ct": 1578404494492,
+  "b": 0.0,
+  "tm": "\u00267Propriété de\u00263 %owner%\u00267.",
+  "spaw": "survie_new:7357.0:80.0:-692.0:-173.5708:37.049843",
+  "ib": [
+    {
+      "k": "player.join",
+      "t": 1578404494492,
+      "p": [
+        "{player}"
+      ],
+      "v": [
+        "AshOfWall"
+      ]
+    },
+    {
+      "k": "land.created",
+      "t": 1578404494492,
+      "p": [
+        "{land}"
+      ],
+      "v": [
+        "AshOfWall"
+      ]
+    }
+  ],
+  "limi": {
+    "lands.members": 1000000000
+  },
+  "ll": {}
+}

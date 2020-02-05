@@ -1,0 +1,49 @@
+currentQuests:
+- Un forgeron averti en vaux deux
+- Les Créatures de la nuit
+- Danger ! Creeper
+currentStages:
+- 1
+- 0
+- 0
+quest-points: 0
+questData:
+  Un forgeron averti en vaux deux:
+    item-delivery-amounts:
+    - 0
+  Les Créatures de la nuit:
+    mobs-killed:
+    - Spider
+    - Cave Spider
+    - Phantom
+    mobs-killed-amounts:
+    - 30
+    - 2
+    - 12
+  Danger ! Creeper:
+    mobs-killed:
+    - Creeper
+    mobs-killed-amounts:
+    - 10
+completed-Quests:
+- 'Le Protecteur : I'
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+completedRedoableQuests:
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+- 'Le Protecteur : I'
+completedQuestTimes:
+- 1566741951568
+- 1566745165074
+- 1566741855581
+amountsCompletedQuests:
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+- 'Le Protecteur : I'
+amountsCompleted:
+- 1
+- 1
+- 1
+hasJournal: true
+lastKnownName: Dragon1675

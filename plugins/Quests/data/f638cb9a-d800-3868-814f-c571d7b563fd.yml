@@ -1,0 +1,35 @@
+currentQuests:
+- Danger ! Creeper
+- 'Le Protecteur : III'
+currentStages:
+- 0
+- 0
+quest-points: 0
+questData:
+  Danger ! Creeper:
+    mobs-killed:
+    - Creeper
+    mobs-killed-amounts:
+    - 8
+  'Le Protecteur : III':
+    mobs-killed:
+    - Creeper
+    mobs-killed-amounts:
+    - 8
+completed-Quests:
+- 'Le Protecteur : I'
+- 'Le Protecteur : II'
+completedRedoableQuests:
+- 'Le Protecteur : II'
+- 'Le Protecteur : I'
+completedQuestTimes:
+- 1569515960721
+- 1569432347885
+amountsCompletedQuests:
+- 'Le Protecteur : II'
+- 'Le Protecteur : I'
+amountsCompleted:
+- 1
+- 1
+hasJournal: true
+lastKnownName: DVTspyce

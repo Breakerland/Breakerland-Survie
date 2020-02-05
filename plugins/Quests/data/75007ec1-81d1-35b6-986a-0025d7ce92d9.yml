@@ -1,0 +1,33 @@
+currentQuests:
+- Perte de conscience
+currentStages:
+- 3
+quest-points: 2
+questData:
+  Perte de conscience:
+    item-delivery-amounts:
+    - 0
+completed-Quests:
+- Globe
+- 'Le Protecteur : I'
+- Mange mon globe
+- Globiliums
+- 'Crafteur : I'
+completedRedoableQuests:
+- Mange mon globe
+- Globe
+- 'Le Protecteur : I'
+completedQuestTimes:
+- 1571042340233
+- 1571041638935
+- 1571041737549
+amountsCompletedQuests:
+- Mange mon globe
+- Globe
+- 'Le Protecteur : I'
+amountsCompleted:
+- 1
+- 2
+- 1
+hasJournal: true
+lastKnownName: pierro

@@ -1,0 +1,18 @@
+currentQuests:
+- 'Fermier : I'
+currentStages:
+- 0
+quest-points: 2
+questData:
+  'Fermier : I':
+    blocks-cut-names:
+    - WHEAT
+    blocks-cut-amounts:
+    - 0
+    blocks-cut-durability:
+    - 0
+completed-Quests:
+- 'Bûcheron : I'
+- 'Crafteur : I'
+hasJournal: false
+lastKnownName: Subfjzixhfnfkshd

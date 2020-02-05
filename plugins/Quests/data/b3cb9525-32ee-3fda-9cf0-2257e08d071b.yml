@@ -1,0 +1,29 @@
+currentQuests:
+- 'L''apiculture : I'
+- Mange mon globe
+currentStages:
+- 0
+- 0
+quest-points: 0
+questData:
+  'L''apiculture : I':
+    citizen-ids-to-talk-to:
+    - 181
+    - 182
+    - 183
+    - 184
+    has-talked-to:
+    - true
+    - false
+    - false
+    - false
+  Mange mon globe:
+    blocks-broken-names:
+    - STONE
+    blocks-broken-amounts:
+    - 0
+    blocks-broken-durability:
+    - 0
+completed-Quests: none
+hasJournal: true
+lastKnownName: renardenfeudu54

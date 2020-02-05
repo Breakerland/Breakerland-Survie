@@ -1,0 +1,46 @@
+currentQuests:
+- Les Créatures de la nuit
+- Une envie subite
+currentStages:
+- 0
+- 0
+quest-points: 0
+questData:
+  Les Créatures de la nuit:
+    mobs-killed:
+    - Spider
+    - Cave Spider
+    - Phantom
+    mobs-killed-amounts:
+    - 30
+    - 3
+    - 25
+  Une envie subite:
+    fish-caught: 0
+completed-Quests:
+- 'Le Protecteur : I'
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+- Danger ! Creeper
+completedRedoableQuests:
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+- Danger ! Creeper
+- 'Le Protecteur : I'
+completedQuestTimes:
+- 1566423060377
+- 1566472865074
+- 1567343509170
+- 1566422095737
+amountsCompletedQuests:
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+- Danger ! Creeper
+- 'Le Protecteur : I'
+amountsCompleted:
+- 1
+- 1
+- 1
+- 1
+hasJournal: false
+lastKnownName: ExE_MethyloR

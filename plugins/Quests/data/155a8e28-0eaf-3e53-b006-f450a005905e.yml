@@ -1,0 +1,47 @@
+currentQuests:
+- Les squelettes de l'ombre
+currentStages:
+- 0
+quest-points: 7
+questData:
+  Les squelettes de l'ombre:
+    mobs-killed:
+    - Stray
+    mobs-killed-amounts:
+    - 0
+completed-Quests:
+- 'Crafteur : I'
+- Danger ! Creeper
+- Collection de minerais
+- Etude des Zombies
+- Une envie subite
+- Alfred l'alchimiste !
+- Ils ont envoyé des zombies !
+completedRedoableQuests:
+- Danger ! Creeper
+- Alfred l'alchimiste !
+- Collection de minerais
+- Etude des Zombies
+- Une envie subite
+completedQuestTimes:
+- 1571240838809
+- 1571260555027
+- 1571241173117
+- 1571241350269
+- 1571247593381
+amountsCompletedQuests:
+- Danger ! Creeper
+- Alfred l'alchimiste !
+- Collection de minerais
+- Etude des Zombies
+- Un forgeron averti en vaux deux
+- Une envie subite
+amountsCompleted:
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+hasJournal: false
+lastKnownName: Oziroal

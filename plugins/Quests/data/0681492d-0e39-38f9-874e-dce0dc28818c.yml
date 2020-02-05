@@ -1,0 +1,24 @@
+currentQuests:
+- Tête en l'air
+- Zombiecalypse
+currentStages:
+- 0
+- 0
+quest-points: 1
+questData:
+  Tête en l'air:
+    item-delivery-amounts:
+    - 0
+  Zombiecalypse:
+    mobs-killed:
+    - Zombie
+    - Husk
+    - Drowned
+    mobs-killed-amounts:
+    - 12
+    - 5
+    - 4
+completed-Quests:
+- 'Bûcheron : I'
+hasJournal: false
+lastKnownName: ketsumochi

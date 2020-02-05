@@ -1,0 +1,47 @@
+currentQuests:
+- Mange mon globe
+- Une envie subite
+- Globiliums
+- 'Fermier : I'
+- 'Crafteur : I'
+- Globe
+currentStages:
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+quest-points: 0
+questData:
+  Mange mon globe:
+    blocks-broken-names:
+    - STONE
+    blocks-broken-amounts:
+    - 12
+    blocks-broken-durability:
+    - 0
+  Une envie subite:
+    fish-caught: 0
+  Globiliums:
+    mobs-killed:
+    - Zombie
+    mobs-killed-amounts:
+    - 0
+  'Fermier : I':
+    blocks-cut-names:
+    - WHEAT
+    blocks-cut-amounts:
+    - 0
+    blocks-cut-durability:
+    - 0
+  'Crafteur : I':
+    item-craft-amounts:
+    - 0
+  Globe:
+    item-delivery-amounts:
+    - 0
+    - 0
+completed-Quests: none
+hasJournal: true
+lastKnownName: Kalessia

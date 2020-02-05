@@ -1,0 +1,37 @@
+currentQuests:
+- Mange mon globe
+currentStages:
+- 0
+quest-points: 7
+questData:
+  Mange mon globe:
+    blocks-broken-names:
+    - STONE
+    blocks-broken-amounts:
+    - 0
+    blocks-broken-durability:
+    - 0
+completed-Quests:
+- Le Potager
+- 'L''apiculture : I'
+- Coloration
+- 'Fermier : I'
+- Un forgeron averti en vaut deux
+completedRedoableQuests:
+- Un forgeron averti en vaut deux
+- 'L''apiculture : I'
+- Coloration
+completedQuestTimes:
+- 1579369798529
+- 1579364812979
+- 1579365251081
+amountsCompletedQuests:
+- Un forgeron averti en vaut deux
+- 'L''apiculture : I'
+- Coloration
+amountsCompleted:
+- 2
+- 2
+- 2
+hasJournal: false
+lastKnownName: djm02

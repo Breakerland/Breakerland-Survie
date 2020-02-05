@@ -1,0 +1,32 @@
+currentQuests:
+- Une envie subite
+- Les Créatures de la nuit
+currentStages:
+- 1
+- 0
+quest-points: 0
+questData:
+  Une envie subite:
+    item-delivery-amounts:
+    - 1
+  Les Créatures de la nuit:
+    mobs-killed:
+    - Spider
+    - Cave Spider
+    - Phantom
+    mobs-killed-amounts:
+    - 5
+    - 5
+    - 2
+completed-Quests:
+- 'Le Protecteur : I'
+completedRedoableQuests:
+- 'Le Protecteur : I'
+completedQuestTimes:
+- 1566572693249
+amountsCompletedQuests:
+- 'Le Protecteur : I'
+amountsCompleted:
+- 1
+hasJournal: false
+lastKnownName: star30_

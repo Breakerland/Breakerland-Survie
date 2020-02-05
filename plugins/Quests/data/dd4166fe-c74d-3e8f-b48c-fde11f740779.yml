@@ -1,0 +1,16 @@
+currentQuests:
+- 'Le Papa Noël et ses embrouilles : I'
+currentStages:
+- 0
+quest-points: 0
+questData:
+  'Le Papa Noël et ses embrouilles : I':
+    item-delivery-amounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+completed-Quests: none
+hasJournal: false
+lastKnownName: Warsgunners34

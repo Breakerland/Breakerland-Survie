@@ -1,0 +1,49 @@
+currentQuests:
+- Zombiecalypse
+currentStages:
+- 0
+quest-points: 6
+questData:
+  Zombiecalypse:
+    mobs-killed:
+    - Zombie
+    - Husk
+    - Drowned
+    mobs-killed-amounts:
+    - 16
+    - 0
+    - 0
+completed-Quests:
+- 'Fermier : I'
+- Mange mon globe
+- Alfred l'alchimiste !
+- Collection de minerais
+- Etude des Zombies
+- Une envie subite
+- RRAAWRR !
+completedRedoableQuests:
+- Mange mon globe
+- Alfred l'alchimiste !
+- Collection de minerais
+- Etude des Zombies
+- Une envie subite
+completedQuestTimes:
+- 1571066258813
+- 1571266260870
+- 1571266967447
+- 1571267024397
+- 1571300673789
+amountsCompletedQuests:
+- Mange mon globe
+- Alfred l'alchimiste !
+- Collection de minerais
+- Etude des Zombies
+- Une envie subite
+amountsCompleted:
+- 1
+- 1
+- 1
+- 1
+- 1
+hasJournal: false
+lastKnownName: MyNameIs42

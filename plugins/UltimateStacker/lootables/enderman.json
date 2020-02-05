@@ -1,0 +1,12 @@
+{
+  "Type": "ENDERMAN",
+  "Loot": [
+    {
+      "Type": "ENDER_PEARL",
+      "Chance": 100.0,
+      "Min": 0,
+      "Max": 1,
+      "Looting": true
+    }
+  ]
+}

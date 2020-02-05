@@ -1,0 +1,108 @@
+currentQuests:
+- Un morceau de ciel ?
+- 'Fermier : I'
+currentStages:
+- 0
+- 0
+quest-points: 24
+questData:
+  Un morceau de ciel ?:
+    mobs-killed:
+    - Phantom
+    mobs-killed-amounts:
+    - 4
+  'Fermier : I':
+    blocks-cut-names:
+    - WHEAT
+    blocks-cut-amounts:
+    - 0
+    blocks-cut-durability:
+    - 0
+completed-Quests:
+- 'Lutin : I'
+- 'Lutin : II'
+- 'Lutin : III'
+- 'Lutin : IV'
+- 'Lutin : V'
+- Une envie subite
+- Mange mon globe
+- 'Bûcheron : I'
+- Une pioche spéciale
+- Globe
+- 'Le Centenaire : I'
+- 'Crafteur : I'
+- Globiliums
+- Besoin de pleins de Nonos
+- Descente aux Enfers !
+completedRedoableQuests:
+- Mange mon globe
+- Besoin de pleins de Nonos
+- 'Lutin : I'
+- Globe
+- 'Lutin : V'
+- 'Lutin : II'
+- Une envie subite
+- 'Lutin : IV'
+- 'Lutin : III'
+completedQuestTimes:
+- 1580569630630
+- 1579798221057
+- 1575416187891
+- 1580569514661
+- 1575416406407
+- 1575416238425
+- 1575422196495
+- 1575416349129
+- 1575416254037
+amountsCompletedQuests:
+- 'Le Protecteur : II'
+- 'Lutin : I'
+- Zombiecalypse
+- Les Créatures de la nuit
+- Collection de minerais
+- 'Le Papa Noël et ses embrouilles : IV'
+- 'Lutin : II'
+- 'Le Papa Noël et ses embrouilles : III'
+- Un forgeron averti en vaut deux
+- 'Le Papa Noël et ses embrouilles : V'
+- 'Lutin : III'
+- 'Le Protecteur : III'
+- Danger ! Creeper
+- Mange mon globe
+- Besoin de pleins de Nonos
+- Globe
+- 'Lutin : V'
+- Un forgeron averti en vaux deux
+- 'Le Papa Noël et ses embrouilles : I'
+- Une envie subite
+- 'Lutin : IV'
+- 'Le Protecteur : I'
+- Coloration
+- 'Le Papa Noël et ses embrouilles : II'
+amountsCompleted:
+- 1
+- 2
+- 1
+- 1
+- 1
+- 1
+- 3
+- 1
+- 1
+- 1
+- 2
+- 1
+- 2
+- 14
+- 1
+- 12
+- 1
+- 1
+- 3
+- 1
+- 1
+- 1
+- 1
+- 1
+hasJournal: false
+lastKnownName: Haru_M

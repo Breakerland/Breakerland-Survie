@@ -1,0 +1,96 @@
+# InfoBoardReborn Board file
+# ===============================================================================================
+# |                                  FOR 1.12.2 AND BELOW                                       |
+# |---------------------------------------------------------------------------------------------|
+# |                                Max Rows for a board is 15                                   |
+# |                            Max characters for a title is 32                                 |
+# |                             Max characters for a line is 48                                 |
+# |---------------------------------------------------------------------------------------------|
+# |                                  FOR 1.13 AND ABOVE                                         |
+# |                              Max Rows for a board is 15                                     |
+# |                                                                                             |
+# |                               Cumming soon: INFINITE RANGE                                  |
+# |                            Max characters for a title is  XX                                |
+# |                             Max characters for a line is  XX                                |
+# |---------------------------------------------------------------------------------------------|
+# |               When using scroll there is no limit for characters per line                   |
+# |=============================================================================================|
+# |=============================================================================================|
+# |                                        Example                                              |
+# |---------------------------------------------------------------------------------------------|
+# |InfoBoard:                                                                                   |
+# |  '1':                                                                                       |
+# |    ShowTime: 10                                           # How Long this page is shown for |
+# |    global:                                        # What world sees this page (global = All)|
+# |      default:                        # What Permissions group sees this page (default = All)|
+# |        Title: '&4&lKtarLalaLand'                                                            |
+# |         Rows:                                                                               |
+# |         - ' '                                                                               |
+# |         - 'This board is seen by everyone'                                                  |
+# |         - 'That isn''t in Admin'                                                            |
+# |      Admin:                                                                                 |
+# |        Title: '&4&lAdmin Page'                                                              |
+# |        Rows:                                                                                |
+# |        - ' '                                                                                |
+# |        - 'This board is only'                                                               |
+# |        - 'seen by Admins'                                                                   |
+# |  '2':                                                                                       |
+# |    ShowTime: 5                                                                              |
+# |    world:                                                                                   |
+# |      default:                                                                               |
+# |        Title: '&a&lStats'                                                                   |
+# |         Rows:                                                                               |
+# |         - 'Online Players: ; %server_online%'      # Splitting a line can be done by using ;|
+# |         - 'Money: ; %vault_eco_balance%'                                                    |
+# |    world_the_nether:                                                                        |
+# |      default:                                                                               |
+# |        Title: '&a&lNether'                                                                  |
+# |         Rows:                                                                               |
+# |         - 'Your Level:'                                                                     |_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+# |         - '~!%player_level%' # Will only display if %player_level% isn't "0" or "Unknown" or one of many other empty values |
+# ===============================================================================================================================
+InfoBoard:
+  '1':
+    ShowTime: 20
+    global:
+      default:
+        Title: '&7»  &6&lBreakerLand  &7« '
+        Rows:
+        - ' '
+        - '&3&lArgent:'
+        - '&e%vault_eco_balance_fixed% β'
+        - ' '
+        - '&3&lJoueurs'
+        - '&e%bungee_total%&f/&a60'
+        - ' '
+        - '&3&lMorts:'
+        - '&c%statistic_deaths%'
+  '2':
+    ShowTime: 20
+    global:
+      default:
+        Title: '&7»  &6&lBreakerLand  &7« '
+        Rows:
+        - '&3&lIP:'
+        - '&6&lBreakerland.fr'        
+        - ' '
+        - '&c&lMétier:'
+        - '%jobs_format%'
+        - ' '
+        - '&2&lLvl du métier:'
+        - '%jobs_total_levels%'
+  '3':
+    ShowTime: 20
+    global:
+      default:
+        Title: '&7»  &6&lBreakerLand  &7« '
+        Rows:
+        - ' '
+        - '&3&lQuête:'
+        - '%quests_player_current_quest_names%'
+        - ' '
+        - '&3&lPoints de quête:'
+        - '%quests_player_quest_points%'
+        - ' '
+        - '&3&lBesoin d''aide ?'
+        - '/rules'

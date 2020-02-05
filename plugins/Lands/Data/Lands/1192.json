@@ -1,0 +1,153 @@
+{
+  "lt": 0,
+  "global": {
+    "n": "Global",
+    "rl": {
+      "0": {
+        "name": "\u00264Owner",
+        "prio": 1000,
+        "icon": "PLAYER_HEAD"
+      },
+      "1": {
+        "name": "\u0026cAdmin",
+        "prio": 999,
+        "s": [
+          10
+        ],
+        "ms": [],
+        "icon": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2UzZmVhODhlMmI4NWNjZGZiMWIzODcyOTgyZWFlMTY0ODlhODRjNjgxYmQ5ZmU0ZmU5YmM4YmNjMmU1In19fQ\u003d\u003d"
+      },
+      "2": {
+        "name": "\u0026eMember",
+        "prio": 998,
+        "s": [
+          15,
+          0,
+          8,
+          1,
+          5,
+          10,
+          6
+        ],
+        "ms": [
+          5,
+          15
+        ],
+        "icon": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjFhZGZkZjA3MTE3NWFkYWQ2NDRmZTRiM2E5NzMxYWM2YThmYTQ3NTExNjJlODEzOGM4OTlmYmFhNWZmMGI5In19fQ\u003d\u003d"
+      },
+      "3": {
+        "name": "\u00267Visitor",
+        "prio": 0,
+        "s": [
+          15,
+          10
+        ],
+        "ms": [
+          5
+        ],
+        "icon": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZThiOGM2YTQ2ZDg3Y2Y4NmE1NWRmMjE0Y2Y4NGJmNDVjY2EyNWVkYjlhNjc2ZTk2MzY0ZGQ2YTZlZWEyMzViMyJ9fX0\u003d"
+      }
+    },
+    "tr": [
+      "d448283f-128a-3c4c-9a2c-06e0df877eaa:0",
+      "72f2a0f3-56af-3c85-9f52-eedda6f2a964:2"
+    ],
+    "ls": [
+      5,
+      4
+    ],
+    "invs": [],
+    "tax": 0.0
+  },
+  "td": {
+    "d448283f-128a-3c4c-9a2c-06e0df877eaa": {
+      "b": 0
+    },
+    "72f2a0f3-56af-3c85-9f52-eedda6f2a964": {
+      "b": 0
+    }
+  },
+  "n": "Eldaskali",
+  "tax": 0.0,
+  "p_m": 0,
+  "ct": 1574522190900,
+  "b": 0.0,
+  "tm": "Ásgard nous attend",
+  "spaw": "survie_new:12808.723805431542:71.0625:6766.499947525072:-90.15009:-1.1999689",
+  "ib": [
+    {
+      "k": "player.join",
+      "t": 1575821431978,
+      "p": [
+        "{player}"
+      ],
+      "v": [
+        "Ekiliox"
+      ]
+    },
+    {
+      "k": "player.join",
+      "t": 1575141199134,
+      "p": [
+        "{date}",
+        "{player}"
+      ],
+      "v": [
+        "30/11/2019 08:13:19",
+        "AtomiK45"
+      ]
+    },
+    {
+      "k": "player.join",
+      "t": 1574525192189,
+      "p": [
+        "{date}",
+        "{player}"
+      ],
+      "v": [
+        "23/11/2019 05:06:32",
+        "Minebark"
+      ]
+    },
+    {
+      "k": "player.join",
+      "t": 1574522854916,
+      "p": [
+        "{date}",
+        "{player}"
+      ],
+      "v": [
+        "23/11/2019 04:27:34",
+        "Ekiliox"
+      ]
+    },
+    {
+      "k": "player.join",
+      "t": 1574522840387,
+      "p": [
+        "{date}",
+        "{player}"
+      ],
+      "v": [
+        "23/11/2019 04:27:20",
+        "Minebark"
+      ]
+    },
+    {
+      "k": "land.created",
+      "t": 1574522190900,
+      "p": [
+        "{date}",
+        "{land}"
+      ],
+      "v": [
+        "23/11/2019 04:16:30",
+        "Stebanou"
+      ]
+    }
+  ],
+  "limi": {
+    "lands.members": 0
+  },
+  "ll": {}
+}

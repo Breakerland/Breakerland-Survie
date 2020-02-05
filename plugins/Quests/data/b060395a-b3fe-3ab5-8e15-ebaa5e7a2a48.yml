@@ -1,0 +1,68 @@
+currentQuests:
+- 'Le Protecteur : III'
+- 'Le Protecteur : I'
+- Un forgeron averti en vaux deux
+- Les Créatures de la nuit
+- Une envie subite
+- Danger ! Creeper
+currentStages:
+- 0
+- 1
+- 1
+- 0
+- 1
+- 0
+quest-points: 0
+questData:
+  'Le Protecteur : III':
+    mobs-killed:
+    - Creeper
+    mobs-killed-amounts:
+    - 3
+  'Le Protecteur : I':
+    citizen-ids-to-talk-to:
+    - 4
+    has-talked-to:
+    - false
+  Un forgeron averti en vaux deux:
+    item-delivery-amounts:
+    - 0
+  Les Créatures de la nuit:
+    mobs-killed:
+    - Spider
+    - Cave Spider
+    - Phantom
+    mobs-killed-amounts:
+    - 10
+    - 0
+    - 0
+  Une envie subite:
+    item-delivery-amounts:
+    - 0
+  Danger ! Creeper:
+    mobs-killed:
+    - Creeper
+    mobs-killed-amounts:
+    - 3
+completed-Quests:
+- Une envie subite
+- 'Le Protecteur : I'
+- 'Le Protecteur : II'
+completedRedoableQuests:
+- 'Le Protecteur : II'
+- Une envie subite
+- 'Le Protecteur : I'
+completedQuestTimes:
+- 1567964978524
+- 1567607106953
+- 1567607265828
+amountsCompletedQuests:
+- 'Le Protecteur : II'
+- Une envie subite
+- 'Le Protecteur : I'
+amountsCompleted:
+- 1
+- 2
+- 1
+hasJournal: false
+lastKnownName: gobtout

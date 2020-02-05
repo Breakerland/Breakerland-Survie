@@ -1,0 +1,11 @@
+database:
+  filename: chunkmaster.db
+generation:
+  ignore-worldborder: true
+  period: 2
+  chunks-per-step: 10
+  chunk-skips-per-step: 100
+  mspt-pause-threshold: 500
+  pause-on-join: true
+  max-pending-chunks: 10
+  max-loaded-chunks: 10

@@ -1,0 +1,96 @@
+currentQuests:
+- RRAAWRR !
+- Zombiecalypse
+- Le Vol
+- Les Créatures de la nuit
+currentStages:
+- 1
+- 0
+- 0
+- 0
+quest-points: 5
+questData:
+  RRAAWRR !:
+    mobs-killed:
+    - Zombie
+    - Husk
+    - Zombie Villager
+    - Drowned
+    mobs-killed-amounts:
+    - 30
+    - 10
+    - 3
+    - 5
+  Zombiecalypse:
+    mobs-killed:
+    - Zombie
+    - Husk
+    - Drowned
+    mobs-killed-amounts:
+    - 30
+    - 30
+    - 7
+  Le Vol:
+    item-delivery-amounts:
+    - 1
+    - 0
+  Les Créatures de la nuit:
+    mobs-killed:
+    - Spider
+    - Cave Spider
+    - Phantom
+    mobs-killed-amounts:
+    - 30
+    - 20
+    - 29
+completed-Quests:
+- 'Le Protecteur : I'
+- 'Le Protecteur : II'
+- Etude des Zombies
+- 'Le Protecteur : III'
+- Danger ! Creeper
+- Collection de minerais
+- Alfred l'alchimiste !
+- Une envie subite
+- 'Fermier : I'
+- Le Potager
+completedRedoableQuests:
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+- Danger ! Creeper
+- Alfred l'alchimiste !
+- Collection de minerais
+- Etude des Zombies
+- Une envie subite
+- 'Le Protecteur : I'
+completedQuestTimes:
+- 1567894179417
+- 1568472442647
+- 1571600117018
+- 1571603671721
+- 1571603608469
+- 1567968330468
+- 1571604212400
+- 1567891018466
+amountsCompletedQuests:
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+- Danger ! Creeper
+- Alfred l'alchimiste !
+- Collection de minerais
+- Etude des Zombies
+- Un forgeron averti en vaux deux
+- Une envie subite
+- 'Le Protecteur : I'
+amountsCompleted:
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+hasJournal: true
+lastKnownName: Zougless

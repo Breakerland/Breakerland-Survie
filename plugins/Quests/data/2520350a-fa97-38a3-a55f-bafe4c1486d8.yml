@@ -1,0 +1,25 @@
+currentQuests: none
+currentStages: none
+quest-points: 3
+completed-Quests:
+- Un forgeron averti en vaut deux
+- 'Le Protecteur : I'
+- Une envie subite
+completedRedoableQuests:
+- Un forgeron averti en vaut deux
+- Une envie subite
+- 'Le Protecteur : I'
+completedQuestTimes:
+- 1580646806214
+- 1580652532685
+- 1580652475657
+amountsCompletedQuests:
+- Un forgeron averti en vaut deux
+- Une envie subite
+- 'Le Protecteur : I'
+amountsCompleted:
+- 1
+- 1
+- 1
+hasJournal: true
+lastKnownName: Starlock_1

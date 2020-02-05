@@ -1,0 +1,48 @@
+currentQuests: none
+currentStages: none
+quest-points: 8
+completed-Quests:
+- 'Le Protecteur : I'
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+- 'Crafteur : I'
+- Danger ! Creeper
+- Les Créatures de la nuit
+- Zombiecalypse
+- Globe
+completedRedoableQuests:
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+- Danger ! Creeper
+- Globe
+- Zombiecalypse
+- Les Créatures de la nuit
+- 'Le Protecteur : I'
+completedQuestTimes:
+- 1570297357350
+- 1570372891142
+- 1570909051699
+- 1573293788573
+- 1573245701193
+- 1571763466734
+- 1570296059064
+amountsCompletedQuests:
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+- Danger ! Creeper
+- Globe
+- Zombiecalypse
+- Les Créatures de la nuit
+- Un forgeron averti en vaux deux
+- 'Le Protecteur : I'
+amountsCompleted:
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+hasJournal: false
+lastKnownName: HeFk

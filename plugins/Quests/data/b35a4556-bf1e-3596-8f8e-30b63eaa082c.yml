@@ -1,0 +1,63 @@
+currentQuests: none
+currentStages: none
+quest-points: 12
+completed-Quests:
+- Collection de minerais
+- Etude des Zombies
+- 'Crafteur : I'
+- Un forgeron averti en vaut deux
+- 'Le Protecteur : I'
+- 'Le Protecteur : II'
+- 'Bûcheron : I'
+- Perte de conscience
+- Alfred l'alchimiste !
+- Besoin de plein de nonos
+- Mange mon globe
+- Une envie subite
+- Hugo à la recherche de l'Oeuf Magique
+completedRedoableQuests:
+- 'Le Protecteur : II'
+- Mange mon globe
+- Alfred l'alchimiste !
+- Collection de minerais
+- Perte de conscience
+- Etude des Zombies
+- Besoin de plein de nonos
+- Un forgeron averti en vaut deux
+- Une envie subite
+- 'Le Protecteur : I'
+completedQuestTimes:
+- 1573561888359
+- 1573581933777
+- 1573574622209
+- 1573491215082
+- 1573573968944
+- 1573491436223
+- 1573575014691
+- 1573561617923
+- 1573582697826
+- 1573561787799
+amountsCompletedQuests:
+- 'Le Protecteur : II'
+- Mange mon globe
+- Alfred l'alchimiste !
+- Collection de minerais
+- Perte de conscience
+- Etude des Zombies
+- Besoin de plein de nonos
+- Un forgeron averti en vaut deux
+- Une envie subite
+- 'Le Protecteur : I'
+amountsCompleted:
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+hasJournal: false
+lastKnownName: Maitre_Denver

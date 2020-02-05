@@ -1,0 +1,34 @@
+currentQuests:
+- 'Le Protecteur : I'
+- 'Le Protecteur : II'
+- Une envie subite
+currentStages:
+- 1
+- 0
+- 1
+quest-points: 0
+questData:
+  'Le Protecteur : I':
+    citizen-ids-to-talk-to:
+    - 98
+    - 4
+    has-talked-to:
+    - false
+    - false
+  'Le Protecteur : II':
+    citizen-ids-to-talk-to:
+    - 98
+    - 4
+    has-talked-to:
+    - false
+    - false
+  Une envie subite:
+    item-delivery-amounts:
+    - 4
+completed-Quests: none
+amountsCompletedQuests:
+- Un forgeron averti en vaux deux
+amountsCompleted:
+- 1
+hasJournal: true
+lastKnownName: xSeventiies

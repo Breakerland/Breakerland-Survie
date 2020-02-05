@@ -1,0 +1,164 @@
+currentQuests: none
+currentStages: none
+quest-points: 58
+completed-Quests:
+- 'Crafteur : I'
+- 'Bûcheron : I'
+- Le Potager
+- Perte de conscience
+- Zombiecalypse
+- Ils ont envoyé des zombies !
+- Collection de minerais
+- 'Le Centenaire : I'
+- 'Le Centenaire : II'
+- 'Fermier : I'
+- Camédecin
+- Alfred l'alchimiste !
+- Coloration
+- Un forgeron averti en vaut deux
+- Hugo à la recherche de l'Oeuf Magique
+- Le Vol
+- Une envie subite
+- 'Le Protecteur : I'
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+- Science folle
+- Besoin de pleins de Nonos
+- Etude des Zombies
+- Danger ! Creeper
+- 'Chercheur avisé : I'
+- 'Chercheur avisé : II'
+- 'Chercheur avisé : III'
+- Le Recueil
+- La Bourde !
+- Tomber sur un os
+- 'L''apiculture : I'
+- Tête en l'air
+- 'Il fait soif : I'
+- 'Il fait soif : II'
+- Comment être un bon dresseur ?
+- Descente aux Enfers !
+- La nuit sera courte
+- Préparation à la Fin
+- La fin sans fin
+- Défenseur !
+- RRAAWRR !
+- Mange mon globe
+- Globiliums
+- Carnivore
+- De la chaire en décomposition
+- Les Créatures de la nuit
+completedRedoableQuests:
+- 'Le Protecteur : II'
+- 'Il fait soif : I'
+- Zombiecalypse
+- Un forgeron averti en vaut deux
+- De la chaire en décomposition
+- 'L''apiculture : I'
+- Besoin de pleins de Nonos
+- Défenseur !
+- Tête en l'air
+- Coloration
+- 'Le Protecteur : I'
+- Tomber sur un os
+- Collection de minerais
+- Les Créatures de la nuit
+- Le Recueil
+- Etude des Zombies
+- Carnivore
+- 'Chercheur avisé : I'
+- 'Le Protecteur : III'
+- Danger ! Creeper
+- Mange mon globe
+- La Bourde !
+- 'Chercheur avisé : II'
+- Alfred l'alchimiste !
+- Perte de conscience
+- Une envie subite
+- 'Chercheur avisé : III'
+completedQuestTimes:
+- 1577450784741
+- 1577874473228
+- 1577188628385
+- 1577379154393
+- 1580632781725
+- 1578779463469
+- 1577514889853
+- 1578090908557
+- 1578779941310
+- 1577379081796
+- 1577450259455
+- 1577742005160
+- 1578001405963
+- 1580922037813
+- 1577740339812
+- 1577514923916
+- 1580631294776
+- 1577537788649
+- 1577514500154
+- 1577536657234
+- 1580755611136
+- 1577741759771
+- 1577542149376
+- 1577378023143
+- 1577537233041
+- 1577449960796
+- 1577739565218
+amountsCompletedQuests:
+- 'Le Protecteur : II'
+- 'Il fait soif : I'
+- Zombiecalypse
+- Un forgeron averti en vaut deux
+- De la chaire en décomposition
+- 'L''apiculture : I'
+- Besoin de pleins de Nonos
+- Défenseur !
+- Tête en l'air
+- Coloration
+- 'Le Protecteur : I'
+- Tomber sur un os
+- Collection de minerais
+- Les Créatures de la nuit
+- Le Recueil
+- Etude des Zombies
+- Carnivore
+- 'Chercheur avisé : I'
+- 'Le Protecteur : III'
+- Danger ! Creeper
+- Mange mon globe
+- La Bourde !
+- 'Chercheur avisé : II'
+- Alfred l'alchimiste !
+- Perte de conscience
+- Une envie subite
+- 'Chercheur avisé : III'
+amountsCompleted:
+- 1
+- 1
+- 1
+- 1
+- 1
+- 2
+- 1
+- 1
+- 2
+- 1
+- 1
+- 1
+- 2
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 2
+- 1
+- 1
+- 1
+- 2
+- 1
+- 1
+hasJournal: true
+lastKnownName: Max_Le_Max

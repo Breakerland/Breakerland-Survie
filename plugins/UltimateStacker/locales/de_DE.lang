@@ -1,0 +1,16 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&8[&6UltimateStacker&8]'
+# Command Messages
+command:
+  give:
+    success: '&7Dir wurde ein &6%type%&7 gegeben.'
+# Event Messages
+event:
+  general:
+    nopermission: '&cDu hast keine Berechtigung dafür.'
+  egg:
+    needmore: '&7Du brauchst &6%amount% &7Monstereier, um diesen Spawner zu konvertieren.'
+    sametype: '&7Dieser Spawner spawnt bereits &6%type%s&7.'

@@ -1,0 +1,14 @@
+currentQuests:
+- '§5Les Enfers : I'
+currentStages:
+- 0
+quest-points: 0
+questData:
+  '§5Les Enfers : I':
+    mobs-killed:
+    - Wither
+    mobs-killed-amounts:
+    - 0
+completed-Quests: none
+hasJournal: false
+lastKnownName: xmaxdcite

@@ -1,0 +1,223 @@
+{
+  "lt": 0,
+  "global": {
+    "n": "Global",
+    "rl": {
+      "0": {
+        "name": "\u00264Propriétaire",
+        "prio": 1000,
+        "icon": "PLAYER_HEAD"
+      },
+      "1": {
+        "name": "\u0026cAdministrateur",
+        "prio": 999,
+        "s": [
+          9,
+          7,
+          5,
+          10,
+          6,
+          0,
+          2,
+          3,
+          11,
+          4,
+          8,
+          15,
+          1
+        ],
+        "ms": [
+          1,
+          2,
+          12,
+          3,
+          11,
+          9,
+          15,
+          10
+        ],
+        "icon": "END_CRYSTAL"
+      },
+      "2": {
+        "name": "\u0026eMembre",
+        "prio": 998,
+        "s": [
+          9,
+          7,
+          5,
+          10,
+          6,
+          0,
+          2,
+          3,
+          11,
+          4,
+          8,
+          15,
+          1
+        ],
+        "ms": [],
+        "icon": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjFhZGZkZjA3MTE3NWFkYWQ2NDRmZTRiM2E5NzMxYWM2YThmYTQ3NTExNjJlODEzOGM4OTlmYmFhNWZmMGI5In19fQ\u003d\u003d"
+      },
+      "3": {
+        "name": "\u00267Visiteur",
+        "prio": 0,
+        "s": [
+          15
+        ],
+        "ms": [],
+        "icon": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZThiOGM2YTQ2ZDg3Y2Y4NmE1NWRmMjE0Y2Y4NGJmNDVjY2EyNWVkYjlhNjc2ZTk2MzY0ZGQ2YTZlZWEyMzViMyJ9fX0\u003d"
+      }
+    },
+    "tr": [
+      "4339a65c-7d3d-3b98-9cf0-83e88892032e:0",
+      "fb1ce5a5-0751-34e1-b0fe-2791c015e936:2",
+      "bdccd7c0-d924-3f6c-a006-ba04d8529248:2",
+      "bb9024a7-e30f-34df-88e9-90e1ffcf60ed:2",
+      "ed8beec2-84ec-3138-9c75-cca4dcb205f0:2"
+    ],
+    "ls": [
+      1,
+      4
+    ],
+    "invs": [],
+    "tax": 0.0
+  },
+  "td": {
+    "4339a65c-7d3d-3b98-9cf0-83e88892032e": {
+      "b": 1000000000
+    },
+    "fb1ce5a5-0751-34e1-b0fe-2791c015e936": {
+      "b": 1000000000
+    },
+    "bdccd7c0-d924-3f6c-a006-ba04d8529248": {
+      "b": 1000000000
+    },
+    "bb9024a7-e30f-34df-88e9-90e1ffcf60ed": {
+      "b": 1000000000
+    },
+    "ed8beec2-84ec-3138-9c75-cca4dcb205f0": {
+      "b": 1000000000
+    }
+  },
+  "n": "Isaorya",
+  "tax": 0.0,
+  "p_m": 1000000000,
+  "ct": 1572122631822,
+  "b": 0.0,
+  "tm": "\u00267Propriété de\u0026b %owner%\u00267.",
+  "ib": [
+    {
+      "k": "player.join",
+      "t": 1572631750209,
+      "p": [
+        "{date}",
+        "{player}"
+      ],
+      "v": [
+        "01/11/2019 07:09:10",
+        "IntegraleEpice"
+      ]
+    },
+    {
+      "k": "player.join",
+      "t": 1572551745863,
+      "p": [
+        "{date}",
+        "{player}"
+      ],
+      "v": [
+        "31/10/2019 08:55:45",
+        "_Mr_Panda__"
+      ]
+    },
+    {
+      "k": "player.join",
+      "t": 1572212449787,
+      "p": [
+        "{date}",
+        "{player}"
+      ],
+      "v": [
+        "27/10/2019 10:40:49",
+        "heaven84"
+      ]
+    },
+    {
+      "k": "player.join",
+      "t": 1572204455671,
+      "p": [
+        "{date}",
+        "{player}"
+      ],
+      "v": [
+        "27/10/2019 08:27:35",
+        "SpecKtrum"
+      ]
+    },
+    {
+      "k": "player.join",
+      "t": 1572204452497,
+      "p": [
+        "{date}",
+        "{player}"
+      ],
+      "v": [
+        "27/10/2019 08:27:32",
+        "Zeleniel"
+      ]
+    },
+    {
+      "k": "player.join",
+      "t": 1572204434882,
+      "p": [
+        "{date}",
+        "{player}"
+      ],
+      "v": [
+        "27/10/2019 08:27:14",
+        "Atomyk71"
+      ]
+    },
+    {
+      "k": "player.join",
+      "t": 1572204416828,
+      "p": [
+        "{date}",
+        "{player}"
+      ],
+      "v": [
+        "27/10/2019 08:26:56",
+        "_MikasaEsSuCasa_"
+      ]
+    },
+    {
+      "k": "player.join",
+      "t": 1572124622792,
+      "p": [
+        "{date}",
+        "{player}"
+      ],
+      "v": [
+        "26/10/2019 11:17:02",
+        "Ewigheden"
+      ]
+    },
+    {
+      "k": "land.created",
+      "t": 1572122631823,
+      "p": [
+        "{date}",
+        "{land}"
+      ],
+      "v": [
+        "26/10/2019 10:43:51",
+        "Isaorya"
+      ]
+    }
+  ],
+  "limi": {
+    "lands.members": 1000000000
+  },
+  "ll": {}
+}

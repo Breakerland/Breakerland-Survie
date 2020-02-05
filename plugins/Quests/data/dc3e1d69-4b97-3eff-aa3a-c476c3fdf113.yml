@@ -1,0 +1,63 @@
+currentQuests:
+- Les Créatures de la nuit
+- Mange mon globe
+currentStages:
+- 0
+- 0
+quest-points: 1
+questData:
+  Les Créatures de la nuit:
+    mobs-killed:
+    - Spider
+    - Cave Spider
+    - Phantom
+    mobs-killed-amounts:
+    - 30
+    - 20
+    - 7
+  Mange mon globe:
+    blocks-broken-names:
+    - STONE
+    blocks-broken-amounts:
+    - 0
+    blocks-broken-durability:
+    - 0
+completed-Quests:
+- 'Le Protecteur : I'
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+- Danger ! Creeper
+- Une envie subite
+- Alfred l'alchimiste !
+completedRedoableQuests:
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+- Danger ! Creeper
+- Alfred l'alchimiste !
+- Une envie subite
+- 'Le Protecteur : I'
+completedQuestTimes:
+- 1569100402444
+- 1569144035241
+- 1569518671389
+- 1573655403873
+- 1569523698538
+- 1569087842813
+amountsCompletedQuests:
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+- Danger ! Creeper
+- Alfred l'alchimiste !
+- Un forgeron averti en vaux deux
+- Une envie subite
+- 'Le Protecteur : I'
+amountsCompleted:
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+hasJournal: true
+lastKnownName: AlphaFox_FR

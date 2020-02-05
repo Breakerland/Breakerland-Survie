@@ -1,0 +1,12 @@
+{
+  "Type": "SLIME",
+  "Loot": [
+    {
+      "Type": "SLIME_BALL",
+      "Chance": 100.0,
+      "Min": 0,
+      "Max": 2,
+      "Looting": true
+    }
+  ]
+}

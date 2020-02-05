@@ -1,0 +1,20 @@
+{
+  "lands": [
+    "231:survie_new",
+    "572:survie_new"
+  ],
+  "stamps": {
+    "lout": 1578142144785,
+    "cd_m": 0,
+    "cd_w": 1572197247142,
+    "cd_r": 1567531146645,
+    "cd_s": 0,
+    "cd_ct": 1572096367407
+  },
+  "el": "Arouf:survie_new",
+  "in": [],
+  "ct": false,
+  "pt": 0,
+  "mc": 32,
+  "msc": 3
+}

@@ -1,0 +1,21 @@
+currentQuests:
+- Avant départ
+- 'Le Protecteur : I'
+currentStages:
+- 2
+- 0
+quest-points: 0
+questData:
+  Avant départ:
+    passwords:
+    - Que fait le corbeau ?
+    passwords-said:
+    - false
+  'Le Protecteur : I':
+    mobs-killed:
+    - Zombie
+    mobs-killed-amounts:
+    - 7
+completed-Quests: none
+hasJournal: true
+lastKnownName: Benzzaie

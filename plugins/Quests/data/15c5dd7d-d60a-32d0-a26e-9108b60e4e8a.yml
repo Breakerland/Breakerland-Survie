@@ -1,0 +1,37 @@
+currentQuests: none
+currentStages: none
+quest-points: 4
+completed-Quests:
+- Globe
+- 'Crafteur : I'
+- Globiliums
+- Mange mon globe
+- Etude des Zombies
+- Alfred l'alchimiste !
+- Collection de minerais
+completedRedoableQuests:
+- Mange mon globe
+- Globe
+- Alfred l'alchimiste !
+- Collection de minerais
+- Etude des Zombies
+completedQuestTimes:
+- 1572427297374
+- 1572375296736
+- 1572437077872
+- 1572437346454
+- 1572436924776
+amountsCompletedQuests:
+- Mange mon globe
+- Globe
+- Alfred l'alchimiste !
+- Collection de minerais
+- Etude des Zombies
+amountsCompleted:
+- 1
+- 1
+- 1
+- 1
+- 1
+hasJournal: true
+lastKnownName: HatsuHaruuu

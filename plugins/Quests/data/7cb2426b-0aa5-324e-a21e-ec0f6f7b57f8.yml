@@ -1,0 +1,39 @@
+currentQuests:
+- 'L''apiculture : I'
+currentStages:
+- 0
+quest-points: 0
+questData:
+  'L''apiculture : I':
+    citizen-ids-to-talk-to:
+    - 181
+    - 182
+    - 183
+    - 184
+    has-talked-to:
+    - true
+    - false
+    - false
+    - false
+completed-Quests:
+- 'Le Protecteur : I'
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+completedRedoableQuests:
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+- 'Le Protecteur : I'
+completedQuestTimes:
+- 1566061946418
+- 1567093308453
+- 1565971820071
+amountsCompletedQuests:
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+- 'Le Protecteur : I'
+amountsCompleted:
+- 1
+- 1
+- 1
+hasJournal: true
+lastKnownName: KertyBro

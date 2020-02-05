@@ -1,0 +1,22 @@
+{
+  "lands": [
+    "1173:survie_new",
+    "1407:survie_new"
+  ],
+  "stamps": {
+    "lout": 1578149603349,
+    "cd_m": 1577516802370,
+    "cd_w": 1577971739584,
+    "cd_r": 1577516148270,
+    "cd_s": 0
+  },
+  "el": "Lowiland:survie_new",
+  "in": [
+    835,
+    1491
+  ],
+  "ct": false,
+  "pt": 0,
+  "mc": 100,
+  "msc": 0
+}

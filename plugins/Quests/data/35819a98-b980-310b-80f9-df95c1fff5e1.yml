@@ -1,0 +1,44 @@
+currentQuests:
+- 'Le Protecteur : I'
+- Un forgeron averti en vaux deux
+- Danger ! Creeper
+- 'Le Protecteur : II'
+- Les Créatures de la nuit
+currentStages:
+- 0
+- 1
+- 0
+- 1
+- 0
+quest-points: 0
+questData:
+  'Le Protecteur : I':
+    mobs-killed:
+    - Zombie
+    mobs-killed-amounts:
+    - 0
+  Un forgeron averti en vaux deux:
+    item-delivery-amounts:
+    - 0
+  Danger ! Creeper:
+    mobs-killed:
+    - Creeper
+    mobs-killed-amounts:
+    - 0
+  'Le Protecteur : II':
+    mobs-killed:
+    - Skeleton
+    mobs-killed-amounts:
+    - 4
+  Les Créatures de la nuit:
+    mobs-killed:
+    - Spider
+    - Cave Spider
+    - Phantom
+    mobs-killed-amounts:
+    - 1
+    - 0
+    - 0
+completed-Quests: none
+hasJournal: false
+lastKnownName: Samourai

@@ -1,0 +1,138 @@
+{
+  "lt": 0,
+  "global": {
+    "n": "Default",
+    "rl": {
+      "0": {
+        "name": "\u00264Propriétaire",
+        "prio": 1000,
+        "icon": "PLAYER_HEAD"
+      },
+      "1": {
+        "name": "\u0026cAdministrateur",
+        "prio": 999,
+        "s": [
+          9,
+          7,
+          5,
+          10,
+          6,
+          0,
+          2,
+          3,
+          11,
+          4,
+          8,
+          15,
+          1
+        ],
+        "ms": [
+          1,
+          2,
+          12,
+          3,
+          11,
+          9,
+          15,
+          10
+        ],
+        "icon": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2UzZmVhODhlMmI4NWNjZGZiMWIzODcyOTgyZWFlMTY0ODlhODRjNjgxYmQ5ZmU0ZmU5YmM4YmNjMmU1In19fQ\u003d\u003d"
+      },
+      "2": {
+        "name": "\u0026eMembre",
+        "prio": 998,
+        "s": [
+          9,
+          7,
+          5,
+          10,
+          6,
+          0,
+          2,
+          3,
+          11,
+          4,
+          8,
+          15,
+          1
+        ],
+        "ms": [],
+        "icon": "DIAMOND_SWORD"
+      },
+      "3": {
+        "name": "\u00267Visiteur",
+        "prio": 0,
+        "s": [
+          15
+        ],
+        "ms": [],
+        "icon": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZThiOGM2YTQ2ZDg3Y2Y4NmE1NWRmMjE0Y2Y4NGJmNDVjY2EyNWVkYjlhNjc2ZTk2MzY0ZGQ2YTZlZWEyMzViMyJ9fX0\u003d"
+      }
+    },
+    "tr": [
+      "a5465d14-d3e4-39d0-9a4b-6074b1902d09:2",
+      "3d73a033-219d-31ae-b640-b7ff0706bd5d:0",
+      "b1eb05bd-4bcd-374c-9c82-d2263353e4d7:2"
+    ],
+    "ls": [
+      4
+    ],
+    "invs": [
+      {
+        "s": "3d73a033-219d-31ae-b640-b7ff0706bd5d",
+        "r": "1e87bf2c-9713-3e2f-ac12-f553b0649092",
+        "t": 1578739362253
+      },
+      {
+        "s": "3d73a033-219d-31ae-b640-b7ff0706bd5d",
+        "r": "f0e5b5db-678f-35a7-8461-928f2c7e19a2",
+        "t": 1579965620900
+      }
+    ],
+    "tax": 0.0
+  },
+  "td": {
+    "a5465d14-d3e4-39d0-9a4b-6074b1902d09": {
+      "b": 1000000000
+    },
+    "3d73a033-219d-31ae-b640-b7ff0706bd5d": {
+      "b": 1000000000
+    },
+    "b1eb05bd-4bcd-374c-9c82-d2263353e4d7": {
+      "b": 1000000000
+    }
+  },
+  "n": "farm_pnj_corp",
+  "tax": 0.0,
+  "p_m": 1000000000,
+  "ct": 1578689903215,
+  "b": 0.0,
+  "tm": "\u00267Propriété de\u00263 %owner%\u00267.",
+  "spaw": "survie_new:33648.0:76.0:47847.0:2.3290243:53.568283",
+  "ib": [
+    {
+      "k": "player.join",
+      "t": 1578689903215,
+      "p": [
+        "{player}"
+      ],
+      "v": [
+        "pikatchou82"
+      ]
+    },
+    {
+      "k": "land.created",
+      "t": 1578689903215,
+      "p": [
+        "{land}"
+      ],
+      "v": [
+        "farm_pnj_corp"
+      ]
+    }
+  ],
+  "limi": {
+    "lands.members": 1000000000
+  },
+  "ll": {}
+}

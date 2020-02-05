@@ -1,0 +1,48 @@
+currentQuests:
+- 'Le Protecteur : II'
+- Collection de minerais
+- Avant départ
+currentStages:
+- 1
+- 0
+- 2
+quest-points: 0
+questData:
+  'Le Protecteur : II':
+    mobs-killed:
+    - Skeleton
+    mobs-killed-amounts:
+    - 0
+  Collection de minerais:
+    item-delivery-amounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  Avant départ:
+    passwords:
+    - Que fait le corbeau ?
+    passwords-said:
+    - false
+completed-Quests:
+- 'Le Protecteur : I'
+- Alfred l'alchimiste !
+completedRedoableQuests:
+- Alfred l'alchimiste !
+- 'Le Protecteur : I'
+completedQuestTimes:
+- 1566236474747
+- 1566235990102
+amountsCompletedQuests:
+- Alfred l'alchimiste !
+- 'Le Protecteur : I'
+amountsCompleted:
+- 1
+- 1
+hasJournal: false
+lastKnownName: Xylapho

@@ -1,0 +1,18 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: '&8[&6UltimateStacker&8]'
+command:
+  give:
+
+    # Command Messages
+    success: '&7You have been given a &6%type%&7.'
+event:
+  general:
+
+    # Event Messages
+    nopermission: '&cYou do not have permission to do that.'
+  egg:
+    needmore: '&7You need &6%amount% &7Monster Eggs to convert this spawner.'
+    sametype: '&7This already spawns &6%type%s&7.'

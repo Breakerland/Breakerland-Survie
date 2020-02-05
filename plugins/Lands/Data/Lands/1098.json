@@ -1,0 +1,212 @@
+{
+  "lt": 0,
+  "global": {
+    "n": "Global",
+    "rl": {
+      "0": {
+        "name": "\u00264Propriétaire",
+        "prio": 1000,
+        "icon": "PLAYER_HEAD"
+      },
+      "1": {
+        "name": "\u0026cAdministrateur",
+        "prio": 999,
+        "s": [
+          9,
+          7,
+          5,
+          10,
+          6,
+          0,
+          2,
+          3,
+          11,
+          4,
+          8,
+          15,
+          1
+        ],
+        "ms": [
+          5,
+          14,
+          1,
+          2,
+          12,
+          3,
+          6,
+          11,
+          4,
+          9,
+          15,
+          10
+        ],
+        "icon": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2UzZmVhODhlMmI4NWNjZGZiMWIzODcyOTgyZWFlMTY0ODlhODRjNjgxYmQ5ZmU0ZmU5YmM4YmNjMmU1In19fQ\u003d\u003d"
+      },
+      "2": {
+        "name": "\u0026eMembre",
+        "prio": 998,
+        "s": [
+          9,
+          7,
+          5,
+          10,
+          6,
+          0,
+          2,
+          3,
+          11,
+          4,
+          8,
+          15,
+          1
+        ],
+        "ms": [],
+        "icon": "PUMPKIN_PIE"
+      },
+      "3": {
+        "name": "\u00267Visiteur",
+        "prio": 0,
+        "s": [
+          15
+        ],
+        "ms": [],
+        "icon": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZThiOGM2YTQ2ZDg3Y2Y4NmE1NWRmMjE0Y2Y4NGJmNDVjY2EyNWVkYjlhNjc2ZTk2MzY0ZGQ2YTZlZWEyMzViMyJ9fX0\u003d"
+      }
+    },
+    "tr": [
+      "1e87bf2c-9713-3e2f-ac12-f553b0649092:2",
+      "a5465d14-d3e4-39d0-9a4b-6074b1902d09:2",
+      "bc00452f-0313-35fa-b4c8-d07dc275b4e7:2",
+      "71fd81e7-f5e5-374f-a1a1-c75ecb9afbf7:2",
+      "b3bbf8f7-286f-3363-888b-204a22300812:2",
+      "f0e5b5db-678f-35a7-8461-928f2c7e19a2:2",
+      "3d73a033-219d-31ae-b640-b7ff0706bd5d:0",
+      "b1eb05bd-4bcd-374c-9c82-d2263353e4d7:2",
+      "1eb10cf9-661d-3c32-b12e-2b006a328137:2",
+      "74bc9438-cba9-3ad9-bb84-a8931b56bb8b:2"
+    ],
+    "ls": [
+      5,
+      4
+    ],
+    "invs": [],
+    "tax": 0.0
+  },
+  "td": {
+    "1e87bf2c-9713-3e2f-ac12-f553b0649092": {
+      "b": 1000000000
+    },
+    "a5465d14-d3e4-39d0-9a4b-6074b1902d09": {
+      "b": 1000000000
+    },
+    "bc00452f-0313-35fa-b4c8-d07dc275b4e7": {
+      "b": 1000000000
+    },
+    "71fd81e7-f5e5-374f-a1a1-c75ecb9afbf7": {
+      "b": 1000000000
+    },
+    "b3bbf8f7-286f-3363-888b-204a22300812": {
+      "b": 1000000000
+    },
+    "f0e5b5db-678f-35a7-8461-928f2c7e19a2": {
+      "b": 1000000000
+    },
+    "3d73a033-219d-31ae-b640-b7ff0706bd5d": {
+      "b": 1000000000
+    },
+    "b1eb05bd-4bcd-374c-9c82-d2263353e4d7": {
+      "b": 1000000000
+    },
+    "1eb10cf9-661d-3c32-b12e-2b006a328137": {
+      "b": 1000000000
+    },
+    "74bc9438-cba9-3ad9-bb84-a8931b56bb8b": {
+      "b": 1000000000
+    }
+  },
+  "n": "falconempire",
+  "tax": 0.0,
+  "p_m": 1000000000,
+  "ct": 1573580077009,
+  "b": 0.0,
+  "tm": "bonjour bienvenue dans le falconempire",
+  "ib": [
+    {
+      "k": "player.join",
+      "t": 1574516014385,
+      "p": [
+        "{date}",
+        "{player}"
+      ],
+      "v": [
+        "23/11/2019 02:33:34",
+        "lancelot"
+      ]
+    },
+    {
+      "k": "player.join",
+      "t": 1573853538533,
+      "p": [
+        "{date}",
+        "{player}"
+      ],
+      "v": [
+        "15/11/2019 10:32:18",
+        "Celiano12"
+      ]
+    },
+    {
+      "k": "player.join",
+      "t": 1573658264444,
+      "p": [
+        "{date}",
+        "{player}"
+      ],
+      "v": [
+        "13/11/2019 04:17:44",
+        "ticiatrhd"
+      ]
+    },
+    {
+      "k": "player.join",
+      "t": 1573649660169,
+      "p": [
+        "{date}",
+        "{player}"
+      ],
+      "v": [
+        "13/11/2019 01:54:20",
+        "RicardoEz"
+      ]
+    },
+    {
+      "k": "player.join",
+      "t": 1573649192862,
+      "p": [
+        "{date}",
+        "{player}"
+      ],
+      "v": [
+        "13/11/2019 01:46:32",
+        "Hypnotiica"
+      ]
+    },
+    {
+      "k": "player.join",
+      "t": 1573580758116,
+      "p": [
+        "{date}",
+        "{player}"
+      ],
+      "v": [
+        "12/11/2019 06:45:58",
+        "TheSolobaid"
+      ]
+    }
+  ],
+  "limi": {
+    "lands.roles": 0,
+    "lands.members": 1000000000
+  },
+  "ll": {}
+}

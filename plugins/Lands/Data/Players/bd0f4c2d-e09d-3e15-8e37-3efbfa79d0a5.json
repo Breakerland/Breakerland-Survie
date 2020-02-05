@@ -1,0 +1,19 @@
+{
+  "lands": [
+    "328:survie_new",
+    "875:survie_new"
+  ],
+  "stamps": {
+    "lout": 1577922551491,
+    "cd_m": 0,
+    "cd_w": 0,
+    "cd_r": 0,
+    "cd_s": 0
+  },
+  "el": "La_Pokeball:survie_new",
+  "in": [],
+  "ct": false,
+  "pt": 21848,
+  "mc": 100,
+  "msc": 0
+}

@@ -1,0 +1,33 @@
+currentQuests:
+- Danger ! Creeper
+currentStages:
+- 0
+quest-points: 0
+questData:
+  Danger ! Creeper:
+    mobs-killed:
+    - Creeper
+    mobs-killed-amounts:
+    - 89
+completed-Quests:
+- 'Le Protecteur : I'
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+completedRedoableQuests:
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+- 'Le Protecteur : I'
+completedQuestTimes:
+- 1569163050162
+- 1569704387987
+- 1569078636778
+amountsCompletedQuests:
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+- 'Le Protecteur : I'
+amountsCompleted:
+- 1
+- 1
+- 1
+hasJournal: false
+lastKnownName: MatyoCraft

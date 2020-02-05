@@ -1,0 +1,23 @@
+# The general task handles things like auto-saving and update checking. This value is the delay in between
+# running these tasks in seconds. (Note: setting this value to -1 will disable the general task entirely.)
+general-task-duration: 300
+reload-plugin-timer: true
+keep-teleport-head-axis: true
+bypass-portal-permissions: true
+vehicle-teleportation: true
+use-portal-cooldown: true
+portal-cooldown-duration: 0
+throw-velocity: 1.35
+teleport-sound: ENTITY_GHAST_SHOOT
+teleport-visual-effect: CLOUD
+selection-visual-effect: REDSTONE
+selection-visual-duration: 10
+region-visual-effect: REDSTONE
+region-visual-duration: 20
+creature-spawning-blacklist:
+- PUFFERFISH
+- TROPICAL_FISH
+- DOLPHIN
+block-creative-portal-entrance: false
+join-protection: true
+join-protection-cooldown: 5

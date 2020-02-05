@@ -1,0 +1,18 @@
+currentQuests: none
+currentStages: none
+quest-points: 4
+completed-Quests: none
+amountsCompletedQuests:
+- Mange mon globe
+- Alfred l'alchimiste !
+- Collection de minerais
+- Etude des Zombies
+- Un forgeron averti en vaut deux
+amountsCompleted:
+- 1
+- 1
+- 1
+- 1
+- 1
+hasJournal: false
+lastKnownName: PtitBiscuit55

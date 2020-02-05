@@ -1,0 +1,25 @@
+currentQuests:
+- 'Fermier : I'
+- 'Le Papa Noël et ses embrouilles : I'
+currentStages:
+- 0
+- 0
+quest-points: 0
+questData:
+  'Fermier : I':
+    blocks-cut-names:
+    - WHEAT
+    blocks-cut-amounts:
+    - 0
+    blocks-cut-durability:
+    - 0
+  'Le Papa Noël et ses embrouilles : I':
+    item-delivery-amounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+completed-Quests: none
+hasJournal: true
+lastKnownName: AnaisdevFR

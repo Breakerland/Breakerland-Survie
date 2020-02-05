@@ -1,0 +1,52 @@
+currentQuests:
+- Zombiecalypse
+currentStages:
+- 0
+quest-points: 12
+questData:
+  Zombiecalypse:
+    mobs-killed:
+    - Zombie
+    - Husk
+    - Drowned
+    mobs-killed-amounts:
+    - 30
+    - 4
+    - 19
+completed-Quests:
+- Mange mon globe
+- 'Bûcheron : I'
+- Perte de conscience
+- Ils ont envoyé des zombies !
+- Globe
+- Globiliums
+completedRedoableQuests:
+- Mange mon globe
+- Globe
+- Perte de conscience
+completedQuestTimes:
+- 1580924980559
+- 1580925105918
+- 1579307327180
+amountsCompletedQuests:
+- Mange mon globe
+- Alfred l'alchimiste !
+- Globe
+- Collection de minerais
+- Perte de conscience
+- Etude des Zombies
+- Tête en l'air
+- 'L''apiculture : I'
+- Coloration
+amountsCompleted:
+- 6
+- 1
+- 4
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+hasJournal: false
+lastKnownName: Efysio

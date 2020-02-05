@@ -1,0 +1,12 @@
+currentQuests:
+- Ci-Trouille
+currentStages:
+- 0
+quest-points: 0
+questData:
+  Ci-Trouille:
+    item-delivery-amounts:
+    - 0
+completed-Quests: none
+hasJournal: false
+lastKnownName: CypresL

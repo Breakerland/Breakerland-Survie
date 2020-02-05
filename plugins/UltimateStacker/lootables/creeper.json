@@ -1,0 +1,110 @@
+{
+  "Type": "CREEPER",
+  "Loot": [
+    {
+      "Type": "GUNPOWDER",
+      "Chance": 100.0,
+      "Min": 0,
+      "Max": 2,
+      "Looting": true
+    },
+    {
+      "Chance": 100.0,
+      "Min": 1,
+      "Max": 1,
+      "Looting": true,
+      "Only Drop For": [
+        "SKELETON",
+        "STRAY"
+      ],
+      "Child Loot Drop Count Min": 1,
+      "Child Loot Drop Count Max": 1,
+      "Child Loot": [
+        {
+          "Type": "MUSIC_DISC_11",
+          "Chance": 100.0,
+          "Min": 1,
+          "Max": 1,
+          "Looting": true
+        },
+        {
+          "Type": "MUSIC_DISC_13",
+          "Chance": 100.0,
+          "Min": 1,
+          "Max": 1,
+          "Looting": true
+        },
+        {
+          "Type": "MUSIC_DISC_BLOCKS",
+          "Chance": 100.0,
+          "Min": 1,
+          "Max": 1,
+          "Looting": true
+        },
+        {
+          "Type": "MUSIC_DISC_CAT",
+          "Chance": 100.0,
+          "Min": 1,
+          "Max": 1,
+          "Looting": true
+        },
+        {
+          "Type": "MUSIC_DISC_CHIRP",
+          "Chance": 100.0,
+          "Min": 1,
+          "Max": 1,
+          "Looting": true
+        },
+        {
+          "Type": "MUSIC_DISC_FAR",
+          "Chance": 100.0,
+          "Min": 1,
+          "Max": 1,
+          "Looting": true
+        },
+        {
+          "Type": "MUSIC_DISC_MALL",
+          "Chance": 100.0,
+          "Min": 1,
+          "Max": 1,
+          "Looting": true
+        },
+        {
+          "Type": "MUSIC_DISC_MELLOHI",
+          "Chance": 100.0,
+          "Min": 1,
+          "Max": 1,
+          "Looting": true
+        },
+        {
+          "Type": "MUSIC_DISC_STAL",
+          "Chance": 100.0,
+          "Min": 1,
+          "Max": 1,
+          "Looting": true
+        },
+        {
+          "Type": "MUSIC_DISC_STRAD",
+          "Chance": 100.0,
+          "Min": 1,
+          "Max": 1,
+          "Looting": true
+        },
+        {
+          "Type": "MUSIC_DISC_WAIT",
+          "Chance": 100.0,
+          "Min": 1,
+          "Max": 1,
+          "Looting": true
+        },
+        {
+          "Type": "MUSIC_DISC_WARD",
+          "Chance": 100.0,
+          "Min": 1,
+          "Max": 1,
+          "Looting": true
+        }
+      ]
+    }
+  ]
+}

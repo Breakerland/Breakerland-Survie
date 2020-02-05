@@ -1,0 +1,23 @@
+# -- 繁體中文 --
+# 最高可擴展的視野距離
+# 建議值,伺服器設置3-6,插件設置4-64 (最高能到127)
+# 不影響伺服器本身的視野距離
+# 實際上是依照客戶端的視野距離來調整,但如果客戶端條超過此限值,一樣只有此限制的視野距離
+# 從此插件延伸的區塊不會載入實體/方塊更新
+# -- English --
+# Highest extendable field of view
+# Recommended value, server setting 3-6, plug-in setting 4-64 (up to 128)
+# Does not affect the field of view of the server itself
+# The first level is adjusted according to the visual field distance of the client, but if the client bar exceeds this interval, there is only this limited visual field distance.
+# The blockchain extended from this plugin will not load entity / block updates
+ExtendViewDistance: 32
+
+# -- 繁體中文 --
+# 每個tick能發送給每個玩家多少個封包
+# 過低時區塊則會很慢才給滿玩家
+# 數值取決於電腦硬碟I/O性能來做調整
+# -- English --
+# How many packets can each tick send to each player
+# When it is too low, the block will be slow to fill the player
+# The value depends on the I / O performance of the computer hard disk.
+PlayerTickSendChunkAmount: 10

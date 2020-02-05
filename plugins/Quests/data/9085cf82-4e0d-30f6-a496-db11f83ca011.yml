@@ -1,0 +1,16 @@
+currentQuests: none
+currentStages: none
+quest-points: 1
+completed-Quests:
+- 'Crafteur : I'
+- Mange mon globe
+completedRedoableQuests:
+- Mange mon globe
+completedQuestTimes:
+- 1572979009399
+amountsCompletedQuests:
+- Mange mon globe
+amountsCompleted:
+- 1
+hasJournal: false
+lastKnownName: Athiire

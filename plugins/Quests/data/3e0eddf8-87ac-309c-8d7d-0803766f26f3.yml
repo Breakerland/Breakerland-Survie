@@ -1,0 +1,35 @@
+currentQuests:
+- Perte de conscience
+- Zombiecalypse
+currentStages:
+- 3
+- 0
+quest-points: 3
+questData:
+  Perte de conscience:
+    item-delivery-amounts:
+    - 0
+  Zombiecalypse:
+    mobs-killed:
+    - Zombie
+    - Husk
+    - Drowned
+    mobs-killed-amounts:
+    - 30
+    - 0
+    - 0
+completed-Quests:
+- Le Potager
+- 'L''apiculture : I'
+- Ils ont envoyé des zombies !
+- 'Bûcheron : I'
+completedRedoableQuests:
+- 'L''apiculture : I'
+completedQuestTimes:
+- 1577987784371
+amountsCompletedQuests:
+- 'L''apiculture : I'
+amountsCompleted:
+- 1
+hasJournal: true
+lastKnownName: protocox

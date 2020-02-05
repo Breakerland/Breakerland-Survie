@@ -1,0 +1,148 @@
+{
+  "lt": 0,
+  "global": {
+    "n": "Global",
+    "rl": {
+      "0": {
+        "name": "\u00264Propriétaire",
+        "prio": 1000,
+        "icon": "PLAYER_HEAD"
+      },
+      "1": {
+        "name": "\u0026cAdministrateur",
+        "prio": 999,
+        "s": [
+          9,
+          7,
+          5,
+          10,
+          6,
+          0,
+          2,
+          3,
+          11,
+          4,
+          8,
+          15,
+          1
+        ],
+        "ms": [
+          1,
+          2,
+          12,
+          3,
+          11,
+          9,
+          15,
+          10
+        ],
+        "icon": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2UzZmVhODhlMmI4NWNjZGZiMWIzODcyOTgyZWFlMTY0ODlhODRjNjgxYmQ5ZmU0ZmU5YmM4YmNjMmU1In19fQ\u003d\u003d"
+      },
+      "2": {
+        "name": "\u0026eMembre",
+        "prio": 998,
+        "s": [
+          9,
+          7,
+          5,
+          10,
+          6,
+          0,
+          2,
+          3,
+          11,
+          4,
+          8,
+          15,
+          1
+        ],
+        "ms": [],
+        "icon": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjFhZGZkZjA3MTE3NWFkYWQ2NDRmZTRiM2E5NzMxYWM2YThmYTQ3NTExNjJlODEzOGM4OTlmYmFhNWZmMGI5In19fQ\u003d\u003d"
+      },
+      "3": {
+        "name": "\u00267Visiteur",
+        "prio": 0,
+        "s": [
+          15
+        ],
+        "ms": [],
+        "icon": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZThiOGM2YTQ2ZDg3Y2Y4NmE1NWRmMjE0Y2Y4NGJmNDVjY2EyNWVkYjlhNjc2ZTk2MzY0ZGQ2YTZlZWEyMzViMyJ9fX0\u003d"
+      }
+    },
+    "tr": [
+      "60f7b561-6f8a-3c30-8886-4ffc43c045c6:2",
+      "0f9f52eb-42fb-3a4b-a0ca-17980e30bc4e:0"
+    ],
+    "ls": [
+      4
+    ],
+    "invs": [],
+    "tax": 0.0
+  },
+  "td": {
+    "60f7b561-6f8a-3c30-8886-4ffc43c045c6": {
+      "b": 1000000000
+    },
+    "0f9f52eb-42fb-3a4b-a0ca-17980e30bc4e": {
+      "b": 3
+    }
+  },
+  "n": "Spot",
+  "tax": 0.0,
+  "p_m": 0,
+  "ct": 1571746530659,
+  "b": 0.0,
+  "tm": "\u00267Propriété de\u0026b %owner%\u00267.",
+  "ib": [
+    {
+      "k": "player.join",
+      "t": 1572707925039,
+      "p": [
+        "{date}",
+        "{player}"
+      ],
+      "v": [
+        "02/11/2019 04:18:45",
+        "Bouletotor"
+      ]
+    },
+    {
+      "k": "player.join",
+      "t": 1572191758920,
+      "p": [
+        "{date}",
+        "{player}"
+      ],
+      "v": [
+        "27/10/2019 04:55:58",
+        "Bouletotor"
+      ]
+    },
+    {
+      "k": "player.join",
+      "t": 1571774716733,
+      "p": [
+        "{date}",
+        "{player}"
+      ],
+      "v": [
+        "22/10/2019 10:05:16",
+        "Geratinapute"
+      ]
+    },
+    {
+      "k": "land.created",
+      "t": 1571746530660,
+      "p": [
+        "{date}",
+        "{land}"
+      ],
+      "v": [
+        "22/10/2019 02:15:30",
+        "Spot"
+      ]
+    }
+  ],
+  "limi": {},
+  "ll": {}
+}

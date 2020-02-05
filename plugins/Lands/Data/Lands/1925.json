@@ -1,0 +1,120 @@
+{
+  "lt": 0,
+  "global": {
+    "n": "Default",
+    "rl": {
+      "0": {
+        "name": "\u00264Propriétaire",
+        "prio": 1000,
+        "icon": "PLAYER_HEAD"
+      },
+      "1": {
+        "name": "\u0026cAdministrateur",
+        "prio": 999,
+        "s": [
+          9,
+          7,
+          5,
+          10,
+          6,
+          0,
+          2,
+          3,
+          11,
+          4,
+          8,
+          15,
+          1
+        ],
+        "ms": [
+          1,
+          2,
+          12,
+          3,
+          11,
+          9,
+          15,
+          10
+        ],
+        "icon": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2UzZmVhODhlMmI4NWNjZGZiMWIzODcyOTgyZWFlMTY0ODlhODRjNjgxYmQ5ZmU0ZmU5YmM4YmNjMmU1In19fQ\u003d\u003d"
+      },
+      "2": {
+        "name": "\u0026eMembre",
+        "prio": 998,
+        "s": [
+          9,
+          7,
+          5,
+          10,
+          6,
+          0,
+          2,
+          3,
+          11,
+          4,
+          8,
+          15,
+          1
+        ],
+        "ms": [],
+        "icon": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjFhZGZkZjA3MTE3NWFkYWQ2NDRmZTRiM2E5NzMxYWM2YThmYTQ3NTExNjJlODEzOGM4OTlmYmFhNWZmMGI5In19fQ\u003d\u003d"
+      },
+      "3": {
+        "name": "\u00267Visiteur",
+        "prio": 0,
+        "s": [
+          15
+        ],
+        "ms": [],
+        "icon": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZThiOGM2YTQ2ZDg3Y2Y4NmE1NWRmMjE0Y2Y4NGJmNDVjY2EyNWVkYjlhNjc2ZTk2MzY0ZGQ2YTZlZWEyMzViMyJ9fX0\u003d"
+      }
+    },
+    "tr": [
+      "49bfee22-ab1d-3712-9c8b-a31565683a2a:0"
+    ],
+    "ls": [
+      4
+    ],
+    "invs": [],
+    "tax": 0.0
+  },
+  "td": {
+    "49bfee22-ab1d-3712-9c8b-a31565683a2a": {
+      "b": 1000000000
+    }
+  },
+  "n": "LARUE",
+  "tax": 0.0,
+  "p_m": 1000000000,
+  "ct": 1579959583951,
+  "b": 0.0,
+  "tm": "\u00267Propriété de\u00263 %owner%\u00267.",
+  "spaw": "survie_new:6639.0:73.0:10668.0:265.6788:12.552088",
+  "ib": [
+    {
+      "k": "player.join",
+      "t": 1579959583951,
+      "p": [
+        "{player}"
+      ],
+      "v": [
+        "Butoquhh"
+      ]
+    },
+    {
+      "k": "land.created",
+      "t": 1579959583951,
+      "p": [
+        "{land}"
+      ],
+      "v": [
+        "tuconnais"
+      ]
+    }
+  ],
+  "limi": {
+    "lands.areas": 0,
+    "lands.members": 1000000000
+  },
+  "ll": {}
+}

@@ -1,0 +1,34 @@
+currentQuests:
+- Zombiecalypse
+- Danger ! Creeper
+currentStages:
+- 0
+- 0
+quest-points: 1
+questData:
+  Zombiecalypse:
+    mobs-killed:
+    - Zombie
+    - Husk
+    - Drowned
+    mobs-killed-amounts:
+    - 14
+    - 0
+    - 0
+  Danger ! Creeper:
+    mobs-killed:
+    - Creeper
+    mobs-killed-amounts:
+    - 6
+completed-Quests:
+- Un forgeron averti en vaux deux
+completedRedoableQuests:
+- Un forgeron averti en vaux deux
+completedQuestTimes:
+- 1570134005841
+amountsCompletedQuests:
+- Un forgeron averti en vaux deux
+amountsCompleted:
+- 1
+hasJournal: false
+lastKnownName: Lergot

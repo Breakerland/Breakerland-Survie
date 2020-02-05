@@ -1,0 +1,50 @@
+currentQuests:
+- Danger ! Creeper
+currentStages:
+- 0
+quest-points: 9
+questData:
+  Danger ! Creeper:
+    mobs-killed:
+    - Creeper
+    mobs-killed-amounts:
+    - 26
+completed-Quests:
+- 'Crafteur : I'
+- 'Fermier : I'
+- Un forgeron averti en vaut deux
+- Danger ! Creeper
+- Les Créatures de la nuit
+- 'Le Protecteur : I'
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+completedRedoableQuests:
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+- Danger ! Creeper
+- Les Créatures de la nuit
+- Un forgeron averti en vaut deux
+- 'Le Protecteur : I'
+completedQuestTimes:
+- 1573211395931
+- 1573218664347
+- 1571585087197
+- 1573194370327
+- 1573219964234
+- 1573210851746
+amountsCompletedQuests:
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+- Danger ! Creeper
+- Les Créatures de la nuit
+- Un forgeron averti en vaut deux
+- 'Le Protecteur : I'
+amountsCompleted:
+- 1
+- 1
+- 1
+- 1
+- 2
+- 1
+hasJournal: true
+lastKnownName: Tiyi

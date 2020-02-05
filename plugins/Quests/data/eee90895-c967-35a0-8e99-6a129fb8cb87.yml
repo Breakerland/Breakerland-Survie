@@ -1,0 +1,17 @@
+currentQuests: none
+currentStages: none
+quest-points: 1
+completed-Quests:
+- 'Bûcheron : I'
+- Globe
+- Globiliums
+completedRedoableQuests:
+- Globe
+completedQuestTimes:
+- 1580569942254
+amountsCompletedQuests:
+- Globe
+amountsCompleted:
+- 1
+hasJournal: false
+lastKnownName: Natvolh24

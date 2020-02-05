@@ -1,0 +1,20 @@
+currentQuests:
+- Collection de minerais
+currentStages:
+- 0
+quest-points: 0
+questData:
+  Collection de minerais:
+    item-delivery-amounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+completed-Quests: none
+hasJournal: false
+lastKnownName: Fr3nCh_CraFt

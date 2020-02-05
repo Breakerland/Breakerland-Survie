@@ -1,0 +1,65 @@
+currentQuests:
+- 'Le Protecteur : II'
+- Les Créatures de la nuit
+- Alfred l'alchimiste !
+- Danger ! Creeper
+- Etude des Zombies
+- Une envie subite
+currentStages:
+- 1
+- 0
+- 0
+- 0
+- 0
+- 0
+quest-points: 0
+questData:
+  'Le Protecteur : II':
+    mobs-killed:
+    - Skeleton
+    mobs-killed-amounts:
+    - 13
+  Les Créatures de la nuit:
+    mobs-killed:
+    - Spider
+    - Cave Spider
+    - Phantom
+    mobs-killed-amounts:
+    - 6
+    - 0
+    - 3
+  Alfred l'alchimiste !:
+    item-delivery-amounts:
+    - 0
+  Danger ! Creeper:
+    mobs-killed:
+    - Creeper
+    mobs-killed-amounts:
+    - 5
+  Etude des Zombies:
+    item-delivery-amounts:
+    - 0
+  Une envie subite:
+    fish-caught: 0
+completed-Quests:
+- Un forgeron averti en vaux deux
+- Collection de minerais
+- 'Le Protecteur : I'
+completedRedoableQuests:
+- Collection de minerais
+- Un forgeron averti en vaux deux
+- 'Le Protecteur : I'
+completedQuestTimes:
+- 1569099921258
+- 1569073762608
+- 1569325043073
+amountsCompletedQuests:
+- Collection de minerais
+- Un forgeron averti en vaux deux
+- 'Le Protecteur : I'
+amountsCompleted:
+- 1
+- 1
+- 1
+hasJournal: true
+lastKnownName: Euphare13

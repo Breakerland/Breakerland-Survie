@@ -1,0 +1,20 @@
+currentQuests:
+- 'Le Papa Noël et ses embrouilles : I'
+- Une envie subite
+currentStages:
+- 0
+- 0
+quest-points: 0
+questData:
+  'Le Papa Noël et ses embrouilles : I':
+    item-delivery-amounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  Une envie subite:
+    fish-caught: 0
+completed-Quests: none
+hasJournal: false
+lastKnownName: _Kyle_8

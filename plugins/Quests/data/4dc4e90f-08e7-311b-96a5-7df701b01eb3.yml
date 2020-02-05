@@ -1,0 +1,34 @@
+currentQuests:
+- 'L''apiculture : I'
+- Le Potager
+currentStages:
+- 0
+- 1
+quest-points: 0
+questData:
+  'L''apiculture : I':
+    citizen-ids-to-talk-to:
+    - 181
+    - 182
+    - 183
+    - 184
+    has-talked-to:
+    - true
+    - true
+    - false
+    - false
+  Le Potager:
+    item-delivery-amounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+completed-Quests: none
+hasJournal: false
+lastKnownName: Kroghortan

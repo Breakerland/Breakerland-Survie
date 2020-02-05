@@ -1,0 +1,25 @@
+currentQuests: none
+currentStages: none
+quest-points: 3
+completed-Quests:
+- 'Chercheur avisé : I'
+- Tête en l'air
+- Collection de minerais
+completedRedoableQuests:
+- Collection de minerais
+- Tête en l'air
+- 'Chercheur avisé : I'
+completedQuestTimes:
+- 1573067284974
+- 1572814113793
+- 1572792728975
+amountsCompletedQuests:
+- Collection de minerais
+- Tête en l'air
+- 'Chercheur avisé : I'
+amountsCompleted:
+- 1
+- 1
+- 1
+hasJournal: false
+lastKnownName: Blazd

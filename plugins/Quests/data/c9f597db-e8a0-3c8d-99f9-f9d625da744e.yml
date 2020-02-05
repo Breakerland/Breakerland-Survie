@@ -1,0 +1,25 @@
+currentQuests:
+- 'Fermier : I'
+currentStages:
+- 0
+quest-points: 1
+questData:
+  'Fermier : I':
+    blocks-cut-names:
+    - WHEAT
+    blocks-cut-amounts:
+    - 0
+    blocks-cut-durability:
+    - 0
+completed-Quests:
+- Un forgeron averti en vaut deux
+completedRedoableQuests:
+- Un forgeron averti en vaut deux
+completedQuestTimes:
+- 1573424378212
+amountsCompletedQuests:
+- Un forgeron averti en vaut deux
+amountsCompleted:
+- 1
+hasJournal: true
+lastKnownName: Riseandshine00

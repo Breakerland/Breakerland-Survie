@@ -1,0 +1,32 @@
+currentQuests: none
+currentStages: none
+quest-points: 5
+completed-Quests:
+- Un forgeron averti en vaut deux
+- Collection de minerais
+- Etude des Zombies
+- Alfred l'alchimiste !
+- 'Crafteur : I'
+- Ils ont envoyé des zombies !
+completedRedoableQuests:
+- Alfred l'alchimiste !
+- Collection de minerais
+- Etude des Zombies
+- Un forgeron averti en vaut deux
+completedQuestTimes:
+- 1572384680448
+- 1572383726090
+- 1572384383646
+- 1572383450262
+amountsCompletedQuests:
+- Alfred l'alchimiste !
+- Collection de minerais
+- Etude des Zombies
+- Un forgeron averti en vaut deux
+amountsCompleted:
+- 1
+- 1
+- 1
+- 1
+hasJournal: false
+lastKnownName: Dagalaz

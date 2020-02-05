@@ -1,0 +1,44 @@
+currentQuests:
+- Une envie subite
+- Danger ! Creeper
+- Les Créatures de la nuit
+- 'Crafteur : I'
+currentStages:
+- 1
+- 0
+- 0
+- 0
+quest-points: 1
+questData:
+  Une envie subite:
+    item-delivery-amounts:
+    - 0
+  Danger ! Creeper:
+    mobs-killed:
+    - Creeper
+    mobs-killed-amounts:
+    - 4
+  Les Créatures de la nuit:
+    mobs-killed:
+    - Spider
+    - Cave Spider
+    - Phantom
+    mobs-killed-amounts:
+    - 14
+    - 0
+    - 0
+  'Crafteur : I':
+    item-craft-amounts:
+    - 0
+completed-Quests:
+- 'Le Protecteur : I'
+completedRedoableQuests:
+- 'Le Protecteur : I'
+completedQuestTimes:
+- 1575473993751
+amountsCompletedQuests:
+- 'Le Protecteur : I'
+amountsCompleted:
+- 1
+hasJournal: true
+lastKnownName: Sifflote

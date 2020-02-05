@@ -1,0 +1,21 @@
+{
+  "lands": [
+    "407:survie_new",
+    "762:survie_new",
+    "1279:survie_new"
+  ],
+  "stamps": {
+    "lout": 1575290667705,
+    "cd_m": 1575290333863,
+    "cd_w": 1571999476225,
+    "cd_r": 0,
+    "cd_s": 0,
+    "cd_ct": 1571857401860
+  },
+  "el": "champi:survie_new",
+  "in": [],
+  "ct": false,
+  "pt": 0,
+  "mc": 150,
+  "msc": 0
+}

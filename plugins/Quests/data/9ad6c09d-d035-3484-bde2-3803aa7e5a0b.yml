@@ -1,0 +1,27 @@
+currentQuests: none
+currentStages: none
+quest-points: 4
+completed-Quests:
+- 'Fermier : I'
+- 'Crafteur : I'
+- Un forgeron averti en vaut deux
+- Une envie subite
+- Mange mon globe
+completedRedoableQuests:
+- Mange mon globe
+- Un forgeron averti en vaut deux
+- Une envie subite
+completedQuestTimes:
+- 1573240689085
+- 1572979433560
+- 1572983482609
+amountsCompletedQuests:
+- Mange mon globe
+- Un forgeron averti en vaut deux
+- Une envie subite
+amountsCompleted:
+- 1
+- 1
+- 1
+hasJournal: false
+lastKnownName: Chacalus

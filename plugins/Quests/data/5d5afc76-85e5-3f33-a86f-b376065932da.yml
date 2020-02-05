@@ -1,0 +1,15 @@
+currentQuests: none
+currentStages: none
+quest-points: 0
+completed-Quests:
+- Globe
+completedRedoableQuests:
+- Globe
+completedQuestTimes:
+- 1575145189586
+amountsCompletedQuests:
+- Globe
+amountsCompleted:
+- 1
+hasJournal: false
+lastKnownName: P2M2A2

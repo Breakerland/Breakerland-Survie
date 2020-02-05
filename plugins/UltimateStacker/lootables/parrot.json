@@ -1,0 +1,12 @@
+{
+  "Type": "PARROT",
+  "Loot": [
+    {
+      "Type": "FEATHER",
+      "Chance": 100.0,
+      "Min": 1,
+      "Max": 2,
+      "Looting": true
+    }
+  ]
+}

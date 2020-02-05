@@ -1,0 +1,14 @@
+currentQuests:
+- Avant départ
+currentStages:
+- 2
+quest-points: 0
+questData:
+  Avant départ:
+    passwords:
+    - Que fait le corbeau ?
+    passwords-said:
+    - false
+completed-Quests: none
+hasJournal: false
+lastKnownName: titixel2465

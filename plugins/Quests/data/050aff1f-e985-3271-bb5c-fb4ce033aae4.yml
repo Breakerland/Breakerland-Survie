@@ -1,0 +1,21 @@
+currentQuests: none
+currentStages: none
+quest-points: 0
+completed-Quests:
+- Mange mon globe
+- Globe
+- Globiliums
+completedRedoableQuests:
+- Mange mon globe
+- Globe
+completedQuestTimes:
+- 1573464959667
+- 1574355835694
+amountsCompletedQuests:
+- Mange mon globe
+- Globe
+amountsCompleted:
+- 1
+- 1
+hasJournal: false
+lastKnownName: EclaRaft

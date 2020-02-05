@@ -1,0 +1,27 @@
+currentQuests:
+- 'Bûcheron : I'
+currentStages:
+- 0
+quest-points: 3
+questData:
+  'Bûcheron : I':
+    blocks-broken-names:
+    - OAK_LOG
+    blocks-broken-amounts:
+    - 0
+    blocks-broken-durability:
+    - 0
+completed-Quests:
+- Le Potager
+- Une envie subite
+- 'Crafteur : I'
+completedRedoableQuests:
+- Une envie subite
+completedQuestTimes:
+- 1573648842704
+amountsCompletedQuests:
+- Une envie subite
+amountsCompleted:
+- 1
+hasJournal: false
+lastKnownName: cleo_craft

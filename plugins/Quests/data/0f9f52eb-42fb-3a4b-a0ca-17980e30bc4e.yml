@@ -1,0 +1,32 @@
+currentQuests: none
+currentStages: none
+quest-points: 3
+completed-Quests:
+- Mange mon globe
+- Globe
+- Globiliums
+- Un forgeron averti en vaut deux
+- Une envie subite
+- 'Fermier : I'
+completedRedoableQuests:
+- Mange mon globe
+- Globe
+- Un forgeron averti en vaut deux
+- Une envie subite
+completedQuestTimes:
+- 1570996641985
+- 1571000382468
+- 1571064208255
+- 1571861017164
+amountsCompletedQuests:
+- Mange mon globe
+- Globe
+- Un forgeron averti en vaut deux
+- Une envie subite
+amountsCompleted:
+- 1
+- 1
+- 1
+- 1
+hasJournal: true
+lastKnownName: Geratinapute

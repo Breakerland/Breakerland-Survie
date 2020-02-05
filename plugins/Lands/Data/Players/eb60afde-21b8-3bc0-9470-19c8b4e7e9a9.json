@@ -1,0 +1,18 @@
+{
+  "lands": [
+    "1752:survie_new"
+  ],
+  "stamps": {
+    "lout": 1579114830993,
+    "cd_m": 0,
+    "cd_w": 1579111103465,
+    "cd_r": 0,
+    "cd_s": 1579114178529
+  },
+  "el": "killiz:survie_new",
+  "in": [],
+  "ct": false,
+  "pt": 0,
+  "mc": 50,
+  "msc": 1000000000
+}

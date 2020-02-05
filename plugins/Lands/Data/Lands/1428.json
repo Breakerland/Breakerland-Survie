@@ -1,0 +1,129 @@
+{
+  "lt": 0,
+  "global": {
+    "n": "Default",
+    "rl": {
+      "0": {
+        "name": "\u00264Propriétaire",
+        "prio": 1000,
+        "icon": "PLAYER_HEAD"
+      },
+      "1": {
+        "name": "\u0026cAdministrateur",
+        "prio": 999,
+        "s": [
+          9,
+          7,
+          5,
+          10,
+          6,
+          0,
+          2,
+          3,
+          11,
+          4,
+          8,
+          15,
+          1
+        ],
+        "ms": [
+          1,
+          2,
+          12,
+          3,
+          11,
+          9,
+          15,
+          10
+        ],
+        "icon": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2UzZmVhODhlMmI4NWNjZGZiMWIzODcyOTgyZWFlMTY0ODlhODRjNjgxYmQ5ZmU0ZmU5YmM4YmNjMmU1In19fQ\u003d\u003d"
+      },
+      "2": {
+        "name": "\u0026eMembre",
+        "prio": 998,
+        "s": [
+          9,
+          7,
+          5,
+          10,
+          6,
+          0,
+          2,
+          3,
+          11,
+          4,
+          8,
+          15,
+          1
+        ],
+        "ms": [],
+        "icon": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjFhZGZkZjA3MTE3NWFkYWQ2NDRmZTRiM2E5NzMxYWM2YThmYTQ3NTExNjJlODEzOGM4OTlmYmFhNWZmMGI5In19fQ\u003d\u003d"
+      },
+      "3": {
+        "name": "\u00267Visiteur",
+        "prio": 0,
+        "s": [
+          15
+        ],
+        "ms": [],
+        "icon": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZThiOGM2YTQ2ZDg3Y2Y4NmE1NWRmMjE0Y2Y4NGJmNDVjY2EyNWVkYjlhNjc2ZTk2MzY0ZGQ2YTZlZWEyMzViMyJ9fX0\u003d"
+      }
+    },
+    "tr": [
+      "f7a37db9-e752-3c23-a815-301a176bc6b6:0",
+      "651f5d14-c646-3bf5-a06e-52ebc845a1f3:2"
+    ],
+    "ls": [
+      4
+    ],
+    "invs": [
+      {
+        "s": "f7a37db9-e752-3c23-a815-301a176bc6b6",
+        "r": "9ca90a83-33fd-341b-b723-2634c1a35327",
+        "t": 1577015485587
+      }
+    ],
+    "tax": 0.0
+  },
+  "td": {
+    "f7a37db9-e752-3c23-a815-301a176bc6b6": {
+      "b": 150
+    },
+    "651f5d14-c646-3bf5-a06e-52ebc845a1f3": {
+      "b": 1000000000
+    }
+  },
+  "n": "_Wiizy_",
+  "tax": 0.0,
+  "p_m": 1000000000,
+  "ct": 1577014555818,
+  "b": 0.0,
+  "tm": "\u00267Propriété de\u00263 %owner%\u00267.",
+  "spaw": "survie_new:-11560.0:72.0:-26858.0:184.40498:41.626316",
+  "ib": [
+    {
+      "k": "player.join",
+      "t": 1577014555819,
+      "p": [
+        "{player}"
+      ],
+      "v": [
+        "_Wiizy_"
+      ]
+    },
+    {
+      "k": "land.created",
+      "t": 1577014555818,
+      "p": [
+        "{land}"
+      ],
+      "v": [
+        "_Wiizy_"
+      ]
+    }
+  ],
+  "limi": {
+    "lands.members": 1000000000
+  },
+  "ll": {}
+}

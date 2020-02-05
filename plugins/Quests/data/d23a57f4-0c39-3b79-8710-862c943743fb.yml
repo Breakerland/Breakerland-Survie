@@ -1,0 +1,40 @@
+currentQuests:
+- 'Fermier : I'
+currentStages:
+- 0
+quest-points: 0
+questData:
+  'Fermier : I':
+    blocks-cut-names:
+    - WHEAT
+    blocks-cut-amounts:
+    - 0
+    blocks-cut-durability:
+    - 0
+completed-Quests:
+- 'Le Protecteur : I'
+- Une envie subite
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+completedRedoableQuests:
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+- Une envie subite
+- 'Le Protecteur : I'
+completedQuestTimes:
+- 1566415632105
+- 1566604148514
+- 1566415335445
+- 1566082914360
+amountsCompletedQuests:
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+- Une envie subite
+- 'Le Protecteur : I'
+amountsCompleted:
+- 1
+- 1
+- 1
+- 1
+hasJournal: false
+lastKnownName: Amaxet

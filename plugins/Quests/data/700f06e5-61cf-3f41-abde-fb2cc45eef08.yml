@@ -1,0 +1,33 @@
+currentQuests:
+- 'L''apiculture : I'
+- Collection de minerais
+currentStages:
+- 0
+- 0
+quest-points: 0
+questData:
+  'L''apiculture : I':
+    citizen-ids-to-talk-to:
+    - 181
+    - 182
+    - 183
+    - 184
+    has-talked-to:
+    - true
+    - true
+    - false
+    - false
+  Collection de minerais:
+    item-delivery-amounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+completed-Quests: none
+hasJournal: false
+lastKnownName: jello88

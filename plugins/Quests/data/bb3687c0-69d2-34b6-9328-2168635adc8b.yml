@@ -1,0 +1,20 @@
+currentQuests: none
+currentStages: none
+quest-points: 10
+completed-Quests: none
+amountsCompletedQuests:
+- Alfred l'alchimiste !
+- Perte de conscience
+- Collection de minerais
+- Défenseur !
+- Etude des Zombies
+- Un forgeron averti en vaut deux
+amountsCompleted:
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+hasJournal: false
+lastKnownName: DrAnomis

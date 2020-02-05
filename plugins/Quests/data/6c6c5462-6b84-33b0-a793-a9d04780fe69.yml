@@ -1,0 +1,34 @@
+currentQuests:
+- Les Créatures de la nuit
+- 'Le Protecteur : II'
+currentStages:
+- 0
+- 2
+quest-points: 0
+questData:
+  Les Créatures de la nuit:
+    mobs-killed:
+    - Spider
+    - Cave Spider
+    - Phantom
+    mobs-killed-amounts:
+    - 30
+    - 20
+    - 9
+  'Le Protecteur : II':
+    item-delivery-amounts:
+    - 0
+completed-Quests:
+- 'Le Protecteur : I'
+completedRedoableQuests:
+- 'Le Protecteur : I'
+completedQuestTimes:
+- 1567780869284
+amountsCompletedQuests:
+- Un forgeron averti en vaux deux
+- 'Le Protecteur : I'
+amountsCompleted:
+- 1
+- 1
+hasJournal: false
+lastKnownName: Flacabon

@@ -1,0 +1,128 @@
+# #################################################################
+#            This is the main configuration of MyPet              #
+#              You can find more info on the wiki:                #
+#   https://wiki.mypet-plugin.de/setup/configurations/config.yml  #
+# #################################################################
+
+MyPet:
+  Update:
+    Check: true
+    Download: false
+    ReplaceOld: false
+    In-Background: false
+    OP-Notification: true
+  Leash:
+    Consume: false
+    AllowRanged: true
+  OwnerCanAttackPet: false
+  DisablePetVersusPlayer: false
+  RetainEquipmentOnTame: true
+  Make-Pet-Invisible-When-Owner-Is-Invisible: true
+  Log:
+    Level: INFO
+    Report-Errors: true
+    Unique-ID: 3550e6e5-23ed-48e2-b2f8-f5ed4303f677
+  Max-Stored-Pet-Count: 100
+  Throw-PlayerMoveEvent-While-Riding: true
+  Disable-All-Actionbar-Messages: false
+  OverwriteLanguages: ''
+  Right-Click-Command: ''
+  Entity:
+    Skip-Target-AI-Ticks: 0
+    FollowStartDistance: 7.0
+  Repository:
+    Type: SQLite
+    ConvertFrom: ''
+    LoadDelay: 20
+    MySQL:
+      Database: mypet
+      TablePrefix: ''
+      Host: localhost
+      Password: ''
+      User: root
+      Port: 3306
+      MaxConnections: 8
+      CharacterEncoding: utf8
+    MongoDB:
+      Database: mypet
+      CollectionPrefix: ''
+      Host: localhost
+      Password: ''
+      User: ''
+      Port: 27017
+  Respawn:
+    Time:
+      Disabled: false
+      Default:
+        Factor: 5
+        Fixed: 0
+      Player:
+        Factor: 5
+        Fixed: 0
+    EconomyCost:
+      Fixed: 0.0
+      Factor: 1.0
+  Permissions:
+    Enabled: true
+    Extended: true
+    Legacy: false
+  LevelSystem:
+    CalculationMode: Default
+  HungerSystem:
+    Active: true
+    Time: 60
+    SaturationPerFeed: 6.0
+    Affect-Ride-Speed: true
+    Affect-Beacon-Range: true
+  Skilltree:
+    AutomaticAssignment: false
+    RandomAssignment: false
+    ChooseOnce: false
+    PreventLevellingWithout: true
+    SwitchFee:
+      Fixed: 0.0
+      Percent: 5
+      Admin: false
+  Name:
+    Filter:
+    - whore
+    - fuck
+    - Toryar
+    - caca
+    MaxLength: 32
+    Tag:
+      Show: true
+      Prefix: <aqua>
+      Suffix: ''
+  Exp:
+    DamageWeightedExperienceDistribution: true
+    Passive:
+      Always-Grant-Passive-XP: true
+      PercentPerMonster: 25
+    Loss:
+      Percent: 0
+      Fixed: 0.0
+      Drop: true
+      Allow-Level-Drowngrade: false
+    Gain:
+      PreventFromSpawnReason: []
+    LevelCap: 100
+    Disabled-Worlds: []
+    Modifier:
+      Global: 1.0
+      Use-Permissions: false
+  Skill:
+    Control:
+      Item: lead
+    Backpack:
+      Creative: false
+      DropWhenOwnerDies: false
+    Beacon:
+      HungerDecreaseTime: 100
+      Party-Support: true
+    Ride:
+      Item: lead
+      HungerPerMeter: 0.01
+      Prevent-Teleportation-While-Riding: false
+  Info:
+    Wiki-URL: https://wiki.mypet-plugin.de

@@ -1,0 +1,20 @@
+{
+  "Type": "MUSHROOM_COW",
+  "Loot": [
+    {
+      "Type": "LEATHER",
+      "Chance": 100.0,
+      "Min": 0,
+      "Max": 2,
+      "Looting": true
+    },
+    {
+      "Type": "BEEF",
+      "Burned Type": "COOKED_BEEF",
+      "Chance": 100.0,
+      "Min": 1,
+      "Max": 3,
+      "Looting": true
+    }
+  ]
+}

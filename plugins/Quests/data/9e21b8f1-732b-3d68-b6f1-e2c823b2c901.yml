@@ -1,0 +1,27 @@
+currentQuests:
+- Un forgeron averti en vaut deux
+- 'L''apiculture : I'
+currentStages:
+- 0
+- 0
+quest-points: 0
+questData:
+  Un forgeron averti en vaut deux:
+    citizen-ids-to-talk-to:
+    - 98
+    has-talked-to:
+    - false
+  'L''apiculture : I':
+    citizen-ids-to-talk-to:
+    - 181
+    - 182
+    - 183
+    - 184
+    has-talked-to:
+    - false
+    - false
+    - false
+    - false
+completed-Quests: none
+hasJournal: false
+lastKnownName: jayjay56936

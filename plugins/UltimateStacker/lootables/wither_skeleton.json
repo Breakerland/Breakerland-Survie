@@ -1,0 +1,30 @@
+{
+  "Type": "WITHER_SKELETON",
+  "Loot": [
+    {
+      "Type": "COAL",
+      "Chance": 33.0,
+      "Min": 1,
+      "Max": 1,
+      "Looting": true
+    },
+    {
+      "Type": "BONE",
+      "Chance": 100.0,
+      "Min": 0,
+      "Max": 2,
+      "Looting": true
+    },
+    {
+      "Type": "WITHER_SKELETON_SKULL",
+      "Data": -1,
+      "Chance": 2.5,
+      "Min": 1,
+      "Max": 1,
+      "Looting": false,
+      "Only Drop For": [
+        "PLAYER"
+      ]
+    }
+  ]
+}

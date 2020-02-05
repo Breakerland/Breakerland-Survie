@@ -1,0 +1,14 @@
+currentQuests:
+- Danger ! Creeper
+currentStages:
+- 0
+quest-points: 0
+questData:
+  Danger ! Creeper:
+    mobs-killed:
+    - Creeper
+    mobs-killed-amounts:
+    - 0
+completed-Quests: none
+hasJournal: false
+lastKnownName: Aiwix

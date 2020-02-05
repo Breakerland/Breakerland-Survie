@@ -1,0 +1,53 @@
+currentQuests: none
+currentStages: none
+quest-points: 2
+completed-Quests:
+- Alfred l'alchimiste !
+- Collection de minerais
+- 'Le Protecteur : I'
+- Etude des Zombies
+- Danger ! Creeper
+- Globe
+- 'Crafteur : I'
+- Mange mon globe
+- Globiliums
+- Le Potager
+- Coloration
+completedRedoableQuests:
+- Danger ! Creeper
+- Mange mon globe
+- Alfred l'alchimiste !
+- Globe
+- Collection de minerais
+- Etude des Zombies
+- 'Le Protecteur : I'
+- Coloration
+completedQuestTimes:
+- 1569444435420
+- 1571424282114
+- 1568898914806
+- 1571424643905
+- 1568899600319
+- 1568900225319
+- 1568900210090
+- 1575421580566
+amountsCompletedQuests:
+- Danger ! Creeper
+- Mange mon globe
+- Alfred l'alchimiste !
+- Globe
+- Collection de minerais
+- Etude des Zombies
+- 'Le Protecteur : I'
+- Coloration
+amountsCompleted:
+- 1
+- 4
+- 1
+- 4
+- 1
+- 1
+- 1
+- 1
+hasJournal: false
+lastKnownName: ElfeZoulou

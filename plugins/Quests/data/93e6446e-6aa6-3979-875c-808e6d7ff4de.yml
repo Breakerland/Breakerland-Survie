@@ -1,0 +1,18 @@
+currentQuests:
+- Zombiecalypse
+currentStages:
+- 0
+quest-points: 0
+questData:
+  Zombiecalypse:
+    mobs-killed:
+    - Zombie
+    - Husk
+    - Drowned
+    mobs-killed-amounts:
+    - 2
+    - 0
+    - 0
+completed-Quests: none
+hasJournal: false
+lastKnownName: DreamLight56

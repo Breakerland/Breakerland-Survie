@@ -1,0 +1,14 @@
+currentQuests:
+- 'Une histoire de Pirates : I'
+currentStages:
+- 3
+quest-points: 0
+questData:
+  'Une histoire de Pirates : I':
+    citizen-ids-to-talk-to:
+    - 45
+    has-talked-to:
+    - false
+completed-Quests: none
+hasJournal: false
+lastKnownName: ZED24

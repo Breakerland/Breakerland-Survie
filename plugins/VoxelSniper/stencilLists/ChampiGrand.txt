@@ -1,0 +1,12 @@
+champiGrand1-N
+champiGrand1-S
+champiGrand1-E
+champiGrand1-O
+champiGrand2-N
+champiGrand2-S
+champiGrand2-E
+champiGrand2-O
+champiGrand3-N
+champiGrand3-S
+champiGrand3-E
+champiGrand3-O

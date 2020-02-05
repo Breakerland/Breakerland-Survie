@@ -1,0 +1,44 @@
+currentQuests:
+- Les Créatures de la nuit
+- Danger ! Creeper
+currentStages:
+- 0
+- 0
+quest-points: 0
+questData:
+  Les Créatures de la nuit:
+    mobs-killed:
+    - Spider
+    - Cave Spider
+    - Phantom
+    mobs-killed-amounts:
+    - 16
+    - 0
+    - 1
+  Danger ! Creeper:
+    mobs-killed:
+    - Creeper
+    mobs-killed-amounts:
+    - 15
+completed-Quests:
+- Un forgeron averti en vaux deux
+- 'Le Protecteur : I'
+- 'Le Protecteur : II'
+completedRedoableQuests:
+- 'Le Protecteur : II'
+- Un forgeron averti en vaux deux
+- 'Le Protecteur : I'
+completedQuestTimes:
+- 1569453951471
+- 1568843746404
+- 1569193577403
+amountsCompletedQuests:
+- 'Le Protecteur : II'
+- Un forgeron averti en vaux deux
+- 'Le Protecteur : I'
+amountsCompleted:
+- 1
+- 1
+- 1
+hasJournal: false
+lastKnownName: ItsFoxity

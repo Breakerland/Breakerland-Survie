@@ -1,0 +1,19 @@
+{
+  "Type": "POLAR_BEAR",
+  "Loot": [
+    {
+      "Type": "COD",
+      "Chance": 75.0,
+      "Min": 0,
+      "Max": 2,
+      "Looting": true
+    },
+    {
+      "Type": "SALMON",
+      "Chance": 25.0,
+      "Min": 0,
+      "Max": 2,
+      "Looting": true
+    }
+  ]
+}

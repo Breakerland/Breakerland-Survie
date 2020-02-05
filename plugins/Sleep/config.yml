@@ -1,0 +1,18 @@
+# Time in seconds before a player can sleep again
+sleepCooldown: 60
+# Time in seconds before night/storm/thunder is skip
+sleepTime: 10
+# The tick time to skip the night
+skipTime: 0
+
+# Messages
+cooldownMessage: '&cAttendez un peu avant de vous recoucher!'
+noCancel: '&cPersonne ne dort.'
+cancelMessage: '&e%player% a annulé le sommeil.'
+alreadyCancel: '&cLe sommeil a déjà été annulé.'
+cancel: '&f[&4ANNULER&f]'
+cancelHover: 'Cliquez pour annuler'
+sleepingMessages:
+- '&eChuuuut! %player% va se coucher... %cancel%'
+- '&e%player% attend le marchand de sable. %cancel%'
+- '&e%player% fait une petite sieste. %cancel%'

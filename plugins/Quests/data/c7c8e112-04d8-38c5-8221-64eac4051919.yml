@@ -1,0 +1,30 @@
+currentQuests: none
+currentStages: none
+quest-points: 4
+completed-Quests:
+- 'L''apiculture : I'
+- 'Le Protecteur : I'
+- Etude des Zombies
+- 'Le Protecteur : II'
+completedRedoableQuests:
+- 'Le Protecteur : II'
+- Etude des Zombies
+- 'L''apiculture : I'
+- 'Le Protecteur : I'
+completedQuestTimes:
+- 1580241962078
+- 1580056531667
+- 1580050953719
+- 1580056389895
+amountsCompletedQuests:
+- 'Le Protecteur : II'
+- Etude des Zombies
+- 'L''apiculture : I'
+- 'Le Protecteur : I'
+amountsCompleted:
+- 1
+- 1
+- 1
+- 1
+hasJournal: false
+lastKnownName: atRxsher

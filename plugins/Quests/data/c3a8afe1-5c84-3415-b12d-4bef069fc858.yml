@@ -1,0 +1,83 @@
+currentQuests: none
+currentStages: none
+quest-points: 56
+completed-Quests:
+- 'Crafteur : I'
+- Zombiecalypse
+- 'Bûcheron : I'
+- 'Fermier : I'
+- Mange mon globe
+- Le Potager
+- Globiliums
+- Globe
+- Coloration
+- Hugo à la recherche de l'Oeuf Magique
+- 'Le Centenaire : I'
+- 'Le Centenaire : II'
+- Le Vol
+- Comment être un bon dresseur ?
+- 'L''apiculture : I'
+completedRedoableQuests:
+- Mange mon globe
+- Globe
+- Zombiecalypse
+- Coloration
+- 'L''apiculture : I'
+completedQuestTimes:
+- 1576059481167
+- 1575540418441
+- 1572471196433
+- 1573160055750
+- 1577633356333
+amountsCompletedQuests:
+- 'Le Protecteur : II'
+- Zombiecalypse
+- Collection de minerais
+- Les Créatures de la nuit
+- Mettez fin à la guerre !
+- Etude des Zombies
+- Un forgeron averti en vaut deux
+- Carnivore
+- 'Chercheur avisé : I'
+- 'L''apiculture : I'
+- 'Le Protecteur : III'
+- Danger ! Creeper
+- Mange mon globe
+- La zone est dégagée
+- 'Chercheur avisé : II'
+- Alfred l'alchimiste !
+- Globe
+- Perte de conscience
+- Un forgeron averti en vaux deux
+- Une envie subite
+- Tête en l'air
+- 'Le Protecteur : I'
+- 'Chercheur avisé : III'
+- Coloration
+amountsCompleted:
+- 2
+- 2
+- 1
+- 1
+- 1
+- 1
+- 1
+- 2
+- 1
+- 1
+- 2
+- 2
+- 16
+- 1
+- 1
+- 1
+- 13
+- 2
+- 3
+- 2
+- 1
+- 3
+- 1
+- 2
+hasJournal: true
+lastKnownName: Kaio_Beninou

@@ -1,0 +1,46 @@
+currentQuests:
+- De la chaire en décomposition
+currentStages:
+- 0
+quest-points: 129
+questData:
+  De la chaire en décomposition:
+    mobs-killed:
+    - Zombie
+    mobs-killed-amounts:
+    - 0
+completed-Quests:
+- L'absorption
+- Comment être un bon dresseur ?
+completedRedoableQuests:
+- L'absorption
+completedQuestTimes:
+- 1579943619732
+amountsCompletedQuests:
+- Mange mon globe
+- 'Lutin : I'
+- L'absorption
+- Globe
+- Perte de conscience
+- 'Le Papa Noël et ses embrouilles : IV'
+- 'Lutin : II'
+- 'Le Papa Noël et ses embrouilles : III'
+- Tête en l'air
+- 'Lutin : IV'
+- 'Le Papa Noël et ses embrouilles : V'
+- 'Lutin : III'
+amountsCompleted:
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+hasJournal: true
+lastKnownName: Toryar

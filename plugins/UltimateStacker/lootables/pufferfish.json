@@ -1,0 +1,19 @@
+{
+  "Type": "PUFFERFISH",
+  "Loot": [
+    {
+      "Type": "PUFFERFISH",
+      "Chance": 100.0,
+      "Min": 1,
+      "Max": 1,
+      "Looting": true
+    },
+    {
+      "Type": "BONE_MEAL",
+      "Chance": 5.0,
+      "Min": 1,
+      "Max": 1,
+      "Looting": true
+    }
+  ]
+}

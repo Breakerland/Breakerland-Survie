@@ -1,0 +1,73 @@
+currentQuests:
+- RRAAWRR !
+currentStages:
+- 1
+quest-points: 7
+questData:
+  RRAAWRR !:
+    mobs-killed:
+    - Zombie
+    - Husk
+    - Zombie Villager
+    - Drowned
+    mobs-killed-amounts:
+    - 24
+    - 0
+    - 1
+    - 0
+completed-Quests:
+- 'Le Protecteur : I'
+- Une envie subite
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+- Alfred l'alchimiste !
+- Collection de minerais
+- Etude des Zombies
+- Danger ! Creeper
+- 'Crafteur : I'
+- Un forgeron averti en vaut deux
+- 'Bûcheron : I'
+completedRedoableQuests:
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+- Danger ! Creeper
+- Alfred l'alchimiste !
+- Collection de minerais
+- Etude des Zombies
+- Une envie subite
+- Un forgeron averti en vaut deux
+- 'Le Protecteur : I'
+completedQuestTimes:
+- 1571698359156
+- 1571698789565
+- 1571696268277
+- 1567713616175
+- 1567714953564
+- 1567803423458
+- 1567453776559
+- 1571735334814
+- 1571697543107
+amountsCompletedQuests:
+- 'Le Protecteur : II'
+- 'Le Protecteur : III'
+- Danger ! Creeper
+- Alfred l'alchimiste !
+- Collection de minerais
+- Etude des Zombies
+- Une envie subite
+- Un forgeron averti en vaux deux
+- Un forgeron averti en vaut deux
+- 'Le Protecteur : I'
+amountsCompleted:
+- 2
+- 2
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 2
+hasJournal: false
+lastKnownName: Hydrenoir

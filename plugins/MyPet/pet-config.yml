@@ -1,0 +1,833 @@
+# #####################################################################
+#               This is the pet configuration of MyPet                #
+#                 You can find more info on the wiki:                 #
+#   https://wiki.mypet-plugin.de/setup/configurations/pet-config.yml  #
+# #####################################################################
+
+MyPet:
+  Pets:
+    Bee:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - poppy
+      - dandelion
+      - blue_orchid
+      - allium
+      - azure_bluet
+      - red_tulip
+      - orange_tulip
+      - white_tulip
+      - pink_tulip
+      - oxeye_daisy
+      - cornflower
+      - lily_of_the_valley
+      - wither_rose
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+      CanGlide: true
+    Bat:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - spider_eye
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+      CanGlide: true
+    Blaze:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - gunpowder
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+      CanGlide: true
+    Cat:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - cod
+      LeashRequirements:
+      - Tamed
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+    CaveSpider:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - rotten_flesh
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+    Chicken:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - wheat_seeds
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+      CanLayEggs: true
+      CanGlide: true
+      GrowUpItem: experience_bottle
+    Cod:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - seagrass
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+    Cow:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - wheat
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+      CanGiveMilk: true
+      GrowUpItem: experience_bottle
+    Creeper:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - gunpowder
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+    Dolphin:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - cod
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+    Donkey:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - sugar
+      - wheat
+      - apple
+      LeashRequirements:
+      - Tamed
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+      GrowUpItem: experience_bottle
+    Drowned:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - rotten_flesh
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+    ElderGuardian:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - sugar
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+    EnderDragon:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - end_stone
+      LeashRequirements:
+      - Impossible
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+      CanGlide: true
+    Enderman:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - soul_sand
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+    Endermite:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - sugar
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+    Evoker:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - apple
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+    Fox:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - sweet_berries
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+    Ghast:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - gunpowder
+      LeashRequirements:
+      - Impossible
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+      CanGlide: true
+    Giant:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - rotten_flesh
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+    Guardian:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - sugar
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+    Horse:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - sugar
+      - wheat
+      - apple
+      LeashRequirements:
+      - Tamed
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+      GrowUpItem: bread
+    Husk:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - rotten_flesh
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+    Illusioner:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - apple
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+    IronGolem:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - iron_ingot
+      LeashRequirements:
+      - saddle
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+      CanTossUp: true
+    Llama:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - wheat
+      LeashRequirements:
+      - Tamed
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+      GrowUpItem: experience_bottle
+    MagmaCube:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - redstone
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+    Mooshroom:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - wheat
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+      GrowUpItem: experience_bottle
+      CanGiveStew: false
+    Mule:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - sugar
+      - wheat
+      - apple
+      LeashRequirements:
+      - Tamed
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+      GrowUpItem: experience_bottle
+    Ocelot:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - cod
+      - salmon
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+      GrowUpItem: experience_bottle
+    Panda:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - bamboo
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+    Parrot:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - cookie
+      - sweet_berries
+      LeashRequirements:
+      - Tamed
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+      CanGlide: true
+    Phantom:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - rotten_flesh
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+      CanGlide: true
+    Pig:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - carrot
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+      GrowUpItem: experience_bottle
+    PigZombie:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - rotten_flesh
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+      GrowUpItem: experience_bottle
+    Pillager:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - apple
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+    PolarBear:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - cod
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+    Pufferfish:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - seagrass
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+    Rabbit:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - carrot
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+      GrowUpItem: experience_bottle
+    Ravager:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - beef
+      - mutton
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+    Salmon:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - seagrass
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+    Sheep:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - wheat
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+      CanBeSheared: true
+      CanRegrowWool: true
+      GrowUpItem: experience_bottle
+    Silverfish:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - sugar
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+    Skeleton:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - bone
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+    SkeletonHorse:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - bone
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+      GrowUpItem: experience_bottle
+    Slime:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - sugar
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+    Snowman:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - carrot
+      - snowball
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+      FixSnowTrack: true
+    Spider:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - rotten_flesh
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+    Squid:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - cod
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+    Stray:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - bone
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+    TraderLlama:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - wheat
+      LeashRequirements:
+      - Tamed
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+    TropicalFish:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - seagrass
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+    Turtle:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - seagrass
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+    Vex:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - apple
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+      CanGlide: true
+    Villager:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - apple
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+      GrowUpItem: experience_bottle
+    Vindicator:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - apple
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+    WanderingTrader:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - apple
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+    Witch:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - mushroom_stew
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+    Wither:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - bone
+      LeashRequirements:
+      - Impossible
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+      CanGlide: true
+    WitherSkeleton:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - bone
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+    Wolf:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - beef
+      - mutton
+      LeashRequirements:
+      - Tamed
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+      GrowUpItem: experience_bottle
+    Zombie:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - rotten_flesh
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+      GrowUpItem: experience_bottle
+    ZombieHorse:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - rotten_flesh
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+      GrowUpItem: experience_bottle
+    ZombieVillager:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - rotten_flesh
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
