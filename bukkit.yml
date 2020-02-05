@@ -31,7 +31,7 @@ spawn-limits:
 chunk-gc:
   period-in-ticks: 300
 ticks-per:
-  animal-spawns: 40
-  monster-spawns: 20
+  animal-spawns: 10
+  monster-spawns: 5
   autosave: 0
 aliases: commands.yml
