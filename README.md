@@ -13,19 +13,27 @@ Cependant tous les fichiers de configuration restent disponible à la modificati
 ### Base de donnée
 Il est préférable de favoriser l'utilisation de MySQL ou MariaDB lorsqu'il l'est possible.
 Pour les informations de connexion, veuillez utiliser les variables suivantes :
+```bash
 Host: '$mysql_host'
 Port: '$mysql_port'
+```
 
 Pour les identifiants de connexion pour les données spécifiques au serveur Survie, veuillez utiliser les variables suivantes :
+```bash
 User: '$mysql_user_survie'
 Password: '$mysql_password_survie'
 Database: '$mysql_database_survie'
+```
 
 Pour les identifiants de connexion pour les données communes à différents serveurs, veuillez utiliser les variables suivantes :
+```bash
 User: '$mysql_user_proxy'
 Password: '$mysql_password_proxy'
 Database: '$mysql_database_proxy'
+```
 
 ### Bot Discord
 Pour les identifiants du Bot Discord BreakerBot, veuillez utiliser les variables suivantes :
+```bash
 Token: '$discord_token'
+```
