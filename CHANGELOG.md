@@ -1,5 +1,15 @@
 # Changelog Breakerland
 
+## V6.01 - 6 février
+
+ - Augmentation des gains du mineur
+ - Suppression de l'enchantement SandStorm de la table des mages
+ - Ajout de boost achetable en boutique pour tous les joueurs
+ - Ajout d'une image pour le premium
+ - Modification du Bot cancer "association des Joueurs" du discord
+ - Ajout du serveur "tout entier" et de ses configs en libre accès 
+ - Modification du taux de spawn des mobs par chunks
+
 ## V6.0 - 3 février 2020
 
  - Perte du stuff ré-activer
