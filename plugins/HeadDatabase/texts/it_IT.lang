@@ -1,0 +1,80 @@
+# it_IT.lang
+
+! &bUsing &3"it_IT.lang" &btranslated by &6pompiere1
+
+# Change the messages here, you can use & to use colors.
+# buyMessage must contain %Item% and %price%
+# database can contain %count%
+
+messages.prefix: &6HeadDB> &r
+messages.database: &4Head DB&8 %count% teste
+messages.search: &4Cerca tra&8 %count% heads
+messages.page: Pagina
+messages.price: &aPrezzo: &2
+messages.heads: teste
+messages.head: testa
+messages.other: altro
+messages.loading: &c..Caricamento in corso..
+messages.recentHeads: &aAggiunte di recente
+messages.noPermissionToBuyLore: &cNessun permesso
+messages.searchCommand: &7/hdb search [input]
+messages.pheadCommand: /phead [nome]
+messages.loreColor: &8
+messages.headItemColor: &9
+messages.categoryColor: &c&l
+messages.categoryLoreColor: &e
+
+messages.suggest: &bPuoi suggerire teste qui:
+messages.submit: &bPuoi inviare le teste qui:
+messages.noPermission: &cNon hai il permesso per farlo!
+messages.notEnoughMoney: &cNon hai abbastanza soldi per farlo!
+messages.notEnoughSpace: &cNon hai abbastanza spazio nel tuo inventario!
+messages.buyMessage: &aHai comprato %item% &aper &2%price%
+messages.backToMenu: &cTorna al menu
+messages.clickToSearch: &a&n&lClicca qui&b per cercare delle teste
+messages.noHeadsFound: &eNessuna testa trovata, riprova!
+messages.moreSpecific: &eSii più specifico!
+messages.headsFound: &eTeste trovate!
+messages.searchForHeads: &cCerca delle teste
+messages.pluginInfo: &cInfo plugin
+messages.pluginSuggest: &cPuoi suggerire teste qui
+messages.pluginSuggestLore: &7Prima controlla il database!
+messages.chatSearch: &bDigita il tuo input di ricerca
+messages.databaseStillLoading: &cIl database è ancora in fase di caricamento, riprova tra un secondo!
+messages.customCommandItemName: &cTorna al menu principale
+
+# CATEGORY NAMES
+
+category.alphabet: Alfabeto
+category.animals: Animali
+category.blocks: Blocchi
+category.decoration: Decorazioni
+category.food_drinks: Cibo e bevande
+category.humans: Umani
+category.humanoid: Umanoidi
+category.miscellaneous: Varie
+category.monsters: Mostri
+category.plants: Piante
+category.custom: Teste personalizzate del Server
+category.custom2: Teste personalizzate del Server 2
+category.custom3: Teste personalizzate del Server 3
+category.custom4: Teste personalizzate del Server 4
+category.custom5: Teste personalizzate del Server 5
+category.online_players: Giocatori online
+category.disabled: Disabilitate
+
+# EVENT NAMES
+
+event.halloween: &eHalloween
+event.christmas: &bNatale
+event.newYear: &6Felice anno nuovo
+event.valentines: &cSan Valentino
+event.4thOfJuly: &cBuon 4 luglio
+event.easter: &fPasqua
+event.winter: &fInverno
+event.summer: &6Estate
+event.MayThe4th: &3Il 4 maggio sia con te
+event.piDay: &3Giorno del Pi greco
+event.pokemon: &6Pokémon Day
+event.StPatricksDay: &aFesta di San Patrizio
+event.dayOfTheDead: &fGiorno dei morti

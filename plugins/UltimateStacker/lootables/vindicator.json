@@ -1,0 +1,15 @@
+{
+  "Type": "VINDICATOR",
+  "Loot": [
+    {
+      "Type": "EMERALD",
+      "Chance": 100.0,
+      "Min": 0,
+      "Max": 1,
+      "Looting": true,
+      "Only Drop For": [
+        "PLAYER"
+      ]
+    }
+  ]
+}

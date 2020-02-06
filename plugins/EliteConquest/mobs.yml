@@ -1,0 +1,73 @@
+Mobs:
+  Zombie:
+    mob: "ZOMBIE"
+    name: "&2&lCadavre ambulant"
+    health: 10
+    armor:
+      material: "DIAMOND"
+      enchants:
+        - 'PROTECTION_ENVIRONMENTAL:4'
+    weapon:
+      material: "DIAMOND_AXE"
+      enchants:
+        - 'DAMAGE_ALL:5'
+  Pillager:
+    mob: "PILLAGER"
+    name: "&2&lVagabond"
+    health: 5
+    armor:
+      material: "IRON"
+      enchants:
+        - 'PROTECTION_ENVIRONMENTAL:2'
+    weapon:
+      material: "WOODEN_SWORD"
+      enchants:
+        - 'DAMAGE_ALL:2'
+  Ravager:
+    mob: "RAVAGER"
+    name: "&0&lDestrier Ténébreux"
+    health: 100
+    armor:
+      material: "IRON"
+      enchants:
+        - 'PROTECTION_ENVIRONMENTAL:2'
+    weapon:
+      material: "WOODEN_SWORD"
+      enchants:
+        - 'DAMAGE_ALL:2'
+  Vindicator:
+    mob: "VINDICATOR"
+    name: "&2&lMagicien Ténébreux"
+    health: 10
+    armor:
+      material: "IRON"
+      enchants:
+        - 'PROTECTION_ENVIRONMENTAL:2'
+    weapon:
+      material: "STONE_SWORD"
+      enchants:
+        - 'DAMAGE_ALL:5'
+  Vex:
+    mob: "VEX"
+    name: "&2&lFeu Follet"
+    health: 4
+    armor:
+      material: "DIAMOND"
+      enchants:
+        - 'PROTECTION_ENVIRONMENTAL:1'
+    weapon:
+      material: "WOODEN_SWORD"
+      enchants:
+        - 'DAMAGE_ALL:1'
+  Skeleton:
+    mob: "SKELETON"
+    name: "&2&lCadavre ambulant"
+    health: 9
+    armor:
+      material: "IRON"
+      enchants:
+        - 'PROTECTION_ENVIRONMENTAL:2'
+    weapon:
+      material: "BOW"
+      enchants:
+        - 'POWER:5'

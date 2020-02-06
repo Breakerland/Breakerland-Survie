@@ -1,0 +1,19 @@
+{
+  "Type": "STRAY",
+  "Loot": [
+    {
+      "Type": "ARROW",
+      "Chance": 100.0,
+      "Min": 0,
+      "Max": 2,
+      "Looting": true
+    },
+    {
+      "Type": "BONE",
+      "Chance": 100.0,
+      "Min": 0,
+      "Max": 2,
+      "Looting": true
+    }
+  ]
+}

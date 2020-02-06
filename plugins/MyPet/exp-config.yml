@@ -1,0 +1,203 @@
+# #####################################################################
+#               This is the exp configuration of MyPet                #
+#                 You can find more info on the wiki:                 #
+#   https://wiki.mypet-plugin.de/setup/configurations/exp-config.yml  #
+# #####################################################################
+
+Custom:
+  §cBig Boss:
+    Max: 300.0
+    Min: 150.0
+Default:
+  BEE:
+    Min: 1.0
+    Max: 3.0
+  WITHER_SKELETON:
+    Min: 5.0
+    Max: 5.0
+  STRAY:
+    Min: 5.0
+    Max: 5.0
+  HUSK:
+    Min: 5.0
+    Max: 5.0
+  ZOMBIE_VILLAGER:
+    Min: 5.0
+    Max: 5.0
+  SKELETON_HORSE:
+    Min: 1.0
+    Max: 3.0
+  ZOMBIE_HORSE:
+    Min: 1.0
+    Max: 3.0
+  DONKEY:
+    Min: 1.0
+    Max: 3.0
+  MULE:
+    Min: 1.0
+    Max: 3.0
+  EVOKER:
+    Min: 10.0
+    Max: 10.0
+  VEX:
+    Min: 3.0
+    Max: 3.0
+  VINDICATOR:
+    Min: 5.0
+    Max: 5.0
+  ILLUSIONER:
+    Min: 5.0
+    Max: 5.0
+  CREEPER:
+    Min: 5.0
+    Max: 5.0
+  SKELETON:
+    Min: 5.0
+    Max: 5.0
+  SPIDER:
+    Min: 5.0
+    Max: 5.0
+  GIANT:
+    Min: 25.0
+    Max: 25.0
+  ZOMBIE:
+    Min: 5.0
+    Max: 5.0
+  SLIME:
+    Min: 1.0
+    Max: 4.0
+  GHAST:
+    Min: 5.0
+    Max: 5.0
+  PIG_ZOMBIE:
+    Min: 5.0
+    Max: 5.0
+  ENDERMAN:
+    Min: 5.0
+    Max: 5.0
+  CAVE_SPIDER:
+    Min: 5.0
+    Max: 5.0
+  SILVERFISH:
+    Min: 5.0
+    Max: 5.0
+  BLAZE:
+    Min: 10.0
+    Max: 10.0
+  MAGMA_CUBE:
+    Min: 1.0
+    Max: 4.0
+  ENDER_DRAGON:
+    Min: 20000.0
+    Max: 20000.0
+  WITHER:
+    Min: 100.0
+    Max: 100.0
+  BAT:
+    Min: 1.0
+    Max: 1.0
+  WITCH:
+    Min: 10.0
+    Max: 10.0
+  ENDERMITE:
+    Min: 3.0
+    Max: 3.0
+  GUARDIAN:
+    Min: 10.0
+    Max: 10.0
+  SHULKER:
+    Min: 5.0
+    Max: 5.0
+  PIG:
+    Min: 1.0
+    Max: 3.0
+  SHEEP:
+    Min: 1.0
+    Max: 3.0
+  COW:
+    Min: 1.0
+    Max: 3.0
+  CHICKEN:
+    Min: 1.0
+    Max: 3.0
+  SQUID:
+    Min: 1.0
+    Max: 3.0
+  WOLF:
+    Min: 1.0
+    Max: 3.0
+  MUSHROOM_COW:
+    Min: 1.0
+    Max: 3.0
+  SNOWMAN:
+    Min: 0.0
+    Max: 0.0
+  OCELOT:
+    Min: 1.0
+    Max: 3.0
+  IRON_GOLEM:
+    Min: 0.0
+    Max: 0.0
+  RABBIT:
+    Min: 1.0
+    Max: 1.0
+  POLAR_BEAR:
+    Min: 1.0
+    Max: 3.0
+  LLAMA:
+    Min: 0.0
+    Max: 0.0
+  PARROT:
+    Min: 1.0
+    Max: 3.0
+  VILLAGER:
+    Min: 0.0
+    Max: 0.0
+  ENDER_CRYSTAL:
+    Min: 10.0
+    Max: 10.0
+  TURTLE:
+    Min: 1.0
+    Max: 3.0
+  PHANTOM:
+    Min: 5.0
+    Max: 5.0
+  COD:
+    Min: 0.0
+    Max: 0.0
+  SALMON:
+    Min: 0.0
+    Max: 0.0
+  PUFFERFISH:
+    Min: 0.0
+    Max: 0.0
+  TROPICAL_FISH:
+    Min: 0.0
+    Max: 0.0
+  DROWNED:
+    Min: 5.0
+    Max: 5.0
+  DOLPHIN:
+    Min: 0.0
+    Max: 0.0
+  CAT:
+    Min: 1.0
+    Max: 3.0
+  PANDA:
+    Min: 1.0
+    Max: 3.0
+  PILLAGER:
+    Min: 5.0
+    Max: 5.0
+  RAVAGER:
+    Min: 4.0
+    Max: 5.0
+  TRADER_LLAMA:
+    Min: 1.0
+    Max: 3.0
+  WANDERING_TRADER:
+    Min: 1.0
+    Max: 2.0
+  FOX:
+    Min: 1.0
+    Max: 2.0

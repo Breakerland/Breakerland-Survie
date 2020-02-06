@@ -1,0 +1,41 @@
+[
+  [
+    {
+      "id": 0,
+      "data": 0,
+      "amountMax": 5,
+      "amountMin": 1,
+      "lore": [],
+      "enchantments": []
+    },
+    0.03
+  ],
+  [
+    {
+      "id": 0,
+      "data": 0,
+      "amountMax": 2,
+      "amountMin": 1,
+      "lore": [],
+      "enchantments": [
+        "DAMAGE_ALL#3",
+        "FIRE_ASPECT#1",
+        "LOOT_BONUS_MOBS#4"
+      ]
+    },
+    0.012
+  ],
+  [
+    {
+      "id": 0,
+      "data": 0,
+      "amountMax": 2,
+      "amountMin": 1,
+      "lore": [],
+      "enchantments": [
+        "DAMAGE_ALL#5"
+      ]
+    },
+    0.01
+  ]
+]

@@ -1,0 +1,20 @@
+{
+  "Type": "SALMON",
+  "Loot": [
+    {
+      "Type": "SALMON",
+      "Burned Type": "COOKED_SALMON",
+      "Chance": 100.0,
+      "Min": 1,
+      "Max": 1,
+      "Looting": true
+    },
+    {
+      "Type": "BONE_MEAL",
+      "Chance": 5.0,
+      "Min": 1,
+      "Max": 1,
+      "Looting": true
+    }
+  ]
+}

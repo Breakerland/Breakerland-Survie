@@ -1,0 +1,1016 @@
+Players:
+  012da8b8-5293-3a9f-81b1-2faba0416f72:
+    craftings:
+    - livre;72
+    - morceau_de_parchemin;4800
+    - parchemin;296
+    - baton_en_chene_noir;74
+    - rubis;924
+    - poudre_magique;420
+    - baton_en_acajou;58
+    - baton_en_bouleau;58
+    - baton_en_acacia;58
+    - baton_en_sapin;58
+    - baton_en_chene;58
+    - pioche_en_pierre;8
+    - rubis_poli;180
+    - rubis_radieux;36
+    - pioche_magique;2
+    - rubis_impeccable;6
+    - eau_magique;6
+    - globe_de_transformation;3
+    - ampoule_de_genie;1
+    - la_grande_pioche;2
+    - colle;32
+    - corde_tresse;16
+    - eau_purifie;16
+    - diamant;270
+    - diamant_poli;54
+    - baies_medicinales;8
+    - diamant_radieux;10
+    - diamant_impeccable;2
+    name: laelia59
+  d448283f-128a-3c4c-9a2c-06e0df877eaa:
+    craftings:
+    - morceau_de_parchemin;2834
+    - parchemin;144
+    - livre;16
+    - baton_en_chene;10
+    - amethiste;505
+    - hache_en_pierre;1
+    - poudre_magique;86
+    - baton_en_acajou;55
+    - baton_en_sapin;9
+    - eau_purifie;15
+    - baies_medicinales;8
+    - eau_magique;3
+    - colle;28
+    - corde_tresse;14
+    - branche_d'acajou;4
+    - amethiste_polie;100
+    - améthiste_radieuse;20
+    - amethiste_impeccable;4
+    - la_grande_hacheuse;1
+    - ame;2
+    - diamant;276
+    - diamant_poli;55
+    - diamand_impeccable;11
+    - amenonu;1
+    - diamant_impeccable;2
+    - emeraude;2
+    - rubis;2
+    - larme_de_chimere;2
+    - amenonuhoko;1
+    name: Stebanou
+  f17ed078-e923-3f15-aa87-ead5aab84a05:
+    craftings:
+    - eau_magique;32
+    - globe_de_transformation;20
+    - ampoule_de_genie;15
+    - carburant;2
+    - eau_purifie;199
+    - branche_de_bouleau;6
+    - morceau_de_parchemin;17136
+    - parchemin;1071
+    - baton_en_chene_noir;275
+    - baton_en_acajou;115
+    - baton_en_bouleau;163
+    - baton_en_acacia;115
+    - baton_en_sapin;115
+    - baton_en_chene;115
+    - livre;108
+    - faux_magique;2
+    - diamant;507
+    - diamant_poli;102
+    - diamand_impeccable;18
+    - diamant_impeccable;3
+    - colle;181
+    - corde_tresse;88
+    - poudre_magique;1304
+    - baies_medicinales;140
+    - la_grande_faucheuse;1
+    - rubis;185
+    - rubis_poli;37
+    - rubis_radieux;5
+    - casquenoel;1
+    - tuniquenoel;1
+    - emeraude;75
+    - emeraude_poli;15
+    - emeraude_radieux;3
+    - pantalonnoel;1
+    - amethiste;75
+    - amethiste_polie;15
+    - améthiste_radieuse;3
+    - bottenoel;1
+    - silex_tranchant;2
+    - plume_de_coq;5
+    - pioche_en_fer;4
+    - branche_de_chene_noir;12
+    - petale_pure;32
+    - veste_des_lumières;4
+    name: aidan
+  72f2a0f3-56af-3c85-9f52-eedda6f2a964:
+    craftings:
+    - poudre_magique;1269
+    - morceau_de_parchemin;8990
+    - parchemin;650
+    - livre;67
+    - baton_en_chene_noir;324
+    - baton_en_acajou;297
+    - baton_en_bouleau;354
+    - baton_en_acacia;295
+    - baton_en_sapin;301
+    - baton_en_chene;323
+    - rubis;581
+    - rubis_poli;112
+    - rubis_radieux;21
+    - rubis_impeccable;3
+    - eau_purifie;179
+    - branche_de_chene_noir;26
+    - colle;44
+    - corde_tresse;22
+    - baies_medicinales;43
+    - eau_magique;8
+    - diamant;81
+    - emeraude;6
+    - amethiste;81
+    - larme_de_chimere;1
+    - pioche_en_pierre;6
+    - pioche_en_fer;2
+    - pioche_magique;1
+    - la_grande_pioche;1
+    - emeraude_poli;1
+    - diamant_poli;16
+    - amethiste_polie;16
+    - améthiste_radieuse;3
+    - branche_d'acajou;20
+    - branche_de_bouleau;20
+    - branche_d'acacia;20
+    - branche_de_sapin;20
+    - branche_de_chene;20
+    - branche_magique;2
+    - cadeau1;1
+    - cadeau2;1
+    - cadeau3;1
+    - cadeau4;1
+    - cadeau5;1
+    - bottenoel;1
+    - diamand_impeccable;3
+    - globe_de_transformation;2
+    - ampoule_de_genie;1
+    - tuniquenoel;1
+    name: Minebark
+  34a7014e-e633-38d4-8ea1-03caccdb4916:
+    craftings:
+    - morceau_de_parchemin;256
+    - parchemin;16
+    - baton_en_chene_noir;2
+    - baton_en_acajou;2
+    - baton_en_bouleau;2
+    - baton_en_acacia;2
+    - baton_en_sapin;2
+    - baton_en_chene;2
+    - livre;2
+    name: omega2028
+  bb9024a7-e30f-34df-88e9-90e1ffcf60ed:
+    craftings:
+    - silex_tranchant;384
+    - fleche;372
+    - fleche_tranchante;256
+    - colle;192
+    - emeraude;64
+    - emeraude_poli;12
+    - eau_purifie;63
+    - plume_de_coq;117
+    - corde_tresse;31
+    - baton_en_acacia;256
+    - branche_d'acacia;20
+    - arbalete_de_la_foret;1
+    - emeraude_radieux;2
+    - baies_medicinales;41
+    - poudre_magique;133
+    name: blazou38
+  39dd6e69-54e8-38ac-aaf9-a98cf7fc258a:
+    craftings:
+    - baton_en_chene_noir;7
+    - rubis;10
+    - morceau_de_parchemin;280
+    - parchemin;17
+    - baton_en_sapin;10
+    - baton_en_chene;3
+    - baton_en_acajou;8
+    - baton_en_bouleau;2
+    - baton_en_acacia;2
+    - livre;2
+    - poudre_magique;49
+    - pioche_en_pierre;1
+    name: Zeelyrules
+  44e5d14e-be5b-3fff-a001-8d9f5e2ab32f:
+    craftings:
+    - baton_en_chene_noir;3
+    - rubis;12
+    name: schoeffel18
+  43f49779-2dfb-3dd3-b353-18d8ee5aa84e:
+    craftings:
+    - poudre_magique;87
+    - colle;28
+    - corde_tresse;14
+    name: bioniclucas
+  eb03ab47-479e-3840-a626-329b0ed7a417:
+    craftings:
+    - rubis;3
+    - baton_en_chene_noir;23
+    - diamant;9
+    - ame;1
+    - morceau_de_parchemin;469
+    - parchemin;28
+    - baton_en_sapin;12
+    - baton_en_bouleau;13
+    - baton_en_chene;23
+    - baton_en_acacia;6
+    - baton_en_acajou;9
+    - livre;3
+    - diamant_poli;1
+    - poudre_magique;10
+    - ameno;1
+    name: Loan02
+  53e968e7-2f2b-3823-8875-3932458ab3a9:
+    craftings:
+    - rubis;3
+    - baton_en_chene_noir;2
+    - morceau_de_parchemin;16
+    - parchemin;1
+    name: OfCourse
+  10bb1c46-ca48-30d0-8417-0c2bfd1982d8:
+    craftings:
+    - poudre_magique;1917
+    - morceau_de_parchemin;14529
+    - parchemin;876
+    - livre;129
+    - houe_en_fer;2
+    - diamant;425
+    - houe_en_pierre;3
+    - diamant_poli;81
+    - diamand_impeccable;18
+    - baton_en_bouleau;206
+    - eau_purifie;226
+    - branche_de_bouleau;6
+    - baies_medicinales;140
+    - eau_magique;33
+    - globe_de_transformation;22
+    - amethiste;771
+    - hache_en_pierre;4
+    - amethiste_polie;150
+    - hache_en_fer;2
+    - améthiste_radieuse;28
+    - baton_en_acajou;210
+    - branche_d'acajou;6
+    - baton_en_chene;124
+    - baton_en_chene_noir;168
+    - baton_en_acacia;124
+    - baton_en_sapin;124
+    - colle;84
+    - corde_tresse;28
+    - hache_magique;1
+    - amethiste_impeccable;5
+    - emeraude;463
+    - par;9
+    - emeraude_poli;89
+    - paras;4
+    - emeraude_radieux;17
+    - parash;2
+    - emeraude_impeccable;3
+    - parashu;2
+    - ame;2
+    - ameno;1
+    - larme_de_chimere;9
+    - rubis;498
+    - faux_magique;1
+    - diamant_impeccable;3
+    - la_grande_faucheuse;1
+    - grimoire_d'absorption;1
+    - ampoule_de_genie;2
+    - rubis_poli;96
+    - rubis_radieux;18
+    - rubis_impeccable;3
+    - branche_de_chene_noir;2
+    name: Yohan81
+  83eb1a20-0e7a-33cc-852e-24755e59a218:
+    craftings:
+    - rubis;487
+    - baton_en_chene_noir;180
+    - poudre_magique;580
+    - morceau_de_parchemin;7395
+    - parchemin;463
+    - baton_en_acajou;72
+    - baton_en_sapin;48
+    - baton_en_chene;48
+    - baton_en_acacia;48
+    - baton_en_bouleau;48
+    - livre;56
+    - pioche_en_pierre;2
+    - rubis_poli;96
+    - rubis_radieux;18
+    - pioche_en_fer;2
+    - eau_purifie;46
+    - baies_medicinales;28
+    - eau_magique;7
+    - globe_de_transformation;4
+    - colle;56
+    - corde_tresse;28
+    - rubis_impeccable;3
+    - branche_de_chene_noir;6
+    - pioche_magique;1
+    - diamant;1
+    - emeraude;1
+    - amethiste;1
+    - larme_de_chimere;1
+    - ampoule_de_genie;1
+    - la_grande_pioche;1
+    - hache_en_fer;2
+    - branche_d'acajou;2
+    name: Djo676
+  895b1004-8b9a-355c-a77b-feef3e890e32:
+    craftings:
+    - baton_en_acajou;1
+    - amethiste;1
+    name: louloured03
+  f2983b2b-bec8-3afb-ad00-7463c3d7028e:
+    craftings:
+    - casquenoel;1
+    - morceau_de_parchemin;112
+    - parchemin;7
+    - pioche_d'alfred;1
+    name: CroixVeBaton
+  d447588d-5605-304e-9cfa-4cebaefb702a:
+    craftings:
+    - baton_en_chene_noir;45
+    - morceau_de_parchemin;729
+    - parchemin;45
+    - rubis;39
+    - poudre_magique;80
+    - baton_en_acajou;7
+    - baton_en_bouleau;7
+    - baton_en_acacia;7
+    - baton_en_sapin;7
+    - baton_en_chene;7
+    - livre;5
+    - pioche_en_pierre;3
+    - rubis_poli;6
+    - branche_de_chene_noir;2
+    - colle;18
+    - corde_tresse;6
+    - pioche_magique;1
+    name: Skullcute
+  8fc0eecb-029b-3423-8ac2-141c90cc8c27:
+    craftings:
+    - amethiste;471
+    - poudre_magique;468
+    - baton_en_acajou;152
+    - hache_en_pierre;4
+    - morceau_de_parchemin;7376
+    - parchemin;474
+    - baton_en_chene_noir;64
+    - baton_en_acacia;64
+    - baton_en_sapin;64
+    - baton_en_chene;64
+    - baton_en_bouleau;64
+    - amethiste_polie;91
+    - livre;59
+    - hache_en_fer;2
+    - colle;59
+    - corde_tresse;22
+    - eau_purifie;58
+    - branche_d'acajou;6
+    - améthiste_radieuse;17
+    - hache_magique;1
+    - amethiste_impeccable;3
+    - baies_medicinales;36
+    - eau_magique;9
+    - globe_de_transformation;2
+    - ampoule_de_genie;1
+    - la_grande_hacheuse;1
+    - emeraude;125
+    - emeraude_poli;25
+    - emeraude_radieux;5
+    - emeraude_impeccable;1
+    - silex_tranchant;12
+    - fleche;6
+    - fleche_tranchante;2
+    - miel_pure;2
+    - diamant;30
+    - diamant_poli;6
+    name: Max_Le_Max
+  efdeb1e7-06a5-396b-a893-331f211d9dc0:
+    craftings:
+    - diamant;6
+    - ame;1
+    - poudre_magique;6
+    - diamant_poli;1
+    name: Crak_N
+  30c6a952-4fe5-3452-af15-147da1e9cc65:
+    craftings:
+    - emeraude;431
+    - pelle_en_pierre;4
+    - emeraude_poli;81
+    - pelle_en_fer;2
+    - poudre_magique;248
+    - emeraude_radieux;14
+    - eau_purifie;22
+    - branche_de_chene;6
+    - colle;37
+    - corde_tresse;19
+    - baies_medicinales;12
+    - eau_magique;3
+    - globe_de_transformation;1
+    - morceau_de_parchemin;3117
+    - parchemin;194
+    - livre;22
+    - pelle_magique;1
+    - baton_en_chene;72
+    - ampoule_de_genie;1
+    - emeraude_impeccable;1
+    - la_grande_pelleteuse;1
+    - silex_tranchant;4
+    name: le_fou_fighter
+  161e0cc3-6e82-3f1c-ac54-ad93ef9e94d8:
+    craftings:
+    - morceau_de_parchemin;439
+    - parchemin;28
+    - livre;4
+    - emeraude;116
+    - emeraude_poli;25
+    - emeraude_radieux;6
+    - améthiste_radieuse;1
+    - amethiste_impeccable;1
+    - eau_purifie;2
+    - colle;32
+    - corde_tresse;16
+    - emeraude_impeccable;2
+    - poudre_magique;293
+    - silex_tranchant;8
+    - fleche;270
+    - fleche_tranchante;8
+    - baies_medicinales;1
+    name: ianito
+  002ecc20-fbe4-30cc-afd8-fdf85dc34c5d:
+    craftings:
+    - poudre_magique;284
+    - morceau_de_parchemin;5522
+    - parchemin;345
+    - livre;43
+    - hache_en_pierre;4
+    - amethiste;494
+    - amethiste_polie;97
+    - hache_en_fer;2
+    - eau_purifie;17
+    - améthiste_radieuse;17
+    - colle;19
+    - corde_tresse;9
+    - branche_d'acajou;6
+    - hache_magique;1
+    - amethiste_impeccable;2
+    - baton_en_acajou;64
+    - baies_medicinales;9
+    - eau_magique;2
+    - ampoule_de_genie;1
+    - la_grande_hacheuse;1
+    name: KrayZu27
+  090dc53e-8e7a-30e0-8faa-505a8878bb19:
+    craftings:
+    - morceau_de_parchemin;1551
+    - parchemin;96
+    - baton_en_acacia;64
+    - baton_en_chene;64
+    - baton_en_chene_noir;64
+    - baton_en_acajou;64
+    - baton_en_bouleau;64
+    - baton_en_sapin;64
+    - livre;12
+    name: xXSmNXx
+  afd9904f-3d03-37dd-8be1-904357c4a8d4:
+    craftings:
+    - fleche;8
+    name: Le_maske
+  6ba89ec5-5744-314a-bdd4-52c7b9e184f8:
+    craftings:
+    - poudre_magique;1829
+    - silex_tranchant;189
+    - arbalete_de_la_foret;1
+    - fleche;703
+    - eau_purifie;44
+    - baies_medicinales;31
+    - colle;346
+    - eau_magique;12
+    - fleche_magique;12
+    - arbalete_perforatrice;2
+    - emeraude;235
+    - emeraude_poli;47
+    - emeraude_radieux;8
+    - plume_de_coq;32
+    - morceau_de_parchemin;31380
+    - parchemin;1960
+    - baton_en_chene_noir;285
+    - baton_en_acajou;285
+    - baton_en_bouleau;285
+    - baton_en_acacia;285
+    - baton_en_sapin;285
+    - baton_en_chene;285
+    - livre;244
+    - ampoule_de_genie;12
+    - petale_impure;204
+    - corde_tresse;67
+    - chapeau_des_ombres;6
+    - tunique_des_ombres;6
+    - pantalon_des_ombres;6
+    - chaussures_des_ombres;6
+    - fleur_impure;12
+    - rubis;992
+    - rubis_poli;191
+    - casque_des_lunes;1
+    - plastron_des_lunes;1
+    - jambières_des_lunes;1
+    - bottes_des_lunes;1
+    - rubis_radieux;35
+    - rubis_impeccable;7
+    - casque_d'hades;1
+    - plastron_d'hades;1
+    - jambieres_d'hades;1
+    - bottes_d'hades;1
+    name: Christophe_
+  2de70593-bddc-33ce-9d01-1bee98860770:
+    craftings:
+    - eau_purifie;166
+    - morceau_de_parchemin;3317
+    - baton_en_chene_noir;81
+    - poudre_magique;502
+    - rubis;306
+    - emeraude;1
+    - amethiste;195
+    - diamant;1
+    - colle;118
+    - corde_tresse;16
+    - baton_en_chene;35
+    - baton_en_acajou;52
+    - baton_en_acacia;262
+    - baton_en_sapin;29
+    - baton_en_bouleau;200
+    - parchemin;206
+    - livre;25
+    - baies_medicinales;107
+    - eau_magique;23
+    - branche_de_chene_noir;4
+    - globe_de_transformation;1
+    - larme_de_chimere;1
+    - rubis_poli;61
+    - plume_de_coq;86
+    - silex_tranchant;398
+    - fleche;818
+    - fleche_tranchante;268
+    - branche_de_bouleau;8
+    - arc_de_chasse;1
+    - rubis_radieux;12
+    - branche_d'acacia;16
+    - fleche_magique;18
+    - ampoule_de_genie;1
+    - arc_argente_de_la_lune;1
+    - amethiste_polie;26
+    - améthiste_radieuse;5
+    - amethiste_impeccable;1
+    - rubis_impeccable;2
+    name: Doomsmen
+  30b1469b-bb65-3432-9a5b-fa8d086329ad:
+    craftings:
+    - rubis;3
+    - baton_en_chene_noir;4
+    name: Cubyvore
+  73b6faf2-b49d-3496-aada-cfd62e22e019:
+    craftings:
+    - amethiste;18
+    - morceau_de_parchemin;896
+    - parchemin;56
+    - baton_en_chene_noir;16
+    - baton_en_acajou;80
+    - baton_en_bouleau;16
+    - baton_en_acacia;16
+    - baton_en_sapin;16
+    - baton_en_chene;16
+    - poudre_magique;50
+    - livre;6
+    - hache_en_pierre;1
+    - amethiste_polie;3
+    - hache_en_fer;1
+    - silex_tranchant;7
+    name: samdec666
+  ec396e7b-99e0-32d4-b489-a048be674795:
+    craftings:
+    - morceau_de_parchemin;6639
+    - parchemin;425
+    - livre;42
+    - diamant;525
+    - diamant_poli;104
+    - diamand_impeccable;11
+    - amenonu;1
+    - ame;1
+    - diamant_impeccable;3
+    - poudre_magique;304
+    - baies_medicinales;24
+    - eau_magique;4
+    - amenonuhoko;1
+    - pioche_d'alfred;1
+    - eau_purifie;27
+    - colle;40
+    - corde_tresse;14
+    - baton_en_chene_noir;152
+    - baton_en_chene;124
+    - baton_en_acajou;216
+    - baton_en_acacia;256
+    - baton_en_sapin;256
+    - petale_pure;21
+    - veste_des_lumières;2
+    - fleur_pure;1
+    - plastron_du_soleil;1
+    - diamant_radieux;6
+    name: CouzVeBaton
+  d249791c-74df-3968-af84-af08fc1c7596:
+    craftings:
+    - emeraude;36
+    - emeraude_poli;5
+    - morceau_de_parchemin;3273
+    - diamant;297
+    - diamant_poli;55
+    - diamand_impeccable;10
+    - parchemin;204
+    - baton_en_chene;23
+    - baton_en_chene_noir;23
+    - baton_en_sapin;24
+    - baton_en_acacia;23
+    - baton_en_acajou;23
+    - amethiste;128
+    - amethiste_polie;25
+    - améthiste_radieuse;5
+    - amethiste_impeccable;1
+    - diamant_impeccable;2
+    - eau_purifie;30
+    - baies_medicinales;26
+    - baton_en_bouleau;22
+    - livre;21
+    - ampoule_de_genie;2
+    - amenonu;1
+    - poudre_magique;130
+    - rubis;5
+    - larme_de_chimere;5
+    - eau_magique;6
+    - globe_de_transformation;2
+    - ame;1
+    - colle;88
+    - corde_tresse;44
+    name: Futsiph
+  ea2a4cf6-a895-31f1-bb9d-a81de73ec987:
+    craftings:
+    - silex_tranchant;9
+    - fleche_tranchante;6
+    - colle;6
+    - fleche;11
+    - corde_tresse;3
+    name: Kirito56250
+  c8fdd879-072b-3f65-a94f-6150ce324955:
+    craftings:
+    - diamant;1
+    name: Norime
+  a249e6ab-a349-3825-99b2-5dcf19ea0dd6:
+    craftings:
+    - baton_en_chene_noir;278
+    - baton_en_acajou;132
+    - baton_en_bouleau;132
+    - baton_en_acacia;132
+    - baton_en_sapin;132
+    - eau_purifie;36
+    - morceau_de_parchemin;9117
+    - parchemin;577
+    - baton_en_chene;132
+    - livre;74
+    - rubis;552
+    - pioche_en_pierre;6
+    - rubis_poli;106
+    - pioche_en_fer;2
+    - rubis_radieux;19
+    - branche_de_chene_noir;6
+    - corde_tresse;22
+    - baies_medicinales;21
+    - eau_magique;5
+    - globe_de_transformation;3
+    - pioche_magique;1
+    - rubis_impeccable;3
+    - colle;32
+    - diamant;1
+    - emeraude;1
+    - amethiste;1
+    - poudre_magique;64
+    - larme_de_chimere;1
+    - la_grande_pioche;1
+    name: Efysio
+  62cc9103-aa78-3d06-81d0-c90f0986b13b:
+    craftings:
+    - rubis;125
+    - rubis_poli;25
+    - rubis_radieux;5
+    - rubis_impeccable;1
+    - baton_en_chene_noir;48
+    - morceau_de_parchemin;192
+    name: xytrill
+  3e0eddf8-87ac-309c-8d7d-0803766f26f3:
+    craftings:
+    - baton_en_chene_noir;4
+    name: protocox
+  d814b8a2-fc22-33fe-bec7-c950d0f31b36:
+    craftings:
+    - rubis;125
+    - rubis_poli;25
+    - rubis_radieux;5
+    - morceau_de_parchemin;2832
+    - parchemin;176
+    name: GoldenFarmers
+  8dce600e-af83-3f70-9cbd-14ee9a865c15:
+    craftings:
+    - rubis;148
+    - baton_en_chene_noir;18
+    - morceau_de_parchemin;802
+    - parchemin;50
+    - poudre_magique;71
+    - baton_en_acajou;20
+    - baton_en_bouleau;20
+    - baton_en_acacia;20
+    - baton_en_sapin;20
+    - baton_en_chene;20
+    - livre;6
+    - pioche_en_pierre;1
+    - rubis_poli;7
+    - pioche_en_fer;1
+    - eau_purifie;1
+    name: R0wZen
+  fc353db1-0b94-30e0-bacd-41d4bafee1fc:
+    craftings:
+    - baton_en_bouleau;189
+    - diamant;512
+    - houe_en_pierre;4
+    - diamant_poli;100
+    - morceau_de_parchemin;3431
+    - parchemin;216
+    - baton_en_chene_noir;130
+    - baton_en_acajou;113
+    - baton_en_sapin;111
+    - baton_en_chene;106
+    - baton_en_acacia;108
+    - livre;70
+    - houe_en_fer;2
+    - diamand_impeccable;18
+    - diamant_impeccable;3
+    - poudre_magique;192
+    - colle;65
+    - corde_tresse;22
+    - eau_purifie;19
+    - branche_de_bouleau;6
+    - faux_magique;1
+    - eau_magique;2
+    - globe_de_transformation;1
+    - la_grande_faucheuse;1
+    name: Haru_M
+  f3dc1604-6333-399f-a362-6e296e2039a5:
+    craftings:
+    - morceau_de_parchemin;1376
+    - parchemin;86
+    name: ElfeZoulou
+  3a68c0d3-fa29-3772-9996-e1ca1fee71e4:
+    craftings:
+    - rubis;3
+    name: MrYann506
+  e630f78c-d7ca-3255-93a4-72299211b482:
+    craftings:
+    - amethiste;18
+    - baton_en_acajou;64
+    - morceau_de_parchemin;968
+    - parchemin;60
+    - baton_en_sapin;64
+    - baton_en_bouleau;64
+    - baton_en_chene;64
+    - baton_en_chene_noir;64
+    - baton_en_acacia;64
+    - livre;6
+    - hache_en_pierre;1
+    - amethiste_polie;3
+    - hache_en_fer;1
+    - eau_purifie;1
+    - colle;12
+    - corde_tresse;6
+    name: WarBrak
+  8f997f16-a78a-3745-9bb8-2624dc5e26ef:
+    craftings:
+    - baton_en_sapin;320
+    - baton_en_chene_noir;512
+    - morceau_de_parchemin;5820
+    - parchemin;363
+    - baton_en_acajou;64
+    - baton_en_bouleau;64
+    - baton_en_acacia;64
+    - baton_en_chene;64
+    - livre;45
+    - rubis;545
+    - rubis_poli;106
+    - poudre_magique;456
+    - pioche_en_pierre;4
+    - pioche_en_fer;2
+    - colle;46
+    - corde_tresse;22
+    - eau_purifie;48
+    - branche_de_chene_noir;6
+    - rubis_radieux;20
+    - baies_medicinales;28
+    - eau_magique;5
+    - globe_de_transformation;3
+    - pioche_magique;1
+    - rubis_impeccable;3
+    - amethiste;1
+    - diamant;1
+    - emeraude;1
+    - larme_de_chimere;1
+    - la_grande_pioche;1
+    name: Whother42
+  56415987-0ceb-33f2-9316-1535dd9df2bf:
+    craftings:
+    - poudre_magique;15
+    - grimoire_d'absorption;1
+    name: Toryar
+  3107a677-49a8-3fb4-a5f6-140e0dd6a5aa:
+    craftings:
+    - rubis;381
+    - rubis_poli;75
+    - rubis_radieux;15
+    - rubis_impeccable;3
+    - morceau_de_parchemin;522
+    - baton_en_chene;59
+    - baton_en_acajou;59
+    - baton_en_acacia;59
+    - baton_en_sapin;59
+    - baton_en_chene_noir;59
+    - parchemin;32
+    - colle;56
+    - corde_tresse;28
+    - baton_en_bouleau;59
+    - livre;4
+    - pioche_en_pierre;2
+    name: Ender_Shock
+  3d73a033-219d-31ae-b640-b7ff0706bd5d:
+    craftings:
+    - morceau_de_parchemin;1370
+    - parchemin;87
+    - baton_en_chene_noir;118
+    - baton_en_acajou;50
+    - baton_en_bouleau;59
+    - baton_en_acacia;60
+    - baton_en_sapin;54
+    - baton_en_chene;65
+    - livre;42
+    - poudre_magique;406
+    - eau_purifie;32
+    - baies_medicinales;20
+    - eau_magique;5
+    - globe_de_transformation;3
+    - diamant;1
+    - emeraude;1
+    - amethiste;1
+    - rubis;469
+    - larme_de_chimere;1
+    - corde_tresse;22
+    - colle;30
+    - branche_de_chene_noir;6
+    - pioche_en_pierre;4
+    - rubis_poli;96
+    - pioche_en_fer;2
+    - rubis_radieux;18
+    - pioche_magique;1
+    - rubis_impeccable;3
+    - la_grande_pioche;1
+    name: pikatchou82
+  b1eb05bd-4bcd-374c-9c82-d2263353e4d7:
+    craftings:
+    - rubis;154
+    - baton_en_chene_noir;81
+    - poudre_magique;251
+    - baton_en_acajou;21
+    - baton_en_sapin;21
+    - baton_en_chene;21
+    - baton_en_acacia;21
+    - baton_en_bouleau;21
+    - livre;20
+    - pioche_en_pierre;6
+    - morceau_de_parchemin;984
+    - parchemin;61
+    - rubis_poli;22
+    - colle;115
+    - corde_tresse;59
+    - pioche_en_fer;2
+    - rubis_radieux;3
+    - eau_purifie;8
+    - branche_de_chene_noir;2
+    - baies_medicinales;4
+    name: TheSolobaid
+  2d040123-86b8-356f-be07-66b42a2609e2:
+    craftings:
+    - morceau_de_parchemin;1271
+    - parchemin;22
+    name: h_ney
+  9a7336fd-fbc0-3b66-af18-54a85dc573d1:
+    craftings:
+    - amethiste;617
+    - baton_en_acajou;344
+    - morceau_de_parchemin;23053
+    - parchemin;1445
+    - eau_purifie;153
+    - baton_en_chene_noir;259
+    - baton_en_acacia;169
+    - baton_en_bouleau;1059
+    - baton_en_sapin;169
+    - baton_en_chene;169
+    - livre;141
+    - hache_en_pierre;7
+    - colle;139
+    - corde_tresse;78
+    - amethiste_polie;119
+    - hache_en_fer;3
+    - améthiste_radieuse;22
+    - baies_medicinales;60
+    - eau_magique;14
+    - globe_de_transformation;8
+    - poudre_magique;1359
+    - amethiste_impeccable;3
+    - branche_d'acajou;10
+    - hache_magique;3
+    - ampoule_de_genie;2
+    - la_grande_hacheuse;1
+    - rubis;578
+    - pioche_en_pierre;4
+    - rubis_poli;113
+    - pioche_en_fer;2
+    - rubis_radieux;20
+    - branche_de_chene_noir;6
+    - pioche_magique;1
+    - rubis_impeccable;3
+    - diamant;1
+    - emeraude;1
+    - larme_de_chimere;1
+    - la_grande_pioche;1
+    - silex_tranchant;44
+    - plume_de_coq;11
+    - branche_de_bouleau;64
+    - fleche;96
+    - fleche_tranchante;12
+    - arc_de_chasse;2
+    name: Karazhar
+  1e87bf2c-9713-3e2f-ac12-f553b0649092:
+    craftings:
+    - morceau_de_parchemin;5255
+    - parchemin;343
+    - baton_en_acajou;25
+    - baton_en_bouleau;37
+    - baton_en_acacia;25
+    - baton_en_sapin;21
+    - baton_en_chene_noir;25
+    - baton_en_chene;20
+    - livre;16
+    - colle;36
+    - corde_tresse;16
+    name: ticiatrhd
+  f0e5b5db-678f-35a7-8461-928f2c7e19a2:
+    craftings:
+    - morceau_de_parchemin;1103
+    - parchemin;52
+    name: lancelot
+  81afefe4-a88e-30ba-a6b0-4ba8f6bf9f18:
+    craftings:
+    - rubis;16
+    - morceau_de_parchemin;512
+    - parchemin;32
+    name: NoCheatJustFast
+  a5465d14-d3e4-39d0-9a4b-6074b1902d09:
+    craftings:
+    - rubis;21
+    - baton_en_chene;6
+    - baton_en_chene_noir;12
+    - baton_en_acajou;6
+    - baton_en_bouleau;6
+    - baton_en_sapin;6
+    - morceau_de_parchemin;872
+    - parchemin;54
+    - baton_en_acacia;6
+    - livre;6
+    - pioche_en_pierre;1
+    - rubis_poli;3
+    - poudre_magique;28
+    - pioche_en_fer;1
+    name: Lacourgette
+  3694dfe1-6731-3e5a-b4a7-f53d0c6e38ba:
+    craftings:
+    - morceau_de_parchemin;341
+    - parchemin;21
+    name: Aezis_

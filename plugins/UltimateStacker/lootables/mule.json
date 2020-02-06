@@ -1,0 +1,12 @@
+{
+  "Type": "MULE",
+  "Loot": [
+    {
+      "Type": "LEATHER",
+      "Chance": 100.0,
+      "Min": 0,
+      "Max": 2,
+      "Looting": true
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+# Regionerator configuration
+chunk-flag-radius: 4
+seconds-per-flag: 15
+minutes-per-flag-autosave: 5
+days-till-flag-expires: 7
+delete-new-unvisited-chunks: false
+ticks-per-deletion: 5
+chunks-per-deletion: 256
+hours-between-cycles: 24
+allow-concurrent-cycles: false
+worlds:
+- survie_new
+#- survie_new_nether
+hooks:
+  ASkyBlock: false
+  Factions: false
+  Feudal: false
+  GriefPrevention: false
+  Kingdoms: false
+  Landlord: false
+  Lands: true
+  UltimateClaims: false
+  PreciousStones: false
+  RedProtect: false
+  Residence: false
+  Towny: false
+  WorldGuard: false
+  VanillaSpawnProtection: false
+debug-level: 'OFF'
+delete-this-to-reset-plugin:
+  survie_new: 1576623647503
+  survie_new_nether: 1576623647503

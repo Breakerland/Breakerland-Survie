@@ -1,0 +1,3834 @@
+# For non-English characters, this file MUST stay encoded in UTF-8
+quests:
+  custom13:
+    name: Collection de minerais
+    npc-giver-id: 3
+    ask-message: '[§2Alfred§r] : Salut jeune aventurier, peux-tu m''aider à compléter
+      ma collection de minerais ?'
+    finish-message: '[§2Alfred§r] : Merci à toi jeune aventurier, je vais pouvoir
+      les exposer maintenant. Prends cette pioche, elle te sera utile.'
+    stages:
+      ordered:
+        '1':
+          items-to-deliver:
+          - name-IRON_INGOT:amount-1
+          - name-DIAMOND:amount-1
+          - name-COAL:amount-1
+          - name-GOLD_INGOT:amount-1
+          - name-BRICK:amount-1
+          - name-LAPIS_LAZULI:amount-1
+          - name-QUARTZ:amount-1
+          - name-EMERALD:amount-1
+          - name-REDSTONE:amount-1
+          npc-delivery-ids:
+          - 3
+          - 3
+          - 3
+          - 3
+          - 3
+          - 3
+          - 3
+          - 3
+          - 3
+          delivery-messages:
+          - '[&2Alfred&r] : Merci'
+          - '[&2Alfred&r] : Pas mal'
+          - '[&2Alfred&r] : Parfait'
+          - '[&2Alfred&r] : Excellent'
+          - '[&2Alfred&r] : Niquel'
+          - '[&2Alfred&r] : J''en n''espérais pas autant'
+          - '[&2Alfred&r] : Encore mieux que ce que j''imaginais'
+          - '[&2Alfred&r] : Bien'
+          - '[&2Alfred&r] : Merci'
+    rewards:
+      items:
+      - name-IRON_PICKAXE:amount-1:enchantment-DURABILITY 10:displayname-§ePioche
+        du vieux §2Alfred:lore-§cUne pioche qui a beaucoup de valeur:lore- §csi vous
+        trouvez avec qui l'échanger:meta-type-UNSPECIFIC:enchants-{DURABILITY=10}
+      money: 50
+      quest-points: 1
+    planner:
+      cooldown: 604800
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+  custom14:
+    name: Etude des Zombies
+    npc-giver-id: 3
+    ask-message: '[&2Alfred&r] : Bonjour Aventurier, j''aurais besoin d''échantillons
+      pour ma nouvelle arme contre les zombies.'
+    finish-message: '[&2Alfred&r] : Merci Aventurier. Grâce à toi je vais pouvoir
+      lancer mes recherches.'
+    stages:
+      ordered:
+        '1':
+          items-to-deliver:
+          - name-ROTTEN_FLESH:amount-60
+          npc-delivery-ids:
+          - 3
+          delivery-messages:
+          - '[&2Alfred&r] : Merci !'
+    rewards:
+      items:
+      - name-POTION:amount-3:lore-§cA boire avec modération:meta-type-POTION:potion-type-minecraft|strong_healing
+      money: 500
+      quest-points: 1
+    planner:
+      cooldown: 604800
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+  custom3:
+    name: Alfred l'alchimiste !
+    npc-giver-id: 3
+    ask-message: '[§2Alfred§r] : Bonjour à toi je suis Alfred l''alchimiste. Les gardes
+      m''ont demandé beaucoup de potions de soin et je suis en manque de fiole. Peux-tu
+      aller m''en chercher ?'
+    finish-message: '[§2Alfred§r] : Merci à toi. Tiens, voici ta paye !'
+    stages:
+      ordered:
+        '1':
+          items-to-deliver:
+          - name-GLASS_BOTTLE:amount-16
+          npc-delivery-ids:
+          - 3
+          delivery-messages:
+          - Merci !
+    rewards:
+      money: 101
+      quest-points: 1
+    planner:
+      cooldown: 86400
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+  custom8:
+    name: Descente aux Enfers !
+    ask-message: '[§1Le Ciel§r] : Il fait si beau a la surface... Par contre, dans
+      les abimes de notre monde c''est autre chose...'
+    finish-message: '[§1Le Ciel§r] Voila une visite inoubliable'
+    requirements:
+      quest-points: 15
+      fail-requirement-message: '[§1Le Ciel§r] : Mes yeux ne sont pas en mesure de
+        te voir, reviens quand tu seras suffisamment grand à mes yeux !'
+    stages:
+      ordered:
+        '1':
+          mobs-to-kill:
+          - Wither Skeleton
+          mob-amounts:
+          - 10
+        '2':
+          npc-ids-to-talk-to:
+          - 9
+        '3':
+          mobs-to-kill:
+          - Wither
+          mob-amounts:
+          - 1
+        '4':
+          npc-ids-to-talk-to:
+          - 9
+    rewards:
+      items:
+      - name-BONE:amount-1:displayname-§c§lBras de Wither:meta-type-UNSPECIFIC
+      money: 200
+      quest-points: 2
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+  custom7:
+    name: Préparation à la Fin
+    ask-message: '[&1Le Ciel&r] : Il faut te préparer...'
+    finish-message: '[&1Le Ciel&r] : A présent il ne manque plus grand chose...'
+    requirements:
+      quest-points: 30
+      quests:
+      - Descente aux Enfers !
+      fail-requirement-message: '[&1Le Ciel&r] : Tu n''es pas prêt...'
+    stages:
+      ordered:
+        '1':
+          items-to-craft:
+          - name-END_CRYSTAL:amount-4
+        '2':
+          npc-ids-to-talk-to:
+          - 9
+    rewards:
+      money: 1000
+      quest-points: 2
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+  custom9:
+    name: La fin sans fin
+    ask-message: '[&1Le Ciel&r] : Allons-y !'
+    finish-message: '[&1Le Ciel&r] : Il reviendra j''en suis sur...'
+    requirements:
+      quest-points: 30
+      quests:
+      - Préparation à la Fin
+      fail-requirement-message: '[&1Le Ciel&r] : Tu es loin d''être prêt...'
+    stages:
+      ordered:
+        '1':
+          mobs-to-kill:
+          - EnderDragon
+          mob-amounts:
+          - 1
+        '2':
+          npc-ids-to-talk-to:
+          - 9
+    rewards:
+      items:
+      - name-CHARCOAL:amount-1:displayname-§0Ecaille d'un Dragon:lore-§6Une écaille
+        très:lore-§6rare, très utile.:meta-type-UNSPECIFIC
+      money: 5000
+      quest-points: 5
+      exp: 3000
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+  custom10:
+    name: RRAAWRR !
+    npc-giver-id: 77
+    ask-message: '[&2Zamgrh&r] : Rrrgh.. Hé psst ! Viens voir par ici mignon petit
+      humain, n''ai pas peur, je ne vais pas te croquer, même si j''en meurs d''envie
+      grrraaaagh.. ! J''en MEURS d''envie, t''as compris ? Ahah.. Hhem, oublie.. Pourrais-tu
+      me rendre un petit service ?'
+    finish-message: '[&2Zamgrh&r] : Mmhh.. CERVEAU ! Hhem.. Pardon, je n''avais pas
+      reconnu ton corps si appétissant. Tu as pu orchestrer ma vengeance ? Merveilleux
+      ! Tiens voilà pour toi, j''ai récupéré ça sur le dernier membre de ton espèce
+      que j''ai croisé...'
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-talk-to:
+          - 77
+          start-message: '[&2Zamgrh&r] : Tu dois te demander ce que fait un zombie
+            ici.. Je ne supporte plus les moqueries des autres mangeurs de cerveaux..
+            Ces idiots sans cervelles se croient plus beaux que moi ! Tu le crois
+            ça ?'
+          complete-message: '[&2Zamgrh&r] : Donnes-leur une leçon pour moi et je t''offrirais
+            un véritable trésor !'
+        '2':
+          mobs-to-kill:
+          - Zombie
+          - Husk
+          - ZombieVillager
+          - Drowned
+          mob-amounts:
+          - 30
+          - 10
+          - 5
+          - 5
+        '3':
+          npc-ids-to-talk-to:
+          - 77
+    rewards:
+      money: 1500
+      quest-points: 1
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+  custom18:
+    name: Défenseur !
+    ask-message: '[§2Leroy§r] : Hé toi, j’ai entendu parler de ton talent à aider
+      les gens. Tu sembles fort j’ai besoin de toi. Le monde dans lequel nous vivons
+      est envahis par les Pillagers, aide-moi à réduire leur nombre et tu seras récompensé
+      !'
+    finish-message: '[§2Leroy§r] : Je n’en attendais pas moins de toi, je te suis
+      reconnaissant. Reçois ces présents et continues à aider le monde dans lequel
+      tu vis. Merci à toi !'
+    requirements:
+      quests:
+      - Le Vol
+      fail-requirement-message: '[&2Leroy&r] : Tu n''es pas prêt pour cela, vas d''abord
+        voir &2Arnold&r.'
+    stages:
+      ordered:
+        '1':
+          mobs-to-kill:
+          - Pillager
+          mob-amounts:
+          - 6
+    rewards:
+      quest-points: 1
+    planner:
+      cooldown: 86400
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+  custom17:
+    name: Coloration
+    npc-giver-id: 81
+    ask-message: '[&2Ollie&r] : Coucou, j’ai besoin de ton aide. Mes champs ont été
+      ravagés par ces satanés lapin. J’ai perdu toutes mes précieuses fleurs donc
+      mes colorants. Ramènes-en moi et tu auras une belle récompense !'
+    finish-message: '[&2Ollie&r] : Viens ici que je t’embrasse… Quoi ?! tu ne pensais
+      pas à ce type de récompense ? Bon voilà une vraie récompense issue de mes champs...'
+    requirements:
+      quests:
+      - Le Potager
+      fail-requirement-message: '[&2Ollie&r] : Va d''abord voir &2Jamigi&r.'
+    stages:
+      ordered:
+        '1':
+          items-to-deliver:
+          - name-RED_DYE:amount-1
+          - name-BLUE_DYE:amount-1
+          - name-MAGENTA_DYE:amount-1
+          - name-YELLOW_DYE:amount-1
+          - name-BLACK_DYE:amount-1
+          - name-BROWN_DYE:amount-1
+          - name-ORANGE_DYE:amount-1
+          - name-WHITE_DYE:amount-1
+          npc-delivery-ids:
+          - 81
+          - 81
+          - 81
+          - 81
+          - 81
+          - 81
+          - 81
+          - 81
+          delivery-messages:
+          - '[&2Ollie&r] : Voila une bien belle couleur !'
+    rewards:
+      items:
+      - name-COOKED_RABBIT:amount-32
+      money: 500
+    planner:
+      cooldown: 86400
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+  custom20:
+    name: Zombiecalypse
+    npc-giver-id: 83
+    ask-message: '[&2Aaran&r] : Aventurier ! Aide moi, les zombies sont de plus en
+      plus nombreux et s’adaptent même à leur environnement pour mieux frapper. J’ai
+      entendu parler de tes exploits auprès de Leroy avec les Pillagers. Le sort de
+      ces gens t’appartient.'
+    finish-message: '[&2Aaran&r] : Ouf, on l’a échappé belle. Je ne sais pas comment
+      te remercier mais toi tu le sais. Voici une arme parfaite contre ces satanés
+      morts-vivants !'
+    stages:
+      ordered:
+        '1':
+          mobs-to-kill:
+          - Zombie
+          - Husk
+          - drowned
+          mob-amounts:
+          - 30
+          - 30
+          - 30
+        '2':
+          npc-ids-to-talk-to:
+          - 83
+    rewards:
+      items:
+      - name-CROSSBOW:amount-1:enchantment-DURABILITY 5:displayname-§2§lArbalète du
+        vieux Aaran:lore-§6Une veille arbalète:lore-§6encore utile.:meta-type-CROSSBOW:enchants-{DURABILITY=5}
+      quest-points: 1
+    planner:
+      cooldown: 86400
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+  custom21:
+    name: Camédecin
+    npc-giver-id: 3
+    ask-message: '[&2Alfred&r] : Hey man, j’suis le doc du coin. J’ai besoin « d’herbes
+      médicinales » pour la conso per… Pour les gens dans le besoin. Ramènes-en moi,
+      je te fabriquerais et donnerais la meilleure drog… potion pour te donner un
+      coup de boost.'
+    finish-message: '[&2Alfred&r] : Merci bro, j’espère refaire affaire avec toi.
+      Tiens voilà mes dernières potions.'
+    requirements:
+      quest-points: 5
+      fail-requirement-message: '[&2Alfred&r] : T''es pas prêt crois moi...'
+    stages:
+      ordered:
+        '1':
+          items-to-deliver:
+          - name-GRASS:amount-40
+          - name-RED_MUSHROOM:amount-25
+          - name-POPPED_CHORUS_FRUIT:amount-32
+          npc-delivery-ids:
+          - 3
+          - 3
+          - 3
+          delivery-messages:
+          - '[&2Alfred&r] : Et mercé'
+    rewards:
+      items:
+      - name-SPLASH_POTION:amount-1:meta-type-POTION:potion-type-minecraft|long_weakness
+      - name-POTION:amount-1:meta-type-POTION:potion-type-minecraft|slow_falling
+      money: 500
+      quest-points: 2
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+  custom22:
+    name: Carnivore
+    npc-giver-id: 77
+    ask-message: '[&2Zamgrh&r] : hey, t’es pas Vegan ? J’ai besoin de viande car je
+      suis boucher. Vas m’en chercher et je te donnerais de quoi bien les dépieuter.'
+    finish-message: '[&2Zamgrh&r] : T’en as dans le ventre ! Regardes-moi ce beau
+      rouge sang, quel talent. Tu ne voudrais pas travailler ici ?'
+    requirements:
+      quests:
+      - RRAAWRR !
+      fail-requirement-message: '[&2Zamgrh&r] : Venges-moi d''abord !'
+    stages:
+      ordered:
+        '1':
+          items-to-deliver:
+          - name-RABBIT:amount-10
+          - name-PORKCHOP:amount-15
+          - name-BEEF:amount-15
+          - name-RABBIT:amount-25
+          npc-delivery-ids:
+          - 77
+          - 77
+          - 77
+          - 77
+          delivery-messages:
+          - '[&2Zamgrh&r] : MIAAMMM'
+    rewards:
+      items:
+      - name-IRON_SWORD:amount-1:enchantment-DAMAGE_ALL 3:enchantment-DURABILITY 2:displayname-§2§lEpée
+        de Zamgrh:lore-§6Une vieille épée:lore-§6légèrement rouillée.:meta-type-UNSPECIFIC:enchants-{DAMAGE_ALL=3,
+        DURABILITY=2}
+      money: 200
+      quest-points: 1
+    planner:
+      cooldown: 86400
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+  custom26:
+    name: La nuit sera courte
+    ask-message: '[&1La Nuit&r] : Vous ne devriez pas faire cette quête, elle ne vous
+      attirera rien de bon...'
+    finish-message: '[&1La Nuit&r] : Je crois bien que vous êtes un petit filou !'
+    requirements:
+      quests:
+      - Descente aux Enfers !
+      fail-requirement-message: '[&1La Nuit&r] : Le ciel est clair, n''est-ce pas
+        ?'
+    stages:
+      ordered:
+        '1':
+          cut-block-names:
+          - mycelium
+          cut-block-amounts:
+          - 64
+          cut-block-durability:
+          - 0
+        '2':
+          items-to-craft:
+          - name-GOLDEN_APPLE:amount-10
+        '3':
+          npc-ids-to-talk-to:
+          - 9
+          - 52
+          - 78
+          - 80
+          - 83
+          - 77
+        '4':
+          sheep-to-shear:
+          - Blanc
+          - Orange
+          - Magenta
+          - Jaune
+          - Rose
+          - Gris
+          - Cyan
+          - Mauve
+          - Bleu
+          - Brun
+          - Vert
+          - Rouge
+          - Noir
+          sheep-amounts:
+          - 1
+          - 3
+          - 3
+          - 3
+          - 3
+          - 3
+          - 3
+          - 3
+          - 3
+          - 3
+          - 3
+          - 3
+          - 3
+        '5':
+          mobs-to-tame:
+          - Wolf
+          mob-tame-amounts:
+          - 5
+        '6':
+          fish-to-catch: 10
+    rewards:
+      items:
+      - name-IRON_SWORD:amount-1:enchantment-LOOT_BONUS_MOBS 2:enchantment-DAMAGE_ALL
+        3:enchantment-DURABILITY 3:displayname-§2§lAmeno:lore-§6Une lame légèrement:lore-§6affutée,
+        ancienne.:meta-type-UNSPECIFIC:enchants-{LOOT_BONUS_MOBS=2, DAMAGE_ALL=3,
+        DURABILITY=3}
+      money: 5000
+      quest-points: 5
+      exp: 500
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+  custom27:
+    name: 'Crafteur : I'
+    npc-giver-id: 91
+    ask-message: '[&2Crafteur&r] : Si tu veux être un bon crafteur tu doit t''exercer...
+      :)'
+    finish-message: '[&2Crafteur&r] : Bien joué ! Reviens me voir un autre jour...'
+    stages:
+      ordered:
+        '1':
+          items-to-craft:
+          - name-WOODEN_SWORD:amount-50
+    rewards:
+      items:
+      - name-LANTERN:amount-1:displayname-§3§lAmpoule de Génie:meta-type-UNSPECIFIC
+      money: 200
+      quest-points: 1
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+  custom28:
+    name: 'Fermier : I'
+    ask-message: '[&2Fermier&r] : Salut, tu veux devenir un bon fermier ?'
+    finish-message: '[&2Fermier&r] : Effectivement, tu es sur la bonne voie.'
+    stages:
+      ordered:
+        '1':
+          cut-block-names:
+          - wheat
+          cut-block-amounts:
+          - 128
+          cut-block-durability:
+          - 0
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: BOOK
+        amount: 2
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §2§lLivre
+      money: 500
+      quest-points: 1
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom29:
+    name: Mais où est Amaxet ?
+    ask-message: '[&2Toryar&r] : Salut ! Je suis à la recherche d''Amaxet qui a disparu
+      après être tombé malade ! Pourrais-tu enquêter pour moi ?'
+    finish-message: '[&2Toryar&r] : Merci, ça faisait si longtemps qu''on ne l''avais
+      pas vu ! Je le pensais mort !'
+    requirements:
+      quest-points: 10
+      fail-requirement-message: '[&2Toryar&r] : Tu n''as pas suffisament de points
+        de quête...'
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-talk-to:
+          - 76
+          - 64
+          - 59
+          - 7
+          - 84
+          - 58
+          - 8
+          - 74
+          - 11
+          - 81
+          - 89
+          - 91
+          - 93
+          - 83
+        '2':
+          npc-ids-to-talk-to:
+          - 85
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §eTête d'Amaxet
+          Damage: 3
+          internal: H4sIAAAAAAAAAE2SyZKjVhBF6Q7bUV3hz/BOUSEek2DhBUJiEoMYH7Bj5jFKAgTim/ojrdp5kZubeW7ejMhPDPvE/naauW2vj6FAbf6B/VQy7B86zdJDjHNfAC/AF5Uz4CtOqMMXoAFgmCyjaZb+xD7f0C1/TCgff2EfU75O8yMfPzEM+/GB/XJQ2cffys/fN0W7XonjxR4uqKgpK70bD3sW/NOpPgAc0ZY9edyeL6FjzprimnELFV3ZV/6po3zfdmcmjFShKGJZs1pceepIpUeQrI81H4tdKYqGSvqFoTlg31anu+PO1ivjsnv/rAZWdUbJfozTLhD5Vd0TF6pngvOLbZiGQGzFUvJKDU/RG7NtGNW4lOBeMEKWppwmEY2cTJJkFM98a18gcV2LMuvPNd3HzcJJZXsijh3DH7bdi8hsGOFP4UqHK8EbtrRjdkJtuGZJM/IcHW6jBLW0uFLzFHFXmowblX/YwbbGHTkgGkylp5aENMHduaFf4sD4/hzRDe8b+75xOzJVcb5lMxjcKJWn4p6Ul/hy2qcXdYKm3zyL+JHVSG4XIUPX07MT7GVX+S1NWODUFkbwPDLDPUbbnqPGXVjq3HOZCknfes3EB3+31clhWnC5qQ9RNVOm6K8vK54XxcE55r52NytmC9NCkXe8H/mCyWHSVTf4SurZlY3qYDsepZrmcLkoeg0ZhyXLlSNNzQOqv6NjxJpXOQRRby6OVdwDIU0FHR5x58rPyU7t6npQD7WViUoNTW6zi8wM5wIxLGyULr6yCww1yhuGesnpdH8nFLSzQJVYp/1m2YIjnQCYTilJpyzhbEjTBmqy4P4yrXwiomW9G1oPWGet1qU3SoIjSYDKxXzcvFtAHXBKkjfWgqB2zv9+YH/6cTvnP9z8peIxBG1K2lUS8Misz8DYeFLf+FWvv+s8Kv3xlRDRLZF8NRIURqn9OpJ0MnR5WnePne7arVGLVVhbpO56q+6GRCRZwHBLoKAFpbL6jLp2jDy6SqCHTKQeEyhSUWAhTVC3GGZzGNgg7XwnCkQQB2r7vSeTVRA5C8okn8pk/xUFOjL7EXn4pLpIYd7Z38zy7Tdksr2YiH3+b3ZOYDtH0HiF75/VOrrNBA6PggrP3v7aptOGFLW6qzZG573et6wh4dFh3azmWzfq86pLOq67OhW5Z/D2QeH27p3axngzkXSmjLpCYe1RemegCJ4Jw+VREQAOwz6wP4y4y7G/+C5e8wnD/gM5Sq77hQQAAA==
+          skull-owner: Amaxet
+      quest-points: 2
+      exp: 500
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom31:
+    name: Hugo à la recherche de l'Oeuf Magique
+    npc-giver-id: 102
+    ask-message: '[&2Hugo Wook&r] : Bonjour je suis le boulanger du village, j''ai
+      besoin que tu me trouve un œuf magique du dragon suprême, je pense que Gartas
+      pourra t''aider.'
+    finish-message: '[&2Gartas Wook&r] : Va voir Zeus il t''attend... Mais une petite
+      minute... j''ai un petit truc pour toi, ma première épée de combat !'
+    requirements:
+      quest-points: 10
+      fail-requirement-message: '[&2Hugo Wook&r] : Tu n''as pas assez d''expérience...'
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-talk-to:
+          - 103
+          complete-message: '[&2Gartas Wook&r] : Salut toi je suis Gartas Wook, le
+            plus célébre Wook chasseur de dragon, j''ai entendu que tu cherchais un
+            œuf... Mais pour ça tu devras défier mon frère...'
+        '2':
+          mobs-to-kill:
+          - Zombie
+          mob-amounts:
+          - 25
+          start-message: '[&2Gartas Wook&r] : Reviens me voir quand tu auras fini'
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: IRON_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §2§lEpée de Gartas
+          enchants:
+            FIRE_ASPECT: 2
+      money: 200
+      quest-points: 1
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom32:
+    name: Globiliums
+    ask-message: '[§2Limastic§r] : Si tu savais comment je regrette de te donner cette
+      quête...'
+    finish-message: '[§2Limastic§r] : Fais attention à ne pas le jeter :P'
+    stages:
+      ordered:
+        '1':
+          mobs-to-kill:
+          - Zombie
+          mob-amounts:
+          - 10
+        '2':
+          mobs-to-kill:
+          - Skeleton
+          mob-amounts:
+          - 20
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §7§lGlobe
+          lore:
+          - §6Un globe vide sans
+          - §6aucuns effets.
+          internal: H4sIAAAAAAAAAE2OTW6DMBhEv1aqRFGP0S2S+SeLLKKmSowCLokhgR2xjcAxNEqgLZyqRyzL7uZp3kijA+jwcrgMSn3cPqtGCQ0eMYdXz3YsRwjfKKvKMmxbBEYpeGkwx2GsDDjzg0AHfR5dxa1vxP0ZtF789MNN3HUAeNDgKSvVIOBXjCEqTjXip1CxEXsz0wNSBMurj7tsPL9hD7dzv115u3Hxz3X78uiq3A7rokuGc5uhnb1XYrs3WZt+xZsEkU1qx8eijWkmczlnGk35xBtCVyhvU4eseR1NDBGKzUJeJrKOxkLyuqDvVi6ZG8nInR1FKPvGnbmokuVyfg9/FbA9pRgBAAA=
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom25:
+    name: Mange mon globe
+    npc-giver-id: 76
+    ask-message: '[§2AzodFR§r] : Oui je sais, j''avais pas trop le choix de la quête
+      disons...'
+    finish-message: '[§2AzodFR§r] : Au moins ca te donnera un globe.'
+    stages:
+      ordered:
+        '1':
+          break-block-names:
+          - STONE
+          break-block-amounts:
+          - 500
+          break-block-durability:
+          - 0
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §7§lGlobe
+          lore:
+          - §6Un globe vide sans
+          - §6aucuns effets.
+          internal: H4sIAAAAAAAAAE2OTW6DMBhEv1aqRFGP0S2S+SeLLKKmSowCLokhgR2xjcAxNEqgLZyqRyzL7uZp3kijA+jwcrgMSn3cPqtGCQ0eMYdXz3YsRwjfKKvKMmxbBEYpeGkwx2GsDDjzg0AHfR5dxa1vxP0ZtF789MNN3HUAeNDgKSvVIOBXjCEqTjXip1CxEXsz0wNSBMurj7tsPL9hD7dzv115u3Hxz3X78uiq3A7rokuGc5uhnb1XYrs3WZt+xZsEkU1qx8eijWkmczlnGk35xBtCVyhvU4eseR1NDBGKzUJeJrKOxkLyuqDvVi6ZG8nInR1FKPvGnbmokuVyfg9/FbA9pRgBAAA=
+    planner:
+      cooldown: 86400
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom33:
+    name: Science folle
+    npc-giver-id: 3
+    ask-message: '[&2Alfred&r] : Bonjour ! Je suis le scientifique, le grand et tout
+      puissant Alfred. Je rechercherais des petits Blazes ! Il sont minions ! Mhooonnnnnn
+      !Non, on reprend ses esprits. J''aurais besoin de quatre Blaze rods... Tu pourrais
+      m''aider ?'
+    finish-message: '[&2Alfred&r] : Maintenant ce qu''il te reste à faire c''est d''aller
+      voir le &2Guerrier&r. C''est lui qui pourra te faire rentrer dans le chateau
+      du diable !'
+    requirements:
+      quests:
+      - Hugo à la recherche de l'Oeuf Magique
+      fail-requirement-message: '[&2Alfred&r] : Va d''abord voir Hugo...'
+    stages:
+      ordered:
+        '1':
+          items-to-deliver:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BLAZE_ROD
+            amount: 4
+          npc-delivery-ids:
+          - 3
+          delivery-messages:
+          - '[&2Alfred&f] : Il est beau, il est doux...'
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: TRIPWIRE_HOOK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §2§lClé des Ténèbres
+      quest-points: 1
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom35:
+    name: Démon intérieur
+    ask-message: '[§2Guerrier§r] : *§ccontroler par des forces obscur§r* Bonjour nous
+      sommes Plaf et Plif deux démons, avez-vous la clef pour rentrer dans notre château
+      ?'
+    finish-message: '[§2Guerrier§r] : *§ccontroler par des forces obscur§r* Et bien
+      bienvenue chez nous ! *§2Le Guerrier reprend ses esprits§r*'
+    requirements:
+      quests:
+      - Science folle
+      fail-requirement-message: '[§2Guerrier§r] : *§ccontroler par des forces obscures§r*
+        Vous n''êtes pas prêt à entrer ici !'
+    stages:
+      ordered:
+        '1':
+          items-to-deliver:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: TRIPWIRE_HOOK
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §2§lClé des Ténèbres
+          npc-delivery-ids:
+          - 98
+          delivery-messages:
+          - '[&cDémons&r] : Parfait !'
+    rewards:
+      commands:
+      - tp %player_name% 24.7 12 33
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom36:
+    name: 'Bûcheron : I'
+    npc-giver-id: 86
+    ask-message: '[&2Bûcheron&r] : Salutations l''ami, tu aimes bûcher ? alors tu
+      vas m''adorer !'
+    finish-message: '[&2Bûcheron&r] : Niquel ! reviens me voir un d''ces 4 !'
+    stages:
+      ordered:
+        '1':
+          break-block-names:
+          - oak_log
+          break-block-amounts:
+          - 64
+          break-block-durability:
+          - 0
+    rewards:
+      money: 500
+      quest-points: 1
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom37:
+    name: Ils ont envoyé des zombies !
+    npc-giver-id: 90
+    ask-message: '[&2Chasseur&r] : Avez-vous déjà vu un zombie? Ce sont d''affreux
+      monstres à la peau verte qui n''aiment que une seule chose : manger de la chaire
+      fraîche.'
+    finish-message: '[&2Chasseur&r] : Reviens me voir une prochaine fois.'
+    stages:
+      ordered:
+        '1':
+          mobs-to-kill:
+          - husk
+          mob-amounts:
+          - 5
+          start-message: '[&2Chasseur&r] : Les squelettes de l''ombre ont recruté
+            des momies zombies pour tuer nos soldats. Si on regarde vers le champ
+            là-bas, au nord, on arrive à peine à distinguer leurs silhouettes, en
+            train de se faufiler dans les hautes herbes.'
+    rewards:
+      money: 100
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom38:
+    name: Les squelettes de l'ombre
+    npc-giver-id: 90
+    ask-message: '[&2Chasseur&r] : Les squelettes de l''ombre qui nous envahissent
+      ne sont pas stupides. Ils nous jaugent, ils s''assurent d''avoir l''avantage
+      quand ils passeront à l''attaque.'
+    finish-message: '[&2Chasseur&r] : Pas mal, tu es plutot doué !'
+    requirements:
+      quests:
+      - Ils ont envoyé des zombies !
+      fail-requirement-message: '[&2Chasseur&r] : Les zombies nous envahissent'
+    stages:
+      ordered:
+        '1':
+          mobs-to-kill:
+          - stray
+          mob-amounts:
+          - 11
+          start-message: '[&2Chasseur&r] : Tuez les espions de l''ombre ! Nous devons
+            leur montrer que nous savons qu''ils nous observent et que nous sommes
+            préparés !'
+    rewards:
+      money: 200
+      quest-points: 1
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom40:
+    name: Rejoignez la bataille !
+    npc-giver-id: 90
+    ask-message: '[§2Chasseur§r] : Pendant que vous étiez en train de défendre le
+      territoire, j''ai reçu un message urgent de la part du Capitaine . Il semblerait
+      que les squelettes de l''ombre aient engagé des assassins zombies. Ils ont tendu
+      une embuscade à notre bataillon.'
+    finish-message: '[§2Chasseur§r] : Il est temps de se battre !'
+    requirements:
+      quests:
+      - Les squelettes de l'ombre
+      fail-requirement-message: '[§2Chasseur§r] : Les squelettes rodent toujours...'
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-talk-to:
+          - 106
+          start-message: '[&2Chasseur&r] : &2Capitaine&r m''a demandé de lui envoyer
+            un héro, vous devez aller le voir au plus tôt ! Il est souvent perché
+            en haut d''un arbre.'
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: IRON_INGOT
+        amount: 5
+      money: 300
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom39:
+    name: Globe
+    ask-message: '[§2Toryar§r] : Salut, tu me reconnais ? J''ai entendu dire que tu
+      cherchais un globe...'
+    finish-message: '[§2Toryar§r] : Bon aller, tiens pour toi ;)'
+    stages:
+      ordered:
+        '1':
+          items-to-deliver:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: SNOWBALL
+            amount: 16
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: NAME_TAG
+          npc-delivery-ids:
+          - 6
+          - 6
+          delivery-messages:
+          - '[&2Toryar&r] : Merci !'
+          - '[&2Toryar&r] : Merci !'
+          - '[&2Toryar&r] : Merci !'
+          - '[&2Toryar&r] : Merci !'
+          - '[&2Toryar&r] : Merci !'
+          - '[&2Toryar&r] : Merci !'
+          - '[&2Toryar&r] : Merci !'
+          - '[&2Toryar&r] : Merci !'
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §7§lGlobe
+          lore:
+          - §6Un globe vide sans
+          - §6aucuns effets.
+          internal: H4sIAAAAAAAAAE2OTW6DMBhEv1aqRFGP0S2S+SeLLKKmSowCLokhgR2xjcAxNEqgLZyqRyzL7uZp3kijA+jwcrgMSn3cPqtGCQ0eMYdXz3YsRwjfKKvKMmxbBEYpeGkwx2GsDDjzg0AHfR5dxa1vxP0ZtF789MNN3HUAeNDgKSvVIOBXjCEqTjXip1CxEXsz0wNSBMurj7tsPL9hD7dzv115u3Hxz3X78uiq3A7rokuGc5uhnb1XYrs3WZt+xZsEkU1qx8eijWkmczlnGk35xBtCVyhvU4eseR1NDBGKzUJeJrKOxkLyuqDvVi6ZG8nInR1FKPvGnbmokuVyfg9/FbA9pRgBAAA=
+      money: 50
+    planner:
+      cooldown: 86400
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom23:
+    name: Repoussez-les !
+    npc-giver-id: 106
+    ask-message: '[&2Capitaine&r] : Ah, c''est donc vous la nouvelle recrue de Breakerland
+      ? Je suis le Capitaine. Bienvenue à bord...'
+    finish-message: '[&2Capitaine&r] : On va bientot passer aux choses sérieuses...'
+    requirements:
+      quests:
+      - Rejoignez la bataille !
+      fail-requirement-message: '[&2Capitaine&r] : Tu devrais d''abord aller voir
+        la &2Chasseur&r.'
+    stages:
+      ordered:
+        '1':
+          mobs-to-kill:
+          - ZombieVillager
+          mob-amounts:
+          - 10
+          start-message: '[&2Capitaine&r] : Vous arrivez à point nommé. les assassins
+            zombies ont réussi à s''introduire dans le village par un chemin dans
+            la foret. Mes soldats font tout leur possible pour les repousser, mais
+            je crains qu''ils ne soient bientôt débordés.'
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: GOLD_INGOT
+        amount: 3
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: IRON_INGOT
+        amount: 5
+      money: 500
+      quest-points: 1
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom41:
+    name: L'invasion des squelettes de l'ombre
+    npc-giver-id: 106
+    ask-message: '[&2Capitaine&r] : Les squelettes de l''ombre ont commencé à incendier
+      la forêt! Ils se sont emparés des champs de blé, à l''est, et se préparent à
+      nous attaquer ! Il faut les arrêter !'
+    finish-message: '[&2Capitaine&r] : Tu es notre seul espoir !'
+    requirements:
+      quests:
+      - Repoussez-les !
+      fail-requirement-message: '[&2Capitaine&r] : Tu n''es pas prêt !'
+    stages:
+      ordered:
+        '1':
+          mobs-to-kill:
+          - stray
+          mob-amounts:
+          - 15
+          start-message: '[&2Capitaine&r] : Dirigez-vous vers l''est, traversez la
+            rivière, et tuez les squelettes de l''ombre. Récupérez des preuves de
+            leurs morts et rapportez-les moi.'
+        '2':
+          items-to-deliver:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: TIPPED_ARROW
+            amount: 10
+            meta:
+              ==: ItemMeta
+              meta-type: POTION
+              potion-type: minecraft:slowness
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BONE
+            amount: 5
+          npc-delivery-ids:
+          - 106
+          - 106
+          delivery-messages:
+          - '[&2Capitaine&r] : Jolies preuves...'
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: IRON_INGOT
+        amount: 15
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: GOLD_INGOT
+        amount: 10
+      money: 1000
+      quest-points: 1
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom42:
+    name: La zone est dégagée
+    npc-giver-id: 106
+    ask-message: '[&2Capitaine&r] : Excellent travail! La zone arrière est maintenant
+      officiellement dégagée. Nous nous chargerons des traînards. Je veux que vous
+      retourniez voir la &2Chasseur&r.'
+    finish-message: '[&2Chasseur&r] : Tu es deja de retour ?!'
+    requirements:
+      quests:
+      - L'invasion des squelettes de l'ombre
+      fail-requirement-message: '[&2Capitaine&r] : Tu n''as pas assez d''expérience...'
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-talk-to:
+          - 90
+          start-message: '[&2Capitaine&r] : Adieu mon pote...'
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: WRITABLE_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: BOOK
+          display-name: §c§lLivre pour une création Légendaire
+      money: 1000
+      quest-points: 1
+    planner:
+      cooldown: 604800
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom43:
+    name: Mettez fin à la guerre !
+    npc-giver-id: 90
+    ask-message: '[&2Chasseur&r] : Cette horde de squelettes de l''ombre est dirigée
+      par un certain lieutenant squelettes, une vraie bête féroce ! Wither Boss est
+      responsable de l''invasion. Si nous voulons que cette vallée retrouve la paix,
+      il faut le liquider.'
+    finish-message: '[&2Chasseur&r] : Merci ! Grâce à vous le monde de Breakerland
+      est sauf.'
+    requirements:
+      quests:
+      - La zone est dégagée
+      fail-requirement-message: '[&2Chasseur&r] : Tu devrais aller voir le capitaine...'
+    stages:
+      ordered:
+        '1':
+          mobs-to-kill:
+          - Wither
+          mob-amounts:
+          - 1
+        '2':
+          npc-ids-to-talk-to:
+          - 90
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: IRON_INGOT
+        amount: 40
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: GOLD_INGOT
+        amount: 20
+      money: 1500
+      quest-points: 3
+    planner:
+      cooldown: 604800
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom44:
+    name: Perte de conscience
+    npc-giver-id: 105
+    ask-message: '[§2Giscard§r] : ça craint, comment j''ai atterri là moi? T''aurais
+      de quoi me saper?'
+    finish-message: '[§2Giscard§r] : Ah voilà quand tu veux! Avec ça on est bien!'
+    stages:
+      ordered:
+        '1':
+          items-to-deliver:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: LEATHER_CHESTPLATE
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: LEATHER_LEGGINGS
+          npc-delivery-ids:
+          - 105
+          - 105
+          delivery-messages:
+          - '[&2Giscard&r] : mouais...'
+          - '[&2Giscard&r] : mouais...'
+          - '[&2Giscard&r] : mouais...'
+          - '[&2Giscard&r] : mouais...'
+          - '[&2Giscard&r] : mouais...'
+          - '[&2Giscard&r] : mouais...'
+          - '[&2Giscard&r] : mouais...'
+          - '[&2Giscard&r] : mouais...'
+        '2':
+          items-to-deliver:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: LEATHER_BOOTS
+          npc-delivery-ids:
+          - 105
+          delivery-messages:
+          - '[&2Giscard&r] : Chouette !'
+          start-message: '[&2Giscard&r] : T''assures! T''aurais pas des groles par
+            hasard?'
+        '3':
+          items-to-deliver:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: MILK_BUCKET
+          npc-delivery-ids:
+          - 105
+          delivery-messages:
+          - '[&2Giscard&r] : Tu rigoles? Va me chercher un vrai remontant!'
+          start-message: '[&2Giscard&r] : Tu peux aller me chercher un truc à boire?'
+        '4':
+          items-to-deliver:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: POTION
+            meta:
+              ==: ItemMeta
+              meta-type: POTION
+              potion-type: minecraft:strength
+          npc-delivery-ids:
+          - 105
+          delivery-messages:
+          - '[&2Giscard&r] : Ahh'
+          objective-override: Donner une potion de force 3min à Giscard.
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: CAKE
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: SUGAR_CANE
+        amount: 5
+      money: 150
+      quest-points: 1
+    planner:
+      cooldown: 86400
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom12:
+    name: Le Vol
+    npc-giver-id: 79
+    ask-message: '[§2Arnold§r] : Toi là vient m’aider. Je me promenais et j’ai croisé
+      une maison de Pillagers. Je leur ai volé un objet très important à leurs yeux.
+      Ils me cherchent et je suis blessé. Si tu m’aides à guérir et à me cacher je
+      te donnerais ce que j’ai volé !'
+    finish-message: '[§2Arnold§r] : Je n’en reviens pas que tu m’aides tu es bien
+      le premier. Si tu veux m’aider ou aider des gens à propos de ces satanés Pillagers
+      va voir Leroy, il paye bien !'
+    stages:
+      ordered:
+        '1':
+          items-to-deliver:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: POTION
+            meta:
+              ==: ItemMeta
+              meta-type: POTION
+              potion-type: minecraft:strong_regeneration
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: POTION
+            meta:
+              ==: ItemMeta
+              meta-type: POTION
+              potion-type: minecraft:invisibility
+          npc-delivery-ids:
+          - 79
+          - 79
+          delivery-messages:
+          - '[&2Arnold&r] : Merci'
+          - '[&2Arnold&r] : Merci'
+          - '[&2Arnold&r] : Merci'
+          - '[&2Arnold&r] : Merci'
+          objective-override: Donner 1 potion de régénération, et 1 potion d'invisibilité
+            à Arnold.
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: TOTEM_OF_UNDYING
+      quest-points: 1
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom34:
+    name: Tête en l'air
+    npc-giver-id: 99
+    ask-message: '[§2Asune§r] : J''ai perdu mon épée... Si seulement quelqu''un pouvait
+      la retrouver...'
+    finish-message: '[§2Asune§r] : Oh! Tu l''as retrouvé ! Merci infiniment, voici
+      un petit quelque chose pour vous remercier.'
+    stages:
+      ordered:
+        '1':
+          items-to-deliver:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: DIAMOND_SWORD
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              enchants:
+                LOOT_BONUS_MOBS: 3
+                DAMAGE_ALL: 5
+                DURABILITY: 3
+          npc-delivery-ids:
+          - 99
+          delivery-messages:
+          - '[&2Asune&r] : Merci beaucoup !'
+          objective-override: Donner une épée en diamant Butin III, Tranchant V, Solidité
+            III à Asune
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: SPLASH_POTION
+        amount: 3
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            QUICK_CHARGE: 3
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: POTION
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:strong_swiftness
+      money: 500
+      quest-points: 1
+    planner:
+      cooldown: 604800
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom45:
+    name: 'Chercheur avisé : I'
+    npc-giver-id: 114
+    ask-message: '[§2Piltrat§r] : Salut ! Je suis à la recherche de tous les items
+      du jeu, c''est mon défi !Pourrais tu m''aider dans cette longue et fastidieuse
+      quête ?'
+    finish-message: '[§2Piltrat§r] : Merci, tu m''as bien aidé, si j''ai à nouveau
+      besoin d''aide, je penserais à toi !'
+    stages:
+      ordered:
+        '1':
+          items-to-deliver:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: RED_DYE
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: GREEN_DYE
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: COCOA_BEANS
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: LAPIS_LAZULI
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: PURPLE_DYE
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: CYAN_DYE
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: LIGHT_GRAY_DYE
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: GRAY_DYE
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: PINK_DYE
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: LIME_DYE
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: YELLOW_DYE
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: LIGHT_BLUE_DYE
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: MAGENTA_DYE
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: ORANGE_DYE
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BLUE_DYE
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BROWN_DYE
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BLACK_DYE
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: WHITE_DYE
+          npc-delivery-ids:
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          delivery-messages:
+          - '[&2Piltrat&r] : Sympa !'
+          - '[&2Piltrat&r] : Sympa !'
+          - '[&2Piltrat&r] : Sympa !'
+          - '[&2Piltrat&r] : Sympa !'
+          - '[&2Piltrat&r] : Sympa !'
+          - '[&2Piltrat&r] : Sympa !'
+          - '[&2Piltrat&r] : Sympa !'
+          - '[&2Piltrat&r] : Sympa !'
+          - '[&2Piltrat&r] : Sympa !'
+          - '[&2Piltrat&r] : Sympa !'
+          - '[&2Piltrat&r] : Sympa !'
+          - '[&2Piltrat&r] : Sympa !'
+          - '[&2Piltrat&r] : Sympa !'
+          - '[&2Piltrat&r] : Sympa !'
+          - '[&2Piltrat&r] : Sympa !'
+          - '[&2Piltrat&r] : Sympa !'
+          - '[&2Piltrat&r] : Sympa !'
+          - '[&2Piltrat&r] : Sympa !'
+          start-message: '[&2Piltrat&r] : Cool! Si tu pouvais m''amener quelques colorants
+            ce serait bien !'
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: NAUTILUS_SHELL
+        amount: 10
+      money: 500
+      quest-points: 1
+    planner:
+      cooldown: 864000
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom30:
+    name: 'Chercheur avisé : II'
+    npc-giver-id: 114
+    ask-message: '[&2Piltrat&r] : Bonjour !.. Ah, c''est toi ?! Je te cherchais justement...
+      Comme tu m''as bien aidé la dernière fois je me suis dis que tu pourrais le
+      faire à nouveau... Je cherche quelque chose de plus long à obtenir cette fois
+      ci...'
+    finish-message: '[&2Piltrat&r] Ah! Je ne pensais pas que tu y parviendrais sans
+      abandonner ! Je te suis grandement reconnaissant, entre nous, j''avais un peu
+      la flemme d''aller chercher toutes ces ressources tout seul ! Voici donc un
+      petit quelque chose pour te remercier...'
+    requirements:
+      quests:
+      - 'Chercheur avisé : I'
+      fail-requirement-message: '[&2Piltrat&r] : T''es qui ?'
+    stages:
+      ordered:
+        '1':
+          items-to-deliver:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: WHITE_WOOL
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: ORANGE_WOOL
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: MAGENTA_WOOL
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: LIGHT_BLUE_WOOL
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: YELLOW_WOOL
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: LIME_WOOL
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: PINK_WOOL
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: GRAY_WOOL
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: LIGHT_GRAY_WOOL
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: CYAN_WOOL
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: PURPLE_WOOL
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BLUE_WOOL
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BROWN_WOOL
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: GREEN_WOOL
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: RED_WOOL
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BLACK_WOOL
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BLACK_WOOL
+          npc-delivery-ids:
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          delivery-messages:
+          - '[&2Piltrat&r] : Pas trop dur ? eheh'
+        '2':
+          items-to-deliver:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: WHITE_TERRACOTTA
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: ORANGE_TERRACOTTA
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: MAGENTA_TERRACOTTA
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: LIGHT_BLUE_TERRACOTTA
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: YELLOW_TERRACOTTA
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: LIME_TERRACOTTA
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: PINK_TERRACOTTA
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: GRAY_TERRACOTTA
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: LIGHT_GRAY_TERRACOTTA
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: CYAN_TERRACOTTA
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: PURPLE_TERRACOTTA
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BLUE_TERRACOTTA
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BROWN_TERRACOTTA
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: GREEN_TERRACOTTA
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: RED_TERRACOTTA
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BLACK_TERRACOTTA
+          npc-delivery-ids:
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          delivery-messages:
+          - '[&2Piltrat&r] : Jolis blocs'
+        '3':
+          items-to-deliver:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: WHITE_STAINED_GLASS
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: ORANGE_STAINED_GLASS
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: MAGENTA_STAINED_GLASS
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: LIGHT_BLUE_STAINED_GLASS
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: YELLOW_STAINED_GLASS
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: LIME_STAINED_GLASS
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: PINK_STAINED_GLASS
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: GRAY_STAINED_GLASS
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: LIGHT_GRAY_STAINED_GLASS
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: CYAN_STAINED_GLASS
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: PURPLE_STAINED_GLASS
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BLUE_STAINED_GLASS
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BROWN_STAINED_GLASS
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: GREEN_STAINED_GLASS
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: RED_STAINED_GLASS
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BLACK_STAINED_GLASS
+          npc-delivery-ids:
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          delivery-messages:
+          - '[&2Piltrat&r] : Elles ont l''air fragile...'
+        '4':
+          items-to-deliver:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: WHITE_CONCRETE
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: ORANGE_CONCRETE
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: MAGENTA_CONCRETE
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: LIGHT_BLUE_CONCRETE
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: YELLOW_CONCRETE
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: LIME_CONCRETE
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: PINK_CONCRETE
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: GRAY_CONCRETE
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: LIGHT_GRAY_CONCRETE
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BLACK_CONCRETE
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: PURPLE_CONCRETE
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BLUE_CONCRETE
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BROWN_CONCRETE
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: GREEN_CONCRETE
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: RED_CONCRETE
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: CYAN_CONCRETE
+          npc-delivery-ids:
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          delivery-messages:
+          - '[&2Piltrat&r] : Tu commence pas a en avoir marre ?'
+        '5':
+          items-to-deliver:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: WHITE_CARPET
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: ORANGE_CARPET
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: MAGENTA_CARPET
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: LIGHT_BLUE_CARPET
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: YELLOW_CARPET
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: LIME_CARPET
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: PINK_CARPET
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: GRAY_CARPET
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: LIGHT_GRAY_CARPET
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: CYAN_CARPET
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: PURPLE_CARPET
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BLUE_CARPET
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BROWN_CARPET
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: GREEN_CARPET
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: RED_CARPET
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BLACK_CARPET
+          npc-delivery-ids:
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          delivery-messages:
+          - '[&2Piltrat&r] : Bon aller, ça suffit pour aujourd''hui.'
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3§lRecette d'Armure
+          lore:
+          - §6Une recette très utile.
+      money: 1000
+      quest-points: 1
+    planner:
+      cooldown: 259200
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom46:
+    name: 'Chercheur avisé : III'
+    npc-giver-id: 114
+    ask-message: '[&2Piltrat&r] : Te revoilà ! On ne se quitte plus dis donc ! J''aurais
+      encore quelques petits services à te demander... Pourrais tu me ramener les
+      items et blocs du nether? J''en ai déjà quelque uns mais il m''en manque une
+      grande partie...'
+    finish-message: '[&2Piltrat&r] : Waouh ! Tu m''impressionnes de plus en plus !
+      Encore un grand merci !'
+    requirements:
+      quests:
+      - 'Chercheur avisé : II'
+      fail-requirement-message: '[&2Piltrat&r] : Fais les quêtes dans l''ordre sérieux
+        ! T''es vraiment relou à force comme type...'
+    stages:
+      ordered:
+        '1':
+          items-to-deliver:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: SOUL_SAND
+            amount: 64
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: NETHERRACK
+            amount: 64
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: NETHER_QUARTZ_ORE
+            amount: 64
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: MAGMA_BLOCK
+            amount: 64
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: NETHER_WART_BLOCK
+            amount: 64
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: RED_NETHER_BRICKS
+            amount: 64
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: WITHER_SKELETON_SKULL
+          npc-delivery-ids:
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          - 114
+          delivery-messages:
+          - '[&2Piltrat&r] : Quel beauté !'
+    rewards:
+      money: 3500
+      quest-points: 2
+    planner:
+      cooldown: 86400
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom47:
+    name: Le Potager
+    npc-giver-id: 80
+    ask-message: '[§2Jamigi§r] : Salut moi c’est §2Jamigi§r, je suis connue pour mon
+      énorme ferme de blé. Aujourd’hui je me lasse et j’aimerais développer un potager
+      de la même manière que mon blé, je vois les choses en GRAND !'
+    finish-message: '[§2Jamigi§r] : Merci, je t’ai demandé beaucoup. Si tu m’en as
+      ramené autant c’est que tu es un fermier aguerri ! Mon cadeau te fera sûrement
+      plaisir. D’ailleurs si tu as le temps va voir Ollie elle a des soucis avec ses
+      champs !'
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-talk-to:
+          - 80
+          complete-message: '[&2Jamigi&r] : Si tu m’aides, ta récompense sera le secret
+            de ma réussite !'
+        '2':
+          items-to-deliver:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: CARROT
+            amount: 64
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: CARROT
+            amount: 64
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: POTATO
+            amount: 64
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: POTATO
+            amount: 64
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BEETROOT
+            amount: 64
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BEETROOT
+            amount: 64
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: SUGAR_CANE
+            amount: 64
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: SUGAR_CANE
+            amount: 64
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: MELON_SLICE
+            amount: 64
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: MELON_SLICE
+            amount: 64
+          npc-delivery-ids:
+          - 80
+          - 80
+          - 80
+          - 80
+          - 80
+          - 80
+          - 80
+          - 80
+          - 80
+          - 80
+          delivery-messages:
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+          - Livré
+    rewards:
+      money: 500
+      quest-points: 1
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom19:
+    name: Bone-r
+    npc-giver-id: 109
+    ask-message: '[&6Freddy Grouwee&r] : Bonjour je suis Fred, un des trois chefs
+      de la Sathanos, nous travaillons sur des rites, des sacrifices animaliers, hum…
+      Heu je m’emporte. Actuellement nous sommes trois à rechercher quelqu’un capable
+      de nous apporter nos ingrédient.'
+    finish-message: '[&6Freddy Grouwee&r] :Bien, bien, merci de m’avoir rapporté tout
+      cela. Grâce à toi nous allons pouvoir débuter notre rite. Mes camarades auront
+      besoin de toi, trouves-les… Quoi, bien sûr qu’ils se cachent, ce que nous préparons
+      est grandiose !'
+    requirements:
+      quests:
+      - Ci-Trouille
+      fail-requirement-message: Tu n'as pas fait la quête Ci-Trouille
+    stages:
+      ordered:
+        '1':
+          items-to-deliver:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BONE
+            amount: 64
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BONE
+            amount: 64
+          npc-delivery-ids:
+          - 109
+          - 109
+          delivery-messages:
+          - '[&6Freddy Grouwee&r] : Merci'
+          - '[&6Freddy Grouwee&r] : Merci'
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §6Tête d'Halloween
+          Damage: 3
+          internal: H4sIAAAAAAAAAE2Py06DQBiFf01MkPgYbkmmU8DMwoXxkg4pg6XDdUdhENqf2lCwhefyAZ2l3+7LOWdxTAATHraHEfGz/65bVAbc8goeiU1sVjJiVUvFLNulC4uVRW0RTVEUlGlMMPXopPqhVed7MAZ1HcZenU0AuDHgLi5wVPCrJo/kaUOq1MNy4q52uSUY8P3piR/jaffKXd7pfPXirif2r+sMReJgtvSa/LgZd11M1ssQ1SpclF30I+bs6tOIiiQ+5EmOQmbUn78ugXwnPg27XDaN34Uo9qIVc3TJ5GYh3konkKF2REG543deE8iqzZMPzJKIZJPH6pQ86wfwB7O4/rEcAQAA
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom51:
+    name: 'Il fait soif : I'
+    ask-message: '[&2Paul Wook&r] : Tu veux quelque chose à boire ??Alors ne restes
+      pas ici !Ah j''aurais quand même besoin de toi, va voir &2Hugo Wook&r il a une
+      commande pour moi !'
+    finish-message: '[&2Fermier&r] : Ah, merci, voici votre vin !'
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-talk-to:
+          - 102
+          complete-message: '[&2Hugo Wook&r] : Oui, bonjour en quoi puis-je vous aider
+            ? Ah oui tu viens pour prendre le vin...Il y a un petit problème, je suis
+            un peu occupé... Je n''ai pas eu le temps d''aller le chercher...Pourrais-tu
+            aller voir le fermier près du bambou ?'
+        '2':
+          npc-ids-to-talk-to:
+          - 89
+          complete-message: '[&2Fermier&r] : Bonjour! Ah, vous venez chercher le vin
+            ? Où est mon gâteau ? Nous avions pourtant convenu qu''il servirait de
+            salaire...'
+        '3':
+          items-to-deliver:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: CAKE
+          npc-delivery-ids:
+          - 89
+          delivery-messages:
+          - '[&2Fermier&r] : Ahhh !'
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §6Vin dans Shulker
+          lore:
+          - §eDu vin pour §2Paul Wook
+          potion-type: minecraft:water
+    planner:
+      cooldown: 86400
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom53:
+    name: 'Il fait soif : II'
+    npc-giver-id: 89
+    ask-message: '[§2Fermier§r] : Maintenant que tu as ton vin fiche le camp !'
+    finish-message: '[§2Paul Wook§r] : Merci grandement, voici votre récompense !'
+    requirements:
+      quests:
+      - 'Il fait soif : I'
+      fail-requirement-message: '&cTu n''as pas fait la première partie.'
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-talk-to:
+          - 102
+          complete-message: '[&2Hugo Wook&r] : Que veux tu que je fasse de ce vin
+            ? Apportes-le donc a mon frère !'
+        '2':
+          items-to-deliver:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: POTION
+            meta:
+              ==: ItemMeta
+              meta-type: POTION
+              display-name: §6Vin dans Shulker
+              lore:
+              - §eDu vin pour §2Paul Wook
+              potion-type: minecraft:water
+          npc-delivery-ids:
+          - 101
+          delivery-messages:
+          - '[&2Paul Wook&r] : Ah, voilà mon vin...'
+    rewards:
+      money: 1000
+      quest-points: 1
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom49:
+    name: 'Le Centenaire : II'
+    npc-giver-id: 149
+    ask-message: '2'
+    finish-message: '[&2Ricky&r] : Merci, voilà ta récompense !'
+    requirements:
+      quests:
+      - 'Le Centenaire : I'
+      fail-requirement-message: '&cTu dois faire les quêtes dans l''ordre.'
+    stages:
+      ordered:
+        '1':
+          items-to-deliver:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: POTION
+            meta:
+              ==: ItemMeta
+              meta-type: POTION
+              display-name: §2La Bière
+              potion-type: minecraft:strong_swiftness
+          npc-delivery-ids:
+          - 148
+          delivery-messages:
+          - '[&2Ricky&r] : WHOOO'
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §3Vieille Bière
+          potion-type: minecraft:strong_swiftness
+      money: 500
+      quest-points: 1
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom48:
+    name: 'Le Centenaire : I'
+    npc-giver-id: 148
+    ask-message: '[§2Ricky§r] : Et salut, je m''appelle Ricky. Donc ce que je disais,
+      c''est que j''ai besoin de toi pour trouver mon petit fils, §2Rorty§r, peux-tu
+      m''aider ?'
+    finish-message: '[&2Rorty&r] : Tiens au passage, ça pourrait bien t''être utile
+      je crois que mon grand père me cherche surtout pour cette bouteille...'
+    requirements:
+      quest-points: 5
+      fail-requirement-message: §cTu as besoin de 5 Points de Quêtes.
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-talk-to:
+          - 149
+          complete-message: '[&2Rorty&r] : Quoi ? Mon grand père me cherche ? D''accord,
+            dis lui que j''arrive !'
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §2La Bière
+          potion-type: minecraft:strong_swiftness
+      quest-points: 1
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom52:
+    name: 'Le Papa Noël et ses embrouilles : I'
+    npc-giver-id: 151
+    ask-message: '[&4Père Noël&r] : Comme tu t''en es rendu compte certains de mes
+      cadeaux sont tombés de mon tréneau, j''ai donc besoin d''aide pour en re-créer
+      ! Rends-toi à la table des mages je t''en supplie...'
+    finish-message: '[&4Père Noël&r] : Merci ! Mais c''est loin d''être fini...'
+    stages:
+      ordered:
+        '1':
+          items-to-deliver:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: PLAYER_HEAD
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§2Cadeau de Noël§2 : I'
+              lore:
+              - §6Un Cadeau pour aider le §4Père Noël
+              Damage: 3
+              internal: H4sIAAAAAAAAAE2Py06DQBiFf01MkPgYbkmGq7JwQcSkkM7glOuwozDY0qE2LbQOz+UDOkvP7uQ73+LoADo8pYdZiM/zd78XXIP7qINn5CDHb31kdDb3DcezTMNvm95AKk3TWAq/6qAr6cTP055fHkGb+M80n/lFB4A7DR6KRswcfrmMUV3tUFfFopWRp3qWIpFEw+klOhZy+x550aj4KvDW0v+3daemdAWz4119pPN2LNDa3gi+2pjtmF9ZFixspDccUomzViYlOZABm8yiCxuogwe6kBDfWEkRschIlsDG4YfDstzFWT3WQ+6SjLp1WAjlWPXwZSdp7PcVelMP4A+X0pLUHAEAAA==
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: PLAYER_HEAD
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§2Cadeau de Noël§2 : II'
+              lore:
+              - §6Un Cadeau pour aider le §4Père Noël
+              Damage: 3
+              internal: H4sIAAAAAAAAAE2PS26DMBiE/1aqRFGP0S2SDYSKRRZRkRKj4BTCI/bOASMehkYEWui5esCy7Kxm9M0sRgfQ4eXcTkp9DJ9lraQGj6SAV2Qj281dZBSWdA3bMbHh5qI00CohhGkjE+ugr6ObHMZa3p9BG+U8ToO86wDwoMFTKtQk4VcuPuKXChUXX+ULcdYcn5E6keb2Rvp0ub4Th3QrP+yc4+L+625GkW0Us/yK9+F07VJ0tCIlDxHOu+SL7rlicWCyWCn6QyvW0DrwqpY2oXXKaBtkyXfg7RD1WswztpxiMgcdr6hJO94kJmsSvLqWerwO9lHL4nwmPXbLcLtdH8Af+YFVuxwBAAA=
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: PLAYER_HEAD
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§2Cadeau de Noël§2 : III'
+              lore:
+              - §6Un Cadeau pour aider le §4Père Noël
+              Damage: 3
+              internal: H4sIAAAAAAAAAE2PzU6DQBzE/5qYIPExvJIssMXswYPaYJeUxZbl80ZhCSxLbVpois/lA7pH5zb5zUwyJoAJT/EwK/V1/m57JQy4pw08I4wwqQmyGlcQC3uObZG6ai2kVVWV4xKCTTB16STOUy8uj2BM4jbNZ3ExAeDOgIe0UrOAX7EEqMw71OSBqhfqac9jpCIqTy/0mC6HD+rRUfPNm7ddyL/saqqylSrcoCuPu/kwpmjr7pXY7O16TK6hfB/ZOlBRltiFk9yY9Icw27kFLzDjtcu4UgX3ZSkpDtelirjmTtBHWYHYJ+tKThcmOxn+dHojxMzxhzIOSJujV/0A/gCuZhpEHAEAAA==
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: PLAYER_HEAD
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§2Cadeau de Noël§2 : IV'
+              lore:
+              - §6Un Cadeau pour aider le §4Père Noël
+              Damage: 3
+              internal: H4sIAAAAAAAAAE2Py06DQBiFf01MkPgYbkmG4WJYuDCStkMKyKXAzI7CIJSZ2lDQwnP5gLL07E6+8y2OCqDCU9JPQnwMX00nuAL3pIZnZCLTqRyk1QZ3NNPGuuZUZaOhNWVZYqzbhgrqKl34MHb8+gjKyG/jNPCrCgB3CjxkpZg4/PLZQ6xoUV14opqJvfY0QSIkp8sLOWfz8Z3YRK5892bvZ+ff1hrL3BLU8Fp2jqajzNDeiAXfxXolD9/MjTs/3XR+Hs1Mxn2A4z7cEjPMKaaLkMHiz8zNugBv2sA9YJpGFpXRLUgpDt26o0srWfpp+ZJgtvUkPZEfmnhOU6DX9QH8AedHxIwcAQAA
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: PLAYER_HEAD
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: '§2Cadeau de Noël§2 : V'
+              lore:
+              - §6Un Cadeau pour aider le §4Père Noël
+              Damage: 3
+              internal: H4sIAAAAAAAAAE2OzU6DQBzE/5qYIPExvJIs7JbKwYOxxi4pW6GUsty2sMjHbm1aMMBT+YjizblN5jeTMQFMeNi1vVIfl6+yVtKAW1rAIyKIeLmHrAJLzyKuY1teLkoL/UkI4TwtsQnmXDrLS1fL6z0YnRy6/iKvJgDcGHCXCNVL+JGjj7K0QkXqq3yk7uzjHVJb2pyX9JSMx1fqUj3n6xd3M3r/2EUnDgvFsV9lp7A/6gRtcKTkOrJzvf9mDh+CFR+5Dgmf3jDTURXopAre+ZA1LdnG4cinSLM4UrxhLY8/SXYIMVuFTqCjlk3BxB1us2Y/zVuY175Xpuh5fg+/RTtpGRgBAAA=
+          npc-delivery-ids:
+          - 151
+          - 151
+          - 151
+          - 151
+          - 151
+          delivery-messages:
+          - '[&4Père Noël&r] Merci beaucoup ! J''espère que les enfants vont apprécier
+            !'
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '§3§lPartie d''équipement : I'
+          lore:
+          - §6Une des parties nécéssaire pour
+          - §6crée un objet puissant !
+          Damage: 3
+          internal: H4sIAAAAAAAAAE2OwU6DQBiEf01MkPgYXkmWZaFyVGnsbsoiLaXAbQtLgC61odAAT+UjytG5Teb7ktEBdHjZnwelvrufslZSg0dawCsiiLi5i4zCkq5BHGwabi5KAy0RQpjYXr3poC/SVXZ9LW/PoPVy7IdO3nQAeNDgKRZqkPArJ4aypEJFwlQ+UWfp0R6pgDbXFb3E0+mTOrRd9s27s53cf6zdi6OtUotV2SUcTm2MttZOyc3OzNvDneO4ybxYBV5IfI+O/IudeePPfD7gLErHIGLKj0LLx1z5TValR1ZxvMZZS4nfpmYQrUngfVRpExI+5+bi1mViust7+ANvq9rUGAEAAA==
+      quest-points: 1
+    planner:
+      cooldown: 604800
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom54:
+    name: 'Le Papa Noël et ses embrouilles : II'
+    npc-giver-id: 151
+    ask-message: '[&4Papa Noël&r] : Encore toi ? Je suis pas mécontent de te voir
+      ici je dois avouer, j''ai entendu dire que certains de mes lutins étaient également
+      tombés de mon trénneau, va voir les dirigeants de ce monde (&6Salle du staff&r)
+      voir si ils peuvent nous aider..'
+    finish-message: '[&4Père Noël&r] : Ahh voilà mes 5 lutins qui avaient disparus
+      ! Merci mille et une fois'
+    requirements:
+      quests:
+      - 'Le Papa Noël et ses embrouilles : I'
+      fail-requirement-message: '&c[Père Noël] : Commence du début ou alors tu n''auras
+        pas de cadeaux !'
+    stages:
+      ordered:
+        '1':
+          items-to-deliver:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: PLAYER_HEAD
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: §2§lElfe Pilou
+              Damage: 3
+              internal: H4sIAAAAAAAAAE2Py26CUBiE/zZpQkkfo1uSw9WchQtTSz1EsCoXYYdwKJf/UINgxefqAxZ3ndVM5pvFyAAyvOybAfGz+y4q5BI8shxeiUEMmlGi5DqnimFpqkKztFDIXWmaasZMl0GeRife9RU/P4PU82s/dPwsA8CDBE9higOHXz46JDmUJD84mI3MmrK/J7hh9WnG2nA8vjGLialfLaz1SP+xZp9GJsa6UybtdjiKkKz1HfLVTs1EcHGFh179pcYiLDcfsZYsG80TgerePHSFLbzIKWM/UL1bjm70bt6ZWLMb17eryf8kdS7cenGNhYNJneBmyUbWqrTYzufTA/gDdMmq7BwBAAA=
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: PLAYER_HEAD
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: §2§lElfe Pila
+              Damage: 3
+              internal: H4sIAAAAAAAAAE2PzU6DQBhFP01MkPgYbkmG34ZFF0aRDikgdIQyOwoDFAZsWjDAc/mAjjvv7uTes7gygAxPh27i/OP6VZ05k+Ael/CMDGTYhY2UUme2YliaqthFXinoL3mea8ZGk0EW0oVdxzO7PYI0snmcruwmA8CdBA9JzicGP2zxED02qDx6vFiwJZgcEA9xe9ngIVlOr9jCveh3L9Z+sf9tzTFPTZ7pXkOHaDr1CdrrMWe7WC36z29KajMjceunjp6t9UxbXw/apA9SR6XEa0Pi8cCNUOgmXUiK1XfjJlsdI1ibjvYZEt4ckvdOcOOTzKRvtYkH1a6i7VY8gF+zgT99HAEAAA==
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: PLAYER_HEAD
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: §2§lElfe Pola
+              Damage: 3
+              internal: H4sIAAAAAAAAAE2PzU6DQBzE/5qYIPExvJIsn4aDByNNu6SAwPKx3CgsFrrUhoKyPJcPKHpybjO/mcPIADI8xKeJ87fho2k5k+AW1/CIDGTYlY2UWme2YliaqthV2SjoV2VZaoalyiCvowsbxpZd70Ea2TxOA7vKAHAjwV1a8onBNxMuKvIjqnOXVwJbqycx4gHuLk/4nIrDK7Zwv/Ldi7UX9r+uOZaZyanuHotzOB36FO31iLNdpFZ98lk47wbNotbr8EyXglMS9f42+csoqbQio4a/9UTgbGZK6FfghIh24eIRv6fLSXhaOHtLYtLe5z7Z6B6JOhq7dpOj5/UB/ADUIR7KHAEAAA==
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: PLAYER_HEAD
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: §2§lElfe Papan
+              Damage: 3
+              internal: H4sIAAAAAAAAAE2OzU6DQBhFP01MkPgYbkmGX8Oii0ZqO6SM0lLamR2FQRhmsGmhFp7KRxR33t3NuSe5OoAOT9uml/Lj/FXWkmtwjwt4Rg5y/NxHRmFz33A8yzT8PCsN9JcsyyzHc3XQJ+nEz13NL4+gdfzW9Wd+0QHgToOHNJM9hx8+hIgdKlQcQpkP2Jt6skXyHYvTC27T4fiKPawmvpp768H/t3W7bO9KaocVa+P+qFK0tjeSrzZmrnZXkqQVU7FNrTcRjdSMxsahYmFSMR9JIBsSNANTRLF9/E1FIViwcEnCJFnuRrKMR6piM0pIw8TnLUrCGremX8az2fQefgEqR1XyGAEAAA==
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: PLAYER_HEAD
+            meta:
+              ==: ItemMeta
+              meta-type: SKULL
+              display-name: §2§lElfe Pizi
+              Damage: 3
+              internal: H4sIAAAAAAAAAE2OzW6CQBhFvzZpQkkfo1uSYUAaFi6aauIQQVF+nNkhDIFxoAahyDxVH7G4692d3HOTqwPo8Ha8DFLuu++yllyDZ1LAO7KR7eYuMgqLu4btYNNw86w00CNZlmHbcXTQ59GVd33Nb6+g9fzeDx2/6QDwpMFLksmBwy+fPMROFSpOnswn4swcHZHcEXH9IG0ynb+IQ5q533w628n95y76LF1IankVa8Ph3CRoax0k3xzMvIl/AsWEr8jIVoUI1Fr5KqmDKJ+CNLlQHGOW+iONWMPSeAxEUVFRSNrEExUPzu9UhNZutR4D7GOqKCat6Zbhcjm/hz+Ox0bKGAEAAA==
+          npc-delivery-ids:
+          - 151
+          - 151
+          - 151
+          - 151
+          - 151
+          delivery-messages:
+          - '[&4Père Noël&r] : Il m''avait manqué !'
+          objective-override: Retrouvé Pilou,Pila,Pola,Papan et Pizi en parlant aux
+            membres du staff (salle du staff) et les ramener au Père Noël
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '§3§lPartie d''équipement : II'
+          lore:
+          - §6Une des parties nécéssaire pour
+          - §6crée un objet puissant !
+          Damage: 3
+          internal: H4sIAAAAAAAAAE1Oy06DQBS9mpgg8TPckgxPnYWLWjEdUkAo5TG7KQyBcagNBQN8lZ8o7jzJWZxXclQAFR4On6OUH/1X3UquwC2p4BFZyMIlRlplcqxZjqFruGS1hlYwxnTDfLZUUNfRhfdDy6/3oAx8GsaeX1UAuFHgLmVy5PDDZw/RvEFV7slyJs6qkwOSIRGXJ3JO59OWOKRb893G2c/4X9ceWGbLwvQaeo7GU5eivRlLvov1sjt+++KIVppBEs3+QlDQ0aZIyqVIfDMQgfSzPy8WtHMXKiKDZnEbZmQKsndRiNe2WNwpTDZT8EYlTVybbj1c5+hlfQ+/tPGN6RgBAAA=
+      quest-points: 1
+    planner:
+      cooldown: 604800
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom56:
+    name: 'Lutin : I'
+    npc-giver-id: 59
+    ask-message: '[§2Albein66§r] : Tu cherches le lutin Pilou ? Alors tu devras faire
+      ce que je te dis à la lettre...'
+    finish-message: '[§2Albein66§r]: Bon allez, tu l''as mérité ton pilou...'
+    requirements:
+      quests:
+      - 'Le Papa Noël et ses embrouilles : I'
+      fail-requirement-message: '§cTu n''as pas fait la quête le Papa Noël et ses
+        embrouilles : I'
+    stages:
+      ordered:
+        '1':
+          place-block-names:
+          - COBBLESTONE
+          - OAK_PLANKS
+          place-block-amounts:
+          - 320
+          - 110
+          place-block-durability:
+          - 0
+          - 0
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §2§lElfe Pilou
+          Damage: 3
+          internal: H4sIAAAAAAAAAE2Py26CUBiE/zZpQkkfo1uSw9WchQtTSz1EsCoXYYdwKJf/UINgxefqAxZ3ndVM5pvFyAAyvOybAfGz+y4q5BI8shxeiUEMmlGi5DqnimFpqkKztFDIXWmaasZMl0GeRife9RU/P4PU82s/dPwsA8CDBE9higOHXz46JDmUJD84mI3MmrK/J7hh9WnG2nA8vjGLialfLaz1SP+xZp9GJsa6UybtdjiKkKz1HfLVTs1EcHGFh179pcYiLDcfsZYsG80TgerePHSFLbzIKWM/UL1bjm70bt6ZWLMb17eryf8kdS7cenGNhYNJneBmyUbWqrTYzufTA/gDdMmq7BwBAAA=
+    planner:
+      cooldown: 604800
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom55:
+    name: 'Lutin : II'
+    npc-giver-id: 7
+    ask-message: '[&2Lori&r] : Tu veux le lutin Pila ?'
+    finish-message: '[&2Lori&r] : Voila pour toi !'
+    requirements:
+      quests:
+      - 'Lutin : I'
+      fail-requirement-message: '&cTu n''as pas fait la quête Lutin : I'
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-talk-to:
+          - 6
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §2§lElfe Pila
+          Damage: 3
+          internal: H4sIAAAAAAAAAE2PzU6DQBhFP01MkPgYbkmG34ZFF0aRDikgdIQyOwoDFAZsWjDAc/mAjjvv7uTes7gygAxPh27i/OP6VZ05k+Ael/CMDGTYhY2UUme2YliaqthFXinoL3mea8ZGk0EW0oVdxzO7PYI0snmcruwmA8CdBA9JzicGP2zxED02qDx6vFiwJZgcEA9xe9ngIVlOr9jCveh3L9Z+sf9tzTFPTZ7pXkOHaDr1CdrrMWe7WC36z29KajMjceunjp6t9UxbXw/apA9SR6XEa0Pi8cCNUOgmXUiK1XfjJlsdI1ibjvYZEt4ckvdOcOOTzKRvtYkH1a6i7VY8gF+zgT99HAEAAA==
+    planner:
+      cooldown: 604800
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom57:
+    name: 'Lutin : III'
+    npc-giver-id: 58
+    ask-message: '[&2Cocoman&r] : Tu veux cette tête ? Bah tu vas en bâver..'
+    finish-message: '[&2Cocoman&r] : Bon allez, tu l''as mérité...'
+    requirements:
+      quests:
+      - 'Lutin : II'
+      fail-requirement-message: '&cTu n''as pas fait la quête Lutin : II'
+    stages:
+      ordered:
+        '1':
+          mobs-to-kill:
+          - Fox
+          - Chicken
+          - Pig
+          - Panda
+          mob-amounts:
+          - 1
+          - 4
+          - 10
+          - 2
+        '2':
+          items-to-craft:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: STONE_BRICKS
+            amount: 64
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §2§lElfe Pola
+          Damage: 3
+          internal: H4sIAAAAAAAAAE2PzU6DQBzE/5qYIPExvJIsn4aDByNNu6SAwPKx3CgsFrrUhoKyPJcPKHpybjO/mcPIADI8xKeJ87fho2k5k+AW1/CIDGTYlY2UWme2YliaqthV2SjoV2VZaoalyiCvowsbxpZd70Ea2TxOA7vKAHAjwV1a8onBNxMuKvIjqnOXVwJbqycx4gHuLk/4nIrDK7Zwv/Ldi7UX9r+uOZaZyanuHotzOB36FO31iLNdpFZ98lk47wbNotbr8EyXglMS9f42+csoqbQio4a/9UTgbGZK6FfghIh24eIRv6fLSXhaOHtLYtLe5z7Z6B6JOhq7dpOj5/UB/ADUIR7KHAEAAA==
+    planner:
+      cooldown: 604800
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom58:
+    name: 'Lutin : IV'
+    npc-giver-id: 8
+    ask-message: '[&2Alex&r] : Mais t''as déjà pris les têtes de mes amis et tu veux
+      la mienne maintenant ?...'
+    finish-message: '[&2Alex&r] : Bon allez, prends-la, t''façon elle est trop lourde
+      pour mes petits bras de faible...'
+    requirements:
+      quests:
+      - 'Lutin : III'
+      fail-requirement-message: '&cTu n''as pas fait la quête Lutin : III'
+    stages:
+      ordered:
+        '1':
+          locations-to-reach:
+          - survie_new 55.0 102.0 -52.0
+          reach-location-radii:
+          - 5
+          reach-location-names:
+          - Cabane du Capitaine
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §2§lElfe Papan
+          Damage: 3
+          internal: H4sIAAAAAAAAAE2OzU6DQBhFP01MkPgYbkmGX8Oii0ZqO6SM0lLamR2FQRhmsGmhFp7KRxR33t3NuSe5OoAOT9uml/Lj/FXWkmtwjwt4Rg5y/NxHRmFz33A8yzT8PCsN9JcsyyzHc3XQJ+nEz13NL4+gdfzW9Wd+0QHgToOHNJM9hx8+hIgdKlQcQpkP2Jt6skXyHYvTC27T4fiKPawmvpp768H/t3W7bO9KaocVa+P+qFK0tjeSrzZmrnZXkqQVU7FNrTcRjdSMxsahYmFSMR9JIBsSNANTRLF9/E1FIViwcEnCJFnuRrKMR6piM0pIw8TnLUrCGremX8az2fQefgEqR1XyGAEAAA==
+    planner:
+      cooldown: 604800
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom60:
+    name: 'Lutin : V'
+    npc-giver-id: 74
+    ask-message: '[§2Haru§r] : Tu as besoin de cette dernière tête ?'
+    finish-message: '[§2Haru§r] : Bon aller, tiens, tu l''as bien mérité, et joyeux
+      Noël bidule !'
+    requirements:
+      quests:
+      - 'Lutin : IV'
+      fail-requirement-message: '§cTu n''as pas fait la quête Lutin : IV'
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-talk-to:
+          - 152
+          start-message: '[&2Haru&r] : Il te faut trouver ma soeur jumelle, c''est
+            elle qui a la tête...'
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §2§lElfe Pizi
+          Damage: 3
+          internal: H4sIAAAAAAAAAE2OzW6CQBhFvzZpQkkfo1uSYUAaFi6aauIQQVF+nNkhDIFxoAahyDxVH7G4692d3HOTqwPo8Ha8DFLuu++yllyDZ1LAO7KR7eYuMgqLu4btYNNw86w00CNZlmHbcXTQ59GVd33Nb6+g9fzeDx2/6QDwpMFLksmBwy+fPMROFSpOnswn4swcHZHcEXH9IG0ynb+IQ5q533w628n95y76LF1IankVa8Ph3CRoax0k3xzMvIl/AsWEr8jIVoUI1Fr5KqmDKJ+CNLlQHGOW+iONWMPSeAxEUVFRSNrEExUPzu9UhNZutR4D7GOqKCat6Zbhcjm/hz+Ox0bKGAEAAA==
+      quest-points: 2
+    planner:
+      cooldown: 604800
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom59:
+    name: 'Le Papa Noël et ses embrouilles : III'
+    npc-giver-id: 151
+    ask-message: '[&4Père Noël&r] : Comme tu dois t''en douter, mon traineau est dans
+      un sale état, penses-tu pouvoir m''aider ?'
+    finish-message: '[&4Père Noel&r] : Tu me dis que mon tréneau est dans un piteux
+      état ? Super ça s''annonce mal...'
+    requirements:
+      quests:
+      - 'Le Papa Noël et ses embrouilles : II'
+      fail-requirement-message: '&cTu n''as pas fait la quête le père noel et ses
+        embrouilles : II'
+    stages:
+      ordered:
+        '1':
+          locations-to-reach:
+          - survie_new 100.0 105.0 25.0
+          reach-location-radii:
+          - 5
+          reach-location-names:
+          - Traineau du père Noël
+          start-message: '[&4Père Noël&r] : Si tu peux aller voir l''état intérieur
+            de mon traineau ça serait super sympa ! Tu devrais pas trop avoir de mal
+            à le trouver il se trouve non loin des magasins...'
+        '2':
+          npc-ids-to-talk-to:
+          - 151
+          objective-override: Retournes voir le père noël pour lui parler de l'état
+            de son traineau
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '§3§lPartie d''équipement : III'
+          lore:
+          - §6Une des parties nécéssaires pour
+          - §6crée un objet puissant !
+          Damage: 3
+          internal: H4sIAAAAAAAAAE2OS26DMBiE/1aqRFGP0S2SeUZetk2UGAWnJLzsnQNGQE0aEWiAU/WIZdlZzeibkUYH0OHl9DUo9dl9l7WSGjySAl6RgxycY2QUtsSG41mmgXNRGmiREMK03JWrg76MrrLra3l7Bq2XYz908qYDwIMGT4lQg4RfOfmIZxUqMl/lE/GWHJ2QOpDmuiKXZDp/EI+0C9+9efsJ/+u6vUhdxWy/4pdwOLcJ2ttHJXdHM2/jnyDKbRr5Nd/ShqWhxaLQonNV0zapWBS7QRPYwVwtns18/V7TOR7pvHGCdTAdIjLSlt1ZupnplivWxCZPSV1mJl7ewx+V+zoaGAEAAA==
+      quest-points: 1
+    planner:
+      cooldown: 604800
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom61:
+    name: 'Le Papa Noël et ses embrouilles : IV'
+    npc-giver-id: 151
+    ask-message: '[&4Père Noël&r] : Bon, comme tu l''as vu mon tréneau a perdu une
+      bonne partie de ses cadeaux... T''es encore partant ?'
+    finish-message: '[&4Père Noël&r] : Merci à toi, avec ces jolis cadeaux ils vont
+      être heureux :)'
+    requirements:
+      quests:
+      - 'Le Papa Noël et ses embrouilles : III'
+      fail-requirement-message: '&cTu n''as pas fait la quête précédente...'
+    stages:
+      ordered:
+        '1':
+          items-to-deliver:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BIRCH_PLANKS
+            amount: 64
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: YELLOW_TERRACOTTA
+            amount: 64
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: YELLOW_TERRACOTTA
+            amount: 64
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: RED_TERRACOTTA
+            amount: 64
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: RED_TERRACOTTA
+            amount: 64
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: RED_TERRACOTTA
+            amount: 64
+          npc-delivery-ids:
+          - 151
+          - 151
+          - 151
+          - 151
+          - 151
+          - 151
+          delivery-messages:
+          - Merci à toi
+          - ' Youpiii'
+          - ' Adorable !'
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '§3§lPartie d''équipement : IV'
+          lore:
+          - §6Une des parties nécéssaires pour
+          - §6crée un objet puissant !
+          Damage: 3
+          internal: H4sIAAAAAAAAAE2OwWqDQBiE/xYKqfQxehV2dVU85FBqMCtxtxo10ZvRDVFXG4w2mqfqI9Zj5zZ888EoAAq87ZtRyq/++1xJsYJnWsI7IojYhY3UUhe2SkwNq3aRn1W0JM9zrBmWpYCySFfRD5W4vcJqENMw9uKmAMDTCl6SXI4CfsXsoex4QeXRk8VMzaVHeyQ5ra8W7ZL59ElN2i58+2HuZvvf1hjygyFT3btkXTCe2gTt9FCKbYiLNv7hka/5h43OnUBP60vtH4I7d0PpO8GDuwHm7gankT8zp8CZk07sQUkasYbV8cSchmRtTFhdVpmTNCxqCO2wfQ7W6+U9/AGL0mmHGAEAAA==
+      quest-points: 1
+    planner:
+      cooldown: 604800
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom62:
+    name: 'Le Papa Noël et ses embrouilles : V'
+    npc-giver-id: 151
+    ask-message: '[&4Père Noël&r] : Bon, à présent que les cadeaux sont prêt il ne
+      reste plus qu''a les emballés !'
+    finish-message: '[&4Père Noël&r] : Merci ! Je vais bientot pouvoir repartir !'
+    requirements:
+      quests:
+      - 'Le Papa Noël et ses embrouilles : IV'
+      fail-requirement-message: '&cTu n''as pas fait la quête précédente !'
+    stages:
+      ordered:
+        '1':
+          items-to-deliver:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: RED_DYE
+            amount: 16
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: PURPLE_DYE
+            amount: 16
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BLUE_DYE
+            amount: 16
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BROWN_DYE
+            amount: 16
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: ORANGE_DYE
+            amount: 16
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: GREEN_DYE
+            amount: 16
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: MAP
+            amount: 32
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §7§lParchemin
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: PAPER
+            amount: 64
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §7§lMorceau de Parchemin
+          npc-delivery-ids:
+          - 151
+          - 151
+          - 151
+          - 151
+          - 151
+          - 151
+          - 151
+          - 151
+          delivery-messages:
+          - ' Sympathique'
+          - ' Awesome !'
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '§3§lPartie d''équipement : V'
+          lore:
+          - §6Une des parties nécéssaires pour
+          - §6crée un objet puissant !
+          Damage: 3
+          internal: H4sIAAAAAAAAAE2Oy06DQBiFf01MkPgYbkmGy9CwVIfYIe0glOvsKAwtZahNCxV4Kh9Rlp7dyXe+5KgAKrzs2kHKr+t33UihwCOt4BVZyHJKB2mVKRzNsg1dc8qi1tCSoih0A69sFdRFuohr34jbMyi9GPvhKm4qADwo8JQUchDwKyYP8eyIqsyT5UTtpUc7JH16uqzoOZn2H9Sm3cLXb/Zmcv5tcV+kWOamd+TnYNh3CdqYoRTrUC+7+M6J++MT19rO75KdAsQJxTyNRz8KG05ynUcl2pIW845iNgcm/3StfGatTw4jM3LMyGHy09hgKetyI0Z+6jZ1pjvLe/gDrQzA2BgBAAA=
+      quest-points: 1
+    planner:
+      cooldown: 604800
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom63:
+    name: 'Le Papa Noël et ses embrouilles : VI'
+    npc-giver-id: 151
+    ask-message: '[&4Père Noël&r] : Merci ! Tout est prêt ! Il ne me manque plus que
+      du carburant et je pourrais repartir d''où je viens !'
+    finish-message: '[&4Père Noël&r] : Merci milles fois à toi ! Grace à toi et ton
+      aide Noël est sauvé !'
+    requirements:
+      quests:
+      - 'Le Papa Noël et ses embrouilles : V'
+      fail-requirement-message: '&cTu n''as pas fait la quête précédente'
+    stages:
+      ordered:
+        '1':
+          items-to-deliver:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: LAVA_BUCKET
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §3§lCarburant du père Noël
+              lore:
+              - §6Un carburant nécéssaire pour un traineau
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: LAVA_BUCKET
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §3§lCarburant du père Noël
+              lore:
+              - §6Un carburant nécéssaire pour un traineau
+          npc-delivery-ids:
+          - 151
+          - 151
+          delivery-messages:
+          - 'Fouaaa ! C''est une bête de course ce carburant '
+          - ' Le traineau va voler comme une fusée !'
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '§3§lPartie d''équipement : VI'
+          lore:
+          - §6Une des parties nécéssaires pour
+          - §6crée un objet puissant !
+          Damage: 3
+          internal: H4sIAAAAAAAAAE2O3U6DMBzF/5qYIPExvCVpx1e4NGZxJSvK1iHtHYPCYO1cNjArT+UjWu88Nycnv3OS4wK48LQ9Tkp9XL7aXkkH7kkDzyhAQVInyGt8mXhBtMBeUleth/5UVRWOY+yCa0dneRl7eX0EZ5S3cbrIqwsAdw48FJWaJPxIkyJRHlBTpqo2JLKZbZF6J8M5JqfC7F9JRLTlq5dobZJ/3XCsPkPF/fQgTvm01wVa+xslVxtc69031cRQxm/ZIjfZvMNcU0PfeCCGRtG5s56HguVBxjrLcyx0MVAmej4sEZ9rP9Pcp2xpe8eA271gXd+WOLHv4RcwGxvKGAEAAA==
+      money: 5000
+      quest-points: 2
+    planner:
+      cooldown: 604800
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom64:
+    name: Le Recueil
+    npc-giver-id: 162
+    ask-message: '[&2Marco&r] : Bonjour Aventurier ! Je me nomme Marco et j''ai comme
+      projet d''écrire un recueil de blagues mais cependant, je n''ai plus de livres.
+      Pourrais-tu m''apporter de quoi en faire ?'
+    finish-message: '[&2Marco&r] : Ah ! Merci beaucoup l''ami ! Laisse moi crafter
+      ça ... Voilà c''est parfait ! Et il y avait un surplus de matériaux, prend donc
+      ceci en guise de récompense.'
+    stages:
+      ordered:
+        '1':
+          items-to-deliver:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: SUGAR_CANE
+            amount: 64
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: LEATHER
+            amount: 16
+          npc-delivery-ids:
+          - 162
+          - 162
+          delivery-messages:
+          - Merci
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: BOOK
+        amount: 3
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §2§lLivre
+      quest-points: 1
+    planner:
+      cooldown: 604800
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom65:
+    name: La Bourde !
+    npc-giver-id: 162
+    ask-message: '[&2Marco&r] : Aventurier ! Te revoilà, j''ai à nouveau besoin de
+      ta précieuse aide car j''ai fait tomber mon encrier. Résultat des courses, je
+      n''ai plus d''encre et j''ai cassé ma plume fétiche... Voudrais-tu bien refaire
+      mon stock ?'
+    finish-message: '[&2Marco&r] : Cela me fait plaisir de savoir que je peux compter
+      sur toi ! Voici comme promis quelques piécettes, utilise les intelligemment,
+      pour acheter mon livre par exemple ...'
+    requirements:
+      quests:
+      - Le Recueil
+      fail-requirement-message: '&cTu n''as pas fait la quête "Le Recueil"'
+    stages:
+      ordered:
+        '1':
+          items-to-deliver:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: INK_SAC
+            amount: 32
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: FEATHER
+            amount: 16
+          npc-delivery-ids:
+          - 162
+          - 162
+          delivery-messages:
+          - '[&2Marco&r] : Merci à toi !'
+          - '[&2Marco&r] : Sympathique'
+          - '[&2Marco&r] : Merci, tu m''aide beaucoup !'
+          - '[&2Marco&r] : Voilà un beau stock !'
+    rewards:
+      money: 550
+      quest-points: 1
+    planner:
+      cooldown: 604800
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom66:
+    name: Tomber sur un os
+    npc-giver-id: 162
+    ask-message: '[&2Marco&r] : Ah c''est toi ... MAIS OUI C''EST TOI ?! J''ai absolument
+      besoin de ton aide, un squelette de ses morts m''a tué pendant que je préparais
+      une trap ... en chêne ... Hum hum, j''ai eu beau revenir au plus vite, il m''a
+      volé mon recueil !'
+    finish-message: '[&2Marco&r] : Oh mais non ! J''ai plus de livres ... EH MAIS
+      REVIENS, J''AI BESOIN DE TOI !!!'
+    requirements:
+      quests:
+      - La Bourde !
+      fail-requirement-message: '&cTu n''as pas fait la quête "La Bourde !"'
+    stages:
+      ordered:
+        '1':
+          mobs-to-kill:
+          - Skeleton
+          mob-amounts:
+          - 32
+          start-message: '[&2Marco&r] : Moi qui venais de le finir ... Aurais-tu l’amabilité
+            de lui péter la mâchoire de ma part et récupérer mon précieux livre ?
+            Des indices ? Heu bah il avait des os, un crâne, des côtes ... S''il te
+            plait ?'
+          complete-message: '[&2Marco&r] : Ouah ! Tu es remplis de poudre d''os !
+            Enfin j’espère que c''en est ... Alors, dis moi tout, tu l''as trouvé
+            ? ... Ah... Merci d''avoir essayé, j''ai plus qu''à recommencer ...'
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §7§lGlobe
+          lore:
+          - §6Un globe vide sans
+          - §6aucuns effets.
+          internal: H4sIAAAAAAAAAE2OTW6DMBhEv1aqRFGP0S2S+SeLLKKmSowCLokhgR2xjcAxNEqgLZyqRyzL7uZp3kijA+jwcrgMSn3cPqtGCQ0eMYdXz3YsRwjfKKvKMmxbBEYpeGkwx2GsDDjzg0AHfR5dxa1vxP0ZtF789MNN3HUAeNDgKSvVIOBXjCEqTjXip1CxEXsz0wNSBMurj7tsPL9hD7dzv115u3Hxz3X78uiq3A7rokuGc5uhnb1XYrs3WZt+xZsEkU1qx8eijWkmczlnGk35xBtCVyhvU4eseR1NDBGKzUJeJrKOxkLyuqDvVi6ZG8nInR1FKPvGnbmokuVyfg9/FbA9pRgBAAA=
+      money: 1500
+      quest-points: 1
+    planner:
+      cooldown: 604800
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom6:
+    name: Un forgeron averti en vaut deux
+    npc-giver-id: 98
+    ask-message: '[§2Guerrier§r] : Bonjour aventurier j''aurais besoin de votre aide
+      !'
+    finish-message: '[§2Guerrier§r] : Merci beaucoup ! Cela devrait bien nous aider.'
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-talk-to:
+          - 98
+          start-message: Les attaques de monstres ont été dures et notre équipement
+            commence à être fragilisé, pouvez-vous nous fournir quelques épées ?
+        '2':
+          items-to-deliver:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: IRON_SWORD
+            amount: 6
+          npc-delivery-ids:
+          - 98
+          delivery-messages:
+          - '[&2Guerrier&r] : Merci !'
+    rewards:
+      money: 200
+      quest-points: 1
+      exp: 1000
+    planner:
+      cooldown: 86400
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom11:
+    name: Danger ! Creeper
+    npc-giver-id: 98
+    ask-message: '[§2Guerrier§r] : Aventurier, nous sommes en guerre face aux monstres!
+      Nos éclaireurs ont découvert que les creepers sortent des cavernes pour ravager
+      les villages qui sont aux alentours. Il faut absolument en tuer un maximum pour
+      limiter les dégâts.'
+    finish-message: '[§2Guerrier§r] : Merci à toi, tu as ralenti cette propagation
+      de creepers mais, c''est loin d''être fini.'
+    stages:
+      ordered:
+        '1':
+          mobs-to-kill:
+          - Creeper
+          mob-amounts:
+          - 100
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: DIAMOND
+        amount: 5
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: IRON_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eAnti-Creeper
+          lore:
+          - §cToujours utile
+          enchants:
+            PROTECTION_EXPLOSIONS: 5
+      money: 1000
+      quest-points: 1
+    planner:
+      cooldown: 604800
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom15:
+    name: Les Créatures de la nuit
+    npc-giver-id: 98
+    ask-message: '[§2Guerrier§r] : Hey l''aventurier, nos éclaireurs ont observé des
+      créatures terrifiantes sortant la nuit. Pourrais-tu faire le ménage? Tu seras
+      évidemment récompensé.'
+    finish-message: '[§2Guerrier§r] : Merci aventurier, grâce à toi ces créatures
+      ne nous poseront plus de problèmes.'
+    stages:
+      ordered:
+        '1':
+          mobs-to-kill:
+          - Spider
+          - Cave Spider
+          - Phantom
+          mob-amounts:
+          - 30
+          - 20
+          - 50
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: DIAMOND_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eCasque de Guerrier
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+      money: 1500
+      quest-points: 1
+    planner:
+      cooldown: 86400
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom16:
+    name: Besoin de pleins de Nonos
+    npc-giver-id: 3
+    ask-message: '[§2Alfred§r] : Salut Aventurier j''ai besoin de beaucoup d''os pour
+      mes expériences.'
+    finish-message: '[§2Alfred§r] : Merci Aventurier. voilà ta récompense.'
+    stages:
+      ordered:
+        '1':
+          items-to-deliver:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BONE
+            amount: 64
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BONE
+            amount: 64
+          npc-delivery-ids:
+          - 3
+          - 3
+          delivery-messages:
+          - '[&2Alfred&r] : Merci !'
+          - '[&2Alfred&r] : Génial !'
+          - '[&2Alfred&r] : Merci !'
+          - '[&2Alfred&r] : Génial !'
+          - '[&2Alfred&r] : Merci !'
+          - '[&2Alfred&r] : Génial !'
+          - '[&2Alfred&r] : Merci !'
+          - '[&2Alfred&r] : Génial !'
+    rewards:
+      money: 1000
+      quest-points: 1
+    planner:
+      cooldown: 604800
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom2:
+    name: Une envie subite
+    npc-giver-id: 19
+    ask-message: '[§2Neko§r] : J''ai faim mais j''ai peur de l''eau... Miaou ?'
+    finish-message: '[§2Neko§r] : Merci grace à toi je suis le chat le plus heureux
+      de ce serveur ! Miaou !'
+    stages:
+      ordered:
+        '1':
+          fish-to-catch: 10
+        '2':
+          items-to-deliver:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: SALMON
+            amount: 10
+          npc-delivery-ids:
+          - 19
+          delivery-messages:
+          - '[&2Neko&r] : Miaou !'
+    rewards:
+      quest-points: 1
+      exp: 600
+    planner:
+      cooldown: 86400
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom67:
+    name: 'Le Protecteur : I'
+    npc-giver-id: 98
+    ask-message: '[§2Guerrier§r] : Salut, j''ai besoin de toi, souhaites-tu m''aider
+      ?'
+    finish-message: '[§2Guerrier§r] : Merci beaucoup, n''hésites vraiment pas à revenir
+      me voir quand tu le souhaites'
+    stages:
+      ordered:
+        '1':
+          mobs-to-kill:
+          - Zombie
+          mob-amounts:
+          - 10
+        '2':
+          npc-ids-to-talk-to:
+          - 98
+    rewards:
+      money: 200
+      quest-points: 1
+      exp: 50
+    planner:
+      cooldown: 86400
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom5:
+    name: 'Le Protecteur : II'
+    npc-giver-id: 98
+    ask-message: '[§2Guerrier§r] : Salut jeune aventurier j''aurais besoin de ton
+      aide au plus vite, mes éclaireurs ont remarqué quelque chose...'
+    finish-message: '[§2Guerrier§r] : Merci Aventurier ton aide nous est très utile,
+      on prend la suite des opérations ne t''en fais pas. Prends ceci avec toi ça
+      te sera très utile.'
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-talk-to:
+          - 98
+          start-message: '[&2Guerrier&r] : Beaucoup d''archers squelettes sortent
+            des grottes la nuit pour observer les villages aux alentours ! Je pense
+            qu''ils vont tenter une attaque, peux-tu les retarder en faisant le ménage
+            ?'
+        '2':
+          mobs-to-kill:
+          - Skeleton
+          mob-amounts:
+          - 20
+        '3':
+          items-to-deliver:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BONE
+            amount: 16
+          npc-delivery-ids:
+          - 98
+          delivery-messages:
+          - '[&2Guerrier&r] : Merci !'
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3§lPlan d'Arbalète
+      money: 200
+      quest-points: 1
+    planner:
+      cooldown: 172800
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom1:
+    name: 'Le Protecteur : III'
+    npc-giver-id: 98
+    ask-message: '§f[§2Guerrier§f] : Salut, j''ai encore besoin de ton aide, peux-tu
+      m''aider ?'
+    finish-message: '§f[§2Guerrier§f] : Merci beaucoup, voici ta récompense. Reviens
+      me voir lorsque tu auras le temps, j''ai encore du travail pour toi.'
+    requirements:
+      quests:
+      - 'Le Protecteur : II'
+      fail-requirement-message: §cTu dois terminer le chapitre précédent avant de
+        débuter celui-ci!
+    stages:
+      ordered:
+        '1':
+          mobs-to-kill:
+          - Creeper
+          mob-amounts:
+          - 15
+          start-message: '&f[&2Guerrier&f] Des creepers ont attaqué un village, il
+            est en ruine... Tous ces morts doivent être vengés.'
+          complete-message: Reviens me voir pour récupérer ta récompense.
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3§lPlan de Pelle
+      quest-points: 1
+    planner:
+      cooldown: 86400
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom68:
+    name: 'L''apiculture : I'
+    npc-giver-id: 180
+    ask-message: '[§2Apicultrice§r] : Salut petit chêne ! Je suis nouvelle dans la
+      région et en m''installant certaines de mes abeilles ce sont enfuites ! Peux-tu
+      me les retrouver s''il te plait ?'
+    finish-message: '[§2Apicultrice§r] : Merci beaucoup à toi !'
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-talk-to:
+          - 181
+          - 182
+          - 183
+          - 184
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: HONEY_BOTTLE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §2Miel Saint
+          lore:
+          - §6Un miel très pure
+          - §6à garder précieusement.
+      quest-points: 1
+    planner:
+      cooldown: 864000
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom4:
+    name: Un morceau de ciel ?
+    npc-giver-id: 9
+    ask-message: '[&1Le Ciel&r] : J''ai entendu dire que tu avais parcouru ce monde,
+      et que tu avais découvert que tu pouvais obtenir obtenir des morceaux de ciel...'
+    finish-message: '[&1Le Ciel&r] : Tu l''as mérité, voilà pour toi mon jeune ami.'
+    requirements:
+      quest-points: 20
+      fail-requirement-message: '&cTu n''as pas suffisament d''expérience en la matière'
+    stages:
+      ordered:
+        '1':
+          mobs-to-kill:
+          - Phantom
+          mob-amounts:
+          - 30
+        '2':
+          items-to-deliver:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: ENDER_EYE
+            amount: 5
+          npc-delivery-ids:
+          - 9
+          delivery-messages:
+          - Tu es adorable
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: ENDER_EYE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §1Morceau de Ciel
+          lore:
+          - §3Très utile a
+          - §3garder précieusement
+      money: 100
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom70:
+    name: L'absorption
+    npc-giver-id: 6
+    ask-message: '[§2Toryar§r] : De retour sur terre n''est-ce pas ? J''ai mis au
+      point une technique permettant d''aborber une énergie, tu veux voir sa ?'
+    finish-message: '[§2Toryar§r] : Tu te débrouille bien, tiens ca te sera utile
+      à la §1Table des mages§r maintenant que tu est capable d''absorber l''énergie
+      !'
+    requirements:
+      quest-points: 30
+      fail-requirement-message: §cIl te faut 30 points de quêtes !
+    stages:
+      ordered:
+        '1':
+          items-to-deliver:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: GUNPOWDER
+            amount: 15
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §7§lPoudre Magique
+          npc-delivery-ids:
+          - 6
+          delivery-messages:
+          - '[&2Toryar&r] : C''est du bon boulot'
+          - '[&2Toryar&r] : De la bonne poudre...'
+          - '[&2Toryar&r] : Super qualitée !'
+          mobs-to-kill:
+          - Shulker
+          mob-amounts:
+          - 3
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3§lGrimoire vide
+          lore:
+          - §6Un manuscrit sans rien d'écrit
+          - §6dedans, c'est à vous d'écrire
+          - §6ce qu'il doit contenir...
+      quest-points: 1
+    planner:
+      cooldown: 3600
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom69:
+    name: Une pioche spéciale
+    npc-giver-id: 148
+    ask-message: '[§2Ricky§r] : Salut p''tit con ! J''ai entendu dire qu''un vieillard
+      donner une pioche à certaines personne ! Sauf que cette pioche c''est un artefact
+      très puissant qui à appartenu à IroneMane, il me la faut pour conquérir ce monde
+      et tous vous extérminer !'
+    finish-message: '[§2Ricky§r] : T''es bizarre quand même...'
+    requirements:
+      quest-points: 5
+      fail-requirement-message: §cIl te faut 5 Points de Quêtes
+    stages:
+      ordered:
+        '1':
+          items-to-deliver:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: IRON_PICKAXE
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §ePioche du vieux §2Alfred
+              lore:
+              - §cUne pioche qui a beaucoup de valeur
+              - ' §csi vous trouvez avec qui l''échanger'
+              enchants:
+                DURABILITY: 10
+          npc-delivery-ids:
+          - 148
+          delivery-messages:
+          - '[&2Ricky&r] : Merci !'
+          objective-override: Trouver et ramener une Pioche ayant appartenu à un certain
+            Alfred, afin que Ricky puissent conquérir et anéantir le monde de BreakerLand
+            !
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: SPLASH_POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:strong_leaping
+      money: 2000
+      quest-points: 1
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom71:
+    name: De la Joie !
+    npc-giver-id: 93
+    ask-message: '[&2Forgeron&r] : J''ai besoin de me changer les idées, apporte un
+      peu de joie !'
+    finish-message: '[&2Forgeron&r] : Merci !'
+    requirements:
+      quest-points: 23
+    stages:
+      ordered:
+        '1':
+          items-to-deliver:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: MILK_BUCKET
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §7§lDe la Joie
+          npc-delivery-ids:
+          - 93
+          delivery-messages:
+          - '[&2Forgeron&r] : Yayy'
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: GHAST_TEAR
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3§lLarme de Joie
+          lore:
+          - §6Une larme remplie de bonheur.
+      quest-points: 1
+    planner:
+      cooldown: 86400
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom72:
+    name: Comment être un bon dresseur ?
+    npc-giver-id: 81
+    ask-message: '[§2Ollie§r] : Salut, je suis §2Ollie§r, mais tu me connais sûrement
+      déjà, tu as dû entendre parler du fait que dans ce monde, un mage très puissant
+      avait réussi a apprivoiser des animaux... J''ai également une idée pour les
+      apprivoiser encore bébé...'
+    finish-message: '[§2Ollie§r] : Félicitations, tu peux désormais acheter des familiers
+      bébé et les faire grandir !'
+    requirements:
+      quest-points: 10
+      fail-requirement-message: §cIl te faut 10 Points de quêtes
+    stages:
+      ordered:
+        '1':
+          mobs-to-tame:
+          - Wolf
+          - Horse
+          - Parrot
+          - Cat
+          mob-tame-amounts:
+          - 2
+          - 3
+          - 5
+          - 4
+          start-message: '[&2Ollie&r] : Va donc apprivoiser quelques animaux, cela
+            devrais t''aider à comprendre leurs comportement...'
+        '2':
+          npc-ids-to-talk-to:
+          - 81
+        '3':
+          npc-ids-to-talk-to:
+          - 19
+          start-message: '[&2Ollie&r] : Je te suggère d''aller voir &2Neko&r, je suis
+            sûr qu''il pourra t''en apprendre beaucoup sur les animaux et leurs comportements
+            !'
+          complete-message: '[&2Neko&r] : Salut ! Alors dejà calme toi... Je sais
+            que ça t''impressionnes, whaou les chats parle ta langue ! Mais je t''arrêtes
+            tout de suite... C''est toi qui parle notre langue, avec l''entrainement
+            que tu as eu juste avant, j''ai pû te lancer un sort..'
+        '4':
+          npc-ids-to-talk-to:
+          - 3
+          start-message: '[&2Neko&r] : Comme je le disais tu es à présent en mesure
+            de parler aux animaux, et de ce fait ! Je suis sur que tu seras donc capable
+            de maîtriser les jeunes. Par la grâce qui m''a été accordé, je t''octroie
+            un pouvoir ultime ! Va voir &2Alfred...'
+          complete-message: '[&2Alfred&r] : Pourquoi t''es là ? Ahh tu as eu un pouvoir
+            et tu souhaites savoir lequel... Idiot, il te suffit de casser tout le
+            RP en écrivant /petshop...'
+    rewards:
+      quest-points: 2
+      exp: 100
+      commands:
+      - lp user <player> parent add petsbabies
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom50:
+    name: De la chaire en décomposition
+    npc-giver-id: 77
+    ask-message: '[§2Zamgrh§r] : Les zombies m''embêtes toujours autant...'
+    finish-message: '[§2Zamgrh§r] : Merci beaucoup ! Tiens pour toi'
+    requirements:
+      quest-points: 23
+      fail-requirement-message: Il te faut 23 Points de Quêtes
+    stages:
+      ordered:
+        '1':
+          mobs-to-kill:
+          - Zombie
+          mob-amounts:
+          - 50
+    rewards:
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: FERMENTED_SPIDER_EYE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3§lChair Pourrie
+          lore:
+          - §6Une chair en décomposition.
+      quest-points: 1
+    planner:
+      cooldown: 86400
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+-same-quest: true

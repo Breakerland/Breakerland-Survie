@@ -1,0 +1,13 @@
+{
+  "Type": "SHULKER",
+  "Loot": [
+    {
+      "Type": "SHULKER_SHELL",
+      "Chance": 50.0,
+      "Min": 1,
+      "Max": 1,
+      "Looting": true,
+      "Looting Chance Increase": 6.25
+    }
+  ]
+}

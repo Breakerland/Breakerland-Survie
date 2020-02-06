@@ -1,0 +1,22 @@
+{
+  "Type": "CAVE_SPIDER",
+  "Loot": [
+    {
+      "Type": "STRING",
+      "Chance": 100.0,
+      "Min": 0,
+      "Max": 2,
+      "Looting": true
+    },
+    {
+      "Type": "SPIDER_EYE",
+      "Chance": 33.0,
+      "Min": 1,
+      "Max": 1,
+      "Looting": true,
+      "Only Drop For": [
+        "PLAYER"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,391 @@
+Mobs:
+  ELDER_GUARDIAN:
+    Enabled: true
+    Nerfed: true
+    Display Name: Elder guardian
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  WITHER_SKELETON:
+    Enabled: true
+    Nerfed: true
+    Display Name: Wither skeleton
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  STRAY:
+    Enabled: true
+    Nerfed: true
+    Display Name: Stray
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  HUSK:
+    Enabled: true
+    Nerfed: true
+    Display Name: Husk
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  ZOMBIE_VILLAGER:
+    Enabled: true
+    Nerfed: true
+    Display Name: Zombie villager
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  SKELETON_HORSE:
+    Enabled: true
+    Nerfed: true
+    Display Name: Skeleton horse
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  ZOMBIE_HORSE:
+    Enabled: true
+    Nerfed: true
+    Display Name: Zombie horse
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  DONKEY:
+    Enabled: true
+    Nerfed: true
+    Display Name: Donkey
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  MULE:
+    Enabled: true
+    Nerfed: true
+    Display Name: Mule
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  EVOKER:
+    Enabled: true
+    Nerfed: true
+    Display Name: Evoker
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  VEX:
+    Enabled: true
+    Nerfed: true
+    Display Name: Vex
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  VINDICATOR:
+    Enabled: true
+    Nerfed: true
+    Display Name: Vindicator
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  ILLUSIONER:
+    Enabled: true
+    Nerfed: true
+    Display Name: Illusioner
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  CREEPER:
+    Enabled: true
+    Nerfed: true
+    Display Name: Creeper
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  SKELETON:
+    Enabled: true
+    Nerfed: true
+    Display Name: Skeleton
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  SPIDER:
+    Enabled: true
+    Nerfed: true
+    Display Name: Spider
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  GIANT:
+    Enabled: true
+    Nerfed: true
+    Display Name: Giant
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  ZOMBIE:
+    Enabled: true
+    Nerfed: true
+    Display Name: Zombie
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  SLIME:
+    Enabled: true
+    Nerfed: true
+    Display Name: Slime
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  GHAST:
+    Enabled: true
+    Nerfed: true
+    Display Name: Ghast
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  PIG_ZOMBIE:
+    Enabled: true
+    Nerfed: true
+    Display Name: Pig zombie
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  ENDERMAN:
+    Enabled: true
+    Nerfed: true
+    Display Name: Enderman
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  CAVE_SPIDER:
+    Enabled: true
+    Nerfed: true
+    Display Name: Cave spider
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  SILVERFISH:
+    Enabled: true
+    Nerfed: true
+    Display Name: Silverfish
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  BLAZE:
+    Enabled: true
+    Nerfed: true
+    Display Name: Blaze
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  MAGMA_CUBE:
+    Enabled: true
+    Nerfed: true
+    Display Name: Magma cube
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  ENDER_DRAGON:
+    Enabled: true
+    Nerfed: true
+    Display Name: Ender dragon
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  WITHER:
+    Enabled: true
+    Nerfed: true
+    Display Name: Wither
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  BAT:
+    Enabled: true
+    Nerfed: true
+    Display Name: Bat
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  WITCH:
+    Enabled: true
+    Nerfed: true
+    Display Name: Witch
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  ENDERMITE:
+    Enabled: true
+    Nerfed: true
+    Display Name: Endermite
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  GUARDIAN:
+    Enabled: true
+    Nerfed: true
+    Display Name: Guardian
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  SHULKER:
+    Enabled: true
+    Nerfed: true
+    Display Name: Shulker
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  PIG:
+    Enabled: true
+    Nerfed: true
+    Display Name: Pig
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  SHEEP:
+    Enabled: true
+    Nerfed: true
+    Display Name: Sheep
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  COW:
+    Enabled: true
+    Nerfed: true
+    Display Name: Cow
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  CHICKEN:
+    Enabled: true
+    Nerfed: true
+    Display Name: Chicken
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  SQUID:
+    Enabled: true
+    Nerfed: true
+    Display Name: Squid
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  WOLF:
+    Enabled: true
+    Nerfed: true
+    Display Name: Wolf
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  MUSHROOM_COW:
+    Enabled: true
+    Nerfed: true
+    Display Name: Mushroom cow
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  SNOWMAN:
+    Enabled: true
+    Nerfed: true
+    Display Name: Snowman
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  OCELOT:
+    Enabled: true
+    Nerfed: true
+    Display Name: Ocelot
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  IRON_GOLEM:
+    Enabled: true
+    Nerfed: true
+    Display Name: Iron golem
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  HORSE:
+    Enabled: true
+    Nerfed: true
+    Display Name: Horse
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  RABBIT:
+    Enabled: true
+    Nerfed: true
+    Display Name: Rabbit
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  POLAR_BEAR:
+    Enabled: true
+    Nerfed: true
+    Display Name: Polar bear
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  LLAMA:
+    Enabled: true
+    Nerfed: true
+    Display Name: Llama
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  PARROT:
+    Enabled: true
+    Nerfed: true
+    Display Name: Parrot
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  VILLAGER:
+    Enabled: true
+    Nerfed: true
+    Display Name: Villager
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  TURTLE:
+    Enabled: true
+    Nerfed: true
+    Display Name: Turtle
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  PHANTOM:
+    Enabled: true
+    Nerfed: true
+    Display Name: Phantom
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  COD:
+    Enabled: true
+    Nerfed: true
+    Display Name: Cod
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  SALMON:
+    Enabled: true
+    Nerfed: true
+    Display Name: Salmon
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  PUFFERFISH:
+    Enabled: true
+    Nerfed: true
+    Display Name: Pufferfish
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  TROPICAL_FISH:
+    Enabled: true
+    Nerfed: true
+    Display Name: Tropical fish
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  DROWNED:
+    Enabled: true
+    Nerfed: true
+    Display Name: Drowned
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  DOLPHIN:
+    Enabled: true
+    Nerfed: true
+    Display Name: Dolphin
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  CAT:
+    Enabled: true
+    Nerfed: true
+    Display Name: Cat
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  PANDA:
+    Enabled: true
+    Nerfed: true
+    Display Name: Panda
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  PILLAGER:
+    Enabled: true
+    Nerfed: true
+    Display Name: Pillager
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  RAVAGER:
+    Enabled: true
+    Nerfed: true
+    Display Name: Ravager
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  TRADER_LLAMA:
+    Enabled: true
+    Nerfed: true
+    Display Name: Trader llama
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  WANDERING_TRADER:
+    Enabled: true
+    Nerfed: true
+    Display Name: Wandering trader
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  FOX:
+    Enabled: true
+    Nerfed: true
+    Display Name: Fox
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  BEE:
+    Enabled: true
+    Nerfed: true
+    Display Name: Bee
+    Max Stack Size: -1
+    Kill Whole Stack: false

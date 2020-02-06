@@ -1,0 +1,110 @@
+# PhantomSpawnControl by Alex_qp
+# This plugin provides the ability to control phantom spawning.
+# Please leave a review after a while to help me improve my plugins!
+
+# Time in which no phantoms will spawn. This gets reset if a player enters a bed or changes to one of the enabled gamemodes (configure below)
+max_ticks: 72000
+
+# If set to true a player's "phantom timer" gets reset if he changes to the specific gamemode.
+gamemode_reset:
+  adventure: true
+  creative: false
+  spectator: false
+  survival: true
+
+# If set to true a player with the specific gamemode cannot spawn phantoms.
+gamemode_disable:
+  adventure: false
+  creative: true
+  spectator: true
+  survival: false
+
+# Manual Phantom Spawning Algorithm. Using this will disable natural phantom spawning done by the game.
+phantom_spawn:
+  enable_manual_phantom_spawning: true
+
+  general_restrictions:
+    player_above_sea_level: true
+    max_light_level: 7
+    max_group_size: 4
+    spawn_chance_multiplier: 1
+
+  world_restrictions:
+    disable_day_worlds: true
+    enabled_environments:
+      normal: true
+      nether: false
+      the_end: false
+    disabled_worlds:
+    # - ...
+
+  # In this section you can define for what blocks above a player no phantom will spawn.
+  # ignore_solid_blocks is to set blocks that are solid and should not cancel spawning.
+  # add_blocks is to set blocks which will prevent spawning in all enabled worlds.
+  # Note: You can find a list of all materials here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html Do not use none-block materials!
+  # ignore_solid_blocks
+  spawn_blocks:
+    no_solid_block_above_player: true
+    enabled_environments:
+      normal: true
+      nether: false
+      the_end: false
+    disabled_worlds:
+    # - ...
+    ignored_solid_blocks:
+    # - ...
+    add_blocks:
+    # - ...
+
+  spawn_attempts:
+    min_delay: 1200
+    max_delay: 2400
+
+  spawn_area:
+    min_height: 20
+    max_height: 34
+    xz_plane_diameter: 19
+
+  bed_protection:
+    bed_spawn_not_near: true
+    bed_spawn_protection_radius: 100.0
+
+# For further explanations see below.
+advanced:
+  use_legacy: false
+  giant_phantoms: true
+  save_playerdata: true
+
+
+# ===========================================================
+# Explanations about legacy mode:
+# ===========================================================
+
+# IMPORTANT: If you use the manual phantom spawning there is no need to bother about this section. The Plugin will spawn its own phantoms so there is no need for both of these variants.
+
+# TL:DR none legacy mode is more precise but needs more time to remove the phantom. I would not recommend legacy mode especially if you disable spawning for a lot of players.
+
+# Normally the plugin will wait until the phantom chooses its first target and then either remove the phantom or (if giant_phantoms is enabled) apply different stats.
+# Legacy mode will detect any player near the spawn location of a phantom and check if there is someone who you do not want to be able to spawn phantoms. So this means one player is enough to disable phantom spawning around his location. However if all players around the phantom's spawn location have a greater score than max_ticks it will choose the lowest score in order to spawn the weakest phantom. (this is only relevant if giant_phantoms is enabled)
+
+
+# ===========================================================
+# Explanations about giant_phantoms:
+# ===========================================================
+
+# If giant_phantoms is enabled the plugin will create a configuration file in which you can configure this mechanic.
+# If you open the file you will find some suggestions created by me. The first section with "0:" is the default phantom as stated in the wiki. Let me split this up to make it as easy as possible to understand hopefully:
+
+# CONFIGURATION
+# I think most of the values are self explaining. The name of each section is the amount of no rest ticks needed beyond (!) max_ticks (top of this file). If the player has equal or greater no rest ticks than max_ticks + section-Name he/she will be able to spawn phantoms of that type.
+# IMPORTANT: All values except size have to be a double value, size must be an integer! (otherwise you will receive a warning message in the console)
+
+# SPAWN CHANCES
+# I did not want the chances to be linear so I chose a different system, I will try to explain the system as good as possible in steps:
+# 1. No rest ticks of player must be above max_ticks + section-name
+# 2. For each additional tick above this value this phantom type will get one additional chance to spawn until the next higher phantom type is reached.
+# 3. At the end a phantom type will be chosen randomly in consideration of all "chance-points"
+# If you have a better idea on how to determine those chances, please let me know!
+
+# ADDITIONAL CREDITS
+# The idea for this feature is inspired by Xisumavoid's vanilla tweak data pack.

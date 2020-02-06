@@ -1,0 +1,83 @@
+# These are examples of world-specific settings - customize your content as you see fit
+#
+# NOTES:
+#   All lines here are commented with the # symbol - delete the # symbol on copied lines you wish to enable
+#   Definitions of a world made here will superecede any world definition with the same name in configuration.txt
+#   Deleting this file will result in a fresh copy being produced by dynmap.jar on the next startup.
+#
+worlds:
+  # Worlds can be handled by templates, based on world type
+  # You can override the properties of the template by specifying them in this section
+  #    for example 'Title: "My Awesome World"'
+  - name: survie_new
+    title: "Survie"
+    enabled: true
+    sendposition: true
+    sendhealth: true
+  #  # If world isn't contiguous chunks (due to teleporting, for example), fullrender needs to be given other locations to scan for tiles on each patch of chunks
+  #  # Use visibilitylimits to restrict which areas of maps on your world to render (zero or more shapes can be defined)
+  #  # For a rectangle, the area is defined by x0, z0 to x1, z1
+  #  # For a circle, the area is defined by a center at x,z with a radius 'r'
+  #  visibilitylimits:
+  #    - x0: -1000
+  #      z0: -1000
+  #      x1: 1000
+  #      z1: 1000
+  #    - x: -2000
+  #      z: -1000
+  #      r: 200
+  #  # Use hiddenlimits to specifically hide portions of your world (the opposite of visibilitylimits)
+  #  # For a rectangle, the area is defined by x0, z0 to x1, z1
+  #  # For a circle, the area is defined by a center at x,z with a radius 'r'
+  #  hiddenlimits:
+  #    - x0: 100
+  #      z0: 0
+  #      x1: 200
+  #      z1: 0
+  #    - x: -2000
+  #      z: -1000
+  #      r: 200
+  #  # Use hidestyle to control how hidden-but-existing chunks are to be rendered (air=empty air (same as ungenerated), stone=a flat stone plain, ocean=a flat ocean)
+  #  hidestyle: stone
+  #   Use 'template: mycustomtemplate' to use the properties specified in the template 'mycustomtemplate' to this world. Default it is set to the environment-name (normal or nether).
+  #  template: mycustomtemplate
+  #   Rest of comes from template - uncomment to tailor for world specifically
+    extrazoomout: 3
+    center:
+      x: 7
+      y: 64
+      z: 7
+    maps:
+      - class: org.dynmap.hdmap.HDMap
+        name: surface
+        title: "Survie"
+        prefix: surface
+        perspective: iso_SE_30_lowres
+        shader: stdtexture
+        lighting: shadows
+        mapzoomin: 0
+  - name: survie_new_nether
+    title: "Nether"
+    extrazoomout: 0
+    maps:
+      - class: org.dynmap.hdmap.HDMap
+        name: nether
+        title: "Nether"
+        prefix: nether
+        perspective: iso_SE_30_lowres
+        shader: stdtexture
+        lighting: nethershadows
+        background: "#300806"
+        mapzoomin: 0
+  - name: survie_new_the_end
+    title: "Ender"
+    extrazoomout: 0
+    maps:
+      - class: org.dynmap.hdmap.HDMap
+        name: ender
+        title: "Ender"
+        prefix: ender
+        perspective: iso_SE_30_lowres
+        shader: defaultscheme
+        lighting: default
+        mapzoomin: 0

@@ -1,0 +1,65 @@
+# This is the commands configuration file for Bukkit.
+# For documentation on how to make use of this file, check out the Bukkit Wiki at
+# https://www.spigotmc.org/go/commands-yml
+# 
+# If you need help on this file, feel free to join us on irc or leave a message
+# on the forums asking for advice.
+# 
+# IRC: #spigot @ irc.spi.gt
+#    (If this means nothing to you, just go to https://www.spigotmc.org/go/irc )
+# Forums: https://www.spigotmc.org/
+# Bug tracker: https://www.spigotmc.org/go/bugs
+
+command-block-overrides: []
+ignore-vanilla-permissions: false
+aliases:
+  icanhasbukkit:
+  - version $1-
+  changelog:
+  - customtext changelog $1-
+  liens:
+  - customtext links $1-
+  grades:
+  - menu grades
+  lag:
+  - spigot:tps
+  help:
+  - essentials:help $1-
+  aide:
+  - essentials:help $1-
+  regle:
+  - essentials:rules
+  hdv:
+  - ah $1-
+  metier:
+  - jobs $1-
+  shop:
+  - essentials:warp Magasin
+  magasin:
+  - essentials:warp Magasin
+  nether:
+  - essentials:warp Nether
+  enchantement:
+  - essentials:warp Enchantement
+  ender:
+  - essentials:warp End
+  mage:
+  - essentials:warp Mage
+  warps:
+  - pwarp:pwarps
+  warp:
+  - pwarp:pwarp $1-
+  setwarp:
+  - pwarp:pwarp set $1-
+  lp:
+  - []
+  luckperms:
+  - []
+  perm:
+  - []
+  perms:
+  - []
+  permissions:
+  - []
+  permission:
+  - []

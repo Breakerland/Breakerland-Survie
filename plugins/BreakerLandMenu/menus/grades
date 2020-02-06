@@ -1,0 +1,112 @@
+# Amount of rows
+rows: 1
+alias: grades
+# Title of the GUI
+title: '&2Achat de grade'
+# List of GUI slot
+0:
+  item: 'PURPLE_STAINED_GLASS_PANE 1 title:&5Grade_Aventurier description:&ePrix:_15_000β||&e&oKit_Aventurier||&e&o4_homes||&e&o10_items_HDV||&e&o/l_map|rename|setspawn|view'
+  click:
+    condition:
+      permission: grade.aventurier
+      balance: 15000
+    action:
+      balance: 15000
+      scommand: 'luckperms:lp user {player} parent add aventurier'
+      broadcast: '&6{player} vient d''acquérir le grade &5&lAventurier&r&6!'
+1:
+  item: 'MAGENTA_STAINED_GLASS_PANE 1 title:&dGrade_Baron description:&ePrix:_50_000β||&e&oKit_Baron||&e&o5_homes||&e&o15_items_HDV||&e&o/balancetop||&e&o/exp'
+  click:
+    condition:
+      permission: grade.chevalier
+      balance: 50000
+    action:
+      balance: 50000
+      scommand: 'luckperms:lp user {player} parent add chevalier'
+      broadcast: '&6{player} vient d''acquérir le grade &d&lBaron&r&6!'
+2:
+  item: 'BLUE_STAINED_GLASS_PANE 1 title:&3Grade_Duc description:&ePrix:_200_000β||&e&oKit_Duc||&e&o6_homes||&e&o20_items_HDV||&e&o/craft||&e&o/near||&e&o/l_setrole'
+  click:
+    condition:
+      permission: grade.duc
+      balance: 200000
+    action:
+      balance: 200000
+      scommand: 'luckperms:lp user {player} parent add duc'
+      broadcast: '&6{player} vient d''acquérir le grade &3&lDuc&r&6!'
+3:
+  item: 'LIGHT_BLUE_STAINED_GLASS_PANE 1 title:&bGrade_Comte description:&ePrix:_560_000β||&e&oKit_Comte||&e&o7_homes||&e&o40_items_HDV||&e&o2_Terrains||&e&oMembre_de_3_Terrains||&e&oCréation_de_shop_(/qs)||&e&oCréation_de_warp_(/pw)'
+  click:
+    condition:
+      permission: grade.comte
+      balance: 560000
+    action:
+      balance: 560000
+      scommand: 'luckperms:lp user {player} parent add comte'
+      broadcast: '&6{player} vient d''acquérir le grade &b&lComte&r&6!'
+4:
+  item: 'LIME_STAINED_GLASS_PANE 1 title:&aGrade_Marquis description:&ePrix:_1_120_000β'
+  click:
+    condition:
+      permission: grade.marquis
+      balance: 1120000
+    action:
+      balance: 1120000
+      scommand: 'luckperms:lp user {player} parent add marquis'
+      broadcast: '&6{player} vient d''acquérir le grade &a&lMarquis&r&6!'
+5:
+  item: 'GREEN_STAINED_GLASS_PANE 1 title:&2Grade_Héro_ou_Prince description:&ePrix:_2_420_000β'
+  click:
+    condition:
+      permission: grade.héro
+      balance: 2420000
+    action:
+      balance: 2420000
+      scommand: 'luckperms:lp user {player} parent add héro'
+      broadcast: '&6{player} vient d''acquérir le grade &2&lHéro&r&6!'
+6:
+  item: 'YELLOW_STAINED_GLASS_PANE 1 title:&6Grade_Légende_ou_Roi description:&ePrix:7_620_000β'
+  click:
+    condition:
+      permission: grade.légende
+      balance: 7620000
+    action:
+      balance: 7620000
+      scommand: 'luckperms:lp user {player} parent add légende'
+      broadcast: '&6{player} vient d''acquérir le grade &6&lLégende&r&6!'
+7:
+  item: 'BLACK_STAINED_GLASS_PANE 1 title:&0Grade_Fantôme_ou_Empereur description:&ePrix:_21_620_000β'
+  click:
+    condition:
+      permission: grade.fantôme
+      balance: 21620000
+    action:
+      balance: 21620000
+      scommand: 'luckperms:lp user {player} parent add fantôme'
+      broadcast: '&6{player} vient d''acquérir le grade &0&lFantôme&r&6!'
+8:
+  item: 'BARRIER 1 title:&cQuitter'
+  click:
+    action:
+      close: true
+
+# item:        -- ItemStack icon.
+# keep-open:   -- If menu stay open after action.
+#
+# action/right/left:
+#   open:        -- Name of the other menu to open. It must be defined in "menus" folder.
+#   close:       -- Close opened menu.
+#   message:     -- Send player message.
+#   broadcast:   -- Broadcast message.
+#   pcommand:    -- Execute player command.
+#   scommand:    -- Execute server command.
+#
+# permission:  -- Permission needed to execute action.
+#
+# KIT ACTION
+# kit:         -- Buy level or next level of the player kit if it isn't specified
+#
+# BUY ACTION
+# buy:         -- Buy action is to purchased certains items
+#   price:     -- Price of the purchased (no price defined = 0)
+#   items:     -- List of items purchased (itemstack, level kit or command -> See kit example)

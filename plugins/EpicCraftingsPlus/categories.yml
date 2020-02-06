@@ -1,0 +1,137 @@
+size: 45
+Categories:
+  weapons_armor:
+    name: '&c&lArmes'
+    lore:
+    - '&7Ici tu peux crée toutes'
+    - '&7les meilleures armes.'
+    slot: 11
+    id: STONE_SWORD
+  matos:
+    name: '&7&lMatériaux'
+    lore:
+    - '&7Ici tu peux crée des'
+    - '&7matériaux uniques.'
+    slot: 33
+    id: STICK
+  outils:
+    name: '&c&lOutils'
+    lore:
+    - '&7Ici tu peux crée tous'
+    - '&7les meilleurs outils.'
+    slot: 15
+    id: STONE_PICKAXE
+  armures:
+    name: '&2&lArmures'
+    lore:
+    - '&7Ici tu peux crée toutes'
+    - '&7les meilleures armures.'
+    slot: 13
+    id: IRON_CHESTPLATE
+  pierres:
+    name: '&3&lPierres Précieuse'
+    lore:
+    - '&7Ici tu peux crée toutes'
+    - '&7les pierre préciseuse.'
+    slot: 29
+    id: DIAMOND
+  artefact:
+    name: '&e&lArtéfacts'
+    lore: 
+    - '&7Pour t''équiper,'
+    - '&7fait /artefact.'
+    slot: 22
+    id: NETHER_STAR
+  consommable:
+    name: '&6&lConsommables'
+    lore: 
+    - '&7Ici tu peux crée pleins'
+    - '&7de consommables utiles.'
+    slot: 31
+    id: GOLDEN_APPLE
+#  christmas:
+#    name: '&4&lJoyeux Noël !'
+#    lore:
+#    - '&7&lDisponible jusqu''au'
+#    - '&6&l1er Janvier&7 !'  
+#    slot: 31
+#    id: SNOWBALL
+Inventory:
+  '0':
+    slot: 0
+    id: GREEN_STAINED_GLASS_PANE
+  '1':
+    slot: 1
+    id: LIME_STAINED_GLASS_PANE
+  '2':
+    slot: 2
+    id: GREEN_STAINED_GLASS_PANE
+  '3':
+    slot: 3
+    id: LIME_STAINED_GLASS_PANE
+  '4':
+    slot: 4
+    id: GREEN_STAINED_GLASS_PANE
+  '5':
+    slot: 5
+    id: LIME_STAINED_GLASS_PANE
+  '6':
+    slot: 6
+    id: GREEN_STAINED_GLASS_PANE
+  '7':
+    slot: 7
+    id: LIME_STAINED_GLASS_PANE
+  '8':
+    slot: 8
+    id: GREEN_STAINED_GLASS_PANE
+  '9':
+    slot: 9
+    id: LIME_STAINED_GLASS_PANE
+  '10':
+    slot: 17
+    id: LIME_STAINED_GLASS_PANE
+  '11':
+    slot: 18
+    id: GREEN_STAINED_GLASS_PANE
+  '12':
+    slot: 26
+    id: GREEN_STAINED_GLASS_PANE
+  '13':
+    slot: 27
+    id: LIME_STAINED_GLASS_PANE
+  '14':
+    slot: 35
+    id: LIME_STAINED_GLASS_PANE
+  '15':
+    slot: 36
+    name: '&7Retour'
+    command: chestcommands open inventory %player%
+    id: ARROW
+  '16':
+    slot: 37
+    id: LIME_STAINED_GLASS_PANE
+  '17':
+    slot: 38
+    id: GREEN_STAINED_GLASS_PANE
+  '18':
+    slot: 39
+    id: LIME_STAINED_GLASS_PANE
+  '19':
+    name: '&6Informations'
+    lore:
+    - '&7Choisi une des catégories'
+    - '&7pour crée des objets unique!'
+    slot: 40
+    id: LEVER
+  '20':
+    slot: 41
+    id: LIME_STAINED_GLASS_PANE
+  '21':
+    slot: 42
+    id: GREEN_STAINED_GLASS_PANE
+  '22':
+    slot: 43
+    id: LIME_STAINED_GLASS_PANE
+  '23':
+    slot: 44
+    id: GREEN_STAINED_GLASS_PANE

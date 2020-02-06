@@ -1,0 +1,6 @@
+# Time in minutes after exploding blocks should regenerate
+regen_delay: 2.5
+placement_intensity: 5.0
+ignored_entities: []
+ignored_materials: []
+included_materials: []

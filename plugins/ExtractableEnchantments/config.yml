@@ -1,0 +1,29 @@
+Recipe:
+  '0':
+    '0': EXPERIENCE_BOTTLE
+    '1': COAL_BLOCK
+    '2': EXPERIENCE_BOTTLE
+  '1':
+    '0': COAL_BLOCK
+    '1': BOOK
+    '2': COAL_BLOCK
+  '2':
+    '0': EXPERIENCE_BOTTLE
+    '1': COAL_BLOCK
+    '2': EXPERIENCE_BOTTLE
+Material: BOOK
+Name: '&c&lGrimoire d''Absorption'
+Lore:
+- '&6Utilise la formule de ce livre'
+- '&6pour absorber l''énergie de'
+- '&6l''enchantement de ton choix.'
+Toggle: true
+Glint: false
+Message:
+  Success: '&3Absorption réussi et vous avez obtenue :'
+  Fail: '&4Absorption raté'
+Chance:
+  Toggle: false
+  Destroy: false
+  Min: 1
+  Max: 100

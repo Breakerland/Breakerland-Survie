@@ -1,0 +1,12 @@
+{
+  "Type": "CAT",
+  "Loot": [
+    {
+      "Type": "STRING",
+      "Chance": 100.0,
+      "Min": 1,
+      "Max": 1,
+      "Looting": true
+    }
+  ]
+}

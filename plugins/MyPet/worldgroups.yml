@@ -1,0 +1,13 @@
+# ######################################################################
+#           This is the world group configuration of MyPet             #
+#                 You can find more info on the wiki:                  #
+#   https://wiki.mypet-plugin.de/setup/configurations/worldgroups.yml  #
+# ######################################################################
+
+Disabled:
+- example_world
+Groups:
+  default:
+  - survie_new
+  - survie_new_nether
+  - survie_new_the_end

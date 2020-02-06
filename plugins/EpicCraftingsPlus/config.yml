@@ -1,0 +1,2221 @@
+# --------------------------------------------------
+# EpicCraftingsPlus by Ajneb97 
+# If you find bugs, please contact with me:
+# https://www.spigotmc.org/members/ajneb97.43796/
+# --------------------------------------------------
+# You can find tutorials on the plugin page.
+# https://www.spigotmc.org/resources/epiccraftingsplus-fully-configurable-crafts-1-8-1-11.39967/
+Config:
+  firework-on-craft: false
+  new-version-reminder: true
+  block-ecraft-command: false
+  enable-categories: true
+  hide-craftings-with-permissions: true
+  workbench-attach: false
+  block-player-crafting-inventory: false
+  cooldown-notification-messages: true
+  cooldown-notification-sound:
+    enabled: false
+    sound: NOTE_PLING;2;1.5
+  one-cooldown-at-the-time: false
+  previous-next-crafting: true
+  log-file:
+    enabled: true
+    clear-log-time: 7
+  decorative-menu-item: LIGHT_BLUE_STAINED_GLASS_PANE
+  menu-page-item: ARROW
+  click-to-craft-item: CRAFTING_TABLE
+  craft-with-money-item: INK_SAC
+  previous-next-crafting-item: RED_STAINED_GLASS_PANE
+  Crafts:
+    colle:
+      id: CLAY_BALL
+      amount: '1'
+      durability: '0'
+      name: '&7&lColle'
+      unbreakable: 'false'
+      requires:
+      - WATER_BUCKET;1
+      - CLAY_BALL;3
+      category: matos
+    poudre_magique:
+      id: GUNPOWDER
+      amount: '1'
+      durability: '0'
+      name: '&7&lPoudre Magique'
+      unbreakable: 'false'
+      requires:
+      - BOWL;1
+      - CLAY_BALL;4
+      - GUNPOWDER;2
+      category: matos
+    plume_de_coq:
+      id: FEATHER
+      amount: '1'
+      durability: '0'
+      name: '&7&lPlume de Coq'
+      unbreakable: 'false'
+      requires:
+      - CLAY_BALL;1;&7&lColle
+      - FEATHER;6
+      category: matos
+    eau_purifie:
+      id: WATER_BUCKET
+      amount: '1'
+      durability: '0'
+      name: '&7&lEau Purifié'
+      unbreakable: 'false'
+      requires:
+      - WATER_BUCKET;1
+      - PRISMARINE_CRYSTALS;8
+      category: matos
+    silex_tranchant:
+      id: FLINT
+      amount: '1'
+      durability: '0'
+      name: '&7&lSilex Tranchant'
+      unbreakable: 'false'
+      requires:
+      - GRAVEL;16
+      category: matos
+    morceau_de_parchemin:
+      id: PAPER
+      amount: '1'
+      durability: '0'
+      name: '&7&lMorceau de Parchemin'
+      unbreakable: 'false'
+      requires:
+      - SUGAR_CANE;8
+      category: matos
+    parchemin:
+      id: MAP
+      amount: '1'
+      durability: '0'
+      name: '&7&lParchemin'
+      unbreakable: 'false'
+      requires:
+      - PAPER;16;&7&lMorceau de Parchemin
+      category: matos
+    baies_medicinales:
+      id: SWEET_BERRIES
+      amount: '1'
+      durability: '0'
+      name: '&2&lBaies Médicinales'
+      unbreakable: 'false'
+      requires:
+      - SWEET_BERRIES;8
+      - WATER_BUCKET;1;&7&lEau Purifié
+      category: matos
+    diamant:
+      id: DIAMOND
+      amount: '1'
+      durability: '0'
+      name: '&7&lDiamant'
+      unbreakable: 'false'
+      requires:
+      - DIAMOND;2
+      category: pierres
+    emeraude:
+      id: EMERALD
+      amount: '1'
+      durability: '0'
+      name: '&7&lÉmeraude'
+      unbreakable: 'false'
+      requires:
+      - EMERALD;2
+      category: pierres
+    amethiste:
+      id: PURPLE_DYE
+      amount: '1'
+      durability: '0'
+      name: '&7&lAméthiste'
+      unbreakable: 'false'
+      requires:
+      - EMERALD;1
+      - DIAMOND;1
+      category: pierres
+    rubis:
+      id: REDSTONE
+      amount: '1'
+      durability: '0'
+      name: '&7&lRubis'
+      unbreakable: 'false'
+      requires:
+      - GLOWSTONE_DUST;1
+      - EMERALD;1
+      category: pierres
+    diamant_poli:
+      id: DIAMOND
+      amount: '1'
+      durability: '0'
+      name: '&2&lDiamant Poli'
+      unbreakable: 'false'
+      requires:
+      - DIAMOND;5;&7&lDiamant
+      category: pierres
+    emeraude_poli:
+      id: EMERALD
+      amount: '1'
+      durability: '0'
+      name: '&2&lÉmeraude Poli'
+      unbreakable: 'false'
+      requires:
+      - EMERALD;5;&7&lÉmeraude
+      category: pierres
+    amethiste_polie:
+      id: PURPLE_DYE
+      amount: '1'
+      durability: '0'
+      name: '&2&lAméthiste Polie'
+      unbreakable: 'false'
+      requires:
+      - PURPLE_DYE;5;&7&lAméthiste
+      category: pierres
+    rubis_poli:
+      id: REDSTONE
+      amount: '1'
+      durability: '0'
+      name: '&2&lRubis Poli'
+      unbreakable: 'false'
+      requires:
+      - REDSTONE;5;&7&lRubis
+      category: pierres
+    diamant_radieux:
+      id: DIAMOND
+      amount: '1'
+      durability: '0'
+      name: '&3&lDiamant Radieux'
+      unbreakable: 'false'
+      requires:
+      - DIAMOND;5;&2&lDiamant Poli
+      category: pierres
+    emeraude_radieux:
+      id: EMERALD
+      amount: '1'
+      durability: '0'
+      name: '&3&lÉmeraude Radieux'
+      unbreakable: 'false'
+      requires:
+      - EMERALD;5;&2&lÉmeraude Poli
+      category: pierres
+    améthiste_radieuse:
+      id: PURPLE_DYE
+      amount: '1'
+      durability: '0'
+      name: '&3&lAméthiste Radieuse'
+      unbreakable: 'false'
+      requires:
+      - PURPLE_DYE;5;&2&lAméthiste Polie
+      category: pierres
+    rubis_radieux:
+      id: REDSTONE
+      amount: '1'
+      durability: '0'
+      name: '&3&lRubis Radieux'
+      unbreakable: 'false'
+      requires:
+      - REDSTONE;5;&2&lRubis Poli
+      category: pierres
+    diamant_impeccable:
+      id: DIAMOND
+      amount: '1'
+      durability: '0'
+      name: '&c&lDiamant Impeccable'
+      unbreakable: 'false'
+      requires:
+      - DIAMOND;5;&3&lDiamant Radieux
+      category: pierres
+    emeraude_impeccable:
+      id: EMERALD
+      amount: '1'
+      durability: '0'
+      name: '&c&lÉmeraude Impeccable'
+      unbreakable: 'false'
+      requires:
+      - EMERALD;5;&3&lÉmeraude Radieux
+      category: pierres
+    amethiste_impeccable:
+      id: PURPLE_DYE
+      amount: '1'
+      durability: '0'
+      name: '&c&lAméthiste Impaccable'
+      unbreakable: 'false'
+      requires:
+      - PURPLE_DYE;5;&3&lAméthiste Radieuse
+      category: pierres
+    rubis_impeccable:
+      id: REDSTONE
+      amount: '1'
+      durability: '0'
+      name: '&c&lRubis Impaccable'
+      unbreakable: 'false'
+      requires:
+      - REDSTONE;5;&3&lRubis Radieux
+      category: pierres
+    diamant_sacré:
+      id: DIAMOND
+      amount: '1'
+      durability: '0'
+      name: '&e&lDiamant Sacré'
+      unbreakable: 'false'
+      requires:
+      - DIAMOND;5;&c&lDiamant Impeccable
+      category: pierres
+    emeraude_sacré:
+      id: EMERALD
+      amount: '1'
+      durability: '0'
+      name: '&e&lÉmeraude Sacré'
+      unbreakable: 'false'
+      requires:
+      - EMERALD;5;&c&lÉmeraude Impeccable
+      category: pierres
+    amethiste_sacrée:
+      id: PURPLE_DYE
+      amount: '1'
+      durability: '0'
+      name: '&e&lAméthiste Sacrée'
+      unbreakable: 'false'
+      requires:
+      - PURPLE_DYE;5;&c&lAméthiste Impaccable
+      category: pierres
+    rubis_sacré:
+      id: REDSTONE
+      amount: '1'
+      durability: '0'
+      name: '&e&lRubis Sacré'
+      unbreakable: 'false'
+      requires:
+      - REDSTONE;5;&c&lRubis Impaccable
+      category: pierres
+    baton_en_chene_noir:
+      id: STICK
+      amount: '1'
+      durability: '0'
+      name: '&7&lBâton en Chêne Noir'
+      unbreakable: 'false'
+      requires:
+      - DARK_OAK_PLANKS;1
+      - STICK;1
+      category: matos
+    baton_en_acajou:
+      id: STICK
+      amount: '1'
+      durability: '0'
+      name: '&7&lBâton en Acajou'
+      unbreakable: 'false'
+      requires:
+      - STICK;1
+      - JUNGLE_PLANKS;1
+      category: matos
+    baton_en_bouleau:
+      id: STICK
+      amount: '1'
+      durability: '0'
+      name: '&7&lBâton en Bouleau'
+      unbreakable: 'false'
+      requires:
+      - BIRCH_PLANKS;1
+      - STICK;1
+      category: matos
+    baton_en_acacia:
+      id: STICK
+      amount: '1'
+      durability: '0'
+      name: '&7&lBâton en Acacia'
+      unbreakable: 'false'
+      requires:
+      - ACACIA_PLANKS;1
+      - STICK;1
+      category: matos
+    baton_en_sapin:
+      id: STICK
+      amount: '1'
+      durability: '0'
+      name: '&7&lBâton en Sapin'
+      unbreakable: 'false'
+      requires:
+      - SPRUCE_PLANKS;1
+      - STICK;1
+      category: matos
+    baton_en_chene:
+      id: STICK
+      amount: '1'
+      durability: '0'
+      name: '&7&lBâton en Chêne'
+      unbreakable: 'false'
+      requires:
+      - OAK_PLANKS;1
+      - STICK;1
+      category: matos
+    livre:
+      id: BOOK
+      amount: '1'
+      durability: '0'
+      name: '&2&lLivre'
+      unbreakable: 'false'
+      requires:
+      - MAP;8;&7&lParchemin
+      - STICK;1;&7&lBâton en Chêne
+      - STICK;1;&7&lBâton en Sapin
+      - STICK;1;&7&lBâton en Bouleau
+      - STICK;1;&7&lBâton en Acajou
+      - STICK;1;&7&lBâton en Chêne Noir
+      - STICK;1;&7&lBâton en Acacia
+      category: matos
+    branche_de_chene_noir:
+      id: STICK
+      amount: '1'
+      durability: '0'
+      name: '&2&lBranche de Chêne Noir'
+      unbreakable: 'false'
+      requires:
+      - WATER_BUCKET;1;&7&lEau Purifié
+      - GUNPOWDER;6;&7&lPoudre Magique
+      - STICK;12;&7&lBâton en Chêne Noir
+      category: matos
+    branche_d'acajou:
+      id: STICK
+      amount: '1'
+      durability: '0'
+      name: '&2&lBranche d''Acajou'
+      unbreakable: 'false'
+      requires:
+      - WATER_BUCKET;1;&7&lEau Purifié
+      - GUNPOWDER;6;&7&lPoudre Magique
+      - STICK;12;&7&lBâton en Acajou
+      category: matos
+    branche_de_bouleau:
+      id: STICK
+      amount: '1'
+      durability: '0'
+      name: '&2&lBranche de Bouleau'
+      unbreakable: 'false'
+      requires:
+      - STICK;12;&7&lBâton en Bouleau
+      - GUNPOWDER;6;&7&lPoudre Magique
+      - WATER_BUCKET;1;&7&lEau Purifié
+      category: matos
+    branche_d'acacia:
+      id: STICK
+      amount: '1'
+      durability: '0'
+      name: '&2&lBranche d''Acacia'
+      unbreakable: 'false'
+      requires:
+      - WATER_BUCKET;1;&7&lEau Purifié
+      - GUNPOWDER;6;&7&lPoudre Magique
+      - STICK;12;&7&lBâton en Acacia
+      category: matos
+    branche_de_sapin:
+      id: STICK
+      amount: '1'
+      durability: '0'
+      name: '&2&lBranche de Sapin'
+      unbreakable: 'false'
+      requires:
+      - WATER_BUCKET;1;&7&lEau Purifié
+      - GUNPOWDER;6;&7&lPoudre Magique
+      - STICK;12;&7&lBâton en Sapin
+      category: matos
+    branche_de_chene:
+      id: STICK
+      amount: '1'
+      durability: '0'
+      name: '&2&lBranche de Chêne'
+      unbreakable: 'false'
+      requires:
+      - STICK;12;&7&lBâton en Chêne
+      - WATER_BUCKET;1;&7&lEau Purifié
+      - GUNPOWDER;6;&7&lPoudre Magique
+      category: matos
+    ame:
+      id: STONE_SWORD
+      amount: '1'
+      durability: '0'
+      name: '&7&lAme'
+      lore:
+      - '&7Berserk I'
+      - '&7Blast I'
+      - '&6Une lame lourde,'
+      - '&6faite de pierre'
+      hide-required-items-flags: true
+      enchants:
+      - DAMAGE_ALL;2
+      - DURABILITY;2
+      unbreakable: 'false'
+      requires:
+      - STONE_SWORD;1
+      - EXPERIENCE_BOTTLE;2
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - COBBLESTONE;64
+      - BOOK;2;&2&lLivre
+      - GUNPOWDER;5;&7&lPoudre Magique
+      - DIAMOND;1;&7&lDiamant
+      category: weapons_armor
+    ameno:
+      id: IRON_SWORD
+      amount: '1'
+      durability: '0'
+      name: '&2&lAmeno'
+      lore:
+      - '&6Une lame légèrement'
+      - '&6affutée, ancienne.'
+      hide-required-items-flags: true
+      enchants:
+      - LOOT_BONUS_MOBS;2
+      - DAMAGE_ALL;3
+      - DURABILITY;3
+      unbreakable: 'false'
+      requires:
+      - STONE_SWORD;1;&7&lAme;&7Berserk I;&7Blast I;&6Une lame lourde,;&6faite de
+        pierre;ENCHANTS:DAMAGE_ALL,2:DURABILITY,2
+      - STONE_SWORD;1
+      - IRON_SWORD;1
+      - EXPERIENCE_BOTTLE;12
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - IRON_INGOT;64
+      - BOOK;4;&2&lLivre
+      - GUNPOWDER;10;&7&lPoudre Magique
+      - DIAMOND;1;&2&lDiamant Poli
+      category: weapons_armor
+    eau_magique:
+      id: WATER_BUCKET
+      amount: '1'
+      durability: '0'
+      name: '&2&lEau Magique'
+      unbreakable: 'false'
+      requires:
+      - POTION;1;POTION_TYPE:MUNDANE,false,false
+      - BOOK;1;&2&lLivre
+      - SWEET_BERRIES;4;&2&lBaies Médicinales
+      - GUNPOWDER;10;&7&lPoudre Magique
+      - WATER_BUCKET;1;&7&lEau Purifié
+      - WATER_BUCKET;1
+      category: matos
+    ampoule_de_genie:
+      id: LANTERN
+      amount: '1'
+      durability: '0'
+      name: '&3&lAmpoule de Génie'
+      hide-required-items-flags: true
+      unbreakable: 'false'
+      requires:
+      - GUNPOWDER;10;&7&lPoudre Magique
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - BOOK;1;&2&lLivre
+      - WATER_BUCKET;1;&2&lEau Magique
+      - LANTERN;2
+      category: matos
+    amenonu:
+      id: GOLDEN_SWORD
+      amount: '1'
+      durability: '0'
+      name: '&3&lAmenonu'
+      lore:
+      - '&6La légende dit que'
+      - '&6cette lame n''est qu''une'
+      - '&6partie d''une autre...'
+      hide-required-items-flags: false
+      enchants:
+      - FIRE_ASPECT;3
+      - LOOT_BONUS_MOBS;3
+      - DAMAGE_ALL;4
+      - DURABILITY;4
+      unbreakable: 'false'
+      requires:
+      - IRON_SWORD;1;&2&lAmeno;&6Une lame légèrement;&6affutée, ancienne.;ENCHANTS:LOOT_BONUS_MOBS,2:DAMAGE_ALL,3:DURABILITY,3
+      - STONE_SWORD;1;&7&lAme;&7Berserk I;&7Blast I;&6Une lame lourde,;&6faite de
+        pierre;ENCHANTS:DAMAGE_ALL,2:DURABILITY,2
+      - GOLDEN_SWORD;1
+      - IRON_SWORD;1
+      - STONE_SWORD;1
+      - EXPERIENCE_BOTTLE;32
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - GOLD_INGOT;64
+      - BOOK;8;&2&lLivre
+      - GUNPOWDER;20;&7&lPoudre Magique
+      - LANTERN;1;&3&lAmpoule de Génie
+      - DIAMOND;1;&3&lDiamant Radieux
+      category: weapons_armor
+    branche_magique:
+      id: STICK
+      amount: '1'
+      durability: '0'
+      name: '&3&lBranche Magique'
+      unbreakable: 'false'
+      requires:
+      - STICK;10;&2&lBranche de Chêne Noir
+      - STICK;10;&2&lBranche d'Acajou
+      - STICK;10;&2&lBranche de Chêne
+      - STICK;10;&2&lBranche de Sapin
+      - STICK;10;&2&lBranche d'Acacia
+      - STICK;10;&2&lBranche de Bouleau
+      - GUNPOWDER;10;&7&lPoudre Magique
+      - WATER_BUCKET;1;&2&lEau Magique
+      - BOOK;4;&2&lLivre
+      category: matos
+    amenonuhoko:
+      id: DIAMOND_SWORD
+      amount: '1'
+      durability: '0'
+      name: '&c&lAmenonuhoko'
+      lore:
+      - '&7Berserk III'
+      - '&7LightWeight III'
+      - '&6La créatrice du Monde'
+      hide-required-items-flags: true
+      enchants:
+      - FIRE_ASPECT;5
+      - LOOT_BONUS_MOBS;6
+      - DAMAGE_ALL;10
+      - DURABILITY;8
+      unbreakable: 'false'
+      requires:
+      - GOLDEN_SWORD;1;&3&lAmenonu;&6La légende dit que;&6cette lame n'est qu'une;&6partie
+        d'une autre...;ENCHANTS:FIRE_ASPECT,3:LOOT_BONUS_MOBS,3:DAMAGE_ALL,4:DURABILITY,4
+      - IRON_SWORD;1;&2&lAmeno;&6Une lame légèrement;&6affutée, ancienne.;ENCHANTS:LOOT_BONUS_MOBS,2:DAMAGE_ALL,3:DURABILITY,3
+      - STONE_SWORD;1;&7&lAme;&7Berserk I;&7Blast I;&6Une lame lourde,;&6faite de
+        pierre;ENCHANTS:DAMAGE_ALL,2:DURABILITY,2
+      - DIAMOND_SWORD;1
+      - GOLDEN_SWORD;1
+      - GHAST_TEAR;5;&3&lLarme de Chimère
+      - DIAMOND;2;&c&lDiamant Impeccable
+      - PURPLE_DYE;1;&c&lAméthiste Impaccable
+      - WRITABLE_BOOK;1;&c&lLivre pour une création Légendaire
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - GUNPOWDER;40;&7&lPoudre Magique
+      - LANTERN;1;&3&lAmpoule de Génie
+      - CONDUIT;1
+      - EXPERIENCE_BOTTLE;64
+      - DIAMOND;64
+      category: weapons_armor
+    fleche:
+      id: ARROW
+      amount: '2'
+      durability: '0'
+      name: '&7&lFlèche'
+      unbreakable: 'false'
+      requires:
+      - ARROW;2
+      category: matos
+    fleche_tranchante:
+      id: ARROW
+      amount: '1'
+      durability: '0'
+      name: '&2&lFlèche Tranchante'
+      unbreakable: 'false'
+      requires:
+      - ARROW;6;&7&lFlèche
+      - FLINT;1;&7&lSilex Tranchant
+      category: matos
+    fleche_magique:
+      id: ARROW
+      amount: '1'
+      durability: '0'
+      name: '&3&lFlèche Magique'
+      unbreakable: 'false'
+      requires:
+      - FEATHER;3;&7&lPlume de Coq
+      - FLINT;3;&7&lSilex Tranchant
+      - ARROW;6;&2&lFlèche Tranchante
+      - WATER_BUCKET;1;&2&lEau Magique
+      category: matos
+    fleche_magistrale:
+      id: ARROW
+      amount: '2'
+      durability: '0'
+      name: '&c&lFlèche Magistrale'
+      unbreakable: 'false'
+      requires:
+      - FEATHER;6;&7&lPlume de Coq
+      - GUNPOWDER;6;&7&lPoudre Magique
+      - FLINT;6;&7&lSilex Tranchant
+      - WATER_BUCKET;1;&2&lEau Magique
+      - ARROW;6;&3&lFlèche Magique
+      - LANTERN;1;&3&lAmpoule de Génie
+      - WRITABLE_BOOK;1;&c&lLivre pour une création Légendaire
+      category: matos
+    corde_tresse:
+      id: STRING
+      amount: '1'
+      durability: '0'
+      name: '&2&lCorde tressée'
+      unbreakable: 'false'
+      requires:
+      - STRING;4
+      - CLAY_BALL;2;&7&lColle
+      category: matos
+    arc_de_chasse:
+      id: BOW
+      amount: '1'
+      durability: '0'
+      name: '&2&lArc de Chasse'
+      lore:
+      - '&7Pull I'
+      - '&6Un bon arc'
+      - '&6de chasse.'
+      enchants:
+      - ARROW_DAMAGE;2
+      - ARROW_KNOCKBACK;1
+      - DURABILITY;2
+      unbreakable: 'false'
+      requires:
+      - BOW;1
+      - FLINT;3;&7&lSilex Tranchant
+      - FEATHER;3;&7&lPlume de Coq
+      - STICK;8;&2&lBranche de Bouleau
+      - STRING;3;&2&lCorde tressée
+      - ARROW;6;&2&lFlèche Tranchante
+      - REDSTONE;1;&2&lRubis Poli
+      category: weapons_armor
+    arc_argente_de_la_lune:
+      id: BOW
+      amount: '1'
+      durability: '0'
+      name: '&3&lArc Argenté de la Lune'
+      lore:
+      - '&7Pull II'
+      - '&7Boom I'
+      - '&6Un arc loin'
+      - '&6d''être banal.'
+      enchants:
+      - ARROW_FIRE;2
+      - ARROW_DAMAGE;4
+      - ARROW_KNOCKBACK;2
+      - DURABILITY;3
+      unbreakable: 'false'
+      requires:
+      - BOW;1;&2&lArc de Chasse;&7Pull I;&6Un bon arc;&6de chasse.;ENCHANTS:ARROW_DAMAGE,2:ARROW_KNOCKBACK,1:DURABILITY,2
+      - REDSTONE;2;&3&lRubis Radieux
+      - STICK;16;&2&lBranche d'Acacia
+      - FLINT;6;&7&lSilex Tranchant
+      - FEATHER;5;&7&lPlume de Coq
+      - STRING;12;&2&lCorde tressée
+      - ARROW;6;&3&lFlèche Magique
+      - WATER_BUCKET;1;&2&lEau Magique
+      - LANTERN;1;&3&lAmpoule de Génie
+      - GUNPOWDER;20;&7&lPoudre Magique
+      category: weapons_armor
+    arc_artemis:
+      id: BOW
+      amount: '1'
+      durability: '0'
+      name: '&c&lArc d''Artémis'
+      lore:
+      - '&7Pull III'
+      - '&7Boom III'
+      - '&7Lightning I'
+      - '&6 Artémis portait le nom de'
+      - '&6Chasseresse à l''arc d''or'
+      hide-required-items-flags: true
+      enchants:
+      - ARROW_FIRE;5
+      - MENDING;1
+      - ARROW_DAMAGE;10
+      - DURABILITY;8
+      unbreakable: 'false'
+      requires:
+      - BOW;1;&3&lArc Argenté de la Lune;&7Pull II;&7Boom I;&6Un arc loin;&6d'être
+        banal.;ENCHANTS:ARROW_FIRE,2:ARROW_DAMAGE,4:ARROW_KNOCKBACK,2:DURABILITY,3
+      - BOW;1;&2&lArc de Chasse;&7Pull I;&6Un bon arc;&6de chasse.;ENCHANTS:ARROW_DAMAGE,2:ARROW_KNOCKBACK,1:DURABILITY,2
+      - REDSTONE;2;&c&lRubis Impaccable
+      - PURPLE_DYE;1;&c&lAméthiste Impaccable
+      - WRITABLE_BOOK;1;&c&lLivre pour une création Légendaire
+      - ARROW;8;&c&lFlèche Magistrale
+      - LANTERN;1;&3&lAmpoule de Génie
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - WATER_BUCKET;1;&2&lEau Magique
+      - STICK;32;&2&lBranche de Bouleau
+      - GUNPOWDER;40;&7&lPoudre Magique
+      - PURPLE_DYE;64;&7&lAméthiste
+      - EXPERIENCE_BOTTLE;64
+      category: weapons_armor
+    larme_de_chimere:
+      id: GHAST_TEAR
+      amount: '1'
+      durability: '0'
+      name: '&3&lLarme de Chimère'
+      hide-required-items-flags: true
+      unbreakable: 'false'
+      requires:
+      - DIAMOND;1;&7&lDiamant
+      - EMERALD;1;&7&lÉmeraude
+      - PURPLE_DYE;1;&7&lAméthiste
+      - REDSTONE;1;&7&lRubis
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - WATER_BUCKET;1;&2&lEau Magique
+      - GUNPOWDER;12;&7&lPoudre Magique
+      category: matos
+    par:
+      id: STONE_AXE
+      amount: '1'
+      durability: '0'
+      name: '&7&lPar'
+      lore:
+      - '&6Une hache simple'
+      - '&6peu tranchante.'
+      hide-required-items-flags: true
+      enchants:
+      - DAMAGE_ALL;3
+      - DURABILITY;2
+      unbreakable: 'false'
+      requires:
+      - STONE_AXE;1
+      - COBBLESTONE;64
+      - GUNPOWDER;5;&7&lPoudre Magique
+      - EMERALD;1;&7&lÉmeraude
+      - BOOK;2;&2&lLivre
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      category: weapons_armor
+    paras:
+      id: IRON_AXE
+      amount: '1'
+      durability: '0'
+      name: '&2&lParas'
+      lore:
+      - '&7Rekt I'
+      - '&6Une hache de guerre'
+      hide-required-items-flags: true
+      enchants:
+      - LOOT_BONUS_MOBS;3
+      - DAMAGE_ALL;4
+      - DURABILITY;4
+      unbreakable: 'false'
+      requires:
+      - STONE_AXE;1;&7&lPar;&6Une hache simple;&6peu tranchante.;ENCHANTS:DAMAGE_ALL,3:DURABILITY,2
+      - IRON_AXE;1
+      - IRON_INGOT;64
+      - GUNPOWDER;10;&7&lPoudre Magique
+      - EMERALD;1;&2&lÉmeraude Poli
+      - BOOK;4;&2&lLivre
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - EXPERIENCE_BOTTLE;16
+      category: weapons_armor
+    parash:
+      id: GOLDEN_AXE
+      amount: '1'
+      durability: '0'
+      name: '&3&lParash'
+      lore:
+      - '&7Rekt I'
+      - '&7Berserk I'
+      - '&6Une hache faite'
+      - '&6a base d''or'
+      hide-required-items-flags: true
+      enchants:
+      - LOOT_BONUS_MOBS;3
+      - DAMAGE_ALL;5
+      - DURABILITY;5
+      unbreakable: 'false'
+      requires:
+      - IRON_AXE;1;&2&lParas;&7Rekt I;&6Une hache de guerre;ENCHANTS:LOOT_BONUS_MOBS,3:DAMAGE_ALL,4:DURABILITY,4
+      - STONE_AXE;1;&7&lPar;&6Une hache simple;&6peu tranchante.;ENCHANTS:DAMAGE_ALL,3:DURABILITY,2
+      - GOLDEN_AXE;1
+      - GOLD_INGOT;64
+      - GUNPOWDER;20;&7&lPoudre Magique
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - BOOK;8;&2&lLivre
+      - PURPLE_DYE;2;&2&lAméthiste Polie
+      - EMERALD;1;&3&lÉmeraude Radieux
+      - LANTERN;1;&3&lAmpoule de Génie
+      - EXPERIENCE_BOTTLE;32
+      category: weapons_armor
+    parashu:
+      id: DIAMOND_AXE
+      amount: '1'
+      durability: '0'
+      name: '&c&lParashu'
+      lore:
+      - '&7Decapitation II'
+      - '&7Rekt III'
+      - '&7Berserk III'
+      - '&6Arme du favorite'
+      - '&6du Dieu Shiva'
+      hide-required-items-flags: true
+      enchants:
+      - LOOT_BONUS_MOBS;5
+      - DAMAGE_ALL;9
+      - DURABILITY;8
+      unbreakable: 'false'
+      requires:
+      - GOLDEN_AXE;1;&3&lParash;&7Rekt I;&7Berserk I;&6Une hache faite;&6a base d'or;ENCHANTS:LOOT_BONUS_MOBS,3:DAMAGE_ALL,5:DURABILITY,5
+      - IRON_AXE;1;&2&lParas;&7Rekt I;&6Une hache de guerre;ENCHANTS:LOOT_BONUS_MOBS,3:DAMAGE_ALL,4:DURABILITY,4
+      - STONE_AXE;1;&7&lPar;&6Une hache simple;&6peu tranchante.;ENCHANTS:DAMAGE_ALL,3:DURABILITY,2
+      - DIAMOND_AXE;1
+      - DIAMOND;64
+      - GUNPOWDER;40;&7&lPoudre Magique
+      - WATER_BUCKET;1;&2&lEau Magique
+      - GHAST_TEAR;5;&3&lLarme de Chimère
+      - LANTERN;1;&3&lAmpoule de Génie
+      - PURPLE_DYE;1;&c&lAméthiste Impaccable
+      - EMERALD;2;&c&lÉmeraude Impeccable
+      - WRITABLE_BOOK;1;&c&lLivre pour une création Légendaire
+      - FIRE_CHARGE;1
+      - EXPERIENCE_BOTTLE;64
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      category: weapons_armor
+    arbalete_de_la_foret:
+      nbt:
+      - Charged;0b
+      id: CROSSBOW
+      amount: '1'
+      durability: '0'
+      name: '&2&lArbalète de la Fôret'
+      lore:
+      - '&7MultiArrow I'
+      - '&6Une arbalète provenant'
+      - '&6de profondes fôrets...'
+      enchants:
+      - PIERCING;1
+      - ARROW_DAMAGE;2
+      - DURABILITY;2
+      unbreakable: 'false'
+      requires:
+      - CROSSBOW;1
+      - FLINT;3;&7&lSilex Tranchant
+      - FEATHER;3;&7&lPlume de Coq
+      - STICK;8;&2&lBranche d'Acacia
+      - STRING;3;&2&lCorde tressée
+      - ARROW;6;&2&lFlèche Tranchante
+      - EMERALD;1;&2&lÉmeraude Poli
+      - ACACIA_LOG;64
+      category: weapons_armor
+    arbalete_perforatrice:
+      nbt:
+      - Charged;0b
+      id: CROSSBOW
+      amount: '1'
+      durability: '0'
+      name: '&3&lArbalète Perforatrice'
+      lore:
+      - '&7Boom I'
+      - '&7MultiArrow II'
+      - '&6Une arbalète très'
+      - '&6dangereuse...'
+      hide-required-items-flags: true
+      enchants:
+      - MULTISHOT;2
+      - PIERCING;2
+      - ARROW_DAMAGE;3
+      - DURABILITY;3
+      unbreakable: 'false'
+      requires:
+      - CROSSBOW;1;&2&lArbalète de la Fôret;&7MultiArrow I;&6Une arbalète provenant;&6de
+        profondes fôrets...;ENCHANTS:PIERCING,1:ARROW_DAMAGE,2:DURABILITY,2
+      - CROSSBOW;1
+      - PAPER;1;&3&lPlan d'Arbalète
+      - EMERALD;2;&3&lÉmeraude Radieux
+      - LANTERN;1;&3&lAmpoule de Génie
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - GUNPOWDER;20;&7&lPoudre Magique
+      - ARROW;6;&3&lFlèche Magique
+      - STRING;12;&2&lCorde tressée
+      - STICK;16;&2&lBranche d'Acacia
+      - FLINT;6;&7&lSilex Tranchant
+      - FEATHER;6;&7&lPlume de Coq
+      - BOOK;6;&2&lLivre
+      category: weapons_armor
+    arbalete_de_neptune:
+      nbt:
+      - Charged;0b
+      id: CROSSBOW
+      amount: '1'
+      durability: '0'
+      name: '&c&lArbalète de Neptune'
+      lore:
+      - '&7Boom II'
+      - '&7MultiArrow IV'
+      - '&6L''Arbalète utilisé par'
+      - '&6le dieu Neptune pour'
+      - '&6détruire des planètes.'
+      hide-required-items-flags: true
+      enchants:
+      - MULTISHOT;3
+      - PIERCING;5
+      - ARROW_DAMAGE;7
+      - QUICK_CHARGE;5
+      - DURABILITY;10
+      unbreakable: 'false'
+      requires:
+      - CROSSBOW;1;&3&lArbalète Perforatrice;&7Boom I;&7MultiArrow II;&6Une arbalète
+        très;&6dangereuse...;ENCHANTS:MULTISHOT,2:PIERCING,2:ARROW_DAMAGE,3:DURABILITY,3
+      - CROSSBOW;1;&2&lArbalète de la Fôret;&7MultiArrow I;&6Une arbalète provenant;&6de
+        profondes fôrets...;ENCHANTS:PIERCING,1:ARROW_DAMAGE,2:DURABILITY,2
+      - CROSSBOW;1
+      - FLINT;16;&7&lSilex Tranchant
+      - FEATHER;16;&7&lPlume de Coq
+      - GUNPOWDER;40;&7&lPoudre Magique
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - BOOK;12;&2&lLivre
+      - GHAST_TEAR;3;&3&lLarme de Chimère
+      - LANTERN;2;&3&lAmpoule de Génie
+      - PAPER;2;&3&lPlan d'Arbalète
+      - EMERALD;3;&c&lÉmeraude Impeccable
+      - WRITABLE_BOOK;1;&c&lLivre pour une création Légendaire
+      - ARROW;12;&c&lFlèche Magistrale
+      - EXPERIENCE_BOTTLE;64
+      category: weapons_armor
+    globe_de_transformation:
+      skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      skull-id: f4433911-e796-3c81-9d8d-010210e353d6
+      id: PLAYER_HEAD
+      amount: '1'
+      durability: '0'
+      name: '&2&lGlobe de Transformations'
+      hide-required-items-flags: true
+      unbreakable: 'false'
+      requires:
+      - GUNPOWDER;16;&7&lPoudre Magique
+      - PLAYER_HEAD;1;&7&lGlobe;&6Un globe vide sans;&6aucuns effets.;SKULL-OWNER:null;SKULL-ID:63424ee7-aff2-33e8-aeda-c44cca8dc788;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGQ0OGU3NWZmNTVjYjU3NTMzYzdiOTA0YmU4ODdhMzc0OTI1ZjkzODMyZjdhZTE2Yjc5MjM5ODdlOTcwIn19fQ==
+      - BOOK;1;&2&lLivre
+      - WATER_BUCKET;1;&2&lEau Magique
+      category: matos
+    houe_en_pierre:
+      id: STONE_HOE
+      amount: '1'
+      durability: '0'
+      name: '&7&l&7&lHoue en pierre'
+      lore:
+      - '&6Une simple houe'
+      - '&6faite de pierre.'
+      enchants:
+      - DURABILITY;2
+      unbreakable: 'false'
+      requires:
+      - DIAMOND;3;&7&lDiamant
+      - STONE_HOE;1
+      - STICK;2;&7&lBâton en Bouleau
+      - BOOK;2;&2&lLivre
+      - GUNPOWDER;16;&7&lPoudre Magique
+      category: outils
+    houe_en_fer:
+      id: IRON_HOE
+      amount: '1'
+      durability: '0'
+      name: '&2&lHoue en fer'
+      lore:
+      - '&7Planter I'
+      - '&6Une houe plutôt'
+      - '&6récente.'
+      enchants:
+      - DURABILITY;3
+      unbreakable: 'false'
+      requires:
+      - DIAMOND;3;&2&lDiamant Poli
+      - IRON_HOE;1
+      - STONE_HOE;1;&7&l&7&lHoue en pierre;&6Une simple houe;&6faite de pierre.;ENCHANTS:DURABILITY,2
+      - STICK;4;&7&lBâton en Bouleau
+      - BOOK;4;&2&lLivre
+      - GUNPOWDER;32;&7&lPoudre Magique
+      category: outils
+    faux_magique:
+      id: GOLDEN_HOE
+      amount: '1'
+      durability: '0'
+      name: '&3&lFaux Magique'
+      lore:
+      - '&7GreenThumb II'
+      - '&6Une faux qui'
+      - '&6semble très étrange.'
+      hide-required-items-flags: true
+      enchants:
+      - MENDING;1
+      - DURABILITY;7
+      unbreakable: 'false'
+      requires:
+      - DIAMOND;3;&3&lDiamant Radieux
+      - GOLDEN_HOE;1
+      - IRON_HOE;1;&2&lHoue en fer;&7Planter I;&6Une houe plutôt;&6récente.;ENCHANTS:DURABILITY,3
+      - STONE_HOE;1;&7&l&7&lHoue en pierre;&6Une simple houe;&6faite de pierre.;ENCHANTS:DURABILITY,2
+      - STICK;2;&2&lBranche de Bouleau
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - BOOK;8;&2&lLivre
+      - GUNPOWDER;64;&7&lPoudre Magique
+      - STRING;6;&2&lCorde tressée
+      - WATER_BUCKET;1;&7&lEau Purifié
+      category: outils
+    la_grande_faucheuse:
+      nbt:
+      - RepairCost;1
+      id: DIAMOND_HOE
+      amount: '1'
+      durability: '0'
+      name: '&c&lLa Grande Faucheuse'
+      lore:
+      - '&7Planter I'
+      - '&7Tiller I'
+      - '&7Telepathy I'
+      - '&7GreenThumb III'
+      - '&7Harvester I'
+      - '&6Léguée par La Mort elle-même.'
+      - '&6Cette faux vous suivra jusqu''à votre mort.'
+      - '&6De la poudre d''os semble s''échapper de la lame.'
+      hide-required-items-flags: true
+      enchants:
+      - MENDING;1
+      - DURABILITY;8
+      unbreakable: 'false'
+      requires:
+      - DIAMOND;3;&c&lDiamant Impeccable
+      - DIAMOND_HOE;1
+      - GOLDEN_HOE;1;&3&lFaux Magique;&7GreenThumb II;&6Une faux qui;&6semble très
+        étrange.;ENCHANTS:MENDING,1:DURABILITY,7
+      - IRON_HOE;1;&2&lHoue en fer;&7Planter I;&6Une houe plutôt;&6récente.;ENCHANTS:DURABILITY,3
+      - STONE_HOE;1;&7&l&7&lHoue en pierre;&6Une simple houe;&6faite de pierre.;ENCHANTS:DURABILITY,2
+      - STICK;4;&2&lBranche de Bouleau
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - WRITABLE_BOOK;1;&c&lLivre pour une création Légendaire
+      - LANTERN;1;&3&lAmpoule de Génie
+      - BONE;1;&c&lBras de Wither
+      - WATER_BUCKET;1;&2&lEau Magique
+      - STRING;16;&2&lCorde tressée
+      - GUNPOWDER;64;&7&lPoudre Magique
+      - BOOK;16;&2&lLivre
+      category: outils
+    pelle_en_pierre:
+      id: STONE_SHOVEL
+      amount: '1'
+      durability: '0'
+      name: '&7&lPelle en pierre'
+      lore:
+      - '&6Une simple pelle'
+      - '&6faite de pierre.'
+      enchants:
+      - DIG_SPEED;1
+      - DURABILITY;2
+      unbreakable: 'false'
+      requires:
+      - EMERALD;3;&7&lÉmeraude
+      - STONE_SHOVEL;1
+      - STICK;2;&7&lBâton en Chêne
+      - BOOK;2;&2&lLivre
+      - GUNPOWDER;16;&7&lPoudre Magique
+      category: outils
+    pelle_en_fer:
+      id: IRON_SHOVEL
+      amount: '1'
+      durability: '0'
+      name: '&2&lPelle en fer'
+      lore:
+      - '&7Haste I'
+      - '&6Une pelle plutôt'
+      - '&6récente.'
+      enchants:
+      - DIG_SPEED;2
+      - DURABILITY;3
+      unbreakable: 'false'
+      requires:
+      - EMERALD;3;&2&lÉmeraude Poli
+      - IRON_SHOVEL;1
+      - STONE_SHOVEL;1;&7&lPelle en pierre;&6Une simple pelle;&6faite de pierre.;ENCHANTS:DIG_SPEED,1:DURABILITY,2
+      - STICK;4;&7&lBâton en Chêne
+      - BOOK;4;&2&lLivre
+      - GUNPOWDER;32;&7&lPoudre Magique
+      category: outils
+    pelle_magique:
+      id: GOLDEN_SHOVEL
+      amount: '1'
+      durability: '0'
+      name: '&3&lPelle Magique'
+      lore:
+      - '&7Haste II'
+      - '&6Une pelle qui semble'
+      - '&6très étrange.'
+      hide-required-items-flags: true
+      enchants:
+      - DIG_SPEED;4
+      - MENDING;1
+      - DURABILITY;7
+      unbreakable: 'false'
+      requires:
+      - EMERALD;3;&3&lÉmeraude Radieux
+      - GOLDEN_SHOVEL;1
+      - IRON_SHOVEL;1;&2&lPelle en fer;&7Haste I;&6Une pelle plutôt;&6récente.;ENCHANTS:DIG_SPEED,2:DURABILITY,3
+      - STONE_SHOVEL;1;&7&lPelle en pierre;&6Une simple pelle;&6faite de pierre.;ENCHANTS:DIG_SPEED,1:DURABILITY,2
+      - STICK;2;&2&lBranche de Chêne
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - BOOK;8;&2&lLivre
+      - GUNPOWDER;64;&7&lPoudre Magique
+      - STRING;6;&2&lCorde tressée
+      - WATER_BUCKET;1;&7&lEau Purifié
+      category: outils
+    la_grande_pelleteuse:
+      id: DIAMOND_SHOVEL
+      amount: '1'
+      durability: '0'
+      name: '&c&lLa Grande Pelleteuse'
+      lore:
+      - '&7Oxygenate I'
+      - '&7Telepathy I'
+      - '&7Haste III'
+      - '&6Léguée par Gaïa lui-même'
+      - '&6Cette Pelle vous suivra jusqu''a votre mort.'
+      hide-required-items-flags: true
+      enchants:
+      - DIG_SPEED;10
+      - LOOT_BONUS_BLOCKS;5
+      - DURABILITY;8
+      unbreakable: 'false'
+      requires:
+      - EMERALD;3;&c&lÉmeraude Impeccable
+      - DIAMOND_SHOVEL;1
+      - GOLDEN_SHOVEL;1;&3&lPelle Magique;&7Haste II;&6Une pelle qui semble;&6très
+        étrange.;ENCHANTS:DIG_SPEED,4:MENDING,1:DURABILITY,7
+      - IRON_SHOVEL;1;&2&lPelle en fer;&7Haste I;&6Une pelle plutôt;&6récente.;ENCHANTS:DIG_SPEED,2:DURABILITY,3
+      - STONE_SHOVEL;1;&7&lPelle en pierre;&6Une simple pelle;&6faite de pierre.;ENCHANTS:DIG_SPEED,1:DURABILITY,2
+      - STICK;4;&2&lBranche de Chêne
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - WRITABLE_BOOK;1;&c&lLivre pour une création Légendaire
+      - LANTERN;1;&3&lAmpoule de Génie
+      - PAPER;1;&3&lPlan de Pelle
+      - WATER_BUCKET;1;&2&lEau Magique
+      - STRING;16;&2&lCorde tressée
+      - GUNPOWDER;64;&7&lPoudre Magique
+      - BOOK;16;&2&lLivre
+      category: outils
+    hache_en_pierre:
+      id: STONE_AXE
+      amount: '1'
+      durability: '0'
+      name: '&7&lHache en pierre'
+      lore:
+      - '&6Une simple hache'
+      - '&6faite de pierre.'
+      enchants:
+      - DIG_SPEED;1
+      - DURABILITY;2
+      unbreakable: 'false'
+      requires:
+      - PURPLE_DYE;3;&7&lAméthiste
+      - STONE_AXE;1
+      - STICK;2;&7&lBâton en Acajou
+      - BOOK;2;&2&lLivre
+      - GUNPOWDER;16;&7&lPoudre Magique
+      category: outils
+    hache_en_fer:
+      id: IRON_AXE
+      amount: '1'
+      durability: '0'
+      name: '&2&lHache en fer'
+      lore:
+      - '&7Telepathy I'
+      - '&6Une hache plutôt'
+      - '&6récente.'
+      enchants:
+      - DIG_SPEED;2
+      - DURABILITY;3
+      unbreakable: 'false'
+      requires:
+      - PURPLE_DYE;3;&2&lAméthiste Polie
+      - IRON_AXE;1
+      - STONE_AXE;1;&7&lHache en pierre;&6Une simple hache;&6faite de pierre.;ENCHANTS:DIG_SPEED,1:DURABILITY,2
+      - STICK;4;&7&lBâton en Acajou
+      - BOOK;4;&2&lLivre
+      - GUNPOWDER;32;&7&lPoudre Magique
+      category: outils
+    hache_magique:
+      id: GOLDEN_AXE
+      amount: '1'
+      durability: '0'
+      name: '&3&lHache Magique'
+      lore:
+      - '&7Telepathy I'
+      - '&6Une hache qui'
+      - '&6semble très étrange.'
+      hide-required-items-flags: true
+      enchants:
+      - DIG_SPEED;5
+      - MENDING;1
+      - DURABILITY;8
+      unbreakable: 'false'
+      requires:
+      - PURPLE_DYE;3;&3&lAméthiste Radieuse
+      - GOLDEN_AXE;1
+      - IRON_AXE;1;&2&lHache en fer;&7Telepathy I;&6Une hache plutôt;&6récente.;ENCHANTS:DIG_SPEED,2:DURABILITY,3
+      - STONE_AXE;1;&7&lHache en pierre;&6Une simple hache;&6faite de pierre.;ENCHANTS:DIG_SPEED,1:DURABILITY,2
+      - STICK;2;&2&lBranche d'Acajou
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - BOOK;8;&2&lLivre
+      - GUNPOWDER;64;&7&lPoudre Magique
+      - STRING;6;&2&lCorde tressée
+      - WATER_BUCKET;1;&7&lEau Purifié
+      category: outils
+    la_grande_hacheuse:
+      id: DIAMOND_AXE
+      amount: '1'
+      durability: '0'
+      name: '&c&lLa Grande Hacheuse'
+      lore:
+      - '&7Telepathy I'
+      - '&7Haste III'
+      - '&6Léguée par Odin lui-même.'
+      - '&6Cette hache vous suivra jusqu''a votre mort.'
+      hide-required-items-flags: true
+      enchants:
+      - DIG_SPEED;10
+      - LOOT_BONUS_BLOCKS;5
+      - MENDING;1
+      - DURABILITY;8
+      unbreakable: 'false'
+      requires:
+      - PURPLE_DYE;3;&c&lAméthiste Impaccable
+      - DIAMOND_AXE;1
+      - GOLDEN_AXE;1;&3&lHache Magique;&7Telepathy I;&6Une hache qui;&6semble très
+        étrange.;ENCHANTS:DIG_SPEED,5:MENDING,1:DURABILITY,8
+      - IRON_AXE;1;&2&lHache en fer;&7Telepathy I;&6Une hache plutôt;&6récente.;ENCHANTS:DIG_SPEED,2:DURABILITY,3
+      - STONE_AXE;1;&7&lHache en pierre;&6Une simple hache;&6faite de pierre.;ENCHANTS:DIG_SPEED,1:DURABILITY,2
+      - STICK;4;&2&lBranche d'Acajou
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - WRITABLE_BOOK;1;&c&lLivre pour une création Légendaire
+      - LANTERN;1;&3&lAmpoule de Génie
+      - CHARCOAL;1;&0Ecaille d'un Dragon;&6Une écaille très;&6rare, très utile.
+      - WATER_BUCKET;1;&2&lEau Magique
+      - STRING;16;&2&lCorde tressée
+      - GUNPOWDER;64;&7&lPoudre Magique
+      - BOOK;16;&2&lLivre
+      category: outils
+    pioche_en_pierre:
+      id: STONE_PICKAXE
+      amount: '1'
+      durability: '0'
+      name: '&7&lPioche en pierre'
+      lore:
+      - '&6Une simple pioche'
+      - '&6faite en pierre.'
+      enchants:
+      - DIG_SPEED;1
+      - DURABILITY;2
+      unbreakable: 'false'
+      requires:
+      - REDSTONE;3;&7&lRubis
+      - STONE_PICKAXE;1
+      - STICK;2;&7&lBâton en Chêne Noir
+      - BOOK;2;&2&lLivre
+      - GUNPOWDER;16;&7&lPoudre Magique
+      category: outils
+    pioche_en_fer:
+      id: IRON_PICKAXE
+      amount: '1'
+      durability: '0'
+      name: '&2&lPioche en fer'
+      lore:
+      - '&7Telepathy I'
+      - '&6Une pioche'
+      - '&6plutôt récente.'
+      enchants:
+      - DIG_SPEED;2
+      - DURABILITY;3
+      unbreakable: 'false'
+      requires:
+      - REDSTONE;3;&2&lRubis Poli
+      - IRON_PICKAXE;1
+      - STONE_PICKAXE;1;&7&lPioche en pierre;&6Une simple pioche;&6faite en pierre.;ENCHANTS:DIG_SPEED,1:DURABILITY,2
+      - STICK;4;&7&lBâton en Chêne Noir
+      - BOOK;4;&2&lLivre
+      - GUNPOWDER;32;&7&lPoudre Magique
+      category: outils
+    pioche_magique:
+      id: GOLDEN_PICKAXE
+      amount: '1'
+      durability: '0'
+      name: '&3&lPioche Magique'
+      lore:
+      - '&7Telepathy I'
+      - '&7Haste II'
+      - '&6Une pioche qui'
+      - '&6semble très étrange.'
+      hide-required-items-flags: true
+      enchants:
+      - DIG_SPEED;4
+      - MENDING;1
+      - DURABILITY;7
+      unbreakable: 'false'
+      requires:
+      - REDSTONE;3;&3&lRubis Radieux
+      - GOLDEN_PICKAXE;1
+      - IRON_PICKAXE;1;&2&lPioche en fer;&7Telepathy I;&6Une pioche;&6plutôt récente.;ENCHANTS:DIG_SPEED,2:DURABILITY,3
+      - STONE_PICKAXE;1;&7&lPioche en pierre;&6Une simple pioche;&6faite en pierre.;ENCHANTS:DIG_SPEED,1:DURABILITY,2
+      - STICK;2;&2&lBranche de Chêne Noir
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - BOOK;8;&2&lLivre
+      - GUNPOWDER;64;&7&lPoudre Magique
+      - STRING;6;&2&lCorde tressée
+      - WATER_BUCKET;1;&7&lEau Purifié
+      category: outils
+    la_grande_pioche:
+      id: DIAMOND_PICKAXE
+      amount: '1'
+      durability: '0'
+      name: '&c&lLa Grande Pioche'
+      lore:
+      - '&7Experience III'
+      - '&7Furnace I'
+      - '&7AutoSmelt V'
+      - '&6Léguée par Rhéa elle-même.'
+      - '&6Cette pioche vous suivra jusqu''à votre mort.'
+      hide-required-items-flags: true
+      enchants:
+      - DIG_SPEED;10
+      - LOOT_BONUS_BLOCKS;5
+      - DURABILITY;8
+      unbreakable: 'false'
+      requires:
+      - REDSTONE;3;&c&lRubis Impaccable
+      - DIAMOND_PICKAXE;1
+      - GOLDEN_PICKAXE;1;&3&lPioche Magique;&7Telepathy I;&7Haste II;&6Une pioche
+        qui;&6semble très étrange.;ENCHANTS:DIG_SPEED,4:MENDING,1:DURABILITY,7
+      - IRON_PICKAXE;1;&2&lPioche en fer;&7Telepathy I;&6Une pioche;&6plutôt récente.;ENCHANTS:DIG_SPEED,2:DURABILITY,3
+      - STONE_PICKAXE;1;&7&lPioche en pierre;&6Une simple pioche;&6faite en pierre.;ENCHANTS:DIG_SPEED,1:DURABILITY,2
+      - STICK;4;&2&lBranche de Chêne Noir
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - WRITABLE_BOOK;1;&c&lLivre pour une création Légendaire
+      - LANTERN;1;&3&lAmpoule de Génie
+      - GHAST_TEAR;1;&3&lLarme de Chimère
+      - WATER_BUCKET;1;&2&lEau Magique
+      - STRING;16;&2&lCorde tressée
+      - GUNPOWDER;64;&7&lPoudre Magique
+      - BOOK;16;&2&lLivre
+      category: outils
+    pioche_d'alfred:
+      id: IRON_PICKAXE
+      amount: '1'
+      durability: '0'
+      name: '&ePioche rénovée d''&2Alfred'
+      lore:
+      - '&7Experience I'
+      - '&6Une pioche qui à'
+      - '&6plus de valeur à présent'
+      enchants:
+      - DIG_SPEED;7
+      - DURABILITY;10
+      unbreakable: 'false'
+      requires:
+      - IRON_PICKAXE;1;&ePioche du vieux &2Alfred;&cUne pioche qui a beaucoup de valeur;
+        &csi vous trouvez à qui l'échanger;ENCHANTS:DURABILITY,10
+      - HONEY_BOTTLE;1;&2Miel Saint;&6Un miel très pure;&6à garder précieusement.
+      - ENDER_EYE;1;&1Morceau de Ciel;&3Très utile a;&3garder précieusement
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - CHEST;1
+      category: outils
+    correctionpioche:
+      id: DIAMOND_PICKAXE
+      amount: '1'
+      durability: '0'
+      name: '&c&lLa Grande Pioche'
+      lore:
+      - '&7Experience III'
+      - '&7Furnace I'
+      - '&7AutoSmelt V'
+      - '&6Léguée par Rhéa elle-même.'
+      - '&6Cette pioche vous suivra jusqu''à votre mort.'
+      enchants:
+      - DIG_SPEED;10
+      - LOOT_BONUS_BLOCKS;5
+      - DURABILITY;8
+      unbreakable: 'false'
+      requires:
+      - DIAMOND_PICKAXE;1;&c&lLa Grande Pioche;&7Experience III;&7Blast II;&7Furnace
+        I;&7AutoSmelt V;&6Léguée par Rhéa elle-même.;&6Cette pioche vous suivra jusqu'à
+        votre mort.;ENCHANTS:DIG_SPEED,10:LOOT_BONUS_BLOCKS,5:DURABILITY,8:VANISHING_CURSE,1
+      category: outils
+    petale_impure:
+      id: BLACK_DYE
+      amount: '1'
+      durability: '0'
+      name: '&7&lPétale Impure'
+      lore:
+      - '&6Un morceau de pétale'
+      - '&6tellement sombre,'
+      - '&6qu''il en absorbe la lumière.'
+      unbreakable: 'false'
+      requires:
+      - INK_SAC;5
+      - GUNPOWDER;5;&7&lPoudre Magique
+      - BOOK;1;&2&lLivre
+      - OBSIDIAN;1
+      category: matos
+    petale_pure:
+      id: WHITE_DYE
+      amount: '1'
+      durability: '0'
+      name: '&7&lPétale Pure'
+      lore:
+      - '&6Un morceau de pétale'
+      - '&6d''une couleur blanche éclatante'
+      unbreakable: 'false'
+      requires:
+      - BONE_MEAL;5
+      - GUNPOWDER;5;&7&lPoudre Magique
+      - BOOK;1;&2&lLivre
+      - SMOOTH_QUARTZ;6
+      category: matos
+    chapeau_des_ombres:
+      color: 1908001
+      id: LEATHER_HELMET
+      amount: '1'
+      durability: '0'
+      name: '&2&lChapeau des Ombres'
+      lore:
+      - '&6Une protection adéquat pour'
+      - '&6nager parmis les ténèbres.'
+      enchants:
+      - PROTECTION_ENVIRONMENTAL;1
+      - DURABILITY;1
+      unbreakable: 'false'
+      requires:
+      - BLACK_DYE;5;&7&lPétale Impure;&6Un morceau de pétale;&6tellement sombre,;&6qu'il
+        en absorbe la lumière.
+      - LEATHER;5
+      - STRING;4;&2&lCorde tressée
+      - BONE;6
+      category: armures
+    tunique_des_ombres:
+      color: 1908001
+      id: LEATHER_CHESTPLATE
+      amount: '1'
+      durability: '0'
+      name: '&2&lChemise des Ombres'
+      lore:
+      - '&6Une protection adéquat pour'
+      - '&6nager parmis les ténèbres.'
+      enchants:
+      - PROTECTION_ENVIRONMENTAL;1
+      - DURABILITY;1
+      unbreakable: 'false'
+      requires:
+      - BLACK_DYE;8;&7&lPétale Impure;&6Un morceau de pétale;&6tellement sombre,;&6qu'il
+        en absorbe la lumière.
+      - LEATHER;8
+      - STRING;7;&2&lCorde tressée
+      - BONE;10
+      category: armures
+    pantalon_des_ombres:
+      color: 1908001
+      id: LEATHER_LEGGINGS
+      amount: '1'
+      durability: '0'
+      name: '&2&lPantalon des Ombres'
+      lore:
+      - '&6Une protection adéquat pour'
+      - '&6nager parmis les ténèbres.'
+      enchants:
+      - PROTECTION_ENVIRONMENTAL;1
+      - DURABILITY;1
+      unbreakable: 'false'
+      requires:
+      - BLACK_DYE;7;&7&lPétale Impure;&6Un morceau de pétale;&6tellement sombre,;&6qu'il
+        en absorbe la lumière.
+      - LEATHER;7
+      - STRING;6;&2&lCorde tressée
+      - BONE;7
+      category: armures
+    chaussures_des_ombres:
+      color: 1908001
+      id: LEATHER_BOOTS
+      amount: '1'
+      durability: '0'
+      name: '&2&lChaussures des Ombres'
+      lore:
+      - '&6Une protection adéquat pour'
+      - '&6nager parmis les ténèbres.'
+      enchants:
+      - PROTECTION_ENVIRONMENTAL;1
+      - DURABILITY;1
+      unbreakable: 'false'
+      requires:
+      - BLACK_DYE;4;&7&lPétale Impure;&6Un morceau de pétale;&6tellement sombre,;&6qu'il
+        en absorbe la lumière.
+      - LEATHER;4
+      - STRING;3;&2&lCorde tressée
+      - BONE;11
+      category: armures
+    grimoire_d'absorption:
+      id: BOOK
+      amount: '1'
+      durability: '0'
+      name: '&c&lGrimoire d''Absorption'
+      lore:
+      - ''
+      - '&r&6Utilise la formule de ce livre'
+      - '&r&6pour absorber l''énergie de'
+      - '&r&6l''enchantement de ton choix.'
+      hide-flags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_POTION_EFFECTS
+      unbreakable: 'false'
+      requires:
+      - BOOK;1;&3&lGrimoire vide;&6Un manuscrit sans rien d'écrit;&6dedans, c'est
+        à vous d'écrire;&6ce qu'il doit contenir...
+      - BOOK;4;&2&lLivre
+      - EXPERIENCE_BOTTLE;6
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - GUNPOWDER;10;&7&lPoudre Magique
+      category: consommable
+    couvre_chef_des_lumières:
+      color: 16383998
+      id: LEATHER_HELMET
+      amount: '1'
+      durability: '0'
+      name: '&2&lCouvre-chef des Lumières'
+      lore:
+      - '&6Une protection excellente pour'
+      - '&6nager parmis la lumière.'
+      enchants:
+      - PROTECTION_ENVIRONMENTAL;2
+      unbreakable: 'false'
+      requires:
+      - WHITE_DYE;5;&7&lPétale Pure;&6Un morceau de pétale;&6d'une couleur blanche
+        éclatante
+      - LEATHER;5
+      - STRING;4;&2&lCorde tressée
+      - WATER_BUCKET;1;&7&lEau Purifié
+      category: armures
+    veste_des_lumières:
+      color: 16383998
+      id: LEATHER_CHESTPLATE
+      amount: '1'
+      durability: '0'
+      name: '&2&lVeste des Lumières'
+      lore:
+      - '&6Une protection excellente pour'
+      - '&6nager parmis la lumière.'
+      enchants:
+      - PROTECTION_ENVIRONMENTAL;2
+      unbreakable: 'false'
+      requires:
+      - LEATHER;8
+      - WHITE_DYE;8;&7&lPétale Pure;&6Un morceau de pétale;&6d'une couleur blanche
+        éclatante
+      - STRING;7;&2&lCorde tressée
+      - WATER_BUCKET;1;&7&lEau Purifié
+      category: armures
+    pantalon_des_lumières:
+      color: 16383998
+      id: LEATHER_LEGGINGS
+      amount: '1'
+      durability: '0'
+      name: '&2&lPantalon des Lumières'
+      lore:
+      - '&6Une protection excellente pour'
+      - '&6nager parmis la lumière.'
+      enchants:
+      - PROTECTION_ENVIRONMENTAL;2
+      unbreakable: 'false'
+      requires:
+      - LEATHER;7
+      - WHITE_DYE;7;&7&lPétale Pure;&6Un morceau de pétale;&6d'une couleur blanche
+        éclatante
+      - STRING;6;&2&lCorde tressée
+      - WATER_BUCKET;1;&7&lEau Purifié
+      category: armures
+    chaussures_des_lumières:
+      color: 16383998
+      id: LEATHER_BOOTS
+      amount: '1'
+      durability: '0'
+      name: '&2&lChaussures des Lumières'
+      lore:
+      - '&6Une protection excellente pour'
+      - '&6nager parmis la lumière.'
+      enchants:
+      - PROTECTION_ENVIRONMENTAL;2
+      unbreakable: 'false'
+      requires:
+      - LEATHER;4
+      - WHITE_DYE;4;&7&lPétale Pure;&6Un morceau de pétale;&6d'une couleur blanche
+        éclatante
+      - STRING;3;&2&lCorde tressée
+      - WATER_BUCKET;1;&7&lEau Purifié
+      category: armures
+    fleur_pure:
+      id: LILY_OF_THE_VALLEY
+      amount: '1'
+      durability: '0'
+      name: '&2&lFleur Pure'
+      lore:
+      - '&6Une fleur très rare'
+      - '&6et nécéssaire a certaines recettes.'
+      unbreakable: 'false'
+      requires:
+      - WHITE_DYE;5;&7&lPétale Pure;&6Un morceau de pétale;&6d'une couleur blanche
+        éclatante
+      - GUNPOWDER;10;&7&lPoudre Magique
+      - WATER_BUCKET;1;&7&lEau Purifié
+      category: matos
+    fleur_impure:
+      id: WITHER_ROSE
+      amount: '1'
+      durability: '0'
+      name: '&2&lFleur Impure'
+      lore:
+      - '&6Une fleur très rare'
+      - '&6et nécéssaire a certaines recettes.'
+      unbreakable: 'false'
+      requires:
+      - BLACK_DYE;5;&7&lPétale Impure;&6Un morceau de pétale;&6tellement sombre,;&6qu'il
+        en absorbe la lumière.
+      - GUNPOWDER;10;&7&lPoudre Magique
+      - FLINT;5;&7&lSilex Tranchant
+      - LAVA_BUCKET;1
+      category: matos
+    casque_des_lunes:
+      id: CHAINMAIL_HELMET
+      amount: '1'
+      durability: '0'
+      name: '&3&lCasque des Lunes'
+      lore:
+      - '&7Implants I'
+      - '&6Une armure faite de'
+      - '&6morceaux de lunes.'
+      enchants:
+      - PROTECTION_ENVIRONMENTAL;2
+      - DURABILITY;5
+      unbreakable: 'false'
+      requires:
+      - LEATHER_HELMET;1;&2&lChapeau des Ombres;&6Une protection adéquat pour;&6nager
+        parmis les ténèbres.;ENCHANTS:PROTECTION_ENVIRONMENTAL,1:DURABILITY,1;ARMOR_COLOR:1908001
+      - WITHER_ROSE;1;&2&lFleur Impure;&6Une fleur très rare;&6et nécéssaire a certaines
+        recettes.
+      - GUNPOWDER;15;&7&lPoudre Magique
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - BOOK;5;&2&lLivre
+      - REDSTONE;2;&2&lRubis Poli
+      - REDSTONE_BLOCK;5
+      - FERMENTED_SPIDER_EYE;1;&3&lChair Pourrie;&6Une chair en décomposition.
+      category: armures
+    plastron_des_lunes:
+      id: CHAINMAIL_CHESTPLATE
+      amount: '1'
+      durability: '0'
+      name: '&3&lPlastron des Lunes'
+      lore:
+      - '&7Infestation I'
+      - '&6Une armure faite de'
+      - '&6morceaux de lunes.'
+      enchants:
+      - PROTECTION_ENVIRONMENTAL;2
+      - DURABILITY;5
+      unbreakable: 'false'
+      requires:
+      - LEATHER_CHESTPLATE;1;&2&lChemise des Ombres;&6Une protection adéquat pour;&6nager
+        parmis les ténèbres.;ENCHANTS:PROTECTION_ENVIRONMENTAL,1:DURABILITY,1;ARMOR_COLOR:1908001
+      - WITHER_ROSE;1;&2&lFleur Impure;&6Une fleur très rare;&6et nécéssaire a certaines
+        recettes.
+      - GUNPOWDER;30;&7&lPoudre Magique
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - BOOK;8;&2&lLivre
+      - REDSTONE;6;&2&lRubis Poli
+      - REDSTONE_BLOCK;8
+      category: armures
+    jambières_des_lunes:
+      id: CHAINMAIL_LEGGINGS
+      amount: '1'
+      durability: '0'
+      name: '&3&lJambières des Lunes'
+      lore:
+      - '&7HellForged I'
+      - '&6Une armure faite de'
+      - '&6morceaux de lunes.'
+      enchants:
+      - PROTECTION_ENVIRONMENTAL;2
+      - DURABILITY;5
+      unbreakable: 'false'
+      requires:
+      - LEATHER_LEGGINGS;1;&2&lPantalon des Ombres;&6Une protection adéquat pour;&6nager
+        parmis les ténèbres.;ENCHANTS:PROTECTION_ENVIRONMENTAL,1:DURABILITY,1;ARMOR_COLOR:1908001
+      - WITHER_ROSE;1;&2&lFleur Impure;&6Une fleur très rare;&6et nécéssaire a certaines
+        recettes.
+      - GUNPOWDER;22;&7&lPoudre Magique
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - BOOK;7;&2&lLivre
+      - REDSTONE;4;&2&lRubis Poli
+      - REDSTONE_BLOCK;7
+      - FERMENTED_SPIDER_EYE;1;&3&lChair Pourrie;&6Une chair en décomposition.
+      category: armures
+    bottes_des_lunes:
+      id: CHAINMAIL_BOOTS
+      amount: '1'
+      durability: '0'
+      name: '&3&lBottes des Lunes'
+      lore:
+      - '&7Gears I'
+      - '&6Une armure faite de'
+      - '&6morceaux de lunes.'
+      enchants:
+      - PROTECTION_ENVIRONMENTAL;2
+      - DURABILITY;5
+      unbreakable: 'false'
+      requires:
+      - LEATHER_BOOTS;1;&2&lChaussures des Ombres;&6Une protection adéquat pour;&6nager
+        parmis les ténèbres.;ENCHANTS:PROTECTION_ENVIRONMENTAL,1:DURABILITY,1;ARMOR_COLOR:1908001
+      - WITHER_ROSE;1;&2&lFleur Impure;&6Une fleur très rare;&6et nécéssaire a certaines
+        recettes.
+      - GUNPOWDER;10;&7&lPoudre Magique
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - BOOK;4;&2&lLivre
+      - REDSTONE;3;&2&lRubis Poli
+      - REDSTONE_BLOCK;4
+      category: armures
+    casque_du_soleil:
+      id: GOLDEN_HELMET
+      amount: '1'
+      durability: '0'
+      name: '&3&lCasque du Soleil'
+      lore:
+      - '&7Mermaid I'
+      - '&6Une armure faite de'
+      - '&6rayons de soleil.'
+      enchants:
+      - PROTECTION_ENVIRONMENTAL;3
+      - OXYGEN;1
+      - DURABILITY;7
+      unbreakable: 'false'
+      requires:
+      - LEATHER_HELMET;1;&2&lCouvre-chef des Lumières;&6Une protection excellente
+        pour;&6nager parmis la lumière.;ENCHANTS:PROTECTION_ENVIRONMENTAL,2;ARMOR_COLOR:16383998
+      - LILY_OF_THE_VALLEY;1;&2&lFleur Pure;&6Une fleur très rare;&6et nécéssaire
+        a certaines recettes.
+      - GUNPOWDER;15;&7&lPoudre Magique
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - BOOK;5;&2&lLivre
+      - DIAMOND;2;&2&lDiamant Poli
+      - GLOWSTONE;5
+      category: armures
+    plastron_du_soleil:
+      id: GOLDEN_CHESTPLATE
+      amount: '1'
+      durability: '0'
+      name: '&3&lPlastron du Soleil'
+      lore:
+      - '&7Tamer I'
+      - '&6Une armure faite de'
+      - '&6rayons de soleil.'
+      enchants:
+      - PROTECTION_ENVIRONMENTAL;3
+      - DURABILITY;7
+      unbreakable: 'false'
+      requires:
+      - LEATHER_CHESTPLATE;1;&2&lVeste des Lumières;&6Une protection excellente pour;&6nager
+        parmis la lumière.;ENCHANTS:PROTECTION_ENVIRONMENTAL,2;ARMOR_COLOR:16383998
+      - LILY_OF_THE_VALLEY;1;&2&lFleur Pure;&6Une fleur très rare;&6et nécéssaire
+        a certaines recettes.
+      - GUNPOWDER;30;&7&lPoudre Magique
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - BOOK;8;&2&lLivre
+      - DIAMOND;6;&2&lDiamant Poli
+      - GLOWSTONE;8
+      - GHAST_TEAR;1;&3&lLarme de Joie;&6Une larme remplie de bonheur.
+      category: armures
+    jambieres_du_soleil:
+      id: GOLDEN_LEGGINGS
+      amount: '1'
+      durability: '0'
+      name: '&3&lJambières du Soleil'
+      lore:
+      - '&7HellForged I'
+      - '&6Une armure faite de'
+      - '&6rayons de soleil.'
+      enchants:
+      - PROTECTION_ENVIRONMENTAL;3
+      - DURABILITY;7
+      unbreakable: 'false'
+      requires:
+      - LEATHER_LEGGINGS;1;&2&lPantalon des Lumières;&6Une protection excellente pour;&6nager
+        parmis la lumière.;ENCHANTS:PROTECTION_ENVIRONMENTAL,2;ARMOR_COLOR:16383998
+      - LILY_OF_THE_VALLEY;1;&2&lFleur Pure;&6Une fleur très rare;&6et nécéssaire
+        a certaines recettes.
+      - GUNPOWDER;22;&7&lPoudre Magique
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - BOOK;7;&2&lLivre
+      - DIAMOND;4;&2&lDiamant Poli
+      - GLOWSTONE;7
+      category: armures
+    bottes_du_soleil:
+      id: GOLDEN_BOOTS
+      amount: '1'
+      durability: '0'
+      name: '&3&lBottes du Soleil'
+      lore:
+      - '&7Springs I'
+      - '&6Une armure faite de'
+      - '&6rayons de soleil.'
+      enchants:
+      - PROTECTION_ENVIRONMENTAL;3
+      - DURABILITY;7
+      unbreakable: 'false'
+      requires:
+      - LEATHER_BOOTS;1;&2&lChaussures des Lumières;&6Une protection excellente pour;&6nager
+        parmis la lumière.;ENCHANTS:PROTECTION_ENVIRONMENTAL,2;ARMOR_COLOR:16383998
+      - LILY_OF_THE_VALLEY;1;&2&lFleur Pure;&6Une fleur très rare;&6et nécéssaire
+        a certaines recettes.
+      - GUNPOWDER;10;&7&lPoudre Magique
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - BOOK;4;&2&lLivre
+      - DIAMOND;3;&2&lDiamant Poli
+      - GLOWSTONE;4
+      - GHAST_TEAR;1;&3&lLarme de Joie;&6Une larme remplie de bonheur.
+      category: armures
+    minerais_d'obsidienne:
+      id: BLACK_CONCRETE_POWDER
+      amount: '1'
+      durability: '0'
+      name: '&3&lMinerais d''obsidienne'
+      lore:
+      - '&6Un minerais extrait de'
+      - '&6vieilles mines abandonnées.'
+      unbreakable: 'false'
+      requires:
+      - OBSIDIAN;16
+      - GUNPOWDER;16;&7&lPoudre Magique
+      - BLACK_DYE;1;&7&lPétale Impure;&6Un morceau de pétale;&6tellement sombre,;&6qu'il
+        en absorbe la lumière.
+      category: matos
+    minerais_de_nuages:
+      id: SMOOTH_SANDSTONE
+      amount: '1'
+      durability: '0'
+      name: '&3&lMinerais de nuages'
+      lore:
+      - '&6Un minerais extrait de'
+      - '&6ciels ardents.'
+      unbreakable: 'false'
+      requires:
+      - SNOW_BLOCK;32
+      - BLAZE_POWDER;2
+      - GUNPOWDER;16;&7&lPoudre Magique
+      - WHITE_DYE;1;&7&lPétale Pure;&6Un morceau de pétale;&6d'une couleur blanche
+        éclatante
+      category: matos
+    bouquet_pure:
+      id: HORN_CORAL_FAN
+      amount: '1'
+      durability: '0'
+      name: '&3&lBouquet Pure'
+      lore:
+      - '&6Un bouquet possèdant'
+      - '&6une très vieille magie...'
+      unbreakable: 'false'
+      requires:
+      - WATER_BUCKET;1;&7&lEau Purifié
+      - GUNPOWDER;20;&7&lPoudre Magique
+      - WHITE_DYE;5;&7&lPétale Pure;&6Un morceau de pétale;&6d'une couleur blanche
+        éclatante
+      - LILY_OF_THE_VALLEY;5;&2&lFleur Pure;&6Une fleur très rare;&6et nécéssaire
+        a certaines recettes.
+      category: matos
+    bouquet_impure:
+      id: DEAD_TUBE_CORAL_FAN
+      amount: '1'
+      durability: '0'
+      name: '&3&lBouquet Impure'
+      lore:
+      - '&6Un bouquet possèdant'
+      - '&6une très vieille magie...'
+      unbreakable: 'false'
+      requires:
+      - LAVA_BUCKET;1
+      - FLINT;8;&7&lSilex Tranchant
+      - GUNPOWDER;20;&7&lPoudre Magique
+      - BLACK_DYE;5;&7&lPétale Impure;&6Un morceau de pétale;&6tellement sombre,;&6qu'il
+        en absorbe la lumière.
+      - WITHER_ROSE;6;&2&lFleur Impure;&6Une fleur très rare;&6et nécéssaire a certaines
+        recettes.
+      category: matos
+    miel_pure:
+      id: HONEY_BOTTLE
+      amount: '1'
+      durability: '0'
+      name: '&3&lMiel Pure'
+      lore:
+      - '&6Un miel si pure qu''il est'
+      - '&6difficilement digérable.'
+      unbreakable: 'false'
+      requires:
+      - WATER_BUCKET;1;&7&lEau Purifié
+      - HONEYCOMB;64
+      - GUNPOWDER;6;&7&lPoudre Magique
+      category: matos
+    miel_divin:
+      id: HONEY_BOTTLE
+      amount: '1'
+      durability: '0'
+      name: '&c&lMiel Divin'
+      lore:
+      - '&6Un miel réservé aux'
+      - '&6plus grands...'
+      unbreakable: 'false'
+      requires:
+      - WATER_BUCKET;1;&2&lEau Magique
+      - GUNPOWDER;12;&7&lPoudre Magique
+      - HONEY_BLOCK;32
+      - HONEY_BOTTLE;3;&3&lMiel Pure;&6Un miel si pure qu'il est;&6difficilement digérable.
+      category: matos
+    casque_d'hades:
+      id: IRON_HELMET
+      amount: '1'
+      durability: '0'
+      name: '&c&lCasque d''Hadès'
+      lore:
+      - '&7HellForged III'
+      - '&7Implants II'
+      - '&6Un casque sorti tout droit'
+      - '&6des Enfers.'
+      enchants:
+      - MENDING;1
+      - PROTECTION_ENVIRONMENTAL;10
+      - OXYGEN;3
+      - DURABILITY;7
+      unbreakable: 'false'
+      requires:
+      - CHAINMAIL_HELMET;1;&3&lCasque des Lunes;&7Implants I;&6Une armure faite de;&6morceaux
+        de lunes.;ENCHANTS:PROTECTION_ENVIRONMENTAL,2:DURABILITY,5
+      - LEATHER_HELMET;1;&2&lChapeau des Ombres;&6Une protection adéquat pour;&6nager
+        parmis les ténèbres.;ENCHANTS:PROTECTION_ENVIRONMENTAL,1:DURABILITY,1;ARMOR_COLOR:1908001
+      - DEAD_TUBE_CORAL_FAN;1;&3&lBouquet Impure;&6Un bouquet possèdant;&6une très
+        vieille magie...
+      - COAL_ORE;10
+      - REDSTONE;1;&c&lRubis Impaccable
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - LANTERN;2;&3&lAmpoule de Génie
+      - GHAST_TEAR;1;&3&lLarme de Chimère
+      - SLIME_BLOCK;5
+      - GUNPOWDER;64;&7&lPoudre Magique
+      - WRITABLE_BOOK;1;&c&lLivre pour une création Légendaire
+      category: armures
+    plastron_d'hades:
+      id: IRON_CHESTPLATE
+      amount: '1'
+      durability: '0'
+      name: '&c&lPlastron d''Hadès'
+      lore:
+      - '&7HellForged III'
+      - '&7Infestation II'
+      - '&7Enlightened II'
+      - '&6Un plastron sorti tout droit'
+      - '&6des Enfers.'
+      enchants:
+      - MENDING;1
+      - PROTECTION_ENVIRONMENTAL;10
+      - DURABILITY;7
+      unbreakable: 'false'
+      requires:
+      - CHAINMAIL_CHESTPLATE;1;&3&lPlastron des Lunes;&7Infestation I;&6Une armure
+        faite de;&6morceaux de lunes.;ENCHANTS:PROTECTION_ENVIRONMENTAL,2:DURABILITY,5
+      - LEATHER_CHESTPLATE;1;&2&lChemise des Ombres;&6Une protection adéquat pour;&6nager
+        parmis les ténèbres.;ENCHANTS:PROTECTION_ENVIRONMENTAL,1:DURABILITY,1;ARMOR_COLOR:1908001
+      - DEAD_TUBE_CORAL_FAN;1;&3&lBouquet Impure;&6Un bouquet possèdant;&6une très
+        vieille magie...
+      - COAL_ORE;16
+      - REDSTONE;1;&c&lRubis Impaccable
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - LANTERN;2;&3&lAmpoule de Génie
+      - GHAST_TEAR;1;&3&lLarme de Chimère
+      - FERMENTED_SPIDER_EYE;1;&3&lChair Pourrie;&6Une chair en décomposition.
+      - SLIME_BLOCK;8
+      - GUNPOWDER;64;&7&lPoudre Magique
+      - WRITABLE_BOOK;1;&c&lLivre pour une création Légendaire
+      category: armures
+    jambieres_d'hades:
+      id: IRON_LEGGINGS
+      amount: '1'
+      durability: '0'
+      name: '&c&lJambières d''Hadès'
+      lore:
+      - '&7HellForged III'
+      - '&6Des jambières sorti tout droit'
+      - '&6des Enfers.'
+      enchants:
+      - MENDING;1
+      - PROTECTION_ENVIRONMENTAL;10
+      - THORNS;3
+      - DURABILITY;7
+      unbreakable: 'false'
+      requires:
+      - CHAINMAIL_LEGGINGS;1;&3&lJambières des Lunes;&7HellForged I;&6Une armure faite
+        de;&6morceaux de lunes.;ENCHANTS:PROTECTION_ENVIRONMENTAL,2:DURABILITY,5
+      - LEATHER_LEGGINGS;1;&2&lPantalon des Ombres;&6Une protection adéquat pour;&6nager
+        parmis les ténèbres.;ENCHANTS:PROTECTION_ENVIRONMENTAL,1:DURABILITY,1;ARMOR_COLOR:1908001
+      - DEAD_TUBE_CORAL_FAN;1;&3&lBouquet Impure;&6Un bouquet possèdant;&6une très
+        vieille magie...
+      - COAL_ORE;14
+      - REDSTONE;1;&c&lRubis Impaccable
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - LANTERN;2;&3&lAmpoule de Génie
+      - GHAST_TEAR;1;&3&lLarme de Chimère
+      - SLIME_BLOCK;7
+      - GUNPOWDER;64;&7&lPoudre Magique
+      - WRITABLE_BOOK;1;&c&lLivre pour une création Légendaire
+      category: armures
+    bottes_d'hades:
+      id: IRON_BOOTS
+      amount: '1'
+      durability: '0'
+      name: '&c&lBottes d''Hadès'
+      lore:
+      - '&7Gears III'
+      - '&7HellForged III'
+      - '&6Des bottes sortie tout droit'
+      - '&6des Enfers.'
+      enchants:
+      - DEPTH_STRIDER;5
+      - PROTECTION_FALL;6
+      - FROST_WALKER;2
+      - MENDING;1
+      - PROTECTION_ENVIRONMENTAL;10
+      - DURABILITY;7
+      unbreakable: 'false'
+      requires:
+      - CHAINMAIL_BOOTS;1;&3&lBottes des Lunes;&7Gears I;&6Une armure faite de;&6morceaux
+        de lunes.;ENCHANTS:PROTECTION_ENVIRONMENTAL,2:DURABILITY,5
+      - LEATHER_BOOTS;1;&2&lChaussures des Ombres;&6Une protection adéquat pour;&6nager
+        parmis les ténèbres.;ENCHANTS:PROTECTION_ENVIRONMENTAL,1:DURABILITY,1;ARMOR_COLOR:1908001
+      - DEAD_TUBE_CORAL_FAN;1;&3&lBouquet Impure;&6Un bouquet possèdant;&6une très
+        vieille magie...
+      - COAL_ORE;8
+      - REDSTONE;1;&c&lRubis Impaccable
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - LANTERN;2;&3&lAmpoule de Génie
+      - GHAST_TEAR;1;&3&lLarme de Chimère
+      - SLIME_BLOCK;4
+      - GUNPOWDER;64;&7&lPoudre Magique
+      - WRITABLE_BOOK;1;&c&lLivre pour une création Légendaire
+      category: armures
+    casque_d'apollon:
+      id: DIAMOND_HELMET
+      amount: '1'
+      durability: '0'
+      name: '&c&lCasque d''Apolon'
+      lore:
+      - '&7HellForged II'
+      - '&7Glowing I'
+      - '&6Un casque unique ayant'
+      - '&6appartenu à Apollon'
+      enchants:
+      - MENDING;1
+      - PROTECTION_ENVIRONMENTAL;6
+      - OXYGEN;5
+      - DURABILITY;5
+      unbreakable: 'false'
+      requires:
+      - GOLDEN_HELMET;1;&3&lCasque du Soleil;&7Mermaid I;&6Une armure faite de;&6rayons
+        de soleil.;ENCHANTS:PROTECTION_ENVIRONMENTAL,3:OXYGEN,1:DURABILITY,7
+      - LEATHER_HELMET;1;&2&lCouvre-chef des Lumières;&6Une protection excellente
+        pour;&6nager parmis la lumière.;ENCHANTS:PROTECTION_ENVIRONMENTAL,2;ARMOR_COLOR:16383998
+      - HORN_CORAL_FAN;1;&3&lBouquet Pure;&6Un bouquet possèdant;&6une très vieille
+        magie...
+      - DIAMOND;5
+      - DIAMOND;1;&c&lDiamant Impeccable
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - GHAST_TEAR;2;&3&lLarme de Chimère
+      - LANTERN;1;&3&lAmpoule de Génie
+      - HONEY_BOTTLE;1;&c&lMiel Divin;&6Un miel réservé aux;&6plus grands...
+      - GUNPOWDER;64;&7&lPoudre Magique
+      - WRITABLE_BOOK;1;&c&lLivre pour une création Légendaire
+      - SWEET_BERRIES;5;&2&lBaies Médicinales
+      category: armures
+    plastron_d'apollon:
+      id: DIAMOND_CHESTPLATE
+      amount: '1'
+      durability: '0'
+      name: '&c&lPlastron d''Apollon'
+      lore:
+      - '&7Tamer II'
+      - '&7StormCaller I'
+      - '&7HellForged II'
+      - '&6Un plastron unique ayant'
+      - '&6appartenu à Apollon'
+      enchants:
+      - MENDING;1
+      - PROTECTION_ENVIRONMENTAL;6
+      - DURABILITY;5
+      unbreakable: 'false'
+      requires:
+      - GOLDEN_CHESTPLATE;1;&3&lPlastron du Soleil;&7Tamer I;&6Une armure faite de;&6rayons
+        de soleil.;ENCHANTS:PROTECTION_ENVIRONMENTAL,3:DURABILITY,7
+      - LEATHER_CHESTPLATE;1;&2&lVeste des Lumières;&6Une protection excellente pour;&6nager
+        parmis la lumière.;ENCHANTS:PROTECTION_ENVIRONMENTAL,2;ARMOR_COLOR:16383998
+      - HORN_CORAL_FAN;1;&3&lBouquet Pure;&6Un bouquet possèdant;&6une très vieille
+        magie...
+      - DIAMOND;8
+      - DIAMOND;1;&c&lDiamant Impeccable
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - GHAST_TEAR;2;&3&lLarme de Chimère
+      - LANTERN;1;&3&lAmpoule de Génie
+      - GHAST_TEAR;1;&3&lLarme de Joie;&6Une larme remplie de bonheur.
+      - HONEY_BOTTLE;2;&c&lMiel Divin;&6Un miel réservé aux;&6plus grands...
+      - GUNPOWDER;64;&7&lPoudre Magique
+      - WRITABLE_BOOK;1;&c&lLivre pour une création Légendaire
+      - SWEET_BERRIES;8;&2&lBaies Médicinales
+      category: armures
+    jambieres_d'apollon:
+      id: DIAMOND_LEGGINGS
+      amount: '1'
+      durability: '0'
+      name: '&c&lJambières d''Apollon'
+      lore:
+      - '&7HellForged II'
+      - '&6Des jambières unique ayant'
+      - '&6appartenu à Apollon.'
+      enchants:
+      - MENDING;1
+      - PROTECTION_ENVIRONMENTAL;6
+      - THORNS;3
+      - DURABILITY;5
+      unbreakable: 'false'
+      requires:
+      - GOLDEN_LEGGINGS;1;&3&lJambières du Soleil;&7HellForged I;&6Une armure faite
+        de;&6rayons de soleil.;ENCHANTS:PROTECTION_ENVIRONMENTAL,3:DURABILITY,7
+      - LEATHER_LEGGINGS;1;&2&lPantalon des Lumières;&6Une protection excellente pour;&6nager
+        parmis la lumière.;ENCHANTS:PROTECTION_ENVIRONMENTAL,2;ARMOR_COLOR:16383998
+      - HORN_CORAL_FAN;1;&3&lBouquet Pure;&6Un bouquet possèdant;&6une très vieille
+        magie...
+      - DIAMOND;7
+      - DIAMOND;1;&c&lDiamant Impeccable
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - GHAST_TEAR;2;&3&lLarme de Chimère
+      - LANTERN;1;&3&lAmpoule de Génie
+      - HONEY_BOTTLE;2;&c&lMiel Divin;&6Un miel réservé aux;&6plus grands...
+      - GUNPOWDER;64;&7&lPoudre Magique
+      - WRITABLE_BOOK;1;&c&lLivre pour une création Légendaire
+      - SWEET_BERRIES;7;&2&lBaies Médicinales
+      category: armures
+    bottes_d'apollon:
+      id: DIAMOND_BOOTS
+      amount: '1'
+      durability: '0'
+      name: '&c&lBottes d''Apollon'
+      lore:
+      - '&7Gears I'
+      - '&7HellForged II'
+      - '&7Springs II'
+      - '&6Des bottes unique ayant'
+      - '&6appartenu à Apollon.'
+      enchants:
+      - DEPTH_STRIDER;3
+      - PROTECTION_FALL;5
+      - FROST_WALKER;2
+      - MENDING;1
+      - PROTECTION_ENVIRONMENTAL;6
+      - DURABILITY;5
+      unbreakable: 'false'
+      requires:
+      - GOLDEN_BOOTS;1;&3&lBottes du Soleil;&7Springs I;&6Une armure faite de;&6rayons
+        de soleil.;ENCHANTS:PROTECTION_ENVIRONMENTAL,3:DURABILITY,7
+      - LEATHER_BOOTS;1;&2&lChaussures des Lumières;&6Une protection excellente pour;&6nager
+        parmis la lumière.;ENCHANTS:PROTECTION_ENVIRONMENTAL,2;ARMOR_COLOR:16383998
+      - HORN_CORAL_FAN;1;&3&lBouquet Pure;&6Un bouquet possèdant;&6une très vieille
+        magie...
+      - DIAMOND;4
+      - DIAMOND;1;&c&lDiamant Impeccable
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - GHAST_TEAR;2;&3&lLarme de Chimère
+      - LANTERN;1;&3&lAmpoule de Génie
+      - HONEY_BOTTLE;1;&c&lMiel Divin;&6Un miel réservé aux;&6plus grands...
+      - GUNPOWDER;64;&7&lPoudre Magique
+      - WRITABLE_BOOK;1;&c&lLivre pour une création Légendaire
+      - SWEET_BERRIES;4;&2&lBaies Médicinales
+      category: armures
+  hide-one-time-craftings: 'true'

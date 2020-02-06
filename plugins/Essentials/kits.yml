@@ -1,0 +1,164 @@
+# EssentialsX kit configuration.
+# If you don't have any kits defined in this file, the plugin will try to copy them from the config.yml
+# 
+# Note: All items MUST be followed by a quantity!
+# All kit names should be lower case, and will be treated as lower in permissions/costs.
+# Syntax: - name[:durability] amount [enchantment:level]... [itemmeta:value]...
+# For Item Meta information visit http://wiki.ess3.net/wiki/Item_Meta
+# 'delay' refers to the cooldown between how often you can use each kit, measured in seconds.
+# Set delay to -1 for a one time kit.
+# For more information, visit http://wiki.ess3.net/wiki/Kits
+kits:
+  notch:
+    delay: 6000
+    items:
+    - playerhead 1 player:Notch
+  color:
+    delay: 6000
+    items:
+    - writtenbook 1 title:&4Book_&9o_&6Colors author:KHobbits lore:Ingame_color_codes
+      book:Colors
+  firework:
+    delay: 6000
+    items:
+    - fireworkrocket 1 name:Angry_Creeper color:red fade:green type:creeper power:1
+    - fireworkrocket 1 name:Starry_Night color:yellow,orange fade:blue type:star effect:trail,twinkle
+      power:1
+    - fireworkrocket 2 name:Solar_Wind color:yellow,orange fade:red shape:large effect:twinkle
+      color:yellow,orange fade:red shape:ball effect:trail color:red,purple fade:pink
+      shape:star effect:trail power:1
+  Survivant:
+    delay: 172800
+    items:
+    - written_book 1 title:Tutoriel_/_Informations author:Breakerland book:Informations
+    - stone_sword 1
+    - stone_axe 1
+    - stone_shovel 1
+    - stone_pickaxe 1
+    - iron_hoe 1
+    - leather_helmet 1 color:9607320
+    - leather_chestplate 1 color:9607320
+    - leather_leggings 1 color:9607320
+    - leather_boots 1 color:9607320
+    - bone_meal 32
+    - wheat_seeds 32
+  Aventurier:
+    delay: 172800
+    items:
+    - bread 16
+    - leather_boots 1 protection_environmental:1 color:8336534
+    - leather_leggings 1 protection_environmental:1 color:8336534
+    - leather_chestplate 1 protection_environmental:1 color:8336534
+    - leather_helmet 1 protection_environmental:1 color:8336534
+    - stone_sword 1 durability:1
+    - stone_axe 1 durability:1
+    - stone_pickaxe 1 durability:1
+    - stone_shovel 1 durability:1
+  Baron:
+    delay: 172800
+    items:
+    - iron_pickaxe 1 durability:1 dig_speed:1
+    - dried_kelp 32
+    - iron_axe 1 durability:1 dig_speed:1
+    - iron_shovel 1 durability:1 dig_speed:1
+    - iron_sword 1 durability:1 damage_all:1
+    - leather_boots 1 protection_environmental:2 color:14120622
+    - leather_leggings 1 protection_environmental:2 color:14120622
+    - leather_chestplate 1 protection_environmental:2 color:14120622
+    - leather_helmet 1 protection_environmental:2 color:14120622
+    - experience_bottle 6
+  Duc:
+    delay: 172800
+    items:
+    - experience_bottle 12
+    - cat_spawn_egg 1
+    - dragon_breath 10
+    - enchanted_golden_apple 1
+    - player_head 1 name:Breakerland_! lore:|&7&oLa_Tête_Marche_Pas_:O|_ player:B3
+    - wither_rose 1
+    - cake 1
+  Marquis:
+    delay: 172800
+    items:
+    - experience_bottle 24
+    - parrot_spawn_egg 1
+    - cake 1
+    - enchanted_golden_apple 1
+    - ender_pearl 16
+    - flower_banner_pattern 1
+  Comte:
+    delay: 172800
+    items:
+    - experience_bottle 30
+    - creeper_banner_pattern 1
+    - turtle_egg 1
+    - pumpkin_pie 10
+    - golden_sword 1 lore:&eUn_bon_couteau_! damage_all:8
+  Héro:
+    delay: 172800
+    items:
+    - experience_bottle 30
+    - golden_axe 1 lore:&eUne_bonne_hache_! dig_speed:10
+    - skull_banner_pattern 1
+    - waterbreathing2potion 1
+  Légende:
+    delay: 172800
+    items:
+    - experience_bottle 1 30
+    - golden_pickaxe 1 lore:&eUne_bonne_légende_connais_tout_! dig_speed:10
+    - cookie 64
+  Fantôme:
+    delay: 172800
+    items:
+    - invisibility2potion 1
+    - invisibility2potion 1
+    - phantom_membrane 32
+    - phantom_spawn_egg 1
+  Livres:
+    delay: 172800
+    items:
+    - written_book 1 title:Tutoriel_/_Informations author:Breakerland book:Informations
+  Colorant:
+    delay: 0
+    items:
+    - cyan_dye 16
+    - light_blue_dye 16
+    - yellow_dye 16
+    - red_dye 16
+    - orange_dye 16
+    - lime_dye 16
+    - green_dye 16
+    - brown_dye 32
+    - black_dye 16
+    - shears 1 name:&6Cisailles_du_Soutien lore:&4Merci_pour_votre_soutien. mending:1
+    - white_dye 16
+    - light_gray_dye 16
+    - gray_dye 16
+    - pink_dye 16
+    - magenta_dye 16
+    - purple_dye 16
+    - blue_dye 16
+  premium:
+    delay: 259200
+    items:
+    - experience_bottle 64
+    - fireworkrocket 1 name:Creeper color:red fade:green type:creeper power:1
+    - fireworkrocket 1 name:Etoile color:yellow,orange fade:blue type:star effect:trail,twinkle
+      power:1
+    - fireworkrocket 2 name:Soleil color:yellow,orange fade:red shape:large effect:twinkle
+      color:yellow,orange fade:red shape:ball effect:trail color:red,purple fade:pink
+      shape:star effect:trail power:1
+    - writable_book 1 name:&c&lLivre_pour_une_création_Légendaire
+    - fire_charge 1
+    - chainmail_helmet 1 name:&6&lCasque lore:&4&lUn_équipement_offert|&4&lpar_les_Dieux
+      protection_environmental:5 durability:5
+    - chainmail_chestplate 1 name:&6&lPlastron lore:&4&lUn_équipement_offert|&4&lpar_les_Dieux
+      protection_environmental:5 durability:5
+    - chainmail_leggings 1 name:&6&lJambières lore:&4&lUn_équipement_offert|&4&lpar_les_Dieux
+      protection_environmental:5 durability:5
+    - chainmail_boots 1 name:&6&lBottes lore:&4&lUn_équipement_offert|&4&lpar_les_Dieux
+      protection_environmental:5 durability:5
+    - diamond_sword 1 name:&6&lEpée lore:&7Berserk_I|&4&lUn_équipement_offert|&4&lpar_les_Dieux
+      loot_bonus_mobs:2 damage_all:5 durability:2
+    - ender_pearl 6 name:&6&lPerle lore:&4&lUn_équipement_offert|&4&lpar_les_Dieux
+    - enchanted_golden_apple 2 name:&6&lPomme lore:&4&lUn_équipement_offert|&4&lpar_les_Dieux

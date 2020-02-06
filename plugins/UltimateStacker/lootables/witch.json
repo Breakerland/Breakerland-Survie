@@ -1,0 +1,64 @@
+{
+  "Type": "WITCH",
+  "Loot": [
+    {
+      "Chance": 100.0,
+      "Min": 1,
+      "Max": 1,
+      "Looting": true,
+      "Child Loot Drop Count Min": 1,
+      "Child Loot Drop Count Max": 1,
+      "Child Loot": [
+        {
+          "Type": "GLOWSTONE_DUST",
+          "Chance": 12.5,
+          "Min": 0,
+          "Max": 2,
+          "Looting": true
+        },
+        {
+          "Type": "SUGAR",
+          "Chance": 12.5,
+          "Min": 0,
+          "Max": 2,
+          "Looting": true
+        },
+        {
+          "Type": "REDSTONE",
+          "Chance": 12.5,
+          "Min": 0,
+          "Max": 2,
+          "Looting": true
+        },
+        {
+          "Type": "SPIDER_EYE",
+          "Chance": 12.5,
+          "Min": 0,
+          "Max": 2,
+          "Looting": true
+        },
+        {
+          "Type": "GLASS_BOTTLE",
+          "Chance": 12.5,
+          "Min": 0,
+          "Max": 2,
+          "Looting": true
+        },
+        {
+          "Type": "GUNPOWDER",
+          "Chance": 12.5,
+          "Min": 0,
+          "Max": 2,
+          "Looting": true
+        },
+        {
+          "Type": "STICK",
+          "Chance": 25.0,
+          "Min": 0,
+          "Max": 2,
+          "Looting": true
+        }
+      ]
+    }
+  ]
+}

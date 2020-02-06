@@ -1,0 +1,6 @@
+&6__________________________________________
+&6Bienvenue, &r{PLAYER}&6 sur {SERVER}!
+&6Il y a actuellement {ONLINE}/{MAXPLAYERS} en ligne.
+&6Rejoins notre serveur &9Discord &bhttps://discord.gg/5mtwsGt
+&6Tapes &c/rules&6 pour avoir des informations supplementaires.
+&6__________________________________________

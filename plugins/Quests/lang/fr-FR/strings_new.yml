@@ -1,0 +1,6 @@
+# Below are any new strings for your current version of Quests! Transfer them to the strings.yml of the same folder to stay up-to-date and suppress console warnings.
+stageEditorMilkCows: Pour traire les vaches
+stageEditorCows: vaches
+stageEditorEnterBlockAmounts: Entrez les noms de nombre, <space>, <cancel>
+stageEditorMilkCowsPrompt: Entrez le nombre de vaches à traire, <clear>, <cancel>
+milkCow: Traire la Vache
