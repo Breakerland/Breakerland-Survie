@@ -3,8 +3,10 @@
 
 | Type de message       | Prefix               | Globale  | Important| Exemple                                                                    |
 | :--------------------:|:--------------------:|:--------:|:--------:|:--------------------------------------------------------------------------:|
-| Annonce               | &f[ &6&lANNONCE &f]  | &7       | &e       | &f[ &6&lANNONCE &f] &8Ceci est une annonce avec un message &eimportant &8! |
-| Vote                  | &f[ &6&lVOTE &f]     | &7       | &e       | &f[ &6&lVOTE &f] &ePlayer &8vient de voter et gagne &e64 x cobblestone &8! |
+| Annonce               | &f[ &6&lANNONCE &f]  | &8       | &e       | &f[ &6&lANNONCE &f] &8Ceci est une annonce avec un message &eimportant &8! |
+| Vote                  | &f[ &6&lVOTE &f]     | &8       | &e       | &f[ &6&lVOTE &f] &ePlayer &8vient de voter et gagne &e64 x cobblestone &8! |
+| Action réussie        | none                 | &7       | &e       | &7Téléporation réussie !                                                   |
+| Action refusée        | none                 | &c       | &e       | &cVous ne pouvez construire ici !                                          |
 
 Site de prévisualisation : https://www.thomasvdbulk.nl/minecraft/
 
