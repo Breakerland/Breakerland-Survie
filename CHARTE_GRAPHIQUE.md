@@ -8,7 +8,7 @@
 | Action réussie        | none                 | &7       | &e       | &7Téléporation réussie !                                                   |
 | Action refusée        | none                 | &c       | &e       | &cVous ne pouvez construire ici !                                          |
 | Quête NPC             | &f[ &2&lNPC_NAME &f] | &7       | &e       | &f[ &2&lToryar &f] &7Peux-tu me ramener &e3 sceau d'eau &7pour mes vaches ?|
-| Quête réussie         | &f[ &2&lQUÊTE &f]    | &7       | &e       | &f[ &2&lQUÊTE &f] Peux-tu me ramener &e3 sceau d'eau &7pour mes vaches ?   |
+| Quête réussie         | &f[ &2&lQUÊTE &f]    | &7       | &e       | &f[ &2&lQUÊTE &f] &7Quêtes &eToryar &7réussie ! Tu as gagné &e10 &7points !|
 | Quête refusée         | &f[ &2&lQUÊTE &f]    | &c       | &e       | &f[ &2&lQUÊTE &f] &cIl te faut &e10 &cpoints de quête !                    |
 
 Site de prévisualisation : https://www.thomasvdbulk.nl/minecraft/
