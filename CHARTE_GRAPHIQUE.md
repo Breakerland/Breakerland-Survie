@@ -40,3 +40,10 @@ Site de prévisualisation : https://www.thomasvdbulk.nl/minecraft/
 | Underline         | &n               |
 | *Italic*          | &o               |
 | Reset             | &r               |
+
+Pour les quêtes :
+Mise en forme nom &0[&2Nom NPC&r] : Texte
+Message alerte pré-requis non remplis : &[&cAttention&r] : &cPrè-Requis non remplis, il te faut &rX&c point de quêtes
+
+Autres :
+Nom du plugin quand il s'affiche &6 (/help)
