@@ -1,12 +1,15 @@
 # Charte graphique
 ## Liste des messages
 
-| Type de message       | Prefix               | Globale  | Important| Exemple                                                                    |
+| Type de message       | Prefix               | Global  | Important| Exemple                                                                    |
 | :--------------------:|:--------------------:|:--------:|:--------:|:--------------------------------------------------------------------------:|
 | Annonce               | &f[ &6&lANNONCE &f]  | &8       | &e       | &f[ &6&lANNONCE &f] &8Ceci est une annonce avec un message &eimportant &8! |
 | Vote                  | &f[ &6&lVOTE &f]     | &8       | &e       | &f[ &6&lVOTE &f] &ePlayer &8vient de voter et gagne &e64 x cobblestone &8! |
 | Action réussie        | none                 | &7       | &e       | &7Téléporation réussie !                                                   |
 | Action refusée        | none                 | &c       | &e       | &cVous ne pouvez construire ici !                                          |
+| Quête NPC             | &f[ &2&lNPC_NAME &f] | &7       | &e       | &f[ &2&lToryar &f] &7Peux-tu me ramener &e3 sceau d'eau &7pour mes vaches ?|
+| Quête réussie         | &f[ &2&lQUÊTE &f]    | &7       | &e       | &f[ &2&lQUÊTE &f] Peux-tu me ramener &e3 sceau d'eau &7pour mes vaches ?   |
+| Quête refusée         | &f[ &2&lQUÊTE &f]    | &c       | &e       | &f[ &2&lQUÊTE &f] &cIl te faut &e10 &cpoints de quête !                    |
 
 Site de prévisualisation : https://www.thomasvdbulk.nl/minecraft/
 
@@ -40,10 +43,6 @@ Site de prévisualisation : https://www.thomasvdbulk.nl/minecraft/
 | Underline         | &n               |
 | *Italic*          | &o               |
 | Reset             | &r               |
-
-Pour les quêtes :
-Mise en forme nom &0[&2Nom NPC&r] : Texte
-Message alerte pré-requis non remplis : &[&cAttention&r] : &cPrè-Requis non remplis, il te faut &rX&c point de quêtes
 
 Autres :
 Nom du plugin quand il s'affiche &6 (/help)
