@@ -1,0 +1,125 @@
+{
+  "minNumberOfItems": 3,
+  "maxNumberOfItems": 6,
+  "items": [
+    {
+      "material": "DIAMOND",
+      "minAmount": 1,
+      "maxAmount": 4,
+      "enchantments": [],
+      "probability": 0.1
+    },
+    {
+      "material": "APPLE",
+      "minAmount": 1,
+      "maxAmount": 6,
+      "enchantments": [],
+      "probability": 0.3
+    },
+    {
+      "material": "BREAD",
+      "minAmount": 1,
+      "maxAmount": 4,
+      "enchantments": [],
+      "probability": 0.6
+    },
+    {
+      "material": "CARROTS",
+      "minAmount": 1,
+      "maxAmount": 4,
+      "enchantments": [],
+      "probability": 0.6
+    },
+    {
+      "material": "MELON_SEEDS",
+      "minAmount": 1,
+      "maxAmount": 10,
+      "enchantments": [],
+      "probability": 0.6
+    },
+    {
+      "material": "SALMON",
+      "minAmount": 1,
+      "maxAmount": 4,
+      "enchantments": [],
+      "probability": 0.4
+    },
+    {
+      "material": "GUNPOWDER",
+      "minAmount": 3,
+      "maxAmount": 14,
+      "enchantments": [],
+      "probability": 0.3
+    },
+    {
+      "material": "IRON_INGOT",
+      "minAmount": 3,
+      "maxAmount": 14,
+      "enchantments": [],
+      "probability": 0.3
+    },
+    {
+      "material": "BOW",
+      "minAmount": 1,
+      "maxAmount": 1,
+      "enchantments": [
+        {
+          "enchantment": "flame",
+          "level": 1
+        },
+        {
+          "enchantment": "infinity",
+          "level": 1
+        }
+      ],
+      "probability": 0.05
+    },
+    {
+      "material": "DIAMOND_PICKAXE",
+      "minAmount": 1,
+      "maxAmount": 1,
+      "enchantments": [
+        {
+          "enchantment": "silk_touch",
+          "level": 1
+        }
+      ],
+      "probability": 0.05
+    },
+    {
+      "material": "DIAMOND_SWORD",
+      "minAmount": 1,
+      "maxAmount": 1,
+      "enchantments": [
+        {
+          "enchantment": "knockback",
+          "level": 1
+        },
+        {
+          "enchantment": "looting",
+          "level": 2
+        }
+      ],
+      "probability": 0.03
+    },
+    {
+      "material": "DIAMOND_HELMET",
+      "minAmount": 1,
+      "maxAmount": 1,
+      "enchantments": [
+        {
+          "enchantment": "aqua_affinity",
+          "level": 1
+        }
+      ],
+      "probability": 0.05
+    },
+    {
+      "material": "GOLDEN_APPLE",
+      "minAmount": 1,
+      "maxAmount": 1,
+      "enchantments": [],
+      "probability": 0.001
+    }
+  ]
+}

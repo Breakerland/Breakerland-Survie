@@ -1,0 +1,646 @@
+{
+  "enabled": true,
+  "rarity": 1.0,
+  "biomeType": "DESERT",
+  "useDungeons": true,
+  "dungeonChance": 8,
+  "useMineShafts": true,
+  "useStrongholds": true,
+  "useVillages": true,
+  "useTemples": false,
+  "useNetherFortress": false,
+  "useCaves": true,
+  "useMonuments": false,
+  "useWoodlandMansion": false,
+  "useRavines": true,
+  "useWitchHuts": false,
+  "usePyramids": false,
+  "useJungleTemples": false,
+  "useIgloos": false,
+  "useFossils": false,
+  "useWaterLakes": true,
+  "useLavaLakes": true,
+  "useRivers": true,
+  "useNativePainting": false,
+  "useNativeStructure": false,
+  "useNativeDecorations": false,
+  "biomeColors": [
+    "#e99063",
+    "#ac6843"
+  ],
+  "fossilChance": 64,
+  "lavaLakeChance": 60,
+  "waterLakeChance": 4,
+  "vanillaFeatures": [
+    "UNDERGROUND_DECORATION",
+    "UNDERGROUND_STRUCTURES",
+    "SURFACE_STRUCTURES",
+    "TOP_LAYER_MODIFICATION",
+    "RAW_GENERATION",
+    "VEGETAL_DECORATION",
+    "SURFACE_STRUCTURES",
+    "TOP_LAYER_MODIFICATION"
+  ],
+  "ores": [
+    {
+      "type": "DIRT",
+      "size": 33,
+      "count": 10,
+      "minHeight": 0,
+      "maxHeight": 256
+    },
+    {
+      "type": "GRAVEL",
+      "size": 33,
+      "count": 8,
+      "minHeight": 0,
+      "maxHeight": 256
+    },
+    {
+      "type": "GRANITE",
+      "size": 33,
+      "count": 10,
+      "minHeight": 0,
+      "maxHeight": 80
+    },
+    {
+      "type": "DIORITE",
+      "size": 33,
+      "count": 10,
+      "minHeight": 0,
+      "maxHeight": 80
+    },
+    {
+      "type": "ANDESITE",
+      "size": 33,
+      "count": 10,
+      "minHeight": 0,
+      "maxHeight": 80
+    },
+    {
+      "type": "COAL_ORE",
+      "size": 17,
+      "count": 20,
+      "minHeight": 0,
+      "maxHeight": 128
+    },
+    {
+      "type": "IRON_ORE",
+      "size": 9,
+      "count": 20,
+      "minHeight": 0,
+      "maxHeight": 64
+    },
+    {
+      "type": "GOLD_ORE",
+      "size": 9,
+      "count": 2,
+      "minHeight": 0,
+      "maxHeight": 32
+    },
+    {
+      "type": "REDSTONE_ORE",
+      "size": 8,
+      "count": 8,
+      "minHeight": 0,
+      "maxHeight": 16
+    },
+    {
+      "type": "DIAMOND_ORE",
+      "size": 8,
+      "count": 1,
+      "minHeight": 0,
+      "maxHeight": 16
+    },
+    {
+      "type": "LAPIS_ORE",
+      "size": 7,
+      "count": 1,
+      "minHeight": 0,
+      "maxHeight": 32
+    },
+    {
+      "type": "EMERALD_ORE",
+      "size": 4,
+      "count": 2,
+      "minHeight": 4,
+      "maxHeight": 32
+    }
+  ],
+  "customTerrain": {
+    "noiseLayers": []
+  },
+  "terrainSettings": {
+    "subTerrains": [
+      {
+        "provider": "EWG",
+        "name": "Mesa",
+        "xModifier": 1.0,
+        "yModifier": 1.0,
+        "zModifier": 1.0,
+        "yOffset": 0
+      }
+    ]
+  },
+  "overlaySettings": {
+    "spawnLilyPads": false,
+    "fastLeavesPlacing": true,
+    "spawnCactus": false,
+    "spawnSnowLayers": false,
+    "spawnHangingLeaves": false,
+    "spawnIceOnWater": false,
+    "groundDepth": 3,
+    "surfaceDepth": 40,
+    "surfaceBlocks": [
+      [
+        {
+          "type": "SAND",
+          "data": 1,
+          "heightConditions": [
+            {
+              "minHeight": 80,
+              "maxHeight": 256
+            }
+          ],
+          "inclinationsConditions": [
+            {
+              "minInclination": 0.0,
+              "maxInclination": 0.5
+            }
+          ],
+          "chance": 0.6
+        }
+      ],
+      [
+        {
+          "type": "PINK_TERRACOTTA",
+          "data": 0,
+          "relativeAltitudeConditions": [
+            {
+              "minRelativeHeight": 80,
+              "maxRelativeHeight": 81
+            }
+          ],
+          "chance": 0.8,
+          "probabilityType": "INDEPENDENT"
+        },
+        {
+          "type": "GRAY_TERRACOTTA",
+          "data": 0,
+          "relativeAltitudeConditions": [
+            {
+              "minRelativeHeight": 84,
+              "maxRelativeHeight": 85
+            }
+          ],
+          "chance": 0.8,
+          "probabilityType": "INDEPENDENT"
+        },
+        {
+          "type": "LIGHT_GRAY_TERRACOTTA",
+          "data": 0,
+          "relativeAltitudeConditions": [
+            {
+              "minRelativeHeight": 88,
+              "maxRelativeHeight": 89
+            }
+          ],
+          "chance": 0.8,
+          "probabilityType": "INDEPENDENT"
+        },
+        {
+          "type": "CYAN_TERRACOTTA",
+          "data": 0,
+          "relativeAltitudeConditions": [
+            {
+              "minRelativeHeight": 92,
+              "maxRelativeHeight": 57
+            }
+          ],
+          "chance": 0.8,
+          "probabilityType": "INDEPENDENT"
+        },
+        {
+          "type": "PURPLE_TERRACOTTA",
+          "data": 0,
+          "relativeAltitudeConditions": [
+            {
+              "minRelativeHeight": 96,
+              "maxRelativeHeight": 97
+            }
+          ],
+          "chance": 0.8,
+          "probabilityType": "INDEPENDENT"
+        },
+        {
+          "type": "ORANGE_TERRACOTTA",
+          "data": 0,
+          "relativeAltitudeConditions": [
+            {
+              "minRelativeHeight": 100,
+              "maxRelativeHeight": 101
+            }
+          ],
+          "chance": 0.8,
+          "probabilityType": "INDEPENDENT"
+        },
+        {
+          "type": "BLACK_TERRACOTTA",
+          "data": 0,
+          "relativeAltitudeConditions": [
+            {
+              "minRelativeHeight": 108,
+              "maxRelativeHeight": 109
+            }
+          ],
+          "chance": 0.8,
+          "probabilityType": "INDEPENDENT"
+        },
+        {
+          "type": "YELLOW_TERRACOTTA",
+          "data": 0,
+          "relativeAltitudeConditions": [
+            {
+              "minRelativeHeight": 112,
+              "maxRelativeHeight": 113
+            }
+          ],
+          "chance": 0.8,
+          "probabilityType": "INDEPENDENT"
+        },
+        {
+          "type": "LIGHT_GRAY_TERRACOTTA",
+          "data": 0,
+          "relativeAltitudeConditions": [
+            {
+              "minRelativeHeight": 118,
+              "maxRelativeHeight": 119
+            }
+          ],
+          "chance": 0.8,
+          "probabilityType": "INDEPENDENT"
+        }
+      ],
+      [
+        {
+          "type": "TERRACOTTA",
+          "data": 0,
+          "heightConditions": [
+            {
+              "minHeight": 0,
+              "maxHeight": 80,
+              "domaininationLevelMap": {
+                "0.0": 1.0,
+                "65.0": 0.8,
+                "70.0": 0.5,
+                "75.0": 0.25,
+                "80.0": 0.05
+              }
+            }
+          ],
+          "chance": 1.0
+        }
+      ],
+      [
+        {
+          "type": "ORANGE_TERRACOTTA",
+          "data": 0,
+          "relativeAltitudeConditions": [
+            {
+              "minRelativeHeight": 40,
+              "maxRelativeHeight": 256
+            }
+          ],
+          "chance": 0.7
+        },
+        {
+          "type": "TERRACOTTA",
+          "data": 0,
+          "relativeAltitudeConditions": [
+            {
+              "minRelativeHeight": 40,
+              "maxRelativeHeight": 256
+            }
+          ],
+          "chance": 0.3
+        }
+      ],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        {
+          "type": "ORANGE_TERRACOTTA",
+          "data": 0,
+          "chance": 1.0
+        }
+      ]
+    ],
+    "oceanBlocks": [],
+    "groundBlocks": [
+      [],
+      [],
+      [],
+      [],
+      [
+        {
+          "type": "SANDSTONE",
+          "data": 0,
+          "chance": 1.0
+        }
+      ]
+    ],
+    "beachBlocks": [
+      [
+        {
+          "type": "DIRT",
+          "data": 0,
+          "chance": 1.0
+        }
+      ]
+    ],
+    "pathBlocks": [],
+    "farmlandBlocks": [],
+    "slabBlocks": [
+      [
+        {
+          "type": "AIR",
+          "data": 1,
+          "heightConditions": [
+            {
+              "minHeight": 90,
+              "maxHeight": 256
+            }
+          ],
+          "chance": 1.0
+        }
+      ]
+    ],
+    "stairBlocks": [
+      [],
+      [],
+      [],
+      [],
+      [
+        {
+          "type": "RED_SANDSTONE_STAIRS",
+          "data": 0,
+          "chance": 1.0
+        }
+      ]
+    ],
+    "plantBlocks": [],
+    "riverBlocks": []
+  },
+  "customTrees": [
+    {
+      "name": "TREES_dead_big",
+      "density": 6.666666666666667E-5,
+      "size": "MEDIUM",
+      "provider": "EWG",
+      "type": "TREES",
+      "blocksRequiredUnderneath": [
+        "SAND",
+        "ORANGE_TERRACOTTA",
+        "RED_SANDSTONE_SLAB"
+      ],
+      "blacklistedDecoBlocks": [],
+      "chestConfig": "default.json",
+      "spawnUnderWater": false,
+      "spawnOnGround": true,
+      "overrideExsistingBlocks": false,
+      "allowRotation": true,
+      "applyPhysics": false,
+      "applyAir": false,
+      "fixFlyingRoots": true,
+      "replaceAir": true,
+      "minY": 50,
+      "maxY": 86,
+      "maxSlope": 0.7,
+      "minSlope": 0.0,
+      "transitionClearance": -1.0,
+      "snapToXGrid": -1,
+      "snapToYGrid": -1,
+      "gridXOffset": 0,
+      "gridYOffset": 0,
+      "anchorYOffset": 0
+    },
+    {
+      "name": "TREES_dead_medium",
+      "density": 6.666666666666667E-5,
+      "size": "MEDIUM",
+      "provider": "EWG",
+      "type": "TREES",
+      "blocksRequiredUnderneath": [
+        "SAND",
+        "ORANGE_TERRACOTTA",
+        "RED_SANDSTONE_SLAB"
+      ],
+      "blacklistedDecoBlocks": [],
+      "chestConfig": "default.json",
+      "spawnUnderWater": false,
+      "spawnOnGround": true,
+      "overrideExsistingBlocks": false,
+      "allowRotation": true,
+      "applyPhysics": false,
+      "applyAir": false,
+      "fixFlyingRoots": true,
+      "replaceAir": true,
+      "minY": 50,
+      "maxY": 86,
+      "maxSlope": 0.7,
+      "minSlope": 0.0,
+      "transitionClearance": -1.0,
+      "snapToXGrid": -1,
+      "snapToYGrid": -1,
+      "gridXOffset": 0,
+      "gridYOffset": 0,
+      "anchorYOffset": 0
+    },
+    {
+      "name": "TREES_dead_huge",
+      "density": 6.666666666666667E-5,
+      "size": "MEDIUM",
+      "provider": "EWG",
+      "type": "TREES",
+      "blocksRequiredUnderneath": [
+        "SAND",
+        "ORANGE_TERRACOTTA",
+        "RED_SANDSTONE_SLAB"
+      ],
+      "blacklistedDecoBlocks": [],
+      "chestConfig": "default.json",
+      "spawnUnderWater": false,
+      "spawnOnGround": true,
+      "overrideExsistingBlocks": false,
+      "allowRotation": true,
+      "applyPhysics": false,
+      "applyAir": false,
+      "fixFlyingRoots": true,
+      "replaceAir": true,
+      "minY": 50,
+      "maxY": 86,
+      "maxSlope": 0.7,
+      "minSlope": 0.0,
+      "transitionClearance": -1.0,
+      "snapToXGrid": -1,
+      "snapToYGrid": -1,
+      "gridXOffset": 0,
+      "gridYOffset": 0,
+      "anchorYOffset": 0
+    },
+    {
+      "name": "TREES_dead_normal",
+      "density": 6.666666666666667E-5,
+      "size": "MEDIUM",
+      "provider": "EWG",
+      "type": "TREES",
+      "blocksRequiredUnderneath": [
+        "SAND",
+        "ORANGE_TERRACOTTA",
+        "RED_SANDSTONE_SLAB"
+      ],
+      "blacklistedDecoBlocks": [],
+      "chestConfig": "default.json",
+      "spawnUnderWater": false,
+      "spawnOnGround": true,
+      "overrideExsistingBlocks": false,
+      "allowRotation": true,
+      "applyPhysics": false,
+      "applyAir": false,
+      "fixFlyingRoots": true,
+      "replaceAir": true,
+      "minY": 50,
+      "maxY": 86,
+      "maxSlope": 0.7,
+      "minSlope": 0.0,
+      "transitionClearance": -1.0,
+      "snapToXGrid": -1,
+      "snapToYGrid": -1,
+      "gridXOffset": 0,
+      "gridYOffset": 0,
+      "anchorYOffset": 0
+    },
+    {
+      "name": "TREES_dead_medium_2",
+      "density": 6.666666666666667E-5,
+      "size": "MEDIUM",
+      "provider": "EWG",
+      "type": "TREES",
+      "blocksRequiredUnderneath": [
+        "SAND",
+        "ORANGE_TERRACOTTA",
+        "RED_SANDSTONE_SLAB"
+      ],
+      "blacklistedDecoBlocks": [],
+      "chestConfig": "default.json",
+      "spawnUnderWater": false,
+      "spawnOnGround": true,
+      "overrideExsistingBlocks": false,
+      "allowRotation": true,
+      "applyPhysics": false,
+      "applyAir": false,
+      "fixFlyingRoots": true,
+      "replaceAir": true,
+      "minY": 50,
+      "maxY": 86,
+      "maxSlope": 0.7,
+      "minSlope": 0.0,
+      "transitionClearance": -1.0,
+      "snapToXGrid": -1,
+      "snapToYGrid": -1,
+      "gridXOffset": 0,
+      "gridYOffset": 0,
+      "anchorYOffset": 0
+    },
+    {
+      "name": "TREES_dead_normal_2",
+      "density": 6.666666666666667E-5,
+      "size": "MEDIUM",
+      "provider": "EWG",
+      "type": "TREES",
+      "blocksRequiredUnderneath": [
+        "SAND",
+        "ORANGE_TERRACOTTA",
+        "RED_SANDSTONE_SLAB"
+      ],
+      "blacklistedDecoBlocks": [],
+      "chestConfig": "default.json",
+      "spawnUnderWater": false,
+      "spawnOnGround": true,
+      "overrideExsistingBlocks": false,
+      "allowRotation": true,
+      "applyPhysics": false,
+      "applyAir": false,
+      "fixFlyingRoots": true,
+      "replaceAir": true,
+      "minY": 50,
+      "maxY": 86,
+      "maxSlope": 0.7,
+      "minSlope": 0.0,
+      "transitionClearance": -1.0,
+      "snapToXGrid": -1,
+      "snapToYGrid": -1,
+      "gridXOffset": 0,
+      "gridYOffset": 0,
+      "anchorYOffset": 0
+    }
+  ],
+  "customStructures": [],
+  "maxEWGObjectsPerChunk": 4,
+  "xNoiseModifier": 1.2,
+  "yNoiseModifier": 0.7,
+  "zNoiseModifier": 1.2,
+  "lakeDepth": 0.0,
+  "baseHeight": 67,
+  "nativeBiomes": [
+    {
+      "nativeBiome": "BADLANDS",
+      "chance": 1.0
+    }
+  ],
+  "groundBlockSettings": {
+    "layers": [
+      {
+        "maxAmplitude": 10,
+        "minAmplitude": 5,
+        "xScale": 30,
+        "zScale": 30,
+        "minWidth": 4,
+        "maxWidth": 5,
+        "groundMaterials": [
+          {
+            "material": "DIRT",
+            "data": 0,
+            "chance": 1.0
+          }
+        ]
+      },
+      {
+        "maxAmplitude": 10,
+        "minAmplitude": 5,
+        "xScale": 30,
+        "zScale": 30,
+        "minWidth": 13,
+        "maxWidth": 14,
+        "groundMaterials": [
+          {
+            "material": "COBBLESTONE",
+            "data": 0,
+            "chance": 1.0
+          }
+        ]
+      }
+    ],
+    "repeat": true
+  },
+  "groundMaterials": [
+    {
+      "material": "STONE",
+      "data": 0,
+      "chance": 1.0
+    }
+  ]
+}
