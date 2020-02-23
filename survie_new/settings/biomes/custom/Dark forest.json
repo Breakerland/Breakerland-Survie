@@ -1,9 +1,9 @@
 {
   "enabled": true,
-  "rarity": 0.4,
-  "biomeType": "FOREST",
+  "rarity": 1.0,
+  "biomeType": "GRASSLAND",
   "useDungeons": true,
-  "dungeonChance": 10,
+  "dungeonChance": 8,
   "useMineShafts": true,
   "useStrongholds": true,
   "useVillages": true,
@@ -11,24 +11,25 @@
   "useNetherFortress": false,
   "useCaves": true,
   "useMonuments": true,
-  "useWoodlandMansion": false,
+  "useWoodlandMansion": true,
   "useRavines": true,
   "useWitchHuts": false,
   "usePyramids": false,
   "useJungleTemples": false,
   "useIgloos": false,
-  "useFossils": true,
+  "useFossils": false,
   "useWaterLakes": true,
-  "useLavaLakes": true,
-  "useRivers": true,
+  "useLavaLakes": false,
+  "useRivers": false,
   "useNativePainting": false,
   "useNativeStructure": false,
   "useNativeDecorations": false,
+  "nativeBiome": "DARK_FOREST_HILLS",
   "biomeColors": [
-    "#B200FF"
+    "#261100"
   ],
   "fossilChance": 64,
-  "lavaLakeChance": 30,
+  "lavaLakeChance": 70,
   "waterLakeChance": 4,
   "vanillaFeatures": [
     "UNDERGROUND_DECORATION",
@@ -39,7 +40,7 @@
   ],
   "ores": [
     {
-      "type": "BLUE_CONCRETE_POWDER",
+      "type": "DIRT",
       "size": 33,
       "count": 10,
       "minHeight": 0,
@@ -67,7 +68,7 @@
       "maxHeight": 80
     },
     {
-      "type": "LIGHT_BLUE_CONCRETE_POWDER",
+      "type": "ANDESITE",
       "size": 33,
       "count": 10,
       "minHeight": 0,
@@ -104,16 +105,23 @@
     {
       "type": "DIAMOND_ORE",
       "size": 8,
-      "count": 3,
+      "count": 1,
       "minHeight": 0,
-      "maxHeight": 40
+      "maxHeight": 16
     },
     {
       "type": "LAPIS_ORE",
       "size": 7,
-      "count": 4,
+      "count": 1,
       "minHeight": 0,
-      "maxHeight": 80
+      "maxHeight": 32
+    },
+    {
+      "type": "EMERALD_ORE",
+      "size": 4,
+      "count": 2,
+      "minHeight": 4,
+      "maxHeight": 32
     }
   ],
   "customTerrain": {
@@ -122,11 +130,11 @@
   "terrainSettings": {
     "subTerrains": [
       {
-        "provider": "EWG",
-        "name": "Tropical Forest",
-        "xModifier": 4.0,
-        "yModifier": 15.0,
-        "zModifier": 4.0,
+        "provider": "MINECRAFT",
+        "name": "DARK_FOREST_HILLS",
+        "xModifier": 1.0,
+        "yModifier": 1.0,
+        "zModifier": 1.0,
         "yOffset": 0
       }
     ]
@@ -138,8 +146,8 @@
     "spawnSnowLayers": false,
     "spawnHangingLeaves": false,
     "spawnIceOnWater": false,
-    "groundDepth": 15,
-    "surfaceDepth": 3,
+    "groundDepth": 10,
+    "surfaceDepth": 1,
     "surfaceBlocks": [
       [
         {
@@ -178,7 +186,7 @@
           "chance": 0.3
         },
         {
-          "type": "CYAN_CONCRETE_POWDER",
+          "type": "STONE",
           "data": 5,
           "inclinationsConditions": [
             {
@@ -191,41 +199,9 @@
       ],
       [
         {
-          "type": "ANDESITE",
-          "data": 0,
-          "chance": 0.1
-        },
-        {
           "type": "GRASS_BLOCK",
           "data": 0,
-          "chance": 0.2
-        },
-        {
-          "type": "CYAN_CONCRETE_POWDER",
-          "data": 0,
-          "chance": 0.3
-        },
-        {
-          "type": "PRISMARINE",
-          "data": 0,
-          "heightConditions": [
-            {
-              "minHeight": 64,
-              "maxHeight": 255
-            }
-          ],
-          "chance": 0.5
-        },
-        {
-          "type": "SAND",
-          "data": 0,
-          "heightConditions": [
-            {
-              "minHeight": 0,
-              "maxHeight": 64
-            }
-          ],
-          "chance": 0.8
+          "chance": 1.0
         }
       ]
     ],
@@ -281,42 +257,15 @@
       ],
       [
         {
-          "type": "PRISMARINE",
+          "type": "DIRT",
           "data": 0,
-          "chance": 0.6
-        },
-        {
-          "type": "ANDESITE",
-          "data": 0,
-          "chance": 0.4
+          "chance": 1.0
         }
       ]
     ],
     "beachBlocks": [
       [
         {
-          "type": "SAND",
-          "data": 0,
-          "heightConditions": [
-            {
-              "minHeight": 0,
-              "maxHeight": 70
-            }
-          ],
-          "chance": 0.8
-        },
-        {
-          "type": "ANDESITE",
-          "data": 0,
-          "heightConditions": [
-            {
-              "minHeight": 0,
-              "maxHeight": 70
-            }
-          ],
-          "chance": 0.2
-        },
-        {
           "type": "DIRT",
           "data": 0,
           "heightConditions": [
@@ -325,124 +274,14 @@
               "maxHeight": 70
             }
           ],
-          "chance": 0.2
-        }
-      ]
-    ],
-    "pathBlocks": [
-      [
-        {
-          "type": "DIRT",
-          "data": 0,
-          "chance": 0.5
-        },
-        {
-          "type": "DIRT",
-          "data": 2,
-          "chance": 0.5
-        }
-      ]
-    ],
-    "farmlandBlocks": [
-      [
-        {
-          "type": "WHEAT",
-          "data": 0,
-          "chance": 1.0
-        }
-      ],
-      [
-        {
-          "type": "WHEAT",
-          "data": 0,
-          "chance": 1.0
-        }
-      ],
-      [
-        {
-          "type": "WHEAT",
-          "data": 0,
-          "chance": 1.0
-        }
-      ],
-      [
-        {
-          "type": "CARROTS",
-          "data": 1,
-          "chance": 1.0
-        }
-      ],
-      [
-        {
-          "type": "WHEAT",
-          "data": 0,
-          "chance": 1.0
-        }
-      ],
-      [
-        {
-          "type": "WHEAT",
-          "data": 0,
-          "chance": 1.0
-        }
-      ],
-      [
-        {
-          "type": "MELON_STEM",
-          "data": 4,
-          "chance": 1.0
-        }
-      ],
-      [
-        {
-          "type": "POTATOES",
-          "data": 6,
-          "chance": 1.0
-        }
-      ],
-      [
-        {
-          "type": "MELON_STEM",
-          "data": 3,
-          "chance": 1.0
-        }
-      ],
-      [
-        {
-          "type": "GRASS_BLOCK",
-          "data": 0,
-          "chance": 0.4
-        },
-        {
-          "type": "DIRT",
-          "data": 2,
-          "chance": 0.3
-        },
-        {
-          "type": "COBBLESTONE",
-          "data": 0,
-          "chance": 0.3
-        }
-      ]
-    ],
-    "slabBlocks": [
-      [
-        {
-          "type": "PRISMARINE_SLAB",
-          "data": 0,
           "chance": 1.0
         }
       ]
     ],
-    "stairBlocks": [
-      [
-        {
-          "type": "PRISMARINE_STAIRS",
-          "data": 0,
-          "chance": 1.0
-        }
-      ]
-    ],
+    "pathBlocks": [],
+    "farmlandBlocks": [],
+    "slabBlocks": [],
+    "stairBlocks": [],
     "plantBlocks": [
       [
         {
@@ -465,7 +304,18 @@
               "maxInclination": 1.7
             }
           ],
-          "chance": 0.25
+          "chance": 0.4
+        },
+        {
+          "type": "SUNFLOWER",
+          "data": 0,
+          "inclinationsConditions": [
+            {
+              "minInclination": 0.0,
+              "maxInclination": 1.7
+            }
+          ],
+          "chance": 0.001
         },
         {
           "type": "LILAC",
@@ -487,7 +337,7 @@
               "maxInclination": 1.7
             }
           ],
-          "chance": 0.001
+          "chance": 0.15
         },
         {
           "type": "LARGE_FERN",
@@ -637,30 +487,40 @@
           "chance": 1.0
         }
       ]
-    ]
+    ],
+    "leavesBlock": {
+      "type": "OAK_LEAVES",
+      "data": 0,
+      "inclinationsConditions": [
+        {
+          "minInclination": 0.44999998807907104,
+          "maxInclination": 0.6000000238418579
+        }
+      ],
+      "chance": 0.0
+    }
   },
   "customTrees": [
     {
-      "name": "CUSTOM_BOX_Tree_Gray_normal01",
-      "density": 7.0E-5,
+      "name": "TREES_tropicalForest_medium_1",
+      "density": 0.002,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "TREES",
       "blocksRequiredUnderneath": [
-        "PRISMARINE",
-        "CYAN_CONCRETE_POWDER"
+        "GRASS_BLOCK"
       ],
       "blacklistedDecoBlocks": [],
       "chestConfig": "default.json",
       "spawnUnderWater": false,
       "spawnOnGround": true,
-      "overrideExsistingBlocks": true,
+      "overrideExsistingBlocks": false,
       "allowRotation": true,
       "applyPhysics": false,
       "applyAir": false,
       "fixFlyingRoots": true,
       "replaceAir": true,
-      "minY": 40,
+      "minY": 62,
       "maxY": 113,
       "maxSlope": 0.7,
       "minSlope": 0.0,
@@ -672,26 +532,25 @@
       "anchorYOffset": 0
     },
     {
-      "name": "CUSTOM_BOX_Tree_Gray_normal02",
-      "density": 7.0E-4,
+      "name": "TREES_tropicalForest_medium_2",
+      "density": 0.002,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "TREES",
       "blocksRequiredUnderneath": [
-        "PRISMARINE",
-        "CYAN_CONCRETE_POWDER"
+        "GRASS_BLOCK"
       ],
       "blacklistedDecoBlocks": [],
       "chestConfig": "default.json",
       "spawnUnderWater": false,
       "spawnOnGround": true,
-      "overrideExsistingBlocks": true,
+      "overrideExsistingBlocks": false,
       "allowRotation": true,
       "applyPhysics": false,
       "applyAir": false,
       "fixFlyingRoots": true,
       "replaceAir": true,
-      "minY": 40,
+      "minY": 62,
       "maxY": 113,
       "maxSlope": 0.7,
       "minSlope": 0.0,
@@ -703,26 +562,25 @@
       "anchorYOffset": 0
     },
     {
-      "name": "CUSTOM_BOX_Tree_Purple_normal01",
-      "density": 7.0E-4,
+      "name": "TREES_tropicalForest_medium_3",
+      "density": 0.002,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "TREES",
       "blocksRequiredUnderneath": [
-        "PRISMARINE",
-        "CYAN_CONCRETE_POWDER"
+        "GRASS_BLOCK"
       ],
       "blacklistedDecoBlocks": [],
       "chestConfig": "default.json",
       "spawnUnderWater": false,
       "spawnOnGround": true,
-      "overrideExsistingBlocks": true,
+      "overrideExsistingBlocks": false,
       "allowRotation": true,
       "applyPhysics": false,
       "applyAir": false,
       "fixFlyingRoots": true,
       "replaceAir": true,
-      "minY": 40,
+      "minY": 62,
       "maxY": 113,
       "maxSlope": 0.7,
       "minSlope": 0.0,
@@ -734,90 +592,25 @@
       "anchorYOffset": 0
     },
     {
-      "name": "CUSTOM_BOX_Tree_Purple_normal02",
-      "density": 7.0E-4,
+      "name": "CUSTOM_BOX_Tree_Brownmushroom_Normal_01",
+      "density": 6.0E-4,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "TREES",
       "blocksRequiredUnderneath": [
-        "PRISMARINE",
-        "CYAN_CONCRETE_POWDER"
+        "GRASS_BLOCK"
       ],
       "blacklistedDecoBlocks": [],
       "chestConfig": "default.json",
       "spawnUnderWater": false,
       "spawnOnGround": true,
-      "overrideExsistingBlocks": true,
-      "allowRotation": true,
-      "applyPhysics": false,
-      "applyAir": false,
-      "fixFlyingRoots": true,
-      "replaceAir": true,
-      "minY": 40,
-      "maxY": 113,
-      "maxSlope": 0.7,
-      "minSlope": 0.0,
-      "transitionClearance": -1.0,
-      "snapToXGrid": -1,
-      "snapToYGrid": -1,
-      "gridXOffset": 0,
-      "gridYOffset": 0,
-      "anchorYOffset": 0
-    },
-    {
-      "name": "CUSTOM_BOX_Tree_Purple_normal03",
-      "density": 7.0E-4,
-      "size": "MEDIUM",
-      "provider": "EWG",
-      "type": "TREES",
-      "blocksRequiredUnderneath": [
-        "PRISMARINE",
-        "CYAN_CONCRETE_POWDER"
-      ],
-      "blacklistedDecoBlocks": [],
-      "chestConfig": "default.json",
-      "spawnUnderWater": false,
-      "spawnOnGround": true,
-      "overrideExsistingBlocks": true,
-      "allowRotation": true,
-      "applyPhysics": false,
-      "applyAir": false,
-      "fixFlyingRoots": true,
-      "replaceAir": true,
-      "minY": 40,
-      "maxY": 113,
-      "maxSlope": 0.7,
-      "minSlope": 0.0,
-      "transitionClearance": -1.0,
-      "snapToXGrid": -1,
-      "snapToYGrid": -1,
-      "gridXOffset": 0,
-      "gridYOffset": 0,
-      "anchorYOffset": 0
-    }
-  ],
-  "customStructures": [
-    {
-      "name": "CUSTOM_BOX_DECO_Lamp",
-      "density": 2.0E-4,
-      "size": "MEDIUM",
-      "provider": "EWG",
-      "type": "TREES",
-      "blocksRequiredUnderneath": [
-        "PRISMARINE",
-        "CYAN_CONCRETE_POWDER"
-      ],
-      "blacklistedDecoBlocks": [],
-      "chestConfig": "default.json",
-      "spawnUnderWater": false,
-      "spawnOnGround": true,
-      "overrideExsistingBlocks": true,
+      "overrideExsistingBlocks": false,
       "allowRotation": false,
       "applyPhysics": false,
       "applyAir": false,
       "fixFlyingRoots": true,
       "replaceAir": true,
-      "minY": 40,
+      "minY": 62,
       "maxY": 113,
       "maxSlope": 0.7,
       "minSlope": 0.0,
@@ -829,57 +622,25 @@
       "anchorYOffset": 0
     },
     {
-      "name": "CUSTOM_BOX_DECO_Cobblestonepiller",
-      "density": 5.0E-4,
-      "size": "MEDIUM",
-      "provider": "EWG",
-      "type": "TREES",
-      "blocksRequiredUnderneath": [
-        "PRISMARINE",
-        "CYAN_CONCRETE_POWDER"
-      ],
-      "blacklistedDecoBlocks": [],
-      "chestConfig": "default.json",
-      "spawnUnderWater": false,
-      "spawnOnGround": true,
-      "overrideExsistingBlocks": true,
-      "allowRotation": true,
-      "applyPhysics": false,
-      "applyAir": false,
-      "fixFlyingRoots": true,
-      "replaceAir": true,
-      "minY": 40,
-      "maxY": 113,
-      "maxSlope": 0.7,
-      "minSlope": 0.0,
-      "transitionClearance": -1.0,
-      "snapToXGrid": -1,
-      "snapToYGrid": -1,
-      "gridXOffset": 0,
-      "gridYOffset": 0,
-      "anchorYOffset": 0
-    },
-    {
-      "name": "CUSTOM_BOX_DECO_Cobblestonepiller02",
+      "name": "CUSTOM_BOX_Tree_Brownmushroom_Big_01",
       "density": 2.0E-4,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "TREES",
       "blocksRequiredUnderneath": [
-        "PRISMARINE",
-        "CYAN_CONCRETE_POWDER"
+        "GRASS_BLOCK"
       ],
       "blacklistedDecoBlocks": [],
       "chestConfig": "default.json",
       "spawnUnderWater": false,
       "spawnOnGround": true,
-      "overrideExsistingBlocks": true,
-      "allowRotation": true,
+      "overrideExsistingBlocks": false,
+      "allowRotation": false,
       "applyPhysics": false,
       "applyAir": false,
       "fixFlyingRoots": true,
       "replaceAir": true,
-      "minY": 40,
+      "minY": 62,
       "maxY": 113,
       "maxSlope": 0.7,
       "minSlope": 0.0,
@@ -891,57 +652,55 @@
       "anchorYOffset": 0
     },
     {
-      "name": "CUSTOM_BOX_DECO_Cobblestonepiller03",
+      "name": "CUSTOM_BOX_Tree_Redmushroom_Normal_01",
+      "density": 6.0E-4,
+      "size": "MEDIUM",
+      "provider": "EWG",
+      "type": "TREES",
+      "blocksRequiredUnderneath": [
+        "GRASS_BLOCK"
+      ],
+      "blacklistedDecoBlocks": [],
+      "chestConfig": "default.json",
+      "spawnUnderWater": false,
+      "spawnOnGround": true,
+      "overrideExsistingBlocks": false,
+      "allowRotation": false,
+      "applyPhysics": false,
+      "applyAir": false,
+      "fixFlyingRoots": true,
+      "replaceAir": true,
+      "minY": 62,
+      "maxY": 113,
+      "maxSlope": 0.7,
+      "minSlope": 0.0,
+      "transitionClearance": -1.0,
+      "snapToXGrid": -1,
+      "snapToYGrid": -1,
+      "gridXOffset": 0,
+      "gridYOffset": 0,
+      "anchorYOffset": 0
+    },
+    {
+      "name": "CUSTOM_BOX_Tree_Redmushroom_Big01",
       "density": 2.0E-4,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "TREES",
       "blocksRequiredUnderneath": [
-        "PRISMARINE",
-        "CYAN_CONCRETE_POWDER"
+        "GRASS_BLOCK"
       ],
       "blacklistedDecoBlocks": [],
       "chestConfig": "default.json",
       "spawnUnderWater": false,
       "spawnOnGround": true,
-      "overrideExsistingBlocks": true,
-      "allowRotation": true,
+      "overrideExsistingBlocks": false,
+      "allowRotation": false,
       "applyPhysics": false,
       "applyAir": false,
       "fixFlyingRoots": true,
       "replaceAir": true,
-      "minY": 40,
-      "maxY": 113,
-      "maxSlope": 0.7,
-      "minSlope": 0.0,
-      "transitionClearance": -1.0,
-      "snapToXGrid": -1,
-      "snapToYGrid": -1,
-      "gridXOffset": 0,
-      "gridYOffset": 0,
-      "anchorYOffset": 0
-    },
-    {
-      "name": "CUSTOM_BOX_DECO_Cobblestonebuilding01",
-      "density": 1.0E-5,
-      "size": "MEDIUM",
-      "provider": "EWG",
-      "type": "TREES",
-      "blocksRequiredUnderneath": [
-        "PRISMARINE",
-        "CYAN_CONCRETE_POWDER"
-      ],
-      "blacklistedDecoBlocks": [],
-      "chestConfig": "default.json",
-      "spawnUnderWater": false,
-      "spawnOnGround": true,
-      "overrideExsistingBlocks": true,
-      "allowRotation": true,
-      "applyPhysics": false,
-      "applyAir": false,
-      "fixFlyingRoots": true,
-      "replaceAir": true,
-      "minY": 40,
+      "minY": 62,
       "maxY": 113,
       "maxSlope": 0.7,
       "minSlope": 0.0,
@@ -953,6 +712,7 @@
       "anchorYOffset": 0
     }
   ],
+  "customStructures": [],
   "maxEWGObjectsPerChunk": 4,
   "xNoiseModifier": 1.2,
   "yNoiseModifier": 0.7,
@@ -961,8 +721,12 @@
   "baseHeight": 67,
   "nativeBiomes": [
     {
-      "nativeBiome": "THE_END",
-      "chance": 1.0
+      "nativeBiome": "DARK_FOREST_HILLS",
+      "chance": 0.7
+    },
+    {
+      "nativeBiome": "DARK_FOREST",
+      "chance": 0.4
     }
   ],
   "groundBlockSettings": {
