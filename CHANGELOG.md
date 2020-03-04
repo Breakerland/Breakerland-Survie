@@ -1,5 +1,10 @@
 # Changelog Breakerland
 
+## V6.02 - 4 mars
+
+ - Modification du système de warp
+ - Modification de pleins d'autres chose qui n'ont pas était noté et du coup je peux pas les mettres, vive mes pauses
+
 ## V6.01 - 6 février
 
  - Augmentation des gains du mineur
