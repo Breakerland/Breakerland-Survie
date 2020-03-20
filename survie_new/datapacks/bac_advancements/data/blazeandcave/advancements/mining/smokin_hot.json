@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:smoker"
+        },
+        "title": {"translate":"Smokin' Hot"},
+        "description": {"translate":"Upgrade your furnace to a smoker using some logs"}
+    },
+    "parent": "blazeandcave:mining/renewable_energy",
+	"rewards": {
+		"function": "bc_rewards:mining/smokin_hot"
+    },		
+    "criteria": {
+        "smoker": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:smoker"
+                    }
+                ]
+            }
+        }
+    }
+}

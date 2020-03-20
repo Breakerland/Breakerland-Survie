@@ -1,0 +1,51 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:jungle_sapling"
+        },
+        "title": {"translate":"Ecologist"},
+        "description": {"translate":"Plant down all six types of sapling"}
+    },
+    "parent": "blazeandcave:farming/bapple",
+	"rewards": {
+		"function": "bc_rewards:farming/ecologist"
+    },
+    "criteria": {
+        "oak_sapling": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:oak_sapling"
+            }
+        },
+        "spruce_sapling": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:spruce_sapling"
+            }
+        },
+        "birch_sapling": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:birch_sapling"
+            }
+        },
+        "jungle_sapling": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:jungle_sapling"
+            }
+        },
+        "acacia_sapling": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:acacia_sapling"
+            }
+        },
+        "dark_oak_sapling": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:dark_oak_sapling"
+            }
+        }
+    }
+}

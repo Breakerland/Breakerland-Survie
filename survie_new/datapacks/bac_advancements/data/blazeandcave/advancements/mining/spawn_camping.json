@@ -1,0 +1,36 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ender_eye"
+        },
+        "title": {"translate":"Spawn Camping"},
+        "description": {"translate":"Travel close to 0,0 coordinates and place down a campfire"},
+		"frame": "challenge",
+		"hidden": "true"
+    },
+    "parent": "blazeandcave:mining/camping_out",
+	"rewards": {
+		"function": "bc_rewards:mining/spawn_camping",
+		"experience": 50
+    },		
+    "criteria": {
+        "campfire": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:campfire",
+				"location": {
+					"position": {
+						"x": {
+							"max": 10,
+							"min": -10
+						},
+						"z": {
+							"max": 10,
+							"min": -10
+						}
+					}
+				}
+            }
+        }
+    }
+}

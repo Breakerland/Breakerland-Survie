@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:phantom_spawn_egg"
+        },
+        "title": {"translate":"Phantom Slayer"},
+        "description": {"translate":"Collect a stack of phantom membranes"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:combat/ricochet_swoop",
+    "rewards": {
+		"experience": 50,
+		"function": "bc_rewards:combat/phantom_slayer"
+    },		
+    "criteria": {
+        "phantom_membrane": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:phantom_membrane",
+						"count": 64
+                    }
+                ]
+            }
+        }		
+    }	
+}

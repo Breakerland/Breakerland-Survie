@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:furnace_minecart"
+        },
+        "title": {"translate":"I Like Trains"},
+        "description": {"translate":"Ride 10km in a minecart"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:statistics/minecart_rider",
+	"rewards": {
+		"experience": 200,
+		"function": "bc_rewards:statistics/i_like_trains"
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

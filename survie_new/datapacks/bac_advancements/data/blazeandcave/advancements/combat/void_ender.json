@@ -1,0 +1,52 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ender_pearl"
+        },
+        "title": {"translate":"Void Ender"},
+        "description": {"translate":"Defeat all kinds of End mobs"},
+        "frame": "goal"
+    },
+    "parent": "blazeandcave:combat/hell_hunter",
+    "rewards": {
+        "experience": 50,
+		"function": "bc_rewards:combat/void_ender"
+    },	
+    "criteria": {
+        "enderman": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "enderman",
+                    "location": {
+                        "dimension": "the_end"
+                    }
+                }
+            }
+        },
+        "endermite": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "endermite"
+                }
+            }
+        },
+        "shulker": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "shulker"
+                }
+            }
+        },
+        "ender_dragon": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "ender_dragon"
+                }
+            }
+        }
+    }
+}

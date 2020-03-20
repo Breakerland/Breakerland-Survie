@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:grass_block"
+        },
+        "title": {"translate":"Marathon"},
+        "description": {"translate":"Sprint 42km"}
+    },
+    "parent": "blazeandcave:statistics/root",
+	"rewards": {
+		"experience": 50,
+		"function": "bc_rewards:statistics/marathon"
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

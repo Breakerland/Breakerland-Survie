@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:trident"
+        },
+        "title": {"translate":"Mushroom Scientist"},
+        "description": {"translate":"Strike a mooshroom with lightning and see what happens"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:animal/super_mooshroom",
+    "rewards": {
+        "function": "bc_rewards:animal/mushroom_scientist",
+		"experience": 100
+    },
+	"criteria": {
+		"struck_villager": {
+			"trigger": "minecraft:channeled_lightning",
+			"conditions": {
+				"victims": [
+						{
+						"type": "minecraft:mooshroom"
+					}
+				]
+			}
+		}
+	}
+}

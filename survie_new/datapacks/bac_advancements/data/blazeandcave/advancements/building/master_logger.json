@@ -1,0 +1,82 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:birch_log"
+        },
+        "title": {"translate":"Master Logger"},
+        "description": {"translate":"Cut down a full stack of logs of all types"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:building/stripper",
+    "rewards": {
+        "function": "bc_rewards:building/master_logger"
+    },		
+    "criteria": {
+        "oak_log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:oak_log",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "spruce_log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:spruce_log",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "birch_log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:birch_log",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "jungle_log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:jungle_log",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "acacia_log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:acacia_log",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "dark_oak_log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dark_oak_log",
+						"count": 64
+                    }
+                ]
+            }
+        }
+	}		
+}

@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ghast_tear"
+        },
+        "title": {"translate":"Hyper-Healing"},
+        "description": {"translate":"Brew and drink a regeneration potion"}
+    },
+    "parent": "blazeandcave:potion/i_need_healing",
+	"rewards": {
+		"function": "bc_rewards:potion/hyper_healing"
+    },	
+    "criteria": {
+        "regeneration": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:regeneration": {}
+                }
+            }
+        }
+    }
+}

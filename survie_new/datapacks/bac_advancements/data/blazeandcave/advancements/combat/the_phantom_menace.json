@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:phantom_membrane"
+        },
+        "title": {"translate":"The Phantom Menace"},
+        "description": {"translate":"Get attacked by phantoms"}
+    },
+    "parent": "minecraft:adventure/kill_a_mob",
+    "rewards": {
+        "function": "bc_rewards:combat/the_phantom_menace"
+    },		
+    "criteria": {
+        "phantom": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+						"type": "phantom"
+					}
+                }
+            }
+        }
+    }
+}

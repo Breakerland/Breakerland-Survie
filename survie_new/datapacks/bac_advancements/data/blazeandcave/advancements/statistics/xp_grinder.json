@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:lapis_block",
+			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+        },
+        "title": {"translate":"XP Grinder"},
+        "description": {"translate":"Reach 1000 experience levels"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:statistics/overlevelling",
+	"rewards": {
+		"experience": 500,
+		"function": "bc_rewards:statistics/xp_grinder"
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

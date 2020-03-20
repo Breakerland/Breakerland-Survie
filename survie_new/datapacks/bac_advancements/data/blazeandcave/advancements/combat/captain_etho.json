@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:trident"
+        },
+        "title": {"translate":"Captain Etho"},
+        "description": {"translate":"Defeat a Drowned holding both a nautilus shell and a trident"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:combat/mollusc_man",
+    "rewards": {
+        "function": "bc_rewards:combat/captain_etho",
+		"experience": 50
+    },		
+    "criteria": {
+        "drowned": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "drowned",
+					"nbt": "{HandItems:[{id:\"minecraft:trident\",Count:1b},{id:\"minecraft:nautilus_shell\",Count:1b}]}"
+                }
+            }
+        }
+    }
+}

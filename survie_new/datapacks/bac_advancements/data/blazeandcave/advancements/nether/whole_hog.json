@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather"
+        },
+        "title": {"translate":"Whole Hog"},
+        "description": {"translate":"Get mauled by a Hoglin"},
+		"hidden": "true"
+    },
+    "parent": "blazeandcave:nether/when_hoglins_breed",
+    "rewards": {
+        "function": "bc_rewards:nether/whole_hog"
+    },		
+    "criteria": {
+        "hoglin": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "hoglin"
+                }
+            }
+        }
+    }
+}

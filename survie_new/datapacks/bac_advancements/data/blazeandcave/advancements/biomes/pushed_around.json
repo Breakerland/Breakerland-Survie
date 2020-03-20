@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:magma_block"
+        },
+        "title": {"translate":"Pushed Around"},
+        "description": {"translate":"Enter a bubble column"}
+    },
+    "parent": "blazeandcave:biomes/dolphin_dasher",
+	"rewards": {
+		"function": "bc_rewards:biomes/pushed_around"
+    },
+    "criteria": {
+        "enter_water": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:bubble_column"
+            }
+        }
+    }
+}

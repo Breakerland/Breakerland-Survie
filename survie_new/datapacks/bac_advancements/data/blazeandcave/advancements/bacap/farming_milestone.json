@@ -1,0 +1,155 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:hay_block"
+        },
+        "title": {"translate":"Farming Milestone"},
+        "description": {"translate":"Complete every advancement in the Farming tab"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:bacap/building_milestone",
+	"rewards": {
+		"experience": 500,
+		"function": "bc_rewards:bacap/farming_milestone"
+    },		
+    "criteria": {
+        "24_carrot_gold": {
+            "trigger": "minecraft:impossible"
+        },
+        "a_balanced_diet": {
+            "trigger": "minecraft:impossible"
+        },
+		"a_seedy_place": {
+            "trigger": "minecraft:impossible"
+        },
+		"an_amazing_story": {
+            "trigger": "minecraft:impossible"
+        },
+		"aquatic_biofuel": {
+            "trigger": "minecraft:impossible"
+        },
+		"bake_bread": {
+            "trigger": "minecraft:impossible"
+        },
+		"bapple": {
+            "trigger": "minecraft:impossible"
+        },
+		"berry_nice": {
+            "trigger": "minecraft:impossible"
+        },
+		"scientific_inaccuracy": {
+            "trigger": "minecraft:impossible"
+        },
+		"care_for_the_environment": {
+            "trigger": "minecraft:impossible"
+        },
+		"castaway": {
+            "trigger": "minecraft:impossible"
+        },
+		"die_potato": {
+            "trigger": "minecraft:impossible"
+        },
+		"disen_berry_berry_bad": {
+            "trigger": "minecraft:impossible"
+        },
+		"do_you_want_to_build_a_snowman": {
+            "trigger": "minecraft:impossible"
+        },
+		"ecologist": {
+            "trigger": "minecraft:impossible"
+        },
+		"full_stomach": {
+            "trigger": "minecraft:impossible"
+        },
+		"hay_there": {
+            "trigger": "minecraft:impossible"
+        },
+		"im_gonna_be_sick": {
+            "trigger": "minecraft:impossible"
+        },
+		"its_a_cactus": {
+            "trigger": "minecraft:impossible"
+        },
+		"its_full_of_ink": {
+            "trigger": "minecraft:impossible"
+        },
+		"its_where_nutella_comes_from": {
+            "trigger": "minecraft:impossible"
+        },
+		"kelp_me": {
+            "trigger": "minecraft:impossible"
+        },
+		"me_love_cookie": {
+            "trigger": "minecraft:impossible"
+        },
+		"meat_lovers": {
+            "trigger": "minecraft:impossible"
+        },
+		"mega_mushroom": {
+            "trigger": "minecraft:impossible"
+        },
+		"mushroom_mushroom_mushroom_mushroom": {
+            "trigger": "minecraft:impossible"
+        },
+		"must_be_your_birthday": {
+            "trigger": "minecraft:impossible"
+        },
+		"naturally_carved": {
+            "trigger": "minecraft:impossible"
+        },
+		"not_today": {
+            "trigger": "minecraft:impossible"
+        },
+		"pumpa_kungen": {
+            "trigger": "minecraft:impossible"
+        },
+		"root": {
+            "trigger": "minecraft:impossible"
+        },
+		"serious_dedication": {
+            "trigger": "minecraft:impossible"
+        },
+		"shrooms": {
+            "trigger": "minecraft:impossible"
+        },
+		"souperman": {
+            "trigger": "minecraft:impossible"
+        },
+		"spikey": {
+            "trigger": "minecraft:impossible"
+        },
+		"sugar_sugar": {
+            "trigger": "minecraft:impossible"
+        },
+		"suspicious_looking_stew": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_garbage_will_do": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_lie": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_melon_the_melon_the_melon": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_meloncholy_dane": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_pie": {
+            "trigger": "minecraft:impossible"
+        },
+		"ultra_hardcore": {
+            "trigger": "minecraft:impossible"
+        },
+		"undersea_gardener": {
+            "trigger": "minecraft:impossible"
+        },
+		"vegetarian": {
+            "trigger": "minecraft:impossible"
+        },
+		"write_your_thoughts": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

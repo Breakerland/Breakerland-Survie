@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:heart_of_the_sea"
+        },
+        "title": {"translate":"Hearts of the Stack"},
+        "description": {"translate":"Collect 64 Hearts of the Sea"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:challenges/root",
+	"rewards": {
+		"experience": 200,
+		"function": "bc_rewards:challenges/abyss_lord"
+    },		
+    "criteria": {
+        "heart_of_the_sea": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:heart_of_the_sea",
+						"count": 64
+                    }
+                ]
+            }
+        }
+    }
+}

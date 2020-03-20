@@ -1,0 +1,169 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:porkchop"
+        },
+        "title": {"translate":"Meat Lovers"},
+        "description": {"translate":"Eat every type of meat, even if uncooked or rotten"},
+        "frame": "goal"
+    },
+    "parent": "blazeandcave:farming/vegetarian",
+    "rewards": {
+        "experience": 50,
+		"function": "bc_rewards:farming/meat_lovers"
+    },		
+    "criteria": {
+        "porkchop": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:porkchop"
+                }
+            }
+        },
+        "cooked_porkchop": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:cooked_porkchop"
+                }
+            }
+        },
+        "raw_cod": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:cod"
+                }
+            }
+        },
+        "raw_salmon": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:salmon"
+                }
+            }
+        },
+        "tropical_fish": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:tropical_fish"
+                }
+            }
+        },
+        "pufferfish": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:pufferfish"
+                }
+            }
+        },
+        "cooked_cod": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:cooked_cod"
+                }
+            }
+        },
+        "cooked_salmon": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:cooked_salmon"
+                }
+            }
+        },
+        "beef": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:beef"
+                }
+            }
+        },
+        "cooked_beef": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:cooked_beef"
+                }
+            }
+        },
+        "chicken": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:chicken"
+                }
+            }
+        },
+        "cooked_chicken": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:cooked_chicken"
+                }
+            }
+        },
+        "rotten_flesh": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:rotten_flesh"
+                }
+            }
+        },
+        "spider_eye": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:spider_eye"
+                }
+            }
+        },
+        "rabbit": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:rabbit"
+                }
+            }
+        },
+        "cooked_rabbit": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:cooked_rabbit"
+                }
+            }
+        },
+        "rabbit_stew": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:rabbit_stew"
+                }
+            }
+        },
+        "mutton": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:mutton"
+                }
+            }
+        },
+        "cooked_mutton": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:cooked_mutton"
+                }
+            }
+        }
+    }
+}

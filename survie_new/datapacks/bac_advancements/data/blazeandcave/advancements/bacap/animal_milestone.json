@@ -1,0 +1,269 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:beef"
+        },
+        "title": {"translate":"Animal Milestone"},
+        "description": {"translate":"Complete every advancement in the Animal tab"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:bacap/farming_milestone",
+	"rewards": {
+		"experience": 500,
+		"function": "bc_rewards:bacap/animal_milestone"
+    },		
+    "criteria": {
+        "a_horse_in_shining_armor": {
+            "trigger": "minecraft:impossible"
+        },
+        "aquarium": {
+            "trigger": "minecraft:impossible"
+        },
+		"are_we_there_yet": {
+            "trigger": "minecraft:impossible"
+        },
+		"artificial_selection": {
+            "trigger": "minecraft:impossible"
+        },
+		"bacon": {
+            "trigger": "minecraft:impossible"
+        },
+		"bee_our_guest": {
+            "trigger": "minecraft:impossible"
+        },
+		"birdkeeper": {
+            "trigger": "minecraft:impossible"
+        },
+		"blistering_barnacles": {
+            "trigger": "minecraft:impossible"
+        },
+		"bunny_lover": {
+            "trigger": "minecraft:impossible"
+        },
+		"catching_nemo": {
+            "trigger": "minecraft:impossible"
+        },
+		"chatterbox": {
+            "trigger": "minecraft:impossible"
+        },
+		"chicken_cooper": {
+            "trigger": "minecraft:impossible"
+        },
+		"colorful_cavalry": {
+            "trigger": "minecraft:impossible"
+        },
+		"cool_kids": {
+            "trigger": "minecraft:impossible"
+        },
+		"cow_tipper": {
+            "trigger": "minecraft:impossible"
+        },
+		"cowboy": {
+            "trigger": "minecraft:impossible"
+        },
+		"direct_fishing": {
+            "trigger": "minecraft:impossible"
+        },
+		"foal_play": {
+            "trigger": "minecraft:impossible"
+        },
+		"fashion_statement": {
+            "trigger": "minecraft:impossible"
+        },
+		"feeding_the_chickens": {
+            "trigger": "minecraft:impossible"
+        },
+		"feeling_sheepish": {
+            "trigger": "minecraft:impossible"
+        },
+		"fishy_business": {
+            "trigger": "minecraft:impossible"
+        },
+		"fuzzy_feet": {
+            "trigger": "minecraft:impossible"
+        },
+		"getting_into_a_stew": {
+            "trigger": "minecraft:impossible"
+        },
+		"grinding_nemo": {
+            "trigger": "minecraft:impossible"
+        },
+		"have_a_shearful_day": {
+            "trigger": "minecraft:impossible"
+        },
+		"hey_look_mom": {
+            "trigger": "minecraft:impossible"
+        },
+		"high_steaks": {
+            "trigger": "minecraft:impossible"
+        },
+		"hive_mind": {
+            "trigger": "minecraft:impossible"
+        },
+		"honey_im_home": {
+            "trigger": "minecraft:impossible"
+        },
+		"horse_armorer": {
+            "trigger": "minecraft:impossible"
+        },
+		"in_a_hole_there_lived_a_rabbit": {
+            "trigger": "minecraft:impossible"
+        },
+		"leader_of_the_pack": {
+            "trigger": "minecraft:impossible"
+        },
+		"llama_llama_duck_king": {
+            "trigger": "minecraft:impossible"
+        },
+		"lucky_charm": {
+            "trigger": "minecraft:impossible"
+        },
+		"mary_had_a_little_lamb": {
+            "trigger": "minecraft:impossible"
+        },
+		"master_angler": {
+            "trigger": "minecraft:impossible"
+        },
+		"master_farrier": {
+            "trigger": "minecraft:impossible"
+        },
+		"milk_does_your_body_good": {
+            "trigger": "minecraft:impossible"
+        },
+		"mooshroom_kingdom": {
+            "trigger": "minecraft:impossible"
+        },
+		"mushroom_scientist": {
+            "trigger": "minecraft:impossible"
+        },
+		"not_the_bees": {
+            "trigger": "minecraft:impossible"
+        },
+		"overpopulation": {
+            "trigger": "minecraft:impossible"
+        },
+		"pig_slaughterer": {
+            "trigger": "minecraft:impossible"
+        },
+		"poacher": {
+            "trigger": "minecraft:impossible"
+        },
+		"pork_chop": {
+            "trigger": "minecraft:impossible"
+        },
+		"puppies_yipe": {
+            "trigger": "minecraft:impossible"
+        },
+		"rabbit_season": {
+            "trigger": "minecraft:impossible"
+        },
+		"rainbow_collection": {
+            "trigger": "minecraft:impossible"
+        },
+		"repopulation": {
+            "trigger": "minecraft:impossible"
+        },
+		"root": {
+            "trigger": "minecraft:impossible"
+        },
+		"salmonella_poisoning": {
+            "trigger": "minecraft:impossible"
+        },
+		"scuttler": {
+            "trigger": "minecraft:impossible"
+        },
+		"sheariously": {
+            "trigger": "minecraft:impossible"
+        },
+		"shoe_shed": {
+            "trigger": "minecraft:impossible"
+        },
+		"snow_fox_64": {
+            "trigger": "minecraft:impossible"
+        },
+		"so_good": {
+            "trigger": "minecraft:impossible"
+        },
+		"so_i_got_that_going_for_me": {
+            "trigger": "minecraft:impossible"
+        },
+		"someones_been_here_before": {
+            "trigger": "minecraft:impossible"
+        },
+		"stay_calmer": {
+            "trigger": "minecraft:impossible"
+        },
+		"sticky_situation": {
+            "trigger": "minecraft:impossible"
+        },
+		"super_mooshroom": {
+            "trigger": "minecraft:impossible"
+        },
+		"sushi": {
+            "trigger": "minecraft:impossible"
+        },
+		"tactical_fishing": {
+            "trigger": "minecraft:impossible"
+        },
+		"theyre_breeding_like_rabbits": {
+            "trigger": "minecraft:impossible"
+        },
+		"tickle_time": {
+            "trigger": "minecraft:impossible"
+        },
+		"total_beelocation": {
+            "trigger": "minecraft:impossible"
+        },
+		"totally_not_an_afk_fisher": {
+            "trigger": "minecraft:impossible"
+        },
+		"treasure_hunter": {
+            "trigger": "minecraft:impossible"
+        },
+		"trimming_the_treetops": {
+            "trigger": "minecraft:impossible"
+        },
+		"tropical_collection": {
+            "trigger": "minecraft:impossible"
+        },
+		"true_cow_tipper": {
+            "trigger": "minecraft:impossible"
+        },
+		"turtle_army": {
+            "trigger": "minecraft:impossible"
+        },
+		"turtle_soldier": {
+            "trigger": "minecraft:impossible"
+        },
+		"what_a_piece_of_junk": {
+            "trigger": "minecraft:impossible"
+        },
+		"what_does_the_fox_say": {
+            "trigger": "minecraft:impossible"
+        },
+		"when_pigs_used_to_fly": {
+            "trigger": "minecraft:impossible"
+        },
+		"wheres_the_honey_lebowski": {
+            "trigger": "minecraft:impossible"
+        },
+		"which_came_first": {
+            "trigger": "minecraft:impossible"
+        },
+		"winnie_the_pooh": {
+            "trigger": "minecraft:impossible"
+        },
+		"wooly": {
+            "trigger": "minecraft:impossible"
+        },
+		"ya_like_jazz": {
+            "trigger": "minecraft:impossible"
+        },
+		"yay_deadbush": {
+            "trigger": "minecraft:impossible"
+        },
+		"you_lead_ill_follow": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

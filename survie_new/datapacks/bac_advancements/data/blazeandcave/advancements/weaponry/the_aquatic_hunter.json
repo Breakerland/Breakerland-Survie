@@ -1,0 +1,143 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:prismarine_shard"
+        },
+        "title": {"translate":"The Aquatic Hunter"},
+        "description": {"translate":"Hunt all types of aquatic creatures with your trident"},
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:weaponry/king_of_the_sea",
+    "rewards": {
+        "experience": 100,
+        "function": "bc_rewards:weaponry/the_aquatic_hunter"
+    },	
+    "criteria": {
+        "guardian": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:trident"
+                        }
+                },
+                "entity": {
+                    "type": "guardian"
+                }
+            }
+        },	
+        "squid": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:trident"
+                        }
+                },
+                "entity": {
+                    "type": "squid"
+                }
+            }
+        },
+        "turtle": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:trident"
+                        }
+                },
+                "entity": {
+                    "type": "turtle"
+                }
+            }
+        },
+        "dolphin": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:trident"
+                        }
+                },
+                "entity": {
+                    "type": "dolphin"
+                }
+            }
+        },
+        "cod_mob": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:trident"
+                        }
+                },
+                "entity": {
+                    "type": "cod"
+                }
+            }
+        },
+        "salmon_mob": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:trident"
+                        }
+                },
+                "entity": {
+                    "type": "salmon"
+                }
+            }
+        },
+        "pufferfish": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:trident"
+                        }
+                },
+                "entity": {
+                    "type": "pufferfish"
+                }
+            }
+        },
+        "tropical_fish": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:trident"
+                        }
+                },
+                "entity": {
+                    "type": "tropical_fish"
+                }
+            }
+        },
+        "drowned": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:trident"
+                        }
+                },
+                "entity": {
+                    "type": "drowned"
+                }
+            }
+        }		
+    }
+}

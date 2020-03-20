@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cake"
+        },
+        "title": {"translate":"Happy Birthday!"},
+        "description": {"translate":"Play for a whole year!"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:statistics/passing_the_time",
+	"rewards": {
+		"experience": 500,
+		"function": "bc_rewards:statistics/happy_birthday"
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

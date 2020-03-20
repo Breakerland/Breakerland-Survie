@@ -1,0 +1,58 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:blaze_powder"
+        },
+        "title": {"translate":"Fiery"},
+        "description": {"translate":"Obtain every fire related enchantment"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:enchanting/scuba_gear",
+    "rewards": {
+		"function": "bc_rewards:enchanting/fiery"
+    },			
+    "criteria": {
+        "fire_protection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:fire_protection"
+							}
+						]
+					}
+				]
+			}
+		},
+        "fire_aspect": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:fire_aspect"
+							}
+						]
+					}
+				]
+			}
+		},
+        "flame": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:flame"
+							}
+						]
+					}
+				]
+			}
+		}
+    }
+}

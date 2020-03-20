@@ -1,0 +1,89 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ender_eye"
+        },
+        "title": {"translate":"Super Challenges Milestone"},
+        "description": {"translate":"Complete every advancement in the Super Challenges tab. Good luck with this one ;)"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:bacap/end_milestone",
+	"rewards": {
+		"experience": 500,
+		"function": "bc_rewards:bacap/challenges_milestone"
+    },		
+    "criteria": {
+        "a_million_blocks_away": {
+            "trigger": "minecraft:impossible"
+        },
+        "abyss_lord": {
+            "trigger": "minecraft:impossible"
+        },
+		"all_the_blocks": {
+            "trigger": "minecraft:impossible"
+        },
+		"all_the_items": {
+            "trigger": "minecraft:impossible"
+        },
+		"biological_warfare": {
+            "trigger": "minecraft:impossible"
+        },
+		"creepergeddon": {
+            "trigger": "minecraft:impossible"
+        },
+		"death_from_all": {
+            "trigger": "minecraft:impossible"
+        },
+		"dragon_army": {
+            "trigger": "minecraft:impossible"
+        },
+		"dragon_vs_dragon_ii_electric_boogaloo": {
+            "trigger": "minecraft:impossible"
+        },
+		"endergeddon": {
+            "trigger": "minecraft:impossible"
+        },
+		"global_vaccination": {
+            "trigger": "minecraft:impossible"
+        },
+		"highway_to_hell": {
+            "trigger": "minecraft:impossible"
+        },
+		"im_in_space": {
+            "trigger": "minecraft:impossible"
+        },
+		"immortal": {
+            "trigger": "minecraft:impossible"
+        },
+		"nuclear_fusion": {
+            "trigger": "minecraft:impossible"
+        },
+		"potion_master": {
+            "trigger": "minecraft:impossible"
+        },
+		"rise_of_the_skeletons": {
+            "trigger": "minecraft:impossible"
+        },
+		"root": {
+            "trigger": "minecraft:impossible"
+        },
+		"stack_all_the_blocks": {
+            "trigger": "minecraft:impossible"
+        },
+		"stack_all_the_items": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_world_is_ending": {
+            "trigger": "minecraft:impossible"
+        },
+		"warlock": {
+            "trigger": "minecraft:impossible"
+        },
+		"were_in_the_endgame_now": {
+            "trigger": "minecraft:impossible"
+        },
+		"zombie_apocalypse": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

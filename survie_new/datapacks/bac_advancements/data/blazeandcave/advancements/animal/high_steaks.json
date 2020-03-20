@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cooked_beef"
+        },
+        "title": {"translate":"High Steaks"},
+        "description": {"translate":"The steaks are high for this advancement!"}
+    },
+    "parent": "blazeandcave:animal/cow_tipper",
+	"rewards": {
+		"function": "bc_rewards:animal/high_steaks"
+    },		
+    "criteria": {
+        "cooked_beef": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:cooked_beef"
+                }
+            }
+        }
+    }
+}

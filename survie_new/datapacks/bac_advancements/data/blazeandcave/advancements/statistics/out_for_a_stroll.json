@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_boots"
+        },
+        "title": {"translate":"Out for a stroll"},
+        "description": {"translate":"Walk 10km"}
+    },
+    "parent": "blazeandcave:statistics/root",
+	"rewards": {
+		"experience": 50,
+		"function": "bc_rewards:statistics/out_for_a_stroll"
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

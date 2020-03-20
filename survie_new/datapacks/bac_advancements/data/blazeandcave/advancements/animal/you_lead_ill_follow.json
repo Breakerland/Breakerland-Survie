@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:lead"
+        },
+        "title": {"translate":"You Lead, I'll Follow"},
+        "description": {"translate":"Craft a lead for forming a llama caravan"}
+    },
+    "parent": "blazeandcave:animal/stay_calmer",
+	"rewards": {
+		"function": "bc_rewards:animal/you_lead_ill_follow"
+    },		
+    "criteria": {
+        "lead": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:lead"
+                    }
+                ]
+            }
+        }
+    }
+}

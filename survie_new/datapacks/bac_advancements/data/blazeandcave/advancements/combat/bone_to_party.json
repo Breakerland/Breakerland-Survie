@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+			"nbt": "{SkullOwner:\"MHF_Wither\"}"
+        },
+        "title": {"translate":"Bone-to-party"},
+        "description": {"translate":"Reunite all skeleton variants and their three-headed overlord in one place"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:combat/melting",
+	"rewards": {
+		"function": "bc_rewards:combat/bone_to_party"
+    },
+    "criteria": {
+        "bone_to_party": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

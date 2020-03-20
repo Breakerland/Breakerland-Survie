@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chest_minecart"
+        },
+        "title": {"translate":"Moving Storage"},
+        "description": {"translate":"Put a chest in a minecart"}
+    },
+    "parent": "blazeandcave:redstone/completely_useless_fuel_engine",
+    "rewards": {
+		"function": "bc_rewards:redstone/moving_storage"
+    },			
+    "criteria": {
+        "chest_minecart": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:chest_minecart"
+                    }
+                ]
+            }
+        }
+    }
+}

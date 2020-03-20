@@ -1,0 +1,85 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:oak_boat"
+        },
+        "title": {"translate":"Boaty McBoatface"},
+        "description": {"translate":"Craft a boat for sailing on the high seas"}
+    },
+    "parent": "blazeandcave:biomes/the_sea_calls_you",
+    "rewards": {
+        "function": "bc_rewards:biomes/boaty_mcboatface"
+    },		
+    "criteria": {
+        "oak_boat": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:oak_boat"
+                    }
+                ]
+            }
+        },
+        "spruce_boat": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:spruce_boat"
+                    }
+                ]
+            }
+        },
+		"birch_boat": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:birch_boat"
+                    }
+                ]
+            }
+        },
+        "jungle_boat": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:jungle_boat"
+                    }
+                ]
+            }
+        },
+        "acacia_boat": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:acacia_boat"
+                    }
+                ]
+            }
+        },
+        "dark_oak_boat": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dark_oak_boat"
+                    }
+                ]
+            }
+        }
+	},
+	"requirements": [
+		[
+			"oak_boat",
+			"spruce_boat",
+			"birch_boat",
+			"jungle_boat",
+			"acacia_boat",
+			"dark_oak_boat"
+		]
+	]		
+}

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stonecutter"
+        },
+        "title": {"translate":"Classic Pocket Edition Block"},
+        "description": {"translate":"Craft a stonecutter using stone and an iron ingot"}
+    },
+    "parent": "blazeandcave:mining/sharpening_station",
+    "rewards": {
+		"function": "bc_rewards:mining/classic_pocket_edition_block"
+    },		
+    "criteria": {
+        "stonecutter": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stonecutter"
+                    }
+                ]
+            }
+        }
+    }
+}

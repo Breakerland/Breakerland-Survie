@@ -1,0 +1,176 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:magenta_bed"
+        },
+        "title": {"translate":"Rainbow Dreams"},
+        "description": {"translate":"Craft every color of bed"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:building/change_of_sheets",
+    "rewards": {
+		"function": "bc_rewards:building/rainbow_dreams"
+    },		
+    "criteria": {
+        "white_bed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:white_bed"
+                    }
+                ]
+            }
+        },
+        "orange_bed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:orange_bed"
+                    }
+                ]
+            }
+        },
+        "magenta_bed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:magenta_bed"
+                    }
+                ]
+            }
+        },
+        "light_blue_bed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:light_blue_bed"
+                    }
+                ]
+            }
+        },
+        "yellow_bed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:yellow_bed"
+                    }
+                ]
+            }
+        },
+        "lime_bed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:lime_bed"
+                    }
+                ]
+            }
+        },
+        "pink_bed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:pink_bed"
+                    }
+                ]
+            }
+        },
+        "gray_bed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:gray_bed"
+                    }
+                ]
+            }
+        },
+        "light_gray_bed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:light_gray_bed"
+                    }
+                ]
+            }
+        },
+        "cyan_bed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cyan_bed"
+                    }
+                ]
+            }
+        },
+        "purple_bed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:purple_bed"
+                    }
+                ]
+            }
+        },
+        "blue_bed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:blue_bed"
+                    }
+                ]
+            }
+        },
+        "brown_bed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:brown_bed"
+                    }
+                ]
+            }
+        },
+        "green_bed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:green_bed"
+                    }
+                ]
+            }
+        },
+        "red_bed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:red_bed"
+                    }
+                ]
+            }
+        },
+        "black_bed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:black_bed"
+                    }
+                ]
+            }
+        }
+    }
+}

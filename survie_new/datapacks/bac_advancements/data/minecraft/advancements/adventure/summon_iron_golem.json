@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_block"
+        },
+        "title": {"translate":"Hired Help"},
+        "description": {"translate":"Summon an Iron Golem to help defend a village"},
+        "frame": "goal"
+    },
+    "parent": "minecraft:adventure/trade",
+    "rewards": {
+        "function": "bc_rewards:adventure/body_guard"
+    },		
+    "criteria": {
+        "summoned": {
+            "trigger": "minecraft:summoned_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:iron_golem"
+                }
+            }
+        }
+    }
+}

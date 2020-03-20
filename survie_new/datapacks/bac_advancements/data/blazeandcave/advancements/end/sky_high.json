@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:feather"
+        },
+        "title": {"translate":"Sky High"},
+        "description": {"translate":"Fly up beyond the world height limit"},
+        "frame": "goal"
+    },
+    "parent": "minecraft:end/elytra",
+    "rewards": {
+        "function": "bc_rewards:end/sky_high"
+    },		
+    "criteria": {
+        "world_height": {
+            "trigger": "minecraft:location",
+            "conditions": {
+				"position": {
+					"y": {
+						"min": 260.0
+					}
+				}
+            }
+        }	
+    }
+}

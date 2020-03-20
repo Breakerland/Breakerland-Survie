@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:end_crystal"
+        },
+        "title": {"translate":"The Start of Something"},
+        "description": {"translate":"Craft your first ender crystal"}
+    },
+    "parent": "minecraft:end/dragon_egg",
+	"rewards": {
+		"function": "bc_rewards:end/the_start_of_something"
+    },	
+    "criteria": {
+        "end_crystal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:end_crystal"
+                    }
+                ]
+            }
+        }
+    }
+}

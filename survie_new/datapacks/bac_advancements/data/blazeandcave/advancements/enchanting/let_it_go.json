@@ -1,0 +1,100 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ice"
+        },
+        "title": {"translate":"Let It Go!"},
+        "description": {"translate":"Obtain boots enchanted with Frost Walker"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:enchanting/old_cartoon_joke",
+    "rewards": {
+		"function": "bc_rewards:enchanting/let_it_go"
+    },			
+    "criteria": {
+        "frost_walker": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"item": "minecraft:leather_boots",					
+						"enchantments": [
+							{
+								"enchantment": "minecraft:frost_walker"
+							}
+						]
+					}
+				]
+			}
+		},
+        "frost_walker_chain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"item": "minecraft:chainmail_boots",					
+						"enchantments": [
+							{
+								"enchantment": "minecraft:frost_walker"
+							}
+						]
+					}
+				]
+			}
+		},
+        "frost_walker_iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"item": "minecraft:iron_boots",					
+						"enchantments": [
+							{
+								"enchantment": "minecraft:frost_walker"
+							}
+						]
+					}
+				]
+			}
+		},
+        "frost_walker_gold": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"item": "minecraft:golden_boots",					
+						"enchantments": [
+							{
+								"enchantment": "minecraft:frost_walker"
+							}
+						]
+					}
+				]
+			}
+		},
+        "frost_walker_diamond": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"item": "minecraft:diamond_boots",					
+						"enchantments": [
+							{
+								"enchantment": "minecraft:frost_walker"
+							}
+						]
+					}
+				]
+			}
+		}		
+    },
+    "requirements": [
+        [
+            "frost_walker",
+            "frost_walker_chain",
+            "frost_walker_iron",
+            "frost_walker_gold",
+            "frost_walker_diamond"
+        ]
+    ]
+}

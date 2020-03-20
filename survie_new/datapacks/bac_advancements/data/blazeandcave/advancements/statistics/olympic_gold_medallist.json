@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:gold_block"
+        },
+        "title": {"translate":"Olympic Gold Medallist"},
+        "description": {"translate":"Swim 100km"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:statistics/olympic_athlete",
+	"rewards": {
+		"experience": 500,
+		"function": "bc_rewards:statistics/olympic_gold_medallist"
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

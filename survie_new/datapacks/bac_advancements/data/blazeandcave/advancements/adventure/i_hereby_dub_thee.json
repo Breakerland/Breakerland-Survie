@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:name_tag"
+        },
+        "title": {"translate":"I hereby dub thee..."},
+        "description": {"translate":"Obtain a name tag"}
+    },
+    "parent": "minecraft:adventure/root",
+    "rewards": {
+        "function": "bc_rewards:adventure/i_hereby_dub_thee"
+    },		
+    "criteria": {
+        "name_tag": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:name_tag"
+                    }
+                ]
+            }
+        }
+    }
+}

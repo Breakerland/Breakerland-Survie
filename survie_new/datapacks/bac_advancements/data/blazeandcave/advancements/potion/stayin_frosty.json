@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:magma_cream"
+        },
+        "title": {"translate":"Stayin' Frosty"},
+        "description": {"translate":"Drink a fire resistance potion so you can go swimming in lava"}
+    },
+    "parent": "blazeandcave:potion/root",
+	"rewards": {
+		"function": "bc_rewards:potion/stayin_frosty"
+    },	
+    "criteria": {
+        "fire_resistance": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:fire_resistance": {}
+                }
+            }
+        }
+    }
+}

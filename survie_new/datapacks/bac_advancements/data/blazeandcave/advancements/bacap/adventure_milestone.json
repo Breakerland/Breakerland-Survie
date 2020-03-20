@@ -1,0 +1,218 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:map"
+        },
+        "title": {"translate":"Adventure Milestone"},
+        "description": {"translate":"Complete every advancement in the Adventure tab"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:bacap/biomes_milestone",
+	"rewards": {
+		"experience": 500,
+		"function": "bc_rewards:bacap/adventure_milestone"
+    },		
+    "criteria": {
+        "a_complete_catalogue": {
+            "trigger": "minecraft:impossible"
+        },
+        "all_chained_up": {
+            "trigger": "minecraft:impossible"
+        },
+		"body_guard": {
+            "trigger": "minecraft:impossible"
+        },
+		"businessman": {
+            "trigger": "minecraft:impossible"
+        },
+		"crazy_cat_lady": {
+            "trigger": "minecraft:impossible"
+        },
+		"deals_off": {
+            "trigger": "minecraft:impossible"
+        },
+		"disc_jockey": {
+            "trigger": "minecraft:impossible"
+        },
+		"do_you_want_to_trade": {
+            "trigger": "minecraft:impossible"
+        },
+		"dry_spell": {
+            "trigger": "minecraft:impossible"
+        },
+		"feeling_ill": {
+            "trigger": "minecraft:impossible"
+        },
+		"filthy_rich": {
+            "trigger": "minecraft:impossible"
+        },
+		"filthy_stinkin_rich": {
+            "trigger": "minecraft:impossible"
+        },
+		"florist": {
+            "trigger": "minecraft:impossible"
+        },
+		"ghostbuster": {
+            "trigger": "minecraft:impossible"
+        },
+		"grave_robber": {
+            "trigger": "minecraft:impossible"
+        },
+		"guardian_destroyer": {
+            "trigger": "minecraft:impossible"
+        },
+		"heres_johnny": {
+            "trigger": "minecraft:impossible"
+        },
+		"hero_of_the_village": {
+            "trigger": "minecraft:impossible"
+        },
+		"house_of_psychos": {
+            "trigger": "minecraft:impossible"
+        },
+		"i_am_ravager_hear_me_roar": {
+            "trigger": "minecraft:impossible"
+        },
+		"i_hereby_dub_thee": {
+            "trigger": "minecraft:impossible"
+        },
+		"if_only_cats_grew_into_kittens": {
+            "trigger": "minecraft:impossible"
+        },
+		"its_so_beast_like": {
+            "trigger": "minecraft:impossible"
+        },
+		"ive_got_a_bad_feeling_about_this": {
+            "trigger": "minecraft:impossible"
+        },
+		"laser_sharks": {
+            "trigger": "minecraft:impossible"
+        },
+		"lilypad_hatter": {
+            "trigger": "minecraft:impossible"
+        },
+		"magic_book": {
+            "trigger": "minecraft:impossible"
+        },
+		"mapmaker": {
+            "trigger": "minecraft:impossible"
+        },
+		"mapmakers_table": {
+            "trigger": "minecraft:impossible"
+        },
+		"master_trader": {
+            "trigger": "minecraft:impossible"
+        },
+		"monumental": {
+            "trigger": "minecraft:impossible"
+        },
+		"murderer": {
+            "trigger": "minecraft:impossible"
+        },
+		"music_to_my_ears": {
+            "trigger": "minecraft:impossible"
+        },
+		"oh_look_it_dings": {
+            "trigger": "minecraft:impossible"
+        },
+		"out_of_posts": {
+            "trigger": "minecraft:impossible"
+        },
+		"overpowered": {
+            "trigger": "minecraft:impossible"
+        },
+		"picador": {
+            "trigger": "minecraft:impossible"
+        },
+		"postmortal": {
+            "trigger": "minecraft:impossible"
+        },
+		"raidin_master": {
+            "trigger": "minecraft:impossible"
+        },
+		"rebuilding_the_oceans": {
+            "trigger": "minecraft:impossible"
+        },
+		"rekt": {
+            "trigger": "minecraft:impossible"
+        },
+		"retro_future_knight": {
+            "trigger": "minecraft:impossible"
+        },
+		"riot_shield": {
+            "trigger": "minecraft:impossible"
+        },
+		"root": {
+            "trigger": "minecraft:impossible"
+        },
+		"secret_of_the_igloo": {
+            "trigger": "minecraft:impossible"
+        },
+		"shady_deals": {
+            "trigger": "minecraft:impossible"
+        },
+		"spear_fishing": {
+            "trigger": "minecraft:impossible"
+        },
+		"sponge_miner": {
+            "trigger": "minecraft:impossible"
+        },
+		"stockbroker": {
+            "trigger": "minecraft:impossible"
+        },
+		"superhero_of_the_village": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_deep_end": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_haggler": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_shielding": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_tribal_villagers": {
+            "trigger": "minecraft:impossible"
+        },
+		"tomb_raider": {
+            "trigger": "minecraft:impossible"
+        },
+		"town_planner": {
+            "trigger": "minecraft:impossible"
+        },
+		"traveller": {
+            "trigger": "minecraft:impossible"
+        },
+		"travelling_merchant": {
+            "trigger": "minecraft:impossible"
+        },
+		"treasure_map": {
+            "trigger": "minecraft:impossible"
+        },
+		"veteran_of_the_village": {
+            "trigger": "minecraft:impossible"
+        },
+		"village_settler": {
+            "trigger": "minecraft:impossible"
+        },
+		"war_is_coming": {
+            "trigger": "minecraft:impossible"
+        },
+		"were_being_attacked": {
+            "trigger": "minecraft:impossible"
+        },
+		"what_a_deal": {
+            "trigger": "minecraft:impossible"
+        },
+		"witchcraft": {
+            "trigger": "minecraft:impossible"
+        },
+		"wololo": {
+            "trigger": "minecraft:impossible"
+        },
+		"you_are_the_pillager": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

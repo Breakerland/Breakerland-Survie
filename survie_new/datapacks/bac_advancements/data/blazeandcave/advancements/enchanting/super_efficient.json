@@ -1,0 +1,31 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_pickaxe"
+        },
+        "title": {"translate":"Super Efficient"},
+        "description": {"translate":"Obtain Efficiency V"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:enchanting/librarian",
+    "rewards": {
+		"function": "bc_rewards:enchanting/super_efficient"
+    },			
+    "criteria": {
+        "efficiency": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:efficiency",
+								"levels": 5
+							}
+						]
+					}
+				]
+			}
+		}
+    }
+}

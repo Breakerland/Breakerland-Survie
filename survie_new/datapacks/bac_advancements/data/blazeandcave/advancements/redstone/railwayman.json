@@ -1,0 +1,61 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:activator_rail"
+        },
+        "title": {"translate":"Railwayman"},
+        "description": {"translate":"Craft a stack of all the different types of rails"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:redstone/electric_rails",
+    "rewards": {
+		"experience": 50,	
+		"function": "bc_rewards:redstone/railwayman"
+    },		
+    "criteria": {
+        "rail": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:rail",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "powered_rail": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:powered_rail",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "detector_rail": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:detector_rail",
+						"count": 64
+                    }
+                ]
+            }
+        },		
+        "activator_rail": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:activator_rail",
+						"count": 64
+                    }
+                ]
+            }
+        }
+    }
+}

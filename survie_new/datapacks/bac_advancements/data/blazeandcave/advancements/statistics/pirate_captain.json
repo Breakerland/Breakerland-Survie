@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:spruce_boat"
+        },
+        "title": {"translate":"Pirate Captain"},
+        "description": {"translate":"Sail 10km in a boat"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:statistics/luxury_cruise",
+	"rewards": {
+		"experience": 200,
+		"function": "bc_rewards:statistics/pirate_captain"
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_pickaxe"
+        },
+        "title": {"translate":"Rest in Pickaxes"},
+        "description": {"translate":"Break your first diamond pickaxe"},
+        "frame": "goal"
+    },
+    "parent": "blazeandcave:mining/iconic_merchandising_prop",
+    "rewards": {
+		"function": "bc_rewards:mining/rest_in_pickaxes"
+    },		
+    "criteria": {
+        "break_pickaxe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"item": {
+					"item": "minecraft:diamond_pickaxe"
+				},
+				"durability": {
+					"max": 0
+				}
+            }
+        }
+    }
+}

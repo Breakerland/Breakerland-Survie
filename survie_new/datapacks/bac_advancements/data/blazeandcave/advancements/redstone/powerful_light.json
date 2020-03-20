@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:redstone_torch"
+        },
+        "title": {"translate":"Powerful Light"},
+        "description": {"translate":"Craft and place a redstone torch"}
+    },
+    "parent": "blazeandcave:redstone/root",
+	"rewards": {
+		"function": "bc_rewards:redstone/powerful_light"
+    },
+    "criteria": {
+        "redstone_torch": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:redstone_torch"
+            }
+        }
+    }
+}

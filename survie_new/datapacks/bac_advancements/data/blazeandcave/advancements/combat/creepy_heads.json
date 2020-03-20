@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:creeper_head"
+        },
+        "title": {"translate":"Creepy Heads"},
+        "description": {"translate":"Blow up a creeper with a charged creeper to get a creeper head"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:combat/creeper_killer",
+    "rewards": {
+		"experience": 250,
+        "function": "bc_rewards:combat/creepy_heads"
+    },		
+    "criteria": {
+        "creeper_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:creeper_head"
+                    }
+                ]
+            }
+        }
+    }
+}

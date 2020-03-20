@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bell"
+        },
+        "title": {"translate":"Hell's Bells"},
+        "description": {"translate":"Ring a bell in the Nether"}
+    },
+    "parent": "minecraft:nether/root",
+	"rewards": {
+		"function": "bc_rewards:nether/hells_bells"
+    },		
+    "criteria": {
+        "bell": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:lapis_block"
+        },
+        "title": {"translate":"Lapis Lazuli Miner"},
+        "description": {"translate":"Mine enough lapis lazuli to craft a stack of lapis lazuli blocks"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:mining/the_wrong_shade_of_blue",
+    "rewards": {
+		"function": "bc_rewards:mining/lapis_lazuli_miner"
+    },		
+    "criteria": {
+        "lapis_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:lapis_block",
+						"count": 64
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:trident"
+        },
+        "title": {"translate":"Picador"},
+        "description": {"translate":"Hit a Ravager with a thrown trident"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:adventure/i_am_ravager_hear_me_roar",
+    "rewards": {
+        "function": "bc_rewards:adventure/picador"
+    },
+	"criteria": {
+		"shot_trident": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "ravager"
+				},
+				"damage": {
+					"type": {
+						"is_projectile": true,
+						"direct_entity": {
+							"type": "minecraft:trident"
+						}
+					}
+				}
+			}
+		}
+	}
+}

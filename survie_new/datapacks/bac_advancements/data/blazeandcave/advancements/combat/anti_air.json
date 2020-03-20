@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bow"
+        },
+        "title": {"translate":"Anti-Air"},
+        "description": {"translate":"Shoot down a phantom with a bow from 30 blocks away"},
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:combat/phantom_slayer",
+    "rewards": {
+        "experience": 50,
+        "function": "bc_rewards:combat/anti_air"
+    },	
+    "criteria": {
+        "killed_phantom": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true
+                },
+                "entity": {
+                    "type": "phantom",
+                    "distance": {
+                        "absolute": {
+                            "min": 30
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

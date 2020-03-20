@@ -1,0 +1,56 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_helmet"
+        },
+        "title": {"translate":"Diamond Clad"},
+        "description": {"translate":"A full suit of diamond armor saves even more lives"},
+		"frame": "goal"
+    },
+    "parent": "minecraft:story/shiny_gear",
+    "rewards": {
+		"function": "bc_rewards:mining/diamond_clad"
+    },			
+    "criteria": {
+        "diamond_helmet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_helmet"
+                    }
+                ]
+            }
+        },
+        "diamond_chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_chestplate"
+                    }
+                ]
+            }
+        },
+        "diamond_leggings": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_leggings"
+                    }
+                ]
+            }
+        },
+        "diamond_boots": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_boots"
+                    }
+                ]
+            }
+        }
+    }
+}

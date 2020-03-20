@@ -1,0 +1,76 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stripped_jungle_log"
+        },
+        "title": {"translate":"Stripper"},
+        "description": {"translate":"Strip the bark off of all six types of logs then pick them up"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:building/yay_i_got_my_wood",
+    "rewards": {
+        "function": "bc_rewards:building/stripper"
+    },		
+    "criteria": {
+        "stripped_oak_log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stripped_oak_log"
+                    }
+                ]
+            }
+        },
+        "stripped_spruce_log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stripped_spruce_log"
+                    }
+                ]
+            }
+        },
+        "stripped_birch_log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stripped_birch_log"
+                    }
+                ]
+            }
+        },
+        "stripped_jungle_log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stripped_jungle_log"
+                    }
+                ]
+            }
+        },
+        "stripped_acacia_log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stripped_acacia_log"
+                    }
+                ]
+            }
+        },
+        "stripped_dark_oak_log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stripped_dark_oak_log"
+                    }
+                ]
+            }
+        }
+	}		
+}

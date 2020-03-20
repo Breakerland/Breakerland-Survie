@@ -1,0 +1,39 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:rabbit_spawn_egg"
+        },
+        "title": {"translate":"In a hole there lived a Rabbit"},
+        "description": {"translate":"Collect a stack of raw rabbit and rabbit hide"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:animal/getting_into_a_stew",
+    "rewards": {
+		"experience": 50,
+		"function": "bc_rewards:animal/in_a_hole_there_lived_a_rabbit"
+    },		
+    "criteria": {
+        "rabbit": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:rabbit",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "rabbit_hide": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:rabbit_hide",
+						"count": 64
+                    }
+                ]
+            }
+        }		
+    }	
+}

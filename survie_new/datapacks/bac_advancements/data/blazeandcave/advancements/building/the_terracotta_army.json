@@ -1,0 +1,176 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:magenta_terracotta"
+        },
+        "title": {"translate":"The Terracotta Army"},
+        "description": {"translate":"Craft all 16 colors of terracotta (stained clay)"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:building/pot_planter",
+    "rewards": {
+		"function": "bc_rewards:building/the_terracotta_army"
+    },		
+    "criteria": {
+        "white_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:white_terracotta"
+                    }
+                ]
+            }
+        },
+        "orange_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:orange_terracotta"
+                    }
+                ]
+            }
+        },
+        "magenta_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:magenta_terracotta"
+                    }
+                ]
+            }
+        },
+        "light_blue_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:light_blue_terracotta"
+                    }
+                ]
+            }
+        },
+        "yellow_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:yellow_terracotta"
+                    }
+                ]
+            }
+        },
+        "lime_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:lime_terracotta"
+                    }
+                ]
+            }
+        },
+        "pink_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:pink_terracotta"
+                    }
+                ]
+            }
+        },
+        "gray_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:gray_terracotta"
+                    }
+                ]
+            }
+        },
+        "light_gray_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:light_gray_terracotta"
+                    }
+                ]
+            }
+        },
+        "cyan_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cyan_terracotta"
+                    }
+                ]
+            }
+        },
+        "purple_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:purple_terracotta"
+                    }
+                ]
+            }
+        },
+        "blue_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:blue_terracotta"
+                    }
+                ]
+            }
+        },
+        "brown_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:brown_terracotta"
+                    }
+                ]
+            }
+        },
+        "green_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:green_terracotta"
+                    }
+                ]
+            }
+        },
+        "red_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:red_terracotta"
+                    }
+                ]
+            }
+        },
+        "black_terracotta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:black_terracotta"
+                    }
+                ]
+            }
+        }
+    }
+}

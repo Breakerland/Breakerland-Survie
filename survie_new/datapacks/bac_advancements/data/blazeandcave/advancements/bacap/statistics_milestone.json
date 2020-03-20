@@ -1,0 +1,146 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:writable_book"
+        },
+        "title": {"translate":"Statistics Milestone"},
+        "description": {"translate":"Complete every advancement in the Statistics tab"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:bacap/enchanting_milestone",
+	"rewards": {
+		"experience": 500,
+		"function": "bc_rewards:bacap/statistics_milestone"
+    },		
+    "criteria": {
+        "ancient_kung_fu_master": {
+            "trigger": "minecraft:impossible"
+        },
+        "black_belt_ninja": {
+            "trigger": "minecraft:impossible"
+        },
+		"boing_boing": {
+            "trigger": "minecraft:impossible"
+        },
+		"cupid": {
+            "trigger": "minecraft:impossible"
+        },
+		"did_you_just_run_across_earth": {
+            "trigger": "minecraft:impossible"
+        },
+		"elderly_enchanter": {
+            "trigger": "minecraft:impossible"
+        },
+		"frequent_flyer": {
+            "trigger": "minecraft:impossible"
+        },
+		"global_railway_network": {
+            "trigger": "minecraft:impossible"
+        },
+		"happy_birthday": {
+            "trigger": "minecraft:impossible"
+        },
+		"horse_training": {
+            "trigger": "minecraft:impossible"
+        },
+		"i_enjoy_long_walks_and_playing_minecraft": {
+            "trigger": "minecraft:impossible"
+        },
+		"i_like_trains": {
+            "trigger": "minecraft:impossible"
+        },
+		"journeyman_enchanter": {
+            "trigger": "minecraft:impossible"
+        },
+		"jumping_jacks": {
+            "trigger": "minecraft:impossible"
+        },
+		"laps_in_the_pool": {
+            "trigger": "minecraft:impossible"
+        },
+		"level_up": {
+            "trigger": "minecraft:impossible"
+        },
+		"lightning_mcpig": {
+            "trigger": "minecraft:impossible"
+        },
+		"luxury_cruise": {
+            "trigger": "minecraft:impossible"
+        },
+		"marathon": {
+            "trigger": "minecraft:impossible"
+        },
+		"minecart_rider": {
+            "trigger": "minecraft:impossible"
+        },
+		"novice_enchanter": {
+            "trigger": "minecraft:impossible"
+        },
+		"olympic_athlete": {
+            "trigger": "minecraft:impossible"
+        },
+		"olympic_gold_medallist": {
+            "trigger": "minecraft:impossible"
+        },
+		"out_for_a_stroll": {
+            "trigger": "minecraft:impossible"
+        },
+		"overlevelling": {
+            "trigger": "minecraft:impossible"
+        },
+		"passing_the_time": {
+            "trigger": "minecraft:impossible"
+        },
+		"pig_training": {
+            "trigger": "minecraft:impossible"
+        },
+		"pirate_captain": {
+            "trigger": "minecraft:impossible"
+        },
+		"root": {
+            "trigger": "minecraft:impossible"
+        },
+		"sailor_of_the_seven_seas": {
+            "trigger": "minecraft:impossible"
+        },
+		"scourge_of_the_west": {
+            "trigger": "minecraft:impossible"
+        },
+		"sheriff_firearm": {
+            "trigger": "minecraft:impossible"
+        },
+		"sneaky_snitch": {
+            "trigger": "minecraft:impossible"
+        },
+		"snout_500": {
+            "trigger": "minecraft:impossible"
+        },
+		"spring_in_your_step": {
+            "trigger": "minecraft:impossible"
+        },
+		"supersonic": {
+            "trigger": "minecraft:impossible"
+        },
+		"take_to_the_skies": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_first_night": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_parrots_and_the_bats": {
+            "trigger": "minecraft:impossible"
+        },
+		"two_by_two": {
+            "trigger": "minecraft:impossible"
+        },
+		"who_needs_cars": {
+            "trigger": "minecraft:impossible"
+        },
+		"xp_grinder": {
+            "trigger": "minecraft:impossible"
+        },
+		"your_legs_must_be_tired": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

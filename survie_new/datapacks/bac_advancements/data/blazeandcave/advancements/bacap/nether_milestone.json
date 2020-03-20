@@ -1,0 +1,119 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:red_nether_bricks"
+        },
+        "title": {"translate":"Nether Milestone"},
+        "description": {"translate":"Complete every advancement in the Nether tab"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:bacap/statistics_milestone",
+	"rewards": {
+		"experience": 500,
+		"function": "bc_rewards:bacap/nether_milestone"
+    },		
+    "criteria": {
+        "a_terrible_fortress": {
+            "trigger": "minecraft:impossible"
+        },
+        "basis_of_brewing": {
+            "trigger": "minecraft:impossible"
+        },
+		"beaconator": {
+            "trigger": "minecraft:impossible"
+        },
+		"blaze_extinguisher": {
+            "trigger": "minecraft:impossible"
+        },
+		"bring_down_the_beast": {
+            "trigger": "minecraft:impossible"
+        },
+		"bring_home_the_beacon": {
+            "trigger": "minecraft:impossible"
+        },
+		"decaying_beauty": {
+            "trigger": "minecraft:impossible"
+        },
+		"dont_step_on_it": {
+            "trigger": "minecraft:impossible"
+        },
+		"enders_chest": {
+            "trigger": "minecraft:impossible"
+        },
+		"eye_spy": {
+            "trigger": "minecraft:impossible"
+        },
+		"fire_blast_shield": {
+            "trigger": "minecraft:impossible"
+        },
+		"ghast_slayer": {
+            "trigger": "minecraft:impossible"
+        },
+		"giant_floating_jellyfish": {
+            "trigger": "minecraft:impossible"
+        },
+		"glows_in_the_dark": {
+            "trigger": "minecraft:impossible"
+        },
+		"glowstone_miner": {
+            "trigger": "minecraft:impossible"
+        },
+		"hells_bells": {
+            "trigger": "minecraft:impossible"
+        },
+		"high_temperature_fluid_monster": {
+            "trigger": "minecraft:impossible"
+        },
+		"im_in_lava_with_you": {
+            "trigger": "minecraft:impossible"
+        },
+		"into_fire": {
+            "trigger": "minecraft:impossible"
+        },
+		"limbo_walker": {
+            "trigger": "minecraft:impossible"
+        },
+		"local_brewery": {
+            "trigger": "minecraft:impossible"
+        },
+		"magma_cube_squisher": {
+            "trigger": "minecraft:impossible"
+        },
+		"quicksand": {
+            "trigger": "minecraft:impossible"
+        },
+		"return_to_sender": {
+            "trigger": "minecraft:impossible"
+        },
+		"root": {
+            "trigger": "minecraft:impossible"
+        },
+		"seeing_stars": {
+            "trigger": "minecraft:impossible"
+        },
+		"spooky_scary_skeleton": {
+            "trigger": "minecraft:impossible"
+        },
+		"subspace_bubble": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_end": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_hunt_begins": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_nethers_shield": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_tribal_snouts": {
+            "trigger": "minecraft:impossible"
+        },
+		"uneasy_alliance": {
+            "trigger": "minecraft:impossible"
+        },
+		"withering_heights": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

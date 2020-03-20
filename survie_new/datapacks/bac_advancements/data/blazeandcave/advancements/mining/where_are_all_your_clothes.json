@@ -1,0 +1,301 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chainmail_leggings"
+        },
+        "title": {"translate":"Where are all your clothes?"},
+        "description": {"translate":"Break every type of armor piece in the game"},
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:mining/weve_broken_our_last_shovel",
+    "rewards": {
+		"function": "bc_rewards:mining/where_are_all_your_clothes",
+		"experience": 200
+    },		
+    "criteria": {
+        "leather_helmet": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"item": {
+					"item": "minecraft:leather_helmet"
+				},
+				"durability": {
+					"max": 0
+				}
+            }
+        },
+        "leather_chestplate": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"item": {
+					"item": "minecraft:leather_chestplate"
+				},
+				"durability": {
+					"max": 0
+				}
+            }
+        },
+        "leather_leggings": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"item": {
+					"item": "minecraft:leather_leggings"
+				},
+				"durability": {
+					"max": 0
+				}
+            }
+        },
+        "leather_boots": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"item": {
+					"item": "minecraft:leather_boots"
+				},
+				"durability": {
+					"max": 0
+				}
+            }
+        },
+        "golden_helmet": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"item": {
+					"item": "minecraft:golden_helmet"
+				},
+				"durability": {
+					"max": 0
+				}
+            }
+        },
+        "golden_chestplate": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"item": {
+					"item": "minecraft:golden_chestplate"
+				},
+				"durability": {
+					"max": 0
+				}
+            }
+        },
+        "golden_leggings": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"item": {
+					"item": "minecraft:golden_leggings"
+				},
+				"durability": {
+					"max": 0
+				}
+            }
+        },
+        "golden_boots": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"item": {
+					"item": "minecraft:golden_boots"
+				},
+				"durability": {
+					"max": 0
+				}
+            }
+        },
+        "chainmail_helmet": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"item": {
+					"item": "minecraft:chainmail_helmet"
+				},
+				"durability": {
+					"max": 0
+				}
+            }
+        },
+        "chainmail_chestplate": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"item": {
+					"item": "minecraft:chainmail_chestplate"
+				},
+				"durability": {
+					"max": 0
+				}
+            }
+        },
+        "chainmail_leggings": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"item": {
+					"item": "minecraft:chainmail_leggings"
+				},
+				"durability": {
+					"max": 0
+				}
+            }
+        },
+        "chainmail_boots": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"item": {
+					"item": "minecraft:chainmail_boots"
+				},
+				"durability": {
+					"max": 0
+				}
+            }
+        },
+		"iron_helmet": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"item": {
+					"item": "minecraft:iron_helmet"
+				},
+				"durability": {
+					"max": 0
+				}
+            }
+        },
+        "iron_chestplate": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"item": {
+					"item": "minecraft:iron_chestplate"
+				},
+				"durability": {
+					"max": 0
+				}
+            }
+        },
+        "iron_leggings": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"item": {
+					"item": "minecraft:iron_leggings"
+				},
+				"durability": {
+					"max": 0
+				}
+            }
+        },
+        "iron_boots": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"item": {
+					"item": "minecraft:iron_boots"
+				},
+				"durability": {
+					"max": 0
+				}
+            }
+        },
+		"diamond_helmet": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"item": {
+					"item": "minecraft:diamond_helmet"
+				},
+				"durability": {
+					"max": 0
+				}
+            }
+        },
+        "diamond_chestplate": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"item": {
+					"item": "minecraft:diamond_chestplate"
+				},
+				"durability": {
+					"max": 0
+				}
+            }
+        },
+        "diamond_leggings": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"item": {
+					"item": "minecraft:diamond_leggings"
+				},
+				"durability": {
+					"max": 0
+				}
+            }
+        },
+        "diamond_boots": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"item": {
+					"item": "minecraft:diamond_boots"
+				},
+				"durability": {
+					"max": 0
+				}
+            }
+        },
+		"netherite_helmet": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"item": {
+					"item": "minecraft:netherite_helmet"
+				},
+				"durability": {
+					"max": 0
+				}
+            }
+        },
+        "netherite_chestplate": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"item": {
+					"item": "minecraft:netherite_chestplate"
+				},
+				"durability": {
+					"max": 0
+				}
+            }
+        },
+        "netherite_leggings": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"item": {
+					"item": "minecraft:netherite_leggings"
+				},
+				"durability": {
+					"max": 0
+				}
+            }
+        },
+        "netherite_boots": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"item": {
+					"item": "minecraft:netherite_boots"
+				},
+				"durability": {
+					"max": 0
+				}
+            }
+        },
+        "turtle_helmet": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"item": {
+					"item": "minecraft:turtle_helmet"
+				},
+				"durability": {
+					"max": 0
+				}
+            }
+        },
+        "elytra": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"item": {
+					"item": "minecraft:elytra"
+				},
+				"durability": 1
+            }
+        }
+    }
+}

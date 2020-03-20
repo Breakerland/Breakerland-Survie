@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:shulker_spawn_egg"
+        },
+        "title": {"translate":"Shulker Breaker"},
+        "description": {"translate":"Collect a stack of shulker shells"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:end/shouldnt_my_shield_levitate_too",
+    "rewards": {
+		"experience": 50,	
+		"function": "bc_rewards:end/shulker_breaker"
+    },		
+    "criteria": {
+        "shulker_shell": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:shulker_shell",
+						"count": 64
+                    }
+                ]
+            }
+        }		
+    }	
+}

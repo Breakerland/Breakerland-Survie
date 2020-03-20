@@ -1,0 +1,62 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:parrot_spawn_egg"
+        },
+        "title": {"translate":"Birdkeeper"},
+        "description": {"translate":"Tame all parrot variants"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:animal/chatterbox",
+	"rewards": {
+		"function": "bc_rewards:animal/birdkeeper",
+		"experience": 100
+    },		
+    "criteria": {
+        "red": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:parrot",
+					"nbt": "{Variant:0}"
+                }
+			}
+        },
+        "blue": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:parrot",
+					"nbt": "{Variant:1}"
+                }
+			}
+        },
+        "green": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:parrot",
+					"nbt": "{Variant:2}"
+                }
+			}
+        },
+        "cyan": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:parrot",
+					"nbt": "{Variant:3}"
+                }
+			}
+        },
+        "gray": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:parrot",
+					"nbt": "{Variant:4}"
+                }
+			}
+        }
+    }
+}

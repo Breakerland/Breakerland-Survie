@@ -1,0 +1,128 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone_sword"
+        },
+        "title": {"translate":"Weaponry Milestone"},
+        "description": {"translate":"Complete every advancement in the Weaponry tab"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:bacap/monsters_milestone",
+	"rewards": {
+		"experience": 500,
+		"function": "bc_rewards:bacap/weaponry_milestone"
+    },		
+    "criteria": {
+        "a_snowballs_chance_in_hell": {
+            "trigger": "minecraft:impossible"
+        },
+        "a_throwaway_joke": {
+            "trigger": "minecraft:impossible"
+        },
+		"artillery": {
+            "trigger": "minecraft:impossible"
+        },
+		"axeman": {
+            "trigger": "minecraft:impossible"
+        },
+		"bombs_away": {
+            "trigger": "minecraft:impossible"
+        },
+		"bow_spammer": {
+            "trigger": "minecraft:impossible"
+        },
+		"demolitions_expert": {
+            "trigger": "minecraft:impossible"
+        },
+		"diamonds_to_you": {
+            "trigger": "minecraft:impossible"
+        },
+		"egging_dude": {
+            "trigger": "minecraft:impossible"
+        },
+		"expelliarmus": {
+            "trigger": "minecraft:impossible"
+        },
+		"explosive_fire": {
+            "trigger": "minecraft:impossible"
+        },
+		"fireworks_display": {
+            "trigger": "minecraft:impossible"
+        },
+		"flying_colors": {
+            "trigger": "minecraft:impossible"
+        },
+		"indiana_jones": {
+            "trigger": "minecraft:impossible"
+        },
+		"king_of_the_sea": {
+            "trigger": "minecraft:impossible"
+        },
+		"master_shieldsman": {
+            "trigger": "minecraft:impossible"
+        },
+		"ol_betsy": {
+            "trigger": "minecraft:impossible"
+        },
+		"pig_fishing_tournament": {
+            "trigger": "minecraft:impossible"
+        },
+		"point_blank": {
+            "trigger": "minecraft:impossible"
+        },
+		"poseidon_vs_hades": {
+            "trigger": "minecraft:impossible"
+        },
+		"revenge": {
+            "trigger": "minecraft:impossible"
+        },
+		"root": {
+            "trigger": "minecraft:impossible"
+        },
+		"shield_luck": {
+            "trigger": "minecraft:impossible"
+        },
+		"shovel_knight": {
+            "trigger": "minecraft:impossible"
+        },
+		"sir_knight": {
+            "trigger": "minecraft:impossible"
+        },
+		"slapfish": {
+            "trigger": "minecraft:impossible"
+        },
+		"sniper_duel": {
+            "trigger": "minecraft:impossible"
+        },
+		"snowball_fight": {
+            "trigger": "minecraft:impossible"
+        },
+		"take_aim": {
+            "trigger": "minecraft:impossible"
+        },
+		"that_is_so_fletch": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_aquatic_hunter": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_mighty_hunter": {
+            "trigger": "minecraft:impossible"
+        },
+		"theres_yolk_on_my_head": {
+            "trigger": "minecraft:impossible"
+        },
+		"viking": {
+            "trigger": "minecraft:impossible"
+        },
+		"when_pigs_finally_fly": {
+            "trigger": "minecraft:impossible"
+        },
+		"whos_the_pillager_now": {
+            "trigger": "minecraft:impossible"
+        },
+		"x_bow": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

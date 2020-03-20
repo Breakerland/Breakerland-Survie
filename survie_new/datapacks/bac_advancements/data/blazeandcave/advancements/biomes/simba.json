@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ocelot_spawn_egg"
+        },
+        "title": {"translate":"Simba"},
+        "description": {"translate":"Breed a baby ocelot"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:biomes/tarzan",
+	"rewards": {
+		"function": "bc_rewards:biomes/simba"
+    },		
+    "criteria": {
+        "ocelot": {
+            "trigger": "minecraft:bred_animals",
+            "conditions": {
+				"parent": {
+					"type": "minecraft:ocelot"
+				},
+				"partner": {
+					"type": "minecraft:ocelot"
+				}
+            }
+        }
+    }
+}

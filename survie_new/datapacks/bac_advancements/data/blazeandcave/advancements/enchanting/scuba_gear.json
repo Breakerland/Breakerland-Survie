@@ -1,0 +1,58 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:water_bucket"
+        },
+        "title": {"translate":"Scuba Gear"},
+        "description": {"translate":"Obtain every water related enchantment"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:enchanting/knocking_your_socks_off",
+    "rewards": {
+		"function": "bc_rewards:enchanting/scuba_gear"
+    },			
+    "criteria": {
+        "respiration": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:respiration"
+							}
+						]
+					}
+				]
+			}
+		},
+        "aqua_affinity": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:aqua_affinity"
+							}
+						]
+					}
+				]
+			}
+		},
+        "depth_strider": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:depth_strider"
+							}
+						]
+					}
+				]
+			}
+		}
+    }
+}

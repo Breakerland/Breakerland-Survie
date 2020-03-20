@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_block"
+        },
+        "title": {"translate":"Washing Machine"},
+        "description": {"translate":"Use a cauldron to clean leather armor, a banner and a shulker box"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:mining/bubble_bubble_toil_and_trouble",
+	"rewards": {
+		"function": "bc_rewards:mining/washing_machine"
+    },
+    "criteria": {
+        "chestful_of_cobblestone": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

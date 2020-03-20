@@ -1,0 +1,2208 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+			"nbt": "{SkullOwner:\"Cavinator1\"}"
+        },
+        "title": {"translate":"Advancement Legend"},
+        "description": {"translate":"Complete every single advancement in BlazeandCave's Advancements Pack"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:bacap/challenges_milestone",
+	"rewards": {
+		"experience": 1000,
+		"function": "bc_rewards:bacap/advancement_legend"
+    },		
+    "criteria": {
+        "a_complete_catalogue": {
+            "trigger": "minecraft:impossible"
+        },
+        "all_chained_up": {
+            "trigger": "minecraft:impossible"
+        },
+		"body_guard": {
+            "trigger": "minecraft:impossible"
+        },
+		"businessman": {
+            "trigger": "minecraft:impossible"
+        },
+		"crazy_cat_lady": {
+            "trigger": "minecraft:impossible"
+        },
+		"deals_off": {
+            "trigger": "minecraft:impossible"
+        },
+		"disc_jockey": {
+            "trigger": "minecraft:impossible"
+        },
+		"do_you_want_to_trade": {
+            "trigger": "minecraft:impossible"
+        },
+		"dry_spell": {
+            "trigger": "minecraft:impossible"
+        },
+		"feeling_ill": {
+            "trigger": "minecraft:impossible"
+        },
+		"filthy_rich": {
+            "trigger": "minecraft:impossible"
+        },
+		"filthy_stinkin_rich": {
+            "trigger": "minecraft:impossible"
+        },
+		"florist": {
+            "trigger": "minecraft:impossible"
+        },
+		"ghostbuster": {
+            "trigger": "minecraft:impossible"
+        },
+		"grave_robber": {
+            "trigger": "minecraft:impossible"
+        },
+		"guardian_destroyer": {
+            "trigger": "minecraft:impossible"
+        },
+		"heres_johnny": {
+            "trigger": "minecraft:impossible"
+        },
+		"hero_of_the_village": {
+            "trigger": "minecraft:impossible"
+        },
+		"house_of_psychos": {
+            "trigger": "minecraft:impossible"
+        },
+		"how_to_stop_a_rhino_from_charging": {
+            "trigger": "minecraft:impossible"
+        },
+		"i_hereby_dub_thee": {
+            "trigger": "minecraft:impossible"
+        },
+		"if_only_cats_grew_into_kittens": {
+            "trigger": "minecraft:impossible"
+        },
+		"its_so_beast_like": {
+            "trigger": "minecraft:impossible"
+        },
+		"ive_got_a_bad_feeling_about_this": {
+            "trigger": "minecraft:impossible"
+        },
+		"laser_sharks": {
+            "trigger": "minecraft:impossible"
+        },
+		"lilypad_hatter": {
+            "trigger": "minecraft:impossible"
+        },
+		"magic_book": {
+            "trigger": "minecraft:impossible"
+        },
+		"mapmaker": {
+            "trigger": "minecraft:impossible"
+        },
+		"mapmakers_table": {
+            "trigger": "minecraft:impossible"
+        },
+		"master_trader": {
+            "trigger": "minecraft:impossible"
+        },
+		"monumental": {
+            "trigger": "minecraft:impossible"
+        },
+		"murderer": {
+            "trigger": "minecraft:impossible"
+        },
+		"music_to_my_ears": {
+            "trigger": "minecraft:impossible"
+        },
+		"oh_look_it_dings": {
+            "trigger": "minecraft:impossible"
+        },
+		"out_of_posts": {
+            "trigger": "minecraft:impossible"
+        },
+		"overpowered": {
+            "trigger": "minecraft:impossible"
+        },
+		"picador": {
+            "trigger": "minecraft:impossible"
+        },
+		"postmortal": {
+            "trigger": "minecraft:impossible"
+        },
+		"raidin_master": {
+            "trigger": "minecraft:impossible"
+        },
+		"rebuilding_the_oceans": {
+            "trigger": "minecraft:impossible"
+        },
+		"rekt": {
+            "trigger": "minecraft:impossible"
+        },
+		"retro_future_knight": {
+            "trigger": "minecraft:impossible"
+        },
+		"riot_shield": {
+            "trigger": "minecraft:impossible"
+        },
+		"root_adventure": {
+            "trigger": "minecraft:impossible"
+        },
+		"secret_of_the_igloo": {
+            "trigger": "minecraft:impossible"
+        },
+		"shady_deals": {
+            "trigger": "minecraft:impossible"
+        },
+		"spear_fishing": {
+            "trigger": "minecraft:impossible"
+        },
+		"sponge_miner": {
+            "trigger": "minecraft:impossible"
+        },
+		"stockbroker": {
+            "trigger": "minecraft:impossible"
+        },
+		"superhero_of_the_village": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_deep_end": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_haggler": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_shielding": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_tribal_villagers": {
+            "trigger": "minecraft:impossible"
+        },
+		"tomb_raider": {
+            "trigger": "minecraft:impossible"
+        },
+		"town_planner": {
+            "trigger": "minecraft:impossible"
+        },
+		"traveller": {
+            "trigger": "minecraft:impossible"
+        },
+		"travelling_merchant": {
+            "trigger": "minecraft:impossible"
+        },
+		"treasure_map": {
+            "trigger": "minecraft:impossible"
+        },
+		"veteran_of_the_village": {
+            "trigger": "minecraft:impossible"
+        },
+		"village_settler": {
+            "trigger": "minecraft:impossible"
+        },
+		"war_is_coming": {
+            "trigger": "minecraft:impossible"
+        },
+		"were_being_attacked": {
+            "trigger": "minecraft:impossible"
+        },
+		"what_a_deal": {
+            "trigger": "minecraft:impossible"
+        },
+		"witchcraft": {
+            "trigger": "minecraft:impossible"
+        },
+		"wololo": {
+            "trigger": "minecraft:impossible"
+        },
+		"you_are_the_pillager": {
+            "trigger": "minecraft:impossible"
+        },
+        "a_horse_in_shining_armor": {
+            "trigger": "minecraft:impossible"
+        },
+        "aquarium": {
+            "trigger": "minecraft:impossible"
+        },
+		"are_we_there_yet": {
+            "trigger": "minecraft:impossible"
+        },
+		"artificial_selection": {
+            "trigger": "minecraft:impossible"
+        },
+		"bacon": {
+            "trigger": "minecraft:impossible"
+        },
+		"bee_our_guest": {
+            "trigger": "minecraft:impossible"
+        },
+		"birdkeeper": {
+            "trigger": "minecraft:impossible"
+        },
+		"blistering_barnacles": {
+            "trigger": "minecraft:impossible"
+        },
+		"bunny_lover": {
+            "trigger": "minecraft:impossible"
+        },
+		"catching_nemo": {
+            "trigger": "minecraft:impossible"
+        },
+		"chatterbox": {
+            "trigger": "minecraft:impossible"
+        },
+		"chicken_cooper": {
+            "trigger": "minecraft:impossible"
+        },
+		"colorful_cavalry": {
+            "trigger": "minecraft:impossible"
+        },
+		"cool_kids": {
+            "trigger": "minecraft:impossible"
+        },
+		"cow_tipper": {
+            "trigger": "minecraft:impossible"
+        },
+		"cowboy": {
+            "trigger": "minecraft:impossible"
+        },
+		"direct_fishing": {
+            "trigger": "minecraft:impossible"
+        },
+		"farrier": {
+            "trigger": "minecraft:impossible"
+        },
+		"fashion_statement": {
+            "trigger": "minecraft:impossible"
+        },
+		"feeding_the_chickens": {
+            "trigger": "minecraft:impossible"
+        },
+		"feeling_sheepish": {
+            "trigger": "minecraft:impossible"
+        },
+		"fishy_business": {
+            "trigger": "minecraft:impossible"
+        },
+		"fuzzy_feet": {
+            "trigger": "minecraft:impossible"
+        },
+		"getting_into_a_stew": {
+            "trigger": "minecraft:impossible"
+        },
+		"grinding_nemo": {
+            "trigger": "minecraft:impossible"
+        },
+		"have_a_shearful_day": {
+            "trigger": "minecraft:impossible"
+        },
+		"hey_look_mom": {
+            "trigger": "minecraft:impossible"
+        },
+		"high_steaks": {
+            "trigger": "minecraft:impossible"
+        },
+		"hive_mind": {
+            "trigger": "minecraft:impossible"
+        },
+		"honey_im_home": {
+            "trigger": "minecraft:impossible"
+        },
+		"horse_armorer": {
+            "trigger": "minecraft:impossible"
+        },
+		"in_a_hole_there_lived_a_rabbit": {
+            "trigger": "minecraft:impossible"
+        },
+		"leader_of_the_pack": {
+            "trigger": "minecraft:impossible"
+        },
+		"llama_llama_duck_king": {
+            "trigger": "minecraft:impossible"
+        },
+		"lucky_charm": {
+            "trigger": "minecraft:impossible"
+        },
+		"mary_had_a_little_lamb": {
+            "trigger": "minecraft:impossible"
+        },
+		"master_angler": {
+            "trigger": "minecraft:impossible"
+        },
+		"master_farrier": {
+            "trigger": "minecraft:impossible"
+        },
+		"milk_does_your_body_good": {
+            "trigger": "minecraft:impossible"
+        },
+		"mooshroom_kingdom": {
+            "trigger": "minecraft:impossible"
+        },
+		"mushroom_scientist": {
+            "trigger": "minecraft:impossible"
+        },
+		"not_the_bees": {
+            "trigger": "minecraft:impossible"
+        },
+		"overpopulation": {
+            "trigger": "minecraft:impossible"
+        },
+		"pig_slaughterer": {
+            "trigger": "minecraft:impossible"
+        },
+		"poacher": {
+            "trigger": "minecraft:impossible"
+        },
+		"pork_chop": {
+            "trigger": "minecraft:impossible"
+        },
+		"puppies_yipe": {
+            "trigger": "minecraft:impossible"
+        },
+		"rabbit_season": {
+            "trigger": "minecraft:impossible"
+        },
+		"rainbow_collection": {
+            "trigger": "minecraft:impossible"
+        },
+		"repopulation": {
+            "trigger": "minecraft:impossible"
+        },
+		"root_animal": {
+            "trigger": "minecraft:impossible"
+        },
+		"salmonella_poisoning": {
+            "trigger": "minecraft:impossible"
+        },
+		"scuttler": {
+            "trigger": "minecraft:impossible"
+        },
+		"sheariously": {
+            "trigger": "minecraft:impossible"
+        },
+		"shoe_shed": {
+            "trigger": "minecraft:impossible"
+        },
+		"snow_fox_64": {
+            "trigger": "minecraft:impossible"
+        },
+		"so_good": {
+            "trigger": "minecraft:impossible"
+        },
+		"so_i_got_that_going_for_me": {
+            "trigger": "minecraft:impossible"
+        },
+		"someones_been_here_before": {
+            "trigger": "minecraft:impossible"
+        },
+		"stay_calmer": {
+            "trigger": "minecraft:impossible"
+        },
+		"sticky_situation": {
+            "trigger": "minecraft:impossible"
+        },
+		"super_mooshroom": {
+            "trigger": "minecraft:impossible"
+        },
+		"sushi": {
+            "trigger": "minecraft:impossible"
+        },
+		"tactical_fishing": {
+            "trigger": "minecraft:impossible"
+        },
+		"theyre_breeding_like_rabbits": {
+            "trigger": "minecraft:impossible"
+        },
+		"tickle_time": {
+            "trigger": "minecraft:impossible"
+        },
+		"total_beelocation": {
+            "trigger": "minecraft:impossible"
+        },
+		"totally_not_an_afk_fisher": {
+            "trigger": "minecraft:impossible"
+        },
+		"treasure_hunter": {
+            "trigger": "minecraft:impossible"
+        },
+		"trimming_the_treetops": {
+            "trigger": "minecraft:impossible"
+        },
+		"tropical_collection": {
+            "trigger": "minecraft:impossible"
+        },
+		"true_cow_tipper": {
+            "trigger": "minecraft:impossible"
+        },
+		"turtle_army": {
+            "trigger": "minecraft:impossible"
+        },
+		"turtle_soldier": {
+            "trigger": "minecraft:impossible"
+        },
+		"what_a_piece_of_junk": {
+            "trigger": "minecraft:impossible"
+        },
+		"what_does_the_fox_say": {
+            "trigger": "minecraft:impossible"
+        },
+		"when_pigs_used_to_fly": {
+            "trigger": "minecraft:impossible"
+        },
+		"wheres_the_honey_lebowski": {
+            "trigger": "minecraft:impossible"
+        },
+		"which_came_first": {
+            "trigger": "minecraft:impossible"
+        },
+		"winnie_the_pooh": {
+            "trigger": "minecraft:impossible"
+        },
+		"wooly": {
+            "trigger": "minecraft:impossible"
+        },
+		"ya_like_jazz": {
+            "trigger": "minecraft:impossible"
+        },
+		"yay_deadbush": {
+            "trigger": "minecraft:impossible"
+        },
+		"you_lead_ill_follow": {
+            "trigger": "minecraft:impossible"
+        },
+        "adventuring_time": {
+            "trigger": "minecraft:impossible"
+        },
+        "atlantis": {
+            "trigger": "minecraft:impossible"
+        },
+		"bamboom": {
+            "trigger": "minecraft:impossible"
+        },
+		"boaty_mcboatface": {
+            "trigger": "minecraft:impossible"
+        },
+		"cold_feet": {
+            "trigger": "minecraft:impossible"
+        },
+		"construction_worker": {
+            "trigger": "minecraft:impossible"
+        },
+		"dolphin_dasher": {
+            "trigger": "minecraft:impossible"
+        },
+		"enchanted_forest": {
+            "trigger": "minecraft:impossible"
+        },
+		"eskimo": {
+            "trigger": "minecraft:impossible"
+        },
+		"everybody_loves_ice": {
+            "trigger": "minecraft:impossible"
+        },
+		"explorer_of_worlds": {
+            "trigger": "minecraft:impossible"
+        },
+		"flower_power": {
+            "trigger": "minecraft:impossible"
+        },
+		"for_you_my_sweet": {
+            "trigger": "minecraft:impossible"
+        },
+		"free_diver": {
+            "trigger": "minecraft:impossible"
+        },
+		"get_ship_rekt": {
+            "trigger": "minecraft:impossible"
+        },
+		"in_a_pickle": {
+            "trigger": "minecraft:impossible"
+        },
+		"just_a_sample": {
+            "trigger": "minecraft:impossible"
+        },
+		"just_keep_swimming": {
+            "trigger": "minecraft:impossible"
+        },
+		"kilometre_walk": {
+            "trigger": "minecraft:impossible"
+        },
+		"kung_fu_panda": {
+            "trigger": "minecraft:impossible"
+        },
+		"no_reefing": {
+            "trigger": "minecraft:impossible"
+        },
+		"one_with_the_forest": {
+            "trigger": "minecraft:impossible"
+        },
+		"overgrown": {
+            "trigger": "minecraft:impossible"
+        },
+		"power_of_the_ocean": {
+            "trigger": "minecraft:impossible"
+        },
+		"pushed_around": {
+            "trigger": "minecraft:impossible"
+        },
+		"qinling": {
+            "trigger": "minecraft:impossible"
+        },
+		"root_biomes": {
+            "trigger": "minecraft:impossible"
+        },
+		"simba": {
+            "trigger": "minecraft:impossible"
+        },
+		"sleep_with_the_fishes": {
+            "trigger": "minecraft:impossible"
+        },
+		"snow_feet": {
+            "trigger": "minecraft:impossible"
+        },
+		"spike_ice": {
+            "trigger": "minecraft:impossible"
+        },
+		"tarzan": {
+            "trigger": "minecraft:impossible"
+        },
+		"ten_thousand_blocks": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_great_blocky_reef": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_mighty_jungle": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_sea_calls_you": {
+            "trigger": "minecraft:impossible"
+        },
+		"theres_a_zombie_on_the_lawn": {
+            "trigger": "minecraft:impossible"
+        },
+		"thick_ice": {
+            "trigger": "minecraft:impossible"
+        },
+		"thin_ice": {
+            "trigger": "minecraft:impossible"
+        },
+		"titanic": {
+            "trigger": "minecraft:impossible"
+        },
+		"top_of_the_world": {
+            "trigger": "minecraft:impossible"
+        },
+		"voyage": {
+            "trigger": "minecraft:impossible"
+        },
+		"warm_feet": {
+            "trigger": "minecraft:impossible"
+        },
+		"wet_feet": {
+            "trigger": "minecraft:impossible"
+        },
+		"x_marks_the_spot": {
+            "trigger": "minecraft:impossible"
+        },
+		"zoologist": {
+            "trigger": "minecraft:impossible"
+        },
+        "a_masterpiece": {
+            "trigger": "minecraft:impossible"
+        },
+        "ah_my_old_enemy": {
+            "trigger": "minecraft:impossible"
+        },
+		"and_open": {
+            "trigger": "minecraft:impossible"
+        },
+		"art_gallery": {
+            "trigger": "minecraft:impossible"
+        },
+		"barking_mad": {
+            "trigger": "minecraft:impossible"
+        },
+		"barrel_rider": {
+            "trigger": "minecraft:impossible"
+        },
+		"bricks": {
+            "trigger": "minecraft:impossible"
+        },
+		"change_of_sheets": {
+            "trigger": "minecraft:impossible"
+        },
+		"classy_glassy": {
+            "trigger": "minecraft:impossible"
+        },
+		"clay_dough": {
+            "trigger": "minecraft:impossible"
+        },
+		"concrete_evidence": {
+            "trigger": "minecraft:impossible"
+        },
+		"crazy_walls": {
+            "trigger": "minecraft:impossible"
+        },
+		"creepers_and_withers": {
+            "trigger": "minecraft:impossible"
+        },
+		"cut_in_half": {
+            "trigger": "minecraft:impossible"
+        },
+		"display_your_items_for_all_to_see": {
+            "trigger": "minecraft:impossible"
+        },
+		"electric": {
+            "trigger": "minecraft:impossible"
+        },
+		"en_garde": {
+            "trigger": "minecraft:impossible"
+        },
+		"expensive": {
+            "trigger": "minecraft:impossible"
+        },
+		"fake_fortress": {
+            "trigger": "minecraft:impossible"
+        },
+		"fake_monument": {
+            "trigger": "minecraft:impossible"
+        },
+		"fake_stronghold": {
+            "trigger": "minecraft:impossible"
+        },
+		"festival_of_lights": {
+            "trigger": "minecraft:impossible"
+        },
+		"fluorescent": {
+            "trigger": "minecraft:impossible"
+        },
+		"fruit_of_the_looms": {
+            "trigger": "minecraft:impossible"
+        },
+		"glowing": {
+            "trigger": "minecraft:impossible"
+        },
+		"greek_art_decor": {
+            "trigger": "minecraft:impossible"
+        },
+		"halloween": {
+            "trigger": "minecraft:impossible"
+        },
+		"i_dont_like_sand": {
+            "trigger": "minecraft:impossible"
+        },
+		"insomniac": {
+            "trigger": "minecraft:impossible"
+        },
+		"its_a_sign": {
+            "trigger": "minecraft:impossible"
+        },
+		"its_a_trap": {
+            "trigger": "minecraft:impossible"
+        },
+		"jailhouse_block": {
+            "trigger": "minecraft:impossible"
+        },
+		"ladder_climbers_inc": {
+            "trigger": "minecraft:impossible"
+        },
+		"lost_its_bark": {
+            "trigger": "minecraft:impossible"
+        },
+		"mannequin": {
+            "trigger": "minecraft:impossible"
+        },
+		"master_logger": {
+            "trigger": "minecraft:impossible"
+        },
+		"no_banner_only_color": {
+            "trigger": "minecraft:impossible"
+        },
+		"pathways": {
+            "trigger": "minecraft:impossible"
+        },
+		"pot_planter": {
+            "trigger": "minecraft:impossible"
+        },
+		"prepare_to_meet_your_loom": {
+            "trigger": "minecraft:impossible"
+        },
+		"professor_birch": {
+            "trigger": "minecraft:impossible"
+        },
+		"professor_dark_oak": {
+            "trigger": "minecraft:impossible"
+        },
+		"professor_oak": {
+            "trigger": "minecraft:impossible"
+        },
+		"rainbow_dreams": {
+            "trigger": "minecraft:impossible"
+        },
+		"rainbow_sand": {
+            "trigger": "minecraft:impossible"
+        },
+		"raise_the_flag": {
+            "trigger": "minecraft:impossible"
+        },
+		"rock_collection": {
+            "trigger": "minecraft:impossible"
+        },
+		"root_building": {
+            "trigger": "minecraft:impossible"
+        },
+		"slabs_for_days": {
+            "trigger": "minecraft:impossible"
+        },
+		"speech_speech_speech": {
+            "trigger": "minecraft:impossible"
+        },
+		"spruce_lee": {
+            "trigger": "minecraft:impossible"
+        },
+		"stairs_no": {
+            "trigger": "minecraft:impossible"
+        },
+		"stationary_storage": {
+            "trigger": "minecraft:impossible"
+        },
+		"stripper": {
+            "trigger": "minecraft:impossible"
+        },
+		"sweet_dreams": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_acacia_king": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_glazed_terracotta_army": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_jungler": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_rainbow_you_always_wanted": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_terracotta_army": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_walls": {
+            "trigger": "minecraft:impossible"
+        },
+		"torched": {
+            "trigger": "minecraft:impossible"
+        },
+		"translucence": {
+            "trigger": "minecraft:impossible"
+        },
+		"what_a_pane": {
+            "trigger": "minecraft:impossible"
+        },
+		"yay_i_got_my_wood": {
+            "trigger": "minecraft:impossible"
+        },
+		"your_door_was_locked": {
+            "trigger": "minecraft:impossible"
+        },
+        "a_million_blocks_away": {
+            "trigger": "minecraft:impossible"
+        },
+        "abyss_lord": {
+            "trigger": "minecraft:impossible"
+        },
+		"all_the_blocks": {
+            "trigger": "minecraft:impossible"
+        },
+		"all_the_items": {
+            "trigger": "minecraft:impossible"
+        },
+		"biological_warfare": {
+            "trigger": "minecraft:impossible"
+        },
+		"creepergeddon": {
+            "trigger": "minecraft:impossible"
+        },
+		"death_from_all": {
+            "trigger": "minecraft:impossible"
+        },
+		"dragon_army": {
+            "trigger": "minecraft:impossible"
+        },
+		"dragon_vs_dragon_ii_electric_boogaloo": {
+            "trigger": "minecraft:impossible"
+        },
+		"endergeddon": {
+            "trigger": "minecraft:impossible"
+        },
+		"global_vaccination": {
+            "trigger": "minecraft:impossible"
+        },
+		"highway_to_hell": {
+            "trigger": "minecraft:impossible"
+        },
+		"im_in_space": {
+            "trigger": "minecraft:impossible"
+        },
+		"immortal": {
+            "trigger": "minecraft:impossible"
+        },
+		"nuclear_fusion": {
+            "trigger": "minecraft:impossible"
+        },
+		"potion_master": {
+            "trigger": "minecraft:impossible"
+        },
+		"rise_of_the_skeletons": {
+            "trigger": "minecraft:impossible"
+        },
+		"root_challenges": {
+            "trigger": "minecraft:impossible"
+        },
+		"stack_all_the_blocks": {
+            "trigger": "minecraft:impossible"
+        },
+		"stack_all_the_items": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_world_is_ending": {
+            "trigger": "minecraft:impossible"
+        },
+		"warlock": {
+            "trigger": "minecraft:impossible"
+        },
+		"were_in_the_endgame_now": {
+            "trigger": "minecraft:impossible"
+        },
+		"zombie_apocalypse": {
+            "trigger": "minecraft:impossible"
+        },
+        "arbalistic": {
+            "trigger": "minecraft:impossible"
+        },
+        "armor_for_the_masses": {
+            "trigger": "minecraft:impossible"
+        },
+		"bane_of_one_shotting_spiders": {
+            "trigger": "minecraft:impossible"
+        },
+		"boomerang": {
+            "trigger": "minecraft:impossible"
+        },
+		"bow_down_to_me": {
+            "trigger": "minecraft:impossible"
+        },
+		"complete_enchanter": {
+            "trigger": "minecraft:impossible"
+        },
+		"curses": {
+            "trigger": "minecraft:impossible"
+        },
+		"do_a_barrel_roll": {
+            "trigger": "minecraft:impossible"
+        },
+		"emerald_miner": {
+            "trigger": "minecraft:impossible"
+        },
+		"fiery": {
+            "trigger": "minecraft:impossible"
+        },
+		"fortunate_son": {
+            "trigger": "minecraft:impossible"
+        },
+		"knocking_your_socks_off": {
+            "trigger": "minecraft:impossible"
+        },
+		"let_it_go": {
+            "trigger": "minecraft:impossible"
+        },
+		"librarian": {
+            "trigger": "minecraft:impossible"
+        },
+		"like_a_cat": {
+            "trigger": "minecraft:impossible"
+        },
+		"machine_bow": {
+            "trigger": "minecraft:impossible"
+        },
+		"magical_stockpile": {
+            "trigger": "minecraft:impossible"
+        },
+		"master_arbalist": {
+            "trigger": "minecraft:impossible"
+        },
+		"master_armorer": {
+            "trigger": "minecraft:impossible"
+        },
+		"master_enchanter": {
+            "trigger": "minecraft:impossible"
+        },
+		"master_fisher": {
+            "trigger": "minecraft:impossible"
+        },
+		"master_knight": {
+            "trigger": "minecraft:impossible"
+        },
+		"master_miner": {
+            "trigger": "minecraft:impossible"
+        },
+		"master_sniper": {
+            "trigger": "minecraft:impossible"
+        },
+		"master_tridenteer": {
+            "trigger": "minecraft:impossible"
+        },
+		"needle_sharp": {
+            "trigger": "minecraft:impossible"
+        },
+		"newtons_flaming_laser_sword": {
+            "trigger": "minecraft:impossible"
+        },
+		"old_cartoon_joke": {
+            "trigger": "minecraft:impossible"
+        },
+		"overkill": {
+            "trigger": "minecraft:impossible"
+        },
+		"pick_like_silk": {
+            "trigger": "minecraft:impossible"
+        },
+		"root_enchanting": {
+            "trigger": "minecraft:impossible"
+        },
+		"scuba_gear": {
+            "trigger": "minecraft:impossible"
+        },
+		"shotbow": {
+            "trigger": "minecraft:impossible"
+        },
+		"super_efficient": {
+            "trigger": "minecraft:impossible"
+        },
+		"to_infinity_and_beyond": {
+            "trigger": "minecraft:impossible"
+        },
+		"ultimate_enchanter": {
+            "trigger": "minecraft:impossible"
+        },
+		"unbreakable": {
+            "trigger": "minecraft:impossible"
+        },
+		"undead_slayer": {
+            "trigger": "minecraft:impossible"
+        },
+		"very_very_frightening": {
+            "trigger": "minecraft:impossible"
+        },
+		"zeus": {
+            "trigger": "minecraft:impossible"
+        },
+        "anti_gravity_generator": {
+            "trigger": "minecraft:impossible"
+        },
+        "cow_jumped_over_the_moon": {
+            "trigger": "minecraft:impossible"
+        },
+		"dragon_shield": {
+            "trigger": "minecraft:impossible"
+        },
+		"dragon_vs_dragon": {
+            "trigger": "minecraft:impossible"
+        },
+		"end_bricks": {
+            "trigger": "minecraft:impossible"
+        },
+		"event_horizon": {
+            "trigger": "minecraft:impossible"
+        },
+		"extrabiologist": {
+            "trigger": "minecraft:impossible"
+        },
+		"for_mother_clarence": {
+            "trigger": "minecraft:impossible"
+        },
+		"free_the_end": {
+            "trigger": "minecraft:impossible"
+        },
+		"getting_chorus": {
+            "trigger": "minecraft:impossible"
+        },
+		"great_view_from_up_here": {
+            "trigger": "minecraft:impossible"
+        },
+		"im_coming_back_murph": {
+            "trigger": "minecraft:impossible"
+        },
+		"no_dont_let_me_leave_murph": {
+            "trigger": "minecraft:impossible"
+        },
+		"off_with_his_head": {
+            "trigger": "minecraft:impossible"
+        },
+		"portable_storage": {
+            "trigger": "minecraft:impossible"
+        },
+		"purpurfect": {
+            "trigger": "minecraft:impossible"
+        },
+		"remote_getaway": {
+            "trigger": "minecraft:impossible"
+        },
+		"rocketman": {
+            "trigger": "minecraft:impossible"
+        },
+		"root_end": {
+            "trigger": "minecraft:impossible"
+        },
+		"shouldnt_my_shield_levitate_too": {
+            "trigger": "minecraft:impossible"
+        },
+		"shulker_breaker": {
+            "trigger": "minecraft:impossible"
+        },
+		"sky_high": {
+            "trigger": "minecraft:impossible"
+        },
+		"skys_the_limit": {
+            "trigger": "minecraft:impossible"
+        },
+		"some_breakthrough": {
+            "trigger": "minecraft:impossible"
+        },
+		"somewhere_over_the_rainbow": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_actual_end": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_beginning": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_city_at_the_end_of_the_game": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_end_again": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_next_generation": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_point_of_no_return": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_start_of_something": {
+            "trigger": "minecraft:impossible"
+        },
+		"uh_houston_we_have_a_problem": {
+            "trigger": "minecraft:impossible"
+        },
+		"void_walker": {
+            "trigger": "minecraft:impossible"
+        },
+        "24_carrot_gold": {
+            "trigger": "minecraft:impossible"
+        },
+        "a_balanced_diet": {
+            "trigger": "minecraft:impossible"
+        },
+		"a_seedy_place": {
+            "trigger": "minecraft:impossible"
+        },
+		"an_amazing_story": {
+            "trigger": "minecraft:impossible"
+        },
+		"aquatic_biofuel": {
+            "trigger": "minecraft:impossible"
+        },
+		"bake_bread": {
+            "trigger": "minecraft:impossible"
+        },
+		"bapple": {
+            "trigger": "minecraft:impossible"
+        },
+		"berry_nice": {
+            "trigger": "minecraft:impossible"
+        },
+		"breaking_the_law_of_conservation_of_matter": {
+            "trigger": "minecraft:impossible"
+        },
+		"care_for_the_environment": {
+            "trigger": "minecraft:impossible"
+        },
+		"castaway": {
+            "trigger": "minecraft:impossible"
+        },
+		"die_potato": {
+            "trigger": "minecraft:impossible"
+        },
+		"disen_berry_berry_bad": {
+            "trigger": "minecraft:impossible"
+        },
+		"do_you_want_to_build_a_snowman": {
+            "trigger": "minecraft:impossible"
+        },
+		"ecologist": {
+            "trigger": "minecraft:impossible"
+        },
+		"full_stomach": {
+            "trigger": "minecraft:impossible"
+        },
+		"hay_there": {
+            "trigger": "minecraft:impossible"
+        },
+		"im_gonna_be_sick": {
+            "trigger": "minecraft:impossible"
+        },
+		"its_a_cactus": {
+            "trigger": "minecraft:impossible"
+        },
+		"its_full_of_ink": {
+            "trigger": "minecraft:impossible"
+        },
+		"its_where_nutella_comes_from": {
+            "trigger": "minecraft:impossible"
+        },
+		"kelp_me": {
+            "trigger": "minecraft:impossible"
+        },
+		"me_love_cookie": {
+            "trigger": "minecraft:impossible"
+        },
+		"meat_lovers": {
+            "trigger": "minecraft:impossible"
+        },
+		"mega_mushroom": {
+            "trigger": "minecraft:impossible"
+        },
+		"mushroom_mushroom_mushroom_mushroom": {
+            "trigger": "minecraft:impossible"
+        },
+		"must_be_your_birthday": {
+            "trigger": "minecraft:impossible"
+        },
+		"naturally_carved": {
+            "trigger": "minecraft:impossible"
+        },
+		"not_today": {
+            "trigger": "minecraft:impossible"
+        },
+		"pumpa_kungen": {
+            "trigger": "minecraft:impossible"
+        },
+		"root_farming": {
+            "trigger": "minecraft:impossible"
+        },
+		"serious_dedication": {
+            "trigger": "minecraft:impossible"
+        },
+		"shrooms": {
+            "trigger": "minecraft:impossible"
+        },
+		"souperman": {
+            "trigger": "minecraft:impossible"
+        },
+		"spikey": {
+            "trigger": "minecraft:impossible"
+        },
+		"sugar_sugar": {
+            "trigger": "minecraft:impossible"
+        },
+		"suspicious_looking_stew": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_garbage_will_do": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_lie": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_melon_the_melon_the_melon": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_meloncholy_dane": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_pie": {
+            "trigger": "minecraft:impossible"
+        },
+		"ultra_hardcore": {
+            "trigger": "minecraft:impossible"
+        },
+		"undersea_gardener": {
+            "trigger": "minecraft:impossible"
+        },
+		"vegetarian": {
+            "trigger": "minecraft:impossible"
+        },
+		"write_your_thoughts": {
+            "trigger": "minecraft:impossible"
+        },
+        "acquire_hardware": {
+            "trigger": "minecraft:impossible"
+        },
+        "beethoven": {
+            "trigger": "minecraft:impossible"
+        },
+		"blast_it": {
+            "trigger": "minecraft:impossible"
+        },
+		"bling_bling_gone": {
+            "trigger": "minecraft:impossible"
+        },
+		"bubble_bubble_toil_and_trouble": {
+            "trigger": "minecraft:impossible"
+        },
+		"camping_out": {
+            "trigger": "minecraft:impossible"
+        },
+		"chestful_of_cobblestone": {
+            "trigger": "minecraft:impossible"
+        },
+		"classic_pocket_edition_block": {
+            "trigger": "minecraft:impossible"
+        },
+		"coal_miner": {
+            "trigger": "minecraft:impossible"
+        },
+		"cover_me_with_diamonds": {
+            "trigger": "minecraft:impossible"
+        },
+		"diamond_clad": {
+            "trigger": "minecraft:impossible"
+        },
+		"diamond_miner": {
+            "trigger": "minecraft:impossible"
+        },
+		"diamonds": {
+            "trigger": "minecraft:impossible"
+        },
+		"eeuuwww": {
+            "trigger": "minecraft:impossible"
+        },
+		"enchanter": {
+            "trigger": "minecraft:impossible"
+        },
+		"even_moar_tools": {
+            "trigger": "minecraft:impossible"
+        },
+		"flint_miner": {
+            "trigger": "minecraft:impossible"
+        },
+		"fossil_fuel": {
+            "trigger": "minecraft:impossible"
+        },
+		"getting_an_upgrade": {
+            "trigger": "minecraft:impossible"
+        },
+		"gold_mine": {
+            "trigger": "minecraft:impossible"
+        },
+		"gold_miner": {
+            "trigger": "minecraft:impossible"
+        },
+		"gold_rush": {
+            "trigger": "minecraft:impossible"
+        },
+		"heart_of_darkness": {
+            "trigger": "minecraft:impossible"
+        },
+		"hot_stuff": {
+            "trigger": "minecraft:impossible"
+        },
+		"hot_topic": {
+            "trigger": "minecraft:impossible"
+        },
+		"ice_bucket_challenge": {
+            "trigger": "minecraft:impossible"
+        },
+		"iconic_merchandising_prop": {
+            "trigger": "minecraft:impossible"
+        },
+		"iron_man": {
+            "trigger": "minecraft:impossible"
+        },
+		"iron_miner": {
+            "trigger": "minecraft:impossible"
+        },
+		"isnt_it_iron_pick": {
+            "trigger": "minecraft:impossible"
+        },
+		"its_original_form": {
+            "trigger": "minecraft:impossible"
+        },
+		"lapis_lazuli_miner": {
+            "trigger": "minecraft:impossible"
+        },
+		"living_like_kings": {
+            "trigger": "minecraft:impossible"
+        },
+		"master_coal_miner": {
+            "trigger": "minecraft:impossible"
+        },
+		"master_diamond_miner": {
+            "trigger": "minecraft:impossible"
+        },
+		"master_gold_miner": {
+            "trigger": "minecraft:impossible"
+        },
+		"master_iron_miner": {
+            "trigger": "minecraft:impossible"
+        },
+		"meet_the_flintstones": {
+            "trigger": "minecraft:impossible"
+        },
+		"mineral_collection": {
+            "trigger": "minecraft:impossible"
+        },
+		"moar_broken_tools": {
+            "trigger": "minecraft:impossible"
+        },
+		"moar_tools": {
+            "trigger": "minecraft:impossible"
+        },
+		"my_work_here_is_done": {
+            "trigger": "minecraft:impossible"
+        },
+		"nananananananana": {
+            "trigger": "minecraft:impossible"
+        },
+		"not_chicken_mcnuggets": {
+            "trigger": "minecraft:impossible"
+        },
+		"not_for_creating_copies_of_yourself": {
+            "trigger": "minecraft:impossible"
+        },
+		"obsidian_miner": {
+            "trigger": "minecraft:impossible"
+        },
+		"oh_noes": {
+            "trigger": "minecraft:impossible"
+        },
+		"redstone_miner": {
+            "trigger": "minecraft:impossible"
+        },
+		"renewable_energy": {
+            "trigger": "minecraft:impossible"
+        },
+		"rest_in_pickaxes": {
+            "trigger": "minecraft:impossible"
+        },
+		"rock_bottom": {
+            "trigger": "minecraft:impossible"
+        },
+		"root_mining": {
+            "trigger": "minecraft:impossible"
+        },
+		"seeing_red": {
+            "trigger": "minecraft:impossible"
+        },
+		"sharpening_station": {
+            "trigger": "minecraft:impossible"
+        },
+		"smokin_hot": {
+            "trigger": "minecraft:impossible"
+        },
+		"smooth_dude": {
+            "trigger": "minecraft:impossible"
+        },
+		"spawn_camping": {
+            "trigger": "minecraft:impossible"
+        },
+		"spelunker": {
+            "trigger": "minecraft:impossible"
+        },
+		"stabcraft": {
+            "trigger": "minecraft:impossible"
+        },
+		"stone_age": {
+            "trigger": "minecraft:impossible"
+        },
+		"suit_up": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_mistake": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_way_to_spawn": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_wrong_shade_of_blue": {
+            "trigger": "minecraft:impossible"
+        },
+		"this_is_mine_now": {
+            "trigger": "minecraft:impossible"
+        },
+		"washing_machine": {
+            "trigger": "minecraft:impossible"
+        },
+		"we_need_to_go_deeper": {
+            "trigger": "minecraft:impossible"
+        },
+		"weve_broken_our_last_shovel": {
+            "trigger": "minecraft:impossible"
+        },
+		"whats_the_time_mr_wolf": {
+            "trigger": "minecraft:impossible"
+        },
+		"where_are_all_your_clothes": {
+            "trigger": "minecraft:impossible"
+        },
+        "a_watery_grave": {
+            "trigger": "minecraft:impossible"
+        },
+        "anti_air": {
+            "trigger": "minecraft:impossible"
+        },
+		"aww_man": {
+            "trigger": "minecraft:impossible"
+        },
+		"baby_baby_baby_noo": {
+            "trigger": "minecraft:impossible"
+        },
+		"because_im_aquaman": {
+            "trigger": "minecraft:impossible"
+        },
+		"blast_shield": {
+            "trigger": "minecraft:impossible"
+        },
+		"boned": {
+            "trigger": "minecraft:impossible"
+        },
+		"camouflage": {
+            "trigger": "minecraft:impossible"
+        },
+		"captain_etho": {
+            "trigger": "minecraft:impossible"
+        },
+		"creeper_killer": {
+            "trigger": "minecraft:impossible"
+        },
+		"creepy_heads": {
+            "trigger": "minecraft:impossible"
+        },
+		"custom_boss_fight": {
+            "trigger": "minecraft:impossible"
+        },
+		"dead_dont_die": {
+            "trigger": "minecraft:impossible"
+        },
+		"desert_nomad": {
+            "trigger": "minecraft:impossible"
+        },
+		"dungeon_crawler": {
+            "trigger": "minecraft:impossible"
+        },
+		"ender_worm": {
+            "trigger": "minecraft:impossible"
+        },
+		"enderman_destroyer": {
+            "trigger": "minecraft:impossible"
+        },
+		"ew_ew_ew": {
+            "trigger": "minecraft:impossible"
+        },
+		"freezing": {
+            "trigger": "minecraft:impossible"
+        },
+		"frosty": {
+            "trigger": "minecraft:impossible"
+        },
+		"gelatinous_cube": {
+            "trigger": "minecraft:impossible"
+        },
+		"handsome_jack": {
+            "trigger": "minecraft:impossible"
+        },
+		"hell_hunter": {
+            "trigger": "minecraft:impossible"
+        },
+		"iron_belly": {
+            "trigger": "minecraft:impossible"
+        },
+		"iskallium_collector": {
+            "trigger": "minecraft:impossible"
+        },
+		"keep_your_distance": {
+            "trigger": "minecraft:impossible"
+        },
+		"legend_of_the_hell_chicken_rider": {
+            "trigger": "minecraft:impossible"
+        },
+		"melting": {
+            "trigger": "minecraft:impossible"
+        },
+		"mollusc_man": {
+            "trigger": "minecraft:impossible"
+        },
+		"monster_hunter": {
+            "trigger": "minecraft:impossible"
+        },
+		"monsters_hunted": {
+            "trigger": "minecraft:impossible"
+        },
+		"night_runner": {
+            "trigger": "minecraft:impossible"
+        },
+		"not_today_thank_you": {
+            "trigger": "minecraft:impossible"
+        },
+		"ooh_baby": {
+            "trigger": "minecraft:impossible"
+        },
+		"phantom_slayer": {
+            "trigger": "minecraft:impossible"
+        },
+		"plane_walker": {
+            "trigger": "minecraft:impossible"
+        },
+		"poisonous_ew": {
+            "trigger": "minecraft:impossible"
+        },
+		"ricochet_swoop": {
+            "trigger": "minecraft:impossible"
+        },
+		"root_monsters": {
+            "trigger": "minecraft:impossible"
+        },
+		"skeleton_smiter": {
+            "trigger": "minecraft:impossible"
+        },
+		"slime_squisher": {
+            "trigger": "minecraft:impossible"
+        },
+		"spider_skeleton": {
+            "trigger": "minecraft:impossible"
+        },
+		"spider_smasher": {
+            "trigger": "minecraft:impossible"
+        },
+		"spooky_skeleton": {
+            "trigger": "minecraft:impossible"
+        },
+		"spooky_skulls": {
+            "trigger": "minecraft:impossible"
+        },
+		"still_talking": {
+            "trigger": "minecraft:impossible"
+        },
+		"taste_of_your_own_medicine": {
+            "trigger": "minecraft:impossible"
+        },
+		"tele_morph": {
+            "trigger": "minecraft:impossible"
+        },
+		"termite_control": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_ender_of_ender": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_ghastly_eyes": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_phantom_menace": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_undead_cavalry": {
+            "trigger": "minecraft:impossible"
+        },
+		"there_has_to_be_another_way": {
+            "trigger": "minecraft:impossible"
+        },
+		"trampoline": {
+            "trigger": "minecraft:impossible"
+        },
+		"trick_or_treat": {
+            "trigger": "minecraft:impossible"
+        },
+		"tridented_shield": {
+            "trigger": "minecraft:impossible"
+        },
+		"two_birds_one_arrow": {
+            "trigger": "minecraft:impossible"
+        },
+		"void_ender": {
+            "trigger": "minecraft:impossible"
+        },
+		"well_handle_this": {
+            "trigger": "minecraft:impossible"
+        },
+		"what_a_creep": {
+            "trigger": "minecraft:impossible"
+        },
+		"witch": {
+            "trigger": "minecraft:impossible"
+        },
+		"zombie_slayer": {
+            "trigger": "minecraft:impossible"
+        },
+        "a_terrible_fortress": {
+            "trigger": "minecraft:impossible"
+        },
+        "basis_of_brewing": {
+            "trigger": "minecraft:impossible"
+        },
+		"beaconator": {
+            "trigger": "minecraft:impossible"
+        },
+		"blaze_extinguisher": {
+            "trigger": "minecraft:impossible"
+        },
+		"bring_down_the_beast": {
+            "trigger": "minecraft:impossible"
+        },
+		"bring_home_the_beacon": {
+            "trigger": "minecraft:impossible"
+        },
+		"decaying_beauty": {
+            "trigger": "minecraft:impossible"
+        },
+		"dont_step_on_it": {
+            "trigger": "minecraft:impossible"
+        },
+		"enders_chest": {
+            "trigger": "minecraft:impossible"
+        },
+		"eye_spy": {
+            "trigger": "minecraft:impossible"
+        },
+		"fire_blast_shield": {
+            "trigger": "minecraft:impossible"
+        },
+		"ghast_slayer": {
+            "trigger": "minecraft:impossible"
+        },
+		"giant_floating_jellyfish": {
+            "trigger": "minecraft:impossible"
+        },
+		"glows_in_the_dark": {
+            "trigger": "minecraft:impossible"
+        },
+		"glowstone_miner": {
+            "trigger": "minecraft:impossible"
+        },
+		"hells_bells": {
+            "trigger": "minecraft:impossible"
+        },
+		"high_temperature_fluid_monster": {
+            "trigger": "minecraft:impossible"
+        },
+		"im_in_lava_with_you": {
+            "trigger": "minecraft:impossible"
+        },
+		"into_fire": {
+            "trigger": "minecraft:impossible"
+        },
+		"limbo_walker": {
+            "trigger": "minecraft:impossible"
+        },
+		"local_brewery": {
+            "trigger": "minecraft:impossible"
+        },
+		"magma_cube_squisher": {
+            "trigger": "minecraft:impossible"
+        },
+		"quicksand": {
+            "trigger": "minecraft:impossible"
+        },
+		"return_to_sender": {
+            "trigger": "minecraft:impossible"
+        },
+		"root_nether": {
+            "trigger": "minecraft:impossible"
+        },
+		"seeing_stars": {
+            "trigger": "minecraft:impossible"
+        },
+		"spooky_scary_skeleton": {
+            "trigger": "minecraft:impossible"
+        },
+		"subspace_bubble": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_end": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_hunt_begins": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_nethers_shield": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_tribal_snouts": {
+            "trigger": "minecraft:impossible"
+        },
+		"uneasy_alliance": {
+            "trigger": "minecraft:impossible"
+        },
+		"withering_heights": {
+            "trigger": "minecraft:impossible"
+        },
+        "a_furious_cocktail": {
+            "trigger": "minecraft:impossible"
+        },
+        "a_furious_test_subject": {
+            "trigger": "minecraft:impossible"
+        },
+		"a_much_more_doable_challenge": {
+            "trigger": "minecraft:impossible"
+        },
+		"a_weak_brew": {
+            "trigger": "minecraft:impossible"
+        },
+		"death_by_magic": {
+            "trigger": "minecraft:impossible"
+        },
+		"furious_ammunition": {
+            "trigger": "minecraft:impossible"
+        },
+		"gas": {
+            "trigger": "minecraft:impossible"
+        },
+		"hopping_mad": {
+            "trigger": "minecraft:impossible"
+        },
+		"how_did_we_get_here": {
+            "trigger": "minecraft:impossible"
+        },
+		"hyper_healing": {
+            "trigger": "minecraft:impossible"
+        },
+		"i_need_healing": {
+            "trigger": "minecraft:impossible"
+        },
+		"mad_scientist": {
+            "trigger": "minecraft:impossible"
+        },
+		"marine_marauder": {
+            "trigger": "minecraft:impossible"
+        },
+		"nocturnal": {
+            "trigger": "minecraft:impossible"
+        },
+		"noxious_fumes": {
+            "trigger": "minecraft:impossible"
+        },
+		"performance_enhancing_drugs": {
+            "trigger": "minecraft:impossible"
+        },
+		"poison_dart": {
+            "trigger": "minecraft:impossible"
+        },
+		"root_potion": {
+            "trigger": "minecraft:impossible"
+        },
+		"stayin_frosty": {
+            "trigger": "minecraft:impossible"
+        },
+		"super_strength": {
+            "trigger": "minecraft:impossible"
+        },
+		"tank": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_invisible_player": {
+            "trigger": "minecraft:impossible"
+        },
+		"true_feather_falling": {
+            "trigger": "minecraft:impossible"
+        },
+		"you_need_a_mint": {
+            "trigger": "minecraft:impossible"
+        },
+		"zombie_doctor": {
+            "trigger": "minecraft:impossible"
+        },
+        "bling_plate": {
+            "trigger": "minecraft:impossible"
+        },
+        "comparing_comparator": {
+            "trigger": "minecraft:impossible"
+        },
+		"completely_useless_fuel_engine": {
+            "trigger": "minecraft:impossible"
+        },
+		"dispense_with_this": {
+            "trigger": "minecraft:impossible"
+        },
+		"electric_rails": {
+            "trigger": "minecraft:impossible"
+        },
+		"engineer": {
+            "trigger": "minecraft:impossible"
+        },
+		"master_engineer": {
+            "trigger": "minecraft:impossible"
+        },
+		"metal_plate": {
+            "trigger": "minecraft:impossible"
+        },
+		"mobile_explosion": {
+            "trigger": "minecraft:impossible"
+        },
+		"moving_moving_storage": {
+            "trigger": "minecraft:impossible"
+        },
+		"moving_parts": {
+            "trigger": "minecraft:impossible"
+        },
+		"moving_storage": {
+            "trigger": "minecraft:impossible"
+        },
+		"mozart": {
+            "trigger": "minecraft:impossible"
+        },
+		"observer_buddy": {
+            "trigger": "minecraft:impossible"
+        },
+		"on_a_rail": {
+            "trigger": "minecraft:impossible"
+        },
+		"powerful_light": {
+            "trigger": "minecraft:impossible"
+        },
+		"pressure_detector": {
+            "trigger": "minecraft:impossible"
+        },
+		"quartz_miner": {
+            "trigger": "minecraft:impossible"
+        },
+		"quirky_quartz": {
+            "trigger": "minecraft:impossible"
+        },
+		"railwayman": {
+            "trigger": "minecraft:impossible"
+        },
+		"repeating_repeater": {
+            "trigger": "minecraft:impossible"
+        },
+		"root_redstone": {
+            "trigger": "minecraft:impossible"
+        },
+		"solar_power": {
+            "trigger": "minecraft:impossible"
+        },
+		"space_dropper": {
+            "trigger": "minecraft:impossible"
+        },
+		"space_hopper": {
+            "trigger": "minecraft:impossible"
+        },
+		"sticky_parts": {
+            "trigger": "minecraft:impossible"
+        },
+		"tripping_over": {
+            "trigger": "minecraft:impossible"
+        },
+		"troll_chest": {
+            "trigger": "minecraft:impossible"
+        },
+		"under_pressure": {
+            "trigger": "minecraft:impossible"
+        },
+        "ancient_kung_fu_master": {
+            "trigger": "minecraft:impossible"
+        },
+        "black_belt_ninja": {
+            "trigger": "minecraft:impossible"
+        },
+		"boing_boing": {
+            "trigger": "minecraft:impossible"
+        },
+		"cupid": {
+            "trigger": "minecraft:impossible"
+        },
+		"did_you_just_run_across_earth": {
+            "trigger": "minecraft:impossible"
+        },
+		"elderly_enchanter": {
+            "trigger": "minecraft:impossible"
+        },
+		"frequent_flyer": {
+            "trigger": "minecraft:impossible"
+        },
+		"global_railway_network": {
+            "trigger": "minecraft:impossible"
+        },
+		"happy_birthday": {
+            "trigger": "minecraft:impossible"
+        },
+		"horse_training": {
+            "trigger": "minecraft:impossible"
+        },
+		"i_enjoy_long_walks_and_playing_minecraft": {
+            "trigger": "minecraft:impossible"
+        },
+		"i_like_trains": {
+            "trigger": "minecraft:impossible"
+        },
+		"journeyman_enchanter": {
+            "trigger": "minecraft:impossible"
+        },
+		"jumping_jacks": {
+            "trigger": "minecraft:impossible"
+        },
+		"laps_in_the_pool": {
+            "trigger": "minecraft:impossible"
+        },
+		"level_up": {
+            "trigger": "minecraft:impossible"
+        },
+		"lightning_mcpig": {
+            "trigger": "minecraft:impossible"
+        },
+		"luxury_cruise": {
+            "trigger": "minecraft:impossible"
+        },
+		"marathon": {
+            "trigger": "minecraft:impossible"
+        },
+		"minecart_rider": {
+            "trigger": "minecraft:impossible"
+        },
+		"novice_enchanter": {
+            "trigger": "minecraft:impossible"
+        },
+		"olympic_athlete": {
+            "trigger": "minecraft:impossible"
+        },
+		"olympic_gold_medallist": {
+            "trigger": "minecraft:impossible"
+        },
+		"out_for_a_stroll": {
+            "trigger": "minecraft:impossible"
+        },
+		"overlevelling": {
+            "trigger": "minecraft:impossible"
+        },
+		"passing_the_time": {
+            "trigger": "minecraft:impossible"
+        },
+		"pig_training": {
+            "trigger": "minecraft:impossible"
+        },
+		"pirate_captain": {
+            "trigger": "minecraft:impossible"
+        },
+		"root_statistics": {
+            "trigger": "minecraft:impossible"
+        },
+		"sailor_of_the_seven_seas": {
+            "trigger": "minecraft:impossible"
+        },
+		"scourge_of_the_west": {
+            "trigger": "minecraft:impossible"
+        },
+		"sheriff_firearm": {
+            "trigger": "minecraft:impossible"
+        },
+		"sneaky_snitch": {
+            "trigger": "minecraft:impossible"
+        },
+		"snout_500": {
+            "trigger": "minecraft:impossible"
+        },
+		"spring_in_your_step": {
+            "trigger": "minecraft:impossible"
+        },
+		"supersonic": {
+            "trigger": "minecraft:impossible"
+        },
+		"take_to_the_skies": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_first_night": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_parrots_and_the_bats": {
+            "trigger": "minecraft:impossible"
+        },
+		"two_by_two": {
+            "trigger": "minecraft:impossible"
+        },
+		"who_needs_cars": {
+            "trigger": "minecraft:impossible"
+        },
+		"xp_grinder": {
+            "trigger": "minecraft:impossible"
+        },
+		"your_legs_must_be_tired": {
+            "trigger": "minecraft:impossible"
+        },
+        "a_snowballs_chance_in_hell": {
+            "trigger": "minecraft:impossible"
+        },
+        "a_throwaway_joke": {
+            "trigger": "minecraft:impossible"
+        },
+		"artillery": {
+            "trigger": "minecraft:impossible"
+        },
+		"axeman": {
+            "trigger": "minecraft:impossible"
+        },
+		"bombs_away": {
+            "trigger": "minecraft:impossible"
+        },
+		"bow_spammer": {
+            "trigger": "minecraft:impossible"
+        },
+		"demolitions_expert": {
+            "trigger": "minecraft:impossible"
+        },
+		"diamonds_to_you": {
+            "trigger": "minecraft:impossible"
+        },
+		"egging_dude": {
+            "trigger": "minecraft:impossible"
+        },
+		"expelliarmus": {
+            "trigger": "minecraft:impossible"
+        },
+		"explosive_fire": {
+            "trigger": "minecraft:impossible"
+        },
+		"fireworks_display": {
+            "trigger": "minecraft:impossible"
+        },
+		"flying_colors": {
+            "trigger": "minecraft:impossible"
+        },
+		"indiana_jones": {
+            "trigger": "minecraft:impossible"
+        },
+		"king_of_the_sea": {
+            "trigger": "minecraft:impossible"
+        },
+		"master_shieldsman": {
+            "trigger": "minecraft:impossible"
+        },
+		"ol_betsy": {
+            "trigger": "minecraft:impossible"
+        },
+		"pig_fishing_tournament": {
+            "trigger": "minecraft:impossible"
+        },
+		"point_blank": {
+            "trigger": "minecraft:impossible"
+        },
+		"poseidon_vs_hades": {
+            "trigger": "minecraft:impossible"
+        },
+		"revenge": {
+            "trigger": "minecraft:impossible"
+        },
+		"root_weaponry": {
+            "trigger": "minecraft:impossible"
+        },
+		"shield_luck": {
+            "trigger": "minecraft:impossible"
+        },
+		"shovel_knight": {
+            "trigger": "minecraft:impossible"
+        },
+		"sir_knight": {
+            "trigger": "minecraft:impossible"
+        },
+		"slapfish": {
+            "trigger": "minecraft:impossible"
+        },
+		"sniper_duel": {
+            "trigger": "minecraft:impossible"
+        },
+		"snowball_fight": {
+            "trigger": "minecraft:impossible"
+        },
+		"take_aim": {
+            "trigger": "minecraft:impossible"
+        },
+		"that_is_so_fletch": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_aquatic_hunter": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_mighty_hunter": {
+            "trigger": "minecraft:impossible"
+        },
+		"theres_yolk_on_my_head": {
+            "trigger": "minecraft:impossible"
+        },
+		"viking": {
+            "trigger": "minecraft:impossible"
+        },
+		"when_pigs_finally_fly": {
+            "trigger": "minecraft:impossible"
+        },
+		"whos_the_pillager_now": {
+            "trigger": "minecraft:impossible"
+        },
+		"x_bow": {
+            "trigger": "minecraft:impossible"
+        },
+		"root_bacap": {
+            "trigger": "minecraft:impossible"
+        },
+		"getting_wood": {
+            "trigger": "minecraft:impossible"
+        },
+		"benchmarking": {
+            "trigger": "minecraft:impossible"
+        },
+		"time_to_mine": {
+            "trigger": "minecraft:impossible"
+        },
+		"time_to_strike": {
+            "trigger": "minecraft:impossible"
+        },
+		"time_to_chop": {
+            "trigger": "minecraft:impossible"
+        },
+		"time_to_farm": {
+            "trigger": "minecraft:impossible"
+        },
+		"adventure_milestone": {
+            "trigger": "minecraft:impossible"
+        },
+		"animal_milestone": {
+            "trigger": "minecraft:impossible"
+        },
+		"biomes_milestone": {
+            "trigger": "minecraft:impossible"
+        },
+		"building_milestone": {
+            "trigger": "minecraft:impossible"
+        },
+		"challenges_milestone": {
+            "trigger": "minecraft:impossible"
+        },
+		"enchanting_milestone": {
+            "trigger": "minecraft:impossible"
+        },
+		"end_milestone": {
+            "trigger": "minecraft:impossible"
+        },
+		"farming_milestone": {
+            "trigger": "minecraft:impossible"
+        },
+		"mining_milestone": {
+            "trigger": "minecraft:impossible"
+        },
+		"monsters_milestone": {
+            "trigger": "minecraft:impossible"
+        },
+		"nether_milestone": {
+            "trigger": "minecraft:impossible"
+        },
+		"potion_milestone": {
+            "trigger": "minecraft:impossible"
+        },
+		"redstone_milestone": {
+            "trigger": "minecraft:impossible"
+        },
+		"statistics_milestone": {
+            "trigger": "minecraft:impossible"
+        },
+		"weaponry_milestone": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

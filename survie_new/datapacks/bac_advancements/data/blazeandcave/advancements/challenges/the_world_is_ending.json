@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+			"nbt": "{SkullOwner:\"MHF_Wither\"}"
+        },
+        "title": {"translate":"The World Is Ending"},
+        "description": {"translate":"Summon ten withers at once"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:challenges/dragon_army",
+	"rewards": {
+		"experience": 200,
+		"function": "bc_rewards:challenges/the_world_is_ending"
+    },		
+    "criteria": {
+        "ten_withers": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

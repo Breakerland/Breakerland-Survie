@@ -1,0 +1,80 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:tube_coral_block"
+        },
+        "title": {"translate":"Rebuilding the Oceans"},
+        "description": {"translate":"Trade for a coral block from the Wandering Trader"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:adventure/florist",
+    "rewards": {
+        "function": "bc_rewards:adventure/rebuilding_the_oceans"
+    },		
+    "criteria": {
+        "tube_coral_block": {
+            "trigger": "minecraft:villager_trade",
+			"conditions": {
+				"item": {
+					"item": "minecraft:tube_coral_block"
+				},
+				"villager": {
+					"type": "wandering_trader"
+				}
+			}
+        },
+        "brain_coral_block": {
+            "trigger": "minecraft:villager_trade",
+			"conditions": {
+				"item": {
+					"item": "minecraft:brain_coral_block"
+				},
+				"villager": {
+					"type": "wandering_trader"
+				}
+			}
+        },
+        "bubble_coral_block": {
+            "trigger": "minecraft:villager_trade",
+			"conditions": {
+				"item": {
+					"item": "minecraft:bubble_coral_block"
+				},
+				"villager": {
+					"type": "wandering_trader"
+				}
+			}
+        },
+        "fire_coral_block": {
+            "trigger": "minecraft:villager_trade",
+			"conditions": {
+				"item": {
+					"item": "minecraft:fire_coral_block"
+				},
+				"villager": {
+					"type": "wandering_trader"
+				}
+			}
+        },
+        "horn_coral_block": {
+            "trigger": "minecraft:villager_trade",
+			"conditions": {
+				"item": {
+					"item": "minecraft:horn_coral_block"
+				},
+				"villager": {
+					"type": "wandering_trader"
+				}
+			}
+        }		
+    },
+	"requirements": [
+		[
+		"tube_coral_block",
+		"brain_coral_block",
+		"bubble_coral_block",
+		"fire_coral_block",
+		"horn_coral_block"
+		]
+	]
+}

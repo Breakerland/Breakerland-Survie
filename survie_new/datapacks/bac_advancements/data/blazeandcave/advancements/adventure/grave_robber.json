@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chiseled_sandstone"
+        },
+        "title": {"translate":"Grave Robber"},
+        "description": {"translate":"Enter a pyramid in a desert"}
+    },
+    "parent": "minecraft:adventure/root",
+    "rewards": {
+        "function": "bc_rewards:adventure/grave_robber"
+    },		
+    "criteria": {
+        "desert_pyramid": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "desert_pyramid"
+            }
+        }		
+    }
+}

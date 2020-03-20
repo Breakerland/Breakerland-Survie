@@ -1,0 +1,211 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cornflower"
+        },
+        "title": {"translate":"Florist"},
+        "description": {"translate":"Trade for a flower from the Wandering Trader"}
+    },
+    "parent": "blazeandcave:adventure/travelling_merchant",
+    "rewards": {
+        "function": "bc_rewards:adventure/florist"
+    },		
+    "criteria": {
+        "dandelion": {
+            "trigger": "minecraft:villager_trade",
+			"conditions": {
+				"item": {
+					"item": "minecraft:dandelion"
+				},
+				"villager": {
+					"type": "wandering_trader"
+				}
+			}
+        },
+        "poppy": {
+            "trigger": "minecraft:villager_trade",
+			"conditions": {
+				"item": {
+					"item": "minecraft:poppy"
+				},
+				"villager": {
+					"type": "wandering_trader"
+				}
+			}
+        },
+        "blue_orchid": {
+            "trigger": "minecraft:villager_trade",
+			"conditions": {
+				"item": {
+					"item": "minecraft:blue_orchid"
+				},
+				"villager": {
+					"type": "wandering_trader"
+				}
+			}
+        },
+        "allium": {
+            "trigger": "minecraft:villager_trade",
+			"conditions": {
+				"item": {
+					"item": "minecraft:allium"
+				},
+				"villager": {
+					"type": "wandering_trader"
+				}
+			}
+        },
+        "azure_bluet": {
+            "trigger": "minecraft:villager_trade",
+			"conditions": {
+				"item": {
+					"item": "minecraft:azure_bluet"
+				},
+				"villager": {
+					"type": "wandering_trader"
+				}
+			}
+        },
+        "red_tulip": {
+            "trigger": "minecraft:villager_trade",
+			"conditions": {
+				"item": {
+					"item": "minecraft:red_tulip"
+				},
+				"villager": {
+					"type": "wandering_trader"
+				}
+			}
+        },
+        "orange_tulip": {
+            "trigger": "minecraft:villager_trade",
+			"conditions": {
+				"item": {
+					"item": "minecraft:orange_tulip"
+				},
+				"villager": {
+					"type": "wandering_trader"
+				}
+			}
+        },
+        "pink_tulip": {
+            "trigger": "minecraft:villager_trade",
+			"conditions": {
+				"item": {
+					"item": "minecraft:pink_tulip"
+				},
+				"villager": {
+					"type": "wandering_trader"
+				}
+			}
+        },
+        "white_tulip": {
+            "trigger": "minecraft:villager_trade",
+			"conditions": {
+				"item": {
+					"item": "minecraft:white_tulip"
+				},
+				"villager": {
+					"type": "wandering_trader"
+				}
+			}
+        },
+        "oxeye_daisy": {
+            "trigger": "minecraft:villager_trade",
+			"conditions": {
+				"item": {
+					"item": "minecraft:oxeye_daisy"
+				},
+				"villager": {
+					"type": "wandering_trader"
+				}
+			}
+        },		
+        "sunflower": {
+            "trigger": "minecraft:villager_trade",
+			"conditions": {
+				"item": {
+					"item": "minecraft:sunflower"
+				},
+				"villager": {
+					"type": "wandering_trader"
+				}
+			}
+        },
+        "lilac": {
+            "trigger": "minecraft:villager_trade",
+			"conditions": {
+				"item": {
+					"item": "minecraft:lilac"
+				},
+				"villager": {
+					"type": "wandering_trader"
+				}
+			}
+        },
+        "rose_bush": {
+            "trigger": "minecraft:villager_trade",
+			"conditions": {
+				"item": {
+					"item": "minecraft:rose_bush"
+				},
+				"villager": {
+					"type": "wandering_trader"
+				}
+			}
+        },
+        "peony": {
+            "trigger": "minecraft:villager_trade",
+			"conditions": {
+				"item": {
+					"item": "minecraft:peony"
+				},
+				"villager": {
+					"type": "wandering_trader"
+				}
+			}
+        },
+        "cornflower": {
+            "trigger": "minecraft:villager_trade",
+			"conditions": {
+				"item": {
+					"item": "minecraft:cornflower"
+				},
+				"villager": {
+					"type": "wandering_trader"
+				}
+			}
+        },
+        "lily_of_the_valley": {
+            "trigger": "minecraft:villager_trade",
+			"conditions": {
+				"item": {
+					"item": "minecraft:lily_of_the_valley"
+				},
+				"villager": {
+					"type": "wandering_trader"
+				}
+			}
+        }
+    },
+	"requirements": [
+		[
+		"dandelion",
+		"poppy",
+		"blue_orchid",
+		"allium",
+		"azure_bluet",
+		"red_tulip",
+		"orange_tulip",
+		"pink_tulip",
+		"white_tulip",
+		"oxeye_daisy",
+		"sunflower",
+		"lilac",
+		"rose_bush",
+		"peony",
+		"cornflower",
+		"lily_of_the_valley"
+		]
+	]
+}

@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cauldron"
+        },
+        "title": {"translate":"Witchcraft"},
+        "description": {"translate":"Find a witch hut in a swamp"}
+    },
+    "parent": "blazeandcave:adventure/tomb_raider",
+    "rewards": {
+        "function": "bc_rewards:adventure/witchcraft"
+    },		
+    "criteria": {
+        "swamp_hut": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "swamp_hut"
+            }
+        }		
+    }
+}

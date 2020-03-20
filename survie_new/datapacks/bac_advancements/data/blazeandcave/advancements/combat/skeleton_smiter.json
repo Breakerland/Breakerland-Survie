@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:skeleton_spawn_egg"
+        },
+        "title": {"translate":"Skeleton Smiter"},
+        "description": {"translate":"Collect a stack of bones"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:combat/frosty",
+    "rewards": {
+		"experience": 50,	
+		"function": "bc_rewards:combat/skeleton_smiter"
+    },		
+    "criteria": {
+        "bone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bone",
+						"count": 64
+                    }
+                ]
+            }
+        }		
+    }	
+}

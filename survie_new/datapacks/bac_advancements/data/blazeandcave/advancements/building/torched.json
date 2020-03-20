@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:torch"
+        },
+        "title": {"translate":"Torched!"},
+        "description": {"translate":"Light up the area with some torches"}
+    },
+    "parent": "blazeandcave:building/stationary_storage",
+	"rewards": {
+		"function": "bc_rewards:building/torched"
+    },		
+    "criteria": {
+        "torch": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:torch"
+            }
+        },
+        "wall_torch": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:wall_torch"
+            }
+        }
+    },
+    "requirements": [
+		[
+        "torch",
+        "wall_torch"
+		]
+	]
+}

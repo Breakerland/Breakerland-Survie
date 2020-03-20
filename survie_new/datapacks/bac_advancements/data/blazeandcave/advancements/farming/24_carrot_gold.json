@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_carrot"
+        },
+        "title": {"translate":"24 Carrot Gold"},
+        "description": {"translate":"Eat a golden carrot"}
+    },
+    "parent": "blazeandcave:farming/die_potato",
+	"rewards": {
+		"function": "bc_rewards:farming/24_carrot_gold"
+    },		
+    "criteria": {
+        "golden_carrot": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:golden_carrot"
+                }
+            }
+        }
+    }
+}

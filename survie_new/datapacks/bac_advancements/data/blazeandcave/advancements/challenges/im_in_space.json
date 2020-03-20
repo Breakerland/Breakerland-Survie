@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:shulker_shell"
+        },
+        "title": {"translate":"I'm in Space!"},
+        "description": {"translate":"Levitate up a distance of 256 blocks"},
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:challenges/root",
+	"rewards": {
+        "experience": 500,
+		"function": "bc_rewards:challenges/im_in_space"
+    },	
+    "criteria": {
+        "levitated": {
+            "trigger": "minecraft:levitation",
+            "conditions": {
+                "distance": {
+                    "y": {
+                        "min": 256
+                    }
+                }
+            }
+        }
+    }
+}

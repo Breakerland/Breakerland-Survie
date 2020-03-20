@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:campfire"
+        },
+        "title": {"translate":"Camping Out"},
+        "description": {"translate":"Craft and place a campfire using some logs, sticks and coal"}
+    },
+    "parent": "blazeandcave:mining/fossil_fuel",
+	"rewards": {
+		"function": "bc_rewards:mining/camping_out"
+    },		
+    "criteria": {
+        "campfire": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:campfire"
+            }
+        }
+    }
+}

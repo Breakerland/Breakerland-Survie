@@ -1,0 +1,74 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_sword"
+        },
+        "title": {"translate":"Time to Strike!"},
+        "description": {"translate":"Use planks and sticks to make a sword"}
+    },
+    "parent": "blazeandcave:bacap/time_to_mine",
+	"rewards": {
+		"function": "bc_rewards:bacap/time_to_strike"
+    },		
+    "criteria": {
+        "wooden_sword": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:wooden_sword"
+                    }
+                ]
+            }
+        },
+        "stone_sword": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stone_sword"
+                    }
+                ]
+            }
+        },
+        "iron_sword": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:iron_sword"
+                    }
+                ]
+            }
+        },
+        "diamond_sword": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_sword"
+                    }
+                ]
+            }
+        },
+        "golden_sword": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:golden_sword"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+		[
+        "wooden_sword",
+        "stone_sword",
+		"iron_sword",
+		"diamond_sword",
+		"golden_sword"
+		]
+    ]
+}

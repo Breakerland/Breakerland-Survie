@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:sunflower"
+        },
+        "title": {"translate":"The First Night"},
+        "description": {"translate":"Survive the first night in your brand new world"}
+    },
+    "parent": "blazeandcave:statistics/root",
+	"rewards": {
+		"experience": 50,
+		"function": "bc_rewards:statistics/the_first_night"
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

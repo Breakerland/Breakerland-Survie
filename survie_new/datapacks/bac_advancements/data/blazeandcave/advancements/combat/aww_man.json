@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+			"nbt": "{SkullOwner:\"CaptainSparklez\"}"
+        },
+        "title": {"translate":"Aww man!"},
+        "description": {"translate":"That was a nice life you had. Shame it had to end at this time time time"},
+		"hidden": "true"
+    },
+    "parent": "blazeandcave:combat/blast_shield",
+    "rewards": {
+        "function": "bc_rewards:combat/aww_man"
+    },		
+    "criteria": {
+        "creeper": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "creeper"
+                }
+            }
+        }
+    }
+}

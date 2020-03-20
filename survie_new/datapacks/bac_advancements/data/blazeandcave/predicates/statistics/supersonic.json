@@ -1,0 +1,17 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"player": {
+			"stats": [
+				{
+					"type": "minecraft:custom",
+					"stat": "minecraft:aviate_one_cm",
+					"value": {
+						"min": 1000000
+					}
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:tube_coral_fan"
+        },
+        "title": {"translate":"Free Diver"},
+        "description": {"translate":"Stay underwater for 2 minutes"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:biomes/dolphin_dasher",
+	"rewards": {
+		"experience": 50,
+		"function": "bc_rewards:biomes/free_diver"
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

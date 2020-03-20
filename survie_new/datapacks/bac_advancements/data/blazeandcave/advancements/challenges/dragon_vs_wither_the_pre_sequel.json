@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+			"nbt": "{SkullOwner:\"MHF_Wither\"}"
+        },
+        "title": {"translate":"Dragon vs Wither: Pre-Sequel"},
+        "description": {"translate":"Defeat the Wither while wearing a Dragon head... without touching the ground"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:challenges/dragon_vs_dragon_ii_electric_boogaloo",
+	"rewards": {
+		"experience": 500,
+		"function": "bc_rewards:challenges/dragon_vs_wither_the_pre_sequel"
+    },		
+    "criteria": {
+        "ten_withers": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

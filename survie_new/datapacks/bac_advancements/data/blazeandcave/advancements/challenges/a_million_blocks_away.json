@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:elytra"
+        },
+        "title": {"translate":"A Million Blocks Away"},
+        "description": {"translate":"Travel a million blocks away from spawn"},
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:challenges/the_devils_distance",
+    "rewards": {
+        "experience": 500,
+        "function": "bc_rewards:challenges/a_million_blocks_away"
+    },		
+    "criteria": {
+        "outer_pos_x": {
+            "trigger": "minecraft:location",
+            "conditions": {
+				"position": {
+					"x": {
+						"min": 1000000.0
+					}
+				}
+            }
+        },
+        "outer_pos_z": {
+            "trigger": "minecraft:location",
+            "conditions": {
+				"position": {
+					"z": {
+						"min": 1000000.0
+					}
+				}
+            }
+        },
+        "outer_neg_x": {
+            "trigger": "minecraft:location",
+            "conditions": {
+				"position": {
+					"x": {
+						"max": -1000000.0
+					}
+				}
+            }
+        },
+        "outer_neg_z": {
+            "trigger": "minecraft:location",
+            "conditions": {
+				"position": {
+					"z": {
+						"max": -1000000.0
+					}
+				}
+            }
+        }	
+    },
+    "requirements": [
+        [
+            "outer_pos_x",
+            "outer_pos_z",
+            "outer_neg_x",
+            "outer_neg_z"
+        ]
+    ]
+}

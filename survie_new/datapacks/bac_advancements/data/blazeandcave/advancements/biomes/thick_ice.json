@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:blue_ice"
+        },
+        "title": {"translate":"Thick Ice!"},
+        "description": {"translate":"Craft or mine a blue ice block from an iceberg"}
+    },
+    "parent": "blazeandcave:biomes/spike_ice",
+    "rewards": {
+        "function": "bc_rewards:biomes/thick_ice"
+    },		
+    "criteria": {
+        "blue_ice": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:blue_ice"
+                    }
+                ]
+            }
+        }
+    }
+}

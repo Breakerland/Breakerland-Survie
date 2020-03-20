@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:oak_boat"
+        },
+        "title": {"translate":"Luxury Cruise"},
+        "description": {"translate":"Sail 1km in a boat"}
+    },
+    "parent": "blazeandcave:statistics/root",
+	"rewards": {
+		"experience": 50,
+		"function": "bc_rewards:statistics/luxury_cruise"
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

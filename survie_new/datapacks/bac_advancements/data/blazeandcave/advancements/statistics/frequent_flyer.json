@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:firework_rocket"
+        },
+        "title": {"translate":"Frequent Flyer"},
+        "description": {"translate":"Fly 100km with elytra"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:statistics/supersonic",
+	"rewards": {
+		"experience": 500,
+		"function": "bc_rewards:statistics/frequent_flyer"
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

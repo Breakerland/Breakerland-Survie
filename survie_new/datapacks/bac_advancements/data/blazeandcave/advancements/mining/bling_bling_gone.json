@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_pickaxe"
+        },
+        "title": {"translate":"Bling Bling Gone"},
+        "description": {"translate":"Completely use up a golden pickaxe, and then seriously reevaluate your life choices"},
+        "frame": "goal"
+    },
+    "parent": "blazeandcave:mining/gold_rush",
+    "rewards": {
+        "experience": 50,
+		"function": "bc_rewards:mining/bling_bling_gone"
+    },		
+    "criteria": {
+        "break_pickaxe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"item": {
+					"item": "minecraft:golden_pickaxe"
+				},
+				"durability": {
+					"max": 0
+				}
+            }
+        }
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_helmet"
+        },
+        "title": {"translate":"Iron Man"},
+        "description": {"translate":"Craft a full suit of iron armor"},
+		"frame": "goal"
+    },
+    "parent": "minecraft:story/obtain_armor",
+	"rewards": {
+		"function": "bc_rewards:mining/iron_man"
+    },
+    "criteria": {
+        "iron_helmet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:iron_helmet"
+                    }
+                ]
+            }
+        },
+        "iron_chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:iron_chestplate"
+                    }
+                ]
+            }
+        },
+        "iron_leggings": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:iron_leggings"
+                    }
+                ]
+            }
+        },
+        "iron_boots": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:iron_boots"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:observer"
+        },
+        "title": {"translate":"Observer Buddy"},
+        "description": {"translate":"Craft an observer"}
+    },
+    "parent": "blazeandcave:redstone/solar_power",
+	"rewards": {
+		"function": "bc_rewards:redstone/observer_buddy"
+    },	
+    "criteria": {
+        "observer": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:observer"
+                    }
+                ]
+            }
+        }
+    }
+}

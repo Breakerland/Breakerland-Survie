@@ -1,0 +1,137 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:enchanting_table"
+        },
+        "title": {"translate":"Enchanting Milestone"},
+        "description": {"translate":"Complete every advancement in the Enchanting tab"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:bacap/redstone_milestone",
+	"rewards": {
+		"experience": 500,
+		"function": "bc_rewards:bacap/enchanting_milestone"
+    },		
+    "criteria": {
+        "arbalistic": {
+            "trigger": "minecraft:impossible"
+        },
+        "armor_for_the_masses": {
+            "trigger": "minecraft:impossible"
+        },
+		"bane_of_one_shotting_spiders": {
+            "trigger": "minecraft:impossible"
+        },
+		"boomerang": {
+            "trigger": "minecraft:impossible"
+        },
+		"bow_down_to_me": {
+            "trigger": "minecraft:impossible"
+        },
+		"complete_enchanter": {
+            "trigger": "minecraft:impossible"
+        },
+		"curses": {
+            "trigger": "minecraft:impossible"
+        },
+		"do_a_barrel_roll": {
+            "trigger": "minecraft:impossible"
+        },
+		"emerald_miner": {
+            "trigger": "minecraft:impossible"
+        },
+		"fiery": {
+            "trigger": "minecraft:impossible"
+        },
+		"fortunate_son": {
+            "trigger": "minecraft:impossible"
+        },
+		"knocking_your_socks_off": {
+            "trigger": "minecraft:impossible"
+        },
+		"let_it_go": {
+            "trigger": "minecraft:impossible"
+        },
+		"librarian": {
+            "trigger": "minecraft:impossible"
+        },
+		"like_a_cat": {
+            "trigger": "minecraft:impossible"
+        },
+		"machine_bow": {
+            "trigger": "minecraft:impossible"
+        },
+		"magical_stockpile": {
+            "trigger": "minecraft:impossible"
+        },
+		"master_arbalist": {
+            "trigger": "minecraft:impossible"
+        },
+		"master_armorer": {
+            "trigger": "minecraft:impossible"
+        },
+		"master_enchanter": {
+            "trigger": "minecraft:impossible"
+        },
+		"master_fisher": {
+            "trigger": "minecraft:impossible"
+        },
+		"master_knight": {
+            "trigger": "minecraft:impossible"
+        },
+		"master_miner": {
+            "trigger": "minecraft:impossible"
+        },
+		"master_sniper": {
+            "trigger": "minecraft:impossible"
+        },
+		"master_tridenteer": {
+            "trigger": "minecraft:impossible"
+        },
+		"needle_sharp": {
+            "trigger": "minecraft:impossible"
+        },
+		"newtons_flaming_laser_sword": {
+            "trigger": "minecraft:impossible"
+        },
+		"old_cartoon_joke": {
+            "trigger": "minecraft:impossible"
+        },
+		"overkill": {
+            "trigger": "minecraft:impossible"
+        },
+		"pick_like_silk": {
+            "trigger": "minecraft:impossible"
+        },
+		"root": {
+            "trigger": "minecraft:impossible"
+        },
+		"scuba_gear": {
+            "trigger": "minecraft:impossible"
+        },
+		"shotbow": {
+            "trigger": "minecraft:impossible"
+        },
+		"super_efficient": {
+            "trigger": "minecraft:impossible"
+        },
+		"to_infinity_and_beyond": {
+            "trigger": "minecraft:impossible"
+        },
+		"ultimate_enchanter": {
+            "trigger": "minecraft:impossible"
+        },
+		"unbreakable": {
+            "trigger": "minecraft:impossible"
+        },
+		"undead_slayer": {
+            "trigger": "minecraft:impossible"
+        },
+		"very_very_frightening": {
+            "trigger": "minecraft:impossible"
+        },
+		"zeus": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chicken_spawn_egg"
+        },
+        "title": {"translate":"Chicken Cooper"},
+        "description": {"translate":"Collect a stack of raw chicken and feathers"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:animal/feeding_the_chickens",
+    "rewards": {
+		"experience": 50,
+		"function": "bc_rewards:animal/chicken_cooper"
+    },		
+    "criteria": {
+        "chicken": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:chicken",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "feather": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:feather",
+						"count": 64
+                    }
+                ]
+            }
+        }	
+    }	
+}

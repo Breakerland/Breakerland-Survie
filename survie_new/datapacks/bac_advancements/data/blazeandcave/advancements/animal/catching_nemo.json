@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:tropical_fish"
+        },
+        "title": {"translate":"Catching Nemo"},
+        "description": {"translate":"Catch a clownfish"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:animal/salmonella_poisoning",
+	"rewards": {
+		"function": "bc_rewards:animal/catching_nemo"
+    },		
+    "criteria": {
+        "tropical_fish": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item":
+                {
+                    "item": "minecraft:tropical_fish"
+                }
+            }
+        }	
+    }
+}

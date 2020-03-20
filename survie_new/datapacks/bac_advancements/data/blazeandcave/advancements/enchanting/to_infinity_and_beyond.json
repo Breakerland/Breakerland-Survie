@@ -1,0 +1,31 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:arrow"
+        },
+        "title": {"translate":"To Infinity And Beyond!"},
+        "description": {"translate":"Obtain Infinity on a bow"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:enchanting/bow_down_to_me",
+    "rewards": {
+		"function": "bc_rewards:enchanting/to_infinity_and_beyond"
+    },			
+    "criteria": {
+        "infinity": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"item": "minecraft:bow",
+						"enchantments": [
+							{
+								"enchantment": "minecraft:infinity"
+							}
+						]
+					}
+				]
+			}
+		}
+    }
+}

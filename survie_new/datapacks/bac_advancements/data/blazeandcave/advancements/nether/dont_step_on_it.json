@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:magma_block"
+        },
+        "title": {"translate":"Don't Step on it!"},
+        "description": {"translate":"Mine some magma blocks"}
+    },
+    "parent": "blazeandcave:nether/nugget_in_a_biscuit",
+	"rewards": {
+		"function": "bc_rewards:nether/dont_step_on_it"
+    },		
+    "criteria": {
+        "magma": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:magma_block"
+                    }
+                ]
+            }
+        }
+    }
+}

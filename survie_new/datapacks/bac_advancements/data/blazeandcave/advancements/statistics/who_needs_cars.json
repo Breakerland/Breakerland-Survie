@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_boots"
+        },
+        "title": {"translate":"Who needs cars?"},
+        "description": {"translate":"Walk 100km"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:statistics/out_for_a_stroll",
+	"rewards": {
+		"experience": 200,
+		"function": "bc_rewards:statistics/who_needs_cars"
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

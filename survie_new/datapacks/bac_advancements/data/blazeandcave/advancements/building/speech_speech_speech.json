@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:lectern"
+        },
+        "title": {"translate":"Writer's Block"},
+        "description": {"translate":"Craft a lectern using wooden slabs and a bookshelf then place it"}
+    },
+    "parent": "blazeandcave:building/barrel_rider",
+	"rewards": {
+		"function": "bc_rewards:building/speech_speech_speech"
+    },		
+    "criteria": {
+        "lectern": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:lectern"
+            }
+        }
+    }
+}

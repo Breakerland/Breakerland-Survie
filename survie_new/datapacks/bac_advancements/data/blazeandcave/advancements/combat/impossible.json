@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:arrow"
+        },
+        "title": {"translate":"Impossible..."},
+        "description": {"translate":"Kill an Enderman with an arrow"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:combat/plane_walker",
+    "rewards": {
+        "function": "bc_rewards:combat/impossible"
+    },		
+    "criteria": {
+        "enderman_arrow": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "enderman",
+					"distance": {
+						"absolute": {
+							"max": 5
+						}
+					}
+                },
+                "killing_blow": {
+                    "source_entity": {
+                        "nbt": "{SelectedItem:{id:\"minecraft:arrow\",}}"
+                    }
+                }
+            }
+        }	
+    }
+}

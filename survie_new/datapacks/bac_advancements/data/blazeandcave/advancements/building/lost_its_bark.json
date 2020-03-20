@@ -1,0 +1,85 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stripped_oak_wood"
+        },
+        "title": {"translate":"Lost Its Bark"},
+        "description": {"translate":"Strip a bark block of its bark"}
+    },
+    "parent": "blazeandcave:building/barking_mad",
+    "rewards": {
+        "function": "bc_rewards:building/lost_its_bark"
+    },		
+    "criteria": {
+        "stripped_oak_wood": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stripped_oak_wood"
+                    }
+                ]
+            }
+        },
+        "stripped_spruce_wood": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stripped_spruce_wood"
+                    }
+                ]
+            }
+        },
+        "stripped_birch_wood": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stripped_birch_wood"
+                    }
+                ]
+            }
+        },
+        "stripped_jungle_wood": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stripped_jungle_wood"
+                    }
+                ]
+            }
+        },
+        "stripped_acacia_wood": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stripped_acacia_wood"
+                    }
+                ]
+            }
+        },
+        "stripped_dark_oak_wood": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stripped_dark_oak_wood"
+                    }
+                ]
+            }
+        }	
+	},
+    "requirements": [
+		[
+        "stripped_oak_wood",
+        "stripped_spruce_wood",
+		"stripped_birch_wood",
+        "stripped_jungle_wood",
+        "stripped_acacia_wood",
+		"stripped_dark_oak_wood"		
+		]
+    ]	
+}

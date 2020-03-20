@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:rotten_flesh"
+        },
+        "title": {"translate":"Dead Don't Die"},
+        "description": {"translate":"Kill a zombie"}
+    },
+    "parent": "minecraft:adventure/kill_a_mob",
+    "rewards": {
+        "function": "bc_rewards:combat/dead_dont_die"
+    },		
+    "criteria": {
+        "zombie": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "zombie"
+                }
+            }
+        }
+    }
+}

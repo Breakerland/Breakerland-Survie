@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:loom"
+        },
+        "title": {"translate":"The Haggler"},
+        "description": {"translate":"Trade with a villager at master level"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:adventure/traveller",
+    "rewards": {
+        "function": "bc_rewards:adventure/the_haggler"
+    },		
+    "criteria": {
+        "master": {
+            "trigger": "minecraft:villager_trade",
+			"conditions": {
+				"villager": {
+					"nbt": "{VillagerData:{level:5}}"
+				}
+			}
+        }	
+    }
+}

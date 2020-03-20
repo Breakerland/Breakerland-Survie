@@ -1,0 +1,44 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_sword"
+        },
+        "title": {"translate":"Knocking Your Socks Off"},
+        "description": {"translate":"Obtain Knockback and Punch enchantments"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:enchanting/armor_for_the_masses",
+    "rewards": {
+		"function": "bc_rewards:enchanting/knocking_your_socks_off"
+    },			
+    "criteria": {
+        "knockback": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:knockback"
+							}
+						]
+					}
+				]
+			}
+		},
+        "punch": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:punch"
+							}
+						]
+					}
+				]
+			}
+		}
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chicken"
+        },
+        "title": {"translate":"Two By Two"},
+        "description": {"translate":"Breed 2500 animals"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:statistics/cupid",
+	"rewards": {
+		"experience": 500,
+		"function": "bc_rewards:statistics/two_by_two"
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

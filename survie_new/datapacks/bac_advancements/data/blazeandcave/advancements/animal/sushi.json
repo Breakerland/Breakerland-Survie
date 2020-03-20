@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cod"
+        },
+        "title": {"translate":"Sushi"},
+        "description": {"translate":"Eat some raw fish"}
+    },
+    "parent": "minecraft:husbandry/fishy_business",
+	"rewards": {
+		"function": "bc_rewards:animal/sushi"
+    },		
+    "criteria": {
+        "cod": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:cod"
+                }
+            }
+        }
+    }
+}

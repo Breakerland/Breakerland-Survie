@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherrack"
+        },
+        "title": {"translate":"The Descent"},
+        "description": {"translate":"Dig down into the deepest depths of the Nether"}
+    },
+    "parent": "blazeandcave:nether/dont_step_on_it",
+    "rewards": {
+        "function": "bc_rewards:nether/the_descent"
+    },		
+    "criteria": {
+        "the_descent": {
+            "trigger": "minecraft:location",
+            "conditions": {
+				"dimension": "the_nether",
+				"position": {
+					"y": {
+						"max": 22.0
+					}
+				}
+            }
+        }	
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:llama_spawn_egg"
+        },
+        "title": {"translate":"Llama Llama Duck King"},
+        "description": {"translate":"Tame all llama variants"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:animal/so_i_got_that_going_for_me",
+	"rewards": {
+		"function": "bc_rewards:animal/llama_llama_duck_king"
+    },		
+    "criteria": {
+        "creamy": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:llama",
+					"nbt": "{Variant:0}"
+                }
+			}
+        },
+        "white": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:llama",
+					"nbt": "{Variant:1}"
+                }
+			}
+        },
+        "brown": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:llama",
+					"nbt": "{Variant:2}"
+                }
+			}
+        },
+        "gray": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:llama",
+					"nbt": "{Variant:3}"
+                }
+			}
+        }
+    }
+}

@@ -1,0 +1,106 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:gold_block"
+        },
+        "title": {"translate":"Mineral Collection"},
+        "description": {"translate":"Craft every type of mineral block"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:mining/diamond_miner",
+    "rewards": {
+		"function": "bc_rewards:mining/mineral_collection"
+    },			
+    "criteria": {
+        "coal_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:coal_block"
+                    }
+                ]
+            }
+        },
+        "iron_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:iron_block"
+                    }
+                ]
+            }
+        },
+        "gold_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:gold_block"
+                    }
+                ]
+            }
+        },
+        "lapis_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:lapis_block"
+                    }
+                ]
+            }
+        },
+        "redstone_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:redstone_block"
+                    }
+                ]
+            }
+        },
+        "diamond_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_block"
+                    }
+                ]
+            }
+        },
+        "emerald_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:emerald_block"
+                    }
+                ]
+            }
+        },
+        "quartz_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:quartz_block"
+                    }
+                ]
+            }
+        },
+        "netherite_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:netherite_block"
+                    }
+                ]
+            }
+        }
+    }
+}

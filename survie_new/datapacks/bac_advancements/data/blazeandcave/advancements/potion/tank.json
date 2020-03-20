@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:turtle_helmet"
+        },
+        "title": {"translate":"Tank"},
+        "description": {"translate":"Become nearly invincible to all damage using a Turtle Master Potion"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:potion/true_feather_falling",
+	"rewards": {
+		"function": "bc_rewards:potion/tank"
+    },	
+    "criteria": {
+        "resistance": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:resistance": {
+						"amplifier": {
+							"min": 2
+						}
+					}
+                }
+            }
+        }
+    }
+}

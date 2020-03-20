@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_sword"
+        },
+        "title": {"translate":"This name sounds cooler"},
+        "description": {"translate":"Name your Diamond Sword 'Diamond Edge'"}
+    },
+    "parent": "blazeandcave:enchanting/old_cartoon_joke",
+	"rewards": {
+		"experience": 50,
+		"function": "bc_rewards:enchanting/this_name_sounds_cooler"
+    },	
+    "criteria": {
+        "diamond_edge": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_sword",
+						"nbt": "{display:{Name:\"{\\\"text\\\":\\\"Diamond Edge\\\"}\"}}"
+                    }
+                ]
+            }
+        }
+    }
+}

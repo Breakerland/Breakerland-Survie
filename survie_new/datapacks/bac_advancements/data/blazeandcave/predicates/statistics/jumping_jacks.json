@@ -1,0 +1,17 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"player": {
+			"stats": [
+				{
+					"type": "minecraft:custom",
+					"stat": "minecraft:jump",
+					"value": {
+						"min": 100000
+					}
+				}
+			]
+		}
+	}
+}

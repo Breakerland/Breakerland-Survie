@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:dragon_breath",
+			"nbt": "{Charged:1b}"
+        },
+        "title": {"translate":"Dragon vs Dragon"},
+        "description": {"translate":"Kill the Ender Dragon while wearing a Dragon Head"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:end/off_with_his_head",
+	"rewards": {
+		"experience": 100,
+		"function": "bc_rewards:end/dragon_vs_dragon"
+    },		
+    "criteria": {
+        "dragon_vs_dragon": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

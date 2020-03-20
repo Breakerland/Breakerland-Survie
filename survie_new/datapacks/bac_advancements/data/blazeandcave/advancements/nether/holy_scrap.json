@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_scrap"
+        },
+        "title": {"translate":"Holy Scrap!"},
+        "description": {"translate":"Smelt Ancient Debris into Netherite Scrap"}
+    },
+    "parent": "blazeandcave:nether/nether_say_die",
+	"rewards": {
+		"function": "bc_rewards:nether/holy_scrap"
+    },	
+    "criteria": {
+        "netherite_scrap": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:netherite_scrap"
+                    }
+                ]
+            }
+        }
+    }
+}

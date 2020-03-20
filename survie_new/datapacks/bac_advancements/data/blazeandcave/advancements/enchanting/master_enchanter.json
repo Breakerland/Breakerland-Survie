@@ -1,0 +1,603 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:enchanting_table",
+			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+        },
+        "title": {"translate":"Master Enchanter"},
+        "description": {"translate":"Obtain every enchantment at their max level throughout your enchanting career"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:enchanting/complete_enchanter",
+    "rewards": {
+        "experience": 200,	
+		"function": "bc_rewards:enchanting/master_enchanter"
+    },			
+    "criteria": {
+        "protection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:protection",
+								"levels": 4
+							}
+						]
+					}
+				]
+			}
+		},	
+        "fire_protection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:fire_protection",
+								"levels": 4
+							}
+						]
+					}
+				]
+			}
+		},
+        "feather_falling": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:feather_falling",
+								"levels": 4
+							}
+						]
+					}
+				]
+			}
+		},		
+        "blast_protection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:blast_protection",
+								"levels": 4
+							}
+						]
+					}
+				]
+			}
+		},
+        "projectile_protection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:projectile_protection",
+								"levels": 4
+							}
+						]
+					}
+				]
+			}
+		},
+        "blast_protection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:blast_protection",
+								"levels": 4
+							}
+						]
+					}
+				]
+			}
+		},
+        "respiration": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:respiration",
+								"levels": 3
+							}
+						]
+					}
+				]
+			}
+		},		
+        "aqua_affinity": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:aqua_affinity",
+								"levels": 1
+							}
+						]
+					}
+				]
+			}
+		},	
+        "thorns": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:thorns",
+								"levels": 3
+							}
+						]
+					}
+				]
+			}
+		},		
+        "depth_strider": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:depth_strider",
+								"levels": 3
+							}
+						]
+					}
+				]
+			}
+		},
+        "frost_walker": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:frost_walker",
+								"levels": 2
+							}
+						]
+					}
+				]
+			}
+		},
+        "binding_curse": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:binding_curse",
+								"levels": 1
+							}
+						]
+					}
+				]
+			}
+		},
+        "sharpness": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:sharpness",
+								"levels": 5
+							}
+						]
+					}
+				]
+			}
+		},
+        "smite": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:smite",
+								"levels": 5
+							}
+						]
+					}
+				]
+			}
+		},
+        "bane_of_arthropods": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:bane_of_arthropods",
+								"levels": 5
+							}
+						]
+					}
+				]
+			}
+		},
+        "knockback": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:knockback",
+								"levels": 2
+							}
+						]
+					}
+				]
+			}
+		},
+        "fire_aspect": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:fire_aspect",
+								"levels": 2
+							}
+						]
+					}
+				]
+			}
+		},
+        "looting": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:looting",
+								"levels": 3
+							}
+						]
+					}
+				]
+			}
+		},
+        "sweeping": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:sweeping",
+								"levels": 3
+							}
+						]
+					}
+				]
+			}
+		},
+        "efficiency": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:efficiency",
+								"levels": 5
+							}
+						]
+					}
+				]
+			}
+		},
+        "silk_touch": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:silk_touch",
+								"levels": 1
+							}
+						]
+					}
+				]
+			}
+		},
+        "unbreaking": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:unbreaking",
+								"levels": 3
+							}
+						]
+					}
+				]
+			}
+		},
+        "fortune": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:fortune",
+								"levels": 3
+							}
+						]
+					}
+				]
+			}
+		},
+        "power": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:power",
+								"levels": 5
+							}
+						]
+					}
+				]
+			}
+		},
+        "punch": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:punch",
+								"levels": 2
+							}
+						]
+					}
+				]
+			}
+		},
+        "flame": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:flame",
+								"levels": 1
+							}
+						]
+					}
+				]
+			}
+		},
+        "infinity": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:infinity",
+								"levels": 1
+							}
+						]
+					}
+				]
+			}
+		},
+        "luck_of_the_sea": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:luck_of_the_sea",
+								"levels": 3
+							}
+						]
+					}
+				]
+			}
+		},
+        "lure": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:lure",
+								"levels": 3
+							}
+						]
+					}
+				]
+			}
+		},
+        "mending": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:mending",
+								"levels": 1
+							}
+						]
+					}
+				]
+			}
+		},
+        "vanishing_curse": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:vanishing_curse",
+								"levels": 1
+							}
+						]
+					}
+				]
+			}
+		},
+        "loyalty": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:loyalty",
+								"levels": 3
+							}
+						]
+					}
+				]
+			}
+		},
+        "riptide": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:riptide",
+								"levels": 3
+							}
+						]
+					}
+				]
+			}
+		},
+        "impaling": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:impaling",
+								"levels": 5
+							}
+						]
+					}
+				]
+			}
+		},
+        "channeling": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:channeling",
+								"levels": 1
+							}
+						]
+					}
+				]
+			}
+		},
+        "quick_charge": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:quick_charge",
+								"levels": 3
+							}
+						]
+					}
+				]
+			}
+		},
+        "piercing": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:piercing",
+								"levels": 4
+							}
+						]
+					}
+				]
+			}
+		},
+        "multishot": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:multishot",
+								"levels": 1
+							}
+						]
+					}
+				]
+			}
+		},
+        "soul_speed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:soul_speed",
+								"levels": 3
+							}
+						]
+					}
+				]
+			}
+		}
+    }
+}

@@ -1,0 +1,17 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"player": {
+			"stats": [
+				{
+					"type": "minecraft:mined",
+					"stat": "minecraft:nether_gold_ore",
+					"value": {
+						"min": 1
+					}
+				}
+			]
+		}
+	}
+}

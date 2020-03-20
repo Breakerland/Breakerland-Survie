@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:sugar"
+        },
+        "title": {"translate":"Witch!"},
+        "description": {"translate":"Kill a witch"}
+    },
+    "parent": "minecraft:adventure/kill_a_mob",
+    "rewards": {
+        "function": "bc_rewards:combat/witch"
+    },		
+    "criteria": {
+        "witch": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "witch"
+                }
+            }
+        }
+    }
+}

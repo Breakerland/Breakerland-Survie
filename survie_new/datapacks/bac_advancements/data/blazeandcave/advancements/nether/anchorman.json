@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:respawn_anchor"
+        },
+        "title": {"translate":"Anchorman"},
+        "description": {"translate":"Craft a Respawn Anchor using Crying Obsidian and Glowstone then place it down"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:nether/radioactive",
+	"rewards": {
+		"function": "bc_rewards:nether/anchorman"
+    },		
+    "criteria": {
+        "respawn_anchor": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:respawn_anchor"
+            }
+        }
+    }
+}

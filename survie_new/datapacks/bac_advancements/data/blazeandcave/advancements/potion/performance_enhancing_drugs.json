@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:sugar"
+        },
+        "title": {"translate":"Performance-Enhancing Drugs"},
+        "description": {"translate":"Brew a Speed Potion for cheating on athletics"}
+    },
+    "parent": "blazeandcave:potion/root",
+	"rewards": {
+		"function": "bc_rewards:potion/performance_enhancing_drugs"
+    },	
+    "criteria": {
+        "speed_potion": {
+            "trigger": "minecraft:brewed_potion",
+            "conditions": {
+                "potion": "minecraft:swiftness"
+            }
+        }
+    }
+}

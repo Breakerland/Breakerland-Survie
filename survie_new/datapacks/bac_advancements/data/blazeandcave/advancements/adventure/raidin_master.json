@@ -1,0 +1,111 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:structure_block"
+        },
+        "title": {"translate":"Raidin' Master"},
+        "description": {"translate":"Discover every structure type"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:adventure/secret_of_the_igloo",
+    "rewards": {
+		"experience": 100,
+        "function": "bc_rewards:adventure/raidin_master"
+    },		
+    "criteria": {
+        "igloo": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "igloo"
+            }
+        },
+        "desert_pyramid": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "desert_pyramid"
+            }
+        },	
+        "jungle_pyramid": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "jungle_pyramid"
+            }
+        },	
+        "swamp_hut": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "swamp_hut"
+            }
+        },	
+        "village": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "village"
+            }
+        },	
+        "mineshaft": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "mineshaft"
+            }
+        },	
+        "stronghold": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "stronghold"
+            }
+        },	
+        "fortress": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "fortress"
+            }
+        },	
+        "end_city": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "endcity"
+            }
+        },	
+        "monument": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "monument"
+            }
+        },	
+        "mansion": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "mansion"
+            }
+        },	
+        "ocean_ruin": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "ocean_ruin"
+            }
+        },	
+        "shipwreck": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "shipwreck"
+            }
+        },	
+        "buried_treasure": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:heart_of_the_sea"
+                    }
+                ]
+            }
+        },	
+        "pillager_outpost": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "pillager_outpost"
+            }
+        }		
+    }
+}

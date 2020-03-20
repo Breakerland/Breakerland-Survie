@@ -1,0 +1,37 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potato"
+        },
+        "title": {"translate":"Die, Potato!"},
+        "description": {"translate":"Squash and eat a potato"}
+    },
+    "parent": "minecraft:husbandry/plant_seed",
+	"rewards": {
+		"function": "bc_rewards:farming/die_potato"
+    },		
+    "criteria": {
+        "potato": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:potato"
+                }
+            }
+        },
+        "baked_potato": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:baked_potato"
+                }
+            }
+        }		
+    },
+    "requirements": [
+		[
+        "potato",
+        "baked_potato"
+		]
+    ]
+}

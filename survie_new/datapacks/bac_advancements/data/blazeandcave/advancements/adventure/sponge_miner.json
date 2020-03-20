@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:sponge"
+        },
+        "title": {"translate":"Sponge Miner"},
+        "description": {"translate":"Collect a stack of sponges from ocean monuments"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:adventure/dry_spell",
+    "rewards": {
+		"experience": 50,	
+		"function": "bc_rewards:adventure/sponge_miner"
+    },		
+    "criteria": {
+        "sponge": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:sponge",
+						"count": 64
+                    }
+                ]
+            }
+        }		
+    }	
+}

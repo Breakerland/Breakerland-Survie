@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bell"
+        },
+        "title": {"translate":"Oh, look, it dings!"},
+        "description": {"translate":"Ring a bell in a village"}
+    },
+    "parent": "blazeandcave:adventure/do_you_want_to_trade",
+	"rewards": {
+		"function": "bc_rewards:adventure/oh_look_it_dings"
+    },		
+    "criteria": {
+        "bell": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

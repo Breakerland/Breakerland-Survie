@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:trident"
+        },
+        "title": {"translate":"Because I'm Aquaman!"},
+        "description": {"translate":"Obtain a trident from a Drowned"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:combat/tridented_shield",
+    "rewards": {
+        "function": "bc_rewards:combat/because_im_aquaman"
+    },		
+    "criteria": {
+        "trident": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:trident"
+                    }
+                ]
+            }
+        }
+    }
+}

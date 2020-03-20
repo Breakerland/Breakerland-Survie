@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:lapis_lazuli"
+        },
+        "title": {"translate":"DIAM- oh, wait, no."},
+        "description": {"translate":"It's still useful for enchanting"}
+    },
+    "parent": "minecraft:story/iron_tools",
+    "rewards": {
+		"function": "bc_rewards:mining/the_wrong_shade_of_blue"
+    },		
+    "criteria": {
+        "coal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:lapis_lazuli"
+                    }
+                ]
+            }
+        }
+    }
+}

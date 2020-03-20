@@ -1,0 +1,192 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:soul_fire_lantern"
+        },
+        "title": {"translate":"Let There Be Light!"},
+        "description": {"translate":"Hold a stack of every light-emitting block and item"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:building/fluorescent",
+	"rewards": {
+		"function": "bc_rewards:building/let_there_be_light"
+    },		
+    "criteria": {
+        "glowstone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:glowstone",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "jack_o_lantern": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:jack_o_lantern",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "redstone_lamp": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:redstone_lamp",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "sea_lantern": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:sea_lantern",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "sea_pickle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:sea_pickle",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "shroomlight": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:shroomlight",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "lantern": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:lantern",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "campfire": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:campfire",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "end_rod": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:end_rod",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "torch": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:torch",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "soul_fire_lantern": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:soul_fire_lantern",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "soul_fire_torch": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:soul_fire_torch",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "ender_chest": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:ender_chest",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "redstone_torch": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:redstone_torch",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "magma_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:magma_block",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "crying_obsidian": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:crying_obsidian",
+						"count": 64
+                    }
+                ]
+            }
+        }
+    }
+}

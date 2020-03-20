@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:smithing_table"
+        },
+        "title": {"translate":"Agent Smithing Table"},
+        "description": {"translate":"Craft a smithing table"}
+    },
+    "parent": "blazeandcave:mining/classic_pocket_edition_block",
+    "rewards": {
+		"function": "bc_rewards:mining/agent_smithing_table"
+    },		
+    "criteria": {
+        "smithing_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:smithing_table"
+                    }
+                ]
+            }
+        }
+    }
+}

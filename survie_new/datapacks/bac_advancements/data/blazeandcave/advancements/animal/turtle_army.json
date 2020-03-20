@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:turtle_spawn_egg"
+        },
+        "title": {"translate":"Turtle Army"},
+        "description": {"translate":"Collect a stack of scutes"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:animal/turtle_soldier",
+    "rewards": {
+		"experience": 50,
+		"function": "bc_rewards:animal/turtle_army"
+    },		
+    "criteria": {
+        "scute": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:scute",
+						"count": 64
+                    }
+                ]
+            }
+        }		
+    }	
+}

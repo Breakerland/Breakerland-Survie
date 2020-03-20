@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:elytra"
+        },
+        "title": {"translate":"Supersonic"},
+        "description": {"translate":"Fly 10km with elytra"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:statistics/take_to_the_skies",
+	"rewards": {
+		"experience": 200,
+		"function": "bc_rewards:statistics/supersonic"
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

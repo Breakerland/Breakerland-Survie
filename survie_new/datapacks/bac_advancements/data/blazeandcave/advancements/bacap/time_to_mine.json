@@ -1,0 +1,74 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_pickaxe"
+        },
+        "title": {"translate":"Time to Mine!"},
+        "description": {"translate":"Use planks and sticks to make a pickaxe"}
+    },
+    "parent": "minecraft:story/root",
+	"rewards": {
+		"function": "bc_rewards:bacap/time_to_mine"
+    },		
+    "criteria": {
+        "wooden_pickaxe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:wooden_pickaxe"
+                    }
+                ]
+            }
+        },
+        "stone_pickaxe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stone_pickaxe"
+                    }
+                ]
+            }
+        },
+        "iron_pickaxe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:iron_pickaxe"
+                    }
+                ]
+            }
+        },
+        "diamond_pickaxe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_pickaxe"
+                    }
+                ]
+            }
+        },
+        "golden_pickaxe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:golden_pickaxe"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+		[
+        "wooden_pickaxe",
+        "stone_pickaxe",
+		"iron_pickaxe",
+		"diamond_pickaxe",
+		"golden_pickaxe"
+		]
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bookshelf"
+        },
+        "title": {"translate":"Librarian"},
+        "description": {"translate":"Build some bookshelves for your enchanting table"}
+    },
+    "parent": "blazeandcave:enchanting/root",
+    "rewards": {
+		"function": "bc_rewards:enchanting/librarian"
+    },
+    "criteria": {
+        "bookshelf": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bookshelf"
+                    }
+                ]
+            }
+        }
+    }
+}

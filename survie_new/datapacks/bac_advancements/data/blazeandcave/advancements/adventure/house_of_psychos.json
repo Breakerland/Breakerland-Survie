@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:dark_oak_door"
+        },
+        "title": {"translate":"House of Psychos"},
+        "description": {"translate":"Find a Woodland Mansion"}
+    },
+    "parent": "blazeandcave:adventure/treasure_map",
+    "rewards": {
+        "function": "bc_rewards:adventure/house_of_psychos"
+    },		
+    "criteria": {
+        "mansion": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "mansion"
+            }
+        }
+    }
+}

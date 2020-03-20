@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:firework_star",
+			"nbt": "{Explosion:{Type:0b,Colors:[I; 16701501]}}"
+        },
+        "title": {"translate":"Rocketman"},
+        "description": {"translate":"Fill your inventory with full stacks of firework rockets"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:end/some_breakthrough",
+	"rewards": {
+		"experience": 100,
+		"function": "bc_rewards:end/rocketman"
+    },		
+    "criteria": {
+        "rocketman": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bricks"
+        },
+        "title": {"translate":"Bricks!"},
+        "description": {"translate":"Fire up that clay!"}
+    },
+    "parent": "blazeandcave:building/clay_dough",
+	"rewards": {
+		"function": "bc_rewards:building/bricks"
+    },		
+    "criteria": {
+        "brick_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bricks"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"player": {
+			"stats": [
+				{
+					"type": "minecraft:custom",
+					"stat": "minecraft:clean_armor",
+					"value": {
+						"min": 1
+					}
+				},
+				{
+					"type": "minecraft:custom",
+					"stat": "minecraft:clean_banner",
+					"value": {
+						"min": 1
+					}
+				},
+				{
+					"type": "minecraft:custom",
+					"stat": "minecraft:clean_shulker_box",
+					"value": {
+						"min": 1
+					}
+				}
+			]
+		}
+	}
+}

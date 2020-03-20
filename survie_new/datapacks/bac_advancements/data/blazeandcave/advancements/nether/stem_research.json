@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:crimson_stem"
+        },
+        "title": {"translate":"Stem Research"},
+        "description": {"translate":"Attack a huge Nether Fungi until a stem pops out"}
+    },
+    "parent": "minecraft:nether/root",
+	"rewards": {
+		"function": "bc_rewards:nether/stem_research"
+    },	
+    "criteria": {
+        "nether_stems": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "minecraft:nether_stems"
+                    }
+                ]
+            }
+        }
+    }
+}

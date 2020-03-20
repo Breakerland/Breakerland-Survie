@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:map"
+        },
+        "title": {"translate":"Mapmaker"},
+        "description": {"translate":"Craft or trade an empty map"}
+    },
+    "parent": "blazeandcave:adventure/magic_book",
+    "rewards": {
+        "function": "bc_rewards:adventure/mapmaker"
+    },		
+    "criteria": {
+        "map": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:map"
+                    }
+                ]
+            }
+        }
+    }
+}

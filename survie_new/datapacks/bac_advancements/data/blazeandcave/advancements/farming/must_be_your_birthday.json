@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:redstone_torch"
+        },
+        "title": {"translate":"Must be your birthday"},
+        "description": {"translate":"Eat 100 slices of cake"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:farming/the_lie",
+	"rewards": {
+		"experience": 50,
+		"function": "bc_rewards:farming/must_be_your_birthday"
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ancient_debris"
+        },
+        "title": {"translate":"Archaeologist"},
+        "description": {"translate":"Mine a stack of Ancient Debris"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:nether/diamonds_are_not_forever",
+	"rewards": {
+		"experience": 50,
+		"function": "bc_rewards:nether/archaeologist"
+    },	
+    "criteria": {
+        "ancient_debris": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:ancient_debris",
+						"count": 64
+                    }
+                ]
+            }
+        }
+    }
+}

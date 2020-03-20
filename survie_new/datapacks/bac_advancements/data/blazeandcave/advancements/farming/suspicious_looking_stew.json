@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:suspicious_stew"
+        },
+        "title": {"translate":"Suspicious Looking Stew"},
+        "description": {"translate":"Slurp some suspicious stew and pray you don't suddenly see giant flying eyeballs in the sky"}
+    },
+    "parent": "blazeandcave:farming/mushroom_mushroom_mushroom_mushroom",
+	"rewards": {
+		"function": "bc_rewards:farming/suspicious_looking_stew"
+    },		
+    "criteria": {
+        "suspicious_stew": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:suspicious_stew"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,94 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ender_eye"
+        },
+        "title": {"translate":"Super Challenges"},
+        "description": {"translate":"Good luck completing... any of these ;)"},
+        "background": "minecraft:textures/block/bedrock.png",
+        "show_toast": false,
+        "announce_to_chat": false,
+		"frame": "challenge"
+    },
+    "rewards": {
+        "function": "bc_rewards:challenges/root"
+    },		
+    "criteria": {
+        "killed_dragon": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "ender_dragon"
+                }
+            }
+        },
+        "enter_return_portal": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "to": "overworld",
+                "from": "the_end"
+            }
+		},
+        "outer_pos_x": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:the_end",
+				"position": {
+					"x": {
+						"min": 750.0
+					}
+				}
+            }
+        },
+        "outer_pos_z": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:the_end",
+				"position": {
+					"z": {
+						"min": 750.0
+					}
+				}
+            }
+        },
+        "outer_neg_x": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:the_end",
+				"position": {
+					"x": {
+						"max": -750.0
+					}
+				}
+            }
+        },
+        "outer_neg_z": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:the_end",
+				"position": {
+					"z": {
+						"max": -750.0
+					}
+				}
+            }
+        },
+        "end_gateway": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:end_gateway"
+            }
+        }		
+    },
+    "requirements": [
+		[
+			"killed_dragon",
+			"enter_return_portal",
+            "outer_pos_x",
+            "outer_pos_z",
+            "outer_neg_x",
+            "outer_neg_z",
+			"end_gateway"			
+		]
+	]
+}
