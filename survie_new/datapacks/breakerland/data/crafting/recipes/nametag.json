@@ -1,0 +1,43 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " #S",
+        "S##",
+        "QF "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:leather"
+        },
+        "S": {
+            "item": "minecraft:string"
+        },
+        "F": {
+            "item": "minecraft:feather"
+        },
+        "Q": [
+			{
+				"item": "minecraft:oak_sign"
+			},
+			{
+				"item": "minecraft:acacia_sign"
+			},
+			{
+				"item": "minecraft:dark_oak_sign"
+			},
+			{
+				"item": "minecraft:jungle_sign"
+			},
+			{
+				"item": "minecraft:birch_sign"
+			},
+			{
+				"item": "minecraft:spruce_sign"
+			}
+		]
+    },
+    "result": {
+        "item": "minecraft:name_tag",
+        "count": 1
+    }
+}
