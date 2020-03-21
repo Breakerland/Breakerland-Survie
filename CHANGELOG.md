@@ -1,5 +1,14 @@
 # Changelog Breakerland
 
+## V6.03 - 21 mars
+
+ - Suppression du moyen de paiement via paysafecard
+ - Ajout de la possibilité de parrainer un ami
+ - Correction d'un site de vote ne marchant plus (remplacé RIP)
+ - World Edit ajouté pour tous dans les joueurs dans le serveur Créatif (brush max 10)
+ - Ajout du /hdb sur le serveur créatif
+ - Ajout du /ast sur le serveur créatif
+
 ## V6.02 - 4 mars
 
  - Modification du système de warp
