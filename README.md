@@ -16,6 +16,7 @@ Pour les identifiants du Bot Discord BreakerBot, veuillez utiliser les variables
 ```bash
 Port: '$rcon_port'
 Password: '$rcon_password'
+```
 
 ### Base de donnée
 Il est préférable de favoriser l'utilisation de MySQL ou MariaDB lorsqu'il l'est possible.
