@@ -46,18 +46,6 @@
             "conditions": {
                 "block": "minecraft:dark_oak_trapdoor"
             }
-        },
-        "crimson_trapdoor": {
-            "trigger": "minecraft:placed_block",
-            "conditions": {
-                "block": "minecraft:crimson_trapdoor"
-            }
-        },
-        "warped_trapdoor": {
-            "trigger": "minecraft:placed_block",
-            "conditions": {
-                "block": "minecraft:warped_trapdoor"
-            }
         },		
         "iron_trapdoor": {
             "trigger": "minecraft:placed_block",
@@ -74,8 +62,6 @@
 		"jungle_trapdoor",
 		"acacia_trapdoor",
 		"dark_oak_trapdoor",
-		"crimson_trapdoor",
-		"warped_trapdoor",
         "iron_trapdoor"
 		]
     ]	

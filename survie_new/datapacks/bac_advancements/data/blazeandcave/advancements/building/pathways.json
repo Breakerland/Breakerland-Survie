@@ -6,7 +6,7 @@
         "title": {"translate":"Pathways"},
         "description": {"translate":"Use a shovel to create grass paths"}
     },
-    "parent": "blazeandcave:building/i_dont_like_sand",
+    "parent": "blazeandcave:building/root",
 	"rewards": {
 		"function": "bc_rewards:building/pathways"
     },

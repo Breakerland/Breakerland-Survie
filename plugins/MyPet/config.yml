@@ -31,16 +31,16 @@ MyPet:
     Skip-Target-AI-Ticks: 0
     FollowStartDistance: 7.0
   Repository:
-    Type: SQLite
-    ConvertFrom: ''
+    Type: MySQL
+    ConvertFrom: '-'
     LoadDelay: 20
     MySQL:
-      Database: mypet
-      TablePrefix: ''
-      Host: localhost
-      Password: ''
-      User: root
-      Port: 3306
+      Database: $mysql_database
+      TablePrefix: pet_
+      Host: $mysql_host
+      Password: $mysql_password
+      User: $mysql_user
+      Port: $mysql_port
       MaxConnections: 8
       CharacterEncoding: utf8
     MongoDB:
@@ -118,6 +118,7 @@ MyPet:
       Creative: false
       DropWhenOwnerDies: false
     Beacon:
+      Disable-Head-Textures: false
       HungerDecreaseTime: 100
       Party-Support: true
     Ride:

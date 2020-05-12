@@ -7,7 +7,7 @@
         "description": {"translate":"Obtain every enchantment throughout your enchanting career"},
 		"frame": "challenge"
     },
-    "parent": "blazeandcave:enchanting/gotta_go_fast",
+    "parent": "blazeandcave:enchanting/fiery",
     "rewards": {
         "experience": 100,	
 		"function": "bc_rewards:enchanting/complete_enchanter"
@@ -544,20 +544,6 @@
 					}
 				]
 			}
-		},
-        "soul_speed": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-				"items": [
-					{
-						"enchantments": [
-							{
-								"enchantment": "minecraft:soul_speed"
-							}
-						]
-					}
-				]
-			}
-		}
+		}		
     }
 }

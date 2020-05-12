@@ -351,26 +351,6 @@
                     }
                 ]
             }
-        },
-        "crimson_slab": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:crimson_slab"
-                    }
-                ]
-            }
-        },
-        "warped_slab": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:warped_slab"
-                    }
-                ]
-            }
         }
 	}		
 }

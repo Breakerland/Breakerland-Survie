@@ -30,11 +30,11 @@
                 }
             }
         },
-        "zombified_piglin": {
+        "zombie_pigman": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
-                    "type": "zombified_piglin",
+                    "type": "zombie_pigman",
 					"nbt": "{ArmorItems:[{},{},{},{id:\"minecraft:carved_pumpkin\",Count:1b}]}"
                 }
             }
@@ -89,7 +89,7 @@
 		[
 		"zombie",
 		"zombie_villager",
-		"zombified_piglin",
+		"zombie_pigman",
 		"husk",
 		"drowned",
 		"skeleton",

@@ -7,7 +7,7 @@
         "description": {"translate":"Travel a million blocks away from spawn"},
         "frame": "challenge"
     },
-    "parent": "blazeandcave:challenges/the_devils_distance",
+    "parent": "blazeandcave:challenges/abyss_lord",
     "rewards": {
         "experience": 500,
         "function": "bc_rewards:challenges/a_million_blocks_away"

@@ -6,7 +6,7 @@
         "title": {"translate":"Don't Step on it!"},
         "description": {"translate":"Mine some magma blocks"}
     },
-    "parent": "blazeandcave:nether/nugget_in_a_biscuit",
+    "parent": "blazeandcave:nether/quicksand",
 	"rewards": {
 		"function": "bc_rewards:nether/dont_step_on_it"
     },		

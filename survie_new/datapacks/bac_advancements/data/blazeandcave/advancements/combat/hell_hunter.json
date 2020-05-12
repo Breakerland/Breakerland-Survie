@@ -13,11 +13,11 @@
 		"function": "bc_rewards:combat/hell_hunter"
     },	
     "criteria": {
-        "zombified_piglin": {
+        "zombie_pigman": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
-                    "type": "zombified_piglin"
+                    "type": "zombie_pigman"
                 }
             }
         },
@@ -72,22 +72,6 @@
             "conditions": {
                 "entity": {
                     "type": "blaze"
-                }
-            }
-        },
-        "piglin": {
-            "trigger": "minecraft:player_killed_entity",
-            "conditions": {
-                "entity": {
-                    "type": "piglin"
-                }
-            }
-        },
-        "hoglin": {
-            "trigger": "minecraft:player_killed_entity",
-            "conditions": {
-                "entity": {
-                    "type": "hoglin"
                 }
             }
         }

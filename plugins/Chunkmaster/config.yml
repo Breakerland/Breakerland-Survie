@@ -1,3 +1,5 @@
+dynmap: true
+language: fr
 database:
   filename: chunkmaster.db
 generation:

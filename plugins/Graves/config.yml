@@ -12,9 +12,6 @@ settings:
 
   worlds: # What worlds will graves spawn in.
     - survie_new
-    - world
-    - world_nether
-    - world_the_end
     - ALL # Enable in all worlds
 
   #graveTime will be used for players who do not have the permission "graves.time.", It will also be used for entity graves.

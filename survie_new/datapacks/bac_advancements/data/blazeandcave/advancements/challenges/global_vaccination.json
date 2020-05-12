@@ -7,7 +7,7 @@
         "description": {"translate":"Cure a zombie villager of every profession... from every biome"},
         "frame": "challenge"
     },
-    "parent": "blazeandcave:challenges/immortal",
+    "parent": "blazeandcave:challenges/biological_warfare",
 	"rewards": {
 		"experience": 500,
 		"function": "bc_rewards:challenges/global_vaccination"

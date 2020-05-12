@@ -320,26 +320,6 @@
                     }
                 ]
             }
-        },
-        "crimson_stairs": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:crimson_stairs"
-                    }
-                ]
-            }
-        },
-        "warped_stairs": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:warped_stairs"
-                    }
-                ]
-            }
         }
 	},
     "requirements": [
@@ -374,9 +354,7 @@
 		"red_nether_brick_stairs",
 		"end_stone_brick_stairs",
 		"mossy_cobblestone_stairs",
-		"mossy_stone_brick_stairs",
-		"crimson_stairs",
-		"warped_stairs"
+		"mossy_stone_brick_stairs"
 		]
     ]
 }

@@ -20,6 +20,7 @@
   "useFossils": true,
   "useWaterLakes": true,
   "useLavaLakes": false,
+  "useBedrock": false,
   "useRivers": false,
   "useNativePainting": false,
   "useNativeStructure": false,
@@ -37,92 +38,7 @@
     "TOP_LAYER_MODIFICATION",
     "RAW_GENERATION"
   ],
-  "ores": [
-    {
-      "type": "DIRT",
-      "size": 33,
-      "count": 10,
-      "minHeight": 0,
-      "maxHeight": 256
-    },
-    {
-      "type": "GRAVEL",
-      "size": 33,
-      "count": 8,
-      "minHeight": 0,
-      "maxHeight": 256
-    },
-    {
-      "type": "GRANITE",
-      "size": 33,
-      "count": 10,
-      "minHeight": 0,
-      "maxHeight": 80
-    },
-    {
-      "type": "DIORITE",
-      "size": 33,
-      "count": 10,
-      "minHeight": 0,
-      "maxHeight": 80
-    },
-    {
-      "type": "ANDESITE",
-      "size": 33,
-      "count": 10,
-      "minHeight": 0,
-      "maxHeight": 80
-    },
-    {
-      "type": "COAL_ORE",
-      "size": 17,
-      "count": 20,
-      "minHeight": 0,
-      "maxHeight": 128
-    },
-    {
-      "type": "IRON_ORE",
-      "size": 9,
-      "count": 20,
-      "minHeight": 0,
-      "maxHeight": 64
-    },
-    {
-      "type": "GOLD_ORE",
-      "size": 9,
-      "count": 2,
-      "minHeight": 0,
-      "maxHeight": 32
-    },
-    {
-      "type": "REDSTONE_ORE",
-      "size": 8,
-      "count": 8,
-      "minHeight": 0,
-      "maxHeight": 16
-    },
-    {
-      "type": "DIAMOND_ORE",
-      "size": 8,
-      "count": 1,
-      "minHeight": 0,
-      "maxHeight": 16
-    },
-    {
-      "type": "LAPIS_ORE",
-      "size": 7,
-      "count": 1,
-      "minHeight": 0,
-      "maxHeight": 32
-    },
-    {
-      "type": "EMERALD_ORE",
-      "size": 4,
-      "count": 2,
-      "minHeight": 4,
-      "maxHeight": 32
-    }
-  ],
+  "oreGenerators": [],
   "customTerrain": {
     "noiseLayers": []
   },
@@ -152,6 +68,7 @@
         {
           "type": "SANDSTONE",
           "data": 0,
+          "tags": {},
           "heightConditions": [
             {
               "minHeight": 62,
@@ -163,6 +80,7 @@
         {
           "type": "SAND",
           "data": 0,
+          "tags": {},
           "heightConditions": [
             {
               "minHeight": 62,
@@ -176,6 +94,7 @@
         {
           "type": "CYAN_TERRACOTTA",
           "data": 0,
+          "tags": {},
           "inclinationsConditions": [
             {
               "minInclination": 2.3,
@@ -189,6 +108,7 @@
         {
           "type": "STONE",
           "data": 0,
+          "tags": {},
           "inclinationsConditions": [
             {
               "minInclination": 1.3,
@@ -200,6 +120,7 @@
         {
           "type": "COBBLESTONE",
           "data": 0,
+          "tags": {},
           "inclinationsConditions": [
             {
               "minInclination": 1.3,
@@ -211,6 +132,7 @@
         {
           "type": "STONE",
           "data": 5,
+          "tags": {},
           "inclinationsConditions": [
             {
               "minInclination": 1.3,
@@ -224,6 +146,7 @@
         {
           "type": "GRAVEL",
           "data": 1,
+          "tags": {},
           "heightConditions": [
             {
               "minHeight": 62,
@@ -237,6 +160,7 @@
         {
           "type": "GRASS_BLOCK",
           "data": 1,
+          "tags": {},
           "heightConditions": [
             {
               "minHeight": 63,
@@ -250,6 +174,7 @@
         {
           "type": "STONE",
           "data": 0,
+          "tags": {},
           "inclinationsConditions": [
             {
               "minInclination": 1.3,
@@ -267,6 +192,7 @@
         {
           "type": "STONE",
           "data": 0,
+          "tags": {},
           "heightConditions": [
             {
               "minHeight": 0,
@@ -278,6 +204,7 @@
         {
           "type": "COBBLESTONE",
           "data": 0,
+          "tags": {},
           "heightConditions": [
             {
               "minHeight": 0,
@@ -289,6 +216,7 @@
         {
           "type": "DIRT",
           "data": 0,
+          "tags": {},
           "heightConditions": [
             {
               "minHeight": 0,
@@ -300,6 +228,7 @@
         {
           "type": "COBBLESTONE_STAIRS",
           "data": 0,
+          "tags": {},
           "heightConditions": [
             {
               "minHeight": 0,
@@ -311,6 +240,7 @@
         {
           "type": "STONE",
           "data": 5,
+          "tags": {},
           "heightConditions": [
             {
               "minHeight": 0,
@@ -330,6 +260,7 @@
         {
           "type": "SANDSTONE_SLAB",
           "data": 0,
+          "tags": {},
           "relativeAltitudeConditions": [
             {
               "minRelativeHeight": 62,
@@ -348,6 +279,7 @@
         {
           "type": "GRASS",
           "data": 0,
+          "tags": {},
           "inclinationsConditions": [
             {
               "minInclination": 0.0,
@@ -359,6 +291,7 @@
         {
           "type": "BROWN_MUSHROOM",
           "data": 0,
+          "tags": {},
           "inclinationsConditions": [
             {
               "minInclination": 0.0,
@@ -373,6 +306,7 @@
         {
           "type": "FERN",
           "data": 0,
+          "tags": {},
           "chance": 0.001953125
         }
       ]
@@ -386,83 +320,19 @@
         {
           "type": "DIRT",
           "data": 0,
+          "tags": {},
           "chance": 0.3333333333333333
         },
         {
           "type": "GRASS_BLOCK",
           "data": 0,
+          "tags": {},
           "chance": 0.3333333333333333
         }
       ]
     ]
   },
   "customTrees": [
-    {
-      "name": "TREES_swamp_medium_1",
-      "density": 0.0025,
-      "size": "MEDIUM",
-      "provider": "EWG",
-      "type": "TREES",
-      "blocksRequiredUnderneath": [
-        "GRASS_BLOCK",
-        "STONE",
-        "COBBLESTONE",
-        "DEAD_BUSH"
-      ],
-      "blacklistedDecoBlocks": [],
-      "chestConfig": "default.json",
-      "spawnUnderWater": true,
-      "spawnOnGround": true,
-      "overrideExsistingBlocks": false,
-      "allowRotation": false,
-      "applyPhysics": false,
-      "applyAir": false,
-      "fixFlyingRoots": false,
-      "replaceAir": true,
-      "minY": 57,
-      "maxY": 113,
-      "maxSlope": 0.7,
-      "minSlope": 0.0,
-      "transitionClearance": -1.0,
-      "snapToXGrid": -1,
-      "snapToYGrid": -1,
-      "gridXOffset": 0,
-      "gridYOffset": 0,
-      "anchorYOffset": 0
-    },
-    {
-      "name": "TREES_swamp_huge_2",
-      "density": 0.0025,
-      "size": "MEDIUM",
-      "provider": "EWG",
-      "type": "TREES",
-      "blocksRequiredUnderneath": [
-        "GRASS_BLOCK",
-        "STONE",
-        "COBBLESTONE",
-        "DEAD_BUSH"
-      ],
-      "blacklistedDecoBlocks": [],
-      "chestConfig": "default.json",
-      "spawnUnderWater": true,
-      "spawnOnGround": true,
-      "overrideExsistingBlocks": false,
-      "allowRotation": false,
-      "applyPhysics": false,
-      "applyAir": false,
-      "fixFlyingRoots": false,
-      "replaceAir": true,
-      "minY": 57,
-      "maxY": 113,
-      "maxSlope": 0.7,
-      "minSlope": 0.0,
-      "transitionClearance": -1.0,
-      "snapToXGrid": -1,
-      "snapToYGrid": -1,
-      "gridXOffset": 0,
-      "gridYOffset": 0,
-      "anchorYOffset": 0
-    },
     {
       "name": "TREES_swamp_huge_1",
       "density": 0.0025,
@@ -497,7 +367,40 @@
       "anchorYOffset": 0
     },
     {
-      "name": "TREES_swamp_medium_3",
+      "name": "TREES_swamp_medium_2",
+      "density": 0.0025,
+      "size": "MEDIUM",
+      "provider": "EWG",
+      "type": "TREES",
+      "blocksRequiredUnderneath": [
+        "GRASS_BLOCK",
+        "STONE",
+        "COBBLESTONE",
+        "DEAD_BUSH"
+      ],
+      "blacklistedDecoBlocks": [],
+      "chestConfig": "default.json",
+      "spawnUnderWater": true,
+      "spawnOnGround": true,
+      "overrideExsistingBlocks": false,
+      "allowRotation": false,
+      "applyPhysics": false,
+      "applyAir": false,
+      "fixFlyingRoots": false,
+      "replaceAir": true,
+      "minY": 57,
+      "maxY": 113,
+      "maxSlope": 0.7,
+      "minSlope": 0.0,
+      "transitionClearance": -1.0,
+      "snapToXGrid": -1,
+      "snapToYGrid": -1,
+      "gridXOffset": 0,
+      "gridYOffset": 0,
+      "anchorYOffset": 0
+    },
+    {
+      "name": "TREES_swamp_medium_1",
       "density": 0.0025,
       "size": "MEDIUM",
       "provider": "EWG",
@@ -563,7 +466,40 @@
       "anchorYOffset": 0
     },
     {
-      "name": "TREES_swamp_medium_2",
+      "name": "TREES_swamp_medium_3",
+      "density": 0.0025,
+      "size": "MEDIUM",
+      "provider": "EWG",
+      "type": "TREES",
+      "blocksRequiredUnderneath": [
+        "GRASS_BLOCK",
+        "STONE",
+        "COBBLESTONE",
+        "DEAD_BUSH"
+      ],
+      "blacklistedDecoBlocks": [],
+      "chestConfig": "default.json",
+      "spawnUnderWater": true,
+      "spawnOnGround": true,
+      "overrideExsistingBlocks": false,
+      "allowRotation": false,
+      "applyPhysics": false,
+      "applyAir": false,
+      "fixFlyingRoots": false,
+      "replaceAir": true,
+      "minY": 57,
+      "maxY": 113,
+      "maxSlope": 0.7,
+      "minSlope": 0.0,
+      "transitionClearance": -1.0,
+      "snapToXGrid": -1,
+      "snapToYGrid": -1,
+      "gridXOffset": 0,
+      "gridYOffset": 0,
+      "anchorYOffset": 0
+    },
+    {
+      "name": "TREES_swamp_huge_2",
       "density": 0.0025,
       "size": "MEDIUM",
       "provider": "EWG",
@@ -598,8 +534,8 @@
   ],
   "customStructures": [
     {
-      "name": "DECO_swampRoot_1",
-      "density": 0.05,
+      "name": "DECO_swampRoot_5",
+      "density": 0.001,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "DECO",
@@ -632,106 +568,7 @@
     },
     {
       "name": "DECO_swampRoot_6",
-      "density": 0.05,
-      "size": "MEDIUM",
-      "provider": "EWG",
-      "type": "DECO",
-      "blocksRequiredUnderneath": [
-        "GRASS_BLOCK",
-        "STONE",
-        "DIRT",
-        "COBBLESTONE"
-      ],
-      "blacklistedDecoBlocks": [],
-      "chestConfig": "default.json",
-      "spawnUnderWater": true,
-      "spawnOnGround": true,
-      "overrideExsistingBlocks": false,
-      "allowRotation": false,
-      "applyPhysics": false,
-      "applyAir": true,
-      "fixFlyingRoots": false,
-      "replaceAir": true,
-      "minY": 42,
-      "maxY": 82,
-      "maxSlope": 20.0,
-      "minSlope": 0.0,
-      "transitionClearance": -1.0,
-      "snapToXGrid": -1,
-      "snapToYGrid": -1,
-      "gridXOffset": 0,
-      "gridYOffset": 0,
-      "anchorYOffset": 0
-    },
-    {
-      "name": "DECO_swampRoot_5",
-      "density": 0.05,
-      "size": "MEDIUM",
-      "provider": "EWG",
-      "type": "DECO",
-      "blocksRequiredUnderneath": [
-        "GRASS_BLOCK",
-        "STONE",
-        "DIRT",
-        "COBBLESTONE"
-      ],
-      "blacklistedDecoBlocks": [],
-      "chestConfig": "default.json",
-      "spawnUnderWater": true,
-      "spawnOnGround": true,
-      "overrideExsistingBlocks": false,
-      "allowRotation": false,
-      "applyPhysics": false,
-      "applyAir": true,
-      "fixFlyingRoots": false,
-      "replaceAir": true,
-      "minY": 42,
-      "maxY": 82,
-      "maxSlope": 20.0,
-      "minSlope": 0.0,
-      "transitionClearance": -1.0,
-      "snapToXGrid": -1,
-      "snapToYGrid": -1,
-      "gridXOffset": 0,
-      "gridYOffset": 0,
-      "anchorYOffset": 0
-    },
-    {
-      "name": "DECO_swampRoot_3",
-      "density": 0.05,
-      "size": "MEDIUM",
-      "provider": "EWG",
-      "type": "DECO",
-      "blocksRequiredUnderneath": [
-        "GRASS_BLOCK",
-        "STONE",
-        "DIRT",
-        "COBBLESTONE"
-      ],
-      "blacklistedDecoBlocks": [],
-      "chestConfig": "default.json",
-      "spawnUnderWater": true,
-      "spawnOnGround": true,
-      "overrideExsistingBlocks": false,
-      "allowRotation": false,
-      "applyPhysics": false,
-      "applyAir": true,
-      "fixFlyingRoots": false,
-      "replaceAir": true,
-      "minY": 42,
-      "maxY": 82,
-      "maxSlope": 20.0,
-      "minSlope": 0.0,
-      "transitionClearance": -1.0,
-      "snapToXGrid": -1,
-      "snapToYGrid": -1,
-      "gridXOffset": 0,
-      "gridYOffset": 0,
-      "anchorYOffset": 0
-    },
-    {
-      "name": "DECO_swampRoot_4",
-      "density": 0.05,
+      "density": 0.001,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "DECO",
@@ -764,7 +601,106 @@
     },
     {
       "name": "DECO_swampRoot_7",
-      "density": 0.05,
+      "density": 0.001,
+      "size": "MEDIUM",
+      "provider": "EWG",
+      "type": "DECO",
+      "blocksRequiredUnderneath": [
+        "GRASS_BLOCK",
+        "STONE",
+        "DIRT",
+        "COBBLESTONE"
+      ],
+      "blacklistedDecoBlocks": [],
+      "chestConfig": "default.json",
+      "spawnUnderWater": true,
+      "spawnOnGround": true,
+      "overrideExsistingBlocks": false,
+      "allowRotation": false,
+      "applyPhysics": false,
+      "applyAir": true,
+      "fixFlyingRoots": false,
+      "replaceAir": true,
+      "minY": 42,
+      "maxY": 82,
+      "maxSlope": 20.0,
+      "minSlope": 0.0,
+      "transitionClearance": -1.0,
+      "snapToXGrid": -1,
+      "snapToYGrid": -1,
+      "gridXOffset": 0,
+      "gridYOffset": 0,
+      "anchorYOffset": 0
+    },
+    {
+      "name": "DECO_swampRoot_3",
+      "density": 0.001,
+      "size": "MEDIUM",
+      "provider": "EWG",
+      "type": "DECO",
+      "blocksRequiredUnderneath": [
+        "GRASS_BLOCK",
+        "STONE",
+        "DIRT",
+        "COBBLESTONE"
+      ],
+      "blacklistedDecoBlocks": [],
+      "chestConfig": "default.json",
+      "spawnUnderWater": true,
+      "spawnOnGround": true,
+      "overrideExsistingBlocks": false,
+      "allowRotation": false,
+      "applyPhysics": false,
+      "applyAir": true,
+      "fixFlyingRoots": false,
+      "replaceAir": true,
+      "minY": 42,
+      "maxY": 82,
+      "maxSlope": 20.0,
+      "minSlope": 0.0,
+      "transitionClearance": -1.0,
+      "snapToXGrid": -1,
+      "snapToYGrid": -1,
+      "gridXOffset": 0,
+      "gridYOffset": 0,
+      "anchorYOffset": 0
+    },
+    {
+      "name": "DECO_swampRoot_1",
+      "density": 0.001,
+      "size": "MEDIUM",
+      "provider": "EWG",
+      "type": "DECO",
+      "blocksRequiredUnderneath": [
+        "GRASS_BLOCK",
+        "STONE",
+        "DIRT",
+        "COBBLESTONE"
+      ],
+      "blacklistedDecoBlocks": [],
+      "chestConfig": "default.json",
+      "spawnUnderWater": true,
+      "spawnOnGround": true,
+      "overrideExsistingBlocks": false,
+      "allowRotation": false,
+      "applyPhysics": false,
+      "applyAir": true,
+      "fixFlyingRoots": false,
+      "replaceAir": true,
+      "minY": 42,
+      "maxY": 82,
+      "maxSlope": 20.0,
+      "minSlope": 0.0,
+      "transitionClearance": -1.0,
+      "snapToXGrid": -1,
+      "snapToYGrid": -1,
+      "gridXOffset": 0,
+      "gridYOffset": 0,
+      "anchorYOffset": 0
+    },
+    {
+      "name": "DECO_swampRoot_4",
+      "density": 0.001,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "DECO",
@@ -797,7 +733,7 @@
     },
     {
       "name": "DECO_swampRoot_2",
-      "density": 0.05,
+      "density": 0.001,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "DECO",
@@ -829,8 +765,8 @@
       "anchorYOffset": 0
     },
     {
-      "name": "DECO_swampPlants_3",
-      "density": 1.0,
+      "name": "DECO_swampPlants_4",
+      "density": 0.0033333333333333335,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "DECO",
@@ -859,11 +795,11 @@
       "snapToYGrid": -1,
       "gridXOffset": 0,
       "gridYOffset": 0,
-      "anchorYOffset": 1
+      "anchorYOffset": 0
     },
     {
-      "name": "DECO_swampPlants_1",
-      "density": 1.0,
+      "name": "DECO_swampPlants_3",
+      "density": 0.0033333333333333335,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "DECO",
@@ -892,11 +828,11 @@
       "snapToYGrid": -1,
       "gridXOffset": 0,
       "gridYOffset": 0,
-      "anchorYOffset": 1
+      "anchorYOffset": 0
     },
     {
       "name": "DECO_swampPlants_2",
-      "density": 1.0,
+      "density": 0.0033333333333333335,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "DECO",
@@ -925,11 +861,11 @@
       "snapToYGrid": -1,
       "gridXOffset": 0,
       "gridYOffset": 0,
-      "anchorYOffset": 1
+      "anchorYOffset": 0
     },
     {
-      "name": "DECO_swampPlants_4",
-      "density": 1.0,
+      "name": "DECO_swampPlants_1",
+      "density": 0.0033333333333333335,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "DECO",
@@ -958,11 +894,11 @@
       "snapToYGrid": -1,
       "gridXOffset": 0,
       "gridYOffset": 0,
-      "anchorYOffset": 1
+      "anchorYOffset": 0
     },
     {
       "name": "DECO_swampRocks_1",
-      "density": 0.3333333333333333,
+      "density": 5.0E-4,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "DECO",
@@ -991,77 +927,11 @@
       "snapToYGrid": -1,
       "gridXOffset": 0,
       "gridYOffset": 0,
-      "anchorYOffset": 3
-    },
-    {
-      "name": "DECO_swampRootSmall_4",
-      "density": 1.0,
-      "size": "MEDIUM",
-      "provider": "EWG",
-      "type": "DECO",
-      "blocksRequiredUnderneath": [
-        "GRASS_BLOCK",
-        "STONE",
-        "DIRT",
-        "COBBLESTONE"
-      ],
-      "blacklistedDecoBlocks": [],
-      "chestConfig": "default.json",
-      "spawnUnderWater": true,
-      "spawnOnGround": true,
-      "overrideExsistingBlocks": false,
-      "allowRotation": false,
-      "applyPhysics": false,
-      "applyAir": true,
-      "fixFlyingRoots": false,
-      "replaceAir": true,
-      "minY": 42,
-      "maxY": 82,
-      "maxSlope": 20.0,
-      "minSlope": 0.0,
-      "transitionClearance": -1.0,
-      "snapToXGrid": -1,
-      "snapToYGrid": -1,
-      "gridXOffset": 0,
-      "gridYOffset": 0,
       "anchorYOffset": 0
     },
     {
-      "name": "DECO_swampRootSmall_5",
-      "density": 1.0,
-      "size": "MEDIUM",
-      "provider": "EWG",
-      "type": "DECO",
-      "blocksRequiredUnderneath": [
-        "GRASS_BLOCK",
-        "STONE",
-        "DIRT",
-        "COBBLESTONE"
-      ],
-      "blacklistedDecoBlocks": [],
-      "chestConfig": "default.json",
-      "spawnUnderWater": true,
-      "spawnOnGround": true,
-      "overrideExsistingBlocks": false,
-      "allowRotation": false,
-      "applyPhysics": false,
-      "applyAir": true,
-      "fixFlyingRoots": false,
-      "replaceAir": true,
-      "minY": 42,
-      "maxY": 82,
-      "maxSlope": 20.0,
-      "minSlope": 0.0,
-      "transitionClearance": -1.0,
-      "snapToXGrid": -1,
-      "snapToYGrid": -1,
-      "gridXOffset": 0,
-      "gridYOffset": 0,
-      "anchorYOffset": 0
-    },
-    {
-      "name": "DECO_swampRootSmall_6",
-      "density": 1.0,
+      "name": "DECO_swampRootSmall_1",
+      "density": 6.666666666666666E-4,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "DECO",
@@ -1094,7 +964,106 @@
     },
     {
       "name": "DECO_swampRootSmall_3",
-      "density": 1.0,
+      "density": 6.666666666666666E-4,
+      "size": "MEDIUM",
+      "provider": "EWG",
+      "type": "DECO",
+      "blocksRequiredUnderneath": [
+        "GRASS_BLOCK",
+        "STONE",
+        "DIRT",
+        "COBBLESTONE"
+      ],
+      "blacklistedDecoBlocks": [],
+      "chestConfig": "default.json",
+      "spawnUnderWater": true,
+      "spawnOnGround": true,
+      "overrideExsistingBlocks": false,
+      "allowRotation": false,
+      "applyPhysics": false,
+      "applyAir": true,
+      "fixFlyingRoots": false,
+      "replaceAir": true,
+      "minY": 42,
+      "maxY": 82,
+      "maxSlope": 20.0,
+      "minSlope": 0.0,
+      "transitionClearance": -1.0,
+      "snapToXGrid": -1,
+      "snapToYGrid": -1,
+      "gridXOffset": 0,
+      "gridYOffset": 0,
+      "anchorYOffset": 0
+    },
+    {
+      "name": "DECO_swampRootSmall_6",
+      "density": 6.666666666666666E-4,
+      "size": "MEDIUM",
+      "provider": "EWG",
+      "type": "DECO",
+      "blocksRequiredUnderneath": [
+        "GRASS_BLOCK",
+        "STONE",
+        "DIRT",
+        "COBBLESTONE"
+      ],
+      "blacklistedDecoBlocks": [],
+      "chestConfig": "default.json",
+      "spawnUnderWater": true,
+      "spawnOnGround": true,
+      "overrideExsistingBlocks": false,
+      "allowRotation": false,
+      "applyPhysics": false,
+      "applyAir": true,
+      "fixFlyingRoots": false,
+      "replaceAir": true,
+      "minY": 42,
+      "maxY": 82,
+      "maxSlope": 20.0,
+      "minSlope": 0.0,
+      "transitionClearance": -1.0,
+      "snapToXGrid": -1,
+      "snapToYGrid": -1,
+      "gridXOffset": 0,
+      "gridYOffset": 0,
+      "anchorYOffset": 0
+    },
+    {
+      "name": "DECO_swampRootSmall_4",
+      "density": 6.666666666666666E-4,
+      "size": "MEDIUM",
+      "provider": "EWG",
+      "type": "DECO",
+      "blocksRequiredUnderneath": [
+        "GRASS_BLOCK",
+        "STONE",
+        "DIRT",
+        "COBBLESTONE"
+      ],
+      "blacklistedDecoBlocks": [],
+      "chestConfig": "default.json",
+      "spawnUnderWater": true,
+      "spawnOnGround": true,
+      "overrideExsistingBlocks": false,
+      "allowRotation": false,
+      "applyPhysics": false,
+      "applyAir": true,
+      "fixFlyingRoots": false,
+      "replaceAir": true,
+      "minY": 42,
+      "maxY": 82,
+      "maxSlope": 20.0,
+      "minSlope": 0.0,
+      "transitionClearance": -1.0,
+      "snapToXGrid": -1,
+      "snapToYGrid": -1,
+      "gridXOffset": 0,
+      "gridYOffset": 0,
+      "anchorYOffset": 0
+    },
+    {
+      "name": "DECO_swampRootSmall_5",
+      "density": 6.666666666666666E-4,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "DECO",
@@ -1127,40 +1096,7 @@
     },
     {
       "name": "DECO_swampRootSmall_2",
-      "density": 1.0,
-      "size": "MEDIUM",
-      "provider": "EWG",
-      "type": "DECO",
-      "blocksRequiredUnderneath": [
-        "GRASS_BLOCK",
-        "STONE",
-        "DIRT",
-        "COBBLESTONE"
-      ],
-      "blacklistedDecoBlocks": [],
-      "chestConfig": "default.json",
-      "spawnUnderWater": true,
-      "spawnOnGround": true,
-      "overrideExsistingBlocks": false,
-      "allowRotation": false,
-      "applyPhysics": false,
-      "applyAir": true,
-      "fixFlyingRoots": false,
-      "replaceAir": true,
-      "minY": 42,
-      "maxY": 82,
-      "maxSlope": 20.0,
-      "minSlope": 0.0,
-      "transitionClearance": -1.0,
-      "snapToXGrid": -1,
-      "snapToYGrid": -1,
-      "gridXOffset": 0,
-      "gridYOffset": 0,
-      "anchorYOffset": 0
-    },
-    {
-      "name": "DECO_swampRootSmall_1",
-      "density": 1.0,
+      "density": 6.666666666666666E-4,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "DECO",

@@ -132,14 +132,6 @@
           "type": "minecraft:bee"
         }
       }
-    },
-    "minecraft:hoglin": {
-      "trigger": "minecraft:bred_animals",
-      "conditions": {
-        "parent": {
-          "type": "minecraft:hoglin"
-        }
-      }
     }
   },
   "requirements": [
@@ -187,9 +179,6 @@
     ],
     [
       "minecraft:bee"
-    ],
-    [
-      "minecraft:hoglin"
     ]
   ]
 }

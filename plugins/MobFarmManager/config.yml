@@ -50,7 +50,7 @@ AutoClean:
   # Set to 0 if you want to disable limit
   MaxRemoved: 0
   # When set to true and value for ChunkRadius is provided, we will group more then one chunk into check
-  GroupChunks: truee
+  GroupChunks: true
   # Range around player in chunks to check. 2 means that 9 chunks will be checked, 3 - 25 chunks and so on
   # Max value is 5 to avoid unnecessary load on server
   ChunkRadius: 2

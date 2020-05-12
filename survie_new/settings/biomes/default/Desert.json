@@ -20,6 +20,7 @@
   "useFossils": true,
   "useWaterLakes": false,
   "useLavaLakes": true,
+  "useBedrock": false,
   "useRivers": true,
   "useNativePainting": false,
   "useNativeStructure": false,
@@ -43,92 +44,7 @@
     "VEGETAL_DECORATION",
     "SURFACE_STRUCTURES"
   ],
-  "ores": [
-    {
-      "type": "DIRT",
-      "size": 33,
-      "count": 10,
-      "minHeight": 0,
-      "maxHeight": 256
-    },
-    {
-      "type": "GRAVEL",
-      "size": 33,
-      "count": 8,
-      "minHeight": 0,
-      "maxHeight": 256
-    },
-    {
-      "type": "GRANITE",
-      "size": 33,
-      "count": 10,
-      "minHeight": 0,
-      "maxHeight": 80
-    },
-    {
-      "type": "DIORITE",
-      "size": 33,
-      "count": 10,
-      "minHeight": 0,
-      "maxHeight": 80
-    },
-    {
-      "type": "ANDESITE",
-      "size": 33,
-      "count": 10,
-      "minHeight": 0,
-      "maxHeight": 80
-    },
-    {
-      "type": "COAL_ORE",
-      "size": 17,
-      "count": 20,
-      "minHeight": 0,
-      "maxHeight": 128
-    },
-    {
-      "type": "IRON_ORE",
-      "size": 9,
-      "count": 20,
-      "minHeight": 0,
-      "maxHeight": 64
-    },
-    {
-      "type": "GOLD_ORE",
-      "size": 9,
-      "count": 2,
-      "minHeight": 0,
-      "maxHeight": 32
-    },
-    {
-      "type": "REDSTONE_ORE",
-      "size": 8,
-      "count": 8,
-      "minHeight": 0,
-      "maxHeight": 16
-    },
-    {
-      "type": "DIAMOND_ORE",
-      "size": 8,
-      "count": 1,
-      "minHeight": 0,
-      "maxHeight": 16
-    },
-    {
-      "type": "LAPIS_ORE",
-      "size": 7,
-      "count": 1,
-      "minHeight": 0,
-      "maxHeight": 32
-    },
-    {
-      "type": "EMERALD_ORE",
-      "size": 4,
-      "count": 2,
-      "minHeight": 4,
-      "maxHeight": 32
-    }
-  ],
+  "oreGenerators": [],
   "customTerrain": {
     "noiseLayers": []
   },
@@ -162,6 +78,7 @@
         {
           "type": "SAND",
           "data": 0,
+          "tags": {},
           "chance": 1.0
         }
       ]
@@ -176,6 +93,7 @@
         {
           "type": "SANDSTONE",
           "data": 0,
+          "tags": {},
           "chance": 1.0
         }
       ]
@@ -185,6 +103,7 @@
         {
           "type": "DIRT",
           "data": 0,
+          "tags": {},
           "chance": 1.0
         }
       ]
@@ -200,6 +119,7 @@
         {
           "type": "SANDSTONE_SLAB",
           "data": 0,
+          "tags": {},
           "chance": 1.0
         }
       ]
@@ -213,6 +133,7 @@
         {
           "type": "SANDSTONE_STAIRS",
           "data": 0,
+          "tags": {},
           "chance": 1.0
         }
       ]
@@ -224,6 +145,7 @@
         {
           "type": "DEAD_BUSH",
           "data": 0,
+          "tags": {},
           "inclinationsConditions": [
             {
               "minInclination": 0.0,
@@ -240,7 +162,7 @@
   "customStructures": [
     {
       "name": "DECO_desert_tower",
-      "density": 0.004545454545454545,
+      "density": 2.0E-4,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "DECO",
@@ -248,7 +170,7 @@
         "SAND"
       ],
       "blacklistedDecoBlocks": [
-        "TNT"
+        null
       ],
       "chestConfig": "default.json",
       "spawnUnderWater": false,
@@ -261,7 +183,7 @@
       "replaceAir": true,
       "minY": 67,
       "maxY": 107,
-      "maxSlope": 2.0,
+      "maxSlope": 100.0,
       "minSlope": 0.0,
       "transitionClearance": -1.0,
       "snapToXGrid": 150,

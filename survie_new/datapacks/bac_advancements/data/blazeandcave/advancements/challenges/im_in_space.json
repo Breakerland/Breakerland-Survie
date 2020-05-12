@@ -7,7 +7,7 @@
         "description": {"translate":"Levitate up a distance of 256 blocks"},
         "frame": "challenge"
     },
-    "parent": "blazeandcave:challenges/root",
+    "parent": "blazeandcave:challenges/endergeddon",
 	"rewards": {
         "experience": 500,
 		"function": "bc_rewards:challenges/im_in_space"

@@ -6,7 +6,7 @@
         "title": {"translate":"Yay! Deadbush!"},
         "description": {"translate":"Get a deadbush cause you're a noob"}
     },
-    "parent": "blazeandcave:animal/foilage",
+    "parent": "blazeandcave:animal/trimming_the_treetops",
 	"rewards": {
 		"function": "bc_rewards:animal/yay_deadbush"
     },		

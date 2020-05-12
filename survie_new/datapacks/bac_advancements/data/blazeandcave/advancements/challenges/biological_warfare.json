@@ -294,11 +294,11 @@
 				}
             }
         },
-        "zombified_piglin": {
+        "zombie_pigman": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
 				"entity": {
-					"type": "zombified_piglin"
+					"type": "zombie_pigman"
 				},
 				"killing_blow": {
 					"is_magic": "true",
@@ -845,34 +845,6 @@
             "conditions": {
 				"entity": {
 					"type": "bee"
-				},
-				"killing_blow": {
-					"is_magic": "true",
-					"direct_entity": {
-						"type": "minecraft:area_effect_cloud"
-					}
-				}
-            }
-        },
-        "piglin": {
-            "trigger": "minecraft:player_killed_entity",
-            "conditions": {
-				"entity": {
-					"type": "piglin"
-				},
-				"killing_blow": {
-					"is_magic": "true",
-					"direct_entity": {
-						"type": "minecraft:area_effect_cloud"
-					}
-				}
-            }
-        },
-        "hoglin": {
-            "trigger": "minecraft:player_killed_entity",
-            "conditions": {
-				"entity": {
-					"type": "hoglin"
 				},
 				"killing_blow": {
 					"is_magic": "true",

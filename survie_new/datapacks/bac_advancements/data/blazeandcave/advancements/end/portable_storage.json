@@ -16,7 +16,7 @@
             "conditions": {
                 "items": [
                     {
-                        "tag": "minecraft:shulker_boxes"
+                        "item": "minecraft:shulker_box"
                     }
                 ]
             }

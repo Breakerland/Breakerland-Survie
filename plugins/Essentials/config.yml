@@ -73,7 +73,7 @@ teleport-safety: true
 force-disable-teleport-safety: false
 
 # The delay, in seconds, required between /home, /tp, etc.
-teleport-cooldown: 5
+teleport-cooldown: 1
 
 # The delay, in seconds, before a user actually teleports. If the user moves or gets attacked in this timeframe, the teleport is cancelled.
 teleport-delay: 0
@@ -305,7 +305,7 @@ remove-god-on-disconnect: true
 # After this timeout in seconds, the user will be set as AFK.
 # This feature requires the player to have essentials.afk.auto node.
 # Set to -1 for no timeout.
-auto-afk: 120
+auto-afk: 60
 
 # Auto-AFK Kick
 # After this timeout in seconds, the user will be kicked from the server.

@@ -1,0 +1,110 @@
+firstlaunch: false
+data:
+  maxref: 9
+  moneyb: β
+  alreadyf: '%player% est déjà votre parrain !'
+  msgmax: '%player% ne peux pas avoir de filleuls supplementaires !'
+  isref: Vous avez atteint le nombre maximal de parrains !
+  hasask: '%player% a deja recu votre demande !'
+  fhasp: '%player% a deja un parrain !'
+  noask: '%player% ne vous a pas envoyer de demande !'
+  accp: '%player% est devenu votre parrain !'
+  accf: '%player% est devenu votre filleul !'
+  refp: '%player% a refusé de devenir votre parrain !'
+  reff: Vous avez refusé la demande de %player%
+  nof: Vous n'avez pas de filleul !
+  GUI_title2: Récompenses
+  GUI_title1: Vos filleuls
+  red_glass: Rien à voir ici !
+  HOVER_decline: Refuser la demande !
+  HOVER_accept: Accepter la demande !
+  demande: '%player% souhaite devenir votre filleul(e) !'
+  bouton_refuser: REFUSER
+  bouton_accepter: ACCEPTER
+  joueur_innexistant: Le joueur %player% n'existe pas !
+  demande_sended: Votre demande a bien envoyée
+  clickable_recup: À récupérer!
+  clickable_nop: Déjà récupérer !
+  clickable_recomp: 'Récompense:'
+  nopseudo: Merci de rentrez un pseudo !
+  nopar: Vous n'êtes pas le parrain de %player%
+  revf: '%player% n''est plus votre filleul !'
+  noyou: Vous ne pouvez pas être votre propre parrain !
+  congr: 'Félicitations tu as reçu:'
+  err_rew: Pas de récompense encore défini
+  notnow: Attendez avant de récupérer cela
+  adv_sucpar: Un achievement à été réalisé par %player%
+  adv_sucfil: Vous avez réalisé un succès pour votre parrain
+  not_done: Pas encore réalisé
+  full: Ton inventaire est plein !
+  ispar: Tu ne peux pas parrainer ton propre parrain !
+  listpar: Votre parrain est %player%
+  listnopar: Vous n'avez pas de parrain !
+  listpfiltitre: 'Liste de vos filleuls:'
+  listnofil: Vous n'avez pas de filleuls !
+  rewfil: 1000
+db:
+  host: $mysql_host
+  port: $mysql_port
+  database: $mysql_database
+  username: $mysql_user
+  password: $mysql_password
+advancement:
+- blazeandcave:mining/master_diamond_miner
+- blazeandcave:mining/gold_mine
+- blazeandcave:combat/tridented_shield
+- blazeandcave:biomes/free_diver
+- blazeandcave:statistics/marathon
+- blazeandcave:building/rainbow_dreams
+- blazeandcave:biomes/cold_feet
+- blazeandcave:adventure/florist
+- blazeandcave:animal/hive_mind
+- blazeandcave:mining/the_mistake
+- blazeandcave:adventure/its_so_beast_like
+- blazeandcave:weaponry/shovel_knight
+rewards:
+  blazeandcave:mining/master_diamond_miner:
+    cmd: ecraft give diamant_impeccable %player%
+    reward: '&l&4Diamant Impeccable !'
+    title: Mineur Tching Tchong !
+  blazeandcave:mining/gold_mine:
+    coins: 3000
+    title: Un filleul en or
+  blazeandcave:combat/tridented_shield:
+    cmd: give %player% enchanted_book 1 {StoredEnchantments:[{id:protection,lvl:4}]}
+    reward: Livre mystérieux
+    title: Protéger le chef !
+  blazeandcave:biomes/free_diver:
+    cmd: give %player% diamond_helmet 1 {display:{Name:"\"§bSUBNAUTICA\""},Enchantments:[{id:respiration,lvl:1},{id:aqua_affinity,lvl:1}]}
+    reward: Masque à tuba
+    title: Infiltration sous-marine
+  blazeandcave:statistics/marathon:
+    cmd: give %player% diamond_boots 1 {display:{Name:"\"§aGEOX\""},Enchantments:[{id:feather_falling,lvl:2},{id:unbreaking,lvl:1}]}
+    reward: Attention à la chute
+    title: Cours toujours !
+  blazeandcave:building/rainbow_dreams:
+    cmd: give %player% diamond_leggings 1 {display:{Name:"\"§6PYJAMA WINNIE\""},Enchantments:[{id:protection,lvl:2},{id:unbreaking,lvl:1}]}
+    reward: Bas de pyjama
+    title: Un vrai dortoir
+  blazeandcave:biomes/cold_feet:
+    cmd: give %player% diamond_chestplate 1 {display:{Name:"\"§dCANADA GOOSE\""},Enchantments:[{id:protection,lvl:2},{id:unbreaking,lvl:1}]}
+    reward: Doudoune
+    title: Il fait froid ici !
+  blazeandcave:adventure/florist:
+    cmd: ecraft give fleur_pure %player%
+    reward: §a§lFleur Pure
+    title: Il est où lui encore ?
+  blazeandcave:animal/hive_mind:
+    reward: Fruit d'abeilles
+    title: Et la protection des animaux ?!
+  blazeandcave:mining/the_mistake:
+    coins: 7500
+    title: Erreur de débutant...
+  blazeandcave:adventure/its_so_beast_like:
+    cmd: give %player% emerald 16
+    reward: Pierres vertes
+    title: Une grosse bestiole !
+  blazeandcave:weaponry/shovel_knight:
+    cmd: exp give %player% 10L
+    reward: DE L'XPPP
+    title: Coup de trouelch

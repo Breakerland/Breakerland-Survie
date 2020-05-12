@@ -226,7 +226,7 @@ scripting:
     dir: craftscripts
 
 saving:
-    dir: ../../../schematics
+    dir: schematics
 
 files:
     allow-symbolic-links: false

@@ -2,7 +2,7 @@
     "display": {
         "icon": {
             "item": "minecraft:crossbow",
-			"nbt": "{Charged:1b,ChargedProjectiles:[{id:\"minecraft:arrow\",Count:1b}]}"
+			"nbt": "{Charged:1b}"
         },
         "title": {"translate":"Artillery"},
         "description": {"translate":"Have nine loaded crossbows in your hotbar. All set!"},

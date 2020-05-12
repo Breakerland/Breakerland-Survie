@@ -13,7 +13,7 @@
         "function": "bc_rewards:weaponry/poseidon_vs_hades"
     },	
     "criteria": {
-        "zombified_piglin": {
+        "zombie_pigman": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "killing_blow": {
@@ -23,7 +23,7 @@
                         }
                 },
                 "entity": {
-                    "type": "zombified_piglin"
+                    "type": "zombie_pigman"
                 }
             }
         },	
@@ -99,34 +99,6 @@
                     "type": "blaze"
                 }
             }
-        },
-        "piglin": {
-            "trigger": "minecraft:player_killed_entity",
-            "conditions": {
-                "killing_blow": {
-                    "is_projectile": true,
-                        "direct_entity": {
-                            "type": "minecraft:trident"
-                        }
-                },
-                "entity": {
-                    "type": "piglin"
-                }
-            }
-        },
-        "hoglin": {
-            "trigger": "minecraft:player_killed_entity",
-            "conditions": {
-                "killing_blow": {
-                    "is_projectile": true,
-                        "direct_entity": {
-                            "type": "minecraft:trident"
-                        }
-                },
-                "entity": {
-                    "type": "hoglin"
-                }
-            }
-        }
+        }	
     }
 }

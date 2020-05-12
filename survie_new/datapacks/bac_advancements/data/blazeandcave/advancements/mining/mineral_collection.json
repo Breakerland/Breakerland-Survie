@@ -91,16 +91,6 @@
                     }
                 ]
             }
-        },
-        "netherite_block": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:netherite_block"
-                    }
-                ]
-            }
         }
     }
 }

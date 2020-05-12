@@ -20,6 +20,7 @@
   "useFossils": false,
   "useWaterLakes": true,
   "useLavaLakes": false,
+  "useBedrock": false,
   "useRivers": true,
   "useNativePainting": false,
   "useNativeStructure": false,
@@ -44,92 +45,7 @@
     "RAW_GENERATION",
     "VEGETAL_DECORATION"
   ],
-  "ores": [
-    {
-      "type": "DIRT",
-      "size": 33,
-      "count": 10,
-      "minHeight": 0,
-      "maxHeight": 256
-    },
-    {
-      "type": "GRAVEL",
-      "size": 33,
-      "count": 8,
-      "minHeight": 0,
-      "maxHeight": 256
-    },
-    {
-      "type": "GRANITE",
-      "size": 33,
-      "count": 10,
-      "minHeight": 0,
-      "maxHeight": 80
-    },
-    {
-      "type": "DIORITE",
-      "size": 33,
-      "count": 10,
-      "minHeight": 0,
-      "maxHeight": 80
-    },
-    {
-      "type": "ANDESITE",
-      "size": 33,
-      "count": 10,
-      "minHeight": 0,
-      "maxHeight": 80
-    },
-    {
-      "type": "COAL_ORE",
-      "size": 17,
-      "count": 20,
-      "minHeight": 0,
-      "maxHeight": 128
-    },
-    {
-      "type": "IRON_ORE",
-      "size": 9,
-      "count": 20,
-      "minHeight": 0,
-      "maxHeight": 64
-    },
-    {
-      "type": "GOLD_ORE",
-      "size": 9,
-      "count": 2,
-      "minHeight": 0,
-      "maxHeight": 32
-    },
-    {
-      "type": "REDSTONE_ORE",
-      "size": 8,
-      "count": 8,
-      "minHeight": 0,
-      "maxHeight": 16
-    },
-    {
-      "type": "DIAMOND_ORE",
-      "size": 8,
-      "count": 1,
-      "minHeight": 0,
-      "maxHeight": 16
-    },
-    {
-      "type": "LAPIS_ORE",
-      "size": 7,
-      "count": 1,
-      "minHeight": 0,
-      "maxHeight": 32
-    },
-    {
-      "type": "EMERALD_ORE",
-      "size": 4,
-      "count": 2,
-      "minHeight": 4,
-      "maxHeight": 32
-    }
-  ],
+  "oreGenerators": [],
   "customTerrain": {
     "noiseLayers": []
   },
@@ -163,6 +79,7 @@
         {
           "type": "SNOW_BLOCK",
           "data": 0,
+          "tags": {},
           "chance": 1.0
         }
       ]
@@ -172,6 +89,7 @@
         {
           "type": "ICE",
           "data": 0,
+          "tags": {},
           "heightConditions": [
             {
               "minHeight": 62,
@@ -191,11 +109,13 @@
         {
           "type": "DIRT",
           "data": 0,
+          "tags": {},
           "chance": 0.8
         },
         {
           "type": "COBBLESTONE",
           "data": 0,
+          "tags": {},
           "chance": 0.2
         }
       ]

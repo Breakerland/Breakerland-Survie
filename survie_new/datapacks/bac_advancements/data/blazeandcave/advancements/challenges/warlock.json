@@ -7,7 +7,7 @@
         "description": {"translate":"Obtain a stack of Beacons"},
 		"frame": "challenge"
     },
-    "parent": "blazeandcave:challenges/constellation",
+    "parent": "blazeandcave:challenges/the_world_is_ending",
 	"rewards": {
 		"experience": 500,
 		"function": "bc_rewards:challenges/warlock"

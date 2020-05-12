@@ -19,6 +19,8 @@ aliases:
   - customtext changelog $1-
   liens:
   - customtext links $1-
+  links:
+  - customtext links $1-
   grades:
   - menu grades
   lag:
@@ -46,11 +48,13 @@ aliases:
   mage:
   - essentials:warp Mage
   warps:
-  - pwarp:pwarps
-  warp:
-  - pwarp:pwarp $1-
+  - bwarp
   setwarp:
-  - pwarp:pwarp set $1-
+  - setbwarp $1-
+  delwarp:
+  - delbwarp $1-
+  editwarp:
+  - editbwarp $1-
   lp:
   - []
   luckperms:

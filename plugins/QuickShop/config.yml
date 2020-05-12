@@ -1,6 +1,6 @@
 # 
 # whether to use decimal format output.
-config-version: 78
+config-version: 106
 language: fr
 dev-mode: false
 tax: 0.0
@@ -20,13 +20,14 @@ database:
   mysql: true
   host: $mysql_host
   port: $mysql_port
-  database: $mysql_database_survie
-  user: $mysql_user_survie
-  password: $mysql_password_survie
+  database: $mysql_database
+  user: $mysql_user
+  password: $mysql_password
   prefix: qs_
   usessl: true
   queue: true
   auto-fix-encoding-issue-in-database: false
+  queue-commit-interval: 2
 limits:
   use: false
   default: 10
@@ -46,14 +47,11 @@ shop:
   price-change-requires-fee: true
   fee-for-price-change: 50
   lock: true
-  sneak-to-create: true
-  sneak-to-trade: false
-  sneak-to-control: false
   auto-sign: true
   pay-unlimited-shop-owners: false
   display-items: true
   display-items-check-ticks: 0
-  display-type: 0
+  display-type: 2
   find-distance: 0
   alternate-currency-symbol: β
   disable-vault-format: false
@@ -93,7 +91,21 @@ shop:
   force-load-downgrade-items:
     enable: false
     method: 0
-  use-fast-shop-search-algorithm: false
+  use-fast-shop-search-algorithm: true
+  disable-creative-mode-trading: true
+  disable-super-tool: true
+  allow-owner-break-shop-sign: false
+  price-restriction: []
+  allow-stacks: false
+  display-allow-stacks: false
+  deny-non-shop-items-to-shop-container: false
+  disable-quick-create: false
+  currency-symbol-on-right: false
+  interact:
+    sneak-to-create: true
+    sneak-to-trade: false
+    sneak-to-control: false
+    switch-mode: false
 blacklist:
 - Bedrock
 lockette:
@@ -104,6 +116,10 @@ plugin:
   Multiverse-Core: false
   OpenInv: false
   PlaceHolderAPI: true
+  BlockHub:
+    enable: true
+    only: false
+  LWC: true
 effect:
   sound:
     ontabcomplete: true
@@ -120,13 +136,18 @@ matcher:
     itemflags: true
     custommodeldata: true
     repaircost: false
-  work-type: 0
+    books: true
+    banner: true
+    skull: true
+    firework: true
+    map: true
+    leatherArmor: true
+    fishBucket: true
+    suspiciousStew: true
+    shulkerBox: true
+  work-type: 1
 server-uuid: 777f2807-366c-40b5-b613-481f274e1b8d
 decimal-format: '#,###.##'
-disable-debuglogger: true
-cachingpool:
-  enable: false
-  maxsize: 100000000
 server-platform: 0
 use-decimal-format: false
 mixedeconomy:
@@ -141,14 +162,17 @@ integration:
     - SHOPTYPE
     - MODIFY
     trade: []
+    ignore-disabled-worlds: false
   worldguard:
     enable: false
     create:
     - FLAG
     - CHEST_ACCESS
     trade: []
+    whitelist-mode: true
   plotsquared:
     enable: false
+    whitelist-mode: true
   residence:
     enable: false
     create:
@@ -156,6 +180,7 @@ integration:
     - interact
     - use
     trade: []
+    whitelist-mode: true
   factions:
     enable: false
     create:
@@ -180,3 +205,11 @@ integration:
         safezone: false
         own: false
         warzone: false
+    whitelist-mode: true
+protect:
+  explode: true
+  hopper: true
+  entity: true
+respect-item-flag: true
+use-caching: false
+custom-item-stacksize: []

@@ -7,7 +7,7 @@
         "description": {"translate":"Obtain a stack of Conduits"},
 		"frame": "challenge"
     },
-    "parent": "blazeandcave:challenges/hearts_of_the_stack",
+    "parent": "blazeandcave:challenges/immortal",
 	"rewards": {
 		"experience": 500,
 		"function": "bc_rewards:challenges/abyss_lord"

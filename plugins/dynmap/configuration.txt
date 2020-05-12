@@ -29,9 +29,9 @@ storage:
   type: mysql
   hostname: $mysql_host
   port: $mysql_port
-  database: $mysql_database_survie
-  userid: $mysql_user_survie
-  password: $mysql_password_survie
+  database: $mysql_database
+  userid: $mysql_user
+  password: $mysql_password
   prefix: "dynmap_"
   flags: "?allowReconnect=true"
   
@@ -282,7 +282,7 @@ skin-url: "http://skins.minecraft.net/MinecraftSkins/%player%.png"
 render-triggers:
   #- playermove
   #- playerjoin
-  # - blockplaced
+  - blockplaced
   #- blockbreak
   #- leavesdecay
   #- blockburn
@@ -312,10 +312,10 @@ exportpath: export
 
 # The network-interface the webserver will bind to (0.0.0.0 for all interfaces, 127.0.0.1 for only local access).
 # If not set, uses same setting as server in server.properties (or 0.0.0.0 if not specified)
-#webserver-bindaddress: 127.0.0.1
+#webserver-bindaddress: 0.0.0.0
 
 # The TCP-port the webserver will listen on.
-webserver-port: 8123
+webserver-port: 42548
 
 # Maximum concurrent session on internal web server - limits resources used in Bukkit server
 max-sessions: 10
@@ -324,7 +324,7 @@ max-sessions: 10
 disable-webserver: false
 
 # Enable/disable having the web server allow symbolic links (true=compatible with existing code, false=more secure (default))
-allow-symlinks: true
+allow-symlinks: false
 
 # Enable login support
 login-enabled: false
@@ -351,7 +351,7 @@ updaterate: 2000
 # If nonzero, server will pause fullrender/radiusrender processing when 'fullrenderplayerlimit' or more users are logged in
 fullrenderplayerlimit: 5
 # If nonzero, server will pause update render processing when 'updateplayerlimit' or more users are logged in
-updateplayerlimit: 15
+updateplayerlimit: 10
 # Target limit on server thread use - msec per tick
 per-tick-time-limit: 50
 # If TPS of server is below this setting, update renders processing is paused

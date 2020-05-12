@@ -583,21 +583,6 @@
 					}
 				]
 			}
-		},
-        "soul_speed": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-				"items": [
-					{
-						"enchantments": [
-							{
-								"enchantment": "minecraft:soul_speed",
-								"levels": 3
-							}
-						]
-					}
-				]
-			}
 		}
     }
 }

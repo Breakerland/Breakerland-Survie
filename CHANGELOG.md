@@ -1,5 +1,37 @@
 # Changelog Breakerland
 
+## V6.10 - 12 mai
+
+ - Mise à jour Paper-280
+ - Modification des récompenses top-voteurs:
+   - 1er - nombre de votes en point
+   - 2ème - moitié du nombre de votes en point
+   - 3ème - 1 mois VIP
+ - Mise à jour plugins:
+   - antiRedstoneClock 1.1.0
+   - AuthMe-3.6.0 snapshot
+   - EpicWorldGenerator 8.1.21
+   - EpicNetherGenerator 2.0.4
+   - Lands 4.5.9.2
+   - Sleep 2.0
+ - Suppression plugins:
+   - EliteConquest
+   - Graves
+   - ExtendedViews
+   - XuanCatAPI
+   - InfoBoardReborn
+   - PhantomSpawnControl
+   - PlayerWarps
+   - UberEnchants
+   - VoxelSniper
+   - ViaVersion
+   - ViaBackwards
+   - VillagerOptimiser
+   - SAML
+   - EntityTrackFixer
+   - LimitPillager
+ - Ajout de la récupération du mot de passe par mail
+
 ## V6.03 - 21 mars
 
  - Suppression du moyen de paiement via paysafecard

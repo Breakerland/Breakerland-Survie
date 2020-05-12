@@ -105,26 +105,7 @@
                     }
                 }
             }
-        },
-        "netherite_axe": {
-            "trigger": "minecraft:player_hurt_entity",
-            "conditions": {
-                "entity": {
-					"distance": {
-						"absolute": {
-							"max": 5
-						}
-					}
-                },
-                "damage": {
-                    "type": {
-						"source_entity": {
-							"nbt": "{SelectedItem:{id:\"minecraft:netherite_axe\",}}"
-						}
-                    }
-                }
-            }
-        }
+        }		
     },
     "requirements": [
 		[
@@ -132,8 +113,7 @@
         "stone_axe",
 		"iron_axe",
 		"golden_axe",
-		"diamond_axe",
-		"netherite_axe"
+		"diamond_axe"
 		]
     ]
 }

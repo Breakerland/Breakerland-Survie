@@ -169,9 +169,9 @@ autoLogin: true
 driver: com.mysql.jdbc.Driver
 host: $mysql_host
 port: $mysql_port
-database: $mysql_dabatase_proxy
-username: $mysql_user_proxy
-password: $mysql_password_proxy
+database: $mysql_database
+username: $mysql_user
+password: $mysql_password
 
 # It's strongly recommended to enable SSL and setup a SSL certificate if the MySQL server isn't running on the same
 # machine

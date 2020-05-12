@@ -60,11 +60,11 @@
                 }
             }
         },
-        "zombified_piglin": {
+        "zombie_pigman": {
             "trigger": "minecraft:entity_killed_player",
             "conditions": {
                 "entity": {
-                    "type": "zombified_piglin"
+                    "type": "zombie_pigman"
                 }
             }
         },
@@ -321,22 +321,6 @@
             "conditions": {
                 "entity": {
                     "type": "bee"
-                }
-            }
-        },
-        "hoglin": {
-            "trigger": "minecraft:entity_killed_player",
-            "conditions": {
-                "entity": {
-                    "type": "hoglin"
-                }
-            }
-        },
-        "piglin": {
-            "trigger": "minecraft:entity_killed_player",
-            "conditions": {
-                "entity": {
-                    "type": "piglin"
                 }
             }
         }

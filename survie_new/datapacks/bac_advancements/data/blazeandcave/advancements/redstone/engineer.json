@@ -143,26 +143,6 @@
                 ]
             }
         },
-        "crimson_pressure_plate": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:crimson_pressure_plate"
-                    }
-                ]
-            }
-        },
-        "warped_pressure_plate": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:warped_pressure_plate"
-                    }
-                ]
-            }
-        },
         "redstone_torch": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
@@ -243,26 +223,6 @@
                 ]
             }
         },
-        "crimson_trapdoor": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:crimson_trapdoor"
-                    }
-                ]
-            }
-        },
-        "warped_trapdoor": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:warped_trapdoor"
-                    }
-                ]
-            }
-        },
         "oak_fence_gate": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
@@ -319,26 +279,6 @@
                 "items": [
                     {
                         "item": "minecraft:dark_oak_fence_gate"
-                    }
-                ]
-            }
-        },
-        "crimson_fence_gate": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:crimson_fence_gate"
-                    }
-                ]
-            }
-        },
-        "warped_fence_gate": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:warped_fence_gate"
                     }
                 ]
             }
@@ -419,26 +359,6 @@
                 "items": [
                     {
                         "item": "minecraft:dark_oak_button"
-                    }
-                ]
-            }
-        },
-        "crimson_button": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:crimson_button"
-                    }
-                ]
-            }
-        },
-        "warped_button": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:warped_button"
                     }
                 ]
             }
@@ -603,26 +523,6 @@
                 ]
             }
         },
-        "crimson_door": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:crimson_door"
-                    }
-                ]
-            }
-        },
-        "warped_door": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:warped_door"
-                    }
-                ]
-            }
-        },
         "repeater": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
@@ -659,16 +559,6 @@
                 "items": [
                     {
                         "item": "minecraft:lectern"
-                    }
-                ]
-            }
-        },
-        "target": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:target"
                     }
                 ]
             }

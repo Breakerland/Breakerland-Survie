@@ -6,7 +6,7 @@
         "title": {"translate":"Fluorescent!"},
         "description": {"translate":"Light up the area with some end rods"}
     },
-    "parent": "blazeandcave:building/expensive",
+    "parent": "blazeandcave:building/glowing",
 	"rewards": {
 		"function": "bc_rewards:building/fluorescent"
     },		

@@ -6,7 +6,7 @@
         "title": {"translate":"Seeing Stars"},
         "description": {"translate":"Mine some glowstone dust from the nether"}
     },
-    "parent": "blazeandcave:nether/dont_step_on_it",
+    "parent": "minecraft:nether/root",
 	"rewards": {
 		"function": "bc_rewards:nether/seeing_stars"
     },	

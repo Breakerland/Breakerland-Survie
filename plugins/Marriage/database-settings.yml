@@ -10,10 +10,10 @@
 # Changes apply on restart
 MySQL:
   enabled: true
-  user: $mysql_user_survie
-  password: $mysql_password_survie
+  user: $mysql_user
+  password: $mysql_password
   host: $mysql_host:$mysql_port
-  database: $mysql_database_survie
+  database: $mysql_database
   prefix: 'marriage_'
 auto-purge:
   enabled: true

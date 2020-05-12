@@ -321,26 +321,6 @@
                     }
                 ]
             }
-        },
-        "crimson_stairs": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:crimson_stairs"
-                    }
-                ]
-            }
-        },
-        "warped_stairs": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:warped_stairs"
-                    }
-                ]
-            }
         }
 	}		
 }

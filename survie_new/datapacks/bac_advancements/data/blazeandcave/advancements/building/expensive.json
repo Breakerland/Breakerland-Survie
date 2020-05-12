@@ -6,7 +6,7 @@
         "title": {"translate":"Expensive!"},
         "description": {"translate":"Light up the area with some sea lanterns"}
     },
-    "parent": "blazeandcave:building/festival_of_lights",
+    "parent": "blazeandcave:building/glowing",
 	"rewards": {
 		"function": "bc_rewards:building/expensive"
     },		

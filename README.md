@@ -10,6 +10,13 @@ Certaines données sont sensibles et ont donc été soit supprimé (plugins paya
 Cependant tous les fichiers de configuration restent disponible à la modification et les variables obfusquées sont désobfusquées sur notre serveur en sécurité.
 
 ## Variables
+
+### RCON properties
+Pour les identifiants du Bot Discord BreakerBot, veuillez utiliser les variables suivantes :
+```bash
+Port: '$rcon_port'
+Password: '$rcon_password'
+
 ### Base de donnée
 Il est préférable de favoriser l'utilisation de MySQL ou MariaDB lorsqu'il l'est possible.
 Pour les informations de connexion, veuillez utiliser les variables suivantes :
@@ -30,6 +37,15 @@ Pour les identifiants de connexion pour les données communes à différents ser
 User: '$mysql_user_proxy'
 Password: '$mysql_password_proxy'
 Database: '$mysql_database_proxy'
+```
+
+### Serveur SMTP
+Pour les identifiants du Bot Discord BreakerBot, veuillez utiliser les variables suivantes :
+```bash
+Host: '$smtp_host'
+Port: '$smtp_port'
+User: '$smtp_user'
+Password: '$smtp_password'
 ```
 
 ### Bot Discord

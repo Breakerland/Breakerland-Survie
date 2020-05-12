@@ -47,18 +47,6 @@
                 "block": "minecraft:dark_oak_fence"
             }
         },
-        "crimson_fence": {
-            "trigger": "minecraft:placed_block",
-            "conditions": {
-                "block": "minecraft:crimson_fence"
-            }
-        },
-        "warped_fence": {
-            "trigger": "minecraft:placed_block",
-            "conditions": {
-                "block": "minecraft:warped_fence"
-            }
-        },
         "nether_brick_fence": {
             "trigger": "minecraft:placed_block",
             "conditions": {
@@ -74,8 +62,6 @@
 		"jungle_fence",
 		"acacia_fence",
 		"dark_oak_fence",
-		"crimson_fence",
-		"warped_fence",
 		"nether_brick_fence"
 		]
     ]	

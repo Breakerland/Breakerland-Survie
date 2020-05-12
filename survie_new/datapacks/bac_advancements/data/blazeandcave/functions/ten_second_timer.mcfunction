@@ -37,9 +37,6 @@ advancement grant @a[predicate=blazeandcave:statistics/elderly_enchanter] only b
 advancement grant @a[predicate=blazeandcave:statistics/the_parrots_and_the_bats] only blazeandcave:statistics/the_parrots_and_the_bats
 advancement grant @a[predicate=blazeandcave:statistics/cupid] only blazeandcave:statistics/cupid
 advancement grant @a[predicate=blazeandcave:statistics/two_by_two] only blazeandcave:statistics/two_by_two
-advancement grant @a[predicate=blazeandcave:statistics/mob_hunter] only blazeandcave:statistics/mob_hunter
-advancement grant @a[predicate=blazeandcave:statistics/bloodthirsty] only blazeandcave:statistics/bloodthirsty
-advancement grant @a[predicate=blazeandcave:statistics/kill_or_be_killed] only blazeandcave:statistics/kill_or_be_killed
 advancement grant @a[level=30..] only blazeandcave:statistics/level_up
 advancement grant @a[level=100..] only blazeandcave:statistics/overlevelling
 advancement grant @a[level=1000..] only blazeandcave:statistics/xp_grinder
@@ -62,10 +59,7 @@ advancement grant @a[predicate=blazeandcave:statistics/wheres_the_honey_lebowski
 advancement grant @a[predicate=blazeandcave:statistics/insomniac] only blazeandcave:building/insomniac
 
 # Gives spiders with skeletons riding them a unique tag for the "Spider-skeleton" advancement
-tag @e[type=spider,tag=!spider_jockey,nbt={Passengers:[{id:"minecraft:skeleton"}]}] add spider_jockey
-
-# Gives baby zombie variants the 'baby' tag if they are a baby (Used for the "Family Reunion" advancement)
-execute as @e[type=#minecraft:zombies,tag=!bac_baby] run tag @s[nbt={IsBaby:1b}] add bac_baby
+tag @e[type=spider,nbt={Passengers:[{id:"minecraft:skeleton"}]}] add spider_jockey
 
 # The World Is Ending (counts ten withers)
 execute as @a at @s store result score @s ten_withers run execute if entity @e[type=wither,distance=..128]

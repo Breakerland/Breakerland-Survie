@@ -233,50 +233,6 @@
 				}
             }
         },
-		"netherite_helmet": {
-            "trigger": "minecraft:item_durability_changed",
-            "conditions": {
-				"item": {
-					"item": "minecraft:netherite_helmet"
-				},
-				"durability": {
-					"max": 0
-				}
-            }
-        },
-        "netherite_chestplate": {
-            "trigger": "minecraft:item_durability_changed",
-            "conditions": {
-				"item": {
-					"item": "minecraft:netherite_chestplate"
-				},
-				"durability": {
-					"max": 0
-				}
-            }
-        },
-        "netherite_leggings": {
-            "trigger": "minecraft:item_durability_changed",
-            "conditions": {
-				"item": {
-					"item": "minecraft:netherite_leggings"
-				},
-				"durability": {
-					"max": 0
-				}
-            }
-        },
-        "netherite_boots": {
-            "trigger": "minecraft:item_durability_changed",
-            "conditions": {
-				"item": {
-					"item": "minecraft:netherite_boots"
-				},
-				"durability": {
-					"max": 0
-				}
-            }
-        },
         "turtle_helmet": {
             "trigger": "minecraft:item_durability_changed",
             "conditions": {

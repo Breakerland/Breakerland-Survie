@@ -1,5 +1,5 @@
 {
-  "pluginVersion": "8.1.10",
+  "pluginVersion": "8.1.7",
   "useLavaOceans": false,
   "useFastOres": false,
   "useVanillaOreAlgorithm": true,
@@ -28,11 +28,11 @@
   "worldCenterZ": 0,
   "flatAreas": [
     {
-      "radius": 80,
+      "radius": 30,
       "xLocation": 0,
       "zLocation": 0,
-      "baseLevel": 70,
-      "outerRadius": 40
+      "baseLevel": 90,
+      "outerRadius": 50
     }
   ],
   "biomeTypes": {
@@ -64,69 +64,69 @@
   "overrideSaplings": true,
   "saplingTreeMap": {
     "TREE": [
-      "TREES_fantasy_normal_2",
       "TREES_fantasy_normal",
-      "TREES_fantasy_small_3",
+      "TREES_fantasy_normal_2",
+      "TREES_fantasy_small",
       "TREES_fantasy_small_2",
-      "TREES_fantasy_small"
+      "TREES_fantasy_small_3"
     ],
     "REDWOOD": [
-      "TREES_pine_tiny_2",
+      "TREES_pine_big",
+      "TREES_pine_huge",
+      "TREES_pine_medium",
+      "TREES_pine_normal",
+      "TREES_pine_normal_2",
+      "TREES_pine_small",
       "TREES_pine_small_2",
       "TREES_pine_small_3",
-      "TREES_pine_huge",
       "TREES_pine_tiny",
-      "TREES_pine_medium",
-      "TREES_pine_normal_2",
-      "TREES_pine_normal",
-      "TREES_pine_small",
-      "TREES_pine_big"
+      "TREES_pine_tiny_2"
     ],
     "TALL_REDWOOD": [
-      "TREES_pine_tiny_2",
+      "TREES_pine_big",
+      "TREES_pine_huge",
+      "TREES_pine_medium",
+      "TREES_pine_normal",
+      "TREES_pine_normal_2",
+      "TREES_pine_small",
       "TREES_pine_small_2",
       "TREES_pine_small_3",
-      "TREES_pine_huge",
       "TREES_pine_tiny",
-      "TREES_pine_medium",
-      "TREES_pine_normal_2",
-      "TREES_pine_normal",
-      "TREES_pine_small",
-      "TREES_pine_big"
+      "TREES_pine_tiny_2"
     ],
     "BIRCH": [
-      "TREES_birch_normal_2",
       "TREES_birch_normal",
+      "TREES_birch_normal_2",
       "TREES_birch_normal_3",
       "TREES_birch_normal_4"
     ],
     "JUNGLE": [
+      "TREES_jungle_big",
+      "TREES_jungle_huge",
+      "TREES_jungle_medium",
+      "TREES_jungle_normal",
+      "TREES_jungle_normal_2",
       "TREES_jungle_normal_3",
       "TREES_jungle_normal_4",
-      "TREES_jungle_normal_2",
-      "TREES_jungle_normal",
-      "TREES_jungle_huge",
-      "TREES_jungle_small_2",
-      "TREES_jungle_medium",
-      "TREES_jungle_small_3",
       "TREES_jungle_small",
-      "TREES_jungle_big"
+      "TREES_jungle_small_2",
+      "TREES_jungle_small_3"
     ],
     "SMALL_JUNGLE": [
+      "TREES_jungle_big",
+      "TREES_jungle_huge",
+      "TREES_jungle_medium",
+      "TREES_jungle_normal",
+      "TREES_jungle_normal_2",
       "TREES_jungle_normal_3",
       "TREES_jungle_normal_4",
-      "TREES_jungle_normal_2",
-      "TREES_jungle_normal",
-      "TREES_jungle_huge",
-      "TREES_jungle_small_2",
-      "TREES_jungle_medium",
-      "TREES_jungle_small_3",
       "TREES_jungle_small",
-      "TREES_jungle_big"
+      "TREES_jungle_small_2",
+      "TREES_jungle_small_3"
     ],
     "TALL_BIRCH": [
-      "TREES_birch_normal_2",
       "TREES_birch_normal",
+      "TREES_birch_normal_2",
       "TREES_birch_normal_3",
       "TREES_birch_normal_4"
     ]

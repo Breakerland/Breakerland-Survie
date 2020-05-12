@@ -19,6 +19,8 @@ general:
   # Spanish (es-ES) by Port
   # Polish (pl-PL) by Nideon
   # Vietnamese (vi-VN) by anhcraft
+  # Chinese (zh-CN) by Ruii
+  # Taiwanese (zh-TW) by FallingEagle96
   default-language: 'fr-FR'
   # This will send a message to console on a server startup,
   # if a new version is available.
@@ -56,6 +58,9 @@ general:
   # safezones for world spawns.
   keep-safezone: true
 
+  # Should players be protected from damage caused by monsters?
+  safezone-invincible: true
+
   # Edit the land you're standing in
   # instead of the land from /Lands edit?
   # For /Lands claim you will still need
@@ -87,9 +92,6 @@ general:
       # Plus 1 land member (/Lands trust)
       # If you want to disable this specific option, just set it to 0 or -1.
       member: 80
-  # Allow Lands to send some anonymous statistics about how you use Lands to https://bstats.org/lands/bukkit/Lands
-  # This helps the development of Lands to make implementations for new features easier.
-  metrics: false
 
 
 
@@ -110,7 +112,7 @@ land:
     chunk-claim: true
 
   # Set the minimum distance in chunks between lands that don't belong to the same owner.
-  chunk-distance: 5
+  chunk-distance: 4
   # Force lands to claim near their claims.
   force-near: true
   # Deny claim chunks near other players lands.
@@ -124,6 +126,11 @@ land:
   claimblock:
     # Should only the owner of the claim block be able to use it?
     only-owner: true
+    # Should a claim with a claimblock be free of charge (money)?
+    free-claim: true
+
+  # Allow colored land names, titles and role names?
+  allow-colors: true
 
   # Landspawn settings
   spawn:
@@ -162,6 +169,12 @@ land:
     # if the player is trusted in the whole land?
     only-global: true
 
+  # Land ("sub") areas
+  # With areas you can create "sub" areas to specify special zones in your land.
+  # You can also trust players to them and configure settings.
+  areas:
+    enabled_21: true
+
   # Invite settings
   invite:
     # If you disable invites, players can directly trust
@@ -186,14 +199,8 @@ land:
   # Read the language file description to learn how to display messages as a title, actionbar or chat message.
   # To disable land titles just set the title messages in your language config to ''
   titles:
-    # How many seconds should lands wait until sending the enter and leave message after
-    # the player entered or left the land.
-    delay: 1
     # Display safezone titles? You can set a custom default title in your language config. Titles for already exsiting lands can be edited in the land menu.
     safezone: false
-    # Allow colored land names?
-    # If enabled, players can use color codes in their land name.
-    colored-name: false
 
   # Rename settings
   # Command: /Lands rename
@@ -223,10 +230,6 @@ land:
 
   # Role settings for the land.
   role:
-    # Display trusted players in one GUI no matter, which role they have?
-    mixed: true
-    # Enable the setting menu where you can edit role restrictions for your land.
-    setting-menu: true
 
     # Visitors are all players, which aren't trusted in the land.
     # There are three different roles:
@@ -269,6 +272,12 @@ land:
         spawn_set:
           default_54: false
           display_18: true
+        #
+        # AREA_ASSIGN
+        # Should this role be able to assign chunks to areas?
+        area_assign:
+          default_76: false
+          display_69: false
 
     # Admins are members of a land, which have the admin role.
     # NOTE: Admins are NOT server administrators. You can change the role name in your language configuration file.
@@ -299,6 +308,12 @@ land:
         balance_withdraw:
           default_90: true
           display_12: true
+        #
+        # AREA_ASSIGN
+        # Should this role be able to assign chunks to areas?
+        area_assign:
+          default_91: true
+          display_70: true
 
   # Delete inactive Lands, if the owner is offline since x days.
   expiration:
@@ -310,6 +325,7 @@ land:
       # Time in days the owner needs to be offline to flag his land as inactive.
       owner: 180
       # Time in days a land member needs to be offline to automatically untrust him from a protection.
+      # If the player isn't trusted in any protections after that, he will get deleted. This also resets his playtime.
       member_2: 90
     # Should an inactive owner be replaced by a land member?
     # NOTE: Admins will be used first for replace.
@@ -324,6 +340,16 @@ land:
     # other players can attack him.
     # Default: 45 seconds
     tag-time: 45s
+    # Should players, which are members in a common land, be able to fight in wilderness?
+    # NOTE: This option requires server restart / reload.
+    ally-wilderness: true
+
+  # Set claim limits per world.
+  # Example: If you set the permission lands.chunks.5 for your players,
+  # they will be able to claim 5 chunks in each claim world instead of 5 chunks in general.
+  # NOTE: This only applies for claim permissions: lands.chunks.NUMBER, lands.ownlands.NUMBER
+  # It is recommended to keep this disabled.
+  claim-limits-per-world: false
 
 
 
@@ -346,10 +372,7 @@ taxes:
   # NOTE: Your players will need to deposit money into the land bank before they are able to claim.
   # NOTE: This setting requires server reload / restart.
   banks: false
-  # Set the minimum time between a player's attempt to change the tax for his or her land and the time of the next tax.
-  # It's calculated by: next tax - cooldown
-  # NOTE: Time unit is seconds
-  # If current time is in this period, the player can't set the tax higher than the current value.
+  # Set the minimum time between a player's attempt to change the tax for their land and the time of the next tax.
   change-cooldown: 302400
   # Set max tax value for a CHUNK (not the whole land)
   # Land taxes are being calculated according to land size (chunks) * chunk tax value
@@ -395,6 +418,9 @@ chunk:
     # Default: Disables this option
     mode: ADD
     value: 50
+    # Set the maximum claim cost.
+    # NOTE: Set this to 0 in order to disable that option.
+    max_2: 5000
   # Cashback settings (Chunk unclaim: /Lands unclaim)
   cashback:
     # Available modes:
@@ -435,18 +461,18 @@ chunk:
     # ENTITY_GRIEFING
     # Allow entities to grief in the chunk / land?
     entity_griefing:
-      default_13: false
+      default_13: true
       # Display this setting in the land settings menu? If set to false, players won't be able to change it.
       display_62: true
       # Automatically enable this setting during war?
-      during-war: false
+      during-war: true
     #
     # TNT_GRIEFING
     # Allow tnt to destroy blocks in the chunk / land?
     tnt_griefing:
       default_65: false
       display_63: true
-      during-war_2: false
+      during-war_2: true
     #
     # PISTON_GRIEFING
     # Allow pistons from a wilderness to push into the chunk / land?
@@ -460,7 +486,7 @@ chunk:
     # MONSTER_SPAWN
     # Allow monster spawning in the chunk / land?
     monster_spawn:
-      default_51: false
+      default_51: true
       # Remove all monsters on chunk load?
       # NOTE: This will only work if monster spawning is disabled in the chunk.
       remove-on-load: true
@@ -629,7 +655,7 @@ chunk:
           display_10: true
         #
         # FLY
-        # Should this role be able to fly in the chunk / land?
+        # Should this role be able to fly in the area / land?
         # NOTE: They can only fly, if they have access
         # to a /Fly command or something like this.
         fly:
@@ -647,6 +673,12 @@ chunk:
         spawn_teleport:
           default_62: false
           display_15: false
+        #
+        # VEHICLE_USE
+        # Should this role be able to use vehicles?
+        vehicle_use:
+          default_95: false
+          display_74: true
 
     # Members are all players, wich are trusted in the chunk and have no admin role.
     member:
@@ -734,6 +766,12 @@ chunk:
         spawn_teleport:
           default_63: true
           display_54: true
+        #
+        # VEHICLE_USE
+        # Should this role be able to use vehicles?
+        vehicle_use:
+          default_95: false
+          display_74: true
 
       management:
         #
@@ -791,12 +829,6 @@ chunk:
         setting_edit_taxes:
           default_80: false
           display_36: false
-        #
-        # AREA_ASSIGN
-        # Should this role be able to assign chunks to areas?
-        area_assign:
-          default_76: false
-          display_69: false
 
     # Admins are members, which got promoted to the admin role (not server admin).
     admin:
@@ -884,6 +916,12 @@ chunk:
         spawn_teleport:
           default_64: true
           display_59: true
+        #
+        # VEHICLE_USE
+        # Should this role be able to use vehicles?
+        vehicle_use:
+          default_95: false
+          display_74: true
 
       management:
         #
@@ -941,12 +979,7 @@ chunk:
         setting_edit_taxes:
           default_84: true
           display_53: true
-        #
-        # AREA_ASSIGN
-        # Should this role be able to assign chunks to areas?
-        area_assign:
-          default_91: true
-          display_70: true
+
 
 
 # Area Settings
@@ -954,7 +987,7 @@ chunk:
 area:
   # Set the minimum size of a area (in blocks).
   # With this setting you can force your players to organize their areas.
-  min-size: 60
+  min-size: 50
 
 
 # General protection settings
@@ -995,7 +1028,7 @@ top-lands:
 # Backup settings
 backup:
   # Enable this to create backup creation on every lands enabling.
-  # NOTE: It's alway recommended creating backups,
+  # NOTE: It's always recommended creating backups,
   # even if there are no problems.
   startup: true
   # Time in days after a created backup should get deleted.
@@ -1065,7 +1098,7 @@ visualization:
   view:
     # Duration of land view.
     # NOTE: Time unit is seconds
-    duration_8: 60
+    duration_9: 60
 
   # /Lands map lengths
   map:
@@ -1083,19 +1116,16 @@ command:
     # Your permissions plugins command to add permissions.
     # {player} will be replaced with the playername.
     # {permission} will be replaced with the Lands permission.
-    add: Luckperms user {player} permission set
+    add: luckperms:Luckperms user {player} permission set
     # Your permission plugins command to remove permissions.
-    remove: Luckperms user {player} permission unset
+    remove: luckperms:Luckperms user {player} permission unset
 
   # Set aliases for the /Lands command
   # NOTE: This setting requires server reload / restart.
-  aliases_list:
-  - protection
-  - region
-  - plot
-  - p
-  - claim
-  - c
+  lands-aliases_list:
+    - lands
+    - claim
+    - terrain
 
   # Set aliases for the /Wars command
   # This is only needed, if wars are enabled.
@@ -1103,6 +1133,15 @@ command:
   wars-aliases_list:
   - war
   - guerre
+
+  # Set aliases for the /Nations command
+  # This is only needed, if nations are enabled.
+  # NOTE: This setting requires server reload / restart.
+  nations-aliases_list:
+    - nation
+    - n
+    - faction
+    - f
 
   # Command merge settings
   merge:
@@ -1125,6 +1164,7 @@ command:
 
 
 # Random teleportation (/Lands wild)
+# When using this make sure to set the worlds spawn with /setworldspawn
 random-teleport:
   # Worlds where players should be able to use /Lands wild.
   # NOTE: World names are case-sensitive. If you don't enter them correctly, issues might occur.
@@ -1133,7 +1173,8 @@ random-teleport:
   - survie_new_nether
 
   distance:
-    # Max distance from world spawn (/setworldspawn)
+    # Max distance from world spawn
+    # NOTE: YOU NEED TO SET THE WOLRD SPAWN (MIDDLE) TO LET THIS WORK PROPERLY: /setworldspawn
     # This setting requires server reload / restart.
     max: 10000
     # Set the minimum distance between the players current position and the teleport destination.
@@ -1149,7 +1190,7 @@ random-teleport:
   # Wait time until the player will be teleported.
   wait_3: 0
   # Command (/Lands wild) cooldown
-  cooldown: 300
+  cooldown: 10
   # Teleportation cost
   costs_4: 0
 
@@ -1160,6 +1201,9 @@ gui:
   # Recommended length is 35.
   # NOTE: Set this to 0 to disable it.
   max-lore-length: 35
+  # Should the /Lands list menu show only lands where to player can teleport to?
+  # Players can still toggle it afterwards. This is just a default setting.
+  list-only-public: false
 
 
 
@@ -1238,6 +1282,8 @@ integration:
     # Dynmap
     Dynmap:
       enabled_12: true
+      # Should land markers be hidden by default?
+      hide: false
       # Set the maximum amount of chunks beeing processed at once for updating the land markers.
       # These chunks aren't actual minecraft chunks. Just Lands chunks.
       # This setting is especially for weaker hardware.
@@ -1246,6 +1292,7 @@ integration:
       # Set the spawn icon
       # You can disable this by setting it to ''
       spawn:
+        # Set the icon
         icon: ''
         # Set minimum zoom. The icon won't display, if the zoom in your browser is smaller (mousewheel).
         min-zoom: 5
@@ -1255,221 +1302,19 @@ integration:
         # Opacity of the marked land.
         opacity: 0.5
         # To edit the color you need to
-        # insert the rgb value given here.
-        # Available colors:
-        #
-        # White: 16777215
-        # Silver: 12632256
-        # GRAY: 8421504
-        # Black: 0
-        # Red: 16711680
-        # Maroon: 8388608
-        # Yellow: 16776960
-        # Olive: 8421376
-        # Lime: 65280
-        # Green: 32768
-        # Aqua: 65535
-        # Teal: 32896
-        # Blue: 255
-        # Navy: 128
-        # Fuchsia: 16711935
-        # Purple: 8388736
-        # Orange: 16753920
-        color_2: 32768
+        # insert the hex value given here.
+        # Colour picker: https://www.google.com/search?q=color+picker
+        color:
+          land_2: '#00ff00'
+          safezone_2: '#ffff00'
       border:
         # Opactiy of the land border.
         opacity_2: 10.0
         # Thickness of the land border line.
         thickness: 2
         # To edit the color you need to
-        # insert the rgb value given here.
-        # Available colors:
-        #
-        # White: 16777215
-        # Silver: 12632256
-        # GRAY: 8421504
-        # Black: 0
-        # Red: 16711680
-        # Maroon: 8388608
-        # Yellow: 16776960
-        # Olive: 8421376
-        # Lime: 65280
-        # Green: 32768
-        # Aqua: 65535
-        # Teal: 32896
-        # Blue: 255
-        # Navy: 128
-        # Fuchsia: 16711935
-        # Purple: 8388736
-        # Orange: 16753920
-        color_3: 65280
-
-
-# War settings
-wars:
-  # Enable wars? (Command: /Wars)
-  # NOTE: This setting requires server reload / restart.
-  enabled_20: false
-  # War declaration settings
-  declaration:
-    # How much time do you want to give the defender lands for war preparation, before it will start?
-    # NOTE: Timeunit is seconds
-    # Default is one day
-    # If the time is smaller than 5 seconds, the war will start immedeately.
-    preparation-time: 1d
-    # Should a broadcast message be sent to the whole server?
-    # You can edit the message in your language file.
-    broadcast: true
-
-  # War status message interval. This message appears while the war is running. This is very useful to inform players, which might have been offline for some time, that their land is participating in a war.
-  status-interval: 15m
-  # Set the max time a war can hold on.
-  # Default: 2,5 days
-  duration_2: 36h
-
-  # Allow players doing the following things in the enemy land (only during war).
-  # Avialible actions: https://github.com/Angeschossen/LandsAPI/blob/master/LandsAPI/src/main/java/me/angeschossen/lands/api/role/enums/RoleSetting.java
-  # NOTE: PLACE_SCAFFOLDING is only available in spigot 1.14.x or higher.
-  role-settings_list:
-    - ATTACK_PLAYER
-    - PLACE_LADDER
-    - PLACE_VINE
-    - PLACE_SCAFFOLDING
-
-  # Allow the placement of specific blocks if the land part of a war.
-  # Values: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
-  block-place_list:
-    - LADDER
-    - VINE
-    - SCAFFOLDING
-
-  # Allow breaking of specific blocks if the land part of a war.
-  # Values: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
-  block-break_list:
-    - LADDER
-    - VINE
-    - SCAFFOLDING
-
-  # Cutomize what happens when a defender surrenders.
-  surrender:
-    # Tribute settings
-    tribute:
-      # Max tribute settings
-      max:
-        # The defender will pay a specific amount of money to the attackers land, if they surrender.
-        # Set the tribute mode.
-        # Use % to set a specific percentage of the defenders land balance.
-        # Use normal numbers to set a total amount of money.
-        # If you have banks disabled, the money will be taken from the land owner.
-        defender: 75%
-        # The attacker will pay a specific amount of money to the defenders land, if they surrender.
-        # Set the tribute mode.
-        # Use % to set a specific percentage of the defenders land balance.
-        # Use normal numbers to set a total amount of money.
-        # If you have banks disabled, the money will be taken from the land owner.
-        # NOTE: You can set this to 0 to disable it.
-        attacker: 5000
-
-  # War settings, which can also be chaned ingame by players.
-  # Please note that they need certain permissions in order to change the settings. You can find them in the wiki.
-  settings:
-    # Should the tribute be given to all attacking lands or just the initial attacker?
-    divide_tribute:
-      default_88: true
-    # Allow team mates killing each other. This won't count to the war kill stats.
-    friendly_fire:
-      default_89: true
-
-  shield:
-    # Configure when a land should get a war shield.
-    # If a war shield is active, other lands can't attack the land.
-    activation:
-      # Give war shield to a new land?
-      # Use 0 to disable this.
-      # TimeUnits:
-      # Seconds: s
-      # Minutes: m
-      # Hours: h
-      # Days: d
-      land-creation: 1d
-
-      # Set a war shield for a land after it surrendered?
-      # If you want to disable this, just set the value to 0.
-      surrender:
-        # How long should a war shield last by default?
-        # TimeUnits:
-        # Seconds: s
-        # Minutes: m
-        # Hours: h
-        # Days: d
-        value_3: 4d
-
-      # Set a war shield for a land after war?
-      # If you want to disable this, just set the value to 0.
-      end:
-        # How long should a war shield last by default?
-        # TimeUnits:
-        # Seconds: s
-        # Minutes: m
-        # Hours: h
-        # Days: d
-        value_4: 7d
-
-  # Configure what happens when a war starts.
-  start:
-    # Should a message be broadcasted to the whole server?
-    # You can edit the message in your language file.
-    broadcast_2: true
-
-  # Configure what happens when a land wins a war.
-  end:
-    # Execute a command when a land wins.
-    # Placeholders:
-    # %winner% - Name of the winner land
-    # %loser% - Name of the loser land
-    # %winner-owner% - Owner of the winner land
-    # %loser-owner% - Owner of the loser land
-    winner:
-      # Set a command to '' in order to disable it.
-      command:
-        # Command for the initial attacker (/defender) land.
-        initial: ''
-        # Command for allies of the winner land.
-        # Aditional placeholders:
-        # %ally% - Name of the ally land
-        # %ally-owner% - Name of the owner of the ally land
-        allies: ''
-
-    loser:
-      # Set a command to '' in order to disable it.
-      command:
-        # Command for the initial defender (/attacker) land.
-        initial: ''
-        # Command for allies of the loser land.
-        # Aditional placeholders:
-        # %ally% - Name of the ally land
-        # %ally-owner% - Name of the owner of the ally land
-        allies: ''
-
-    # The looser will pay a specific amount of money to the attackers land, if they surrender.
-    # Set the reward mode.
-    # Use % to set a specific percentage of the loosers land balance.
-    # Use normal numbers to set a total amount of money. If the looser does not have anough money, they will pay as much as possible.
-    # If you have banks disabled, the money will be taken from the land owner.
-    robbery: 75%
-
-  # Combat settings
-  combat:
-    # Pillage settings
-    pillage:
-      # Set a minimum amount of players of the defenders, which need to be online before the attackers can interact in the land.
-      # NOTE: If you want to allow pillages WHILE no defender is online, set this option to 0.
-      # NOTE: This setting requires server reload / restart.
-      min-players: 1
-      # Set a time period where players are still able to attack the land after the last player of the target land left the server.
-      logging-cooldown: 1m
-    allies:
-      # Should it be possible to destroy the ally lands of the target?
-      # If disabled players won't be able to destroy anything in the ally land of the target.
-      # If enabled, players will be able to destroy things (if rolesetting set) in the ally lands of the target.
-      war-field: true
+        # insert the hex value given here.
+        # Colour picker: https://www.google.com/search?q=color+picker
+        color:
+          land_3: '#009933'
+          safezone_3: '#ffcc00'
