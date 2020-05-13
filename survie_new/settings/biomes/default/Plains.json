@@ -20,7 +20,7 @@
   "useFossils": false,
   "useWaterLakes": true,
   "useLavaLakes": false,
-  "useBedrock": false,
+  "useBedrock": true,
   "useRivers": true,
   "useNativePainting": false,
   "useNativeStructure": false,
