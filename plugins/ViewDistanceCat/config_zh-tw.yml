@@ -1,0 +1,128 @@
+# 要應用此設定檔
+# 重新命名成 config.yml 即可
+
+
+
+
+
+# 最大視野距離
+#   客戶端 < 擴展極限 = 客戶端
+#   客戶端 > 擴展極限 = 擴展極限
+#   客戶端 < 伺服器   = 伺服器
+max-view-distance: 32
+
+# 伺服器本身的視野距離
+#   只是為了防止錯誤 (某些優化核心)
+#   -1 則使用伺服器本身 view-distance 的數值
+server-view-distance: -1
+
+
+
+# 異步執行緒數量
+#   建議值 1~10 (也可以更高)
+async-thread-amount: 2
+
+# 是否要讀取伺服器已快取的區塊
+#   不保證在每個伺服器版本中都起作用, 如果後臺出現 `ViewDistanceCat read server cache chunk error!` 則關閉此選項
+read-server-cached-chunk: true
+
+# 是否可以產生區塊
+#   如果區塊還沒有被產生的話
+#   產生地形時, CPU負擔會很大
+can-generate-chunk: true
+
+# 區塊讀取速度的自適應方案
+#   讀取速度:
+#     EXTREME 極限
+#     HIGHEST 最高
+#     HIGH    高
+#     NORMAL  一般
+#     LOW     低
+#     LOWEST  最低
+automatic-speed-adjustment-scheme: NORMAL
+
+
+
+# 玩家同時可顯示多少區塊
+#   避免處理速度太快, 傳輸太多區塊導致玩家卡頓
+#   建議值 1~10
+#   如果客戶端卡頓, 會發生 區塊異常/光照錯誤, 適當的值是很重要的
+tick-player-send-chunk: 3
+
+# 伺服器同時可以顯示多少區塊
+#   -1 不限制
+#   可自行依照網路狀況做調整
+tick-server-send-chunk: -1
+
+
+
+# 玩家延遲等待區塊顯示
+#   每次切換世界 / 長距離傳送 / 死亡重生, 都要等待多少毫秒才傳輸區塊
+#   建議數值 2000 ~ 20000 (2 ~ 20秒)
+player-delay: 5000
+
+
+
+# 預防方塊透視外掛
+#   暴力替換, 不使用任何計算
+prevent-xray:
+
+  # 是否啟用
+  enable: true
+
+  # 轉換清單
+  #   格式
+  #     轉換成方塊:
+  #     - 被轉換的方塊A
+  #     - 被轉換的方塊B
+  #     - 被轉換的方塊C
+  conversion-list:
+    STONE:
+      - COAL_ORE
+      - DIAMOND_ORE
+      - EMERALD_ORE
+      - GOLD_ORE
+      - IRON_ORE
+      - LAPIS_ORE
+      - REDSTONE_ORE
+    NETHERRACK:
+      - NETHER_QUARTZ_ORE
+
+
+
+# 世界黑名單
+#   在此清單的世界不提供視野距離擴展
+world-blacklist:
+  - world_nether
+
+
+
+# 是否要計算權限
+#   尋找玩家是否有 max_view_distance.<最大視野距離> 權限
+player-independent-permissions: true
+
+
+
+# 壓力測試模式
+#   使用設定參數, 一直讀取區塊
+#   僅供測試用
+pressure-test: false
+
+
+
+
+languages:
+  no_permission: "無此權限"
+  missing_parameters: "缺少參數"
+  continued_to_run: "已繼續運行"
+  stopped_to_run: "已停止運行"
+  reread_configuration_successfully: "已重新讀取設定"
+  reread_configuration_error: "重新讀取設定時發生錯誤"
+  chunk: "區塊"
+  high_speed: "快速"
+  low_speed: "慢速"
+  read_count: "讀取數量"
+  5_seconds: "5秒"
+  1_minute: "1分鐘"
+  5_minute: "5分鐘"
+  unknown_parameter_type: "未知的參數類型"
