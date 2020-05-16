@@ -5,7 +5,7 @@
 # Made with love
 
 # DO NOT TOUCH THIS!
-config-version: 55
+config-version: 56
 
 settings:
   # very useful to tell if there are any memory leaks or if the author needs
@@ -27,9 +27,6 @@ settings:
   - 'playerwarp'
   - 'pwarp'
   - 'pw'
-
-  # Should database information be displayed in the tab-complete? For example warp-names.
-  tab-complete: true
 
 
   # What order should the warps be listed?
@@ -81,32 +78,19 @@ settings:
     rename-command-name: rename
     setowner-command-name: setowner
 
-  #####################################################################################
-  #                                                                                   #
-  #      WARNING BEFORE YOU USE THIS database FEATURE, THIS FEATURE IS IN BETA!       #
-  #      DO NOT COMPLAIN SAYING THAT IT IS NOT WORKING, IF YOU HAVE ANY COMPLAINTS    #
-  #      PLEASE REPORT IT IN THE DISCORD SERVER (https://discord.gg/bAHuRJq)!!        #
-  #      I WOULD HIGHLY SUGGEST THAT YOU TEST THIS ON A TEST SERVER! THANKS <3        #
-  #                                                                                   #
-  ######################################################################################
-
-  # With SQL Support PlayerWarps will download another plugin called "PlayerWarps Bungee Extension". Don't worry about it okay :)
-  # Never do /pwarp reload if you changed the database details. It will mess everything, if you wish to change it, change it then restart the server.
-  # That also means do not reload the plugin with plugman, because the way the database syncs up with "PlayerWarps Bungee Extension" it will mess everything, just please simply restart the server.
-  # This also means if you have just enabled/disabled it please restart the server.
-
-  # WARNING: Because I'm only working with MySQL and Bungeecord. It is very limited. Meaning it can be slow due to MySQL updates
-  # There is also a big limitation that removes some awesome features that PlayerWarps gives like:
-  # Checking if the warp is safe
-
-  # I cannot do anything about this, its just how spigot works. Sorry :(
-
   database:
     # Please enter the server name on your bungee network, otherwise the plugin will not be able to redirect you to that server.
     # If you don't want to setup this database as a bungee network, please leave this blank.
     server-name: survie
 
+    # Never do /pwarp reload if you changed the database details. It will mess everything, if you wish to change it, change it then restart the server.
+    # This also means if you have just enabled/disabled it please restart the server.
 
+    # WARNING: Because I'm only working with MySQL and Bungeecord. It is very limited. Meaning it can be slow due to MySQL updates
+    # There is also a big limitation that removes some awesome features that PlayerWarps gives like:
+    # Checking if the warp is safe
+
+    # I cannot do anything about this, its just how spigot works. Sorry :(
     mysql:
       # Should SQL be enabled?
       enabled: true
@@ -155,7 +139,11 @@ settings:
       set-price: 50000
       # Here you can choose specific ranks that the price they need to pay, if you have not put a rank there the payment will be payment will be above.
       # WARNING This will not work if you're using the default Bukkit Permissions system due to vault not supporting groups.
-      set-ranks-pay: []
+      set-ranks-pay:
+        # THe rank VIP only needs to pay $1
+        vip: 1
+        # The rank MVP does not need to pay
+        MVP: -1
 
     # Should players not be able to set warps in these worlds?
     disabled-worlds: []
@@ -214,14 +202,14 @@ settings:
     protect-boost-visits: true
     # How much time does the player need to stay still, till they get teleported to a warp? Set this to -1 to disable.
     # You can bypass this by giving the permission 'pw.delay.bypass'
-    teleport-wait: 5
+    teleport-wait: -1
     # What is the cooldown for teleporting to a warp? Set this to -1 to disable.
-    cooldown: -1
-    # Do you only want specific warps to have a cooldown?
-    specific-warps: false
+    cooldown: 60
     # If the above option is true, what are the names of the warps?
     specific-warps-list:
     - ''
+    # Can players only teleport to warps that are in the same world?
+    same-world: false
 
     # What are the commands that should be executed upon teleportation?
     # [server] means the command is executed as the console
@@ -231,9 +219,8 @@ settings:
     # For the particles please use this! https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html
     # For the sounds please use this! https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
     particles:
-      # What particle should be shown when they are teleporting to a playerwarp? Set this to false to disable.
+      # What particle should be shown when they are teleporting to a playerwarp? Set this to none to disable.
       # YOU WILL NEED TO CHANGE THE PARTICLE IF YOU ARE ON A DIFFERENT VERSION!
-      # PLEASE DO NOT SET THIS TO TRUE! IT CAN EITHER BE FALSE OR A PARTICLE NAME
       particle-teleport: false
       # How many particles should there be?
       particle-count: 2
@@ -241,9 +228,8 @@ settings:
       particle-only-player: true
 
     sounds:
-      # What sound should be played when they are teleporting to a playerwarp? Set this to false to disable.
+      # What sound should be played when they are teleporting to a playerwarp? Set this to none to disable.
       # YOU WILL NEED TO CHANGE THE SOUND IF YOU ARE ON A DIFFERENT VERSION!
-      # PLEASE DO NOT SET THIS TO TRUE! IT CAN EITHER BE FALSE OR A SOUND NAME
       sound-teleport: false
       # What should the volume be when the sound is played?
       volume-teleport: 1.0
@@ -259,9 +245,15 @@ settings:
       teleport-price: -1
       # Here you can choose specific ranks that the price they need to pay, if you have not put a rank there the payment will be payment will be above.
       # WARNING This will not work if you're using the default Bukkit Permissions system due to vault not supporting groups.
-      teleport-ranks-pay: []
+      teleport-ranks-pay:
+        # THe rank VIP only needs to pay $1
+        vip: 1
+        # The rank MVP does not need to pay
+        MVP: -1
       # Should the money be given to the owner of the warp?
       give-to-owner: true
+      # Should the teleport pay only once for that warp?
+      pay-once: false
 
 
 
@@ -366,7 +358,7 @@ plugins:
     delete: true
     lang:
       not-in-land: '&cDésolé, vous devez définir votre point de téléportation dans un terrain.'
-      dont-own-land: 'Désolé, vous devez définir votre point de téléportation dans un terrain vous appartenant.'
+      dont-own-land: Désolé, vous devez définir votre point de téléportation dans un terrain vous appartenant.
 
   simpleskyblock:
     # Do you want to enable simpleskyblock support?
@@ -395,3 +387,18 @@ plugins:
     lang:
       not-in-claim: '%prefix% &cSorry you can''t set a warp here, &cYou aren''t in a claim!'
       dont-own-claim: '%prefix% &cSorry you can''t set a warp here, because you don''t own this claim.'
+
+  towny:
+    # Do you want to enable towny support?
+    # You need towny installed for this to work!
+    enabled: false
+    lang:
+      not-in-town: '%prefix% &cSorry you can''t set a warp here, &cYou aren''t in a town!'
+      dont-own-town: '%prefix% &cSorry you can''t set a warp here, because you don''t own this town.'
+
+  dynmap:
+    # Do you want to enable dynmap support?
+    # You need dynmap installed for this to work!
+    enabled: true
+    # What is the marker icon?
+    marker-icon: pin

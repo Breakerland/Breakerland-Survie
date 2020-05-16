@@ -1,5 +1,9 @@
 # Changelog Breakerland
 
+## V6.11.1 - 16 mai
+
+ - Integration de Dynmap aux Warps
+
 ## V6.11.0 - 16 mai
 
  - Mise à jour Paper-282
