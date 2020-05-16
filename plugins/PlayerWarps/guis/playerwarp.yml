@@ -1,0 +1,147 @@
+# PlayerWarps by Olzie-12
+# https://www.spigotmc.org/resources/player-warps-1-8-1-13.66692/
+# We also have a discord server for help: https://discord.gg/bAHuRJq
+# Also if you find any bugs be happy to report them i will fix them :)
+# Made with love
+
+pwarp:
+  # Should we enable the gui?
+  enabled: true
+  # The title of the gui (Can use color codes) the variable "%category%" will only work if it is enabled.
+  title: '&e&lWarps [category] ([page]/[pages])'
+  # should /pwarp open the gui? if so you just do /pwarp open (if enabled)
+  override-pwarp: false
+
+  icon:
+    # Should the default icon of the item be their skull?
+    skull: true
+    # If the option is disabled above, you can choose the default item here.
+    # What is the item material?
+    material: DIAMOND_AXE
+    # What is the item id?
+    data: 0
+    # These only work if the skull is a SKULL_ITEM and the data is 3!
+    #texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODcyZDM0MWQ3N2RiZGU2ZDUzZGFkNjFiZjE5MjUyNGRiZGI5NmFmMTM1OGUwNzQ4ZmVlYTE0ODFiMWY4In19fQ== - Skull texture
+    #owner: Warp - Skull owner
+
+    # This is the name of the skull in the gui. IT NEEDS THE [warp] PLACEHOLDER OTHERWISE IT
+    # WILL BREAK AND YOU WONT BE ABLE TO TELEPORT TO IT IN THE GUI!
+    name: '&6[warp]'
+    # you can add multiple lores bc i god <3
+    # If you're using SQL you can use the placeholder [server] to tell the player the server.
+    lore:
+      - '&e[safe]'
+      - ''
+      - '&ePropriétaire: &8[owner]'
+      - '&eVisites: &8[visits]'
+      - '&eDescription: '
+      - '&8[desc]'
+      - '&eCategorie: &8[category]'
+      - '&eNote moyenne: &8[rates_average]/5 &7(&e[rates_stars]&7)'
+      - '&eCoût de téléportation: &8[cost]ß'
+    # Should the item appear with the glowing effect?
+    glowing: false
+
+    # Here are the available item flags https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/ItemFlag.html
+    item-flags:
+      - HIDE_ATTRIBUTES
+
+    # The variable "[safe]" will display the message below if the warp is safe
+    warp-safe: "&eCliquez pour vous téléporter au Warp &6[warp]"
+    # The variable "[safe]" will display the message below if the warp is not safe
+    warp-not-safe: "&Ce Warpn n''est pas sécurisé, double cliquez pour vous téléporter au Warp &6[warp]"
+    # What is the icon for [rates_stars]?
+    rates-stars: "⭐"
+    no-warp-cost: "0"
+  clickable-items:
+    next-page:
+      # This is the name of the next page item
+      # If you wish to disable any of these please set them the material to "AIR"
+      name: '&ePage suivante'
+      # this is the material of the next page item. valid material names: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+      material: ARROW
+      data: 0
+      lore:
+        - '&8Cliquez pour vous rendre à la page suivante.'
+      slot: 50
+      glowing: false
+      # These only work if the skull is a SKULL_ITEM and the data is 3!
+      #texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWE0ZjY4YzhmYjI3OWU1MGFiNzg2ZjlmYTU0Yzg4Y2E0ZWNmZTFlYjVmZDVmMGMzOGM1NGM5YjFjNzIwM2Q3YSJ9fX0= - Skull texture
+      #owner: Next - Skull owner
+    previous-page:
+      name: '&ePage précédente'
+      material: BARRIER
+      data: 0
+      lore:
+        - '&8Cliquez pour vous rendre à la page précédente.'
+      slot: 48
+      glowing: false
+    refresh:
+      name: '&eRafraichir'
+      material: SUNFLOWER
+      data: 0
+      lore:
+        - '&8Cliquez pour rafraichir la page.'
+      slot: 49
+      glowing: false
+    category:
+      # If you have enabled the category GUI then this item wil appear into the main GUI.
+      name: "&eCatégories"
+      material: BOOK
+      data: 0
+      lore:
+      - "&8Cliquez pour revenir aux catégories."
+      slot: 45
+      glowing: false
+    mywarps:
+      # If you have enabled the my warps GUI then this item wil appear into the main GUI.
+      name: "&eVoir mes Warps"
+      material: ENDER_PEARL
+      data: 0
+      lore:
+        - "&8Cliquez pour voir vos Warps."
+      slot: 53
+      glowing: false
+
+  items:
+    1:
+      # This is the name of the item.
+      name: ' '
+      # This is the item material. To disable set this to AIR
+      material: GRAY_STAINED_GLASS_PANE
+      # This is the data item
+      data: 0
+      # You can add lores!
+      # lore:
+      #   - "&bThis is a pane."
+      slot: 46
+      # What is the stack amount?
+      amount: 1
+      glowing: false
+      # These only work if the skull is a SKULL_ITEM and the data is 3!
+      #texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZmOGFmYjI3YmFmYzc3YzJiODI1OTljMmY3YjhmMWY2ODMxMGU2YWE5MDRmMDUxYjA3YWIxYzJiNmIifX19 - Skull texture
+      #owner: Glass - Skull owner
+    2:
+      name: ' '
+      material: GRAY_STAINED_GLASS_PANE
+      data: 0
+      slot: 47
+      amount: 1
+    3:
+      name: ' '
+      material: GRAY_STAINED_GLASS_PANE
+      data: 2
+      slot: 51
+      amount: 1
+    4:
+      name: ' '
+      material: GRAY_STAINED_GLASS_PANE
+      data: 3
+      slot: 52
+      amount: 1
+    5:
+      name: ' '
+      material: GRAY_STAINED_GLASS_PANE
+      data: 2
+      slot: 53
+      amount: 1

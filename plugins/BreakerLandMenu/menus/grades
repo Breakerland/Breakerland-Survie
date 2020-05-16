@@ -35,7 +35,7 @@ title: '&2Achat de grade'
       scommand: 'luckperms:lp user {player} parent add duc'
       broadcast: '&6{player} vient d''acquérir le grade &3&lDuc&r&6!'
 3:
-  item: 'LIGHT_BLUE_STAINED_GLASS_PANE 1 title:&bGrade_Comte description:&ePrix:_560_000β||&e&oKit_Comte||&e&o7_homes||&e&o40_items_HDV||&e&o2_Terrains||&e&oMembre_de_3_Terrains||&e&oCréation_de_shop_(/qs)||&e&oCréation_de_warp_(/pw)'
+  item: 'LIGHT_BLUE_STAINED_GLASS_PANE 1 title:&bGrade_Comte description:&ePrix:_560_000β||&e&oKit_Comte||&e&o7_homes||&e&o40_items_HDV||&e&o2_Terrains||&e&oMembre_de_3_Terrains||&e&oCréation_de_shop_(/qs)||&e&oCréation_de_warp_(/warp)'
   click:
     condition:
       permission: grade.comte
@@ -45,7 +45,7 @@ title: '&2Achat de grade'
       scommand: 'luckperms:lp user {player} parent add comte'
       broadcast: '&6{player} vient d''acquérir le grade &b&lComte&r&6!'
 4:
-  item: 'LIME_STAINED_GLASS_PANE 1 title:&aGrade_Marquis description:&ePrix:_1_120_000β'
+  item: 'LIME_STAINED_GLASS_PANE 1 title:&aGrade_Marquis description:&ePrix:_1_120_000β||&e&oKit_Marquis||&e&o2_warps||&e&oWarps_payants_(/warp_tax)||&e&oPoubelle_(/trash)||&e&oEnderchest_(/ec)||&e&oPanneaux_en_couleur'
   click:
     condition:
       permission: grade.marquis

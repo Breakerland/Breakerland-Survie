@@ -1,5 +1,11 @@
 # Changelog Breakerland
 
+## V6.11.0 - 16 mai
+
+ - Mise à jour Paper-282
+ - Ajout des warps
+ - Mise à jour descriptions grades
+
 ## V6.10 - 12 mai
 
  - Mise à jour Paper-280
