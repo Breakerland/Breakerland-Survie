@@ -41,7 +41,7 @@ Database: '$mysql_database_proxy'
 ```
 
 ### Serveur SMTP
-Pour les identifiants du Bot Discord BreakerBot, veuillez utiliser les variables suivantes :
+Pour les identifiants du serveur SMTP pour l'e-mail **contact@breakerland.fr**, veuillez utiliser les variables suivantes :
 ```bash
 Host: '$smtp_host'
 Port: '$smtp_port'
