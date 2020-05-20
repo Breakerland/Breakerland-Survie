@@ -5,7 +5,7 @@
 # Made with love
 
 # DO NOT TOUCH THIS!
-config-version: 56
+config-version: 59
 
 settings:
   # very useful to tell if there are any memory leaks or if the author needs
@@ -184,6 +184,11 @@ settings:
 
   # The teleport section.
   teleport:
+    # Should there be a confirmation before teleporting  to a warp?
+    confirmation: false
+    # How many seconds, show the confirmation expire for the warp. This means how many seconds they have to wait
+    # to teleport to a warp. Recommended is 3
+    confirmation-expire-time: 3
     # Should we enable the unsafe-block feature, meaning that a player can set a warp to trap players and kill them innocently.
     unsafe-block: false
     # This is how many blocks down it checks.
@@ -324,6 +329,18 @@ plugins:
       not-in-island: '%prefix% &cSorry you can''t set a warp here, &cYou aren''t on a island!'
       dont-own-island: '%prefix% &cSorry you can''t set a warp here, because you don''t own this island.'
 
+  bentobox:
+    # Do you want to enable bentobox support?
+    # You need bentobox installed for this to work!
+    enabled: false
+    # Should the warp be created when a island is created?
+    create: false
+    # Should the warp get deleted once the island is deleted?
+    delete: true
+    lang:
+      not-in-island: '%prefix% &cSorry you can''t set a warp here, &cYou aren''t on a island!'
+      dont-own-island: '%prefix% &cSorry you can''t set a warp here, because you don''t own this island.'
+
   griefprevention:
     # Do you want to enable griefprevention support?
     # You need griefprevention installed for this to work!
@@ -402,3 +419,5 @@ plugins:
     enabled: true
     # What is the marker icon?
     marker-icon: pin
+    # What is the layer name?
+    layer-name: Warps

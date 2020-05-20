@@ -38,7 +38,7 @@ pwarp:
     - '&8[desc]'
     - '&eCategorie: &8[category]'
     - '&eNote moyenne: &8[rates_average]/5 &7(&e[rates_stars]&7)'
-    - '&eCoût de téléportation: &8[cost]ß'
+    - '&eCoût de téléportation: &e&l[cost]&8ß'
     # Should the item appear with the glowing effect?
     glowing: false
 
@@ -53,7 +53,8 @@ pwarp:
     # What is the icon for [rates_stars]?
     rates-stars: ⭐
     # What is displayed when there is no warp cost?
-    no-warp-cost: '0'
+    no-warp-cost: '&80'
+
   clickable-items:
     next-page:
       name: '&ePage suivante'
