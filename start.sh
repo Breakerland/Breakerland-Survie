@@ -1,13 +1,13 @@
 # Obfuscation script to pull from Github and replace $variables
 
 # Variables
-ORIGIN=origin
-BRANCH=master
+# ORIGIN=origin
+# BRANCH=master
 
 source secret.dat
 
 # Pull from Github
-git pull $ORIGIN $BRANCH
+git pull 
 
 # File list
 config_files=("server.properties")
@@ -30,7 +30,7 @@ do
 
 
     # Increment the i = i + 1
-    i=`expr $i + 1`
+    i=$(( $i + 1 ))
 done
 
 # Start server
