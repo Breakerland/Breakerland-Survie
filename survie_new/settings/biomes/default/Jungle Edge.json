@@ -3,27 +3,29 @@
   "rarity": 1.0,
   "biomeType": "GRASSLAND",
   "useDungeons": true,
-  "dungeonChance": 8,
+  "dungeonChance": 10,
   "useMineShafts": true,
   "useStrongholds": true,
   "useVillages": true,
+  "villageStyle": "PLAINS",
   "useTemples": false,
   "useNetherFortress": false,
   "useCaves": true,
-  "useMonuments": false,
+  "useMonuments": true,
   "useWoodlandMansion": false,
   "useRavines": true,
   "useWitchHuts": false,
   "usePyramids": false,
-  "useJungleTemples": false,
+  "useJungleTemples": true,
   "useIgloos": false,
   "useFossils": false,
   "useWaterLakes": true,
   "useLavaLakes": false,
-  "useRivers": true,
-  "useNativePainting": true,
-  "useNativeStructure": true,
-  "useNativeDecorations": true,
+  "useBedrock": true,
+  "useRivers": false,
+  "useNativePainting": false,
+  "useNativeStructure": false,
+  "useNativeDecorations": false,
   "nativeBiome": "JUNGLE_EDGE",
   "biomeColors": [
     "0cff00"
@@ -38,92 +40,7 @@
     "TOP_LAYER_MODIFICATION",
     "RAW_GENERATION"
   ],
-  "ores": [
-    {
-      "type": "DIRT",
-      "size": 33,
-      "count": 10,
-      "minHeight": 0,
-      "maxHeight": 256
-    },
-    {
-      "type": "GRAVEL",
-      "size": 33,
-      "count": 8,
-      "minHeight": 0,
-      "maxHeight": 256
-    },
-    {
-      "type": "GRANITE",
-      "size": 33,
-      "count": 10,
-      "minHeight": 0,
-      "maxHeight": 80
-    },
-    {
-      "type": "DIORITE",
-      "size": 33,
-      "count": 10,
-      "minHeight": 0,
-      "maxHeight": 80
-    },
-    {
-      "type": "ANDESITE",
-      "size": 33,
-      "count": 10,
-      "minHeight": 0,
-      "maxHeight": 80
-    },
-    {
-      "type": "COAL_ORE",
-      "size": 17,
-      "count": 20,
-      "minHeight": 0,
-      "maxHeight": 128
-    },
-    {
-      "type": "IRON_ORE",
-      "size": 9,
-      "count": 20,
-      "minHeight": 0,
-      "maxHeight": 64
-    },
-    {
-      "type": "GOLD_ORE",
-      "size": 9,
-      "count": 2,
-      "minHeight": 0,
-      "maxHeight": 32
-    },
-    {
-      "type": "REDSTONE_ORE",
-      "size": 8,
-      "count": 8,
-      "minHeight": 0,
-      "maxHeight": 16
-    },
-    {
-      "type": "DIAMOND_ORE",
-      "size": 8,
-      "count": 1,
-      "minHeight": 0,
-      "maxHeight": 16
-    },
-    {
-      "type": "LAPIS_ORE",
-      "size": 7,
-      "count": 1,
-      "minHeight": 0,
-      "maxHeight": 32
-    },
-    {
-      "type": "EMERALD_ORE",
-      "size": 4,
-      "count": 2,
-      "minHeight": 4,
-      "maxHeight": 32
-    }
-  ],
+  "oreGenerators": [],
   "customTerrain": {
     "noiseLayers": []
   },
@@ -131,7 +48,7 @@
     "subTerrains": [
       {
         "provider": "MINECRAFT",
-        "name": "JUNGLE_EDGE",
+        "name": "MODIFIED_JUNGLE_EDGE",
         "xModifier": 1.0,
         "yModifier": 1.0,
         "zModifier": 1.0,
@@ -146,13 +63,14 @@
     "spawnSnowLayers": false,
     "spawnHangingLeaves": false,
     "spawnIceOnWater": false,
-    "groundDepth": 4,
+    "groundDepth": 5,
     "surfaceDepth": 1,
     "surfaceBlocks": [
       [
         {
-          "type": "CYAN_TERRACOTTA",
+          "type": "DIRT",
           "data": 0,
+          "tags": {},
           "inclinationsConditions": [
             {
               "minInclination": 2.3,
@@ -164,8 +82,9 @@
       ],
       [
         {
-          "type": "STONE",
+          "type": "DIRT",
           "data": 0,
+          "tags": {},
           "inclinationsConditions": [
             {
               "minInclination": 1.3,
@@ -175,8 +94,9 @@
           "chance": 0.4
         },
         {
-          "type": "COBBLESTONE",
+          "type": "DIRT",
           "data": 0,
+          "tags": {},
           "inclinationsConditions": [
             {
               "minInclination": 1.3,
@@ -186,8 +106,9 @@
           "chance": 0.3
         },
         {
-          "type": "STONE",
+          "type": "DIRT",
           "data": 5,
+          "tags": {},
           "inclinationsConditions": [
             {
               "minInclination": 1.3,
@@ -201,6 +122,7 @@
         {
           "type": "GRASS_BLOCK",
           "data": 0,
+          "tags": {},
           "chance": 1.0
         }
       ]
@@ -209,8 +131,9 @@
     "groundBlocks": [
       [
         {
-          "type": "CYAN_TERRACOTTA",
+          "type": "DIRT",
           "data": 0,
+          "tags": {},
           "inclinationsConditions": [
             {
               "minInclination": 2.3,
@@ -222,8 +145,9 @@
       ],
       [
         {
-          "type": "STONE",
+          "type": "DIRT",
           "data": 0,
+          "tags": {},
           "inclinationsConditions": [
             {
               "minInclination": 1.3,
@@ -233,8 +157,9 @@
           "chance": 0.4
         },
         {
-          "type": "COBBLESTONE",
+          "type": "DIRT",
           "data": 0,
+          "tags": {},
           "inclinationsConditions": [
             {
               "minInclination": 1.3,
@@ -244,8 +169,9 @@
           "chance": 0.3
         },
         {
-          "type": "STONE",
+          "type": "DIRT",
           "data": 5,
+          "tags": {},
           "inclinationsConditions": [
             {
               "minInclination": 1.3,
@@ -259,6 +185,7 @@
         {
           "type": "DIRT",
           "data": 0,
+          "tags": {},
           "chance": 1.0
         }
       ]
@@ -268,6 +195,7 @@
         {
           "type": "DIRT",
           "data": 0,
+          "tags": {},
           "heightConditions": [
             {
               "minHeight": 0,
@@ -289,6 +217,7 @@
         {
           "type": "SUGAR_CANE",
           "data": 0,
+          "tags": {},
           "heightConditions": [
             {
               "minHeight": 54,
@@ -300,6 +229,7 @@
         {
           "type": "GRASS",
           "data": 1,
+          "tags": {},
           "inclinationsConditions": [
             {
               "minInclination": 0.0,
@@ -310,7 +240,7 @@
         },
         {
           "type": "SUNFLOWER",
-          "data": 0,
+          "tags": {},
           "inclinationsConditions": [
             {
               "minInclination": 0.0,
@@ -321,7 +251,7 @@
         },
         {
           "type": "LILAC",
-          "data": 0,
+          "tags": {},
           "inclinationsConditions": [
             {
               "minInclination": 0.0,
@@ -332,7 +262,7 @@
         },
         {
           "type": "TALL_GRASS",
-          "data": 0,
+          "tags": {},
           "inclinationsConditions": [
             {
               "minInclination": 0.0,
@@ -343,7 +273,7 @@
         },
         {
           "type": "LARGE_FERN",
-          "data": 0,
+          "tags": {},
           "inclinationsConditions": [
             {
               "minInclination": 0.0,
@@ -354,7 +284,7 @@
         },
         {
           "type": "ROSE_BUSH",
-          "data": 0,
+          "tags": {},
           "inclinationsConditions": [
             {
               "minInclination": 0.0,
@@ -365,7 +295,7 @@
         },
         {
           "type": "PEONY",
-          "data": 0,
+          "tags": {},
           "inclinationsConditions": [
             {
               "minInclination": 0.0,
@@ -376,7 +306,7 @@
         },
         {
           "type": "DANDELION",
-          "data": 0,
+          "tags": {},
           "inclinationsConditions": [
             {
               "minInclination": 0.0,
@@ -387,7 +317,7 @@
         },
         {
           "type": "POPPY",
-          "data": 0,
+          "tags": {},
           "inclinationsConditions": [
             {
               "minInclination": 0.0,
@@ -398,7 +328,7 @@
         },
         {
           "type": "BLUE_ORCHID",
-          "data": 0,
+          "tags": {},
           "inclinationsConditions": [
             {
               "minInclination": 0.0,
@@ -409,7 +339,7 @@
         },
         {
           "type": "ALLIUM",
-          "data": 0,
+          "tags": {},
           "inclinationsConditions": [
             {
               "minInclination": 0.0,
@@ -420,7 +350,7 @@
         },
         {
           "type": "AZURE_BLUET",
-          "data": 0,
+          "tags": {},
           "inclinationsConditions": [
             {
               "minInclination": 0.0,
@@ -431,7 +361,7 @@
         },
         {
           "type": "RED_TULIP",
-          "data": 0,
+          "tags": {},
           "inclinationsConditions": [
             {
               "minInclination": 0.0,
@@ -442,7 +372,7 @@
         },
         {
           "type": "ORANGE_TULIP",
-          "data": 0,
+          "tags": {},
           "inclinationsConditions": [
             {
               "minInclination": 0.0,
@@ -453,7 +383,7 @@
         },
         {
           "type": "PINK_TULIP",
-          "data": 0,
+          "tags": {},
           "inclinationsConditions": [
             {
               "minInclination": 0.0,
@@ -464,7 +394,18 @@
         },
         {
           "type": "WHITE_TULIP",
-          "data": 0,
+          "tags": {},
+          "inclinationsConditions": [
+            {
+              "minInclination": 0.0,
+              "maxInclination": 1.7
+            }
+          ],
+          "chance": 0.001
+        },
+        {
+          "type": "SWEET_BERRY_BUSH",
+          "tags": {},
           "inclinationsConditions": [
             {
               "minInclination": 0.0,
@@ -478,8 +419,9 @@
     "riverBlocks": [
       [
         {
-          "type": "SAND",
+          "type": "DIRT",
           "data": 0,
+          "tags": {},
           "heightConditions": [
             {
               "minHeight": 0,
@@ -492,56 +434,182 @@
     ],
     "leavesBlock": {
       "type": "OAK_LEAVES",
-      "data": 0,
+      "tags": {},
       "inclinationsConditions": [
         {
           "minInclination": 0.44999998807907104,
           "maxInclination": 0.6000000238418579
         }
-      ],
-      "chance": 0.0
+      ]
     }
   },
-  "customTrees": [],
-  "customStructures": [
+  "customTrees": [
     {
-      "name": "DECO_forest_house",
-      "density": 0.002,
+      "name": "CUSTOM_Tree_Jungle_Normal01",
+      "density": 4.0E-4,
       "size": "MEDIUM",
       "provider": "EWG",
-      "type": "DECO",
+      "type": "TREES",
       "blocksRequiredUnderneath": [
-        "GRASS_BLOCK"
+        "GRASS_BLOCK",
+        "GRASS"
       ],
       "blacklistedDecoBlocks": [],
-      "chestConfig": "default.json",
+      "chestConfig": "",
       "spawnUnderWater": false,
       "spawnOnGround": true,
       "overrideExsistingBlocks": false,
-      "allowRotation": false,
+      "allowRotation": true,
       "applyPhysics": false,
-      "applyAir": true,
-      "fixFlyingRoots": false,
+      "applyAir": false,
+      "fixFlyingRoots": true,
       "replaceAir": true,
-      "minY": 67,
-      "maxY": 107,
-      "maxSlope": 0.5,
+      "minY": 40,
+      "maxY": 113,
+      "maxSlope": 0.7,
       "minSlope": 0.0,
       "transitionClearance": -1.0,
-      "snapToXGrid": 150,
-      "snapToYGrid": 150,
+      "snapToXGrid": -1,
+      "snapToYGrid": -1,
       "gridXOffset": 0,
       "gridYOffset": 0,
       "anchorYOffset": 0
     },
     {
-      "name": "DECO_jungle_tower",
-      "density": 0.005,
+      "name": "CUSTOM_Tree_Jungle_Normal02",
+      "density": 4.0E-4,
       "size": "MEDIUM",
       "provider": "EWG",
-      "type": "DECO",
+      "type": "TREES",
       "blocksRequiredUnderneath": [
-        "GRASS_BLOCK"
+        "GRASS_BLOCK",
+        "GRASS"
+      ],
+      "blacklistedDecoBlocks": [],
+      "chestConfig": "",
+      "spawnUnderWater": false,
+      "spawnOnGround": true,
+      "overrideExsistingBlocks": false,
+      "allowRotation": true,
+      "applyPhysics": false,
+      "applyAir": false,
+      "fixFlyingRoots": true,
+      "replaceAir": true,
+      "minY": 40,
+      "maxY": 113,
+      "maxSlope": 0.7,
+      "minSlope": 0.0,
+      "transitionClearance": -1.0,
+      "snapToXGrid": -1,
+      "snapToYGrid": -1,
+      "gridXOffset": 0,
+      "gridYOffset": 0,
+      "anchorYOffset": 0
+    },
+    {
+      "name": "CUSTOM_Tree_Jungle_Normal03",
+      "density": 4.0E-4,
+      "size": "MEDIUM",
+      "provider": "EWG",
+      "type": "TREES",
+      "blocksRequiredUnderneath": [
+        "GRASS_BLOCK",
+        "GRASS"
+      ],
+      "blacklistedDecoBlocks": [],
+      "chestConfig": "",
+      "spawnUnderWater": false,
+      "spawnOnGround": true,
+      "overrideExsistingBlocks": false,
+      "allowRotation": true,
+      "applyPhysics": false,
+      "applyAir": false,
+      "fixFlyingRoots": true,
+      "replaceAir": true,
+      "minY": 40,
+      "maxY": 113,
+      "maxSlope": 0.7,
+      "minSlope": 0.0,
+      "transitionClearance": -1.0,
+      "snapToXGrid": -1,
+      "snapToYGrid": -1,
+      "gridXOffset": 0,
+      "gridYOffset": 0,
+      "anchorYOffset": 0
+    },
+    {
+      "name": "CUSTOM_Tree_Jungle_Normal04",
+      "density": 4.0E-4,
+      "size": "MEDIUM",
+      "provider": "EWG",
+      "type": "TREES",
+      "blocksRequiredUnderneath": [
+        "GRASS_BLOCK",
+        "GRASS"
+      ],
+      "blacklistedDecoBlocks": [],
+      "chestConfig": "",
+      "spawnUnderWater": false,
+      "spawnOnGround": true,
+      "overrideExsistingBlocks": false,
+      "allowRotation": true,
+      "applyPhysics": false,
+      "applyAir": false,
+      "fixFlyingRoots": true,
+      "replaceAir": true,
+      "minY": 40,
+      "maxY": 113,
+      "maxSlope": 0.7,
+      "minSlope": 0.0,
+      "transitionClearance": -1.0,
+      "snapToXGrid": -1,
+      "snapToYGrid": -1,
+      "gridXOffset": 0,
+      "gridYOffset": 0,
+      "anchorYOffset": 0
+    }
+  ],
+  "customStructures": [
+    {
+      "name": "CUSTOM_Building_Jungle_BanditCastel01",
+      "density": 6.0E-6,
+      "size": "MEDIUM",
+      "provider": "EWG",
+      "type": "TREES",
+      "blocksRequiredUnderneath": [
+        "GRASS_BLOCK",
+        "GRASS"
+      ],
+      "blacklistedDecoBlocks": [],
+      "chestConfig": "default.json",
+      "spawnUnderWater": false,
+      "spawnOnGround": true,
+      "overrideExsistingBlocks": true,
+      "allowRotation": false,
+      "applyPhysics": false,
+      "applyAir": true,
+      "fixFlyingRoots": false,
+      "replaceAir": true,
+      "minY": 50,
+      "maxY": 80,
+      "maxSlope": 0.7,
+      "minSlope": 0.0,
+      "transitionClearance": -1.0,
+      "snapToXGrid": -1,
+      "snapToYGrid": -1,
+      "gridXOffset": 0,
+      "gridYOffset": 0,
+      "anchorYOffset": 0
+    },
+    {
+      "name": "CUSTOM_Building_Jungle_Tower01",
+      "density": 6.0E-6,
+      "size": "MEDIUM",
+      "provider": "EWG",
+      "type": "TREES",
+      "blocksRequiredUnderneath": [
+        "GRASS_BLOCK",
+        "GRASS"
       ],
       "blacklistedDecoBlocks": [],
       "chestConfig": "default.json",
@@ -555,7 +623,7 @@
       "replaceAir": true,
       "minY": 67,
       "maxY": 107,
-      "maxSlope": 0.5,
+      "maxSlope": 0.7,
       "minSlope": 0.0,
       "transitionClearance": -1.0,
       "snapToXGrid": 150,
