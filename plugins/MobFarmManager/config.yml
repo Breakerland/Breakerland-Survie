@@ -21,17 +21,19 @@ WolfControl:
   Enabled: true
   # Defines max allowed wolfs per player which can follow him
   # This will be checked on general entity amount check defined belove
-  Max: 3
+  Max: 5
 EntitySpawn:
   #  
   # Checks Chunk when entity spawns
   Check: true
   # When set to true players without permissions: mfm.build.wither mfm.build.irongolem mfm.build.snowman will be prevented from building appropriate monsters
   PreventMobBuild: false
+  # When set to true iron golems in villages will not spawn throw natural means
+  PreventIronGolemSpawn: false
   # If this set to true, chunks will be grouped up and counted as one. In example with range 2 all 10 chunks will be counted as one and limits will be used as for one chunk
   # This will give wider range of mob cleaning
-  GroupChunks: truee
-  GroupChunksRadius: 2
+  GroupChunks: true
+  GroupChunksRadius: 3
 #  
 # When set to true entities which are above allowed limit will get removed
 # Disabling this will prevent entities from disappearing in front of your eyes, but this can allow player from stacking dozens or even hundreds of mobs in one chunk throw multiple methods
@@ -43,9 +45,9 @@ AutoClean:
   Use: true
   #  
   # Informs users with mfm.cleaninform permission node how many entities we cleaned up and which ones in particular
-  Inform: true
-  # How often to check chunks in seconds. Keep it at 30 sec plus, as you dont need to perform this tast to often
-  Interval: 30
+  Inform: false
+  # How often to check chunks in seconds. Minimal value: 30
+  Interval: 300
   # Defines max amount of entities which we will remove from a chunk or chunk group when checking it
   # Set to 0 if you want to disable limit
   MaxRemoved: 0
@@ -104,23 +106,23 @@ BlockTypes:
     HOPPER: 100
     PISTON: 100
     STICKY_PISTON: 100
-    OBSERVER: 50
+    OBSERVER: 75
 #  
 # All posible spawn reassons to check
 # Set to false if you dont want to do checks on particular spawn reasson
 SpawnReasons:
   NATURAL: true
   JOCKEY: true
-  CHUNK_GEN: true
-  SPAWNER: true
-  EGG: true
-  SPAWNER_EGG: true
+  CHUNK_GEN: false
+  SPAWNER: false
+  EGG: false
+  SPAWNER_EGG: false
   LIGHTNING: true
   BUILD_SNOWMAN: true
   BUILD_IRONGOLEM: true
   BUILD_WITHER: true
-  VILLAGE_DEFENSE: true
-  VILLAGE_INVASION: true
+  VILLAGE_DEFENSE: false
+  VILLAGE_INVASION: false
   BREEDING: true
   SLIME_SPLIT: true
   REINFORCEMENTS: true
@@ -140,48 +142,36 @@ SpawnReasons:
   RAID: true
   PATROL: true
   BEEHIVE: true
-  CUSTOM: true
-  DEFAULT: true
+  CUSTOM: false
+  DEFAULT: false
 #  
 # Settup for entity groups
 # You can define different groups for different types of animals/monsters/entities
 # If entity gets over total amount of group limit, he will not be allowed to spawn
 EntityGroups:
-  Animals:
+  Deco:
     Use: true
-    Limit: 30
+    Limit: 200
     List:
-    - Pig
-    - Cow
-    - Horse
-    - Rabbit
-    - Sheep
-    - Chicken
-  Monsters:
-    Use: true
-    Limit: 40
-    List:
-    - Zombie
-    - Skeleton
-    - Slime
-    - Creeper
-    - Squid
+    - PAINTING
+    - ITEM_FRAME
+    - ARMOR_STAND
 #  
 # This list is automaticaly filled with ALL posible entities in game, so some of them can just not work until future update
 # If you not sure what is that entity, then keep it at -1 limit, to not limit its spawning
 EntityTypes:
   DROPPED_ITEM:
-    Use: true
+    Use: false
     Limit: -1
   EXPERIENCE_ORB:
-    Use: true
+    Use: false
     Limit: -1
   AREA_EFFECT_CLOUD:
-    Use: true
+    Use: false
     Limit: -1
   ELDER_GUARDIAN:
     Use: true
-    Limit: 5
+    Limit: 6
   WITHER_SKELETON:
     Use: true
     Limit: 5
@@ -189,85 +179,85 @@ EntityTypes:
     Use: true
     Limit: 20
   EGG:
-    Use: true
+    Use: false
     Limit: -1
   LEASH_HITCH:
-    Use: true
+    Use: false
     Limit: -1
   PAINTING:
-    Use: true
+    Use: false
     Limit: -1
   ARROW:
-    Use: true
+    Use: false
     Limit: -1
   SNOWBALL:
-    Use: true
+    Use: false
     Limit: -1
   FIREBALL:
-    Use: true
+    Use: false
     Limit: -1
   SMALL_FIREBALL:
-    Use: true
+    Use: false
     Limit: -1
   ENDER_PEARL:
-    Use: true
+    Use: false
     Limit: -1
   ENDER_SIGNAL:
-    Use: true
+    Use: false
     Limit: -1
   SPLASH_POTION:
-    Use: true
+    Use: false
     Limit: -1
   THROWN_EXP_BOTTLE:
-    Use: true
+    Use: false
     Limit: -1
   ITEM_FRAME:
-    Use: true
+    Use: false
     Limit: -1
   WITHER_SKULL:
-    Use: true
+    Use: false
     Limit: -1
   PRIMED_TNT:
-    Use: true
+    Use: false
     Limit: -1
   FALLING_BLOCK:
-    Use: true
+    Use: false
     Limit: -1
   FIREWORK:
-    Use: true
+    Use: false
     Limit: -1
   HUSK:
     Use: true
     Limit: 10
   SPECTRAL_ARROW:
-    Use: true
+    Use: false
     Limit: -1
   SHULKER_BULLET:
-    Use: true
+    Use: false
     Limit: -1
   DRAGON_FIREBALL:
-    Use: true
+    Use: false
     Limit: -1
   ZOMBIE_VILLAGER:
-    Use: true
+    Use: false
     Limit: -1
   SKELETON_HORSE:
     Use: true
-    Limit: 10
+    Limit: 5
   ZOMBIE_HORSE:
     Use: true
-    Limit: 10
+    Limit: 5
   ARMOR_STAND:
-    Use: true
+    Use: false
     Limit: 100
   DONKEY:
     Use: true
-    Limit: 10
+    Limit: 5
   MULE:
     Use: true
-    Limit: 10
+    Limit: 5
   EVOKER_FANGS:
-    Use: true
+    Use: false
     Limit: -1
   EVOKER:
     Use: true
@@ -282,110 +272,110 @@ EntityTypes:
     Use: true
     Limit: 5
   MINECART_COMMAND:
-    Use: true
+    Use: false
     Limit: -1
   BOAT:
     Use: true
-    Limit: -1
+    Limit: 5
   MINECART:
     Use: true
-    Limit: -1
+    Limit: 5
   MINECART_CHEST:
     Use: true
-    Limit: -1
+    Limit: 5
   MINECART_FURNACE:
     Use: true
-    Limit: -1
+    Limit: 5
   MINECART_TNT:
     Use: true
-    Limit: -1
+    Limit: 5
   MINECART_HOPPER:
     Use: true
-    Limit: -1
+    Limit: 5
   MINECART_MOB_SPAWNER:
     Use: true
-    Limit: -1
+    Limit: 5
   CREEPER:
-    Use: true
+    Use: false
     Limit: 10
   SKELETON:
-    Use: true
+    Use: false
     Limit: 10
   SPIDER:
-    Use: true
+    Use: false
     Limit: 10
   GIANT:
-    Use: true
+    Use: false
     Limit: 10
   ZOMBIE:
-    Use: true
+    Use: false
     Limit: 10
   SLIME:
-    Use: true
+    Use: false
     Limit: 10
   GHAST:
-    Use: true
+    Use: false
     Limit: 10
   PIG_ZOMBIE:
-    Use: true
+    Use: false
     Limit: 10
   ENDERMAN:
-    Use: true
+    Use: false
     Limit: 10
   CAVE_SPIDER:
-    Use: true
+    Use: false
     Limit: 10
   SILVERFISH:
-    Use: true
+    Use: false
     Limit: 10
   BLAZE:
-    Use: true
+    Use: false
     Limit: 10
   MAGMA_CUBE:
-    Use: true
+    Use: false
     Limit: 10
   ENDER_DRAGON:
     Use: true
-    Limit: 1
+    Limit: 2
   WITHER:
-    Use: true
+    Use: false
     Limit: 3
   BAT:
-    Use: true
+    Use: false
     Limit: 10
   WITCH:
-    Use: true
+    Use: false
     Limit: 10
   ENDERMITE:
-    Use: true
+    Use: false
     Limit: 20
   GUARDIAN:
-    Use: true
+    Use: false
     Limit: 10
   SHULKER:
-    Use: true
+    Use: false
     Limit: 10
   PIG:
     Use: true
-    Limit: 15
+    Limit: 20
   SHEEP:
     Use: true
-    Limit: 15
+    Limit: 20
   COW:
     Use: true
-    Limit: 15
+    Limit: 20
   CHICKEN:
     Use: true
-    Limit: 15
+    Limit: 20
   SQUID:
     Use: true
     Limit: 15
   WOLF:
     Use: true
-    Limit: 15
+    Limit: 10
   MUSHROOM_COW:
     Use: true
-    Limit: 10
+    Limit: 15
   SNOWMAN:
     Use: true
     Limit: 10
@@ -406,7 +396,7 @@ EntityTypes:
     Limit: 10
   LLAMA:
     Use: true
-    Limit: 15
+    Limit: 10
   LLAMA_SPIT:
     Use: true
     Limit: 10
@@ -414,10 +404,10 @@ EntityTypes:
     Use: true
     Limit: 10
   VILLAGER:
-    Use: true
+    Use: false
     Limit: 15
   ENDER_CRYSTAL:
-    Use: true
+    Use: false
     Limit: 10
   TURTLE:
     Use: true
@@ -426,7 +416,7 @@ EntityTypes:
     Use: true
     Limit: 10
   TRIDENT:
-    Use: true
+    Use: false
     Limit: -1
   COD:
     Use: true
@@ -441,7 +431,7 @@ EntityTypes:
     Use: true
     Limit: 10
   DROWNED:
-    Use: true
+    Use: false
     Limit: 10
   DOLPHIN:
     Use: true
@@ -453,7 +443,7 @@ EntityTypes:
     Use: true
     Limit: 10
   PILLAGER:
-    Use: true
+    Use: false
     Limit: 15
   RAVAGER:
     Use: true
@@ -474,11 +464,11 @@ EntityTypes:
     Use: true
     Limit: 10
   LIGHTNING:
-    Use: true
+    Use: false
     Limit: -1
   PLAYER:
-    Use: true
+    Use: false
     Limit: -1
   UNKNOWN:
-    Use: true
+    Use: false
     Limit: -1
