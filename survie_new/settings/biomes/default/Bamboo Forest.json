@@ -1,12 +1,13 @@
 {
   "enabled": true,
   "rarity": 1.0,
-  "biomeType": "GRASSLAND",
+  "biomeType": "FOREST",
   "useDungeons": true,
-  "dungeonChance": 8,
+  "dungeonChance": 20,
   "useMineShafts": true,
   "useStrongholds": true,
   "useVillages": true,
+  "villageStyle": "PLAINS",
   "useTemples": false,
   "useNetherFortress": false,
   "useCaves": true,
@@ -21,13 +22,13 @@
   "useWaterLakes": true,
   "useLavaLakes": false,
   "useBedrock": true,
-  "useRivers": true,
-  "useNativePainting": true,
-  "useNativeStructure": true,
-  "useNativeDecorations": true,
+  "useRivers": false,
+  "useNativePainting": false,
+  "useNativeStructure": false,
+  "useNativeDecorations": false,
   "nativeBiome": "BAMBOO_JUNGLE",
   "biomeColors": [
-    "0cff00"
+    "4800FF"
   ],
   "fossilChance": 64,
   "lavaLakeChance": 70,
@@ -67,7 +68,7 @@
     "surfaceBlocks": [
       [
         {
-          "type": "CYAN_TERRACOTTA",
+          "type": "ORANGE_TERRACOTTA",
           "data": 0,
           "tags": {},
           "inclinationsConditions": [
@@ -130,7 +131,7 @@
     "groundBlocks": [
       [
         {
-          "type": "CYAN_TERRACOTTA",
+          "type": "RED_TERRACOTTA",
           "data": 0,
           "tags": {},
           "inclinationsConditions": [
@@ -210,9 +211,19 @@
     "slabBlocks": [],
     "stairBlocks": [],
     "plantBlocks": [
-      [],
-      [],
       [
+        {
+          "type": "BAMBOO",
+          "data": 0,
+          "tags": {},
+          "heightConditions": [
+            {
+              "minHeight": 68,
+              "maxHeight": 100
+            }
+          ],
+          "chance": 0.6
+        },
         {
           "type": "SUGAR_CANE",
           "data": 0,
@@ -239,7 +250,6 @@
         },
         {
           "type": "SUNFLOWER",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -251,7 +261,6 @@
         },
         {
           "type": "LILAC",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -263,7 +272,6 @@
         },
         {
           "type": "TALL_GRASS",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -275,7 +283,6 @@
         },
         {
           "type": "LARGE_FERN",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -287,7 +294,6 @@
         },
         {
           "type": "ROSE_BUSH",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -299,7 +305,6 @@
         },
         {
           "type": "PEONY",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -311,7 +316,6 @@
         },
         {
           "type": "DANDELION",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -323,7 +327,6 @@
         },
         {
           "type": "POPPY",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -335,7 +338,6 @@
         },
         {
           "type": "BLUE_ORCHID",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -347,7 +349,6 @@
         },
         {
           "type": "ALLIUM",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -359,7 +360,6 @@
         },
         {
           "type": "AZURE_BLUET",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -371,7 +371,6 @@
         },
         {
           "type": "RED_TULIP",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -383,7 +382,6 @@
         },
         {
           "type": "ORANGE_TULIP",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -395,7 +393,6 @@
         },
         {
           "type": "PINK_TULIP",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -407,7 +404,17 @@
         },
         {
           "type": "WHITE_TULIP",
-          "data": 0,
+          "tags": {},
+          "inclinationsConditions": [
+            {
+              "minInclination": 0.0,
+              "maxInclination": 1.7
+            }
+          ],
+          "chance": 0.001
+        },
+        {
+          "type": "SWEET_BERRY_BUSH",
           "tags": {},
           "inclinationsConditions": [
             {
@@ -422,7 +429,7 @@
     "riverBlocks": [
       [
         {
-          "type": "SAND",
+          "type": "DIRT",
           "data": 0,
           "tags": {},
           "heightConditions": [
@@ -437,19 +444,307 @@
     ],
     "leavesBlock": {
       "type": "OAK_LEAVES",
-      "data": 0,
       "tags": {},
       "inclinationsConditions": [
         {
           "minInclination": 0.44999998807907104,
           "maxInclination": 0.6000000238418579
         }
-      ],
-      "chance": 0.0
+      ]
     }
   },
-  "customTrees": [],
-  "customStructures": [],
+  "customTrees": [
+    {
+      "name": "CUSTOM_Tree_Jungle_Mega01",
+      "density": 8.0E-5,
+      "size": "MEDIUM",
+      "provider": "EWG",
+      "type": "TREES",
+      "blocksRequiredUnderneath": [
+        "GRASS_BLOCK",
+        "GRASS",
+        "BAMBOO"
+      ],
+      "blacklistedDecoBlocks": [],
+      "chestConfig": "",
+      "spawnUnderWater": false,
+      "spawnOnGround": true,
+      "overrideExsistingBlocks": true,
+      "allowRotation": true,
+      "applyPhysics": false,
+      "applyAir": false,
+      "fixFlyingRoots": true,
+      "replaceAir": true,
+      "minY": 40,
+      "maxY": 113,
+      "maxSlope": 0.7,
+      "minSlope": 0.0,
+      "transitionClearance": -1.0,
+      "snapToXGrid": -1,
+      "snapToYGrid": -1,
+      "gridXOffset": 0,
+      "gridYOffset": 0,
+      "anchorYOffset": 0
+    },
+    {
+      "name": "CUSTOM_Tree_BambooForest_Purplewool_Normal_01",
+      "density": 8.0E-4,
+      "size": "MEDIUM",
+      "provider": "EWG",
+      "type": "TREES",
+      "blocksRequiredUnderneath": [
+        "GRASS_BLOCK",
+        "GRASS",
+        "BAMBOO"
+      ],
+      "blacklistedDecoBlocks": [],
+      "chestConfig": "",
+      "spawnUnderWater": false,
+      "spawnOnGround": true,
+      "overrideExsistingBlocks": true,
+      "allowRotation": true,
+      "applyPhysics": false,
+      "applyAir": false,
+      "fixFlyingRoots": true,
+      "replaceAir": true,
+      "minY": 40,
+      "maxY": 113,
+      "maxSlope": 0.7,
+      "minSlope": 0.0,
+      "transitionClearance": -1.0,
+      "snapToXGrid": -1,
+      "snapToYGrid": -1,
+      "gridXOffset": 0,
+      "gridYOffset": 0,
+      "anchorYOffset": 0
+    },
+    {
+      "name": "CUSTOM_Tree_BambooForest_Purplewool_Normal_02",
+      "density": 8.0E-4,
+      "size": "MEDIUM",
+      "provider": "EWG",
+      "type": "TREES",
+      "blocksRequiredUnderneath": [
+        "GRASS_BLOCK",
+        "GRASS",
+        "BAMBOO"
+      ],
+      "blacklistedDecoBlocks": [],
+      "chestConfig": "",
+      "spawnUnderWater": false,
+      "spawnOnGround": true,
+      "overrideExsistingBlocks": true,
+      "allowRotation": true,
+      "applyPhysics": false,
+      "applyAir": false,
+      "fixFlyingRoots": true,
+      "replaceAir": true,
+      "minY": 40,
+      "maxY": 113,
+      "maxSlope": 0.7,
+      "minSlope": 0.0,
+      "transitionClearance": -1.0,
+      "snapToXGrid": -1,
+      "snapToYGrid": -1,
+      "gridXOffset": 0,
+      "gridYOffset": 0,
+      "anchorYOffset": 0
+    },
+    {
+      "name": "CUSTOM_Tree_Jungle_Normal01",
+      "density": 7.0E-4,
+      "size": "MEDIUM",
+      "provider": "EWG",
+      "type": "TREES",
+      "blocksRequiredUnderneath": [
+        "GRASS_BLOCK",
+        "GRASS",
+        "BAMBOO"
+      ],
+      "blacklistedDecoBlocks": [],
+      "chestConfig": "",
+      "spawnUnderWater": false,
+      "spawnOnGround": true,
+      "overrideExsistingBlocks": true,
+      "allowRotation": true,
+      "applyPhysics": false,
+      "applyAir": false,
+      "fixFlyingRoots": true,
+      "replaceAir": true,
+      "minY": 40,
+      "maxY": 113,
+      "maxSlope": 0.7,
+      "minSlope": 0.0,
+      "transitionClearance": -1.0,
+      "snapToXGrid": -1,
+      "snapToYGrid": -1,
+      "gridXOffset": 0,
+      "gridYOffset": 0,
+      "anchorYOffset": 0
+    },
+    {
+      "name": "CUSTOM_Tree_Jungle_Normal02",
+      "density": 7.0E-4,
+      "size": "MEDIUM",
+      "provider": "EWG",
+      "type": "TREES",
+      "blocksRequiredUnderneath": [
+        "GRASS_BLOCK",
+        "GRASS",
+        "BAMBOO"
+      ],
+      "blacklistedDecoBlocks": [],
+      "chestConfig": "",
+      "spawnUnderWater": false,
+      "spawnOnGround": true,
+      "overrideExsistingBlocks": true,
+      "allowRotation": true,
+      "applyPhysics": false,
+      "applyAir": false,
+      "fixFlyingRoots": true,
+      "replaceAir": true,
+      "minY": 40,
+      "maxY": 113,
+      "maxSlope": 0.7,
+      "minSlope": 0.0,
+      "transitionClearance": -1.0,
+      "snapToXGrid": -1,
+      "snapToYGrid": -1,
+      "gridXOffset": 0,
+      "gridYOffset": 0,
+      "anchorYOffset": 0
+    },
+    {
+      "name": "CUSTOM_Tree_Jungle_Normal03",
+      "density": 6.0E-4,
+      "size": "MEDIUM",
+      "provider": "EWG",
+      "type": "TREES",
+      "blocksRequiredUnderneath": [
+        "GRASS_BLOCK",
+        "GRASS",
+        "BAMBOO"
+      ],
+      "blacklistedDecoBlocks": [],
+      "chestConfig": "",
+      "spawnUnderWater": false,
+      "spawnOnGround": true,
+      "overrideExsistingBlocks": true,
+      "allowRotation": true,
+      "applyPhysics": false,
+      "applyAir": false,
+      "fixFlyingRoots": true,
+      "replaceAir": true,
+      "minY": 40,
+      "maxY": 113,
+      "maxSlope": 0.7,
+      "minSlope": 0.0,
+      "transitionClearance": -1.0,
+      "snapToXGrid": -1,
+      "snapToYGrid": -1,
+      "gridXOffset": 0,
+      "gridYOffset": 0,
+      "anchorYOffset": 0
+    },
+    {
+      "name": "CUSTOM_Tree_Jungle_Normal04",
+      "density": 6.0E-4,
+      "size": "MEDIUM",
+      "provider": "EWG",
+      "type": "TREES",
+      "blocksRequiredUnderneath": [
+        "GRASS_BLOCK",
+        "GRASS",
+        "BAMBOO"
+      ],
+      "blacklistedDecoBlocks": [],
+      "chestConfig": "",
+      "spawnUnderWater": false,
+      "spawnOnGround": true,
+      "overrideExsistingBlocks": true,
+      "allowRotation": true,
+      "applyPhysics": false,
+      "applyAir": false,
+      "fixFlyingRoots": true,
+      "replaceAir": true,
+      "minY": 40,
+      "maxY": 113,
+      "maxSlope": 0.7,
+      "minSlope": 0.0,
+      "transitionClearance": -1.0,
+      "snapToXGrid": -1,
+      "snapToYGrid": -1,
+      "gridXOffset": 0,
+      "gridYOffset": 0,
+      "anchorYOffset": 0
+    }
+  ],
+  "customStructures": [
+    {
+      "name": "CUSTOM_Building_Forest_House01",
+      "density": 7.0E-6,
+      "size": "MEDIUM",
+      "provider": "EWG",
+      "type": "DECO",
+      "blocksRequiredUnderneath": [
+        "GRASS_BLOCK",
+        "GRASS",
+        "BAMBOO"
+      ],
+      "blacklistedDecoBlocks": [],
+      "chestConfig": "default.json",
+      "spawnUnderWater": false,
+      "spawnOnGround": true,
+      "overrideExsistingBlocks": false,
+      "allowRotation": false,
+      "applyPhysics": false,
+      "applyAir": true,
+      "fixFlyingRoots": false,
+      "replaceAir": true,
+      "minY": 67,
+      "maxY": 107,
+      "maxSlope": 0.5,
+      "minSlope": 0.0,
+      "transitionClearance": -1.0,
+      "snapToXGrid": 150,
+      "snapToYGrid": 150,
+      "gridXOffset": 0,
+      "gridYOffset": 0,
+      "anchorYOffset": 0
+    },
+    {
+      "name": "CUSTOM_Building_Jungle_Tower01",
+      "density": 7.0E-6,
+      "size": "MEDIUM",
+      "provider": "EWG",
+      "type": "DECO",
+      "blocksRequiredUnderneath": [
+        "GRASS_BLOCK",
+        "GRASS",
+        "BAMBOO"
+      ],
+      "blacklistedDecoBlocks": [],
+      "chestConfig": "default.json",
+      "spawnUnderWater": false,
+      "spawnOnGround": true,
+      "overrideExsistingBlocks": false,
+      "allowRotation": false,
+      "applyPhysics": false,
+      "applyAir": true,
+      "fixFlyingRoots": false,
+      "replaceAir": true,
+      "minY": 67,
+      "maxY": 107,
+      "maxSlope": 0.5,
+      "minSlope": 0.0,
+      "transitionClearance": -1.0,
+      "snapToXGrid": 150,
+      "snapToYGrid": 150,
+      "gridXOffset": 0,
+      "gridYOffset": 0,
+      "anchorYOffset": 0
+    }
+  ],
   "maxEWGObjectsPerChunk": 4,
   "xNoiseModifier": 1.2,
   "yNoiseModifier": 0.7,
@@ -459,7 +754,11 @@
   "nativeBiomes": [
     {
       "nativeBiome": "BAMBOO_JUNGLE",
-      "chance": 1.0
+      "chance": 0.8
+    },
+    {
+      "nativeBiome": "TAIGA",
+      "chance": 0.2
     }
   ],
   "groundBlockSettings": {
