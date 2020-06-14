@@ -9,13 +9,13 @@ database:
         #MySQL server port (default 3306)
         port: $mysql_port
         #Database name (NOTE! You need to create the database, then the plugin will create the tables.)
-        databaseName: mysq_database_survie
+        databaseName: $mysql_database
         #Tables name (the plugin will auto create it)
         tableName: 'player_inventory'
         #User name
-        user: $mysql_user_survie
+        user: $mysql_user
         #User password
-        password: $mysql_password_survie
+        password: $mysql_password
         #SSL connection
         sslEnabled: true
     #Remove inactive users from the database. This maintenance task will start each server start with a 2min delay.

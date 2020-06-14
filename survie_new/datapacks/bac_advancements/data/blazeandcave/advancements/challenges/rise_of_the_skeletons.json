@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:skeleton_skull"
+        },
+        "title": {"translate":"Rise of the Skeletons"},
+        "description": {"translate":"Obtain a stack of Skeleton Skulls"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:challenges/zombie_apocalypse",
+	"rewards": {
+		"experience": 200,
+		"function": "bc_rewards:challenges/rise_of_the_skeletons"
+    },		
+    "criteria": {
+        "skeleton_skull": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skeleton_skull",
+						"count": 64
+                    }
+                ]
+            }
+        }
+    }
+}

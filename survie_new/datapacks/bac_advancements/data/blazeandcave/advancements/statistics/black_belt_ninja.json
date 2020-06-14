@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_chestplate",
+			"nbt": "{display:{color:0}}"
+        },
+        "title": {"translate":"Black Belt Ninja"},
+        "description": {"translate":"Sneak 1km"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:statistics/sneaky_snitch",
+	"rewards": {
+		"experience": 200,
+		"function": "bc_rewards:statistics/black_belt_ninja"
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

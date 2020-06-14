@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:phantom_spawn_egg"
+        },
+        "title": {"translate":"Insomniac"},
+        "description": {"translate":"Go 30 days without sleep"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:building/rainbow_dreams",
+	"rewards": {
+		"experience": 100,
+		"function": "bc_rewards:building/insomniac"
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

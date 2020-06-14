@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:crossbow"
+        },
+        "title": {"translate":"Two Birds, One Arrow"},
+        "description": {"translate":"Kill two Phantoms with a piercing arrow"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:combat/anti_air",
+    "rewards": {
+        "function": "bc_rewards:combat/two_birds_one_arrow",
+		"experience": 65
+    },
+	"criteria": {
+		"two_birds": {
+			"trigger": "minecraft:killed_by_crossbow",
+			"conditions": {
+				"victims": [
+					{
+						"type": "minecraft:phantom"
+					},
+					{
+						"type": "minecraft:phantom"
+					}
+				]
+			}
+		}
+	}
+}

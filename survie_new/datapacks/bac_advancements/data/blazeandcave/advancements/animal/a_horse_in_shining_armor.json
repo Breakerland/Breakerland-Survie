@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_horse_armor"
+        },
+        "title": {"translate":"A Horse in Shining Armor"},
+        "description": {"translate":"Find diamond horse armor"}
+    },
+    "parent": "blazeandcave:animal/foal_play",
+    "rewards": {
+		"function": "bc_rewards:animal/a_horse_in_shining_armor"
+    },		
+    "criteria": {
+        "diamond_horse_armor": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_horse_armor"
+                    }
+                ]
+            }
+        }
+    }
+}

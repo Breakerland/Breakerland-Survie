@@ -1,0 +1,622 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:redstone_block"
+        },
+        "title": {"translate":"Master Engineer"},
+        "description": {"translate":"Craft a stack of all types of redstone component"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:redstone/engineer",
+	"rewards": {
+		"experience": 100,	
+		"function": "bc_rewards:redstone/master_engineer"
+    },
+    "criteria": {
+        "dispenser": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dispenser",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "note_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:note_block",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "sticky_piston": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:sticky_piston",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "piston": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:piston",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "tnt": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:tnt",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "lever": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:lever",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "stone_pressure_plate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stone_pressure_plate",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "oak_pressure_plate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:oak_pressure_plate",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "spruce_pressure_plate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:spruce_pressure_plate",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "birch_pressure_plate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:birch_pressure_plate",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "jungle_pressure_plate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:jungle_pressure_plate",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "acacia_pressure_plate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:acacia_pressure_plate",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "dark_oak_pressure_plate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dark_oak_pressure_plate",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "redstone_torch": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:redstone_torch",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "stone_button": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stone_button",
+						"count": 64
+                    }
+                ]
+            }
+        },		
+        "oak_trapdoor": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:oak_trapdoor",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "spruce_trapdoor": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:spruce_trapdoor",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "birch_trapdoor": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:birch_trapdoor",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "jungle_trapdoor": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:jungle_trapdoor",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "acacia_trapdoor": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:acacia_trapdoor",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "dark_oak_trapdoor": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dark_oak_trapdoor",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "oak_fence_gate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:oak_fence_gate",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "spruce_fence_gate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:spruce_fence_gate",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "birch_fence_gate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:birch_fence_gate",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "jungle_fence_gate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:jungle_fence_gate",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "acacia_fence_gate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:acacia_fence_gate",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "dark_oak_fence_gate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dark_oak_fence_gate",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "redstone_lamp": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:redstone_lamp",
+						"count": 64
+                    }
+                ]
+            }
+        },	
+        "tripwire_hook": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:tripwire_hook",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "oak_button": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:oak_button",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "spruce_button": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:spruce_button",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "birch_button": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:birch_button",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "jungle_button": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:jungle_button",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "acacia_button": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:acacia_button",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "dark_oak_button": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dark_oak_button",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "trapped_chest": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:trapped_chest",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "light_weighted_pressure_plate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:light_weighted_pressure_plate",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "heavy_weighted_pressure_plate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:heavy_weighted_pressure_plate",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "daylight_detector": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:daylight_detector",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "redstone_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:redstone_block",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "hopper": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:hopper",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "dropper": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dropper",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "iron_trapdoor": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:iron_trapdoor",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "observer": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:observer",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "iron_door": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:iron_door",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "oak_door": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:oak_door",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "spruce_door": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:spruce_door",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "birch_door": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:birch_door",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "jungle_door": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:jungle_door",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "acacia_door": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:acacia_door",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "dark_oak_door": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dark_oak_door",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "repeater": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:repeater",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "comparator": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:comparator",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "redstone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:redstone",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "lectern": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:lectern",
+						"count": 64
+                    }
+                ]
+            }
+        }
+    }
+}

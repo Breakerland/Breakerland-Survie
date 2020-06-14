@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_hoe"
+        },
+        "title": {"translate":"Serious Dedication"},
+        "description": {"translate":"Completely use up a diamond hoe, and then reevaluate your life choices"},
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:farming/the_garbage_will_do",
+    "rewards": {
+        "experience": 100,
+		"function": "bc_rewards:farming/serious_dedication"
+    },		
+    "criteria": {
+        "break_hoe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"item": {
+					"item": "minecraft:diamond_hoe"
+				},
+				"durability": {
+					"max": 0
+				}
+            }
+        }
+    }
+}

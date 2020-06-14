@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bone"
+        },
+        "title": {"translate":"The Undead Cavalry"},
+        "description": {"translate":"Encounter and defeat a skeleton horse in a thunderstorm"},
+        "frame": "goal"
+    },
+    "parent": "blazeandcave:combat/skeleton_smiter",
+    "rewards": {
+        "function": "bc_rewards:combat/the_undead_cavalry"
+    },		
+    "criteria": {
+        "skeleton_horse": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+				"entity": {
+					"type": "minecraft:skeleton_horse"
+				}
+            }
+        }		
+    }
+}

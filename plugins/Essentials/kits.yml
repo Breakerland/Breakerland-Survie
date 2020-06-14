@@ -13,7 +13,7 @@ kits:
     delay: 6000
     items:
     - playerhead 1 player:Notch
-  color:
+  colors:
     delay: 6000
     items:
     - writtenbook 1 title:&4Book_&9o_&6Colors author:KHobbits lore:Ingame_color_codes

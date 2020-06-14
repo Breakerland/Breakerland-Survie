@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:hay_block"
+        },
+        "title": {"translate":"Hay there!"},
+        "description": {"translate":"Craft a stack of hay blocks"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:farming/the_lie",
+    "rewards": {
+		"experience": 50,
+		"function": "bc_rewards:farming/hay_there"
+    },		
+    "criteria": {
+        "hay_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:hay_block",
+						"count": 64
+                    }
+                ]
+            }
+        }		
+    }	
+}

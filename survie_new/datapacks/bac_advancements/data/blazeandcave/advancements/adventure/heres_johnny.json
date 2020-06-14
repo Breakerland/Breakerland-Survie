@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_axe"
+        },
+        "title": {"translate":"Heeere's Johnny!"},
+        "description": {"translate":"Kill a Vindicator in a Woodland Mansion"}
+    },
+    "parent": "blazeandcave:adventure/house_of_psychos",
+    "rewards": {
+        "function": "bc_rewards:adventure/heres_johnny"
+    },		
+    "criteria": {
+        "vindicator": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "vindicator",
+					"nbt": "{Wave:0}"
+                }
+            }
+        }
+    }
+}

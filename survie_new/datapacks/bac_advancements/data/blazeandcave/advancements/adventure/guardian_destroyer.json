@@ -1,0 +1,39 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:guardian_spawn_egg"
+        },
+        "title": {"translate":"Guardian Destroyer"},
+        "description": {"translate":"Collect a stack of prismarine shards and crystals"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:adventure/spear_fishing",
+    "rewards": {
+		"experience": 50,	
+		"function": "bc_rewards:adventure/guardian_destroyer"
+    },		
+    "criteria": {
+        "prismarine_shard": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:prismarine_shard",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "prismarine_crystals": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:prismarine_crystals",
+						"count": 64
+                    }
+                ]
+            }
+        }		
+    }	
+}

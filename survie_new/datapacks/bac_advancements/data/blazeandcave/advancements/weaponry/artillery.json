@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:crossbow",
+			"nbt": "{Charged:1b}"
+        },
+        "title": {"translate":"Artillery"},
+        "description": {"translate":"Have nine loaded crossbows in your hotbar. All set!"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:weaponry/explosive_fire",
+	"rewards": {
+		"experience": 50,
+		"function": "bc_rewards:weaponry/artillery"
+    },		
+    "criteria": {
+        "nine_crossbow": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

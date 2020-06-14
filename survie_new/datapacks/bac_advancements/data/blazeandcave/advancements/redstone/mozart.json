@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:note_block"
+        },
+        "title": {"translate":"Mozart"},
+        "description": {"translate":"Craft a note block"}
+    },
+    "parent": "blazeandcave:redstone/root",
+	"rewards": {
+		"function": "bc_rewards:redstone/mozart"
+    },
+    "criteria": {
+        "noteblock": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:note_block"
+                    }
+                ]
+            }
+        }
+    }
+}

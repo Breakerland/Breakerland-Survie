@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+			"nbt": "{SkullOwner:\"Dinnerbone\"}"
+        },
+        "title": {"translate":"What's Up, Doc?"},
+        "description": {"translate":"Turn a mob upside-down"}
+    },
+    "parent": "blazeandcave:adventure/i_just_want_to_make_toast",
+	"rewards": {
+		"function": "bc_rewards:adventure/whats_up_doc"
+    },		
+    "criteria": {
+        "name_tag": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

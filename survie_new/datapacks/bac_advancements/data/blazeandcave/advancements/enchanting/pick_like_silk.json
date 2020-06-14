@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_ore"
+        },
+        "title": {"translate":"Pick Like Silk"},
+        "description": {"translate":"Use a Silk Touch enchanted pickaxe to obtain diamond ore as a block"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:enchanting/fortunate_son",
+    "rewards": {
+        "experience": 50,
+		"function": "bc_rewards:enchanting/pick_like_silk"
+    },		
+    "criteria": {
+        "silk_touch": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_ore"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:jungle_log"
+        },
+        "title": {"translate":"The Tribal Villagers"},
+        "description": {"translate":"Breed and trade with a jungle villager"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:adventure/businessman",
+    "rewards": {
+        "function": "bc_rewards:adventure/the_tribal_villagers",
+		"experience": 100
+    },		
+    "criteria": {
+        "jungle": {
+            "trigger": "minecraft:villager_trade",
+			"conditions": {
+				"villager": {
+					"nbt": "{VillagerData:{type:\"minecraft:jungle\"}}"
+				}
+			}
+        }
+    }
+}

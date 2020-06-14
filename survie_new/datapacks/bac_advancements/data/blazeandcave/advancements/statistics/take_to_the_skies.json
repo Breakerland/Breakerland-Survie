@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:phantom_membrane"
+        },
+        "title": {"translate":"Take to the Skies"},
+        "description": {"translate":"Fly 1km with elytra"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:statistics/root",
+	"rewards": {
+		"experience": 50,
+		"function": "bc_rewards:statistics/take_to_the_skies"
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

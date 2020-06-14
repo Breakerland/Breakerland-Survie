@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+			"nbt": "{SkullOwner:\"MHF_Illager\"}"
+        },
+        "title": {"translate":"Who's the Pillager Now?"},
+        "description": {"translate":"Give a Pillager a taste of their own medicine"}
+    },
+    "parent": "minecraft:adventure/ol_betsy",
+    "rewards": {
+        "function": "bc_rewards:weaponry/whos_the_pillager_now"
+    },
+	"criteria": {
+		"kill_pillager": {
+			"trigger": "minecraft:killed_by_crossbow",
+			"conditions": {
+				"victims": [
+					{
+						"type": "minecraft:pillager"
+					}
+				]
+			}
+		}
+	}
+}

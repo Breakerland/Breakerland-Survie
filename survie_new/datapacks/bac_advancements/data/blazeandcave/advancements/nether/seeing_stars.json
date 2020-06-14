@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:glowstone_dust"
+        },
+        "title": {"translate":"Seeing Stars"},
+        "description": {"translate":"Mine some glowstone dust from the nether"}
+    },
+    "parent": "minecraft:nether/root",
+	"rewards": {
+		"function": "bc_rewards:nether/seeing_stars"
+    },	
+    "criteria": {
+        "glowstone_dust": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:glowstone_dust"
+                    }
+                ]
+            }
+        },
+        "nether": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "to": "the_nether",
+				"from": "overworld"
+            }
+        }
+    }
+}

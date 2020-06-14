@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+			"nbt": "{SkullOwner:\"MHF_Wither\"}"
+        },
+        "title": {"translate":"The Beginning"},
+        "description": {"translate":"Say goodbye to the Wither..."},
+		"frame": "goal"
+    },
+    "parent": "minecraft:end/respawn_dragon",
+    "rewards": {
+        "function": "bc_rewards:end/the_beginning"
+    },		
+    "criteria": {
+        "wither": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "wither",
+					"location": {
+						"dimension": "the_end"
+					}
+                }
+            }
+        }
+    }
+}

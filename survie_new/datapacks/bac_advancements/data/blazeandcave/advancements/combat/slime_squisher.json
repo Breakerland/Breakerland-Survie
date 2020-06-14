@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:slime_spawn_egg"
+        },
+        "title": {"translate":"Slime Squisher"},
+        "description": {"translate":"Collect a stack of slimeballs"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:combat/trampoline",
+    "rewards": {
+		"experience": 50,	
+		"function": "bc_rewards:combat/slime_squisher"
+    },		
+    "criteria": {
+        "slime_ball": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:slime_ball",
+						"count": 64
+                    }
+                ]
+            }
+        }		
+    }	
+}

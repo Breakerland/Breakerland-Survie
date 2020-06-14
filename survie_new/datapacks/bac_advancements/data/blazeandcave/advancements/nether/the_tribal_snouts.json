@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:gold_nugget"
+        },
+        "title": {"translate":"The Tribal Snouts"},
+        "description": {"translate":"Kill a zombie pigman"}
+    },
+    "parent": "minecraft:nether/root",
+    "rewards": {
+        "function": "bc_rewards:nether/the_tribal_snouts"
+    },		
+    "criteria": {
+        "zombie_pigman": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_pigman"
+                }
+            }
+        }
+    }
+}

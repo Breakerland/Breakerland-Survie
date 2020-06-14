@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bedrock"
+        },
+        "title": {"translate":"Unbreakable"},
+        "description": {"translate":"Obtain Mending on an item"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:enchanting/old_cartoon_joke",
+	"rewards": {
+		"function": "bc_rewards:enchanting/unbreakable"
+    },
+    "criteria": {
+        "mending": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:mending"
+							}
+						]
+					}
+				]
+			}
+		}
+    }
+}

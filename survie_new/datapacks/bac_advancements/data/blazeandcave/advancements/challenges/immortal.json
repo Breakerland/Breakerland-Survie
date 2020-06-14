@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:totem_of_undying"
+        },
+        "title": {"translate":"Immortal"},
+        "description": {"translate":"Fill your entire inventory with Totems of Undying"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:challenges/were_in_the_endgame_now",
+	"rewards": {
+		"experience": 500,
+		"function": "bc_rewards:challenges/immortal"
+    },		
+    "criteria": {
+        "totem_inventory": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

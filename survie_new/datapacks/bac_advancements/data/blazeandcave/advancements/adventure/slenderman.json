@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:enderman_spawn_egg"
+        },
+        "title": {"translate":"Slenderman"},
+        "description": {"translate":"Defeat this terrifying monster"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:adventure/nyan_sheep",
+    "rewards": {
+        "function": "bc_rewards:adventure/slenderman"
+    },		
+    "criteria": {
+        "slenderman": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "enderman",
+					"nbt": "{CustomName:\"{\\\"text\\\":\\\"Slenderman\\\"}\"}"
+                }
+            }
+        }
+    }
+}

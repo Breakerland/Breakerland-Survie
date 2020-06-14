@@ -1,0 +1,97 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:gold_ore"
+        },
+        "title": {"translate":"Gold Mine!"},
+        "description": {"translate":"Find a mineshaft on the surface of a mesa biome"}
+    },
+    "parent": "blazeandcave:mining/eeuuwww",
+    "rewards": {
+        "function": "bc_rewards:mining/gold_mine"
+    },		
+    "criteria": {
+        "mesa": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "Mineshaft",
+                "biome": "minecraft:badlands",				
+				"position": {
+					"y": {
+						"min": 64.0
+					}
+				}				
+            }
+        },
+        "mesa_clear_rock": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "Mineshaft",
+                "biome": "minecraft:badlands_plateau",				
+				"position": {
+					"y": {
+						"min": 64.0
+					}
+				}				
+            }
+        },
+        "mesa_rock": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "Mineshaft",
+                "biome": "minecraft:wooded_badlands_plateau",				
+				"position": {
+					"y": {
+						"min": 64.0
+					}
+				}				
+            }
+        },	
+        "mutated_mesa": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "Mineshaft",
+                "biome": "minecraft:eroded_badlands",				
+				"position": {
+					"y": {
+						"min": 64.0
+					}
+				}				
+            }
+        },
+        "mutated_mesa_clear_rock": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "Mineshaft",
+                "biome": "minecraft:modified_badlands_plateau",				
+				"position": {
+					"y": {
+						"min": 64.0
+					}
+				}				
+            }
+        },
+        "mutated_mesa_rock": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "Mineshaft",
+                "biome": "minecraft:modified_wooded_badlands_plateau",				
+				"position": {
+					"y": {
+						"min": 64.0
+					}
+				}				
+            }
+        }	
+    },
+    "requirements": [
+		[
+        "mesa",
+        "mesa_clear_rock",
+		"mesa_rock",
+		"mutated_mesa",
+		"mutated_mesa_clear_rock",
+		"mutated_mesa_rock"
+		]
+    ]	
+}

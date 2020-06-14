@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:enderman_spawn_egg"
+        },
+        "title": {"translate":"Enderman Destroyer"},
+        "description": {"translate":"Collect a stack of ender pearls"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:combat/tele_morph",
+    "rewards": {
+		"experience": 50,	
+		"function": "bc_rewards:combat/enderman_destroyer"
+    },		
+    "criteria": {
+        "ender_pearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:ender_pearl",
+						"count": 16
+                    }
+                ]
+            }
+        }		
+    }	
+}

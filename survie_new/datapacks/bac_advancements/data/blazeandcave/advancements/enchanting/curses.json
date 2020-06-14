@@ -1,0 +1,44 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:creeper_head"
+        },
+        "title": {"translate":"Curses!"},
+        "description": {"translate":"Obtain both types of curses"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:enchanting/old_cartoon_joke",
+    "rewards": {
+		"function": "bc_rewards:enchanting/curses"
+    },			
+    "criteria": {
+        "binding_curse": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:binding_curse"
+							}
+						]
+					}
+				]
+			}
+		},
+        "vanishing_curse": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:vanishing_curse"
+							}
+						]
+					}
+				]
+			}
+		}
+    }
+}

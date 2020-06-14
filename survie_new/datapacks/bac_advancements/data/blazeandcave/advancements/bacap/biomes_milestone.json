@@ -1,0 +1,155 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:birch_sapling"
+        },
+        "title": {"translate":"Biomes Milestone"},
+        "description": {"translate":"Complete every advancement in the Biomes tab"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:bacap/weaponry_milestone",
+	"rewards": {
+		"experience": 500,
+		"function": "bc_rewards:bacap/biomes_milestone"
+    },		
+    "criteria": {
+        "adventuring_time": {
+            "trigger": "minecraft:impossible"
+        },
+        "atlantis": {
+            "trigger": "minecraft:impossible"
+        },
+		"bamboom": {
+            "trigger": "minecraft:impossible"
+        },
+		"boaty_mcboatface": {
+            "trigger": "minecraft:impossible"
+        },
+		"cold_feet": {
+            "trigger": "minecraft:impossible"
+        },
+		"construction_worker": {
+            "trigger": "minecraft:impossible"
+        },
+		"dolphin_dasher": {
+            "trigger": "minecraft:impossible"
+        },
+		"enchanted_forest": {
+            "trigger": "minecraft:impossible"
+        },
+		"eskimo": {
+            "trigger": "minecraft:impossible"
+        },
+		"everybody_loves_ice": {
+            "trigger": "minecraft:impossible"
+        },
+		"explorer_of_worlds": {
+            "trigger": "minecraft:impossible"
+        },
+		"flower_power": {
+            "trigger": "minecraft:impossible"
+        },
+		"for_you_my_sweet": {
+            "trigger": "minecraft:impossible"
+        },
+		"free_diver": {
+            "trigger": "minecraft:impossible"
+        },
+		"get_ship_rekt": {
+            "trigger": "minecraft:impossible"
+        },
+		"in_a_pickle": {
+            "trigger": "minecraft:impossible"
+        },
+		"just_a_sample": {
+            "trigger": "minecraft:impossible"
+        },
+		"just_keep_swimming": {
+            "trigger": "minecraft:impossible"
+        },
+		"kilometre_walk": {
+            "trigger": "minecraft:impossible"
+        },
+		"kung_fu_panda": {
+            "trigger": "minecraft:impossible"
+        },
+		"no_reefing": {
+            "trigger": "minecraft:impossible"
+        },
+		"one_with_the_forest": {
+            "trigger": "minecraft:impossible"
+        },
+		"overgrown": {
+            "trigger": "minecraft:impossible"
+        },
+		"moskstraumen": {
+            "trigger": "minecraft:impossible"
+        },
+		"pushed_around": {
+            "trigger": "minecraft:impossible"
+        },
+		"qinling": {
+            "trigger": "minecraft:impossible"
+        },
+		"root": {
+            "trigger": "minecraft:impossible"
+        },
+		"simba": {
+            "trigger": "minecraft:impossible"
+        },
+		"sleep_with_the_fishes": {
+            "trigger": "minecraft:impossible"
+        },
+		"snow_feet": {
+            "trigger": "minecraft:impossible"
+        },
+		"spike_ice": {
+            "trigger": "minecraft:impossible"
+        },
+		"tarzan": {
+            "trigger": "minecraft:impossible"
+        },
+		"ten_thousand_blocks": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_great_blocky_reef": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_mighty_jungle": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_sea_calls_you": {
+            "trigger": "minecraft:impossible"
+        },
+		"theres_a_zombie_on_the_lawn": {
+            "trigger": "minecraft:impossible"
+        },
+		"thick_ice": {
+            "trigger": "minecraft:impossible"
+        },
+		"thin_ice": {
+            "trigger": "minecraft:impossible"
+        },
+		"titanic": {
+            "trigger": "minecraft:impossible"
+        },
+		"top_of_the_world": {
+            "trigger": "minecraft:impossible"
+        },
+		"voyage": {
+            "trigger": "minecraft:impossible"
+        },
+		"warm_feet": {
+            "trigger": "minecraft:impossible"
+        },
+		"wet_feet": {
+            "trigger": "minecraft:impossible"
+        },
+		"x_marks_the_spot": {
+            "trigger": "minecraft:impossible"
+        },
+		"zoologist": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

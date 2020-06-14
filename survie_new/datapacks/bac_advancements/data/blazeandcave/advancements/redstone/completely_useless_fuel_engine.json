@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:furnace_minecart"
+        },
+        "title": {"translate":"Fuel Engine"},
+        "description": {"translate":"Craft a powered minecart"}
+    },
+    "parent": "blazeandcave:redstone/on_a_rail",
+    "rewards": {
+		"function": "bc_rewards:redstone/completely_useless_fuel_engine"
+    },			
+    "criteria": {
+        "furnace_minecart": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:furnace_minecart"
+                    }
+                ]
+            }
+        }
+    }
+}

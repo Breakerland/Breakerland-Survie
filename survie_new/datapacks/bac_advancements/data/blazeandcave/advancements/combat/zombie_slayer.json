@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:zombie_spawn_egg"
+        },
+        "title": {"translate":"Zombie Slayer"},
+        "description": {"translate":"Collect a stack of rotten flesh"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:combat/desert_nomad",
+    "rewards": {
+		"experience": 50,
+		"function": "bc_rewards:combat/zombie_slayer"
+    },		
+    "criteria": {
+        "rotten_flesh": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:rotten_flesh",
+						"count": 64
+                    }
+                ]
+            }
+        }		
+    }	
+}

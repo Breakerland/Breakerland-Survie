@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:slime_ball"
+        },
+        "title": {"translate":"Gelatinous Cube"},
+        "description": {"translate":"Kill a slime"}
+    },
+    "parent": "minecraft:adventure/kill_a_mob",
+    "rewards": {
+        "function": "bc_rewards:combat/gelatinous_cube"
+    },		
+    "criteria": {
+        "slime": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "slime"
+                }
+            }
+        }
+    }
+}

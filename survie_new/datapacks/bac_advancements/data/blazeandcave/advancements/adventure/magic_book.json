@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "title": {"translate":"Magic Book"},
+        "description": {"translate":"Trade for an Enchanted Book"}
+    },
+    "parent": "minecraft:adventure/trade",
+    "rewards": {
+        "function": "bc_rewards:adventure/magic_book"
+    },		
+    "criteria": {
+        "trade": {
+            "trigger": "minecraft:villager_trade",
+			"conditions": {
+				"item": {
+					"item": "minecraft:enchanted_book"
+				}
+			}
+        }
+    }
+}

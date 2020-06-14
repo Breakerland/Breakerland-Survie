@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:enchanting_table"
+        },
+        "title": {"translate":"Enchanter"},
+        "description": {"translate":"Craft an enchanting table"},
+		"frame": "goal"
+    },
+    "parent": "minecraft:story/form_obsidian",
+    "rewards": {
+		"function": "bc_rewards:mining/enchanter"
+    },		
+    "criteria": {
+        "enchanting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:enchanting_table"
+                    }
+                ]
+            }
+        }
+    }
+}

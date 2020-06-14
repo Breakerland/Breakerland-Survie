@@ -1,0 +1,63 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_chestplate"
+        },
+        "title": {"translate":"Living Like Kings"},
+        "description": {"translate":"Make yourself shiny with golden armor"}
+    },
+    "parent": "blazeandcave:mining/gold_rush",
+	"rewards": {
+		"function": "bc_rewards:mining/living_like_kings"
+    },
+    "criteria": {
+        "golden_helmet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:golden_helmet"
+                    }
+                ]
+            }
+        },
+        "golden_chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:golden_chestplate"
+                    }
+                ]
+            }
+        },
+        "golden_leggings": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:golden_leggings"
+                    }
+                ]
+            }
+        },
+        "golden_boots": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:golden_boots"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "golden_helmet",
+            "golden_chestplate",
+            "golden_leggings",
+            "golden_boots"
+        ]
+    ]
+}

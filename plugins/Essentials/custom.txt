@@ -37,12 +37,13 @@ To add /vote, add this to commands.yml:
 #links
 &e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e- &6&lLiens utiles &e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-
 &7+ Site internet: &6&nhttps://breakerland.fr
+&7+ Github: &6&nhttps://github.com/Breakerland
 &7+ Vote: &6&nhttps://breakerland.fr/vote
 &7+ Map: &6&nhttps://map.breakerland.fr/
-&7+ Discord: &6&nhttps://discord.gg/5mtwsGt
+&7+ Discord: &6&nhttps://discord.gg/fsSrwuE
 &7+ Facebook: &6&nhttps://www.facebook.com/Breakerland
 &7+ Twitter: &6&nhttps://twitter.com/Breakerland1
-
+&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-
 #vote
 If you add the correct alias to commands.yml
 This text here will be shown if you type /vote

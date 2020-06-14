@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_sword"
+        },
+        "title": {"translate":"Overkill"},
+        "description": {"translate":"Deal eight hearts of damage in a single blow"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:enchanting/root",
+    "rewards": {
+        "experience": 50,
+		"function": "bc_rewards:enchanting/overkill"
+    },		
+    "criteria": {
+        "overkill": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+					"dealt": {
+						"min": 16.0
+					}
+				}
+            }
+        }
+    }
+}

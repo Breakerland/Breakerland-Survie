@@ -1,0 +1,119 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:end_stone"
+        },
+        "title": {"translate":"End Milestone"},
+        "description": {"translate":"Complete every advancement in the End tab"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:bacap/potion_milestone",
+	"rewards": {
+		"experience": 500,
+		"function": "bc_rewards:bacap/end_milestone"
+    },		
+    "criteria": {
+        "anti_gravity_generator": {
+            "trigger": "minecraft:impossible"
+        },
+        "cow_jumped_over_the_moon": {
+            "trigger": "minecraft:impossible"
+        },
+		"dragon_shield": {
+            "trigger": "minecraft:impossible"
+        },
+		"dragon_vs_dragon": {
+            "trigger": "minecraft:impossible"
+        },
+		"end_bricks": {
+            "trigger": "minecraft:impossible"
+        },
+		"event_horizon": {
+            "trigger": "minecraft:impossible"
+        },
+		"extrabiologist": {
+            "trigger": "minecraft:impossible"
+        },
+		"for_mother_clarence": {
+            "trigger": "minecraft:impossible"
+        },
+		"free_the_end": {
+            "trigger": "minecraft:impossible"
+        },
+		"getting_chorus": {
+            "trigger": "minecraft:impossible"
+        },
+		"great_view_from_up_here": {
+            "trigger": "minecraft:impossible"
+        },
+		"im_coming_back_murph": {
+            "trigger": "minecraft:impossible"
+        },
+		"no_dont_let_me_leave_murph": {
+            "trigger": "minecraft:impossible"
+        },
+		"off_with_his_head": {
+            "trigger": "minecraft:impossible"
+        },
+		"portable_storage": {
+            "trigger": "minecraft:impossible"
+        },
+		"purpurfect": {
+            "trigger": "minecraft:impossible"
+        },
+		"remote_getaway": {
+            "trigger": "minecraft:impossible"
+        },
+		"rocketman": {
+            "trigger": "minecraft:impossible"
+        },
+		"root": {
+            "trigger": "minecraft:impossible"
+        },
+		"shouldnt_my_shield_levitate_too": {
+            "trigger": "minecraft:impossible"
+        },
+		"shulker_breaker": {
+            "trigger": "minecraft:impossible"
+        },
+		"sky_high": {
+            "trigger": "minecraft:impossible"
+        },
+		"skys_the_limit": {
+            "trigger": "minecraft:impossible"
+        },
+		"some_breakthrough": {
+            "trigger": "minecraft:impossible"
+        },
+		"somewhere_over_the_rainbow": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_actual_end": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_beginning": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_city_at_the_end_of_the_game": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_end_again": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_next_generation": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_point_of_no_return": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_start_of_something": {
+            "trigger": "minecraft:impossible"
+        },
+		"uh_houston_we_have_a_problem": {
+            "trigger": "minecraft:impossible"
+        },
+		"void_walker": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

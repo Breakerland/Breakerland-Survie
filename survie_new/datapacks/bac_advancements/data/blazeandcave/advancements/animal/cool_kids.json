@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_chestplate"
+        },
+        "title": {"translate":"Cool Kids"},
+        "description": {"translate":"Craft a leather jacket"}
+    },
+    "parent": "blazeandcave:animal/cow_tipper",
+	"rewards": {
+		"function": "bc_rewards:animal/cool_kids"
+    },		
+    "criteria": {
+        "leather_chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:leather_chestplate"
+                    }
+                ]
+            }
+        }
+    }
+}

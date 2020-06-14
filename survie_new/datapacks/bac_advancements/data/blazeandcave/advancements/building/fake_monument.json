@@ -1,0 +1,45 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:prismarine_bricks"
+        },
+        "title": {"translate":"Fake monument"},
+        "description": {"translate":"Craft or collect all forms of prismarine blocks"}
+    },
+    "parent": "blazeandcave:building/greek_art_decor",
+    "rewards": {
+        "function": "bc_rewards:building/fake_monument"
+    },		
+    "criteria": {
+        "prismarine": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:prismarine"
+                    }
+                ]
+            }
+        },
+        "prismarine_bricks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:prismarine_bricks"
+                    }
+                ]
+            }
+        },
+		"dark_prismarine": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dark_prismarine"
+                    }
+                ]
+            }
+        }
+	}		
+}

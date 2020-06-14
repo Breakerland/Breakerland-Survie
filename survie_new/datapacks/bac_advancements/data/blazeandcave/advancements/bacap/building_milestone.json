@@ -1,0 +1,215 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:oak_planks"
+        },
+        "title": {"translate":"Building Milestone"},
+        "description": {"translate":"Complete every advancement in the Building tab"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:bacap/mining_milestone",
+	"rewards": {
+		"experience": 500,
+		"function": "bc_rewards:bacap/building_milestone"
+    },		
+    "criteria": {
+        "a_masterpiece": {
+            "trigger": "minecraft:impossible"
+        },
+        "ah_my_old_enemy": {
+            "trigger": "minecraft:impossible"
+        },
+		"and_open": {
+            "trigger": "minecraft:impossible"
+        },
+		"art_gallery": {
+            "trigger": "minecraft:impossible"
+        },
+		"barking_mad": {
+            "trigger": "minecraft:impossible"
+        },
+		"barrel_rider": {
+            "trigger": "minecraft:impossible"
+        },
+		"bricks": {
+            "trigger": "minecraft:impossible"
+        },
+		"change_of_sheets": {
+            "trigger": "minecraft:impossible"
+        },
+		"classy_glassy": {
+            "trigger": "minecraft:impossible"
+        },
+		"clay_dough": {
+            "trigger": "minecraft:impossible"
+        },
+		"concrete_evidence": {
+            "trigger": "minecraft:impossible"
+        },
+		"crazy_walls": {
+            "trigger": "minecraft:impossible"
+        },
+		"creepers_and_withers": {
+            "trigger": "minecraft:impossible"
+        },
+		"cut_in_half": {
+            "trigger": "minecraft:impossible"
+        },
+		"display_your_items_for_all_to_see": {
+            "trigger": "minecraft:impossible"
+        },
+		"electric": {
+            "trigger": "minecraft:impossible"
+        },
+		"en_garde": {
+            "trigger": "minecraft:impossible"
+        },
+		"expensive": {
+            "trigger": "minecraft:impossible"
+        },
+		"fake_fortress": {
+            "trigger": "minecraft:impossible"
+        },
+		"fake_monument": {
+            "trigger": "minecraft:impossible"
+        },
+		"fake_stronghold": {
+            "trigger": "minecraft:impossible"
+        },
+		"festival_of_lights": {
+            "trigger": "minecraft:impossible"
+        },
+		"fluorescent": {
+            "trigger": "minecraft:impossible"
+        },
+		"fruit_of_the_looms": {
+            "trigger": "minecraft:impossible"
+        },
+		"glowing": {
+            "trigger": "minecraft:impossible"
+        },
+		"greek_art_decor": {
+            "trigger": "minecraft:impossible"
+        },
+		"halloween": {
+            "trigger": "minecraft:impossible"
+        },
+		"i_dont_like_sand": {
+            "trigger": "minecraft:impossible"
+        },
+		"insomniac": {
+            "trigger": "minecraft:impossible"
+        },
+		"its_a_sign": {
+            "trigger": "minecraft:impossible"
+        },
+		"its_a_trap": {
+            "trigger": "minecraft:impossible"
+        },
+		"jailhouse_block": {
+            "trigger": "minecraft:impossible"
+        },
+		"ladder_climbers_inc": {
+            "trigger": "minecraft:impossible"
+        },
+		"lost_its_bark": {
+            "trigger": "minecraft:impossible"
+        },
+		"mannequin": {
+            "trigger": "minecraft:impossible"
+        },
+		"master_logger": {
+            "trigger": "minecraft:impossible"
+        },
+		"no_banner_only_color": {
+            "trigger": "minecraft:impossible"
+        },
+		"pathways": {
+            "trigger": "minecraft:impossible"
+        },
+		"pot_planter": {
+            "trigger": "minecraft:impossible"
+        },
+		"prepare_to_meet_your_loom": {
+            "trigger": "minecraft:impossible"
+        },
+		"professor_birch": {
+            "trigger": "minecraft:impossible"
+        },
+		"professor_dark_oak": {
+            "trigger": "minecraft:impossible"
+        },
+		"professor_oak": {
+            "trigger": "minecraft:impossible"
+        },
+		"rainbow_dreams": {
+            "trigger": "minecraft:impossible"
+        },
+		"rainbow_sand": {
+            "trigger": "minecraft:impossible"
+        },
+		"raise_the_flag": {
+            "trigger": "minecraft:impossible"
+        },
+		"rock_collection": {
+            "trigger": "minecraft:impossible"
+        },
+		"root": {
+            "trigger": "minecraft:impossible"
+        },
+		"slabs_for_days": {
+            "trigger": "minecraft:impossible"
+        },
+		"speech_speech_speech": {
+            "trigger": "minecraft:impossible"
+        },
+		"spruce_lee": {
+            "trigger": "minecraft:impossible"
+        },
+		"stairs_no": {
+            "trigger": "minecraft:impossible"
+        },
+		"stationary_storage": {
+            "trigger": "minecraft:impossible"
+        },
+		"stripper": {
+            "trigger": "minecraft:impossible"
+        },
+		"sweet_dreams": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_acacia_king": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_glazed_terracotta_army": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_jungler": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_rainbow_you_always_wanted": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_terracotta_army": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_walls": {
+            "trigger": "minecraft:impossible"
+        },
+		"torched": {
+            "trigger": "minecraft:impossible"
+        },
+		"translucence": {
+            "trigger": "minecraft:impossible"
+        },
+		"what_a_pane": {
+            "trigger": "minecraft:impossible"
+        },
+		"yay_i_got_my_wood": {
+            "trigger": "minecraft:impossible"
+        },
+		"your_door_was_locked": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

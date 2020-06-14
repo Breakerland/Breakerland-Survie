@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:oak_fence",
+			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+        },
+        "title": {"translate":"A rather pointy fence post"},
+        "description": {"translate":"Enchant a wooden sword with Sharpness V. Not really the best weapon, but it could be a minor annoyance to someone"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:enchanting/newtons_flaming_laser_sword",
+    "rewards": {
+        "experience": 100,
+		"function": "bc_rewards:enchanting/a_rather_pointy_fence_post"
+    },		
+    "criteria": {
+        "rather_pointy_fence_post": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+                    {
+                        "item": "minecraft:wooden_sword",
+						"enchantments": [
+							{
+								"enchantment": "minecraft:sharpness",
+								"levels": 5
+							}	
+						]
+                    }
+                ]
+            }
+        }
+    }
+}

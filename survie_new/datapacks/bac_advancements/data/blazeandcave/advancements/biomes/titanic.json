@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:dark_oak_fence"
+        },
+        "title": {"translate":"Titanic"},
+        "description": {"translate":"Find a shipwreck in an iceberg biome"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:biomes/get_ship_rekt",
+    "rewards": {
+		"experience": 50,
+        "function": "bc_rewards:biomes/titanic"
+    },		
+    "criteria": {
+        "iceberg": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "shipwreck",
+                "biome": "minecraft:deep_frozen_ocean"
+            }
+        }
+    }	
+}

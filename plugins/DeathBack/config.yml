@@ -18,12 +18,12 @@ money : β
 
 accept_button : §a[ACCEPTER]
 
-death_message : §8[§6Tombeaux§8] §rCliques ci-dessous pour te téléporter à ton point de mort contre §6{PRICE}{MONEY} §r!
+death_message : §f[§6Tombeaux§f] §7Cliques ci-dessous pour te téléporter à ton point de mort contre §6{PRICE}{MONEY} §7!
 
-valid_teleportation : §aVous venez d'être téléporté à votre point de mort et vous avez été prélevé de {PRICE}{MONEY}
+valid_teleportation : §7Vous venez d'être téléporté à votre point de mort et vous avez été prélevé de {PRICE}{MONEY}
 
-error_money : §cVous n'avez pas assez d'argent pour vous téléporter à votre point de mort, il vous faut {PRICE}{MONEY} !
+error_money : §7Vous n'avez pas assez d'argent pour vous téléporter à votre point de mort, il vous faut {PRICE}{MONEY} !
 
-error_tp : §cVous avez déja été téléporté à votre point de mort.
+error_tp : §7Vous avez déja été téléporté à votre point de mort.
 
-error_coord : §cVotre point de mort se trouve à des coordonnées non valides.
+error_coord : §7Votre point de mort se trouve à des coordonnées non valides.

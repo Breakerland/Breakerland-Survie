@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:black_stained_glass"
+        },
+        "title": {"translate":"I'll be back"},
+        "description": {"translate":"Name your bow 'Terminator'"}
+    },
+    "parent": "blazeandcave:enchanting/this_name_sounds_cooler",
+	"rewards": {
+		"experience": 50,
+		"function": "bc_rewards:enchanting/ill_be_back"
+    },	
+    "criteria": {
+        "terminator": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bow",
+						"nbt": "{display:{Name:\"{\\\"text\\\":\\\"Terminator\\\"}\"}}"
+                    }
+                ]
+            }
+        }
+    }
+}

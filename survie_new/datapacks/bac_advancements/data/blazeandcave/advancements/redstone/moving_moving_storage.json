@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:hopper_minecart"
+        },
+        "title": {"translate":"Moving Moving Storage"},
+        "description": {"translate":"Put a hopper in a minecart"}
+    },
+    "parent": "blazeandcave:redstone/moving_storage",
+    "rewards": {
+		"function": "bc_rewards:redstone/moving_moving_storage"
+    },			
+    "criteria": {
+        "hopper_minecart": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:hopper_minecart"
+                    }
+                ]
+            }
+        }
+    }
+}

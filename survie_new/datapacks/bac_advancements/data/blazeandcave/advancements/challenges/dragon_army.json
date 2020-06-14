@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:dragon_head"
+        },
+        "title": {"translate":"Dragon Army"},
+        "description": {"translate":"Obtain a stack of Ender Dragon Heads"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:challenges/root",
+	"rewards": {
+		"experience": 200,
+		"function": "bc_rewards:challenges/dragon_army"
+    },		
+    "criteria": {
+        "dragon_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dragon_head",
+						"count": 64
+                    }
+                ]
+            }
+        }
+    }
+}

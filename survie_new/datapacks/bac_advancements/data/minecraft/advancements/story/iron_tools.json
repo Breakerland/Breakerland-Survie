@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_pickaxe"
+        },
+        "title": {"translate":"Isn't It Iron Pick"},
+        "description": {"translate":"Upgrade your pickaxe"}
+    },
+    "parent": "minecraft:story/smelt_iron",
+    "rewards": {
+		"function": "bc_rewards:mining/isnt_it_iron_pick"
+    },			
+    "criteria": {
+        "iron_pickaxe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:iron_pickaxe"
+                    }
+                ]
+            }
+        }
+    }
+}

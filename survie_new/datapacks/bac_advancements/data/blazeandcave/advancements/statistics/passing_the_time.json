@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:clock"
+        },
+        "title": {"translate":"Passing the Time"},
+        "description": {"translate":"Play for 100 days"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:statistics/the_first_night",
+	"rewards": {
+		"experience": 200,
+		"function": "bc_rewards:statistics/passing_the_time"
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

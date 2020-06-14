@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:coal_block"
+        },
+        "title": {"translate":"Coal Miner"},
+        "description": {"translate":"Mine a stack of coal"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:mining/fossil_fuel",
+    "rewards": {
+		"function": "bc_rewards:mining/coal_miner"
+    },		
+    "criteria": {
+        "coal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:coal",
+						"count": 64
+                    }
+                ]
+            }
+        }
+    }
+}

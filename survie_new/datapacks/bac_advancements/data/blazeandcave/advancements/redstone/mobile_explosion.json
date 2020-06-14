@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:tnt_minecart"
+        },
+        "title": {"translate":"Mobile Explosion"},
+        "description": {"translate":"Put TNT in a minecart"}
+    },
+    "parent": "blazeandcave:redstone/moving_moving_storage",
+    "rewards": {
+		"function": "bc_rewards:redstone/mobile_explosion"
+    },			
+    "criteria": {
+        "tnt_minecart": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:tnt_minecart"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:granite"
+        },
+        "title": {"translate":"Rock Collection"},
+        "description": {"translate":"Collect all the types of rocks"}
+    },
+    "parent": "blazeandcave:building/root",
+    "rewards": {
+        "function": "bc_rewards:building/rock_collection"
+    },		
+    "criteria": {
+        "cobblestone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cobblestone"
+                    }
+                ]
+            }
+        },
+        "granite": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:granite"
+                    }
+                ]
+            }
+        },
+        "diorite": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diorite"
+                    }
+                ]
+            }
+        },
+        "andesite": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:andesite"
+                    }
+                ]
+            }
+        }	
+	}		
+}

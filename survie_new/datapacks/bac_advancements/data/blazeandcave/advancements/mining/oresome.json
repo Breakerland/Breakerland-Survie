@@ -1,0 +1,126 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:redstone_ore"
+        },
+        "title": {"translate":"Oresome!"},
+        "description": {"translate":"Mine a stack of every ore block"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:mining/mineral_collection",
+    "rewards": {
+		"function": "bc_rewards:mining/oresome"
+    },			
+    "criteria": {
+        "coal_ore": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:coal_ore",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "iron_ore": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:iron_ore",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "gold_ore": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:gold_ore",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "lapis_ore": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:lapis_ore",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "redstone_ore": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:redstone_ore",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "diamond_ore": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_ore",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "emerald_ore": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:emerald_ore",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "nether_quartz_ore": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:nether_quartz_ore",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "nether_gold_ore": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:nether_gold_ore",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "ancient_debris": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:ancient_debris",
+						"count": 64
+                    }
+                ]
+            }
+        }
+    }
+}

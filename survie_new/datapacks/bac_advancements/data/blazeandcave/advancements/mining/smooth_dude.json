@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:smooth_stone"
+        },
+        "title": {"translate":"Smooth, dude!"},
+        "description": {"translate":"Smelt normal stone further into smooth stone"}
+    },
+    "parent": "blazeandcave:mining/its_original_form",
+    "rewards": {
+		"function": "bc_rewards:mining/smooth_dude"
+    },		
+    "criteria": {
+        "smooth_stone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:smooth_stone"
+                    }
+                ]
+            }
+        }
+    }
+}

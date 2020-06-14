@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_ore"
+        },
+        "title": {"translate":"Iron Miner"},
+        "description": {"translate":"Mine a stack of iron ore"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:mining/iron_man",
+    "rewards": {
+		"function": "bc_rewards:mining/iron_miner"
+    },		
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:iron_ore",
+						"count": 64
+                    }
+                ]
+            }
+        }
+    }
+}

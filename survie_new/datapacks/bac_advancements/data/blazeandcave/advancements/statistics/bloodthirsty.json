@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_sword"
+        },
+        "title": {"translate":"Bloodthirsty"},
+        "description": {"translate":"Defeat 2500 mobs"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:statistics/mob_hunter",
+	"rewards": {
+		"experience": 200,
+		"function": "bc_rewards:statistics/bloodthirsty"
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

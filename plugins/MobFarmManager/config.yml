@@ -1,0 +1,484 @@
+# Language file you want to use
+Language: FR
+HopperControl:
+  #  
+  # Enables or disable hopper item transfer rate
+  # Only for 1.8.x and above servers
+  # By enabling this any contraptions based on regular hopper ticking will break and hopper transfer rate will be adjust dinamicaly
+  # In case hopper is being used intensively, its transfer interval will get increased until max limit to lower load on server
+  # It will get reseted if hopper is not used for particular time frame
+  Enabled: false
+  # Defines default item transfer rate in ticks (20 ticks 1 second). 8 is default vanilla behavior
+  Default: 8
+  # Defines max interval between item transfer. 40 will result in 1 item every 2 seconds.
+  SlowestRate: 40
+  # Defines how often to adjust hopper transfer rate in actual transfer. So 30 will mean that after hopper transfers 30 items, its rate will get adjusted
+  AdjustEvery: 30
+WolfControl:
+  #  
+  # Checks tamed wolfs in defined chunk range and if its above allowed limit then makes them sit down
+  # This is limit per player so value of 2-3 is more than enough
+  Enabled: true
+  # Defines max allowed wolfs per player which can follow him
+  # This will be checked on general entity amount check defined belove
+  Max: 3
+EntitySpawn:
+  #  
+  # Checks Chunk when entity spawns
+  Check: true
+  # When set to true players without permissions: mfm.build.wither mfm.build.irongolem mfm.build.snowman will be prevented from building appropriate monsters
+  PreventMobBuild: false
+  # If this set to true, chunks will be grouped up and counted as one. In example with range 2 all 10 chunks will be counted as one and limits will be used as for one chunk
+  # This will give wider range of mob cleaning
+  GroupChunks: truee
+  GroupChunksRadius: 2
+#  
+# When set to true entities which are above allowed limit will get removed
+# Disabling this will prevent entities from disappearing in front of your eyes, but this can allow player from stacking dozens or even hundreds of mobs in one chunk throw multiple methods
+# Disable at your own risk
+RemoveExisting: true
+AutoClean:
+  #  
+  # Checks chunks around players for over populated farms
+  Use: true
+  #  
+  # Informs users with mfm.cleaninform permission node how many entities we cleaned up and which ones in particular
+  Inform: true
+  # How often to check chunks in seconds. Keep it at 30 sec plus, as you dont need to perform this tast to often
+  Interval: 30
+  # Defines max amount of entities which we will remove from a chunk or chunk group when checking it
+  # Set to 0 if you want to disable limit
+  MaxRemoved: 0
+  # When set to true and value for ChunkRadius is provided, we will group more then one chunk into check
+  GroupChunks: true
+  # Range around player in chunks to check. 2 means that 9 chunks will be checked, 3 - 25 chunks and so on
+  # Max value is 5 to avoid unnecessary load on server
+  ChunkRadius: 2
+  # Defines range from 1 to 5 in chunks we will check around player when performing autoclean
+  # This only applies when you dont have GroupChunks enabled
+  ExpandRange: 3
+Commands:
+  Clean:
+    # Defines max amount of entities which we will remove from a chunk or chunk group when cleaning it
+    # Set to 0 if you want to disable limit
+    MaxRemoved: 0
+#  
+# When this set to true, armor stands with items on it will be ignored on chunk cleanup
+# Recomended to keep it at true to avoid player item deletion
+IgnoreFullArmorStands: true
+#  
+# When this set to true, entities which picked items, will be ignored on chunk cleanup
+# Recommended to keep it at true to avoid player item deletion
+IgnoreEntityWithPickedItem: true
+#  
+# When this set to true, item frames with items in it will be ignored on chunk cleanup
+# Recomended to keep it at true to avoid player item deletion
+IgnoreFullItemFrames: true
+#  
+# When this set to true, tamed animals will be ignored
+# Recomended to keep it at true to avoid player animals being despawned
+IgnoreTamedAnimals: true
+#  
+# When this set to true, animals with custom name will be ignored
+# Recomended to keep it at true to avoid special player animals being despawned
+IgnoreNamedAnimals: true
+#  
+# When this set to true, animals with sadle will be ignored
+# Recomended to keep it at true to avoid special player animals being despawned
+IgnoreWithSadle: true
+#  
+# When this set to true, baby animals will be ignored
+IgnoreBabyAnimals: true
+#  
+# List of worlds to be ignored by plugin
+IgnoredWorlds: []
+BlockTypes:
+  #  
+  # Limitations to how many particular block we can place in each chunk
+  # This can be bypassed with mfm.bypasslimit.[btype] permission node
+  Limit: true
+  #  
+  # Limitations to how many particular block we can place in each chunk
+  # This can be bypassed with mfm.bypasslimit.[btype] permission node
+  List:
+    HOPPER: 100
+    PISTON: 100
+    STICKY_PISTON: 100
+    OBSERVER: 50
+#  
+# All posible spawn reassons to check
+# Set to false if you dont want to do checks on particular spawn reasson
+SpawnReasons:
+  NATURAL: true
+  JOCKEY: true
+  CHUNK_GEN: true
+  SPAWNER: true
+  EGG: true
+  SPAWNER_EGG: true
+  LIGHTNING: true
+  BUILD_SNOWMAN: true
+  BUILD_IRONGOLEM: true
+  BUILD_WITHER: true
+  VILLAGE_DEFENSE: true
+  VILLAGE_INVASION: true
+  BREEDING: true
+  SLIME_SPLIT: true
+  REINFORCEMENTS: true
+  NETHER_PORTAL: true
+  DISPENSE_EGG: true
+  INFECTION: true
+  CURED: true
+  OCELOT_BABY: true
+  SILVERFISH_BLOCK: true
+  MOUNT: true
+  TRAP: true
+  ENDER_PEARL: true
+  SHOULDER_ENTITY: true
+  DROWNED: true
+  SHEARED: true
+  EXPLOSION: true
+  RAID: true
+  PATROL: true
+  BEEHIVE: true
+  CUSTOM: true
+  DEFAULT: true
+#  
+# Settup for entity groups
+# You can define different groups for different types of animals/monsters/entities
+# If entity gets over total amount of group limit, he will not be allowed to spawn
+EntityGroups:
+  Animals:
+    Use: true
+    Limit: 30
+    List:
+    - Pig
+    - Cow
+    - Horse
+    - Rabbit
+    - Sheep
+    - Chicken
+  Monsters:
+    Use: true
+    Limit: 40
+    List:
+    - Zombie
+    - Skeleton
+    - Slime
+    - Creeper
+    - Squid
+#  
+# This list is automaticaly filled with ALL posible entities in game, so some of them can just not work until future update
+# If you not sure what is that entity, then keep it at -1 limit, to not limit its spawning
+EntityTypes:
+  DROPPED_ITEM:
+    Use: true
+    Limit: -1
+  EXPERIENCE_ORB:
+    Use: true
+    Limit: -1
+  AREA_EFFECT_CLOUD:
+    Use: true
+    Limit: -1
+  ELDER_GUARDIAN:
+    Use: true
+    Limit: 5
+  WITHER_SKELETON:
+    Use: true
+    Limit: 5
+  STRAY:
+    Use: true
+    Limit: 20
+  EGG:
+    Use: true
+    Limit: -1
+  LEASH_HITCH:
+    Use: true
+    Limit: -1
+  PAINTING:
+    Use: true
+    Limit: -1
+  ARROW:
+    Use: true
+    Limit: -1
+  SNOWBALL:
+    Use: true
+    Limit: -1
+  FIREBALL:
+    Use: true
+    Limit: -1
+  SMALL_FIREBALL:
+    Use: true
+    Limit: -1
+  ENDER_PEARL:
+    Use: true
+    Limit: -1
+  ENDER_SIGNAL:
+    Use: true
+    Limit: -1
+  SPLASH_POTION:
+    Use: true
+    Limit: -1
+  THROWN_EXP_BOTTLE:
+    Use: true
+    Limit: -1
+  ITEM_FRAME:
+    Use: true
+    Limit: -1
+  WITHER_SKULL:
+    Use: true
+    Limit: -1
+  PRIMED_TNT:
+    Use: true
+    Limit: -1
+  FALLING_BLOCK:
+    Use: true
+    Limit: -1
+  FIREWORK:
+    Use: true
+    Limit: -1
+  HUSK:
+    Use: true
+    Limit: 10
+  SPECTRAL_ARROW:
+    Use: true
+    Limit: -1
+  SHULKER_BULLET:
+    Use: true
+    Limit: -1
+  DRAGON_FIREBALL:
+    Use: true
+    Limit: -1
+  ZOMBIE_VILLAGER:
+    Use: true
+    Limit: -1
+  SKELETON_HORSE:
+    Use: true
+    Limit: 10
+  ZOMBIE_HORSE:
+    Use: true
+    Limit: 10
+  ARMOR_STAND:
+    Use: true
+    Limit: 100
+  DONKEY:
+    Use: true
+    Limit: 10
+  MULE:
+    Use: true
+    Limit: 10
+  EVOKER_FANGS:
+    Use: true
+    Limit: -1
+  EVOKER:
+    Use: true
+    Limit: 5
+  VEX:
+    Use: true
+    Limit: 5
+  VINDICATOR:
+    Use: true
+    Limit: 5
+  ILLUSIONER:
+    Use: true
+    Limit: 5
+  MINECART_COMMAND:
+    Use: true
+    Limit: -1
+  BOAT:
+    Use: true
+    Limit: -1
+  MINECART:
+    Use: true
+    Limit: -1
+  MINECART_CHEST:
+    Use: true
+    Limit: -1
+  MINECART_FURNACE:
+    Use: true
+    Limit: -1
+  MINECART_TNT:
+    Use: true
+    Limit: -1
+  MINECART_HOPPER:
+    Use: true
+    Limit: -1
+  MINECART_MOB_SPAWNER:
+    Use: true
+    Limit: -1
+  CREEPER:
+    Use: true
+    Limit: 10
+  SKELETON:
+    Use: true
+    Limit: 10
+  SPIDER:
+    Use: true
+    Limit: 10
+  GIANT:
+    Use: true
+    Limit: 10
+  ZOMBIE:
+    Use: true
+    Limit: 10
+  SLIME:
+    Use: true
+    Limit: 10
+  GHAST:
+    Use: true
+    Limit: 10
+  PIG_ZOMBIE:
+    Use: true
+    Limit: 10
+  ENDERMAN:
+    Use: true
+    Limit: 10
+  CAVE_SPIDER:
+    Use: true
+    Limit: 10
+  SILVERFISH:
+    Use: true
+    Limit: 10
+  BLAZE:
+    Use: true
+    Limit: 10
+  MAGMA_CUBE:
+    Use: true
+    Limit: 10
+  ENDER_DRAGON:
+    Use: true
+    Limit: 1
+  WITHER:
+    Use: true
+    Limit: 3
+  BAT:
+    Use: true
+    Limit: 10
+  WITCH:
+    Use: true
+    Limit: 10
+  ENDERMITE:
+    Use: true
+    Limit: 20
+  GUARDIAN:
+    Use: true
+    Limit: 10
+  SHULKER:
+    Use: true
+    Limit: 10
+  PIG:
+    Use: true
+    Limit: 15
+  SHEEP:
+    Use: true
+    Limit: 15
+  COW:
+    Use: true
+    Limit: 15
+  CHICKEN:
+    Use: true
+    Limit: 15
+  SQUID:
+    Use: true
+    Limit: 15
+  WOLF:
+    Use: true
+    Limit: 15
+  MUSHROOM_COW:
+    Use: true
+    Limit: 10
+  SNOWMAN:
+    Use: true
+    Limit: 10
+  OCELOT:
+    Use: true
+    Limit: 10
+  IRON_GOLEM:
+    Use: true
+    Limit: 10
+  HORSE:
+    Use: true
+    Limit: 10
+  RABBIT:
+    Use: true
+    Limit: 15
+  POLAR_BEAR:
+    Use: true
+    Limit: 10
+  LLAMA:
+    Use: true
+    Limit: 15
+  LLAMA_SPIT:
+    Use: true
+    Limit: 10
+  PARROT:
+    Use: true
+    Limit: 10
+  VILLAGER:
+    Use: true
+    Limit: 15
+  ENDER_CRYSTAL:
+    Use: true
+    Limit: 10
+  TURTLE:
+    Use: true
+    Limit: 15
+  PHANTOM:
+    Use: true
+    Limit: 10
+  TRIDENT:
+    Use: true
+    Limit: -1
+  COD:
+    Use: true
+    Limit: 10
+  SALMON:
+    Use: true
+    Limit: 10
+  PUFFERFISH:
+    Use: true
+    Limit: 10
+  TROPICAL_FISH:
+    Use: true
+    Limit: 10
+  DROWNED:
+    Use: true
+    Limit: 10
+  DOLPHIN:
+    Use: true
+    Limit: 10
+  CAT:
+    Use: true
+    Limit: 10
+  PANDA:
+    Use: true
+    Limit: 10
+  PILLAGER:
+    Use: true
+    Limit: 15
+  RAVAGER:
+    Use: true
+    Limit: 10
+  TRADER_LLAMA:
+    Use: true
+    Limit: 10
+  WANDERING_TRADER:
+    Use: true
+    Limit: 10
+  FOX:
+    Use: true
+    Limit: 10
+  BEE:
+    Use: true
+    Limit: 15
+  FISHING_HOOK:
+    Use: true
+    Limit: 10
+  LIGHTNING:
+    Use: true
+    Limit: -1
+  PLAYER:
+    Use: true
+    Limit: -1
+  UNKNOWN:
+    Use: true
+    Limit: -1

@@ -1,0 +1,58 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_sword",
+			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+        },
+        "title": {"translate":"Master Knight"},
+        "description": {"translate":"Create a sword with all possible enchantments at max level"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:enchanting/unbreakable",
+    "rewards": {
+        "experience": 100,
+		"function": "bc_rewards:enchanting/master_knight"
+    },		
+    "criteria": {
+        "perfect_sword": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+                    {
+                        "item": "minecraft:diamond_sword",
+						"enchantments": [
+							{
+								"enchantment": "minecraft:sharpness",
+								"levels": 5
+							},
+							{
+								"enchantment": "minecraft:knockback",
+								"levels": 2
+							},
+							{
+								"enchantment": "minecraft:fire_aspect",
+								"levels": 2
+							},
+							{
+								"enchantment": "minecraft:looting",
+								"levels": 3
+							},
+							{
+								"enchantment": "minecraft:sweeping",
+								"levels": 3
+							},		
+							{
+								"enchantment": "minecraft:unbreaking",
+								"levels": 3
+							},	
+							{
+								"enchantment": "minecraft:mending",
+								"levels": 1
+							}		
+						]
+                    }
+                ]
+            }
+        }
+    }
+}

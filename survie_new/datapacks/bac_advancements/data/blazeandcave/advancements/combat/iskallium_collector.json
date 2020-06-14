@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+			"nbt": "{SkullOwner:\"MHF_Slime\"}"
+        },
+        "title": {"translate":"Iskallium Collector"},
+        "description": {"translate":"Collect enough slimeballs to craft a stack of slime blocks"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:combat/slime_squisher",
+    "rewards": {
+		"experience": 50,	
+		"function": "bc_rewards:combat/iskallium_collector"
+    },		
+    "criteria": {
+        "slime_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:slime_block",
+						"count": 64
+                    }
+                ]
+            }
+        }		
+    }	
+}

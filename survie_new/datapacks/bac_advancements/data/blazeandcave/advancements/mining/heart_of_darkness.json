@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:black_concrete_powder"
+        },
+        "title": {"translate":"Heart of Darkness"},
+        "description": {"translate":"Submerge yourself in complete darkness"},
+		"hidden": "true"
+    },
+    "parent": "blazeandcave:mining/spelunker",
+	"rewards": {
+		"function": "bc_rewards:mining/heart_of_darkness"
+    },
+    "criteria": {
+        "enter_cave": {
+            "trigger": "minecraft:location",
+            "conditions": {
+				"light": {
+					"light": {
+						"max": 0
+					}
+				}				
+            }
+        }
+    }
+}

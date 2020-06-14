@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:carved_pumpkin"
+        },
+        "title": {"translate":"Pumpa kungen!"},
+        "description": {"translate":"Carve a stack of pumpkins"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:farming/do_you_want_to_build_a_snowman",
+    "rewards": {
+		"experience": 50,
+		"function": "bc_rewards:farming/pumpa_kungen"
+    },		
+    "criteria": {
+        "carved_pumpkin": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:carved_pumpkin",
+						"count": 64
+                    }
+                ]
+            }
+        }		
+    }	
+}

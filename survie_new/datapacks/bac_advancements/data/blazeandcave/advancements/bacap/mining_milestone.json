@@ -1,0 +1,227 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cobblestone"
+        },
+        "title": {"translate":"Mining Milestone"},
+        "description": {"translate":"Complete every advancement in the Mining tab"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:bacap/time_to_farm",
+	"rewards": {
+		"experience": 500,
+		"function": "bc_rewards:bacap/mining_milestone"
+    },		
+    "criteria": {
+        "acquire_hardware": {
+            "trigger": "minecraft:impossible"
+        },
+        "beethoven": {
+            "trigger": "minecraft:impossible"
+        },
+		"blast_it": {
+            "trigger": "minecraft:impossible"
+        },
+		"bling_bling_gone": {
+            "trigger": "minecraft:impossible"
+        },
+		"bubble_bubble_toil_and_trouble": {
+            "trigger": "minecraft:impossible"
+        },
+		"camping_out": {
+            "trigger": "minecraft:impossible"
+        },
+		"chestful_of_cobblestone": {
+            "trigger": "minecraft:impossible"
+        },
+		"classic_pocket_edition_block": {
+            "trigger": "minecraft:impossible"
+        },
+		"coal_miner": {
+            "trigger": "minecraft:impossible"
+        },
+		"cover_me_with_diamonds": {
+            "trigger": "minecraft:impossible"
+        },
+		"diamond_clad": {
+            "trigger": "minecraft:impossible"
+        },
+		"diamond_miner": {
+            "trigger": "minecraft:impossible"
+        },
+		"diamonds": {
+            "trigger": "minecraft:impossible"
+        },
+		"eeuuwww": {
+            "trigger": "minecraft:impossible"
+        },
+		"enchanter": {
+            "trigger": "minecraft:impossible"
+        },
+		"even_moar_tools": {
+            "trigger": "minecraft:impossible"
+        },
+		"flint_miner": {
+            "trigger": "minecraft:impossible"
+        },
+		"fossil_fuel": {
+            "trigger": "minecraft:impossible"
+        },
+		"getting_an_upgrade": {
+            "trigger": "minecraft:impossible"
+        },
+		"gold_mine": {
+            "trigger": "minecraft:impossible"
+        },
+		"gold_miner": {
+            "trigger": "minecraft:impossible"
+        },
+		"gold_rush": {
+            "trigger": "minecraft:impossible"
+        },
+		"heart_of_darkness": {
+            "trigger": "minecraft:impossible"
+        },
+		"hot_stuff": {
+            "trigger": "minecraft:impossible"
+        },
+		"hot_topic": {
+            "trigger": "minecraft:impossible"
+        },
+		"ice_bucket_challenge": {
+            "trigger": "minecraft:impossible"
+        },
+		"iconic_merchandising_prop": {
+            "trigger": "minecraft:impossible"
+        },
+		"iron_man": {
+            "trigger": "minecraft:impossible"
+        },
+		"iron_miner": {
+            "trigger": "minecraft:impossible"
+        },
+		"isnt_it_iron_pick": {
+            "trigger": "minecraft:impossible"
+        },
+		"its_original_form": {
+            "trigger": "minecraft:impossible"
+        },
+		"lapis_lazuli_miner": {
+            "trigger": "minecraft:impossible"
+        },
+		"living_like_kings": {
+            "trigger": "minecraft:impossible"
+        },
+		"master_coal_miner": {
+            "trigger": "minecraft:impossible"
+        },
+		"master_diamond_miner": {
+            "trigger": "minecraft:impossible"
+        },
+		"master_gold_miner": {
+            "trigger": "minecraft:impossible"
+        },
+		"master_iron_miner": {
+            "trigger": "minecraft:impossible"
+        },
+		"meet_the_flintstones": {
+            "trigger": "minecraft:impossible"
+        },
+		"mineral_collection": {
+            "trigger": "minecraft:impossible"
+        },
+		"moar_broken_tools": {
+            "trigger": "minecraft:impossible"
+        },
+		"moar_tools": {
+            "trigger": "minecraft:impossible"
+        },
+		"my_work_here_is_done": {
+            "trigger": "minecraft:impossible"
+        },
+		"nananananananana": {
+            "trigger": "minecraft:impossible"
+        },
+		"not_chicken_mcnuggets": {
+            "trigger": "minecraft:impossible"
+        },
+		"agent_smithing_table": {
+            "trigger": "minecraft:impossible"
+        },
+		"obsidian_miner": {
+            "trigger": "minecraft:impossible"
+        },
+		"oh_noes": {
+            "trigger": "minecraft:impossible"
+        },
+		"redstone_miner": {
+            "trigger": "minecraft:impossible"
+        },
+		"renewable_energy": {
+            "trigger": "minecraft:impossible"
+        },
+		"rest_in_pickaxes": {
+            "trigger": "minecraft:impossible"
+        },
+		"rock_bottom": {
+            "trigger": "minecraft:impossible"
+        },
+		"root": {
+            "trigger": "minecraft:impossible"
+        },
+		"seeing_red": {
+            "trigger": "minecraft:impossible"
+        },
+		"sharpening_station": {
+            "trigger": "minecraft:impossible"
+        },
+		"smokin_hot": {
+            "trigger": "minecraft:impossible"
+        },
+		"smooth_dude": {
+            "trigger": "minecraft:impossible"
+        },
+		"spawn_camping": {
+            "trigger": "minecraft:impossible"
+        },
+		"spelunker": {
+            "trigger": "minecraft:impossible"
+        },
+		"stabcraft": {
+            "trigger": "minecraft:impossible"
+        },
+		"stone_age": {
+            "trigger": "minecraft:impossible"
+        },
+		"suit_up": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_mistake": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_way_to_spawn": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_wrong_shade_of_blue": {
+            "trigger": "minecraft:impossible"
+        },
+		"this_is_mine_now": {
+            "trigger": "minecraft:impossible"
+        },
+		"washing_machine": {
+            "trigger": "minecraft:impossible"
+        },
+		"we_need_to_go_deeper": {
+            "trigger": "minecraft:impossible"
+        },
+		"weve_broken_our_last_shovel": {
+            "trigger": "minecraft:impossible"
+        },
+		"whats_the_time_mr_wolf": {
+            "trigger": "minecraft:impossible"
+        },
+		"where_are_all_your_clothes": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

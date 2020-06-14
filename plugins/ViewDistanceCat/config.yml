@@ -1,0 +1,41 @@
+max-view-distance: 30
+server-view-distance: -1
+async-thread-amount: 4
+read-server-cached-chunk: true
+can-generate-chunk: true
+automatic-speed-adjustment-scheme: NORMAL
+tick-player-send-chunk: 3
+tick-server-send-chunk: -1
+player-delay: 3500
+prevent-xray:
+  enable: true
+  conversion-list:
+    STONE:
+      - COAL_ORE
+      - DIAMOND_ORE
+      - EMERALD_ORE
+      - GOLD_ORE
+      - IRON_ORE
+      - LAPIS_ORE
+      - REDSTONE_ORE
+    NETHERRACK:
+      - NETHER_QUARTZ_ORE
+world-blacklist:
+  - world_nether
+player-independent-permissions: true
+pressure-test: false
+languages:
+  no_permission: "No permission"
+  missing_parameters: "Missing parameters"
+  continued_to_run: "Continued to run"
+  stopped_to_run: "Stopped to run"
+  reread_configuration_successfully: "Reread configuration successfully"
+  reread_configuration_error: "Reread configuration an error occurred"
+  chunk: "chunk"
+  high_speed: "HIGH"
+  low_speed: "LOW"
+  read_count: "count"
+  5_seconds: "5 seconds"
+  1_minute: "1 minute"
+  5_minute: "5 minute"
+  unknown_parameter_type: "Unknown parameter type"

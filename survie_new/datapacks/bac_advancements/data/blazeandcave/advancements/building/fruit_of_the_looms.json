@@ -1,0 +1,66 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:creeper_banner_pattern"
+        },
+        "title": {"translate":"Fruit of the Looms"},
+        "description": {"translate":"Craft all the special banner patterns"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:building/prepare_to_meet_your_loom",
+    "rewards": {
+        "function": "bc_rewards:building/fruit_of_the_looms"
+    },		
+    "criteria": {
+        "flower_banner_pattern": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:flower_banner_pattern"
+                    }
+                ]
+            }
+        },
+        "creeper_banner_pattern": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:creeper_banner_pattern"
+                    }
+                ]
+            }
+        },
+        "skull_banner_pattern": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull_banner_pattern"
+                    }
+                ]
+            }
+        },
+        "mojang_banner_pattern": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:mojang_banner_pattern"
+                    }
+                ]
+            }
+        },
+        "globe_banner_pattern": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:globe_banner_pattern"
+                    }
+                ]
+            }
+        }		
+	}
+}

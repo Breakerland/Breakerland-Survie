@@ -1,0 +1,129 @@
+{
+  "minNumberOfItems": 3,
+  "maxNumberOfItems": 6,
+  "items": [
+    {
+      "material": "DIAMOND",
+      "minAmount": 10,
+      "maxAmount": 30,
+      "enchantments": [],
+      "probability": 0.1
+    },
+    {
+      "material": "APPLE",
+      "minAmount": 1,
+      "maxAmount": 6,
+      "enchantments": [],
+      "probability": 0.3
+    },
+    {
+      "material": "BREAD",
+      "minAmount": 1,
+      "maxAmount": 4,
+      "enchantments": [],
+      "probability": 0.6
+    },
+    {
+      "material": "CARROTS",
+      "minAmount": 1,
+      "maxAmount": 4,
+      "enchantments": [],
+      "probability": 0.6
+    },
+    {
+      "material": "MELON_SEEDS",
+      "minAmount": 1,
+      "maxAmount": 10,
+      "enchantments": [],
+      "probability": 0.6
+    },
+    {
+      "material": "SALMON",
+      "minAmount": 1,
+      "maxAmount": 4,
+      "enchantments": [],
+      "probability": 0.4
+    },
+    {
+      "material": "GUNPOWDER",
+      "minAmount": 3,
+      "maxAmount": 14,
+      "enchantments": [],
+      "probability": 0.3
+    },
+    {
+      "material": "IRON_INGOT",
+      "minAmount": 3,
+      "maxAmount": 14,
+      "enchantments": [],
+      "probability": 0.3
+    },
+    {
+      "material": "ENCHANTED_BOOK",
+      "minAmount": 1,
+      "maxAmount": 1,
+      "enchantments": [
+        {
+          "enchantment": "fire_aspect",
+          "level": 5
+        },
+        {
+          "enchantment": "silk_touch",
+          "level": 6
+        }
+      ],
+      "probability": 0.05
+    },
+    {
+      "material": "ENCHANTED_BOOK",
+      "minAmount": 1,
+      "maxAmount": 1,
+      "enchantments": [
+        {
+          "enchantment": "unbreaking",
+          "level": 6
+        },
+        {
+          "enchantment": "silk_touch",
+          "level": 6
+        }
+      ],
+      "probability": 0.4
+    },
+    {
+      "material": "ENCHANTED_BOOK",
+      "minAmount": 1,
+      "maxAmount": 1,
+      "enchantments": [
+        {
+          "enchantment": "flame",
+          "level": 6
+        },
+        {
+          "enchantment": "looting",
+          "level": 7
+        }
+      ],
+      "probability": 0.3
+    },
+    {
+      "material": "ENCHANTED_BOOK",
+      "minAmount": 1,
+      "maxAmount": 1,
+      "enchantments": [
+        {
+          "enchantment": "efficiency",
+          "level": 3
+        }
+      ],
+      "probability": 0.4
+    },
+    {
+      "material": "GOLDEN_APPLE",
+      "minAmount": 1,
+      "maxAmount": 7,
+      "enchantments": [],
+      "probability": 0.1
+    }
+  ]
+}

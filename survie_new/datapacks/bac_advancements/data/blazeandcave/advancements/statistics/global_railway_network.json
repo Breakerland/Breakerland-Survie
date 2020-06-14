@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:command_block_minecart"
+        },
+        "title": {"translate":"Global Railway Network"},
+        "description": {"translate":"Ride 100km in a minecart"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:statistics/i_like_trains",
+	"rewards": {
+		"experience": 500,
+		"function": "bc_rewards:statistics/global_railway_network"
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

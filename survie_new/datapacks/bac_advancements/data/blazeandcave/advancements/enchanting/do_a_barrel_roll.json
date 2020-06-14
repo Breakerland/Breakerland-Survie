@@ -1,0 +1,31 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:water_bucket"
+        },
+        "title": {"translate":"Do A Barrel Roll!"},
+        "description": {"translate":"Get Riptide on a trident so you can shoot yourself through the water"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:enchanting/boomerang",
+    "rewards": {
+		"function": "bc_rewards:enchanting/do_a_barrel_roll"
+    },			
+    "criteria": {
+        "riptide": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"item": "minecraft:trident",
+						"enchantments": [
+							{
+								"enchantment": "minecraft:riptide"
+							}
+						]
+					}
+				]
+			}
+		}
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:sand"
+        },
+        "title": {"translate":"Melting"},
+        "description": {"translate":"Bring a stray to a desert biome and then kill it"},
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:combat/the_undead_cavalry",
+	"rewards": {
+        "experience": 100,
+		"function": "bc_rewards:combat/melting"
+    },	
+    "criteria": {
+        "desert": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:stray",
+                    "location": {
+                        "biome": "desert"
+                    }
+                }
+            }
+        },
+        "desert_hills": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:stray",
+                    "location": {
+                        "biome": "desert_hills"
+                    }
+                }
+            }
+        },
+		"desert_lakes": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:stray",
+                    "location": {
+                        "biome": "desert_lakes"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+		[
+        "desert",
+        "desert_hills",
+		"desert_lakes"
+		]
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_axe",
+			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+        },
+        "title": {"translate":"Journeyman Enchanter"},
+        "description": {"translate":"Enchant 50 items"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:statistics/novice_enchanter",
+	"rewards": {
+		"experience": 200,
+		"function": "bc_rewards:statistics/journeyman_enchanter"
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cracked_stone_bricks"
+        },
+        "title": {"translate":"Fake stronghold"},
+        "description": {"translate":"Craft or collect normal, cracked, mossy and chiseled stone bricks"}
+    },
+    "parent": "blazeandcave:building/rock_collection",
+    "rewards": {
+        "function": "bc_rewards:building/fake_stronghold"
+    },		
+    "criteria": {
+        "normal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stone_bricks"
+                    }
+                ]
+            }
+        },
+        "mossy": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:mossy_stone_bricks"
+                    }
+                ]
+            }
+        },
+		"cracked": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cracked_stone_bricks"
+                    }
+                ]
+            }
+        },
+        "chiseled": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:chiseled_stone_bricks"
+                    }
+                ]
+            }
+        }
+	}		
+}

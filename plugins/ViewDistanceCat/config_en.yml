@@ -1,0 +1,128 @@
+# To apply this profile
+# Rename it to config.yml
+
+
+
+
+
+# Max view distance
+#   Client < Extend = Client
+#   Client > Extend = Extend
+#   Client < Server = Server
+max-view-distance: 32
+
+# The field of view of the server itself
+#   Just to prevent errors (some optimization cores)
+#   -1 uses the value of view-distance of the server itself
+server-view-distance: -1
+
+
+
+# Number of asynchronous threads
+#   Recommended value 1~10 (can also be higher)
+async-thread-amount: 2
+
+# Whether to read the cache chunks of the server
+#   Not guaranteed to work in every server version, If `ViewDistanceCat read server cache chunk error!` Appears in the background, turn off this option
+read-server-cached-chunk: true
+
+# Is it possible to generate chunks
+#   If the chunk has not been generated
+#   When generating terrain, the CPU workload is greater
+can-generate-chunk: true
+
+# Chunk reading speed automatic adjustment scheme
+#   Read speed:
+#     EXTREME
+#     HIGHEST
+#     HIGH
+#     NORMAL
+#     LOW
+#     LOWEST
+automatic-speed-adjustment-scheme: NORMAL
+
+
+
+# How many chunks can the player display at the same time
+#   Avoid processing too fast, throwing too many chunks and causing players to freeze
+#   Recommended value 1~10
+#   If the client freezes, chunk loss / light loss will occur, the appropriate value is very important
+tick-player-send-chunk: 3
+
+# How many chunks can the server display at the same time
+#   -1 unlimited
+#   You can make adjustments according to the network conditions
+tick-server-send-chunk: -1
+
+
+
+# Players delay waiting for chunk display
+#   Every time you switch the world / long distance transmission / death rebirth, how many milliseconds do you have to wait before sending the chunk
+#   Recommended value 2000~20000 (2~20 seconds)
+player-delay: 5000
+
+
+
+# Prevent chunk perspective plug-in
+#   Brute force replacement without any calculation
+prevent-xray:
+
+  # Whether to enable
+  enable: true
+
+  # Conversion list
+  #   format
+  #     Convert to block:
+  #     - Target block A
+  #     - Target block B
+  #     - Target block C
+  conversion-list:
+    STONE:
+      - COAL_ORE
+      - DIAMOND_ORE
+      - EMERALD_ORE
+      - GOLD_ORE
+      - IRON_ORE
+      - LAPIS_ORE
+      - REDSTONE_ORE
+    NETHERRACK:
+      - NETHER_QUARTZ_ORE
+
+
+
+# World Blacklist
+#   Do not provide field of view extensions in the world of this list
+world-blacklist:
+  - world_nether
+
+
+
+# Want to calculate permissions?
+#   Find out if the player has max_view_distance.<Maximum view distance> permission
+player-independent-permissions: true
+
+
+
+# Stress test mode
+#   Reading chunks without interruption
+#   For testing only
+pressure-test: false
+
+
+
+
+languages:
+  no_permission: "No permission"
+  missing_parameters: "Missing parameters"
+  continued_to_run: "Continued to run"
+  stopped_to_run: "Stopped to run"
+  reread_configuration_successfully: "Reread configuration successfully"
+  reread_configuration_error: "Reread configuration an error occurred"
+  chunk: "chunk"
+  high_speed: "HIGH"
+  low_speed: "LOW"
+  read_count: "count"
+  5_seconds: "5 seconds"
+  1_minute: "1 minute"
+  5_minute: "5 minute"
+  unknown_parameter_type: "Unknown parameter type"

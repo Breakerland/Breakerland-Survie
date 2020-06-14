@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:kelp"
+        },
+        "title": {"translate":"Kelp me!"},
+        "description": {"translate":"Collect some kelp from an ocean"}
+    },
+    "parent": "blazeandcave:farming/sugar_sugar",
+	"rewards": {
+		"function": "bc_rewards:farming/kelp_me"
+    },		
+    "criteria": {
+        "kelp": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:kelp"
+                    }
+                ]
+            }
+        }
+    }
+}

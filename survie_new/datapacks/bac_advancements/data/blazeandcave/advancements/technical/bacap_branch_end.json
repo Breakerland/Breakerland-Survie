@@ -1,0 +1,15 @@
+{
+    "parent": "blazeandcave:bacap/advancement_legend",	
+    "criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:crafting_table"
+                    }
+                ]
+            }
+        }		
+    }
+}

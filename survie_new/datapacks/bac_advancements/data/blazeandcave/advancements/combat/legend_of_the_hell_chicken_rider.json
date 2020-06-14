@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+			"nbt": "{SkullOwner:\"MHF_Chicken\"}"
+        },
+        "title": {"translate":"Legend of Hell Chicken Riders"},
+        "description": {"translate":"Kill a chicken jockey in the nether"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:combat/baby_baby_baby_noo",
+    "rewards": {
+        "function": "bc_rewards:combat/legend_of_the_hell_chicken_rider"
+    },		
+    "criteria": {
+        "chicken": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "chicken",
+					"location": {
+						"dimension": "the_nether"
+					}
+                }
+            }
+        }
+    }
+}

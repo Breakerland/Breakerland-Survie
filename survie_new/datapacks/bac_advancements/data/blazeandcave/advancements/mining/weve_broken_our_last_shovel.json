@@ -1,0 +1,72 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_shovel"
+        },
+        "title": {"translate":"We've broken our last shovel"},
+        "description": {"translate":"Break all five types of shovels"},
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:mining/bling_bling_gone",
+    "rewards": {
+        "experience": 100,
+		"function": "bc_rewards:mining/weve_broken_our_last_shovel"
+    },		
+    "criteria": {
+        "wooden_shovel": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"item": {
+					"item": "minecraft:wooden_shovel"
+				},
+				"durability": {
+					"max": 0
+				}
+            }
+        },
+        "stone_shovel": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"item": {
+					"item": "minecraft:stone_shovel"
+				},
+				"durability": {
+					"max": 0
+				}
+            }
+        },
+        "gold_shovel": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"item": {
+					"item": "minecraft:golden_shovel"
+				},
+				"durability": {
+					"max": 0
+				}
+            }
+        },
+        "iron_shovel": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"item": {
+					"item": "minecraft:iron_shovel"
+				},
+				"durability": {
+					"max": 0
+				}
+            }
+        },
+        "diamond_shovel": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"item": {
+					"item": "minecraft:diamond_shovel"
+				},
+				"durability": {
+					"max": 0
+				}
+            }
+        }		
+    }
+}

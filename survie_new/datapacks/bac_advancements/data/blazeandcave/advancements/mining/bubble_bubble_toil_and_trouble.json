@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cauldron"
+        },
+        "title": {"translate":"Bubble, Bubble, Toil and Trouble!"},
+        "description": {"translate":"Fill a cauldron using a bucket"}
+    },
+    "parent": "blazeandcave:mining/its_original_form",
+	"rewards": {
+		"function": "bc_rewards:mining/bubble_bubble_toil_and_trouble"
+    },
+    "criteria": {
+        "chestful_of_cobblestone": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

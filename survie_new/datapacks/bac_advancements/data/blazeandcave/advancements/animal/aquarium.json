@@ -1,0 +1,52 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:salmon_bucket"
+        },
+        "title": {"translate":"Aquarium"},
+        "description": {"translate":"Catch all four types of fish and set them free in an aquarium"},
+		"frame": "goal"
+    },
+    "parent": "minecraft:husbandry/tactical_fishing",
+	"rewards": {
+		"function": "bc_rewards:animal/aquarium"
+    },		
+    "criteria": {
+        "cod_bucket": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "item":
+                {
+                    "item": "minecraft:cod_bucket"
+                }
+            }
+        },
+        "salmon_bucket": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "item":
+                {
+                    "item": "minecraft:salmon_bucket"
+                }
+            }
+        },
+        "pufferfish_bucket": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "item":
+                {
+                    "item": "minecraft:pufferfish_bucket"
+                }
+            }
+        },
+        "tropical_fish_bucket": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "item":
+                {
+                    "item": "minecraft:tropical_fish_bucket"
+                }
+            }
+        }		
+    }
+}

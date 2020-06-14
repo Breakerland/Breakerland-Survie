@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_boots"
+        },
+        "title": {"translate":"Someone's been here before..."},
+        "description": {"translate":"Fish out a ratty old pair of boots"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:animal/treasure_hunter",
+	"rewards": {
+		"function": "bc_rewards:animal/someones_been_here_before"
+    },		
+    "criteria": {
+        "leather_boots": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item":
+                {
+                    "item": "minecraft:leather_boots"
+                }
+            }
+        }	
+    }
+}

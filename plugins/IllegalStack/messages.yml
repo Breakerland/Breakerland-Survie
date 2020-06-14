@@ -105,3 +105,26 @@ StoppedPushableEntity: Prevented an entity (armor stand/end crystal/minecart) fr
   being pushed into another entity @
 TooManyPages: found a book with too many pages and removed it from the inventory of
   ~name~
+StaffMsgNetherCart: Stopped ~name~ riding in a vehicle above the nether ceiling @
+StaffAutoFishingNotice: §a~player~ appears to be using an autofishing mod..  ~count~
+  caught within 0.3 blocks of each other @
+StaffNoItem: You must be holding an item in your main hand to force fix it's enchantment!
+StaffNoEnchants: This item has no enchants to fix!
+StaffEnchantFixed: Corrected ~amount~ enchants on ~item~
+StaffEnchantNotFixed: IllegalStack did not detect any invalid enchantments on this
+  item.
+RemovedRenamedItem: Removed a renamed item ~item~ from the inventory of ~name~
+BlockedTripwireDupe: Player ~name~ attempted to place a tripwire hook on a trap door,
+  it has been removed (PreventTripwireDupe = true)
+PlayerTrappedPortalMsg: §cSorry ~name~ but that portal appears to not have a valid
+  exit!  You would be trapped if you went through it!
+PlayerCommandSleepMsg: §cSorry but all commands are disabled while sleeping!
+StaffMsgBlockedPortalLogin: broke a trapped nether portal @
+StaffMsgBlockedPortal: ~player~ was prevented from going through a blocked/trapped
+  nether portal @
+StaffMsgEndGatewayVehicleRemoved: player ~name~ attempted to take a ~vehicle~ through
+  an end gateway, it has been removed.
+StaffNoNBTAPI: 'NBT-Api was not found on your server and is needed for ~prot~ since
+  it is enabled!  Please download and install it from:  https://www.spigotmc.org/resources/nbt-api.7939/'
+StaffEndPortalProtected: Prevented the end portal from being broken using a dispenser
+  @

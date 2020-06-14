@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:beef"
+        },
+        "title": {"translate":"Cupid"},
+        "description": {"translate":"Breed 500 animals"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:statistics/the_parrots_and_the_bats",
+	"rewards": {
+		"experience": 200,
+		"function": "bc_rewards:statistics/cupid"
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

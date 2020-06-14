@@ -1,0 +1,183 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+			"nbt": "{SkullOwner:\"MHF_Illager\"}"
+        },
+        "title": {"translate":"You are the Pillager"},
+        "description": {"translate":"Murder one of every villager profession with a crossbow"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:adventure/rekt",
+    "rewards": {
+        "function": "bc_rewards:adventure/you_are_the_pillager",
+		"experience": 100
+    },
+	"criteria": {
+		"farmer": {
+			"trigger": "minecraft:killed_by_crossbow",
+			"conditions": {
+				"victims": [
+					{
+						"type": "minecraft:villager",
+						"nbt": "{VillagerData:{profession:\"minecraft:farmer\"}}"
+					}
+				]
+			}
+		},
+		"fisherman": {
+			"trigger": "minecraft:killed_by_crossbow",
+			"conditions": {
+				"victims": [
+					{
+						"type": "minecraft:villager",
+						"nbt": "{VillagerData:{profession:\"minecraft:fisherman\"}}"
+					}
+				]
+			}
+		},
+		"shepherd": {
+			"trigger": "minecraft:killed_by_crossbow",
+			"conditions": {
+				"victims": [
+					{
+						"type": "minecraft:villager",
+						"nbt": "{VillagerData:{profession:\"minecraft:shepherd\"}}"
+					}
+				]
+			}
+		},
+		"fletcher": {
+			"trigger": "minecraft:killed_by_crossbow",
+			"conditions": {
+				"victims": [
+					{
+						"type": "minecraft:villager",
+						"nbt": "{VillagerData:{profession:\"minecraft:fletcher\"}}"
+					}
+				]
+			}
+		},
+		"librarian": {
+			"trigger": "minecraft:killed_by_crossbow",
+			"conditions": {
+				"victims": [
+					{
+						"type": "minecraft:villager",
+						"nbt": "{VillagerData:{profession:\"minecraft:librarian\"}}"
+					}
+				]
+			}
+		},
+		"cartographer": {
+			"trigger": "minecraft:killed_by_crossbow",
+			"conditions": {
+				"victims": [
+					{
+						"type": "minecraft:villager",
+						"nbt": "{VillagerData:{profession:\"minecraft:cartographer\"}}"
+					}
+				]
+			}
+		},
+		"cleric": {
+			"trigger": "minecraft:killed_by_crossbow",
+			"conditions": {
+				"victims": [
+					{
+						"type": "minecraft:villager",
+						"nbt": "{VillagerData:{profession:\"minecraft:cleric\"}}"
+					}
+				]
+			}
+		},
+		"armorer": {
+			"trigger": "minecraft:killed_by_crossbow",
+			"conditions": {
+				"victims": [
+					{
+						"type": "minecraft:villager",
+						"nbt": "{VillagerData:{profession:\"minecraft:armorer\"}}"
+					}
+				]
+			}
+		},
+		"weapon_smith": {
+			"trigger": "minecraft:killed_by_crossbow",
+			"conditions": {
+				"victims": [
+					{
+						"type": "minecraft:villager",
+						"nbt": "{VillagerData:{profession:\"minecraft:weaponsmith\"}}"
+					}
+				]
+			}
+		},
+		"tool_smith": {
+			"trigger": "minecraft:killed_by_crossbow",
+			"conditions": {
+				"victims": [
+					{
+						"type": "minecraft:villager",
+						"nbt": "{VillagerData:{profession:\"minecraft:toolsmith\"}}"
+					}
+				]
+			}
+		},
+		"butcher": {
+			"trigger": "minecraft:killed_by_crossbow",
+			"conditions": {
+				"victims": [
+					{
+						"type": "minecraft:villager",
+						"nbt": "{VillagerData:{profession:\"minecraft:butcher\"}}"
+					}
+				]
+			}
+		},
+		"leatherworker": {
+			"trigger": "minecraft:killed_by_crossbow",
+			"conditions": {
+				"victims": [
+					{
+						"type": "minecraft:villager",
+						"nbt": "{VillagerData:{profession:\"minecraft:leatherworker\"}}"
+					}
+				]
+			}
+		},
+		"mason": {
+			"trigger": "minecraft:killed_by_crossbow",
+			"conditions": {
+				"victims": [
+					{
+						"type": "minecraft:villager",
+						"nbt": "{VillagerData:{profession:\"minecraft:mason\"}}"
+					}
+				]
+			}
+		},
+		"nitwit": {
+			"trigger": "minecraft:killed_by_crossbow",
+			"conditions": {
+				"victims": [
+					{
+						"type": "minecraft:villager",
+						"nbt": "{VillagerData:{profession:\"minecraft:nitwit\"}}"
+					}
+				]
+			}
+		},
+		"unemployed": {
+			"trigger": "minecraft:killed_by_crossbow",
+			"conditions": {
+				"victims": [
+					{
+						"type": "minecraft:villager",
+						"nbt": "{VillagerData:{profession:\"minecraft:none\"}}"
+					}
+				]
+			}
+		}
+	}
+}

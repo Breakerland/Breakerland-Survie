@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:conduit"
+        },
+        "title": {"translate":"Moskstraumen"},
+        "description": {"translate":"Construct a Conduit in the ocean"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:biomes/x_marks_the_spot",
+	"rewards": {
+		"experience": 50,	
+		"function": "bc_rewards:biomes/moskstraumen"
+    },	
+    "criteria": {
+        "conduit_power": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:conduit_power": {}
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"player": {
+			"stats": [
+				{
+					"type": "minecraft:used",
+					"stat": "minecraft:honey_bottle",
+					"value": {
+						"min": 100
+					}
+				}
+			]
+		}
+	}
+}

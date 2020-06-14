@@ -1,0 +1,85 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:oak_wood"
+        },
+        "title": {"translate":"Barking Mad"},
+        "description": {"translate":"Craft a bark block"}
+    },
+    "parent": "blazeandcave:building/root",
+    "rewards": {
+        "function": "bc_rewards:building/barking_mad"
+    },		
+    "criteria": {
+        "oak_wood": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:oak_wood"
+                    }
+                ]
+            }
+        },
+        "spruce_wood": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:spruce_wood"
+                    }
+                ]
+            }
+        },
+        "birch_wood": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:birch_wood"
+                    }
+                ]
+            }
+        },
+        "jungle_wood": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:jungle_wood"
+                    }
+                ]
+            }
+        },
+        "acacia_wood": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:acacia_wood"
+                    }
+                ]
+            }
+        },
+        "dark_oak_wood": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dark_oak_wood"
+                    }
+                ]
+            }
+        }	
+	},
+    "requirements": [
+		[
+        "oak_wood",
+        "spruce_wood",
+		"birch_wood",
+        "jungle_wood",
+        "acacia_wood",
+		"dark_oak_wood"		
+		]
+    ]	
+}

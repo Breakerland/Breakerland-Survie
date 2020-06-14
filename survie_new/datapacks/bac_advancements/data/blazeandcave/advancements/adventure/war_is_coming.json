@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_sword"
+        },
+        "title": {"translate":"War is Coming"},
+        "description": {"translate":"Defeat enough Illager Patrol leaders to attain the highest level of Bad Omen"},
+		"frame": "challenge"
+    },
+    "parent": "minecraft:adventure/hero_of_the_village",
+    "rewards": {
+		"function": "bc_rewards:adventure/war_is_coming"
+    },		
+    "criteria": {
+        "bad_omen": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:bad_omen": {
+						"amplifier": {
+							"min": 5
+						}					
+					}
+                }
+            }
+        }
+    }
+}

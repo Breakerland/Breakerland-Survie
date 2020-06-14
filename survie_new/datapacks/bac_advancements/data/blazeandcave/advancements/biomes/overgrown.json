@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:dark_oak_sapling"
+        },
+        "title": {"translate":"Overgrown!"},
+        "description": {"translate":"Discover every overgrown biome"},
+        "frame": "goal"
+    },
+    "parent": "blazeandcave:biomes/snow_feet",	
+    "rewards": {
+        "experience": 100,
+		"function": "bc_rewards:biomes/overgrown"
+    },	
+    "criteria": {
+        "swampland": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:swamp"
+            }
+        },
+        "mushroom_island": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:mushroom_fields"
+            }
+        },
+        "mushroom_island_shore": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:mushroom_field_shore"
+            }
+        },
+        "jungle_hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:jungle_hills"
+            }
+        },
+        "jungle_edge": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:jungle_edge"
+            }
+        },
+        "jungle": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:jungle"
+            }
+        },
+        "bamboo_jungle": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:bamboo_jungle"
+            }
+        },
+        "bamboo_jungle_hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:bamboo_jungle_hills"
+            }
+        }
+    }
+}

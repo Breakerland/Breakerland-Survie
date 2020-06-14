@@ -1,0 +1,76 @@
+# Full color code support and some variables
+# Keep in mind that variables wont work for some lines, when it will for anothers :)
+# Just keep them where there are now and everything will be ok :)
+# If you want to disable output line, set it to ""
+
+info:
+  prefix: '&e[&aMFM&e] '
+  NoPermission: '&cYou don''t have permission!'
+  Ingame: '&cYou can use this only in game!'
+  NoInformation: '&cCant find any information!'
+  FromConsole: '&cYou can use this only from console!'
+  NotOnline: '&cThe player is not online!'
+  NoPlayer: '&cCan''t find player with this name!'
+  NoCommand: '&cThere is no command by this name!'
+  UseInteger: '&4Please use numbers!'
+  UseBoolean: '&4Please use True or False!'
+  NoLessThan: '&4Number can''t be less than [amount]!'
+  NoMoreThan: '&4Value can''t be more than [amount]'
+  Spliter: '&e--------------------------------------------------'
+  fliperSimbols: '&e----------'
+  prev: '&e<<<<< Prev page &e|'
+  prevOut: '&7<<<<< Prev page &e|'
+  next: '&e|&e Next Page >>>>'
+  nextOut: '&e|&7 Next Page >>>>'
+  ArmorStandlLimit: '&6You cant place armor stand in this chunk. Max alowed is &e[amount]&6!'
+  ItemFrameLimit: '&6You cant place item frame in this chunk. Max alowed is &e[amount]&6!'
+  WolfCount: '&cTo many wolfs following you, &7[amount] &cgot seated down'
+  BlockLimit: '&cTo many [type] blocks in one chunk, &7You can only place &e[amount]
+    &7of them'
+  cleanup: '&7Auto cleaned entities: &e[amount]'
+command:
+  help:
+    output:
+      CommandColor: '&2'
+      VariableColor: '&6'
+      usage: '&eUsage: &6%usage%'
+      title: '&e-------&e ======= &6MFM &e======= &e-------'
+      page: '&e-----&e ====== Page &6[1] &eof &6[2] &e====== &e-----'
+  nocmd:
+    help:
+      info: '&eShows all available commands'
+      args: ''
+  reload:
+    help:
+      info: '&eReload config and locale file'
+      args: ''
+    info:
+      response: '&eConfiguration files was reloaded'
+  clean:
+    help:
+      info: '&2Cleans chunks around players'
+      args: '&3(range)'
+    info:
+      RemovedList: '&6[target](&e[amount]&6)'
+      Removed: '&6Removed: [list]!'
+  list:
+    help:
+      info: '&2List chunks with most entities in them'
+      args: '&3(range)'
+    info:
+      RemovedList: '&6[target](&e[amount]&6)'
+      Removed: '&6Removed: [list]!'
+      List: '&e[place]. &6[x]&e:&6[z] &e(&6[amount]&e)'
+      Command: /tppos [x] [y] [z] [world]
+      Hover: '&6Teleport: &e[world]:[x]:[y]:[z]'
+  hoppers:
+    help:
+      info: '&2List chunks with most active hoppers in them'
+      args: ''
+    info:
+      RemovedList: '&6[target](&e[amount]&6)'
+      Removed: '&6Removed: [list]!'
+      List: '&e[place]. &6[x]&e:&6[z] &e(&6[amount]&e)'
+      Command: /tppos [x] [y] [z] [world]
+      Hover: "&6Teleport \n&e[world]"
+      notEnabled: '&cHoper control is not enabled!'

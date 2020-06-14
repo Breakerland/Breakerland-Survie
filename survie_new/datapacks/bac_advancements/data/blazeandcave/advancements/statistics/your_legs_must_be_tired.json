@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:red_terracotta"
+        },
+        "title": {"translate":"Your legs must be tired"},
+        "description": {"translate":"Sprint 250km"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:statistics/marathon",
+	"rewards": {
+		"experience": 200,
+		"function": "bc_rewards:statistics/your_legs_must_be_tired"
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

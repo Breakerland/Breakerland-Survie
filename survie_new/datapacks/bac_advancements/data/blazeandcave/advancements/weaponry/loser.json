@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:black_banner",
+			"nbt": "{BlockEntityTag:{Patterns:[{Pattern:ls,Color:0},{Pattern:ts,Color:0},{Pattern:ms,Color:0},{Pattern:bo,Color:15}]}}"
+        },
+        "title": {"translate":"Loser!"},
+        "description": {"translate":"Die twice within ten seconds"},
+		"hidden": "true"
+    },
+    "parent": "blazeandcave:weaponry/diamonds_to_you",
+	"rewards": {
+		"function": "bc_rewards:weaponry/loser"
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:mycelium"
+        },
+        "title": {"translate":"Mooshroom Kingdom"},
+        "description": {"translate":"Find mooshrooms on a mushroom island"}
+    },
+    "parent": "blazeandcave:animal/true_cow_tipper",	
+    "rewards": {
+        "experience": 50,	
+		"function": "bc_rewards:animal/mooshroom_kingdom"
+    },	
+    "criteria": {
+        "mushroom_island_shore": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:mushroom_field_shore"
+            }
+        },
+        "mushroom_island": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:mushroom_fields"
+            }
+        }
+    },
+    "requirements": [
+		[
+        "mushroom_island",
+        "mushroom_island_shore"
+		]
+    ]
+}

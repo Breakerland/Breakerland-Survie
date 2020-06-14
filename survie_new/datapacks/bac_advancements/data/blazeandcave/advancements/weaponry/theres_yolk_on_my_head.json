@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:zombie_head"
+        },
+        "title": {"translate":"There's yolk on my head"},
+        "description": {"translate":"Catapult an egg onto a zombie's head"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:weaponry/egging_dude",
+    "rewards": {
+        "function": "bc_rewards:weaponry/theres_yolk_on_my_head"
+    },		
+    "criteria": {
+        "egg": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+				"entity": {
+					"type": "zombie"
+				},
+                "damage": {
+                    "type": {
+                        "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:egg"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

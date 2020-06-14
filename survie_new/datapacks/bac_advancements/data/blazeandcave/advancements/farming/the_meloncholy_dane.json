@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:melon"
+        },
+        "title": {"translate":"The Meloncholy Dane"},
+        "description": {"translate":"Craft a stack of melon blocks"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:farming/scientific_inaccuracy",
+    "rewards": {
+		"experience": 50,
+		"function": "bc_rewards:farming/the_meloncholy_dane"
+    },		
+    "criteria": {
+        "melon_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:melon",
+						"count": 64
+                    }
+                ]
+            }
+        }		
+    }	
+}

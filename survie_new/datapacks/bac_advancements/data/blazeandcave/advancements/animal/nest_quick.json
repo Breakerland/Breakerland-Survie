@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bee_spawn_egg"
+        },
+        "title": {"translate":"Nest, Quick!"},
+        "description": {"translate":"Collect a stack of empty bee nests"},
+		"frame": "challenge"
+    },
+    "parent": "minecraft:husbandry/silk_touch_nest",
+	"rewards": {
+		"experience": 100,
+		"function": "bc_rewards:animal/nest_quick"
+    },		
+    "criteria": {
+        "bee_nest": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bee_nest",
+						"count": 64
+                    }
+                ]
+            }
+        }
+    }
+}

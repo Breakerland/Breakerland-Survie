@@ -1,0 +1,64 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_boots"
+        },
+        "title": {"translate":"Kilometre Walk"},
+        "description": {"translate":"It's not that far in real life"},
+        "frame": "goal"
+    },
+    "parent": "blazeandcave:biomes/root",
+    "rewards": {
+        "function": "bc_rewards:biomes/kilometre_walk"
+    },		
+    "criteria": {
+        "outer_pos_x": {
+            "trigger": "minecraft:location",
+            "conditions": {
+				"position": {
+					"x": {
+						"min": 1000.0
+					}
+				}
+            }
+        },
+        "outer_pos_z": {
+            "trigger": "minecraft:location",
+            "conditions": {
+				"position": {
+					"z": {
+						"min": 1000.0
+					}
+				}
+            }
+        },
+        "outer_neg_x": {
+            "trigger": "minecraft:location",
+            "conditions": {
+				"position": {
+					"x": {
+						"max": -1000.0
+					}
+				}
+            }
+        },
+        "outer_neg_z": {
+            "trigger": "minecraft:location",
+            "conditions": {
+				"position": {
+					"z": {
+						"max": -1000.0
+					}
+				}
+            }
+        }	
+    },
+    "requirements": [
+        [
+            "outer_pos_x",
+            "outer_pos_z",
+            "outer_neg_x",
+            "outer_neg_z"
+        ]
+    ]
+}

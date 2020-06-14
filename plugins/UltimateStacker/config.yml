@@ -23,14 +23,14 @@ Entities:
   Search Radius: 15
 
   # The max amount of entities in a single stack.
-  Max Stack Size: 25
+  Max Stack Size: 30
 
   # The minimum amount required before a stack can be formed.
   # Do not set this to lower than 2.
   Min Stack Amount: 2
 
   # The maximum amount of each entity type stack allowed in a chunk.
-  Max Per Type Stacks Per Chunk: 5
+  Max Per Type Stacks Per Chunk: 3
 
   # Should all qualifying entities in each chunk be stacked?
   # This will override the stacking radius.

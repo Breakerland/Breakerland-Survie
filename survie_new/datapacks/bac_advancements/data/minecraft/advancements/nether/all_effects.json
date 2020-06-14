@@ -1,0 +1,51 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bucket"
+        },
+        "title": {"translate":"How did We Get Here?"},
+        "description": {"translate":"Have every effect applied at the same time"},
+        "frame": "challenge",
+        "hidden": true
+    },
+    "parent": "blazeandcave:potion/a_much_more_doable_challenge",
+    "rewards": {
+        "experience": 1000,
+		"function": "bc_rewards:potion/how_did_we_get_here"
+    },	
+    "criteria": {
+        "all_effects": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:speed": {},
+                    "minecraft:slowness": {},
+                    "minecraft:strength": {},
+                    "minecraft:jump_boost": {},
+                    "minecraft:regeneration": {},
+                    "minecraft:fire_resistance": {},
+                    "minecraft:water_breathing": {},
+                    "minecraft:invisibility": {},
+                    "minecraft:night_vision": {},
+                    "minecraft:weakness": {},
+                    "minecraft:poison": {},
+                    "minecraft:wither": {},
+                    "minecraft:haste": {},
+                    "minecraft:mining_fatigue": {},
+                    "minecraft:levitation": {},
+                    "minecraft:glowing": {},
+                    "minecraft:absorption": {},
+                    "minecraft:hunger": {},
+                    "minecraft:nausea": {},
+					"minecraft:resistance": {},
+					"minecraft:slow_falling": {},
+					"minecraft:conduit_power": {},
+					"minecraft:dolphins_grace": {},
+					"minecraft:blindness": {},
+					"minecraft:bad_omen": {},
+					"minecraft:hero_of_the_village": {}
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ender_pearl"
+        },
+        "title": {"translate":"Remote Getaway"},
+        "description": {"translate":"Escape the island"}
+    },
+    "parent": "minecraft:end/kill_dragon",
+	"rewards": {
+		"function": "bc_rewards:end/remote_getaway"
+    },	
+    "criteria": {
+        "outer_pos_x": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:the_end",
+				"position": {
+					"x": {
+						"min": 750.0
+					}
+				}
+            }
+        },
+        "outer_pos_z": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:the_end",
+				"position": {
+					"z": {
+						"min": 750.0
+					}
+				}
+            }
+        },
+        "outer_neg_x": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:the_end",
+				"position": {
+					"x": {
+						"max": -750.0
+					}
+				}
+            }
+        },
+        "outer_neg_z": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:the_end",
+				"position": {
+					"z": {
+						"max": -750.0
+					}
+				}
+            }
+        },
+        "end_gateway": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:end_gateway"
+            }
+        }		
+    },
+    "requirements": [
+        [
+            "outer_pos_x",
+            "outer_pos_z",
+            "outer_neg_x",
+            "outer_neg_z",
+			"end_gateway"
+        ]		
+    ]
+}

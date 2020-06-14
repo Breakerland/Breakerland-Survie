@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bee_nest"
+        },
+        "title": {"translate":"Total Beelocation"},
+        "description": {"translate":"Move a Bee Nest with 3 bees inside using Silk Touch"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:animal/hive_mind",
+	"rewards": {
+		"function": "bc_rewards:animal/total_beelocation"
+    },		
+    "criteria": {
+        "silk_touch_nest": {
+            "trigger": "minecraft:bee_nest_destroyed",
+            "conditions": {
+				"block": "minecraft:bee_nest",
+				"num_bees_inside": 3,
+                "item": {
+					"enchantments": [
+						{
+							"enchantment": "minecraft:silk_touch",
+							"levels": {
+								"min": 1
+							}
+						}
+					]
+                }
+            }
+        }
+    }
+}

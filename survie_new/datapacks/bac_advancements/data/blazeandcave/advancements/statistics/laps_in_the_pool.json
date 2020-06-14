@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_leggings",
+			"nbt": "{display:{color:41727}}"
+        },
+        "title": {"translate":"Laps in the pool"},
+        "description": {"translate":"Swim 1km"}
+    },
+    "parent": "blazeandcave:statistics/root",
+	"rewards": {
+		"experience": 50,
+		"function": "bc_rewards:statistics/laps_in_the_pool"
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

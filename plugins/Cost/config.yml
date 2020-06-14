@@ -1,0 +1,43 @@
+# Price for /wild
+price:
+  default: 0
+  aventurier: 250
+  chevalier: 750
+  duc: 1500
+  comte: 2500
+  marquis: 10000
+  prince: 20000
+  héro: 50000
+  roi: 100000
+  légende: 200000
+  fantôme: 500000
+  empereur: 1000000
+
+# Command to execute by player
+command: l wild
+
+# Messages
+message:
+  wildSucess: '&7Téléporation aléatoire réussie! Coût: %cost%'
+  wildFailed: '&cVous n''avez pas assez d''argent. Coût: %cost%'
+
+# Command list
+commands:
+  # /wild command
+  wild:
+    description: Random teleport in the wild!
+    aliases: [randomtp, rtp, nature]
+    permission: wild.wild
+    cost:
+      default: 0
+      aventurier: 250
+      chevalier: 750
+      duc: 1500
+      comte: 2500
+      marquis: 10000
+      prince: 20000
+      héro: 50000
+      roi: 100000
+      légende: 200000
+      fantôme: 500000
+      empereur: 1000000

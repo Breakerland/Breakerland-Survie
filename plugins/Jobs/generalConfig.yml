@@ -13,10 +13,10 @@ storage:
   method: mysql
 # Requires Mysql.
 mysql:
-  username: $mysql_user_survie
-  password: $mysql_password_survie
+  username: $mysql_user
+  password: $mysql_password
   hostname: $mysql_host:$mysql_port
-  database: $mysql_database_survie
+  database: $mysql_database
   table-prefix: jobs_
   verify-server-certificate: false
   use-ssl: true
@@ -73,7 +73,7 @@ Optimizations:
     # By setting this to true, Jobs plugin will be disabled in given worlds
     # Only commands can be performed from disabled worlds with jobs.disabledworld.commands permission node
     Use: true
-    # If true, will changes the list behaviour, so if a world is added to list
+    # If true, will changes the list behavior, so if a world is added to list
     # the payments will only works in the given worlds.
     UseAsWhiteList: false
     List:
@@ -147,9 +147,13 @@ DailyQuests:
   # Default 0, disabling cost of skipping quest.
   SkipQuestCost: 0.0
 # Enables the schedule manager to boost the server.
-# By default this has been disabled for causing memory leak.
 ScheduleManager:
   Use: true
+# Fire players if their work time has expired at a job.
+# Setting time to 0, will not works.
+# For this to work, the player needs to get a new job for the timer to start.
+# Counting in hours
+JobExpirationTime: 0
 # Maximum number of jobs a player can join.
 # Use 0 for no maximum
 # Keep in mind that jobs.max.[amount] will bypass this setting
@@ -259,6 +263,7 @@ Economy:
   AccountName: Server
   Taxes:
     # Do you want to use taxes feature for jobs payment?
+    # You can bypass taxes with permission jobs.tax.bypass
     use: false
     # Username should be with Correct capitalization, it can be same as setup in server account before
     AccountName: Server
@@ -517,6 +522,8 @@ JobsGUI:
   # This option click type depend from SwitcheButtons option, if true using the left button and inversely.
   # Don't forget to adjust locale file
   UseInversedClickToLeave: false
+  # Allows players to join a specified job via GUI.
+  DisableJoiningJobThroughGui: false
   # Do you want to show the action names in GUI?
   ShowActionNames: true
   # Defines size in rows of GUI
@@ -533,16 +540,22 @@ JobsGUI:
     Material: JACK_O_LANTERN
   Filler:
     Material: GREEN_STAINED_GLASS_PANE
-PageRow:
-  JobsTop:
-    # Defines amount of players to be shown in one page for /jobs top & /jobs gtop
-    AmountToShow: 15
-  Placeholders:
-    # Defines amount of placeholders to be shown in one page for /jobs placeholders
-    AmountToShow: 10
-JobsLeave:
-  # Allows to confirm the /jobs leave and leaveall commands, to confirm the leave.
-  EnableConfirmation: false
-  # Specify the confirm expiry time.
-  # Time in seconds.
-  ConfirmExpiryTime: 10
+Commands:
+  # Do you want to filter the hidden player names from tab-complete?
+  FilterHiddenPlayersInTabComplete: false
+  PageRow:
+    JobsTop:
+      # Defines amount of players to be shown in one page for /jobs top & /jobs gtop
+      AmountToShow: 15
+    Placeholders:
+      # Defines amount of placeholders to be shown in one page for /jobs placeholders
+      AmountToShow: 10
+  JobsLeave:
+    # Defines how job leave works.
+    # If this is true, then the user must have another permission to leave the job. jobs.command.leave.jobName
+    UsePerPermissionLeave: false
+    # Allows to confirm the /jobs leave and leaveall commands, to confirm the leave.
+    EnableConfirmation: false
+    # Specify the confirm expiry time.
+    # Time in seconds.
+    ConfirmExpiryTime: 10

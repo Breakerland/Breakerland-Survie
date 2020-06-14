@@ -1,0 +1,104 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:redstone"
+        },
+        "title": {"translate":"Redstone Milestone"},
+        "description": {"translate":"Complete every advancement in the Redstone tab"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:bacap/adventure_milestone",
+	"rewards": {
+		"experience": 500,
+		"function": "bc_rewards:bacap/redstone_milestone"
+    },		
+    "criteria": {
+        "bling_plate": {
+            "trigger": "minecraft:impossible"
+        },
+        "comparing_comparator": {
+            "trigger": "minecraft:impossible"
+        },
+		"completely_useless_fuel_engine": {
+            "trigger": "minecraft:impossible"
+        },
+		"dispense_with_this": {
+            "trigger": "minecraft:impossible"
+        },
+		"electric_rails": {
+            "trigger": "minecraft:impossible"
+        },
+		"engineer": {
+            "trigger": "minecraft:impossible"
+        },
+		"master_engineer": {
+            "trigger": "minecraft:impossible"
+        },
+		"metal_plate": {
+            "trigger": "minecraft:impossible"
+        },
+		"mobile_explosion": {
+            "trigger": "minecraft:impossible"
+        },
+		"moving_moving_storage": {
+            "trigger": "minecraft:impossible"
+        },
+		"moving_parts": {
+            "trigger": "minecraft:impossible"
+        },
+		"moving_storage": {
+            "trigger": "minecraft:impossible"
+        },
+		"mozart": {
+            "trigger": "minecraft:impossible"
+        },
+		"observer_buddy": {
+            "trigger": "minecraft:impossible"
+        },
+		"on_a_rail": {
+            "trigger": "minecraft:impossible"
+        },
+		"powerful_light": {
+            "trigger": "minecraft:impossible"
+        },
+		"pressure_detector": {
+            "trigger": "minecraft:impossible"
+        },
+		"quartz_miner": {
+            "trigger": "minecraft:impossible"
+        },
+		"quirky_quartz": {
+            "trigger": "minecraft:impossible"
+        },
+		"railwayman": {
+            "trigger": "minecraft:impossible"
+        },
+		"repeating_repeater": {
+            "trigger": "minecraft:impossible"
+        },
+		"root": {
+            "trigger": "minecraft:impossible"
+        },
+		"solar_power": {
+            "trigger": "minecraft:impossible"
+        },
+		"space_dropper": {
+            "trigger": "minecraft:impossible"
+        },
+		"space_hopper": {
+            "trigger": "minecraft:impossible"
+        },
+		"sticky_parts": {
+            "trigger": "minecraft:impossible"
+        },
+		"tripping_over": {
+            "trigger": "minecraft:impossible"
+        },
+		"troll_chest": {
+            "trigger": "minecraft:impossible"
+        },
+		"under_pressure": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_leggings"
+        },
+        "title": {"translate":"Olympic Athlete"},
+        "description": {"translate":"Swim 10km"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:statistics/laps_in_the_pool",
+	"rewards": {
+		"experience": 200,
+		"function": "bc_rewards:statistics/olympic_athlete"
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

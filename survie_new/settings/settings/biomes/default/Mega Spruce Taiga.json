@@ -1,0 +1,555 @@
+{
+  "enabled": true,
+  "rarity": 1.0,
+  "biomeType": "GRASSLAND",
+  "useDungeons": true,
+  "dungeonChance": 8,
+  "useMineShafts": true,
+  "useStrongholds": true,
+  "useVillages": true,
+  "useTemples": false,
+  "useNetherFortress": false,
+  "useCaves": true,
+  "useMonuments": false,
+  "useWoodlandMansion": false,
+  "useRavines": true,
+  "useWitchHuts": false,
+  "usePyramids": false,
+  "useJungleTemples": false,
+  "useIgloos": false,
+  "useFossils": false,
+  "useWaterLakes": true,
+  "useLavaLakes": false,
+  "useRivers": false,
+  "useNativePainting": true,
+  "useNativeStructure": true,
+  "useNativeDecorations": true,
+  "nativeBiome": "GIANT_SPRUCE_TAIGA",
+  "biomeColors": [
+    "#4d2400"
+  ],
+  "fossilChance": 64,
+  "lavaLakeChance": 70,
+  "waterLakeChance": 4,
+  "vanillaFeatures": [
+    "UNDERGROUND_DECORATION",
+    "UNDERGROUND_STRUCTURES",
+    "SURFACE_STRUCTURES",
+    "TOP_LAYER_MODIFICATION",
+    "RAW_GENERATION"
+  ],
+  "ores": [
+    {
+      "type": "DIRT",
+      "size": 33,
+      "count": 10,
+      "minHeight": 0,
+      "maxHeight": 256
+    },
+    {
+      "type": "GRAVEL",
+      "size": 33,
+      "count": 8,
+      "minHeight": 0,
+      "maxHeight": 256
+    },
+    {
+      "type": "GRANITE",
+      "size": 33,
+      "count": 10,
+      "minHeight": 0,
+      "maxHeight": 80
+    },
+    {
+      "type": "DIORITE",
+      "size": 33,
+      "count": 10,
+      "minHeight": 0,
+      "maxHeight": 80
+    },
+    {
+      "type": "ANDESITE",
+      "size": 33,
+      "count": 10,
+      "minHeight": 0,
+      "maxHeight": 80
+    },
+    {
+      "type": "COAL_ORE",
+      "size": 17,
+      "count": 20,
+      "minHeight": 0,
+      "maxHeight": 128
+    },
+    {
+      "type": "IRON_ORE",
+      "size": 9,
+      "count": 20,
+      "minHeight": 0,
+      "maxHeight": 64
+    },
+    {
+      "type": "GOLD_ORE",
+      "size": 9,
+      "count": 2,
+      "minHeight": 0,
+      "maxHeight": 32
+    },
+    {
+      "type": "REDSTONE_ORE",
+      "size": 8,
+      "count": 8,
+      "minHeight": 0,
+      "maxHeight": 16
+    },
+    {
+      "type": "DIAMOND_ORE",
+      "size": 8,
+      "count": 1,
+      "minHeight": 0,
+      "maxHeight": 16
+    },
+    {
+      "type": "LAPIS_ORE",
+      "size": 7,
+      "count": 1,
+      "minHeight": 0,
+      "maxHeight": 32
+    },
+    {
+      "type": "EMERALD_ORE",
+      "size": 4,
+      "count": 2,
+      "minHeight": 4,
+      "maxHeight": 32
+    }
+  ],
+  "customTerrain": {
+    "noiseLayers": []
+  },
+  "terrainSettings": {
+    "subTerrains": [
+      {
+        "provider": "MINECRAFT",
+        "name": "GIANT_SPRUCE_TAIGA",
+        "xModifier": 1.0,
+        "yModifier": 1.0,
+        "zModifier": 1.0,
+        "yOffset": 0
+      }
+    ]
+  },
+  "overlaySettings": {
+    "spawnLilyPads": false,
+    "fastLeavesPlacing": true,
+    "spawnCactus": false,
+    "spawnSnowLayers": false,
+    "spawnHangingLeaves": false,
+    "spawnIceOnWater": false,
+    "groundDepth": 4,
+    "surfaceDepth": 1,
+    "surfaceBlocks": [
+      [
+        {
+          "type": "CYAN_TERRACOTTA",
+          "data": 0,
+          "inclinationsConditions": [
+            {
+              "minInclination": 2.3,
+              "maxInclination": 99.0
+            }
+          ],
+          "chance": 1.0
+        }
+      ],
+      [
+        {
+          "type": "STONE",
+          "data": 0,
+          "inclinationsConditions": [
+            {
+              "minInclination": 1.3,
+              "maxInclination": 1.7
+            }
+          ],
+          "chance": 0.4
+        },
+        {
+          "type": "COBBLESTONE",
+          "data": 0,
+          "inclinationsConditions": [
+            {
+              "minInclination": 1.3,
+              "maxInclination": 1.7
+            }
+          ],
+          "chance": 0.3
+        },
+        {
+          "type": "STONE",
+          "data": 5,
+          "inclinationsConditions": [
+            {
+              "minInclination": 1.3,
+              "maxInclination": 1.7
+            }
+          ],
+          "chance": 0.3
+        }
+      ],
+      [
+        {
+          "type": "GRASS_BLOCK",
+          "data": 0,
+          "chance": 1.0
+        }
+      ]
+    ],
+    "oceanBlocks": [],
+    "groundBlocks": [
+      [
+        {
+          "type": "CYAN_TERRACOTTA",
+          "data": 0,
+          "inclinationsConditions": [
+            {
+              "minInclination": 2.3,
+              "maxInclination": 99.0
+            }
+          ],
+          "chance": 1.0
+        }
+      ],
+      [
+        {
+          "type": "STONE",
+          "data": 0,
+          "inclinationsConditions": [
+            {
+              "minInclination": 1.3,
+              "maxInclination": 1.7
+            }
+          ],
+          "chance": 0.4
+        },
+        {
+          "type": "COBBLESTONE",
+          "data": 0,
+          "inclinationsConditions": [
+            {
+              "minInclination": 1.3,
+              "maxInclination": 1.7
+            }
+          ],
+          "chance": 0.3
+        },
+        {
+          "type": "STONE",
+          "data": 5,
+          "inclinationsConditions": [
+            {
+              "minInclination": 1.3,
+              "maxInclination": 1.7
+            }
+          ],
+          "chance": 0.3
+        }
+      ],
+      [
+        {
+          "type": "DIRT",
+          "data": 0,
+          "chance": 1.0
+        }
+      ]
+    ],
+    "beachBlocks": [
+      [
+        {
+          "type": "DIRT",
+          "data": 0,
+          "heightConditions": [
+            {
+              "minHeight": 0,
+              "maxHeight": 70
+            }
+          ],
+          "chance": 1.0
+        }
+      ]
+    ],
+    "pathBlocks": [],
+    "farmlandBlocks": [],
+    "slabBlocks": [],
+    "stairBlocks": [],
+    "plantBlocks": [
+      [],
+      [],
+      [
+        {
+          "type": "SUGAR_CANE",
+          "data": 0,
+          "heightConditions": [
+            {
+              "minHeight": 54,
+              "maxHeight": 54
+            }
+          ],
+          "chance": 0.1
+        },
+        {
+          "type": "GRASS",
+          "data": 1,
+          "inclinationsConditions": [
+            {
+              "minInclination": 0.0,
+              "maxInclination": 1.7
+            }
+          ],
+          "chance": 0.25
+        },
+        {
+          "type": "SUNFLOWER",
+          "data": 0,
+          "inclinationsConditions": [
+            {
+              "minInclination": 0.0,
+              "maxInclination": 1.7
+            }
+          ],
+          "chance": 0.001
+        },
+        {
+          "type": "LILAC",
+          "data": 0,
+          "inclinationsConditions": [
+            {
+              "minInclination": 0.0,
+              "maxInclination": 1.7
+            }
+          ],
+          "chance": 0.001
+        },
+        {
+          "type": "TALL_GRASS",
+          "data": 0,
+          "inclinationsConditions": [
+            {
+              "minInclination": 0.0,
+              "maxInclination": 1.7
+            }
+          ],
+          "chance": 0.001
+        },
+        {
+          "type": "LARGE_FERN",
+          "data": 0,
+          "inclinationsConditions": [
+            {
+              "minInclination": 0.0,
+              "maxInclination": 1.7
+            }
+          ],
+          "chance": 0.001
+        },
+        {
+          "type": "ROSE_BUSH",
+          "data": 0,
+          "inclinationsConditions": [
+            {
+              "minInclination": 0.0,
+              "maxInclination": 1.7
+            }
+          ],
+          "chance": 0.001
+        },
+        {
+          "type": "PEONY",
+          "data": 0,
+          "inclinationsConditions": [
+            {
+              "minInclination": 0.0,
+              "maxInclination": 1.7
+            }
+          ],
+          "chance": 0.001
+        },
+        {
+          "type": "DANDELION",
+          "data": 0,
+          "inclinationsConditions": [
+            {
+              "minInclination": 0.0,
+              "maxInclination": 1.7
+            }
+          ],
+          "chance": 0.001
+        },
+        {
+          "type": "POPPY",
+          "data": 0,
+          "inclinationsConditions": [
+            {
+              "minInclination": 0.0,
+              "maxInclination": 1.7
+            }
+          ],
+          "chance": 0.001
+        },
+        {
+          "type": "BLUE_ORCHID",
+          "data": 0,
+          "inclinationsConditions": [
+            {
+              "minInclination": 0.0,
+              "maxInclination": 1.7
+            }
+          ],
+          "chance": 0.001
+        },
+        {
+          "type": "ALLIUM",
+          "data": 0,
+          "inclinationsConditions": [
+            {
+              "minInclination": 0.0,
+              "maxInclination": 1.7
+            }
+          ],
+          "chance": 0.001
+        },
+        {
+          "type": "AZURE_BLUET",
+          "data": 0,
+          "inclinationsConditions": [
+            {
+              "minInclination": 0.0,
+              "maxInclination": 1.7
+            }
+          ],
+          "chance": 0.001
+        },
+        {
+          "type": "RED_TULIP",
+          "data": 0,
+          "inclinationsConditions": [
+            {
+              "minInclination": 0.0,
+              "maxInclination": 1.7
+            }
+          ],
+          "chance": 0.001
+        },
+        {
+          "type": "ORANGE_TULIP",
+          "data": 0,
+          "inclinationsConditions": [
+            {
+              "minInclination": 0.0,
+              "maxInclination": 1.7
+            }
+          ],
+          "chance": 0.001
+        },
+        {
+          "type": "PINK_TULIP",
+          "data": 0,
+          "inclinationsConditions": [
+            {
+              "minInclination": 0.0,
+              "maxInclination": 1.7
+            }
+          ],
+          "chance": 0.001
+        },
+        {
+          "type": "WHITE_TULIP",
+          "data": 0,
+          "inclinationsConditions": [
+            {
+              "minInclination": 0.0,
+              "maxInclination": 1.7
+            }
+          ],
+          "chance": 0.001
+        }
+      ]
+    ],
+    "riverBlocks": [
+      [
+        {
+          "type": "SAND",
+          "data": 0,
+          "heightConditions": [
+            {
+              "minHeight": 0,
+              "maxHeight": 70
+            }
+          ],
+          "chance": 1.0
+        }
+      ]
+    ],
+    "leavesBlock": {
+      "type": "OAK_LEAVES",
+      "data": 0,
+      "inclinationsConditions": [
+        {
+          "minInclination": 0.44999998807907104,
+          "maxInclination": 0.6000000238418579
+        }
+      ],
+      "chance": 0.0
+    }
+  },
+  "customTrees": [],
+  "customStructures": [],
+  "maxEWGObjectsPerChunk": 4,
+  "xNoiseModifier": 1.2,
+  "yNoiseModifier": 0.7,
+  "zNoiseModifier": 1.2,
+  "lakeDepth": 0.0,
+  "baseHeight": 67,
+  "nativeBiomes": [
+    {
+      "nativeBiome": "GIANT_SPRUCE_TAIGA",
+      "chance": 1.0
+    }
+  ],
+  "groundBlockSettings": {
+    "layers": [
+      {
+        "maxAmplitude": 10,
+        "minAmplitude": 5,
+        "xScale": 30,
+        "zScale": 30,
+        "minWidth": 4,
+        "maxWidth": 5,
+        "groundMaterials": [
+          {
+            "material": "DIRT",
+            "data": 0,
+            "chance": 1.0
+          }
+        ]
+      },
+      {
+        "maxAmplitude": 10,
+        "minAmplitude": 5,
+        "xScale": 30,
+        "zScale": 30,
+        "minWidth": 13,
+        "maxWidth": 14,
+        "groundMaterials": [
+          {
+            "material": "COBBLESTONE",
+            "data": 0,
+            "chance": 1.0
+          }
+        ]
+      }
+    ],
+    "repeat": true
+  },
+  "groundMaterials": []
+}

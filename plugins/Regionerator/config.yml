@@ -10,7 +10,7 @@ hours-between-cycles: 24
 allow-concurrent-cycles: false
 worlds:
 - survie_new
-#- survie_new_nether
+- survie_new_nether
 hooks:
   ASkyBlock: false
   Factions: false

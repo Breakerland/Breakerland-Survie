@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:dragon_egg"
+        },
+        "title": {"translate":"The Next Generation"},
+        "description": {"translate":"Hold the Dragon Egg"},
+        "frame": "goal"
+    },
+    "parent": "minecraft:end/kill_dragon",
+	"rewards": {
+		"function": "bc_rewards:end/the_next_generation"
+    },	
+    "criteria": {
+        "dragon_egg": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dragon_egg"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:jungle_leaves"
+        },
+        "title": {"translate":"The Mighty Jungle"},
+        "description": {"translate":"Go for a safari in the jungle"}
+    },
+    "parent": "blazeandcave:biomes/for_you_my_sweet",	
+    "rewards": {
+		"function": "bc_rewards:biomes/the_mighty_jungle"
+    },	
+    "criteria": {
+        "jungle_hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:jungle_hills"
+            }
+        },
+        "jungle_edge": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:jungle_edge"
+            }
+        },
+        "jungle": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:jungle"
+            }
+        },
+        "mutated_jungle": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:modified_jungle"
+            }
+        },
+        "mutated_jungle_edge": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:modified_jungle_edge"
+            }
+        }		
+    },
+	"requirements": [
+		[
+		"jungle_hills",
+		"jungle_edge",
+		"jungle",
+		"mutated_jungle",
+		"mutated_jungle_edge"
+		]
+	]
+}

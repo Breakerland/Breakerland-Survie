@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:flint"
+        },
+        "title": {"translate":"Flint Miner"},
+        "description": {"translate":"Mine a stack of flint"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:mining/meet_the_flintstones",
+    "rewards": {
+		"experience": 50,	
+		"function": "bc_rewards:mining/flint_miner"
+    },		
+    "criteria": {
+        "flint": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:flint",
+						"count": 64
+                    }
+                ]
+            }
+        }
+    }
+}

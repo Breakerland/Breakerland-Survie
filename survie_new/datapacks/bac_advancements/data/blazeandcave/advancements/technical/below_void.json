@@ -1,0 +1,14 @@
+{	
+    "criteria": {
+        "below_void": {
+            "trigger": "minecraft:location",
+            "conditions": {
+				"position": {
+					"y": {
+						"max": -64.0
+					}
+				}
+            }
+        }	
+    }
+}

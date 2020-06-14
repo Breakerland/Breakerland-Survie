@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:elytra"
+        },
+        "title": {"translate":"Sky's the Limit"},
+        "description": {"translate":"Find an Elytra"},
+        "frame": "goal"
+    },
+    "parent": "blazeandcave:end/off_with_his_head",
+	"rewards": {
+		"function": "bc_rewards:end/skys_the_limit"
+    },	
+    "criteria": {
+        "elytra": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:elytra"
+                    }
+                ]
+            }
+        }
+    }
+}

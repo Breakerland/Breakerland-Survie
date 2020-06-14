@@ -1,5 +1,61 @@
 # Changelog Breakerland
 
+## V6.11.1 - 16 mai
+
+ - Integration de Dynmap aux Warps
+
+## V6.11.0 - 16 mai
+
+ - Mise à jour Paper-282
+ - Ajout des warps
+ - Mise à jour descriptions grades
+
+## V6.10 - 12 mai
+
+ - Mise à jour Paper-280
+ - Modification des récompenses top-voteurs:
+   - 1er - nombre de votes en point
+   - 2ème - moitié du nombre de votes en point
+   - 3ème - 1 mois VIP
+ - Mise à jour plugins:
+   - antiRedstoneClock 1.1.0
+   - AuthMe-3.6.0 snapshot
+   - EpicWorldGenerator 8.1.21
+   - EpicNetherGenerator 2.0.4
+   - Lands 4.5.9.2
+   - Sleep 2.0
+ - Suppression plugins:
+   - EliteConquest
+   - Graves
+   - ExtendedViews
+   - XuanCatAPI
+   - InfoBoardReborn
+   - PhantomSpawnControl
+   - PlayerWarps
+   - UberEnchants
+   - VoxelSniper
+   - ViaVersion
+   - ViaBackwards
+   - VillagerOptimiser
+   - SAML
+   - EntityTrackFixer
+   - LimitPillager
+ - Ajout de la récupération du mot de passe par mail
+
+## V6.03 - 21 mars
+
+ - Suppression du moyen de paiement via paysafecard
+ - Ajout de la possibilité de parrainer un ami
+ - Correction d'un site de vote ne marchant plus (remplacé RIP)
+ - World Edit ajouté pour tous dans les joueurs dans le serveur Créatif (brush max 10)
+ - Ajout du /hdb sur le serveur créatif
+ - Ajout du /ast sur le serveur créatif
+
+## V6.02 - 4 mars
+
+ - Modification du système de warp
+ - Modification de pleins d'autres chose qui n'ont pas était noté et du coup je peux pas les mettres, vive mes pauses
+
 ## V6.01 - 6 février
 
  - Augmentation des gains du mineur

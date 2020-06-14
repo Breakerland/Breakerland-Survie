@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:painting"
+        },
+        "title": {"translate":"A Masterpiece!"},
+        "description": {"translate":"Put up a painting"}
+    },
+    "parent": "blazeandcave:building/its_a_sign",
+	"rewards": {
+		"function": "bc_rewards:building/a_masterpiece"
+    },		
+    "criteria": {
+        "painting": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:painting"
+                    }
+                ]
+            }
+        }
+    }
+}

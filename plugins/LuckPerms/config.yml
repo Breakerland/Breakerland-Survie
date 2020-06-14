@@ -83,7 +83,7 @@ use-server-uuid-cache: false
 #
 # - A H2 database is the default option.
 # - If you want to edit data manually in "traditional" storage files, we suggest using YAML.
-storage-method: MySQL
+storage-method: MariaDB
 
 # The following block defines the settings for remote database storage methods.
 #
@@ -99,11 +99,11 @@ data:
 
   # The name of the database to store LuckPerms data in.
   # - This must be created already. Don't worry about this setting if you're using MongoDB.
-  database: $mysql_database_proxy
+  database: $mysql_database
 
   # Credentials for the database.
-  username: $mysql_user_proxy
-  password: $mysql_password_proxy
+  username: $mysql_user
+  password: $mysql_password
 
   # These settings apply to the MySQL connection pool.
   # - The default values will be suitable for the majority of users.
@@ -258,7 +258,7 @@ redis:
 #   => replace      durations will be replaced if the new duration is later than the current
 #                   expiration
 #   => deny         the command will just fail if you try to add another node with the same expiry
-temporary-add-behaviour: deny
+temporary-add-behaviour: accumulate
 
 # Controls how LuckPerms will determine a users "primary" group.
 #
@@ -500,7 +500,7 @@ commands-allow-op: false
 #
 # However, if you're willing to accept the consequences, the catch can be disabled by setting this
 # option to 'true.
-vault-unsafe-lookups: false
+vault-unsafe-lookups: true
 
 # Controls which group LuckPerms should use for NPC players when handling Vault requests.
 #

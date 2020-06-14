@@ -1,0 +1,206 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:zombie_head"
+        },
+        "title": {"translate":"Monsters Milestone"},
+        "description": {"translate":"Complete every advancement in the Monsters tab"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:bacap/animal_milestone",
+	"rewards": {
+		"experience": 500,
+		"function": "bc_rewards:bacap/monsters_milestone"
+    },		
+    "criteria": {
+        "a_watery_grave": {
+            "trigger": "minecraft:impossible"
+        },
+        "anti_air": {
+            "trigger": "minecraft:impossible"
+        },
+		"aww_man": {
+            "trigger": "minecraft:impossible"
+        },
+		"baby_baby_baby_noo": {
+            "trigger": "minecraft:impossible"
+        },
+		"because_im_aquaman": {
+            "trigger": "minecraft:impossible"
+        },
+		"blast_shield": {
+            "trigger": "minecraft:impossible"
+        },
+		"boned": {
+            "trigger": "minecraft:impossible"
+        },
+		"camouflage": {
+            "trigger": "minecraft:impossible"
+        },
+		"captain_etho": {
+            "trigger": "minecraft:impossible"
+        },
+		"creeper_killer": {
+            "trigger": "minecraft:impossible"
+        },
+		"creepy_heads": {
+            "trigger": "minecraft:impossible"
+        },
+		"custom_boss_fight": {
+            "trigger": "minecraft:impossible"
+        },
+		"dead_dont_die": {
+            "trigger": "minecraft:impossible"
+        },
+		"desert_nomad": {
+            "trigger": "minecraft:impossible"
+        },
+		"dungeon_crawler": {
+            "trigger": "minecraft:impossible"
+        },
+		"ender_worm": {
+            "trigger": "minecraft:impossible"
+        },
+		"enderman_destroyer": {
+            "trigger": "minecraft:impossible"
+        },
+		"ew_ew_ew": {
+            "trigger": "minecraft:impossible"
+        },
+		"freezing": {
+            "trigger": "minecraft:impossible"
+        },
+		"frosty": {
+            "trigger": "minecraft:impossible"
+        },
+		"gelatinous_cube": {
+            "trigger": "minecraft:impossible"
+        },
+		"handsome_jack": {
+            "trigger": "minecraft:impossible"
+        },
+		"hell_hunter": {
+            "trigger": "minecraft:impossible"
+        },
+		"iron_belly": {
+            "trigger": "minecraft:impossible"
+        },
+		"iskallium_collector": {
+            "trigger": "minecraft:impossible"
+        },
+		"keep_your_distance": {
+            "trigger": "minecraft:impossible"
+        },
+		"legend_of_the_hell_chicken_rider": {
+            "trigger": "minecraft:impossible"
+        },
+		"melting": {
+            "trigger": "minecraft:impossible"
+        },
+		"mollusc_man": {
+            "trigger": "minecraft:impossible"
+        },
+		"monster_hunter": {
+            "trigger": "minecraft:impossible"
+        },
+		"monsters_hunted": {
+            "trigger": "minecraft:impossible"
+        },
+		"night_runner": {
+            "trigger": "minecraft:impossible"
+        },
+		"not_today_thank_you": {
+            "trigger": "minecraft:impossible"
+        },
+		"ooh_baby": {
+            "trigger": "minecraft:impossible"
+        },
+		"phantom_slayer": {
+            "trigger": "minecraft:impossible"
+        },
+		"plane_walker": {
+            "trigger": "minecraft:impossible"
+        },
+		"poisonous_ew": {
+            "trigger": "minecraft:impossible"
+        },
+		"ricochet_swoop": {
+            "trigger": "minecraft:impossible"
+        },
+		"root": {
+            "trigger": "minecraft:impossible"
+        },
+		"skeleton_smiter": {
+            "trigger": "minecraft:impossible"
+        },
+		"slime_squisher": {
+            "trigger": "minecraft:impossible"
+        },
+		"spider_skeleton": {
+            "trigger": "minecraft:impossible"
+        },
+		"spider_smasher": {
+            "trigger": "minecraft:impossible"
+        },
+		"spooky_skeleton": {
+            "trigger": "minecraft:impossible"
+        },
+		"spooky_skulls": {
+            "trigger": "minecraft:impossible"
+        },
+		"still_talking": {
+            "trigger": "minecraft:impossible"
+        },
+		"taste_of_your_own_medicine": {
+            "trigger": "minecraft:impossible"
+        },
+		"tele_morph": {
+            "trigger": "minecraft:impossible"
+        },
+		"termite_control": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_ender_of_ender": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_ghastly_eyes": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_phantom_menace": {
+            "trigger": "minecraft:impossible"
+        },
+		"the_undead_cavalry": {
+            "trigger": "minecraft:impossible"
+        },
+		"there_has_to_be_another_way": {
+            "trigger": "minecraft:impossible"
+        },
+		"trampoline": {
+            "trigger": "minecraft:impossible"
+        },
+		"trick_or_treat": {
+            "trigger": "minecraft:impossible"
+        },
+		"tridented_shield": {
+            "trigger": "minecraft:impossible"
+        },
+		"two_birds_one_arrow": {
+            "trigger": "minecraft:impossible"
+        },
+		"void_ender": {
+            "trigger": "minecraft:impossible"
+        },
+		"well_handle_this": {
+            "trigger": "minecraft:impossible"
+        },
+		"what_a_creep": {
+            "trigger": "minecraft:impossible"
+        },
+		"witch": {
+            "trigger": "minecraft:impossible"
+        },
+		"zombie_slayer": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

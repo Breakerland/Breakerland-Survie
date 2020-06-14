@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_nugget"
+        },
+        "title": {"translate":"There has to be another way..."},
+        "description": {"translate":"Kill a zombie villager"}
+    },
+    "parent": "blazeandcave:combat/dead_dont_die",
+    "rewards": {
+        "function": "bc_rewards:combat/there_has_to_be_another_way"
+    },		
+    "criteria": {
+        "zombie_villager": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager"
+                }
+            }
+        }
+    }
+}

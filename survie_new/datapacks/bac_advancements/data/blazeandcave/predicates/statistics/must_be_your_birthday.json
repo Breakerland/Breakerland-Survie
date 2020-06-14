@@ -1,0 +1,17 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"player": {
+			"stats": [
+				{
+					"type": "minecraft:custom",
+					"stat": "minecraft:eat_cake_slice",
+					"value": {
+						"min": 100
+					}
+				}
+			]
+		}
+	}
+}

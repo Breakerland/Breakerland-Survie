@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:pig_spawn_egg"
+        },
+        "title": {"translate":"Pig Slaughterer"},
+        "description": {"translate":"Collect a stack of raw porkchops"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:animal/when_pigs_used_to_fly",
+    "rewards": {
+		"experience": 50,
+		"function": "bc_rewards:animal/pig_slaughterer"
+    },		
+    "criteria": {
+        "porkchop": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:porkchop",
+						"count": 64
+                    }
+                ]
+            }
+        }		
+    }	
+}

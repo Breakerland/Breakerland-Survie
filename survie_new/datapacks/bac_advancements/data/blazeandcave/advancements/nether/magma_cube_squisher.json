@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:magma_cube_spawn_egg"
+        },
+        "title": {"translate":"Magma Cube Squisher"},
+        "description": {"translate":"Collect a stack of magma cream"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:nether/high_temperature_fluid_monster",
+    "rewards": {
+		"experience": 50,	
+		"function": "bc_rewards:nether/magma_cube_squisher"
+    },		
+    "criteria": {
+        "magma_cream": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:magma_cream",
+						"count": 64
+                    }
+                ]
+            }
+        }
+    }	
+}

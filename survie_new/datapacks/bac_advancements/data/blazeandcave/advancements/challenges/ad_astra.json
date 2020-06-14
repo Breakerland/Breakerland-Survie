@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:firework_rocket"
+        },
+        "title": {"translate":"Ad Astra"},
+        "description": {"translate":"Reach an altitude of 10,000 blocks above the world"},
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:challenges/im_in_space",
+    "rewards": {
+		"experience": 200,
+        "function": "bc_rewards:challenges/ad_astra"
+    },		
+    "criteria": {
+        "world_height": {
+            "trigger": "minecraft:location",
+            "conditions": {
+				"position": {
+					"y": {
+						"min": 10000.0
+					}
+				}
+            }
+        }	
+    }
+}

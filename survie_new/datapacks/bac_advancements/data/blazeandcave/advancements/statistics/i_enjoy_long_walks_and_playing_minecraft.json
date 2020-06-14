@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_boots"
+        },
+        "title": {"translate":"I enjoy long walks & playing MC"},
+        "description": {"translate":"Walk 1000km"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:statistics/who_needs_cars",
+	"rewards": {
+		"experience": 500,
+		"function": "bc_rewards:statistics/i_enjoy_long_walks_and_playing_minecraft"
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

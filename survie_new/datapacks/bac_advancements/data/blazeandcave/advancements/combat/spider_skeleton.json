@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cobweb"
+        },
+        "title": {"translate":"Spider-skeleton"},
+        "description": {"translate":"Does whatever a spider can"},
+        "frame": "goal"
+    },
+    "parent": "blazeandcave:combat/spider_smasher",
+	"rewards": {
+        "experience": 50,
+		"function": "bc_rewards:combat/spider_skeleton"
+    },	
+    "criteria": {
+        "invisible_spider": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:spider",
+                    "nbt": "{Tags:[spider_jockey]}"
+                }
+            }
+        }
+    }
+}

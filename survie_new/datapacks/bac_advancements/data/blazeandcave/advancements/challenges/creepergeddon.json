@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:creeper_head"
+        },
+        "title": {"translate":"Creepergeddon"},
+        "description": {"translate":"Obtain a stack of Creeper Heads"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:challenges/rise_of_the_skeletons",
+	"rewards": {
+		"experience": 200,
+		"function": "bc_rewards:challenges/creepergeddon"
+    },		
+    "criteria": {
+        "creeper_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:creeper_head",
+						"count": 64
+                    }
+                ]
+            }
+        }
+    }
+}

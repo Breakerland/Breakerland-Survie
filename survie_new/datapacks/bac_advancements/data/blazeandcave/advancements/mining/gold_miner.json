@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:gold_ore"
+        },
+        "title": {"translate":"Gold Miner"},
+        "description": {"translate":"Mine a stack of gold ore"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:mining/gold_rush",
+    "rewards": {
+		"function": "bc_rewards:mining/gold_miner"
+    },		
+    "criteria": {
+        "gold": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:gold_ore",
+						"count": 64
+                    }
+                ]
+            }
+        }
+    }
+}

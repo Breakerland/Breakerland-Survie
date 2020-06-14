@@ -1,0 +1,39 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cow_spawn_egg"
+        },
+        "title": {"translate":"True Cow Tipper"},
+        "description": {"translate":"Collect a stack of raw beef and leather"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:animal/milk_does_your_body_good",
+    "rewards": {
+		"experience": 50,
+		"function": "bc_rewards:animal/true_cow_tipper"
+    },		
+    "criteria": {
+        "beef": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:beef",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "leather": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:leather",
+						"count": 64
+                    }
+                ]
+            }
+        }		
+    }	
+}

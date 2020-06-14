@@ -15,7 +15,7 @@ DataSource:
     # We would not recommend to set this option to false.
     # Set this option to false at your own risk if and only if you know what you're doing
     mySQLCheckServerCertificate: true
-    # Username to connect to the MySQL database*
+    # Username to connect to the MySQL database
     mySQLUsername: $mysql_user_proxy
     # Password to connect to the MySQL database
     mySQLPassword: $mysql_password_proxy
@@ -113,7 +113,7 @@ settings:
     # Log level: INFO, FINE, DEBUG. Use INFO for general messages,
     # FINE for some additional detailed ones (like password failed),
     # and DEBUG for debugging
-    logLevel: INFO
+    logLevel: FINE
     # By default we schedule async tasks when talking to the database. If you want
     # typical communication with the database to happen synchronously, set this to false
     useAsyncTasks: true
@@ -133,7 +133,6 @@ settings:
         - /l
         - /reg
         - /email
-        - /fastlogin
         - /captcha
         - /2fa
         - /totp
@@ -142,7 +141,7 @@ settings:
         - /premium
         # Max number of allowed registrations per IP
         # The value 0 means an unlimited number of registrations!
-        maxRegPerIp: 5
+        maxRegPerIp: 4
         # Minimum allowed username length
         minNicknameLength: 3
         # Maximum allowed username length
@@ -160,12 +159,9 @@ settings:
             enabled: false
             # WorldNames where we need to force the spawn location
             # Case-sensitive!
-            worlds: 
-            - world
-            - world_nether
-            - world_the_end
+            worlds: []
         # This option will save the quit location of the players.
-        SaveQuitLocation: true
+        SaveQuitLocation: false
         # To activate the restricted user feature you need
         # to enable this option and configure the AllowedRestrictedUser field.
         AllowRestrictedUser: false
@@ -205,20 +201,20 @@ settings:
         # permission: /authme.admin.accounts
         displayOtherAccounts: true
         # Spawn priority; values: authme, essentials, cmi, multiverse, default
-        spawnPriority: authme,essentials,cmi,multiverse,default
+        spawnPriority: essentials,authme,multiverse,default
         # Maximum Login authorized by IP
         maxLoginPerIp: 3
         # Maximum Join authorized by IP
         maxJoinPerIp: 3
         # AuthMe will NEVER teleport players if set to true!
-        noTeleport: true
+        noTeleport: false
         # Regex syntax for allowed chars in passwords. The default [!-~] allows all visible ASCII
         # characters, which is what we recommend. See also http://asciitable.com
         # You can test your regex with https://regex101.com
         allowedPasswordCharacters: '[!-~]*'
     GameMode:
         # Force survival gamemode when player joins?
-        ForceSurvivalMode: true
+        ForceSurvivalMode: false
     unrestrictions:
         # Below you can list all account names that AuthMe will ignore
         # for registration or login. Configure it at your own risk!!
@@ -290,7 +286,7 @@ settings:
         # CONFIRMATION = must repeat first argument (pass or email)
         # EMAIL_OPTIONAL = for password register: 2nd argument can be empty or have email address
         # EMAIL_MANDATORY = for password register: 2nd argument MUST be an email address
-        secondArg: CONFIRMATION
+        secondArg: EMAIL_OPTIONAL
         # Do we force kick a player after a successful registration?
         # Do not use with login feature below
         forceKickAfterRegister: false
@@ -302,7 +298,7 @@ settings:
     # {MAXPLAYERS}: display server slots, {IP}: player ip, {LOGINS}: number of players logged,
     # {WORLD}: player current world, {SERVER}: server name
     # {VERSION}: get current bukkit version, {COUNTRY}: player country
-    useWelcomeMessage: true
+    useWelcomeMessage: false
     # Broadcast the welcome message to the server or only to the player?
     # set true for server or false for player
     broadcastWelcomeMessage: false
@@ -321,8 +317,8 @@ settings:
     removeJoinMessage: true
     # Should we remove leave messages altogether?
     removeLeaveMessage: true
-    # Do we need to add potion effect Blinding before login/reigster?
-    applyBlindEffect: false
+    # Do we need to add potion effect Blinding before login/register?
+    applyBlindEffect: true
     # Do we need to prevent people to login with another case?
     # If Xephi is registered, then Xephi can login, but not XEPHI/xephi/XePhI
     preventOtherCase: true
@@ -346,29 +342,29 @@ GroupOptions:
     unregisteredPlayerGroup: ''
 Email:
     # Email SMTP server host
-    mailSMTP: smtp.gmail.com
+    mailSMTP: $smtp_host
     # Email SMTP server port
-    mailPort: 465
+    mailPort: $smtp_port
     # Only affects port 25: enable TLS/STARTTLS?
     useTls: true
     # Email account which sends the mails
-    mailAccount: ''
+    mailAccount: $smtp_user
     # Email account password
-    mailPassword: ''
+    mailPassword: $smtp_password
     # Email address, fill when mailAccount is not the email address of the account
-    mailAddress: ''
+    mailAddress: 'contact@breakerland.fr'
     # Custom sender name, replacing the mailAccount name in the email
-    mailSenderName: ''
+    mailSenderName: 'Breakerland'
     # Recovery password length
     RecoveryPasswordLength: 8
     # Mail Subject
-    mailSubject: Your new AuthMe password
+    mailSubject: Récupération mot de passe
     # Like maxRegPerIP but with email
     maxRegPerEmail: 1
     # Recall players to add an email?
-    recallPlayers: false
+    recallPlayers: true
     # Delay in minute for the recall scheduler
-    delayRecall: 5
+    delayRecall: 30
     # Blacklist these domains for emails
     emailBlacklisted: 
     - 10minutemail.com
@@ -395,6 +391,14 @@ Protection:
     enableProtection: false
     # Apply the protection also to registered usernames
     enableProtectionRegistered: true
+    geoIpDatabase:
+        # The MaxMind clientId used to download the GeoIp database,
+        # get one at https://www.maxmind.com/en/accounts/current/license-key
+        # The EssentialsX project has a very useful tutorial on how to generate
+        # the license key: https://essentialsx.cf/wiki/GeoIP.html
+        clientId: ''
+        # The MaxMind licenseKey used to download the GeoIp database.
+        licenseKey: ''
     # Countries allowed to join the server and register. For country codes, see
     # https://dev.maxmind.com/geoip/legacy/codes/iso3166/
     # Use "LOCALHOST" for local addresses.
@@ -486,7 +490,7 @@ Security:
     emailRecovery:
         # Seconds a user has to wait for before a password recovery mail may be sent again
         # This prevents an attacker from abusing AuthMe's email feature.
-        cooldown: 60
+        cooldown: 120
     privacy:
         # The mail shown using /email show will be partially hidden
         # E.g. (if enabled)
@@ -494,7 +498,7 @@ Security:
         #  hidden email: my.***@***mple.com
         enableEmailMasking: false
         # Minutes after which a verification code will expire
-        verificationCodeExpiration: 10
+        verificationCodeExpiration: 15
 # Before a user logs in, various properties are temporarily removed from the player,
 # such as OP status, ability to fly, and walk/fly speed.
 # Once the user is logged in, we add back the properties we previously saved.
@@ -508,7 +512,7 @@ limbo:
         # DISABLED: no disk storage,
         # INDIVIDUAL_FILES: each player data in its own file,
         # DISTRIBUTED_FILES: distributes players into different files based on their UUID, see below
-        type: INDIVIDUAL_FILES
+        type: DISABLED
         # This setting only affects DISTRIBUTED_FILES persistence. The distributed file
         # persistence attempts to reduce the number of files by distributing players into various
         # buckets based on their UUID. This setting defines into how many files the players should
@@ -522,23 +526,23 @@ limbo:
     # Whether the player is allowed to fly: RESTORE, ENABLE, DISABLE, NOTHING.
     # RESTORE sets back the old property from the player. NOTHING will prevent AuthMe
     # from modifying the 'allow flight' property on the player.
-    restoreAllowFlight: NOTHING
+    restoreAllowFlight: RESTORE
     # Restore fly speed: RESTORE, DEFAULT, MAX_RESTORE, RESTORE_NO_ZERO.
     # RESTORE: restore the speed the player had;
     # DEFAULT: always set to default speed;
     # MAX_RESTORE: take the maximum of the player's current speed and the previous one
     # RESTORE_NO_ZERO: Like 'restore' but sets speed to default if the player's speed was 0
-    restoreFlySpeed: DEFAULT
+    restoreFlySpeed: RESTORE_NO_ZERO
     # Restore walk speed: RESTORE, DEFAULT, MAX_RESTORE, RESTORE_NO_ZERO.
     # See above for a description of the values.
-    restoreWalkSpeed: DEFAULT
+    restoreWalkSpeed: RESTORE_NO_ZERO
 BackupSystem:
     # General configuration for backups: if false, no backups are possible
     ActivateBackup: false
     # Create backup at every start of server
     OnServerStart: false
     # Create backup at every stop of server
-    OnServerStop: true
+    OnServerStop: false
     # Windows only: MySQL installation path
     MysqlWindowsPath: C:\Program Files\MySQL\MySQL Server 5.1\
 # Converter settings: see https://github.com/AuthMe/AuthMeReloaded/wiki/Converters

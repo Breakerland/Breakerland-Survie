@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bone_meal"
+        },
+        "title": {"translate":"Boned"},
+        "description": {"translate":"Grind up some bones into bonemeal"}
+    },
+    "parent": "blazeandcave:combat/spooky_skeleton",
+    "rewards": {
+        "function": "bc_rewards:combat/boned"
+    },		
+    "criteria": {
+        "bone_meal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bone_meal"
+                    }
+                ]
+            }
+        }
+    }
+}

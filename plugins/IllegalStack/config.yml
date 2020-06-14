@@ -22,6 +22,8 @@ Exploits:
     PreventRailDupe: true
     PreventHoppersToUnloadedChunks: true
     PreventNestedShulkers: true
+    PreventCommandsInBed: true
+    PreventEndPortalDestruction: true
   Fishing:
     KickForAutoClickerFishing: false
   OverStack:
@@ -76,6 +78,15 @@ Exploits:
     BlockLoopedDroppers: false
   SignExploit:
     DestroyBadSignsOnChunkLoad: false
+  1_15_Exploits:
+    Dupes:
+      PreventTripwireDupe: true
+  NetherPortal:
+    PreventPortalTrap: true
+  Looting:
+    PreventLootingExploit: true
+  EndGateway:
+    PreventEndGatewayCrashExploit: true
 UserRequested:
   ItemRemoval:
     NameLoreStrictMatchMode: false
@@ -98,6 +109,9 @@ UserRequested:
   Spawners: {}
   Cobble:
     PreventCobbleGenerators: false
+  Obsure:
+    Misc:
+      RemoveAllRenamedItems: false
 Exploit:
   Teleport:
     CorrectionNotify: false
