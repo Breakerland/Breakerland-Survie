@@ -1,12 +1,13 @@
 {
-  "enabled": false,
+  "enabled": true,
   "rarity": 1.0,
   "biomeType": "GRASSLAND",
   "useDungeons": true,
-  "dungeonChance": 8,
+  "dungeonChance": 15,
   "useMineShafts": true,
   "useStrongholds": true,
   "useVillages": true,
+  "villageStyle": "TAIGA",
   "useTemples": false,
   "useNetherFortress": false,
   "useCaves": true,
@@ -24,7 +25,7 @@
   "useRivers": false,
   "useNativePainting": true,
   "useNativeStructure": true,
-  "useNativeDecorations": true,
+  "useNativeDecorations": false,
   "nativeBiome": "GIANT_SPRUCE_TAIGA",
   "biomeColors": [
     "#4d2400"
@@ -68,7 +69,6 @@
       [
         {
           "type": "CYAN_TERRACOTTA",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -120,7 +120,6 @@
       [
         {
           "type": "GRASS_BLOCK",
-          "data": 0,
           "tags": {},
           "chance": 1.0
         }
@@ -131,7 +130,6 @@
       [
         {
           "type": "CYAN_TERRACOTTA",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -183,7 +181,6 @@
       [
         {
           "type": "DIRT",
-          "data": 0,
           "tags": {},
           "chance": 1.0
         }
@@ -239,7 +236,6 @@
         },
         {
           "type": "SUNFLOWER",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -251,7 +247,6 @@
         },
         {
           "type": "LILAC",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -263,7 +258,6 @@
         },
         {
           "type": "TALL_GRASS",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -275,7 +269,6 @@
         },
         {
           "type": "LARGE_FERN",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -287,7 +280,6 @@
         },
         {
           "type": "ROSE_BUSH",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -299,7 +291,6 @@
         },
         {
           "type": "PEONY",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -311,7 +302,6 @@
         },
         {
           "type": "DANDELION",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -323,7 +313,6 @@
         },
         {
           "type": "POPPY",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -335,7 +324,6 @@
         },
         {
           "type": "BLUE_ORCHID",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -347,7 +335,6 @@
         },
         {
           "type": "ALLIUM",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -359,7 +346,6 @@
         },
         {
           "type": "AZURE_BLUET",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -371,7 +357,6 @@
         },
         {
           "type": "RED_TULIP",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -383,7 +368,6 @@
         },
         {
           "type": "ORANGE_TULIP",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -395,7 +379,6 @@
         },
         {
           "type": "PINK_TULIP",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -407,7 +390,17 @@
         },
         {
           "type": "WHITE_TULIP",
-          "data": 0,
+          "tags": {},
+          "inclinationsConditions": [
+            {
+              "minInclination": 0.0,
+              "maxInclination": 1.7
+            }
+          ],
+          "chance": 0.001
+        },
+        {
+          "type": "SWEET_BERRY_BUSH",
           "tags": {},
           "inclinationsConditions": [
             {
@@ -422,7 +415,7 @@
     "riverBlocks": [
       [
         {
-          "type": "SAND",
+          "type": "DIRT",
           "data": 0,
           "tags": {},
           "heightConditions": [
@@ -437,15 +430,13 @@
     ],
     "leavesBlock": {
       "type": "OAK_LEAVES",
-      "data": 0,
       "tags": {},
       "inclinationsConditions": [
         {
           "minInclination": 0.44999998807907104,
           "maxInclination": 0.6000000238418579
         }
-      ],
-      "chance": 0.0
+      ]
     }
   },
   "customTrees": [],
@@ -459,7 +450,15 @@
   "nativeBiomes": [
     {
       "nativeBiome": "GIANT_SPRUCE_TAIGA",
-      "chance": 1.0
+      "chance": 0.9
+    },
+    {
+      "nativeBiome": "TAIGA",
+      "chance": 0.3
+    },
+    {
+      "nativeBiome": "BIRCH_FOREST",
+      "chance": 0.1
     }
   ],
   "groundBlockSettings": {

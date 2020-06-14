@@ -3,10 +3,11 @@
   "rarity": 1.0,
   "biomeType": "GRASSLAND",
   "useDungeons": true,
-  "dungeonChance": 8,
+  "dungeonChance": 10,
   "useMineShafts": true,
   "useStrongholds": true,
   "useVillages": false,
+  "villageStyle": "PLAINS",
   "useTemples": false,
   "useNetherFortress": false,
   "useCaves": true,
@@ -21,13 +22,11 @@
   "useWaterLakes": true,
   "useLavaLakes": false,
   "useBedrock": true,
-  "useRivers": true,
+  "useRivers": false,
   "useNativePainting": false,
   "useNativeStructure": false,
   "useNativeDecorations": false,
   "biomeColors": [
-    "#514626",
-    "#795f37",
     "#303030"
   ],
   "fossilChance": 64,
@@ -71,6 +70,30 @@
           "type": "GRASS_BLOCK",
           "data": 0,
           "tags": {},
+          "heightConditions": [
+            {
+              "minHeight": 0,
+              "maxHeight": 190
+            }
+          ],
+          "inclinationsConditions": [
+            {
+              "minInclination": 0.0,
+              "maxInclination": 0.8
+            }
+          ],
+          "chance": 1.0
+        },
+        {
+          "type": "SNOW_BLOCK",
+          "data": 0,
+          "tags": {},
+          "heightConditions": [
+            {
+              "minHeight": 185,
+              "maxHeight": 255
+            }
+          ],
           "inclinationsConditions": [
             {
               "minInclination": 0.0,
@@ -136,13 +159,11 @@
       [
         {
           "type": "STONE",
-          "data": 0,
           "tags": {},
           "chance": 0.8
         },
         {
           "type": "COBBLESTONE",
-          "data": 0,
           "tags": {},
           "chance": 0.2
         }
@@ -170,7 +191,6 @@
       [
         {
           "type": "COBBLESTONE_SLAB",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -222,7 +242,6 @@
         },
         {
           "type": "SUNFLOWER",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -234,7 +253,6 @@
         },
         {
           "type": "LILAC",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -246,7 +264,6 @@
         },
         {
           "type": "TALL_GRASS",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -258,7 +275,6 @@
         },
         {
           "type": "LARGE_FERN",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -270,7 +286,6 @@
         },
         {
           "type": "ROSE_BUSH",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -282,7 +297,6 @@
         },
         {
           "type": "PEONY",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -294,7 +308,6 @@
         },
         {
           "type": "DANDELION",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -306,7 +319,6 @@
         },
         {
           "type": "POPPY",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -318,7 +330,6 @@
         },
         {
           "type": "BLUE_ORCHID",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -330,7 +341,6 @@
         },
         {
           "type": "ALLIUM",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -342,7 +352,6 @@
         },
         {
           "type": "AZURE_BLUET",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -354,7 +363,6 @@
         },
         {
           "type": "RED_TULIP",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -366,7 +374,6 @@
         },
         {
           "type": "ORANGE_TULIP",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -378,7 +385,6 @@
         },
         {
           "type": "PINK_TULIP",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -390,7 +396,17 @@
         },
         {
           "type": "WHITE_TULIP",
-          "data": 0,
+          "tags": {},
+          "inclinationsConditions": [
+            {
+              "minInclination": 0.0,
+              "maxInclination": 1.7
+            }
+          ],
+          "chance": 0.001
+        },
+        {
+          "type": "SWEET_BERRY_BUSH",
           "tags": {},
           "inclinationsConditions": [
             {
@@ -405,7 +421,7 @@
     "riverBlocks": [
       [
         {
-          "type": "SAND",
+          "type": "DIRT",
           "data": 0,
           "tags": {},
           "heightConditions": [
@@ -420,15 +436,13 @@
     ],
     "leavesBlock": {
       "type": "OAK_LEAVES",
-      "data": 0,
       "tags": {},
       "inclinationsConditions": [
         {
           "minInclination": 0.3,
           "maxInclination": 444.0
         }
-      ],
-      "chance": 0.0
+      ]
     }
   },
   "customTrees": [

@@ -3,33 +3,31 @@
   "rarity": 1.0,
   "biomeType": "DESERT",
   "useDungeons": true,
-  "dungeonChance": 8,
+  "dungeonChance": 10,
   "useMineShafts": true,
   "useStrongholds": true,
   "useVillages": true,
-  "useTemples": false,
+  "villageStyle": "DESERT",
+  "useTemples": true,
   "useNetherFortress": false,
   "useCaves": true,
   "useMonuments": false,
   "useWoodlandMansion": false,
   "useRavines": true,
   "useWitchHuts": false,
-  "usePyramids": false,
+  "usePyramids": true,
   "useJungleTemples": false,
   "useIgloos": false,
   "useFossils": true,
   "useWaterLakes": false,
   "useLavaLakes": true,
   "useBedrock": true,
-  "useRivers": true,
+  "useRivers": false,
   "useNativePainting": false,
   "useNativeStructure": false,
   "useNativeDecorations": false,
   "biomeColors": [
-    "#fefdd6",
-    "#fecc9b",
-    "#fec785",
-    "#f9f9f8"
+    "#fefdd6"
   ],
   "fossilChance": 64,
   "lavaLakeChance": 30,
@@ -40,9 +38,7 @@
     "SURFACE_STRUCTURES",
     "TOP_LAYER_MODIFICATION",
     "RAW_GENERATION",
-    "TOP_LAYER_MODIFICATION",
-    "VEGETAL_DECORATION",
-    "SURFACE_STRUCTURES"
+    "VEGETAL_DECORATION"
   ],
   "oreGenerators": [],
   "customTerrain": {
@@ -77,7 +73,6 @@
       [
         {
           "type": "SAND",
-          "data": 0,
           "tags": {},
           "chance": 1.0
         }
@@ -92,7 +87,6 @@
       [
         {
           "type": "SANDSTONE",
-          "data": 0,
           "tags": {},
           "chance": 1.0
         }
@@ -118,7 +112,6 @@
       [
         {
           "type": "SANDSTONE_SLAB",
-          "data": 0,
           "tags": {},
           "chance": 1.0
         }
@@ -132,7 +125,6 @@
       [
         {
           "type": "SANDSTONE_STAIRS",
-          "data": 0,
           "tags": {},
           "chance": 1.0
         }
@@ -158,19 +150,114 @@
     ],
     "riverBlocks": []
   },
-  "customTrees": [],
-  "customStructures": [
+  "customTrees": [
     {
-      "name": "DECO_desert_tower",
-      "density": 2.0E-4,
+      "name": "CUSTOM_Tree_Oak_Dead_Normal01",
+      "density": 2.666666666666667E-5,
       "size": "MEDIUM",
       "provider": "EWG",
-      "type": "DECO",
+      "type": "TREES",
       "blocksRequiredUnderneath": [
-        "SAND"
+        "SAND",
+        "SANDSTONE_SLAB"
+      ],
+      "blacklistedDecoBlocks": [],
+      "chestConfig": "",
+      "spawnUnderWater": false,
+      "spawnOnGround": true,
+      "overrideExsistingBlocks": false,
+      "allowRotation": true,
+      "applyPhysics": false,
+      "applyAir": false,
+      "fixFlyingRoots": true,
+      "replaceAir": true,
+      "minY": 50,
+      "maxY": 86,
+      "maxSlope": 0.7,
+      "minSlope": 0.0,
+      "transitionClearance": -1.0,
+      "snapToXGrid": -1,
+      "snapToYGrid": -1,
+      "gridXOffset": 0,
+      "gridYOffset": 0,
+      "anchorYOffset": 0
+    },
+    {
+      "name": "CUSTOM_Tree_Oak_Dead_Normal02",
+      "density": 4.666666666666667E-5,
+      "size": "MEDIUM",
+      "provider": "EWG",
+      "type": "TREES",
+      "blocksRequiredUnderneath": [
+        "SAND",
+        "SANDSTONE_SLAB"
+      ],
+      "blacklistedDecoBlocks": [],
+      "chestConfig": "",
+      "spawnUnderWater": false,
+      "spawnOnGround": true,
+      "overrideExsistingBlocks": false,
+      "allowRotation": true,
+      "applyPhysics": false,
+      "applyAir": false,
+      "fixFlyingRoots": true,
+      "replaceAir": true,
+      "minY": 50,
+      "maxY": 86,
+      "maxSlope": 0.7,
+      "minSlope": 0.0,
+      "transitionClearance": -1.0,
+      "snapToXGrid": -1,
+      "snapToYGrid": -1,
+      "gridXOffset": 0,
+      "gridYOffset": 0,
+      "anchorYOffset": 0
+    },
+    {
+      "name": "CUSTOM_Tree_Oak_Dead_Normal03",
+      "density": 4.666666666666667E-5,
+      "size": "MEDIUM",
+      "provider": "EWG",
+      "type": "TREES",
+      "blocksRequiredUnderneath": [
+        "SAND",
+        "SANDSTONE_SLAB"
+      ],
+      "blacklistedDecoBlocks": [],
+      "chestConfig": "",
+      "spawnUnderWater": false,
+      "spawnOnGround": true,
+      "overrideExsistingBlocks": false,
+      "allowRotation": true,
+      "applyPhysics": false,
+      "applyAir": false,
+      "fixFlyingRoots": true,
+      "replaceAir": true,
+      "minY": 50,
+      "maxY": 86,
+      "maxSlope": 0.7,
+      "minSlope": 0.0,
+      "transitionClearance": -1.0,
+      "snapToXGrid": -1,
+      "snapToYGrid": -1,
+      "gridXOffset": 0,
+      "gridYOffset": 0,
+      "anchorYOffset": 0
+    }
+  ],
+  "customStructures": [
+    {
+      "name": "CUSTOM_Struc_Desert_Totem01",
+      "density": 4.0E-6,
+      "size": "MEDIUM",
+      "provider": "EWG",
+      "type": "TREES",
+      "blocksRequiredUnderneath": [
+        "SAND",
+        "SANDSTONE_SLAB"
       ],
       "blacklistedDecoBlocks": [
-        null
+        "TNT"
       ],
       "chestConfig": "default.json",
       "spawnUnderWater": false,
@@ -182,8 +269,41 @@
       "fixFlyingRoots": false,
       "replaceAir": true,
       "minY": 67,
-      "maxY": 107,
-      "maxSlope": 100.0,
+      "maxY": 85,
+      "maxSlope": 4.0,
+      "minSlope": 0.0,
+      "transitionClearance": -1.0,
+      "snapToXGrid": 150,
+      "snapToYGrid": 150,
+      "gridXOffset": 0,
+      "gridYOffset": 0,
+      "anchorYOffset": 0
+    },
+    {
+      "name": "CUSTOM_Building_Desert_Pyramid01",
+      "density": 5.0E-6,
+      "size": "MEDIUM",
+      "provider": "EWG",
+      "type": "TREES",
+      "blocksRequiredUnderneath": [
+        "SAND",
+        "SANDSTONE_SLAB"
+      ],
+      "blacklistedDecoBlocks": [
+        "TNT"
+      ],
+      "chestConfig": "default.json",
+      "spawnUnderWater": false,
+      "spawnOnGround": true,
+      "overrideExsistingBlocks": false,
+      "allowRotation": false,
+      "applyPhysics": false,
+      "applyAir": true,
+      "fixFlyingRoots": false,
+      "replaceAir": true,
+      "minY": 67,
+      "maxY": 85,
+      "maxSlope": 4.0,
       "minSlope": 0.0,
       "transitionClearance": -1.0,
       "snapToXGrid": 150,

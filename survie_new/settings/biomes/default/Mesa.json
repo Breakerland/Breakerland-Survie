@@ -7,6 +7,7 @@
   "useMineShafts": true,
   "useStrongholds": true,
   "useVillages": true,
+  "villageStyle": "PLAINS",
   "useTemples": false,
   "useNetherFortress": false,
   "useCaves": true,
@@ -21,13 +22,12 @@
   "useWaterLakes": true,
   "useLavaLakes": true,
   "useBedrock": true,
-  "useRivers": true,
+  "useRivers": false,
   "useNativePainting": false,
   "useNativeStructure": false,
   "useNativeDecorations": false,
   "biomeColors": [
-    "#e99063",
-    "#ac6843"
+    "#e99063"
   ],
   "fossilChance": 64,
   "lavaLakeChance": 60,
@@ -65,8 +65,8 @@
     "spawnSnowLayers": false,
     "spawnHangingLeaves": false,
     "spawnIceOnWater": false,
-    "groundDepth": 3,
-    "surfaceDepth": 40,
+    "groundDepth": 140,
+    "surfaceDepth": 2,
     "surfaceBlocks": [
       [
         {
@@ -75,7 +75,7 @@
           "tags": {},
           "heightConditions": [
             {
-              "minHeight": 80,
+              "minHeight": 70,
               "maxHeight": 256
             }
           ],
@@ -86,125 +86,24 @@
             }
           ],
           "chance": 0.6
-        }
-      ],
-      [
-        {
-          "type": "PINK_TERRACOTTA",
-          "data": 0,
-          "tags": {},
-          "relativeAltitudeConditions": [
-            {
-              "minRelativeHeight": 80,
-              "maxRelativeHeight": 81
-            }
-          ],
-          "chance": 0.8,
-          "probabilityType": "INDEPENDENT"
-        },
-        {
-          "type": "GRAY_TERRACOTTA",
-          "data": 0,
-          "tags": {},
-          "relativeAltitudeConditions": [
-            {
-              "minRelativeHeight": 84,
-              "maxRelativeHeight": 85
-            }
-          ],
-          "chance": 0.8,
-          "probabilityType": "INDEPENDENT"
-        },
-        {
-          "type": "LIGHT_GRAY_TERRACOTTA",
-          "data": 0,
-          "tags": {},
-          "relativeAltitudeConditions": [
-            {
-              "minRelativeHeight": 88,
-              "maxRelativeHeight": 89
-            }
-          ],
-          "chance": 0.8,
-          "probabilityType": "INDEPENDENT"
-        },
-        {
-          "type": "CYAN_TERRACOTTA",
-          "data": 0,
-          "tags": {},
-          "relativeAltitudeConditions": [
-            {
-              "minRelativeHeight": 92,
-              "maxRelativeHeight": 57
-            }
-          ],
-          "chance": 0.8,
-          "probabilityType": "INDEPENDENT"
-        },
-        {
-          "type": "PURPLE_TERRACOTTA",
-          "data": 0,
-          "tags": {},
-          "relativeAltitudeConditions": [
-            {
-              "minRelativeHeight": 96,
-              "maxRelativeHeight": 97
-            }
-          ],
-          "chance": 0.8,
-          "probabilityType": "INDEPENDENT"
         },
         {
           "type": "ORANGE_TERRACOTTA",
-          "data": 0,
+          "data": 1,
           "tags": {},
-          "relativeAltitudeConditions": [
+          "heightConditions": [
             {
-              "minRelativeHeight": 100,
-              "maxRelativeHeight": 101
+              "minHeight": 0,
+              "maxHeight": 74
             }
           ],
-          "chance": 0.8,
-          "probabilityType": "INDEPENDENT"
-        },
-        {
-          "type": "BLACK_TERRACOTTA",
-          "data": 0,
-          "tags": {},
-          "relativeAltitudeConditions": [
+          "inclinationsConditions": [
             {
-              "minRelativeHeight": 108,
-              "maxRelativeHeight": 109
+              "minInclination": 0.0,
+              "maxInclination": 0.5
             }
           ],
-          "chance": 0.8,
-          "probabilityType": "INDEPENDENT"
-        },
-        {
-          "type": "YELLOW_TERRACOTTA",
-          "data": 0,
-          "tags": {},
-          "relativeAltitudeConditions": [
-            {
-              "minRelativeHeight": 112,
-              "maxRelativeHeight": 113
-            }
-          ],
-          "chance": 0.8,
-          "probabilityType": "INDEPENDENT"
-        },
-        {
-          "type": "LIGHT_GRAY_TERRACOTTA",
-          "data": 0,
-          "tags": {},
-          "relativeAltitudeConditions": [
-            {
-              "minRelativeHeight": 118,
-              "maxRelativeHeight": 119
-            }
-          ],
-          "chance": 0.8,
-          "probabilityType": "INDEPENDENT"
+          "chance": 1.0
         }
       ],
       [
@@ -235,7 +134,7 @@
           "tags": {},
           "relativeAltitudeConditions": [
             {
-              "minRelativeHeight": 40,
+              "minRelativeHeight": 65,
               "maxRelativeHeight": 256
             }
           ],
@@ -247,18 +146,25 @@
           "tags": {},
           "relativeAltitudeConditions": [
             {
-              "minRelativeHeight": 40,
+              "minRelativeHeight": 65,
               "maxRelativeHeight": 256
             }
           ],
           "chance": 0.3
+        },
+        {
+          "type": "SAND",
+          "data": 0,
+          "tags": {},
+          "relativeAltitudeConditions": [
+            {
+              "minRelativeHeight": 40,
+              "maxRelativeHeight": 65
+            }
+          ],
+          "chance": 1.0
         }
       ],
-      [],
-      [],
-      [],
-      [],
-      [],
       [
         {
           "type": "ORANGE_TERRACOTTA",
@@ -270,15 +176,233 @@
     ],
     "oceanBlocks": [],
     "groundBlocks": [
-      [],
-      [],
-      [],
-      [],
       [
         {
-          "type": "SANDSTONE",
+          "type": "TERRACOTTA",
           "data": 0,
           "tags": {},
+          "heightConditions": [
+            {
+              "minHeight": 0,
+              "maxHeight": 70
+            }
+          ],
+          "chance": 1.0
+        },
+        {
+          "type": "ORANGE_TERRACOTTA",
+          "data": 0,
+          "tags": {},
+          "heightConditions": [
+            {
+              "minHeight": 70,
+              "maxHeight": 73
+            }
+          ],
+          "chance": 1.0
+        },
+        {
+          "type": "TERRACOTTA",
+          "data": 0,
+          "tags": {},
+          "heightConditions": [
+            {
+              "minHeight": 73,
+              "maxHeight": 76
+            }
+          ],
+          "chance": 1.0
+        },
+        {
+          "type": "ORANGE_TERRACOTTA",
+          "data": 0,
+          "tags": {},
+          "heightConditions": [
+            {
+              "minHeight": 76,
+              "maxHeight": 82
+            }
+          ],
+          "chance": 1.0
+        },
+        {
+          "type": "RED_TERRACOTTA",
+          "data": 0,
+          "tags": {},
+          "heightConditions": [
+            {
+              "minHeight": 82,
+              "maxHeight": 84
+            }
+          ],
+          "chance": 1.0
+        },
+        {
+          "type": "ORANGE_TERRACOTTA",
+          "data": 0,
+          "tags": {},
+          "heightConditions": [
+            {
+              "minHeight": 84,
+              "maxHeight": 92
+            }
+          ],
+          "chance": 1.0
+        },
+        {
+          "type": "BROWN_TERRACOTTA",
+          "data": 0,
+          "tags": {},
+          "heightConditions": [
+            {
+              "minHeight": 92,
+              "maxHeight": 94
+            }
+          ],
+          "chance": 1.0
+        },
+        {
+          "type": "ORANGE_TERRACOTTA",
+          "data": 0,
+          "tags": {},
+          "heightConditions": [
+            {
+              "minHeight": 94,
+              "maxHeight": 100
+            }
+          ],
+          "chance": 1.0
+        },
+        {
+          "type": "YELLOW_TERRACOTTA",
+          "data": 0,
+          "tags": {},
+          "heightConditions": [
+            {
+              "minHeight": 100,
+              "maxHeight": 103
+            }
+          ],
+          "chance": 1.0
+        },
+        {
+          "type": "ORANGE_TERRACOTTA",
+          "data": 0,
+          "tags": {},
+          "heightConditions": [
+            {
+              "minHeight": 103,
+              "maxHeight": 115
+            }
+          ],
+          "chance": 1.0
+        },
+        {
+          "type": "RED_TERRACOTTA",
+          "data": 0,
+          "tags": {},
+          "heightConditions": [
+            {
+              "minHeight": 115,
+              "maxHeight": 116
+            }
+          ],
+          "chance": 1.0
+        },
+        {
+          "type": "ORANGE_TERRACOTTA",
+          "data": 0,
+          "tags": {},
+          "heightConditions": [
+            {
+              "minHeight": 116,
+              "maxHeight": 127
+            }
+          ],
+          "chance": 1.0
+        },
+        {
+          "type": "YELLOW_TERRACOTTA",
+          "data": 0,
+          "tags": {},
+          "heightConditions": [
+            {
+              "minHeight": 127,
+              "maxHeight": 129
+            }
+          ],
+          "chance": 1.0
+        },
+        {
+          "type": "ORANGE_TERRACOTTA",
+          "data": 0,
+          "tags": {},
+          "heightConditions": [
+            {
+              "minHeight": 129,
+              "maxHeight": 145
+            }
+          ],
+          "chance": 1.0
+        },
+        {
+          "type": "BROWN_TERRACOTTA",
+          "data": 0,
+          "tags": {},
+          "heightConditions": [
+            {
+              "minHeight": 145,
+              "maxHeight": 148
+            }
+          ],
+          "chance": 1.0
+        },
+        {
+          "type": "ORANGE_TERRACOTTA",
+          "data": 0,
+          "tags": {},
+          "heightConditions": [
+            {
+              "minHeight": 148,
+              "maxHeight": 158
+            }
+          ],
+          "chance": 1.0
+        },
+        {
+          "type": "YELLOW_TERRACOTTA",
+          "data": 0,
+          "tags": {},
+          "heightConditions": [
+            {
+              "minHeight": 158,
+              "maxHeight": 161
+            }
+          ],
+          "chance": 1.0
+        },
+        {
+          "type": "RED_TERRACOTTA",
+          "data": 0,
+          "tags": {},
+          "heightConditions": [
+            {
+              "minHeight": 161,
+              "maxHeight": 164
+            }
+          ],
+          "chance": 1.0
+        },
+        {
+          "type": "TERRACOTTA",
+          "data": 0,
+          "tags": {},
+          "heightConditions": [
+            {
+              "minHeight": 164,
+              "maxHeight": 255
+            }
+          ],
           "chance": 1.0
         }
       ]
@@ -295,31 +419,11 @@
     ],
     "pathBlocks": [],
     "farmlandBlocks": [],
-    "slabBlocks": [
-      [
-        {
-          "type": "AIR",
-          "data": 1,
-          "tags": {},
-          "heightConditions": [
-            {
-              "minHeight": 90,
-              "maxHeight": 256
-            }
-          ],
-          "chance": 1.0
-        }
-      ]
-    ],
+    "slabBlocks": [],
     "stairBlocks": [
-      [],
-      [],
-      [],
-      [],
       [
         {
           "type": "RED_SANDSTONE_STAIRS",
-          "data": 0,
           "tags": {},
           "chance": 1.0
         }
@@ -330,7 +434,7 @@
   },
   "customTrees": [
     {
-      "name": "TREES_dead_big",
+      "name": "CUSTOM_Tree_Oak_Dead_Normal01",
       "density": 6.666666666666667E-5,
       "size": "MEDIUM",
       "provider": "EWG",
@@ -362,7 +466,7 @@
       "anchorYOffset": 0
     },
     {
-      "name": "TREES_dead_medium_2",
+      "name": "CUSTOM_Tree_Oak_Dead_Normal02",
       "density": 6.666666666666667E-5,
       "size": "MEDIUM",
       "provider": "EWG",
@@ -394,103 +498,7 @@
       "anchorYOffset": 0
     },
     {
-      "name": "TREES_dead_normal",
-      "density": 6.666666666666667E-5,
-      "size": "MEDIUM",
-      "provider": "EWG",
-      "type": "TREES",
-      "blocksRequiredUnderneath": [
-        "SAND",
-        "ORANGE_TERRACOTTA",
-        "RED_SANDSTONE_SLAB"
-      ],
-      "blacklistedDecoBlocks": [],
-      "chestConfig": "default.json",
-      "spawnUnderWater": false,
-      "spawnOnGround": true,
-      "overrideExsistingBlocks": false,
-      "allowRotation": true,
-      "applyPhysics": false,
-      "applyAir": false,
-      "fixFlyingRoots": true,
-      "replaceAir": true,
-      "minY": 50,
-      "maxY": 86,
-      "maxSlope": 0.7,
-      "minSlope": 0.0,
-      "transitionClearance": -1.0,
-      "snapToXGrid": -1,
-      "snapToYGrid": -1,
-      "gridXOffset": 0,
-      "gridYOffset": 0,
-      "anchorYOffset": 0
-    },
-    {
-      "name": "TREES_dead_normal_2",
-      "density": 6.666666666666667E-5,
-      "size": "MEDIUM",
-      "provider": "EWG",
-      "type": "TREES",
-      "blocksRequiredUnderneath": [
-        "SAND",
-        "ORANGE_TERRACOTTA",
-        "RED_SANDSTONE_SLAB"
-      ],
-      "blacklistedDecoBlocks": [],
-      "chestConfig": "default.json",
-      "spawnUnderWater": false,
-      "spawnOnGround": true,
-      "overrideExsistingBlocks": false,
-      "allowRotation": true,
-      "applyPhysics": false,
-      "applyAir": false,
-      "fixFlyingRoots": true,
-      "replaceAir": true,
-      "minY": 50,
-      "maxY": 86,
-      "maxSlope": 0.7,
-      "minSlope": 0.0,
-      "transitionClearance": -1.0,
-      "snapToXGrid": -1,
-      "snapToYGrid": -1,
-      "gridXOffset": 0,
-      "gridYOffset": 0,
-      "anchorYOffset": 0
-    },
-    {
-      "name": "TREES_dead_medium",
-      "density": 6.666666666666667E-5,
-      "size": "MEDIUM",
-      "provider": "EWG",
-      "type": "TREES",
-      "blocksRequiredUnderneath": [
-        "SAND",
-        "ORANGE_TERRACOTTA",
-        "RED_SANDSTONE_SLAB"
-      ],
-      "blacklistedDecoBlocks": [],
-      "chestConfig": "default.json",
-      "spawnUnderWater": false,
-      "spawnOnGround": true,
-      "overrideExsistingBlocks": false,
-      "allowRotation": true,
-      "applyPhysics": false,
-      "applyAir": false,
-      "fixFlyingRoots": true,
-      "replaceAir": true,
-      "minY": 50,
-      "maxY": 86,
-      "maxSlope": 0.7,
-      "minSlope": 0.0,
-      "transitionClearance": -1.0,
-      "snapToXGrid": -1,
-      "snapToYGrid": -1,
-      "gridXOffset": 0,
-      "gridYOffset": 0,
-      "anchorYOffset": 0
-    },
-    {
-      "name": "TREES_dead_huge",
+      "name": "CUSTOM_Tree_Oak_Dead_Normal03",
       "density": 6.666666666666667E-5,
       "size": "MEDIUM",
       "provider": "EWG",
@@ -532,7 +540,11 @@
   "nativeBiomes": [
     {
       "nativeBiome": "BADLANDS",
-      "chance": 1.0
+      "chance": 0.9
+    },
+    {
+      "nativeBiome": "WOODED_BADLANDS_PLATEAU",
+      "chance": 0.2
     }
   ],
   "groundBlockSettings": {
