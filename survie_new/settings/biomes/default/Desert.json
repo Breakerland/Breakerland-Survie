@@ -40,7 +40,140 @@
     "RAW_GENERATION",
     "VEGETAL_DECORATION"
   ],
-  "oreGenerators": [],
+  "oreGenerators": [
+    {
+      "type": "NATURAL_STONE",
+      "block": {
+        "type": "GRAVEL",
+        "tags": {}
+      },
+      "size": 33,
+      "count": 6,
+      "bottomOffset": 0,
+      "topOffset": 0,
+      "maximum": 256
+    },
+    {
+      "type": "NATURAL_STONE",
+      "block": {
+        "type": "GRANITE",
+        "tags": {}
+      },
+      "size": 33,
+      "count": 8,
+      "bottomOffset": 0,
+      "topOffset": 0,
+      "maximum": 256
+    },
+    {
+      "type": "NATURAL_STONE",
+      "block": {
+        "type": "DIORITE",
+        "tags": {}
+      },
+      "size": 33,
+      "count": 8,
+      "bottomOffset": 0,
+      "topOffset": 0,
+      "maximum": 256
+    },
+    {
+      "type": "NATURAL_STONE",
+      "block": {
+        "type": "ANDESITE",
+        "tags": {}
+      },
+      "size": 33,
+      "count": 8,
+      "bottomOffset": 0,
+      "topOffset": 0,
+      "maximum": 256
+    },
+    {
+      "type": "NATURAL_STONE",
+      "block": {
+        "type": "COAL_ORE",
+        "tags": {}
+      },
+      "size": 6,
+      "count": 3,
+      "bottomOffset": 0,
+      "topOffset": 0,
+      "maximum": 128
+    },
+    {
+      "type": "NATURAL_STONE",
+      "block": {
+        "type": "IRON_ORE",
+        "tags": {}
+      },
+      "size": 5,
+      "count": 2,
+      "bottomOffset": 0,
+      "topOffset": 0,
+      "maximum": 64
+    },
+    {
+      "type": "NATURAL_STONE",
+      "block": {
+        "type": "GOLD_ORE",
+        "tags": {}
+      },
+      "size": 5,
+      "count": 3,
+      "bottomOffset": 0,
+      "topOffset": 0,
+      "maximum": 32
+    },
+    {
+      "type": "NATURAL_STONE",
+      "block": {
+        "type": "REDSTONE_ORE",
+        "tags": {}
+      },
+      "size": 6,
+      "count": 4,
+      "bottomOffset": 0,
+      "topOffset": 0,
+      "maximum": 16
+    },
+    {
+      "type": "NATURAL_STONE",
+      "block": {
+        "type": "DIAMOND_ORE",
+        "tags": {}
+      },
+      "size": 6,
+      "count": 1,
+      "bottomOffset": 0,
+      "topOffset": 0,
+      "maximum": 16
+    },
+    {
+      "type": "NATURAL_STONE",
+      "block": {
+        "type": "EMERALD",
+        "tags": {}
+      },
+      "size": 4,
+      "count": 1,
+      "bottomOffset": 0,
+      "topOffset": 0,
+      "maximum": 16
+    },
+    {
+      "type": "NATURAL_STONE",
+      "block": {
+        "type": "LAPIS_ORE",
+        "tags": {}
+      },
+      "size": 4,
+      "count": 2,
+      "bottomOffset": 0,
+      "topOffset": 0,
+      "maximum": 16
+    }
+  ],
   "customTerrain": {
     "noiseLayers": []
   },
