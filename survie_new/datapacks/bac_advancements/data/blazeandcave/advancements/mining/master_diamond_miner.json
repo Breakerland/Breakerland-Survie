@@ -7,7 +7,7 @@
         "description": {"translate":"Mine enough diamond to make a stack of diamond blocks"},
 		"frame": "challenge"
     },
-    "parent": "blazeandcave:mining/mineral_collection",
+    "parent": "blazeandcave:mining/diamond_miner",
     "rewards": {
 		"function": "bc_rewards:mining/master_diamond_miner"
     },		

@@ -14,202 +14,880 @@
     },		
     "criteria": {
         "a_masterpiece": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/a_masterpiece": "true"
+						}
+					}
+				}
+			}
         },
         "ah_my_old_enemy": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/ah_my_old_enemy": "true"
+						}
+					}
+				}
+			}
         },
 		"and_open": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/and_open": "true"
+						}
+					}
+				}
+			}
         },
 		"art_gallery": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/art_gallery": "true"
+						}
+					}
+				}
+			}
         },
 		"barking_mad": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/barking_mad": "true"
+						}
+					}
+				}
+			}
         },
 		"barrel_rider": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/barrel_rider": "true"
+						}
+					}
+				}
+			}
         },
 		"bricks": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/bricks": "true"
+						}
+					}
+				}
+			}
         },
 		"change_of_sheets": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/change_of_sheets": "true"
+						}
+					}
+				}
+			}
         },
 		"classy_glassy": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/classy_glassy": "true"
+						}
+					}
+				}
+			}
         },
 		"clay_dough": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/clay_dough": "true"
+						}
+					}
+				}
+			}
         },
 		"concrete_evidence": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/concrete_evidence": "true"
+						}
+					}
+				}
+			}
         },
 		"crazy_walls": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/crazy_walls": "true"
+						}
+					}
+				}
+			}
         },
 		"creepers_and_withers": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/creepers_and_withers": "true"
+						}
+					}
+				}
+			}
         },
 		"cut_in_half": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/cut_in_half": "true"
+						}
+					}
+				}
+			}
         },
 		"display_your_items_for_all_to_see": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/display_your_items_for_all_to_see": "true"
+						}
+					}
+				}
+			}
         },
 		"electric": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/electric": "true"
+						}
+					}
+				}
+			}
         },
 		"en_garde": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/en_garde": "true"
+						}
+					}
+				}
+			}
         },
 		"expensive": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/expensive": "true"
+						}
+					}
+				}
+			}
         },
 		"fake_fortress": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/fake_fortress": "true"
+						}
+					}
+				}
+			}
         },
 		"fake_monument": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/fake_monument": "true"
+						}
+					}
+				}
+			}
         },
 		"fake_stronghold": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/fake_stronghold": "true"
+						}
+					}
+				}
+			}
         },
 		"festival_of_lights": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/festival_of_lights": "true"
+						}
+					}
+				}
+			}
         },
 		"fluorescent": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/fluorescent": "true"
+						}
+					}
+				}
+			}
         },
 		"fruit_of_the_looms": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/fruit_of_the_looms": "true"
+						}
+					}
+				}
+			}
         },
 		"glowing": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/glowing": "true"
+						}
+					}
+				}
+			}
         },
 		"greek_art_decor": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/greek_art_decor": "true"
+						}
+					}
+				}
+			}
         },
 		"halloween": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/halloween": "true"
+						}
+					}
+				}
+			}
         },
 		"i_dont_like_sand": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/i_dont_like_sand": "true"
+						}
+					}
+				}
+			}
         },
 		"insomniac": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/insomniac": "true"
+						}
+					}
+				}
+			}
         },
 		"its_a_sign": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/its_a_sign": "true"
+						}
+					}
+				}
+			}
         },
 		"its_a_trap": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/its_a_trap": "true"
+						}
+					}
+				}
+			}
         },
 		"jailhouse_block": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/jailhouse_block": "true"
+						}
+					}
+				}
+			}
         },
 		"ladder_climbers_inc": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/ladder_climbers_inc": "true"
+						}
+					}
+				}
+			}
         },
 		"lost_its_bark": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/lost_its_bark": "true"
+						}
+					}
+				}
+			}
         },
 		"mannequin": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/mannequin": "true"
+						}
+					}
+				}
+			}
         },
 		"master_logger": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/master_logger": "true"
+						}
+					}
+				}
+			}
         },
 		"no_banner_only_color": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/no_banner_only_color": "true"
+						}
+					}
+				}
+			}
         },
 		"pathways": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/pathways": "true"
+						}
+					}
+				}
+			}
         },
 		"pot_planter": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/pot_planter": "true"
+						}
+					}
+				}
+			}
         },
 		"prepare_to_meet_your_loom": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/prepare_to_meet_your_loom": "true"
+						}
+					}
+				}
+			}
         },
 		"professor_birch": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/professor_birch": "true"
+						}
+					}
+				}
+			}
         },
 		"professor_dark_oak": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/professor_dark_oak": "true"
+						}
+					}
+				}
+			}
         },
 		"professor_oak": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/professor_oak": "true"
+						}
+					}
+				}
+			}
         },
 		"rainbow_dreams": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/rainbow_dreams": "true"
+						}
+					}
+				}
+			}
         },
 		"rainbow_sand": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/rainbow_sand": "true"
+						}
+					}
+				}
+			}
         },
 		"raise_the_flag": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/raise_the_flag": "true"
+						}
+					}
+				}
+			}
         },
 		"rock_collection": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/rock_collection": "true"
+						}
+					}
+				}
+			}
         },
 		"root": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/root": "true"
+						}
+					}
+				}
+			}
         },
 		"slabs_for_days": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/slabs_for_days": "true"
+						}
+					}
+				}
+			}
         },
 		"speech_speech_speech": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/speech_speech_speech": "true"
+						}
+					}
+				}
+			}
         },
 		"spruce_lee": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/spruce_lee": "true"
+						}
+					}
+				}
+			}
         },
 		"stairs_no": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/stairs_no": "true"
+						}
+					}
+				}
+			}
         },
 		"stationary_storage": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/stationary_storage": "true"
+						}
+					}
+				}
+			}
         },
 		"stripper": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/stripper": "true"
+						}
+					}
+				}
+			}
         },
 		"sweet_dreams": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"minecraft:adventure/sleep_in_bed": "true"
+						}
+					}
+				}
+			}
         },
 		"the_acacia_king": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/the_acacia_king": "true"
+						}
+					}
+				}
+			}
         },
 		"the_glazed_terracotta_army": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/the_glazed_terracotta_army": "true"
+						}
+					}
+				}
+			}
         },
 		"the_jungler": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/the_jungler": "true"
+						}
+					}
+				}
+			}
         },
 		"the_rainbow_you_always_wanted": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/the_rainbow_you_always_wanted": "true"
+						}
+					}
+				}
+			}
         },
 		"the_terracotta_army": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/the_terracotta_army": "true"
+						}
+					}
+				}
+			}
         },
 		"the_walls": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/the_walls": "true"
+						}
+					}
+				}
+			}
         },
 		"torched": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/torched": "true"
+						}
+					}
+				}
+			}
         },
 		"translucence": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/translucence": "true"
+						}
+					}
+				}
+			}
         },
 		"what_a_pane": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/what_a_pane": "true"
+						}
+					}
+				}
+			}
         },
 		"yay_i_got_my_wood": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/yay_i_got_my_wood": "true"
+						}
+					}
+				}
+			}
         },
 		"your_door_was_locked": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/your_door_was_locked": "true"
+						}
+					}
+				}
+			}
+        },
+		"grass_type": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/grass_type": "true"
+						}
+					}
+				}
+			}
+        },
+		"shroom_lightyear": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/shroom_lightyear": "true"
+						}
+					}
+				}
+			}
+        },
+		"cerulean": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/cerulean": "true"
+						}
+					}
+				}
+			}
+        },
+		"let_there_be_light": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/let_there_be_light": "true"
+						}
+					}
+				}
+			}
+        },
+		"no_chain_no_gain": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/no_chain_no_gain": "true"
+						}
+					}
+				}
+			}
+        },
+		"blackstonehenge": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/blackstonehenge": "true"
+						}
+					}
+				}
+			}
+        },
+		"colors_of_the_wind": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/colors_of_the_wind": "true"
+						}
+					}
+				}
+			}
         }
     }
 }

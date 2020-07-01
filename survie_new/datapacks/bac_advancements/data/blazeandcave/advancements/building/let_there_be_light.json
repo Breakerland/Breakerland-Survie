@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:soul_fire_lantern"
+            "item": "minecraft:soul_lantern"
         },
         "title": {"translate":"Let There Be Light!"},
         "description": {"translate":"Hold a stack of every light-emitting block and item"},
@@ -9,6 +9,7 @@
     },
     "parent": "blazeandcave:building/fluorescent",
 	"rewards": {
+		"experience": 100,
 		"function": "bc_rewards:building/let_there_be_light"
     },		
     "criteria": {
@@ -122,23 +123,23 @@
                 ]
             }
         },
-        "soul_fire_lantern": {
+        "soul_lantern": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:soul_fire_lantern",
+                        "item": "minecraft:soul_lantern",
 						"count": 64
                     }
                 ]
             }
         },
-        "soul_fire_torch": {
+        "soul_torch": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:soul_fire_torch",
+                        "item": "minecraft:soul_torch",
 						"count": 64
                     }
                 ]
@@ -183,6 +184,17 @@
                 "items": [
                     {
                         "item": "minecraft:crying_obsidian",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "soul_campfire": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:soul_campfire",
 						"count": 64
                     }
                 ]

@@ -15,7 +15,16 @@
     },		
     "criteria": {
         "trigger": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"level": {
+							"min": 100
+						}
+					}
+				}
+			}
         }
     }
 }

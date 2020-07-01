@@ -11,8 +11,18 @@
 		"function": "bc_rewards:mining/bubble_bubble_toil_and_trouble"
     },
     "criteria": {
-        "chestful_of_cobblestone": {
-            "trigger": "minecraft:impossible"
-        }
+        "fill_cauldron": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"block": "minecraft:cauldron"
+					}
+				},
+				"item": {
+					"item": "minecraft:water_bucket"
+				}
+			}
+		}
     }
 }

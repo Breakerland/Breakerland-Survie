@@ -8,7 +8,7 @@
 		"frame": "challenge",
 		"hidden": "true"
     },
-    "parent": "blazeandcave:mining/camping_out",
+    "parent": "blazeandcave:mining/delicious_hot_schmoes",
 	"rewards": {
 		"function": "bc_rewards:mining/spawn_camping",
 		"experience": 50

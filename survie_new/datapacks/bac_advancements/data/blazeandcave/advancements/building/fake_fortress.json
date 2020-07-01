@@ -4,7 +4,7 @@
             "item": "minecraft:red_nether_bricks"
         },
         "title": {"translate":"Fake fortress"},
-        "description": {"translate":"Craft or collect all forms of nether brick, red nether brick, and nether wart blocks"}
+        "description": {"translate":"Craft or collect all forms of nether brick and red nether brick"}
     },
     "parent": "blazeandcave:building/fake_stronghold",
     "rewards": {
@@ -51,6 +51,16 @@
                 ]
             }
         },
+        "nether_brick_wall": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:nether_brick_wall"
+                    }
+                ]
+            }
+        },
 		"red_nether_brick": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
@@ -61,12 +71,52 @@
                 ]
             }
         },
-		"nether_wart_block": {
+        "red_nether_brick_slab": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:nether_wart_block"
+                        "item": "minecraft:red_nether_brick_slab"
+                    }
+                ]
+            }
+        },
+		"red_nether_brick_stairs": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:red_nether_brick_stairs"
+                    }
+                ]
+            }
+        },
+        "red_nether_brick_wall": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:red_nether_brick_wall"
+                    }
+                ]
+            }
+        },
+        "cracked_nether_brick": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cracked_nether_bricks"
+                    }
+                ]
+            }
+        },
+        "chiseled_nether_bricks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:chiseled_nether_bricks"
                     }
                 ]
             }

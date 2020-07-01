@@ -9,7 +9,8 @@
     },
     "parent": "blazeandcave:building/pathways",
     "rewards": {
-        "function": "bc_rewards:building/grass_type"
+		"experience": 100,
+		"function": "bc_rewards:building/grass_type"
     },		
     "criteria": {
         "grass_block": {

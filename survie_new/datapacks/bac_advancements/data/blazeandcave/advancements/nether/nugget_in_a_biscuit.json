@@ -12,7 +12,22 @@
     },		
     "criteria": {
         "mine_nether_gold_ore": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"stats": [
+							{
+								"type": "minecraft:mined",
+								"stat": "minecraft:nether_gold_ore",
+								"value": {
+									"min": 1
+								}
+							}
+						]
+					}
+				}
+			}
         }
     }
 }

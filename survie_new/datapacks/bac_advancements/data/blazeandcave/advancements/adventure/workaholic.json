@@ -1,0 +1,160 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:brewing_stand"
+        },
+        "title": {"translate":"Workaholic"},
+        "description": {"translate":"Craft a stack of all the villager job site blocks"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:adventure/town_planner",
+	"rewards": {
+		"experience": 100,
+		"function": "bc_rewards:adventure/workaholic"
+    },		
+    "criteria": {
+        "composter": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:composter",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "barrel": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:barrel",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "loom": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:loom",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "fletching_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:fletching_table",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "brewing_stand": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:brewing_stand",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "smoker": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:smoker",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "cauldron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cauldron",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "grindstone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:grindstone",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "blast_furnace": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:blast_furnace",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "smithing_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:smithing_table",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "lectern": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:lectern",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "cartography_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cartography_table",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "stonecutter": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stonecutter",
+						"count": 64
+					}
+				]
+            }
+        }
+    }
+}

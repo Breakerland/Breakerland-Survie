@@ -4,7 +4,7 @@
             "item": "minecraft:red_bed"
         },
         "title": {"translate":"Sweet dreams"},
-        "description": {"translate":"Change your respawn point"}
+        "description": {"translate":"Sleep in a bed to change your respawn point"}
     },
     "parent": "blazeandcave:building/your_door_was_locked",
     "rewards": {

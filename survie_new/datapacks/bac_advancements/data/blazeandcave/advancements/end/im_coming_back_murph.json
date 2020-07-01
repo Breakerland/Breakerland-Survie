@@ -7,7 +7,7 @@
         "description": {"translate":"Travel far into the End dimension"},
         "frame": "goal"
     },
-    "parent": "blazeandcave:end/void_walker",
+    "parent": "blazeandcave:end/in_your_face_neil_armstrong",
     "rewards": {
         "function": "bc_rewards:end/im_coming_back_murph"
     },		

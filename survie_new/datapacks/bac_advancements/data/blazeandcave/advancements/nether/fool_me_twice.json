@@ -7,7 +7,7 @@
         "description": {"translate":"Completely use up a netherite hoe. Clearly you have chosen... poorly"},
         "frame": "challenge"
     },
-    "parent": "blazeandcave:nether/a_knight_to_nether_forget",
+    "parent": "blazeandcave:nether/soul_runnings",
     "rewards": {
 		"experience": 200,
 		"function": "bc_rewards:nether/fool_me_twice"

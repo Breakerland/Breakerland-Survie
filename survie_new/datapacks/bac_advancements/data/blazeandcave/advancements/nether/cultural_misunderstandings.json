@@ -6,7 +6,7 @@
         "title": {"translate":"Cultural Misunderstandings"},
         "description": {"translate":"Slay a Piglin in battle... or an accidental incursion"}
     },
-    "parent": "blazeandcave:nether/what_a_fungi",
+    "parent": "minecraft:nether/distract_piglin",
     "rewards": {
         "function": "bc_rewards:nether/cultural_misunderstandings"
     },		

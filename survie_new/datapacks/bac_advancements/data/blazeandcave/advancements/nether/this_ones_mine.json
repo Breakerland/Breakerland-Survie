@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:saddle"
+        },
+        "title": {"translate":"This One’s Mine!"},
+        "description": {"translate":"Kill a Zombified Piglin that is riding a Strider and take its steed"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:nether/bobbleheads",
+	"rewards": {
+		"experience": 50,
+		"function": "bc_rewards:nether/this_ones_mine"
+    },	
+    "criteria": {
+        "zombified_piglin": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "zombified_piglin",
+					"nbt": "{Tags:[\"strider_jockey\"]}"
+                }
+            }
+        },
+        "on_a_strider": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

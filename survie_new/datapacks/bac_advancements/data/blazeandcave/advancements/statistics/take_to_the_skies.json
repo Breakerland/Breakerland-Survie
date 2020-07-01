@@ -4,7 +4,7 @@
             "item": "minecraft:phantom_membrane"
         },
         "title": {"translate":"Take to the Skies"},
-        "description": {"translate":"Fly 1km with elytra"},
+        "description": {"translate":"Fly 10km with elytra"},
 		"frame": "goal"
     },
     "parent": "blazeandcave:statistics/root",
@@ -14,7 +14,22 @@
     },		
     "criteria": {
         "trigger": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"stats": [
+							{
+								"type": "minecraft:custom",
+								"stat": "minecraft:aviate_one_cm",
+								"value": {
+									"min": 1000000
+								}
+							}
+						]
+					}
+				}
+			}
         }
     }
 }

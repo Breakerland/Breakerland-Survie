@@ -5,10 +5,11 @@
         },
         "title": {"translate":"Anchorman"},
         "description": {"translate":"Craft a Respawn Anchor using Crying Obsidian and Glowstone then place it down"},
-		"frame": "goal"
+		"frame": "task"
     },
-    "parent": "blazeandcave:nether/radioactive",
+    "parent": "minecraft:nether/obtain_crying_obsidian",
 	"rewards": {
+		"experience": 50,
 		"function": "bc_rewards:nether/anchorman"
     },		
     "criteria": {

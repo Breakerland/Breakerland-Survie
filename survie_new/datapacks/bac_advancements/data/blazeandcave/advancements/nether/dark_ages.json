@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:blackstone"
+        },
+        "title": {"translate":"Dark Ages"},
+        "description": {"translate":"Mine Blackstone from a Basalt Deltas biome"}
+    },
+    "parent": "blazeandcave:nether/dont_step_on_it",
+	"rewards": {
+		"function": "bc_rewards:nether/dark_ages"
+    },		
+    "criteria": {
+        "blackstone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:blackstone"
+                    }
+                ]
+            }
+        }
+    }
+}

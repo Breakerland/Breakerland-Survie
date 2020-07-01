@@ -5,8 +5,7 @@
         },
         "title": {"translate":"Voyage"},
         "description": {"translate":"A hundred kilometres!"},
-        "frame": "challenge",
-		"hidden": "true"
+        "frame": "challenge"
     },
     "parent": "blazeandcave:biomes/ten_thousand_blocks",
     "rewards": {

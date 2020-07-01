@@ -6,7 +6,7 @@
         "title": {"translate":"Grave Robber"},
         "description": {"translate":"Enter a pyramid in a desert"}
     },
-    "parent": "minecraft:adventure/root",
+    "parent": "blazeandcave:adventure/now_youre_thinking_with_portals",
     "rewards": {
         "function": "bc_rewards:adventure/grave_robber"
     },		

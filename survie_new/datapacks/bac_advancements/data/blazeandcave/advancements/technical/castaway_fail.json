@@ -311,6 +311,14 @@
                     "item": "minecraft:milk_bucket"
                 }
             }
+        },
+        "honey_bottle": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:honey_bottle"
+                }
+            }
         }
     },
 	"requirements": [
@@ -353,7 +361,8 @@
 			"suspicious_stew",
 			"sweet_berries",
 			"potion",
-			"milk_bucket"
+			"milk_bucket",
+			"honey_bottle"
 		]
 	]
 }

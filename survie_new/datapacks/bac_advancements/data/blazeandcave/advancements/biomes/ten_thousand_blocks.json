@@ -5,7 +5,7 @@
         },
         "title": {"translate":"Ten Thousand Blocks"},
         "description": {"translate":"A journey that long begins with a single step"},
-        "frame": "challenge"
+        "frame": "goal"
     },
     "parent": "blazeandcave:biomes/kilometre_walk",
     "rewards": {

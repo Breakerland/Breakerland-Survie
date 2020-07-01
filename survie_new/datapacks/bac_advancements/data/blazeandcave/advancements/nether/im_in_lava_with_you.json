@@ -7,7 +7,7 @@
         "description": {"translate":"Hit something while you and it are in lava"},
 		"frame": "goal"
     },
-    "parent": "blazeandcave:nether/dont_step_on_it",
+    "parent": "blazeandcave:nether/nugget_in_a_biscuit",
     "rewards": {
 		"experience": 100,
         "function": "bc_rewards:nether/im_in_lava_with_you"

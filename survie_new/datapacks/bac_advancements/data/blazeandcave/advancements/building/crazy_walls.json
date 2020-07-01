@@ -151,6 +151,36 @@
                     }
                 ]
             }
+        },
+        "blackstone_wall": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:blackstone_wall"
+                    }
+                ]
+            }
+        },
+        "polished_blackstone_wall": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:polished_blackstone_wall"
+                    }
+                ]
+            }
+        },
+        "polished_blackstone_brick_wall": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:polished_blackstone_brick_wall"
+                    }
+                ]
+            }
         }
 	}		
 }

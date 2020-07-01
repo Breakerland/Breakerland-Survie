@@ -10,6 +10,7 @@
     },
     "parent": "blazeandcave:combat/melting",
 	"rewards": {
+		"experience": 100,
 		"function": "bc_rewards:combat/bone_to_party"
     },
     "criteria": {

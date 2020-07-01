@@ -132,6 +132,22 @@
           "type": "minecraft:bee"
         }
       }
+    },
+    "minecraft:hoglin": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "minecraft:hoglin"
+        }
+      }
+    },
+    "minecraft:strider": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "minecraft:strider"
+        }
+      }
     }
   },
   "requirements": [
@@ -179,6 +195,12 @@
     ],
     [
       "minecraft:bee"
+    ],
+    [
+      "minecraft:hoglin"
+    ],
+    [
+      "minecraft:strider"
     ]
   ]
 }

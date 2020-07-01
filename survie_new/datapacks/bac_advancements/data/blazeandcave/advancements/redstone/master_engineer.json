@@ -90,6 +90,17 @@
                 ]
             }
         },
+        "polished_blackstone_pressure_plate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:polished_blackstone_pressure_plate",
+						"count": 64
+                    }
+                ]
+            }
+        },
         "oak_pressure_plate": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
@@ -156,6 +167,28 @@
                 ]
             }
         },
+        "crimson_pressure_plate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:crimson_pressure_plate",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "warped_pressure_plate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:warped_pressure_plate",
+						"count": 64
+                    }
+                ]
+            }
+        },
         "redstone_torch": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
@@ -177,7 +210,18 @@
                     }
                 ]
             }
-        },		
+        },
+        "polished_blackstone_button": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:polished_blackstone_button",
+						"count": 64
+                    }
+                ]
+            }
+        },
         "oak_trapdoor": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
@@ -244,6 +288,28 @@
                 ]
             }
         },
+        "crimson_trapdoor": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:crimson_trapdoor",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "warped_trapdoor": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:warped_trapdoor",
+						"count": 64
+                    }
+                ]
+            }
+        },
         "oak_fence_gate": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
@@ -305,6 +371,28 @@
                 "items": [
                     {
                         "item": "minecraft:dark_oak_fence_gate",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "crimson_fence_gate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:crimson_fence_gate",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "warped_fence_gate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:warped_fence_gate",
 						"count": 64
                     }
                 ]
@@ -393,6 +481,28 @@
                 "items": [
                     {
                         "item": "minecraft:dark_oak_button",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "crimson_button": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:crimson_button",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "warped_button": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:warped_button",
 						"count": 64
                     }
                 ]
@@ -574,6 +684,28 @@
                 ]
             }
         },
+        "crimson_door": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:crimson_door",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "warped_door": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:warped_door",
+						"count": 64
+                    }
+                ]
+            }
+        },
         "repeater": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
@@ -613,6 +745,17 @@
                 "items": [
                     {
                         "item": "minecraft:lectern",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "target": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:target",
 						"count": 64
                     }
                 ]

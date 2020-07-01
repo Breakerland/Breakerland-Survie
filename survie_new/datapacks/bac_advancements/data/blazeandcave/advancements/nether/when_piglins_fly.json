@@ -9,7 +9,7 @@
     },
     "parent": "blazeandcave:nether/we_got_a_live_one",
     "rewards": {
-        "function": "bc_rewards:combat/when_piglins_fly",
+        "function": "bc_rewards:nether/when_piglins_fly",
 		"experience": 100
     },		
     "criteria": {

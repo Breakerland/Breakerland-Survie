@@ -319,12 +319,6 @@
                 "biome": "minecraft:modified_jungle"
             }
         },
-        "mutated_jungle_edge": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "biome": "minecraft:modified_jungle_edge"
-            }
-        },
         "mutated_birch_forest": {
             "trigger": "minecraft:location",
             "conditions": {

@@ -32,11 +32,11 @@
                 }
             }
         },
-        "zombie_pigman": {
+        "zombified_piglin": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
-                    "type": "zombie_pigman",
+                    "type": "zombified_piglin",
 					"nbt": "{ArmorItems:[{},{},{},{id:\"minecraft:jack_o_lantern\",Count:1b}]}"
                 }
             }
@@ -91,7 +91,7 @@
 		[
 		"zombie",
 		"zombie_villager",
-		"zombie_pigman",
+		"zombified_piglin",
 		"husk",
 		"drowned",
 		"skeleton",

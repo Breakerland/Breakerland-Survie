@@ -1,0 +1,134 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:rabbit"
+        },
+        "title": {"translate":"Delicious, Hot Schmoes!"},
+        "description": {"translate":"Place every type of cookable food on a campfire"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:mining/camping_out",
+    "rewards": {
+        "experience": 50,
+		"function": "bc_rewards:mining/delicious_hot_schmoes"
+    },		
+    "criteria": {
+		"porkchop": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "minecraft:campfires"
+					}
+				},
+				"item": {
+					"item": "minecraft:porkchop"
+				}
+			}
+		},
+        "beef": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "minecraft:campfires"
+					}
+				},
+				"item": {
+					"item": "minecraft:beef"
+				}
+			}
+		},
+        "chicken": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "minecraft:campfires"
+					}
+				},
+				"item": {
+					"item": "minecraft:chicken"
+				}
+			}
+		},
+        "cod": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "minecraft:campfires"
+					}
+				},
+				"item": {
+					"item": "minecraft:cod"
+				}
+			}
+		},
+        "salmon": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "minecraft:campfires"
+					}
+				},
+				"item": {
+					"item": "minecraft:salmon"
+				}
+			}
+		},
+        "potato": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "minecraft:campfires"
+					}
+				},
+				"item": {
+					"item": "minecraft:potato"
+				}
+			}
+		},
+        "mutton": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "minecraft:campfires"
+					}
+				},
+				"item": {
+					"item": "minecraft:mutton"
+				}
+			}
+		},
+        "rabbit": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "minecraft:campfires"
+					}
+				},
+				"item": {
+					"item": "minecraft:rabbit"
+				}
+			}
+		},
+        "kelp": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "minecraft:campfires"
+					}
+				},
+				"item": {
+					"item": "minecraft:kelp"
+				}
+			}
+		}
+	}	
+}

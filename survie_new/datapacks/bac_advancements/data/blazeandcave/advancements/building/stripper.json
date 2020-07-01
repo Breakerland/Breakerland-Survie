@@ -4,7 +4,7 @@
             "item": "minecraft:stripped_jungle_log"
         },
         "title": {"translate":"Stripper"},
-        "description": {"translate":"Strip the bark off of all six types of logs then pick them up"},
+        "description": {"translate":"Strip the bark off of all six types of logs"},
 		"frame": "goal"
     },
     "parent": "blazeandcave:building/yay_i_got_my_wood",
@@ -13,64 +13,82 @@
     },		
     "criteria": {
         "stripped_oak_log": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:stripped_oak_log"
-                    }
-                ]
-            }
-        },
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"block": "minecraft:stripped_oak_log"
+					}
+				},
+				"item": {
+					"tag": "minecraft:axes"
+				}
+			}
+		},
         "stripped_spruce_log": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:stripped_spruce_log"
-                    }
-                ]
-            }
-        },
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"block": "minecraft:stripped_spruce_log"
+					}
+				},
+				"item": {
+					"tag": "minecraft:axes"
+				}
+			}
+		},
         "stripped_birch_log": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:stripped_birch_log"
-                    }
-                ]
-            }
-        },
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"block": "minecraft:stripped_birch_log"
+					}
+				},
+				"item": {
+					"tag": "minecraft:axes"
+				}
+			}
+		},
         "stripped_jungle_log": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:stripped_jungle_log"
-                    }
-                ]
-            }
-        },
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"block": "minecraft:stripped_jungle_log"
+					}
+				},
+				"item": {
+					"tag": "minecraft:axes"
+				}
+			}
+		},
         "stripped_acacia_log": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:stripped_acacia_log"
-                    }
-                ]
-            }
-        },
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"block": "minecraft:stripped_acacia_log"
+					}
+				},
+				"item": {
+					"tag": "minecraft:axes"
+				}
+			}
+		},
         "stripped_dark_oak_log": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:stripped_dark_oak_log"
-                    }
-                ]
-            }
-        }
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"block": "minecraft:stripped_dark_oak_log"
+					}
+				},
+				"item": {
+					"tag": "minecraft:axes"
+				}
+			}
+		}
 	}		
 }

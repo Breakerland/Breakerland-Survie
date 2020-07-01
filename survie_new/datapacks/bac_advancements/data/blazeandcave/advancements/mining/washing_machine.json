@@ -12,8 +12,44 @@
 		"function": "bc_rewards:mining/washing_machine"
     },
     "criteria": {
-        "chestful_of_cobblestone": {
-            "trigger": "minecraft:impossible"
-        }
+        "clean_leather_armor": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"block": "minecraft:cauldron"
+					}
+				},
+				"item": {
+					"tag": "minecraft:leather_armor"
+				}
+			}
+		},
+        "clean_banner": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"block": "minecraft:cauldron"
+					}
+				},
+				"item": {
+					"tag": "minecraft:banners"
+				}
+			}
+		},
+        "clean_shulker_box": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"block": "minecraft:cauldron"
+					}
+				},
+				"item": {
+					"tag": "minecraft:shulker_boxes"
+				}
+			}
+		}
     }
 }

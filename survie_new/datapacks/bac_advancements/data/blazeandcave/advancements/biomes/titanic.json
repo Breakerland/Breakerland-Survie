@@ -13,12 +13,25 @@
         "function": "bc_rewards:biomes/titanic"
     },		
     "criteria": {
-        "iceberg": {
+        "iceberg_deep": {
             "trigger": "minecraft:location",
             "conditions": {
                 "feature": "shipwreck",
                 "biome": "minecraft:deep_frozen_ocean"
             }
+        },
+        "iceberg": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "shipwreck",
+                "biome": "minecraft:frozen_ocean"
+            }
         }
-    }	
+    },
+	"requirements": [
+		[
+			"iceberg_deep",
+			"iceberg"
+		]
+	]
 }

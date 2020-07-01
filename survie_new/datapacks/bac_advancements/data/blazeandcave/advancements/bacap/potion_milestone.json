@@ -14,79 +14,316 @@
     },		
     "criteria": {
         "a_furious_cocktail": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"minecraft:nether/all_potions": "true"
+						}
+					}
+				}
+			}
         },
         "a_furious_test_subject": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:potion/a_furious_test_subject": "true"
+						}
+					}
+				}
+			}
         },
 		"a_much_more_doable_challenge": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:potion/a_much_more_doable_challenge": "true"
+						}
+					}
+				}
+			}
         },
 		"a_weak_brew": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:potion/a_weak_brew": "true"
+						}
+					}
+				}
+			}
         },
 		"death_by_magic": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:potion/death_by_magic": "true"
+						}
+					}
+				}
+			}
         },
 		"furious_ammunition": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:potion/furious_ammunition": "true"
+						}
+					}
+				}
+			}
         },
 		"gas": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:potion/gas": "true"
+						}
+					}
+				}
+			}
         },
 		"hopping_mad": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:potion/hopping_mad": "true"
+						}
+					}
+				}
+			}
         },
 		"how_did_we_get_here": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"minecraft:nether/all_effects": "true"
+						}
+					}
+				}
+			}
         },
 		"hyper_healing": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:potion/hyper_healing": "true"
+						}
+					}
+				}
+			}
         },
 		"i_need_healing": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:potion/i_need_healing": "true"
+						}
+					}
+				}
+			}
         },
 		"mad_scientist": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:potion/mad_scientist": "true"
+						}
+					}
+				}
+			}
         },
 		"marine_marauder": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:potion/marine_marauder": "true"
+						}
+					}
+				}
+			}
         },
 		"nocturnal": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:potion/nocturnal": "true"
+						}
+					}
+				}
+			}
         },
 		"noxious_fumes": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:potion/noxious_fumes": "true"
+						}
+					}
+				}
+			}
         },
 		"performance_enhancing_drugs": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:potion/performance_enhancing_drugs": "true"
+						}
+					}
+				}
+			}
         },
 		"poison_dart": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:potion/poison_dart": "true"
+						}
+					}
+				}
+			}
         },
 		"root": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:potion/root": "true"
+						}
+					}
+				}
+			}
         },
 		"stayin_frosty": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:potion/stayin_frosty": "true"
+						}
+					}
+				}
+			}
         },
 		"super_strength": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:potion/super_strength": "true"
+						}
+					}
+				}
+			}
         },
 		"tank": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:potion/tank": "true"
+						}
+					}
+				}
+			}
         },
 		"the_invisible_player": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:potion/the_invisible_player": "true"
+						}
+					}
+				}
+			}
         },
 		"true_feather_falling": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:potion/true_feather_falling": "true"
+						}
+					}
+				}
+			}
         },
 		"you_need_a_mint": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"minecraft:end/dragon_breath": "true"
+						}
+					}
+				}
+			}
         },
 		"zombie_doctor": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"minecraft:story/cure_zombie_villager": "true"
+						}
+					}
+				}
+			}
+        },
+		"failed_concoctions": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:potion/failed_concoctions": "true"
+						}
+					}
+				}
+			}
         }
     }
 }

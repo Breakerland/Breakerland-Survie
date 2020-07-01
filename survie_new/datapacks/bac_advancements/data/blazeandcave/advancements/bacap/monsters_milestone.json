@@ -14,193 +14,808 @@
     },		
     "criteria": {
         "a_watery_grave": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/a_watery_grave": "true"
+						}
+					}
+				}
+			}
         },
         "anti_air": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/anti_air": "true"
+						}
+					}
+				}
+			}
         },
 		"aww_man": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/aww_man": "true"
+						}
+					}
+				}
+			}
         },
 		"baby_baby_baby_noo": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/baby_baby_baby_noo": "true"
+						}
+					}
+				}
+			}
         },
 		"because_im_aquaman": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/because_im_aquaman": "true"
+						}
+					}
+				}
+			}
         },
 		"blast_shield": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/blast_shield": "true"
+						}
+					}
+				}
+			}
         },
 		"boned": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/boned": "true"
+						}
+					}
+				}
+			}
         },
 		"camouflage": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/camouflage": "true"
+						}
+					}
+				}
+			}
         },
 		"captain_etho": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/captain_etho": "true"
+						}
+					}
+				}
+			}
         },
 		"creeper_killer": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/creeper_killer": "true"
+						}
+					}
+				}
+			}
         },
 		"creepy_heads": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/creepy_heads": "true"
+						}
+					}
+				}
+			}
         },
 		"custom_boss_fight": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/custom_boss_fight": "true"
+						}
+					}
+				}
+			}
         },
 		"dead_dont_die": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/dead_dont_die": "true"
+						}
+					}
+				}
+			}
         },
 		"desert_nomad": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/desert_nomad": "true"
+						}
+					}
+				}
+			}
         },
 		"dungeon_crawler": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/dungeon_crawler": "true"
+						}
+					}
+				}
+			}
         },
 		"ender_worm": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/ender_worm": "true"
+						}
+					}
+				}
+			}
         },
 		"enderman_destroyer": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/enderman_destroyer": "true"
+						}
+					}
+				}
+			}
         },
 		"ew_ew_ew": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/ew_ew_ew": "true"
+						}
+					}
+				}
+			}
         },
 		"freezing": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/freezing": "true"
+						}
+					}
+				}
+			}
         },
 		"frosty": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/frosty": "true"
+						}
+					}
+				}
+			}
         },
 		"gelatinous_cube": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/gelatinous_cube": "true"
+						}
+					}
+				}
+			}
         },
 		"handsome_jack": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/handsome_jack": "true"
+						}
+					}
+				}
+			}
         },
 		"hell_hunter": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/hell_hunter": "true"
+						}
+					}
+				}
+			}
         },
 		"iron_belly": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/iron_belly": "true"
+						}
+					}
+				}
+			}
         },
 		"iskallium_collector": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/iskallium_collector": "true"
+						}
+					}
+				}
+			}
         },
 		"keep_your_distance": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/keep_your_distance": "true"
+						}
+					}
+				}
+			}
         },
 		"legend_of_the_hell_chicken_rider": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/legend_of_the_hell_chicken_rider": "true"
+						}
+					}
+				}
+			}
         },
 		"melting": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/melting": "true"
+						}
+					}
+				}
+			}
         },
 		"mollusc_man": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/mollusc_man": "true"
+						}
+					}
+				}
+			}
         },
 		"monster_hunter": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"minecraft:adventure/kill_a_mob": "true"
+						}
+					}
+				}
+			}
         },
 		"monsters_hunted": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"minecraft:adventure/kill_all_mobs": "true"
+						}
+					}
+				}
+			}
         },
 		"night_runner": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/night_runner": "true"
+						}
+					}
+				}
+			}
         },
 		"not_today_thank_you": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"minecraft:story/deflect_arrow": "true"
+						}
+					}
+				}
+			}
         },
 		"ooh_baby": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/ooh_baby": "true"
+						}
+					}
+				}
+			}
         },
 		"phantom_slayer": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/phantom_slayer": "true"
+						}
+					}
+				}
+			}
         },
 		"plane_walker": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/plane_walker": "true"
+						}
+					}
+				}
+			}
         },
 		"poisonous_ew": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/poisonous_ew": "true"
+						}
+					}
+				}
+			}
         },
 		"ricochet_swoop": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/ricochet_swoop": "true"
+						}
+					}
+				}
+			}
         },
 		"root": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/root": "true"
+						}
+					}
+				}
+			}
         },
 		"skeleton_smiter": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/skeleton_smiter": "true"
+						}
+					}
+				}
+			}
         },
 		"slime_squisher": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/slime_squisher": "true"
+						}
+					}
+				}
+			}
         },
 		"spider_skeleton": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/spider_skeleton": "true"
+						}
+					}
+				}
+			}
         },
 		"spider_smasher": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/spider_smasher": "true"
+						}
+					}
+				}
+			}
         },
 		"spooky_skeleton": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/spooky_skeleton": "true"
+						}
+					}
+				}
+			}
         },
 		"spooky_skulls": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/spooky_skulls": "true"
+						}
+					}
+				}
+			}
         },
 		"still_talking": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/still_talking": "true"
+						}
+					}
+				}
+			}
         },
 		"taste_of_your_own_medicine": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/taste_of_your_own_medicine": "true"
+						}
+					}
+				}
+			}
         },
 		"tele_morph": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/tele_morph": "true"
+						}
+					}
+				}
+			}
         },
 		"termite_control": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/termite_control": "true"
+						}
+					}
+				}
+			}
         },
 		"the_ender_of_ender": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/the_ender_of_ender": "true"
+						}
+					}
+				}
+			}
         },
 		"the_ghastly_eyes": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/the_ghastly_eyes": "true"
+						}
+					}
+				}
+			}
         },
 		"the_phantom_menace": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/the_phantom_menace": "true"
+						}
+					}
+				}
+			}
         },
 		"the_undead_cavalry": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/the_undead_cavalry": "true"
+						}
+					}
+				}
+			}
         },
 		"there_has_to_be_another_way": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/there_has_to_be_another_way": "true"
+						}
+					}
+				}
+			}
         },
 		"trampoline": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/trampoline": "true"
+						}
+					}
+				}
+			}
         },
 		"trick_or_treat": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/trick_or_treat": "true"
+						}
+					}
+				}
+			}
         },
 		"tridented_shield": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/tridented_shield": "true"
+						}
+					}
+				}
+			}
         },
 		"two_birds_one_arrow": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"minecraft:adventure/two_birds_one_arrow": "true"
+						}
+					}
+				}
+			}
         },
 		"void_ender": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/void_ender": "true"
+						}
+					}
+				}
+			}
         },
 		"well_handle_this": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/well_handle_this": "true"
+						}
+					}
+				}
+			}
         },
 		"what_a_creep": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/what_a_creep": "true"
+						}
+					}
+				}
+			}
         },
 		"witch": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/witch": "true"
+						}
+					}
+				}
+			}
         },
 		"zombie_slayer": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/zombie_slayer": "true"
+						}
+					}
+				}
+			}
+        },
+		"paleontologist": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/paleontologist": "true"
+						}
+					}
+				}
+			}
+        },
+		"impossible": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/impossible": "true"
+						}
+					}
+				}
+			}
+        },
+		"family_reunion": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/family_reunion": "true"
+						}
+					}
+				}
+			}
+        },
+		"bone_to_party": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/bone_to_party": "true"
+						}
+					}
+				}
+			}
         }
     }
 }

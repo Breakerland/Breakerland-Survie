@@ -4,7 +4,7 @@
             "item": "minecraft:nautilus_shell"
         },
         "title": {"translate":"Mollusc Man"},
-        "description": {"translate":"Defeat a Drowned holding a nautilus shell"},
+        "description": {"translate":"Defeat a Drowned that is holding a nautilus shell"},
 		"frame": "goal"
     },
     "parent": "blazeandcave:combat/a_watery_grave",

@@ -101,7 +101,25 @@
                     }
                 }
             }
-        }		
+        },
+        "ghast_netherite": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "ghast",
+					"distance": {
+						"absolute": {
+							"max": 5
+						}
+					}
+                },
+                "killing_blow": {
+                    "source_entity": {
+                        "nbt": "{SelectedItem:{id:\"minecraft:netherite_sword\",}}"
+                    }
+                }
+            }
+        }
     },
     "requirements": [
 		[
@@ -109,7 +127,8 @@
         "ghast_stone",
 		"ghast_iron",
 		"ghast_gold",
-		"ghast_diamond"
+		"ghast_diamond",
+		"ghast_netherite"
 		]
     ]
 }

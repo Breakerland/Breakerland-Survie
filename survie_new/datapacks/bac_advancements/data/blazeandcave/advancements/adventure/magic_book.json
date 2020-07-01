@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:enchanted_book"
         },
-        "title": {"translate":"Magic Book"},
+        "title": {"translate":"Knowledge is Power"},
         "description": {"translate":"Trade for an Enchanted Book"}
     },
     "parent": "minecraft:adventure/trade",

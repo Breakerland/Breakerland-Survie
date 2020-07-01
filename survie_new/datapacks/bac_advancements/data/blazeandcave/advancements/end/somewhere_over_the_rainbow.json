@@ -7,7 +7,7 @@
         "description": {"translate":"Craft all 16 shulker box types"},
 		"frame": "goal"
     },
-    "parent": "blazeandcave:end/portable_storage",
+    "parent": "blazeandcave:end/organizational_wizard",
     "rewards": {
 		"function": "bc_rewards:end/somewhere_over_the_rainbow"
     },		

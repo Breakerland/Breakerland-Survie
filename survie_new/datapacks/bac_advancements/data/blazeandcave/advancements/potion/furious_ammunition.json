@@ -199,7 +199,18 @@
                     }
                 ]
             }
-        },		
+        },
+        "strong_slowness": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:tipped_arrow",
+						"potion": "minecraft:strong_slowness"
+                    }
+                ]
+            }
+        },
         "water_breathing": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {

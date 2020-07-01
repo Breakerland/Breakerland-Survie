@@ -7,7 +7,7 @@
         "description": {"translate":"Defeat the Ender Dragon while wearing a dragon head... without touching the ground"},
 		"frame": "challenge"
     },
-    "parent": "blazeandcave:challenges/im_in_space",
+    "parent": "blazeandcave:challenges/ad_astra",
 	"rewards": {
 		"experience": 500,
 		"function": "bc_rewards:challenges/dragon_vs_dragon_ii_electric_boogaloo"

@@ -6,7 +6,7 @@
         "title": {"translate":"Giant Floating Jellyfish"},
         "description": {"translate":"Shoot down a ghast"}
     },
-    "parent": "minecraft:nether/root",
+    "parent": "blazeandcave:nether/the_tribal_snouts",
     "rewards": {
         "function": "bc_rewards:nether/giant_floating_jellyfish"
     },		

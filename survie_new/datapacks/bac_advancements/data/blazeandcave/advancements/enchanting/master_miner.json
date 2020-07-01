@@ -19,7 +19,7 @@
             "conditions": {
 				"items": [
                     {
-                        "item": "minecraft:diamond_pickaxe",
+                        "tag": "blazeandcave:master_pickaxes",
 						"enchantments": [
 							{
 								"enchantment": "minecraft:efficiency",
@@ -47,7 +47,7 @@
             "conditions": {
 				"items": [
                     {
-                        "item": "minecraft:diamond_pickaxe",
+                        "tag": "blazeandcave:master_pickaxes",
 						"enchantments": [
 							{
 								"enchantment": "minecraft:efficiency",

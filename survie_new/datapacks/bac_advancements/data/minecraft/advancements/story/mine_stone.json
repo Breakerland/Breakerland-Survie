@@ -20,6 +20,22 @@
                     }
                 ]
             }
+        },
+        "blackstone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:blackstone"
+                    }
+                ]
+            }
         }
-    }
+    },
+	"requirements": [
+		[
+			"cobblestone",
+			"blackstone"
+		]
+	]
 }
