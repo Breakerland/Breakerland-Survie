@@ -24,13 +24,15 @@ settings:
   shutdown-message: Arrêt du serveur
   minimum-api: none
 spawn-limits:
+  water-ambient: 20
   monsters: 15
   animals: 10
   water-animals: 3
   ambient: 2
 chunk-gc:
-  period-in-ticks: 400
+  period-in-ticks: 2400
 ticks-per:
+  water-ambient-spawns: 1
   water-spawns: 1
   ambient-spawns: 1
   animal-spawns: 8

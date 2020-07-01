@@ -13,6 +13,8 @@
 command-block-overrides: []
 ignore-vanilla-permissions: false
 aliases:
+  icanhasbukkit:
+  - version $1-
   changelog:
   - customtext changelog $1-
   liens:
@@ -26,6 +28,8 @@ aliases:
   rankup:
   - menu grades
   lag:
+  - spigot:tps
+  gc:
   - spigot:tps
   help:
   - essentials:help $1-
@@ -65,6 +69,8 @@ aliases:
   - pweather $1-
   time:
   - ptime $1-
+  setspawn:
+  - sethome home
   lp:
   - []
   luckperms:

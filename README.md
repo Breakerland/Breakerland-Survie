@@ -11,11 +11,14 @@ Cependant tous les fichiers de configuration restent disponible à la modificati
 
 ## Variables
 
-### RCON properties
+### Propriétés serveur
 Pour les identifiants du Bot Discord BreakerBot, veuillez utiliser les variables suivantes :
 ```bash
-Port: '$rcon_port'
-Password: '$rcon_password'
+Server ip: '$server_ip'
+Server port: '$server_port'
+Query port: '$query_port'
+RCON port: '$rcon_port'
+RCON password: '$rcon_password'
 ```
 
 ### Base de donnée
