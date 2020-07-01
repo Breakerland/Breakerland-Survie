@@ -374,7 +374,7 @@ Config:
       - GUNPOWDER;6;&7&lPoudre Magique
       - STICK;12;&7&lBâton en Chêne Noir
       category: matos
-    branche_d'acajou:
+    branche_d_acajou:
       id: STICK
       amount: '1'
       durability: '0'
@@ -396,7 +396,7 @@ Config:
       - GUNPOWDER;6;&7&lPoudre Magique
       - WATER_BUCKET;1;&7&lEau Purifié
       category: matos
-    branche_d'acacia:
+    branche_d_acacia:
       id: STICK
       amount: '1'
       durability: '0'
@@ -447,7 +447,7 @@ Config:
       requires:
       - STONE_SWORD;1
       - EXPERIENCE_BOTTLE;2
-      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
       - COBBLESTONE;64
       - BOOK;2;&2&lLivre
       - GUNPOWDER;5;&7&lPoudre Magique
@@ -473,7 +473,7 @@ Config:
       - STONE_SWORD;1
       - IRON_SWORD;1
       - EXPERIENCE_BOTTLE;12
-      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
       - IRON_INGOT;64
       - BOOK;4;&2&lLivre
       - GUNPOWDER;10;&7&lPoudre Magique
@@ -502,7 +502,7 @@ Config:
       unbreakable: 'false'
       requires:
       - GUNPOWDER;10;&7&lPoudre Magique
-      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
       - BOOK;1;&2&lLivre
       - WATER_BUCKET;1;&2&lEau Magique
       - LANTERN;2
@@ -531,7 +531,7 @@ Config:
       - IRON_SWORD;1
       - STONE_SWORD;1
       - EXPERIENCE_BOTTLE;32
-      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
       - GOLD_INGOT;64
       - BOOK;8;&2&lLivre
       - GUNPOWDER;20;&7&lPoudre Magique
@@ -583,7 +583,7 @@ Config:
       - DIAMOND;2;&c&lDiamant Impeccable
       - PURPLE_DYE;1;&c&lAméthiste Impaccable
       - WRITABLE_BOOK;1;&c&lLivre pour une création Légendaire
-      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
       - GUNPOWDER;40;&7&lPoudre Magique
       - LANTERN;1;&3&lAmpoule de Génie
       - CONDUIT;1
@@ -724,7 +724,7 @@ Config:
       - WRITABLE_BOOK;1;&c&lLivre pour une création Légendaire
       - ARROW;8;&c&lFlèche Magistrale
       - LANTERN;1;&3&lAmpoule de Génie
-      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
       - WATER_BUCKET;1;&2&lEau Magique
       - STICK;32;&2&lBranche de Bouleau
       - GUNPOWDER;40;&7&lPoudre Magique
@@ -743,7 +743,7 @@ Config:
       - EMERALD;1;&7&lÉmeraude
       - PURPLE_DYE;1;&7&lAméthiste
       - REDSTONE;1;&7&lRubis
-      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
       - WATER_BUCKET;1;&2&lEau Magique
       - GUNPOWDER;12;&7&lPoudre Magique
       category: matos
@@ -766,7 +766,7 @@ Config:
       - GUNPOWDER;5;&7&lPoudre Magique
       - EMERALD;1;&7&lÉmeraude
       - BOOK;2;&2&lLivre
-      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
       category: weapons_armor
     paras:
       id: IRON_AXE
@@ -789,7 +789,7 @@ Config:
       - GUNPOWDER;10;&7&lPoudre Magique
       - EMERALD;1;&2&lÉmeraude Poli
       - BOOK;4;&2&lLivre
-      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
       - EXPERIENCE_BOTTLE;16
       category: weapons_armor
     parash:
@@ -814,7 +814,7 @@ Config:
       - GOLDEN_AXE;1
       - GOLD_INGOT;64
       - GUNPOWDER;20;&7&lPoudre Magique
-      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
       - BOOK;8;&2&lLivre
       - PURPLE_DYE;2;&2&lAméthiste Polie
       - EMERALD;1;&3&lÉmeraude Radieux
@@ -853,7 +853,7 @@ Config:
       - WRITABLE_BOOK;1;&c&lLivre pour une création Légendaire
       - FIRE_CHARGE;1
       - EXPERIENCE_BOTTLE;64
-      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
       category: weapons_armor
     arbalete_de_la_foret:
       nbt:
@@ -907,7 +907,7 @@ Config:
       - PAPER;1;&3&lPlan d'Arbalète
       - EMERALD;2;&3&lÉmeraude Radieux
       - LANTERN;1;&3&lAmpoule de Génie
-      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
       - GUNPOWDER;20;&7&lPoudre Magique
       - ARROW;6;&3&lFlèche Magique
       - STRING;12;&2&lCorde tressée
@@ -946,7 +946,7 @@ Config:
       - FLINT;16;&7&lSilex Tranchant
       - FEATHER;16;&7&lPlume de Coq
       - GUNPOWDER;40;&7&lPoudre Magique
-      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
       - BOOK;12;&2&lLivre
       - GHAST_TEAR;3;&3&lLarme de Chimère
       - LANTERN;2;&3&lAmpoule de Génie
@@ -958,7 +958,6 @@ Config:
       category: weapons_armor
     globe_de_transformation:
       skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
-      skull-id: f4433911-e796-3c81-9d8d-010210e353d6
       id: PLAYER_HEAD
       amount: '1'
       durability: '0'
@@ -967,7 +966,7 @@ Config:
       unbreakable: 'false'
       requires:
       - GUNPOWDER;16;&7&lPoudre Magique
-      - PLAYER_HEAD;1;&7&lGlobe;&6Un globe vide sans;&6aucuns effets.;SKULL-OWNER:null;SKULL-ID:63424ee7-aff2-33e8-aeda-c44cca8dc788;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGQ0OGU3NWZmNTVjYjU3NTMzYzdiOTA0YmU4ODdhMzc0OTI1ZjkzODMyZjdhZTE2Yjc5MjM5ODdlOTcwIn19fQ==
+      - PLAYER_HEAD;1;&7&lGlobe;&6Un globe vide sans;&6aucuns effets.;SKULL-OWNER:null;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGQ0OGU3NWZmNTVjYjU3NTMzYzdiOTA0YmU4ODdhMzc0OTI1ZjkzODMyZjdhZTE2Yjc5MjM5ODdlOTcwIn19fQ==
       - BOOK;1;&2&lLivre
       - WATER_BUCKET;1;&2&lEau Magique
       category: matos
@@ -1029,7 +1028,7 @@ Config:
       - IRON_HOE;1;&2&lHoue en fer;&7Planter I;&6Une houe plutôt;&6récente.;ENCHANTS:DURABILITY,3
       - STONE_HOE;1;&7&l&7&lHoue en pierre;&6Une simple houe;&6faite de pierre.;ENCHANTS:DURABILITY,2
       - STICK;2;&2&lBranche de Bouleau
-      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
       - BOOK;8;&2&lLivre
       - GUNPOWDER;64;&7&lPoudre Magique
       - STRING;6;&2&lCorde tressée
@@ -1064,7 +1063,7 @@ Config:
       - IRON_HOE;1;&2&lHoue en fer;&7Planter I;&6Une houe plutôt;&6récente.;ENCHANTS:DURABILITY,3
       - STONE_HOE;1;&7&l&7&lHoue en pierre;&6Une simple houe;&6faite de pierre.;ENCHANTS:DURABILITY,2
       - STICK;4;&2&lBranche de Bouleau
-      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
       - WRITABLE_BOOK;1;&c&lLivre pour une création Légendaire
       - LANTERN;1;&3&lAmpoule de Génie
       - BONE;1;&c&lBras de Wither
@@ -1134,7 +1133,7 @@ Config:
       - IRON_SHOVEL;1;&2&lPelle en fer;&7Haste I;&6Une pelle plutôt;&6récente.;ENCHANTS:DIG_SPEED,2:DURABILITY,3
       - STONE_SHOVEL;1;&7&lPelle en pierre;&6Une simple pelle;&6faite de pierre.;ENCHANTS:DIG_SPEED,1:DURABILITY,2
       - STICK;2;&2&lBranche de Chêne
-      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
       - BOOK;8;&2&lLivre
       - GUNPOWDER;64;&7&lPoudre Magique
       - STRING;6;&2&lCorde tressée
@@ -1165,7 +1164,7 @@ Config:
       - IRON_SHOVEL;1;&2&lPelle en fer;&7Haste I;&6Une pelle plutôt;&6récente.;ENCHANTS:DIG_SPEED,2:DURABILITY,3
       - STONE_SHOVEL;1;&7&lPelle en pierre;&6Une simple pelle;&6faite de pierre.;ENCHANTS:DIG_SPEED,1:DURABILITY,2
       - STICK;4;&2&lBranche de Chêne
-      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
       - WRITABLE_BOOK;1;&c&lLivre pour une création Légendaire
       - LANTERN;1;&3&lAmpoule de Génie
       - PAPER;1;&3&lPlan de Pelle
@@ -1235,7 +1234,7 @@ Config:
       - IRON_AXE;1;&2&lHache en fer;&7Telepathy I;&6Une hache plutôt;&6récente.;ENCHANTS:DIG_SPEED,2:DURABILITY,3
       - STONE_AXE;1;&7&lHache en pierre;&6Une simple hache;&6faite de pierre.;ENCHANTS:DIG_SPEED,1:DURABILITY,2
       - STICK;2;&2&lBranche d'Acajou
-      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
       - BOOK;8;&2&lLivre
       - GUNPOWDER;64;&7&lPoudre Magique
       - STRING;6;&2&lCorde tressée
@@ -1266,7 +1265,7 @@ Config:
       - IRON_AXE;1;&2&lHache en fer;&7Telepathy I;&6Une hache plutôt;&6récente.;ENCHANTS:DIG_SPEED,2:DURABILITY,3
       - STONE_AXE;1;&7&lHache en pierre;&6Une simple hache;&6faite de pierre.;ENCHANTS:DIG_SPEED,1:DURABILITY,2
       - STICK;4;&2&lBranche d'Acajou
-      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
       - WRITABLE_BOOK;1;&c&lLivre pour une création Légendaire
       - LANTERN;1;&3&lAmpoule de Génie
       - CHARCOAL;1;&0Ecaille d'un Dragon;&6Une écaille très;&6rare, très utile.
@@ -1337,7 +1336,7 @@ Config:
       - IRON_PICKAXE;1;&2&lPioche en fer;&7Telepathy I;&6Une pioche;&6plutôt récente.;ENCHANTS:DIG_SPEED,2:DURABILITY,3
       - STONE_PICKAXE;1;&7&lPioche en pierre;&6Une simple pioche;&6faite en pierre.;ENCHANTS:DIG_SPEED,1:DURABILITY,2
       - STICK;2;&2&lBranche de Chêne Noir
-      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
       - BOOK;8;&2&lLivre
       - GUNPOWDER;64;&7&lPoudre Magique
       - STRING;6;&2&lCorde tressée
@@ -1368,7 +1367,7 @@ Config:
       - IRON_PICKAXE;1;&2&lPioche en fer;&7Telepathy I;&6Une pioche;&6plutôt récente.;ENCHANTS:DIG_SPEED,2:DURABILITY,3
       - STONE_PICKAXE;1;&7&lPioche en pierre;&6Une simple pioche;&6faite en pierre.;ENCHANTS:DIG_SPEED,1:DURABILITY,2
       - STICK;4;&2&lBranche de Chêne Noir
-      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
       - WRITABLE_BOOK;1;&c&lLivre pour une création Légendaire
       - LANTERN;1;&3&lAmpoule de Génie
       - GHAST_TEAR;1;&3&lLarme de Chimère
@@ -1377,7 +1376,7 @@ Config:
       - GUNPOWDER;64;&7&lPoudre Magique
       - BOOK;16;&2&lLivre
       category: outils
-    pioche_d'alfred:
+    pioche_d_alfred:
       id: IRON_PICKAXE
       amount: '1'
       durability: '0'
@@ -1395,7 +1394,7 @@ Config:
         &csi vous trouvez à qui l'échanger;ENCHANTS:DURABILITY,10
       - HONEY_BOTTLE;1;&2Miel Saint;&6Un miel très pure;&6à garder précieusement.
       - ENDER_EYE;1;&1Morceau de Ciel;&3Très utile a;&3garder précieusement
-      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
       - CHEST;1
       category: outils
     correctionpioche:
@@ -1530,7 +1529,7 @@ Config:
       - STRING;3;&2&lCorde tressée
       - BONE;11
       category: armures
-    grimoire_d'absorption:
+    grimoire_d_absorption:
       id: BOOK
       amount: '1'
       durability: '0'
@@ -1550,8 +1549,8 @@ Config:
       - BOOK;1;&3&lGrimoire vide;&6Un manuscrit sans rien d'écrit;&6dedans, c'est
         à vous d'écrire;&6ce qu'il doit contenir...
       - BOOK;4;&2&lLivre
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
       - EXPERIENCE_BOTTLE;6
-      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
       - GUNPOWDER;10;&7&lPoudre Magique
       category: consommable
     couvre_chef_des_lumières:
@@ -1680,7 +1679,7 @@ Config:
       - WITHER_ROSE;1;&2&lFleur Impure;&6Une fleur très rare;&6et nécéssaire a certaines
         recettes.
       - GUNPOWDER;15;&7&lPoudre Magique
-      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
       - BOOK;5;&2&lLivre
       - REDSTONE;2;&2&lRubis Poli
       - REDSTONE_BLOCK;5
@@ -1705,7 +1704,7 @@ Config:
       - WITHER_ROSE;1;&2&lFleur Impure;&6Une fleur très rare;&6et nécéssaire a certaines
         recettes.
       - GUNPOWDER;30;&7&lPoudre Magique
-      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
       - BOOK;8;&2&lLivre
       - REDSTONE;6;&2&lRubis Poli
       - REDSTONE_BLOCK;8
@@ -1729,7 +1728,7 @@ Config:
       - WITHER_ROSE;1;&2&lFleur Impure;&6Une fleur très rare;&6et nécéssaire a certaines
         recettes.
       - GUNPOWDER;22;&7&lPoudre Magique
-      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
       - BOOK;7;&2&lLivre
       - REDSTONE;4;&2&lRubis Poli
       - REDSTONE_BLOCK;7
@@ -1754,7 +1753,7 @@ Config:
       - WITHER_ROSE;1;&2&lFleur Impure;&6Une fleur très rare;&6et nécéssaire a certaines
         recettes.
       - GUNPOWDER;10;&7&lPoudre Magique
-      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
       - BOOK;4;&2&lLivre
       - REDSTONE;3;&2&lRubis Poli
       - REDSTONE_BLOCK;4
@@ -1779,7 +1778,7 @@ Config:
       - LILY_OF_THE_VALLEY;1;&2&lFleur Pure;&6Une fleur très rare;&6et nécéssaire
         a certaines recettes.
       - GUNPOWDER;15;&7&lPoudre Magique
-      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
       - BOOK;5;&2&lLivre
       - DIAMOND;2;&2&lDiamant Poli
       - GLOWSTONE;5
@@ -1803,7 +1802,7 @@ Config:
       - LILY_OF_THE_VALLEY;1;&2&lFleur Pure;&6Une fleur très rare;&6et nécéssaire
         a certaines recettes.
       - GUNPOWDER;30;&7&lPoudre Magique
-      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
       - BOOK;8;&2&lLivre
       - DIAMOND;6;&2&lDiamant Poli
       - GLOWSTONE;8
@@ -1828,7 +1827,7 @@ Config:
       - LILY_OF_THE_VALLEY;1;&2&lFleur Pure;&6Une fleur très rare;&6et nécéssaire
         a certaines recettes.
       - GUNPOWDER;22;&7&lPoudre Magique
-      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
       - BOOK;7;&2&lLivre
       - DIAMOND;4;&2&lDiamant Poli
       - GLOWSTONE;7
@@ -1852,13 +1851,13 @@ Config:
       - LILY_OF_THE_VALLEY;1;&2&lFleur Pure;&6Une fleur très rare;&6et nécéssaire
         a certaines recettes.
       - GUNPOWDER;10;&7&lPoudre Magique
-      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
       - BOOK;4;&2&lLivre
       - DIAMOND;3;&2&lDiamant Poli
       - GLOWSTONE;4
       - GHAST_TEAR;1;&3&lLarme de Joie;&6Une larme remplie de bonheur.
       category: armures
-    minerais_d'obsidienne:
+    minerais_d_obsidienne:
       id: BLACK_CONCRETE_POWDER
       amount: '1'
       durability: '0'
@@ -1953,7 +1952,7 @@ Config:
       - HONEY_BLOCK;32
       - HONEY_BOTTLE;3;&3&lMiel Pure;&6Un miel si pure qu'il est;&6difficilement digérable.
       category: matos
-    casque_d'hades:
+    casque_d_hades:
       id: IRON_HELMET
       amount: '1'
       durability: '0'
@@ -1978,14 +1977,14 @@ Config:
         vieille magie...
       - COAL_ORE;10
       - REDSTONE;1;&c&lRubis Impaccable
-      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
       - LANTERN;2;&3&lAmpoule de Génie
       - GHAST_TEAR;1;&3&lLarme de Chimère
       - SLIME_BLOCK;5
       - GUNPOWDER;64;&7&lPoudre Magique
       - WRITABLE_BOOK;1;&c&lLivre pour une création Légendaire
       category: armures
-    plastron_d'hades:
+    plastron_d_hades:
       id: IRON_CHESTPLATE
       amount: '1'
       durability: '0'
@@ -2010,7 +2009,7 @@ Config:
         vieille magie...
       - COAL_ORE;16
       - REDSTONE;1;&c&lRubis Impaccable
-      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
       - LANTERN;2;&3&lAmpoule de Génie
       - GHAST_TEAR;1;&3&lLarme de Chimère
       - FERMENTED_SPIDER_EYE;1;&3&lChair Pourrie;&6Une chair en décomposition.
@@ -2018,7 +2017,7 @@ Config:
       - GUNPOWDER;64;&7&lPoudre Magique
       - WRITABLE_BOOK;1;&c&lLivre pour une création Légendaire
       category: armures
-    jambieres_d'hades:
+    jambieres_d_hades:
       id: IRON_LEGGINGS
       amount: '1'
       durability: '0'
@@ -2042,14 +2041,14 @@ Config:
         vieille magie...
       - COAL_ORE;14
       - REDSTONE;1;&c&lRubis Impaccable
-      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
       - LANTERN;2;&3&lAmpoule de Génie
       - GHAST_TEAR;1;&3&lLarme de Chimère
       - SLIME_BLOCK;7
       - GUNPOWDER;64;&7&lPoudre Magique
       - WRITABLE_BOOK;1;&c&lLivre pour une création Légendaire
       category: armures
-    bottes_d'hades:
+    bottes_d_hades:
       id: IRON_BOOTS
       amount: '1'
       durability: '0'
@@ -2076,14 +2075,14 @@ Config:
         vieille magie...
       - COAL_ORE;8
       - REDSTONE;1;&c&lRubis Impaccable
-      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
       - LANTERN;2;&3&lAmpoule de Génie
       - GHAST_TEAR;1;&3&lLarme de Chimère
       - SLIME_BLOCK;4
       - GUNPOWDER;64;&7&lPoudre Magique
       - WRITABLE_BOOK;1;&c&lLivre pour une création Légendaire
       category: armures
-    casque_d'apollon:
+    casque_d_apollon:
       id: DIAMOND_HELMET
       amount: '1'
       durability: '0'
@@ -2108,7 +2107,7 @@ Config:
         magie...
       - DIAMOND;5
       - DIAMOND;1;&c&lDiamant Impeccable
-      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
       - GHAST_TEAR;2;&3&lLarme de Chimère
       - LANTERN;1;&3&lAmpoule de Génie
       - HONEY_BOTTLE;1;&c&lMiel Divin;&6Un miel réservé aux;&6plus grands...
@@ -2116,7 +2115,7 @@ Config:
       - WRITABLE_BOOK;1;&c&lLivre pour une création Légendaire
       - SWEET_BERRIES;5;&2&lBaies Médicinales
       category: armures
-    plastron_d'apollon:
+    plastron_d_apollon:
       id: DIAMOND_CHESTPLATE
       amount: '1'
       durability: '0'
@@ -2141,7 +2140,7 @@ Config:
         magie...
       - DIAMOND;8
       - DIAMOND;1;&c&lDiamant Impeccable
-      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
       - GHAST_TEAR;2;&3&lLarme de Chimère
       - LANTERN;1;&3&lAmpoule de Génie
       - GHAST_TEAR;1;&3&lLarme de Joie;&6Une larme remplie de bonheur.
@@ -2150,7 +2149,7 @@ Config:
       - WRITABLE_BOOK;1;&c&lLivre pour une création Légendaire
       - SWEET_BERRIES;8;&2&lBaies Médicinales
       category: armures
-    jambieres_d'apollon:
+    jambieres_d_apollon:
       id: DIAMOND_LEGGINGS
       amount: '1'
       durability: '0'
@@ -2174,7 +2173,7 @@ Config:
         magie...
       - DIAMOND;7
       - DIAMOND;1;&c&lDiamant Impeccable
-      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
       - GHAST_TEAR;2;&3&lLarme de Chimère
       - LANTERN;1;&3&lAmpoule de Génie
       - HONEY_BOTTLE;2;&c&lMiel Divin;&6Un miel réservé aux;&6plus grands...
@@ -2182,7 +2181,7 @@ Config:
       - WRITABLE_BOOK;1;&c&lLivre pour une création Légendaire
       - SWEET_BERRIES;7;&2&lBaies Médicinales
       category: armures
-    bottes_d'apollon:
+    bottes_d_apollon:
       id: DIAMOND_BOOTS
       amount: '1'
       durability: '0'
@@ -2210,7 +2209,7 @@ Config:
         magie...
       - DIAMOND;4
       - DIAMOND;1;&c&lDiamant Impeccable
-      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-ID:f4433911-e796-3c81-9d8d-010210e353d6;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
       - GHAST_TEAR;2;&3&lLarme de Chimère
       - LANTERN;1;&3&lAmpoule de Génie
       - HONEY_BOTTLE;1;&c&lMiel Divin;&6Un miel réservé aux;&6plus grands...

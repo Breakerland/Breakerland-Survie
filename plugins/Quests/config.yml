@@ -1,4 +1,5 @@
 # See https://github.com/FlyingPikachu/Quests/wiki/2-%E2%80%90-Configuration
+allow-pranks: true
 top-limit: 150
 strict-player-movement: 0
 accept-timeout: 20
@@ -7,10 +8,10 @@ allow-command-quests-with-npcs: false
 allow-quitting: true
 ask-confirmation: true
 generate-files-on-join: true
-ignore-locked-quests: false
+ignore-locked-quests: true
 kill-delay: 600
 language: fr-FR
-max-quests: 2
+max-quests: 1
 show-requirements: true
 show-titles: true
 translate-names: true

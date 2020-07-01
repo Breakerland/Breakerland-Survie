@@ -33,12 +33,16 @@ npc:
     new-finder-open-doors: false
     attack-range: 3.0625
     use-new-finder: false
+    new-finder:
+      iterations-per-tick: 25000
+    disable-mc-fallback-navigation: true
   default:
     look-close:
       enabled: false
       range: 5
       random-look-enabled: false
       random-look-delay: 60
+      disable-while-navigating: true
     pathfinding:
       range: 25.0
     random-talker: true
@@ -49,6 +53,8 @@ npc:
       range: 5
     text:
       '0': Hi, I'm <npc>!
+    waypoints:
+      cache-paths: false
   limits:
     default-limit: 10
     max-permission-checks: 100
@@ -80,6 +86,8 @@ npc:
   teleport-delay: -1
   controllable:
     use-boat-controls: true
+    ground-direction-modifier: 1.0
+    max-ground-speed: 0.5
   player-scoreboard-teams:
     enable: true
 advanced:

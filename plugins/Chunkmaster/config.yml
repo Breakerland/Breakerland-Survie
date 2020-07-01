@@ -3,6 +3,7 @@ language: fr
 database:
   filename: chunkmaster.db
 generation:
+  pause-on-player-count: 1
   ignore-worldborder: true
   period: 2
   chunks-per-step: 10

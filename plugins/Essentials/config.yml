@@ -520,12 +520,11 @@ world-home-permissions: false
 # Create the 'home-rank' below, and give the matching permission: essentials.sethome.multiple.<home-rank>
 # For more information, visit http://wiki.ess3.net/wiki/Multihome
 sethome-multiple:
-  default: 2
-  aventurier : 4
-  chevalier: 5
+  aventurier : 2
+  chevalier: 4
   duc: 6
-  marquis: 7
   comte: 8
+  marquis: 10
   hero: 9
   legende: 10
   fantome: 15

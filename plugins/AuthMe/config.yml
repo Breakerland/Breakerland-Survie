@@ -104,7 +104,7 @@ settings:
         enabled: true
         # After how many minutes should a session expire?
         # A player's session ends after the timeout or if his IP has changed
-        timeout: -1
+        timeout: 90
     # Message language, available languages:
     # https://github.com/AuthMe/AuthMeReloaded/blob/master/docs/translations.md
     messagesLanguage: fr
@@ -141,7 +141,7 @@ settings:
         - /premium
         # Max number of allowed registrations per IP
         # The value 0 means an unlimited number of registrations!
-        maxRegPerIp: 4
+        maxRegPerIp: 8
         # Minimum allowed username length
         minNicknameLength: 3
         # Maximum allowed username length
@@ -498,7 +498,7 @@ Security:
         #  hidden email: my.***@***mple.com
         enableEmailMasking: false
         # Minutes after which a verification code will expire
-        verificationCodeExpiration: 15
+        verificationCodeExpiration: 10
 # Before a user logs in, various properties are temporarily removed from the player,
 # such as OP status, ability to fly, and walk/fly speed.
 # Once the user is logged in, we add back the properties we previously saved.

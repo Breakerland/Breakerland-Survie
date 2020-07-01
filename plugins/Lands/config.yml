@@ -44,31 +44,25 @@ general:
     # Format for news messages in the land menu (inbox).
     inbox: 'MM/dd hh'
 
-  # Worlds where players
-  # should be able to claim chunks.
-  # NOTE: World names are CASE-SENSITIVE
+  # Worlds where players should be able to claim.
   # This setting requires server reload / restart.
   claim-worlds_list:
   - survie_new
   - survie_new_nether
 
-  # Should safezones stay in the cache
-  # and not be unloaded?
-  # NOTE: This is recommended if you use
-  # safezones for world spawns.
+  # Should safezones stay in the cache and not be unloaded when no players are around?
+  # NOTE: This is recommended if you use safezones for world spawns.
   keep-safezone: true
 
-  # Should players be protected from damage caused by monsters?
+  # Should players be protected from damage caused by monsters in safezones?
   safezone-invincible: true
 
-  # Edit the land you're standing in
-  # instead of the land from /Lands edit?
-  # For /Lands claim you will still need
-  # to set the claim land with /Land edit.
+  # Edit the land you're standing in instead of the land from /Lands edit?
+  # For /Lands claim you will still need to set the claim land with /Land edit.
   edit-by-loc: true
 
   # Set max number of digit numbers for economy values, such as claim costs, taxes etc.
-  # This setting requires server reload / restart.
+  # NOTE: This setting requires server reload / restart.
   max-digits: 2
 
   # Reward players by playing on your server.
@@ -111,15 +105,16 @@ land:
     # Max land name length
     # The maximum possible length is 32 (including color codes)
     name-length: 15
+    # Should colors in land names be allowed?
+    color_2: true
     # Automatically claim chunk on players location?
     chunk-claim: true
 
-  # Set the minimum distance in chunks between lands that don't belong to the same owner.
+  # Set the minimum distance in chunks (16 blocks) between different lands that do not belong to the same owner.
+  # This prevents other land owners claiming directly at your land border.
   chunk-distance: 4
   # Force lands to claim near their claims.
   force-near: true
-  # Deny claim chunks near other players lands.
-  deny-claim-near-other: false
   # Chunk claiming by placing a special claim block.
   # You can give claimblocks by executing the command /Lands admin give <player> claimblock [amount]
   # If you don't want your players to claim via command, just
@@ -131,9 +126,6 @@ land:
     only-owner: true
     # Should a claim with a claimblock be free of charge (money)?
     free-claim: true
-
-  # Allow color in land names be allowed?
-  allow-colors: true
 
   # Landspawn settings
   spawn:
@@ -347,7 +339,7 @@ land:
     # Combat tagging
     # If a player attacks a other player he will by tagged for x seconds so that, regardless of land settings,
     # other players can attack him.
-    # Default: 45 seconds
+    # 0s = disabled
     tag-time: 45s
     # Should players, which are members in a common land, be able to fight in wilderness?
     # NOTE: This option requires server restart / reload.
@@ -359,7 +351,6 @@ land:
   # NOTE: This only applies for claim permissions: lands.chunks.NUMBER, lands.ownlands.NUMBER
   # It is recommended to keep this disabled.
   claim-limits-per-world: false
-
 
 
 # Taxes settings
@@ -583,6 +574,7 @@ chunk:
       - TROPICAL_FISH
       - TURTLE
       - WOLF
+
     #
     # WATERFLOW_ALLOW
     # Allow waterflow from a wilderness to the chunk / land?
@@ -1020,19 +1012,6 @@ top-lands:
     item: AIR
 
 
-
-# Backup settings
-backup:
-  # Enable this to create backup creation on every lands enabling.
-  # NOTE: It's always recommended creating backups,
-  # even if there are no problems.
-  startup: true
-  # Time in days after a created backup should get deleted.
-  # Set this to 0, to disable it.
-  days-delete: 5
-
-
-
 # Visualization settings
 visualization:
   type:
@@ -1154,6 +1133,16 @@ command:
     - entercommandtodenyonlandhere
 
 
+# This is the configuration of the /Lands unstuck command.
+# Purpuse of this command is to let players be able to teleported out of locations in lands where they got trapped.
+# For example a player finds a way walking into a land, but can't find a way out.
+# This command will teleported them to the nearest wilderness location.
+unstuck:
+  # Set the cooldown for this command.
+  cooldown_5: 1h
+  # How many seconds should the player need to wait until getting teleported into wilderness?
+  wait_4: 3
+
 # Random teleportation (/Lands wild)
 # When using this make sure to set the worlds spawn with /setworldspawn
 random-teleport:
@@ -1219,10 +1208,17 @@ database:
     # It is highly recommended to set a table prefix, if you also connect other plugins to this database.
     table-prefix: 'lands_'
 
-  # If an issue with the database occurs.
-  # This is just to be always on the save side.
-  # NOTE: This should never happen. However, it's good to have such a setting.
-  # Should Lands disallow players to join the server, if Lands couldn't load data to ensure full protection of lands?
+  # Backup settings
+  backup:
+    # Time in days after a created backup should get deleted.
+    # Set this to 0, to disable it.
+    days-delete: 30
+    # Backup creation interval.
+    # NOTE: This is only available if you use Json for data saving.
+    interval_3: 5d
+
+  # If Lands can't connect to your MySQL database, because for example the credentials are invalid or outdated.
+  # Should Lands disallow players to join the server, if it couldn't connect to the database?
   error-disallow-join: true
 
 
@@ -1249,17 +1245,16 @@ integration:
       # Bypass permission: lands.bypass.worldedit
       enabled_7: true
 
-      # Griefprevention
+    # Griefprevention
     GriefPrevention:
       enabled_6: false
       # Should Lands deny claiming in GriefPrevention regions?
-      # NOTE: It's recommended to let this enabled.
       deny-claim_2: true
+
     # Residence
     Residence:
       enabled_15: false
       # Should Lands deny claiming in Residence regions?
-      # NOTE: It's recommended to let this activated.
       deny-claim_3: true
 
   # Economy settings

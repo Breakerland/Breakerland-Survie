@@ -1,6 +1,6 @@
 # 
 # whether to use decimal format output.
-config-version: 106
+config-version: 107
 language: fr
 dev-mode: false
 tax: 0.0
@@ -26,7 +26,7 @@ database:
   prefix: qs_
   usessl: true
   queue: true
-  auto-fix-encoding-issue-in-database: false
+  auto-fix-encoding-issue-in-database: true
   queue-commit-interval: 2
 limits:
   use: false
@@ -106,6 +106,7 @@ shop:
     sneak-to-trade: false
     sneak-to-control: false
     switch-mode: false
+  use-enchantment-for-enchanted-book: false
 blacklist:
 - Bedrock
 lockette:

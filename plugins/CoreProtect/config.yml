@@ -48,7 +48,7 @@ block-break: true
 # Logs blocks that break off of other blocks; for example, a sign or torch
 # falling off of a dirt block that a player breaks. This is required for
 # beds/doors to properly rollback.
-natural-break: false
+natural-break: true
 
 # Properly track block movement, such as sand or gravel falling.
 block-movement: false
@@ -127,3 +127,16 @@ username-changes: false
 
 # Logs changes made via the plugin "WorldEdit" if it's in use on your server.
 worldedit: true
+
+# CoreProtect is donationware. Obtain a donation key from coreprotect.net/donate/
+donation-key: 
+
+# Logs items dropped by players.
+item-drops: true
+
+# Logs items picked up by players.
+item-pickups: true
+
+# Track all hopper transactions, such as when a hopper removes items from a
+# chest, furnace, or dispenser.
+hopper-transactions: true

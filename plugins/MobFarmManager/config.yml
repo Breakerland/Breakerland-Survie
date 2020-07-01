@@ -296,52 +296,52 @@ EntityTypes:
     Use: true
     Limit: 5
   CREEPER:
-    Use: false
-    Limit: 10
+    Use: true
+    Limit: 20
   SKELETON:
-    Use: false
-    Limit: 10
+    Use: true
+    Limit: 20
   SPIDER:
-    Use: false
-    Limit: 10
+    Use: true
+    Limit: 20
   GIANT:
     Use: false
     Limit: 10
   ZOMBIE:
-    Use: false
-    Limit: 10
+    Use: true
+    Limit: 20
   SLIME:
     Use: false
     Limit: 10
   GHAST:
     Use: false
     Limit: 10
-  PIG_ZOMBIE:
-    Use: false
-    Limit: 10
+  ZOMBIFIED_PIGLIN:
+    Use: true
+    Limit: 20
   ENDERMAN:
-    Use: false
-    Limit: 10
+    Use: true
+    Limit: 15
   CAVE_SPIDER:
-    Use: false
+    Use: true
     Limit: 10
   SILVERFISH:
-    Use: false
+    Use: true
     Limit: 10
   BLAZE:
-    Use: false
+    Use: true
     Limit: 10
   MAGMA_CUBE:
-    Use: false
+    Use: true
     Limit: 10
   ENDER_DRAGON:
     Use: true
     Limit: 2
   WITHER:
-    Use: false
-    Limit: 3
+    Use: true
+    Limit: 2
   BAT:
-    Use: false
+    Use: true
     Limit: 10
   WITCH:
     Use: false
@@ -369,7 +369,7 @@ EntityTypes:
     Limit: 20
   SQUID:
     Use: true
-    Limit: 15
+    Limit: 20
   WOLF:
     Use: true
     Limit: 10
@@ -460,6 +460,18 @@ EntityTypes:
   BEE:
     Use: true
     Limit: 15
+  HOGLIN:
+    Use: true
+    Limit: 20
+  PIGLIN:
+    Use: true
+    Limit: 20
+  STRIDER:
+    Use: true
+    Limit: 20
+  ZOGLIN:
+    Use: true
+    Limit: 20
   FISHING_HOOK:
     Use: true
     Limit: 10

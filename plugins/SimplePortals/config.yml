@@ -8,11 +8,15 @@ vehicle-teleportation: true
 use-portal-cooldown: true
 portal-cooldown-duration: 0
 throw-velocity: 1.35
-teleport-sound: ENTITY_GHAST_SHOOT
-teleport-visual-effect: CLOUD
-selection-visual-effect: REDSTONE
+#teleport-sound: GHAST_CHARGE
+#teleport-visual-effect: CLOUD
+#selection-visual-effect: REDSTONE
+#region-visual-effect: REDSTONE
+teleport-sound: ""
+teleport-visual-effect: ""
+selection-visual-effect: ""
+region-visual-effect: ""
 selection-visual-duration: 10
-region-visual-effect: REDSTONE
 region-visual-duration: 20
 creature-spawning-blacklist:
 - PUFFERFISH

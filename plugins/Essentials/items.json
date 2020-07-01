@@ -1,4 +1,4 @@
-#version: 2.17.2.0
+#version: 2.17.2.130
 {
   "acacia_boat": {
     "material": "ACACIA_BOAT"
@@ -24831,6 +24831,9 @@
   },
   "beenest": "bee_nest",
   "minecraft:bee_nest": "bee_nest",
+  "bee_spawn_egg": {
+    "material": "BEE_SPAWN_EGG"
+  },
   "beesegg": "bee_spawn_egg",
   "beespawn": "bee_spawn_egg",
   "beespawnegg": "bee_spawn_egg",
@@ -24880,4 +24883,4 @@
   "minecraft:rose_red": "red_dye"
 }
 
-#4d97840bd27a656e675ce2110e734c14
+#f9059a75dec6e560b32bcb550dadcd6b

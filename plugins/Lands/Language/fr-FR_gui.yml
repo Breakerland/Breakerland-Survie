@@ -2299,6 +2299,19 @@ gui:
         - '  &7executing &8/&3Wars menu&7.'
         material: RED_STAINED_GLASS_PANE
         slot: 9
+      tribute_attacker_mutual:
+        name: '&8> &6Tribute:&c ${tribute}'
+        lore:
+        - '&7Surrender as a attacker:'
+        - '&7Attackers need to pay&c ${tribute-att}'
+        - '&7to the defenders.'
+        - ' '
+        - '&7If the defenders surrender:'
+        - '&7Defenders need to pay&c ${tribute}'
+        - '&7to you. &7If the value equals 0, the'
+        - '&7defenders wont be able to surrender.'
+        material: GOLD_INGOT
+        slot: 17
     a:
       failure_permission:
         name: '&4Failure: &cNo Access'

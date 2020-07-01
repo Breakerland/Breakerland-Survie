@@ -1,5 +1,6 @@
 # 
 # AuctionHouse
+economy: vault
 announce:
   chat:
     listings: true
@@ -101,4 +102,4 @@ triggers:
   sign: '[HDV]'
   block_name: Hôtel des Ventes
   entity_name: Hôtel des Ventes
-configVersion: 25
+configVersion: 26

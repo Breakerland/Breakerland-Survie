@@ -53,7 +53,7 @@ components:
     # (optional) if use-player-login-ip is true, setting this to true will cause chat messages not matching a known player IP to be ignored
     require-player-login-ip: true
     # (optional) block player login IDs that are banned from chatting
-    block-banned-player-chat: true
+    block-banned-player-chat: false
     # Require login for web-to-server chat (requires login-enabled: true)
     webchat-requires-login: false
     # If set to true, users must have dynmap.webchat permission in order to chat
@@ -64,7 +64,7 @@ components:
   #  hideifshadow: 4
   #  # Optional - make player hidden when they are under cover (#=sky light level,0=underground,15=open to sky)
   #  hideifundercover: 14
-  #  # (Optional) if true, players that are crouching/sneaking will be hidden 
+  #  # (Optional) if true, players that are crouching/sneaking will be hidden
     hideifsneaking: false
     # If true, player positions/status is protected (login with ID with dynmap.playermarkers.seeall permission required for info other than self)
     protected-player-info: false
@@ -315,7 +315,7 @@ exportpath: export
 #webserver-bindaddress: 0.0.0.0
 
 # The TCP-port the webserver will listen on.
-webserver-port: 42548
+webserver-port: 42544
 
 # Maximum concurrent session on internal web server - limits resources used in Bukkit server
 max-sessions: 10

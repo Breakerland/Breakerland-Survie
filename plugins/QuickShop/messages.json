@@ -3,7 +3,7 @@
   "translation-contributors": "§c§lContributeurs: §b§lTimtower, Netherfoam, KaiNoMood and Mgazul",
   "translation-version": "§c§lVersion suportée: §b§lReremake",
   "translation-country": "§c§lLangue: §b§lFrançais (fr_FR)",
-  "language-version": 39,
+  "language-version": 40,
   "not-looking-at-shop": "§cAucun shop trouvé. Tu dois en regarder un.",
   "no-anythings-in-your-hand": "§cTa main est pleine.",
   "no-permission": "§cTu n'as pas la permission de faire ça.",
@@ -131,7 +131,8 @@
       "language": "&eSwitch the language that quickshop using",
       "size": "&eChange per bulk amount of a shop",
       "item": "&eChange shop item of a shop",
-      "removeall": "&eRemove ALL shops of a specified player"
+      "removeall": "&eRemove ALL shops of a specified player",
+      "transfer": "&eTransfer someone's ALL shops to other"
     },
     "toggle-unlimited": {
       "unlimited": "&aShop is now unlimited",
@@ -154,7 +155,9 @@
     "invalid-bulk-amount": "&cThe given value {0} larger than max stack size or lower than one",
     "no-trade-item": "&aPlease hold a trade item to change in main hand",
     "trade-item-now": "&aNow trading &e{0}x {1}",
-    "some-shops-removed": "&e{0} &ashop removed"
+    "some-shops-removed": "&e{0} &ashop removed",
+    "transfer-success": "&aTransferred &e{0} &ashop(s) to &e{1}",
+    "transfer-success-other": "&aTransferred &e{0} {1}&a's shop(s) to &e{2}"
   },
   "signs": {
     "header": "§c{0}",

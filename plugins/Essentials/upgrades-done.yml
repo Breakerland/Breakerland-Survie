@@ -8,3 +8,4 @@ updateUsersPowerToolsFormat: true
 updateUsersHomesFormat: true
 banFormatChange: true
 userMapRepaired: true
+updateUsersIgnoreListUUID: true
