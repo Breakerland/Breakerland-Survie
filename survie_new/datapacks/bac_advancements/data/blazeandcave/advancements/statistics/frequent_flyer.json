@@ -4,7 +4,7 @@
             "item": "minecraft:firework_rocket"
         },
         "title": {"translate":"Frequent Flyer"},
-        "description": {"translate":"Fly 100km with elytra"},
+        "description": {"translate":"Fly 1000km with elytra"},
 		"frame": "challenge"
     },
     "parent": "blazeandcave:statistics/supersonic",
@@ -14,7 +14,22 @@
     },		
     "criteria": {
         "trigger": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"stats": [
+							{
+								"type": "minecraft:custom",
+								"stat": "minecraft:aviate_one_cm",
+								"value": {
+									"min": 100000000
+								}
+							}
+						]
+					}
+				}
+			}
         }
     }
 }

@@ -350,6 +350,56 @@
                     }
                 ]
             }
+        },
+        "crimson_slab": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:crimson_slab"
+                    }
+                ]
+            }
+        },
+        "warped_slab": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:warped_slab"
+                    }
+                ]
+            }
+        },
+        "blackstone_slab": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:blackstone_slab"
+                    }
+                ]
+            }
+        },
+        "polished_blackstone_slab": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:polished_blackstone_slab"
+                    }
+                ]
+            }
+        },
+        "polished_blackstone_brick_slab": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:polished_blackstone_brick_slab"
+                    }
+                ]
+            }
         }
 	},
     "requirements": [
@@ -387,7 +437,12 @@
 		"mossy_cobblestone_slab",
 		"mossy_stone_brick_slab",
 		"cut_red_sandstone_slab",
-		"cut_sandstone_slab"
+		"cut_sandstone_slab",
+		"crimson_slab",
+		"warped_slab",
+		"blackstone_slab",
+		"polished_blackstone_slab",
+		"polished_blackstone_brick_slab"
 		]
     ]
 }

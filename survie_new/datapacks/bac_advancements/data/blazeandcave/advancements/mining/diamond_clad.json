@@ -12,42 +12,29 @@
 		"function": "bc_rewards:mining/diamond_clad"
     },			
     "criteria": {
-        "diamond_helmet": {
-            "trigger": "minecraft:inventory_changed",
+        "diamond_armor": {
+            "trigger": "minecraft:location",
             "conditions": {
-                "items": [
+                "player": [
                     {
-                        "item": "minecraft:diamond_helmet"
-                    }
-                ]
-            }
-        },
-        "diamond_chestplate": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:diamond_chestplate"
-                    }
-                ]
-            }
-        },
-        "diamond_leggings": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:diamond_leggings"
-                    }
-                ]
-            }
-        },
-        "diamond_boots": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:diamond_boots"
+                        "condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"head": {
+									"item": "minecraft:diamond_helmet"
+								},
+								"chest": {
+									"item": "minecraft:diamond_chestplate"
+								},
+								"legs": {
+									"item": "minecraft:diamond_leggings"
+								},
+								"feet": {
+									"item": "minecraft:diamond_boots"
+								}
+							}
+						}
                     }
                 ]
             }

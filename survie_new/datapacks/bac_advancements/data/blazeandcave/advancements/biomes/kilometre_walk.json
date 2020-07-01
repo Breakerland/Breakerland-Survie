@@ -5,7 +5,7 @@
         },
         "title": {"translate":"Kilometre Walk"},
         "description": {"translate":"It's not that far in real life"},
-        "frame": "goal"
+        "frame": "task"
     },
     "parent": "blazeandcave:biomes/root",
     "rewards": {

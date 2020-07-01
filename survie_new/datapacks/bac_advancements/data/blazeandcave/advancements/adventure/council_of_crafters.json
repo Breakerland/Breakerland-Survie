@@ -9,7 +9,8 @@
     },
     "parent": "blazeandcave:adventure/lilypad_hatter",
     "rewards": {
-        "function": "bc_rewards:adventure/council_of_crafters"
+        "experience": 100,
+		"function": "bc_rewards:adventure/council_of_crafters"
     },		
     "criteria": {
         "trade": {
@@ -20,7 +21,7 @@
 					"location": {
 						"position": {
 							"y": {
-								"min": 256
+								"min": 255
 							}
 						}
 					}

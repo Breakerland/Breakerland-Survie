@@ -12,41 +12,73 @@
     },
     "criteria": {
         "iron_helmet": {
-            "trigger": "minecraft:inventory_changed",
+            "trigger": "minecraft:location",
             "conditions": {
-                "items": [
+                "player": [
                     {
-                        "item": "minecraft:iron_helmet"
+                        "condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"head": {
+									"item": "minecraft:iron_helmet"
+								}
+							}
+						}
                     }
                 ]
             }
         },
         "iron_chestplate": {
-            "trigger": "minecraft:inventory_changed",
+            "trigger": "minecraft:location",
             "conditions": {
-                "items": [
+                "player": [
                     {
-                        "item": "minecraft:iron_chestplate"
+                        "condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"chest": {
+									"item": "minecraft:iron_chestplate"
+								}
+							}
+						}
                     }
                 ]
             }
         },
         "iron_leggings": {
-            "trigger": "minecraft:inventory_changed",
+            "trigger": "minecraft:location",
             "conditions": {
-                "items": [
+                "player": [
                     {
-                        "item": "minecraft:iron_leggings"
+                        "condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"legs": {
+									"item": "minecraft:iron_leggings"
+								}
+							}
+						}
                     }
                 ]
             }
         },
         "iron_boots": {
-            "trigger": "minecraft:inventory_changed",
+            "trigger": "minecraft:location",
             "conditions": {
-                "items": [
+                "player": [
                     {
-                        "item": "minecraft:iron_boots"
+                        "condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"feet": {
+									"item": "minecraft:iron_boots"
+								}
+							}
+						}
                     }
                 ]
             }

@@ -4,7 +4,7 @@
             "item": "minecraft:diamond_axe"
         },
         "title": {"translate":"Axeman"},
-        "description": {"translate":"Attack a mob using all five types of axes"},
+        "description": {"translate":"Attack a mob using all six types of axes"},
 		"frame": "goal"
     },
     "parent": "blazeandcave:weaponry/viking",
@@ -106,6 +106,25 @@
                     }
                 }
             }
-        }		
+        },
+        "netherite_axe": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+					"distance": {
+						"absolute": {
+							"max": 5
+						}
+					}
+                },
+                "damage": {
+                    "type": {
+						"source_entity": {
+							"nbt": "{SelectedItem:{id:\"minecraft:netherite_axe\",}}"
+						}
+                    }
+                }
+            }
+        }	
     }
 }

@@ -40,6 +40,76 @@
                     }
                 ]
             }
+        },
+        "prismarine_slab": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:prismarine_slab"
+                    }
+                ]
+            }
+        },
+        "prismarine_brick_slab": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:prismarine_brick_slab"
+                    }
+                ]
+            }
+        },
+		"dark_prismarine_slab": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dark_prismarine_slab"
+                    }
+                ]
+            }
+        },
+        "prismarine_stairs": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:prismarine_stairs"
+                    }
+                ]
+            }
+        },
+        "prismarine_brick_stairs": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:prismarine_brick_stairs"
+                    }
+                ]
+            }
+        },
+		"dark_prismarine_stairs": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dark_prismarine_stairs"
+                    }
+                ]
+            }
+        },
+        "prismarine_wall": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:prismarine_wall"
+                    }
+                ]
+            }
         }
 	}		
 }

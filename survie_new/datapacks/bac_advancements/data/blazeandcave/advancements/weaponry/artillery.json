@@ -2,13 +2,13 @@
     "display": {
         "icon": {
             "item": "minecraft:crossbow",
-			"nbt": "{Charged:1b}"
+			"nbt": "{Charged:1b,ChargedProjectiles:[{id:\"minecraft:arrow\",Count:1b}]}"
         },
         "title": {"translate":"Artillery"},
         "description": {"translate":"Have nine loaded crossbows in your hotbar. All set!"},
 		"frame": "goal"
     },
-    "parent": "blazeandcave:weaponry/explosive_fire",
+    "parent": "minecraft:adventure/whos_the_pillager_now",
 	"rewards": {
 		"experience": 50,
 		"function": "bc_rewards:weaponry/artillery"

@@ -8,7 +8,7 @@
         "description": {"translate":"Kill every mob in the game with splash potions"},
 		"frame": "challenge"
     },
-    "parent": "blazeandcave:challenges/root",
+    "parent": "blazeandcave:challenges/endergeddon",
 	"rewards": {
 		"experience": 500,
 		"function": "bc_rewards:challenges/potion_master"
@@ -238,20 +238,6 @@
 				}
             }
         },
-        "enderman": {
-            "trigger": "minecraft:player_killed_entity",
-            "conditions": {
-				"entity": {
-					"type": "enderman"
-				},
-				"killing_blow": {
-					"is_magic": "true",
-					"direct_entity": {
-						"type": "minecraft:potion"
-					}
-				}
-            }
-        },
         "panda": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
@@ -294,11 +280,11 @@
 				}
             }
         },
-        "zombie_pigman": {
+        "zombified_piglin": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
 				"entity": {
-					"type": "zombie_pigman"
+					"type": "zombified_piglin"
 				},
 				"killing_blow": {
 					"is_magic": "true",
@@ -845,6 +831,62 @@
             "conditions": {
 				"entity": {
 					"type": "bee"
+				},
+				"killing_blow": {
+					"is_magic": "true",
+					"direct_entity": {
+						"type": "minecraft:potion"
+					}
+				}
+            }
+        },
+        "piglin": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+				"entity": {
+					"type": "piglin"
+				},
+				"killing_blow": {
+					"is_magic": "true",
+					"direct_entity": {
+						"type": "minecraft:potion"
+					}
+				}
+            }
+        },
+        "hoglin": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+				"entity": {
+					"type": "hoglin"
+				},
+				"killing_blow": {
+					"is_magic": "true",
+					"direct_entity": {
+						"type": "minecraft:potion"
+					}
+				}
+            }
+        },
+        "strider": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+				"entity": {
+					"type": "strider"
+				},
+				"killing_blow": {
+					"is_magic": "true",
+					"direct_entity": {
+						"type": "minecraft:potion"
+					}
+				}
+            }
+        },
+        "zoglin": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+				"entity": {
+					"type": "zoglin"
 				},
 				"killing_blow": {
 					"is_magic": "true",

@@ -1618,6 +1618,51 @@
 					}
 				]
 			}
-		}		
+		},
+        "soul_speed1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:soul_speed",
+								"levels": 1
+							}
+						]
+					}
+				]
+			}
+		},
+        "soul_speed2": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:soul_speed",
+								"levels": 2
+							}
+						]
+					}
+				]
+			}
+		},
+        "soul_speed3": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:soul_speed",
+								"levels": 3
+							}
+						]
+					}
+				]
+			}
+		}
     }
 }

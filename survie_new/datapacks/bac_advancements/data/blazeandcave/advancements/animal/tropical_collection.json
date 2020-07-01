@@ -117,7 +117,7 @@
                 "items": [
                     {
                         "item": "minecraft:tropical_fish_bucket",
-						"nbt": "{BucketVariantTag:67371265}"
+						"nbt": "{BucketVariantTag:67371009}"
                     }
                 ]
             }
@@ -161,7 +161,7 @@
                 "items": [
                     {
                         "item": "minecraft:tropical_fish_bucket",
-						"nbt": "{BucketVariantTag:117441280}"
+						"nbt": "{BucketVariantTag:67699456}"
                     }
                 ]
             }
@@ -172,7 +172,7 @@
                 "items": [
                     {
                         "item": "minecraft:tropical_fish_bucket",
-						"nbt": "{BucketVariantTag:117441536}"
+						"nbt": "{BucketVariantTag:117441793}"
                     }
                 ]
             }
@@ -216,7 +216,7 @@
                 "items": [
                     {
                         "item": "minecraft:tropical_fish_bucket",
-						"nbt": "{BucketVariantTag:134217984}"
+						"nbt": "{BucketVariantTag:459008}"
                     }
                 ]
             }

@@ -5,17 +5,20 @@ Bienvenue sur le projet du serveur Survie de Breakerland.
 ## Contribution
 Vos contributions sont les bienvenues et doivent être approuvées par un administrateur. Si celle-ci est validée, elle est alors fusionné au projet et effective sur le serveur lors de son redémarrage quotidien.
 
-## Ofuscation
+## Obfuscation
 Certaines données sont sensibles et ont donc été soit supprimé (plugins payants), soit obfusqué (identifiants BDD, Token).
 Cependant tous les fichiers de configuration restent disponible à la modification et les variables obfusquées sont désobfusquées sur notre serveur en sécurité.
 
 ## Variables
 
-### RCON properties
+### Propriétés serveur
 Pour les identifiants du Bot Discord BreakerBot, veuillez utiliser les variables suivantes :
 ```bash
-Port: '$rcon_port'
-Password: '$rcon_password'
+Server ip: '$server_ip'
+Server port: '$server_port'
+Query port: '$query_port'
+RCON port: '$rcon_port'
+RCON password: '$rcon_password'
 ```
 
 ### Base de donnée

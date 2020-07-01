@@ -1,0 +1,441 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:rabbit_stew"
+        },
+        "title": {"translate":"A Gluttonous Diet"},
+        "description": {"translate":"Obtain a full stack of all the foods"},
+        "frame": "challenge"
+    },
+    "parent": "minecraft:husbandry/balanced_diet",
+    "rewards": {
+        "experience": 200,
+		"function": "bc_rewards:farming/a_gluttonous_diet"
+    },		
+    "criteria": {
+        "apple": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:apple",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "mushroom_stew": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:mushroom_stew"
+                    }
+                ]
+            }
+        },
+        "bread": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bread",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "porkchop": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:porkchop",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "cooked_porkchop": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cooked_porkchop",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "golden_apple": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:golden_apple",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "enchanted_golden_apple": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:enchanted_golden_apple"
+                    }
+                ]
+            }
+        },
+        "raw_cod": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cod",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "raw_salmon": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:salmon",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "tropical_fish": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:tropical_fish",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "pufferfish": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:pufferfish",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "cooked_cod": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cooked_cod",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "cooked_salmon": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cooked_salmon",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "cookie": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cookie",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "melon_slice": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:melon_slice",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "beef": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:beef",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "cooked_beef": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cooked_beef",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "chicken": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:chicken",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "cooked_chicken": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cooked_chicken",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "rotten_flesh": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:rotten_flesh",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "spider_eye": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:spider_eye",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "carrot": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:carrot",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "potato": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:potato",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "baked_potato": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:baked_potato",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "poisonous_potato": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:poisonous_potato",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "golden_carrot": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:golden_carrot",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "pumpkin_pie": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:pumpkin_pie",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "rabbit": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:rabbit",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "cooked_rabbit": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cooked_rabbit",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "rabbit_stew": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:rabbit_stew"
+                    }
+                ]
+            }
+        },
+        "mutton": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:mutton",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "cooked_mutton": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cooked_mutton",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "chorus_fruit": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:chorus_fruit",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "beetroot": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:beetroot",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "beetroot_soup": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:beetroot_soup"
+                    }
+                ]
+            }
+        },
+        "dried_kelp": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dried_kelp",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "suspicious_stew": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:suspicious_stew"
+                    }
+                ]
+            }
+        },
+        "sweet_berries": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:sweet_berries",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "honey_bottle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:honey_bottle",
+						"count": 16
+                    }
+                ]
+            }
+        }
+    }
+}

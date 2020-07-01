@@ -1,0 +1,407 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bone_meal"
+        },
+        "title": {"translate":"Combine Harvester"},
+        "description": {"translate":"Use bone meal on everything that can be grown"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:farming/natural_fertiliser",
+	"rewards": {
+		"experience": 100,
+		"function": "bc_rewards:farming/combine_harvester"
+    },
+    "criteria": {
+        "wheat": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"block": "minecraft:wheat"
+					}
+				},
+				"item": {
+					"item": "minecraft:bone_meal"
+				}
+			}
+		},
+        "carrots": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"block": "minecraft:carrots"
+					}
+				},
+				"item": {
+					"item": "minecraft:bone_meal"
+				}
+			}
+		},
+        "potatoes": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"block": "minecraft:potatoes"
+					}
+				},
+				"item": {
+					"item": "minecraft:bone_meal"
+				}
+			}
+		},
+        "beetroots": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"block": "minecraft:beetroots"
+					}
+				},
+				"item": {
+					"item": "minecraft:bone_meal"
+				}
+			}
+		},
+        "bamboo": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "blazeandcave:ch_bamboos"
+					}
+				},
+				"item": {
+					"item": "minecraft:bone_meal"
+				}
+			}
+		},
+        "melon_stem": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "blazeandcave:ch_melon_stems"
+					}
+				},
+				"item": {
+					"item": "minecraft:bone_meal"
+				}
+			}
+		},
+        "pumpkin_stem": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "blazeandcave:ch_pumpkin_stems"
+					}
+				},
+				"item": {
+					"item": "minecraft:bone_meal"
+				}
+			}
+		},
+        "oak_sapling": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "blazeandcave:ch_oak_saplings"
+					}
+				},
+				"item": {
+					"item": "minecraft:bone_meal"
+				}
+			}
+		},
+        "spruce_sapling": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "blazeandcave:ch_spruce_saplings"
+					}
+				},
+				"item": {
+					"item": "minecraft:bone_meal"
+				}
+			}
+		},
+        "birch_sapling": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "blazeandcave:ch_birch_saplings"
+					}
+				},
+				"item": {
+					"item": "minecraft:bone_meal"
+				}
+			}
+		},
+        "jungle_sapling": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "blazeandcave:ch_jungle_saplings"
+					}
+				},
+				"item": {
+					"item": "minecraft:bone_meal"
+				}
+			}
+		},
+        "acacia_sapling": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "blazeandcave:ch_acacia_saplings"
+					}
+				},
+				"item": {
+					"item": "minecraft:bone_meal"
+				}
+			}
+		},
+        "dark_oak_sapling": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "blazeandcave:ch_dark_oak_saplings"
+					}
+				},
+				"item": {
+					"item": "minecraft:bone_meal"
+				}
+			}
+		},
+        "sunflower": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"block": "minecraft:sunflower"
+					}
+				},
+				"item": {
+					"item": "minecraft:bone_meal"
+				}
+			}
+		},
+        "lilac": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"block": "minecraft:lilac"
+					}
+				},
+				"item": {
+					"item": "minecraft:bone_meal"
+				}
+			}
+		},
+        "rose_bush": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"block": "minecraft:rose_bush"
+					}
+				},
+				"item": {
+					"item": "minecraft:bone_meal"
+				}
+			}
+		},
+        "peony": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"block": "minecraft:peony"
+					}
+				},
+				"item": {
+					"item": "minecraft:bone_meal"
+				}
+			}
+		},
+        "tall_grass": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"block": "minecraft:tall_grass"
+					}
+				},
+				"item": {
+					"item": "minecraft:bone_meal"
+				}
+			}
+		},
+        "large_fern": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"block": "minecraft:large_fern"
+					}
+				},
+				"item": {
+					"item": "minecraft:bone_meal"
+				}
+			}
+		},
+        "tall_seagrass": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"block": "minecraft:tall_seagrass"
+					}
+				},
+				"item": {
+					"item": "minecraft:bone_meal"
+				}
+			}
+		},
+        "red_mushroom": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"block": "minecraft:red_mushroom"
+					}
+				},
+				"item": {
+					"item": "minecraft:bone_meal"
+				}
+			}
+		},
+        "brown_mushroom": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"block": "minecraft:brown_mushroom"
+					}
+				},
+				"item": {
+					"item": "minecraft:bone_meal"
+				}
+			}
+		},
+        "cocoa": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"block": "minecraft:cocoa"
+					}
+				},
+				"item": {
+					"item": "minecraft:bone_meal"
+				}
+			}
+		},
+        "sweet_berry_bush": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"block": "minecraft:sweet_berry_bush"
+					}
+				},
+				"item": {
+					"item": "minecraft:bone_meal"
+				}
+			}
+		},
+        "sea_pickle": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"block": "minecraft:sea_pickle"
+					}
+				},
+				"item": {
+					"item": "minecraft:bone_meal"
+				}
+			}
+		},
+        "kelp": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "blazeandcave:ch_kelps"
+					}
+				},
+				"item": {
+					"item": "minecraft:bone_meal"
+				}
+			}
+		},
+        "weeping_vines": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "blazeandcave:ch_weeping_vines"
+					}
+				},
+				"item": {
+					"item": "minecraft:bone_meal"
+				}
+			}
+		},
+        "twisting_vines": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "blazeandcave:ch_twisting_vines"
+					}
+				},
+				"item": {
+					"item": "minecraft:bone_meal"
+				}
+			}
+		},
+        "crimson_fungus": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "blazeandcave:ch_crimson_fungus"
+					}
+				},
+				"item": {
+					"item": "minecraft:bone_meal"
+				}
+			}
+		},
+        "warped_fungus": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "blazeandcave:ch_warped_fungus"
+					}
+				},
+				"item": {
+					"item": "minecraft:bone_meal"
+				}
+			}
+		}
+    }
+}

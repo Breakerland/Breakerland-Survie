@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:diamond_block"
+            "item": "minecraft:diamond_ore"
         },
         "title": {"translate":"Diamond Miner"},
         "description": {"translate":"Mine a stack of diamonds. Good luck!"},

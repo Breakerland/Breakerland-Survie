@@ -5,7 +5,7 @@
         },
         "title": {"translate":"We Got a Live One!"},
         "description": {"translate":"Bring a Piglin into the Overworld then spare it from an eternity of zombification"},
-		"frame": "challenge"
+		"frame": "goal"
     },
     "parent": "blazeandcave:nether/cultural_misunderstandings",
     "rewards": {

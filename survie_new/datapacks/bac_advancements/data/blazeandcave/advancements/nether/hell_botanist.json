@@ -7,8 +7,9 @@
         "description": {"translate":"Gather a stack of every Nether plant"},
 		"frame": "challenge"
     },
-    "parent": "blazeandcave:nether/the_nether_regions",
+    "parent": "minecraft:nether/explore_nether",
 	"rewards": {
+		"experience": 50,
 		"function": "bc_rewards:nether/hell_botanist"
     },		
     "criteria": {

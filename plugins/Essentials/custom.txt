@@ -40,7 +40,7 @@ To add /vote, add this to commands.yml:
 &7+ Github: &6&nhttps://github.com/Breakerland
 &7+ Vote: &6&nhttps://breakerland.fr/vote
 &7+ Map: &6&nhttps://map.breakerland.fr/
-&7+ Discord: &6&nhttps://discord.gg/fsSrwuE
+&7+ Discord: &6&nhttps://discord.gg/47vXJnJ
 &7+ Facebook: &6&nhttps://www.facebook.com/Breakerland
 &7+ Twitter: &6&nhttps://twitter.com/Breakerland1
 &e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-

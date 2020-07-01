@@ -55,6 +55,7 @@ worlds:
         perspective: iso_SE_30_lowres
         shader: stdtexture
         lighting: shadows
+        image-format: jpg-q95
         mapzoomin: 0
   - name: survie_new_nether
     title: "Nether"
@@ -67,6 +68,7 @@ worlds:
         perspective: iso_SE_30_lowres
         shader: stdtexture
         lighting: nethershadows
+        image-format: jpg-q95
         background: "#300806"
         mapzoomin: 0
   - name: survie_new_the_end
@@ -79,5 +81,6 @@ worlds:
         prefix: ender
         perspective: iso_SE_30_lowres
         shader: defaultscheme
+        image-format: jpg-q95
         lighting: default
         mapzoomin: 0

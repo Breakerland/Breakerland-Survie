@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:obsidian"
+        },
+        "title": {"translate":"From Whence It Came!"},
+        "description": {"translate":"Find a broken Nether Portal in the Nether"}
+    },
+    "parent": "minecraft:nether/root",
+    "rewards": {
+        "function": "bc_rewards:nether/from_whence_it_came"
+    },		
+    "criteria": {
+        "ruined_portal": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "ruined_portal",
+				"dimension": "the_nether"
+            }
+        }		
+    }
+}

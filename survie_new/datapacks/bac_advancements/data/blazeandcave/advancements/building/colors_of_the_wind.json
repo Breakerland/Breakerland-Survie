@@ -1,0 +1,225 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:yellow_dye"
+        },
+        "title": {"translate":"Colors of the Wind"},
+        "description": {"translate":"Dye a sign with each color of dye"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:building/its_a_sign",
+    "rewards": {
+        "experience": 50,
+		"function": "bc_rewards:building/colors_of_the_wind"
+    },		
+    "criteria": {
+		"white_dye": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "minecraft:signs"
+					}
+				},
+				"item": {
+					"item": "minecraft:white_dye"
+				}
+			}
+		},
+        "orange_dye": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "minecraft:signs"
+					}
+				},
+				"item": {
+					"item": "minecraft:orange_dye"
+				}
+			}
+		},
+        "magenta_dye": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "minecraft:signs"
+					}
+				},
+				"item": {
+					"item": "minecraft:magenta_dye"
+				}
+			}
+		},
+        "light_blue_dye": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "minecraft:signs"
+					}
+				},
+				"item": {
+					"item": "minecraft:light_blue_dye"
+				}
+			}
+		},
+        "yellow_dye": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "minecraft:signs"
+					}
+				},
+				"item": {
+					"item": "minecraft:yellow_dye"
+				}
+			}
+		},
+        "lime_dye": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "minecraft:signs"
+					}
+				},
+				"item": {
+					"item": "minecraft:lime_dye"
+				}
+			}
+		},
+        "pink_dye": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "minecraft:signs"
+					}
+				},
+				"item": {
+					"item": "minecraft:pink_dye"
+				}
+			}
+		},
+        "gray_dye": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "minecraft:signs"
+					}
+				},
+				"item": {
+					"item": "minecraft:gray_dye"
+				}
+			}
+		},
+        "light_gray_dye": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "minecraft:signs"
+					}
+				},
+				"item": {
+					"item": "minecraft:light_gray_dye"
+				}
+			}
+		},
+        "cyan_dye": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "minecraft:signs"
+					}
+				},
+				"item": {
+					"item": "minecraft:cyan_dye"
+				}
+			}
+		},
+        "purple_dye": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "minecraft:signs"
+					}
+				},
+				"item": {
+					"item": "minecraft:purple_dye"
+				}
+			}
+		},
+        "blue_dye": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "minecraft:signs"
+					}
+				},
+				"item": {
+					"item": "minecraft:blue_dye"
+				}
+			}
+		},
+        "brown_dye": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "minecraft:signs"
+					}
+				},
+				"item": {
+					"item": "minecraft:brown_dye"
+				}
+			}
+		},
+        "green_dye": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "minecraft:signs"
+					}
+				},
+				"item": {
+					"item": "minecraft:green_dye"
+				}
+			}
+		},
+        "red_dye": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "minecraft:signs"
+					}
+				},
+				"item": {
+					"item": "minecraft:red_dye"
+				}
+			}
+		},
+        "black_dye": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "minecraft:signs"
+					}
+				},
+				"item": {
+					"item": "minecraft:black_dye"
+				}
+			}
+		}
+	}	
+}

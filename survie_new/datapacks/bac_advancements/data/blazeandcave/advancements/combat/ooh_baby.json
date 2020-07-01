@@ -38,11 +38,11 @@
                 }
             }
         },
-        "zombie_pigman": {
+        "zombified_piglin": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
-                    "type": "zombie_pigman",
+                    "type": "zombified_piglin",
 					"nbt": "{IsBaby:1b}"
                 }
             }
@@ -62,7 +62,7 @@
 		"zombie",
 		"zombie_villager",
 		"husk",
-		"zombie_pigman",
+		"zombified_piglin",
 		"drowned"
 		]
 	]

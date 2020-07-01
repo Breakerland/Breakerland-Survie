@@ -4,7 +4,7 @@
             "item": "minecraft:golden_shovel"
         },
         "title": {"translate":"We've broken our last shovel"},
-        "description": {"translate":"Break all five types of shovels"},
+        "description": {"translate":"Break all six types of shovels"},
         "frame": "challenge"
     },
     "parent": "blazeandcave:mining/bling_bling_gone",
@@ -67,6 +67,17 @@
 					"max": 0
 				}
             }
-        }		
+        },
+        "netherite_shovel": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"item": {
+					"item": "minecraft:netherite_shovel"
+				},
+				"durability": {
+					"max": 0
+				}
+            }
+        }	
     }
 }

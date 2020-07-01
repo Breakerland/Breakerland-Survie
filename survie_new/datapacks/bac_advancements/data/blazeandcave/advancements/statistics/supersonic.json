@@ -4,7 +4,7 @@
             "item": "minecraft:elytra"
         },
         "title": {"translate":"Supersonic"},
-        "description": {"translate":"Fly 10km with elytra"},
+        "description": {"translate":"Fly 100km with elytra"},
 		"frame": "goal"
     },
     "parent": "blazeandcave:statistics/take_to_the_skies",
@@ -14,7 +14,22 @@
     },		
     "criteria": {
         "trigger": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"stats": [
+							{
+								"type": "minecraft:custom",
+								"stat": "minecraft:aviate_one_cm",
+								"value": {
+									"min": 10000000
+								}
+							}
+						]
+					}
+				}
+			}
         }
     }
 }

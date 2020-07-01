@@ -9,6 +9,7 @@
     },
     "parent": "blazeandcave:nether/spreading_corruption",
 	"rewards": {
+		"experience": 100,
 		"function": "bc_rewards:nether/the_struggle_nether_ends"
     },		
     "criteria": {
@@ -160,6 +161,15 @@
             "trigger": "minecraft:placed_block",
             "conditions": {
                 "block": "minecraft:soul_fire",
+				"location": {
+					"dimension": "the_end"
+				}
+            }
+        },
+        "blackstone": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:blackstone",
 				"location": {
 					"dimension": "the_end"
 				}

@@ -1,12 +1,13 @@
 {
   "enabled": true,
-  "rarity": 1.0,
+  "rarity": 0.8,
   "biomeType": "TUNDRA",
   "useDungeons": true,
-  "dungeonChance": 8,
+  "dungeonChance": 10,
   "useMineShafts": true,
   "useStrongholds": true,
   "useVillages": true,
+  "villageStyle": "SNOWY_TUNDRA",
   "useTemples": false,
   "useNetherFortress": false,
   "useCaves": true,
@@ -16,23 +17,17 @@
   "useWitchHuts": false,
   "usePyramids": false,
   "useJungleTemples": false,
-  "useIgloos": false,
+  "useIgloos": true,
   "useFossils": false,
   "useWaterLakes": true,
   "useLavaLakes": false,
   "useBedrock": true,
-  "useRivers": true,
+  "useRivers": false,
   "useNativePainting": false,
   "useNativeStructure": false,
   "useNativeDecorations": false,
   "biomeColors": [
-    "#aab9c4",
-    "#cbc7c2",
-    "#7f878b",
-    "#ebdbce",
-    "#52636d",
-    "#d8d9d9",
-    "#ffffff"
+    "#d8d9d9"
   ],
   "fossilChance": 64,
   "lavaLakeChance": 70,
@@ -69,17 +64,33 @@
     "spawnHangingLeaves": false,
     "spawnIceOnWater": false,
     "groundDepth": 4,
-    "surfaceDepth": 4,
+    "surfaceDepth": 1,
     "surfaceBlocks": [
-      [],
-      [],
-      [],
-      [],
       [
         {
           "type": "SNOW_BLOCK",
           "data": 0,
           "tags": {},
+          "chance": 0.2
+        },
+        {
+          "type": "GRASS_BLOCK",
+          "data": 0,
+          "tags": {
+            "snowy": true
+          },
+          "chance": 0.9
+        },
+        {
+          "type": "SNOW_BLOCK",
+          "data": 0,
+          "tags": {},
+          "inclinationsConditions": [
+            {
+              "minInclination": 0.8,
+              "maxInclination": 99.0
+            }
+          ],
           "chance": 1.0
         }
       ]
@@ -101,22 +112,16 @@
       ]
     ],
     "groundBlocks": [
-      [],
-      [],
-      [],
-      [],
       [
         {
-          "type": "DIRT",
-          "data": 0,
-          "tags": {},
-          "chance": 0.8
-        },
-        {
-          "type": "COBBLESTONE",
-          "data": 0,
+          "type": "SNOW_BLOCK",
           "tags": {},
           "chance": 0.2
+        },
+        {
+          "type": "DIRT",
+          "tags": {},
+          "chance": 0.8
         }
       ]
     ],
@@ -125,18 +130,45 @@
     "farmlandBlocks": [],
     "slabBlocks": [],
     "stairBlocks": [],
-    "plantBlocks": [],
+    "plantBlocks": [
+      [
+        {
+          "type": "GRASS",
+          "data": 1,
+          "tags": {},
+          "inclinationsConditions": [
+            {
+              "minInclination": 0.0,
+              "maxInclination": 1.7
+            }
+          ],
+          "chance": 0.01
+        },
+        {
+          "type": "TALL_GRASS",
+          "tags": {},
+          "inclinationsConditions": [
+            {
+              "minInclination": 0.0,
+              "maxInclination": 1.7
+            }
+          ],
+          "chance": 0.04
+        }
+      ]
+    ],
     "riverBlocks": []
   },
   "customTrees": [
     {
-      "name": "TREES_snowyPine_normal_01",
-      "density": 0.002,
+      "name": "CUSTOM_Tree_Spruce_Snow_Normal01",
+      "density": 0.001,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "TREES",
       "blocksRequiredUnderneath": [
-        "SNOW_BLOCK"
+        "SNOW_BLOCK",
+        "GRASS_BLOCK"
       ],
       "blacklistedDecoBlocks": [],
       "chestConfig": "default.json",
@@ -160,13 +192,14 @@
       "anchorYOffset": 0
     },
     {
-      "name": "TREES_snowyPine_normal_02",
+      "name": "CUSTOM_Tree_Spruce_Snow_Normal02",
       "density": 0.002,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "TREES",
       "blocksRequiredUnderneath": [
-        "SNOW_BLOCK"
+        "SNOW_BLOCK",
+        "GRASS_BLOCK"
       ],
       "blacklistedDecoBlocks": [],
       "chestConfig": "default.json",
@@ -190,13 +223,14 @@
       "anchorYOffset": 0
     },
     {
-      "name": "TREES_snowyPine_normal_03",
+      "name": "CUSTOM_Tree_Spruce_Snow_Normal03",
       "density": 0.002,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "TREES",
       "blocksRequiredUnderneath": [
-        "SNOW_BLOCK"
+        "SNOW_BLOCK",
+        "GRASS_BLOCK"
       ],
       "blacklistedDecoBlocks": [],
       "chestConfig": "default.json",
@@ -220,7 +254,39 @@
       "anchorYOffset": 0
     }
   ],
-  "customStructures": [],
+  "customStructures": [
+    {
+      "name": "CUSTOM_Stuc_Rock_Snow_01",
+      "density": 6.0E-5,
+      "size": "MEDIUM",
+      "provider": "EWG",
+      "type": "TREES",
+      "blocksRequiredUnderneath": [
+        "SNOW_BLOCK",
+        "GRASS_BLOCK"
+      ],
+      "blacklistedDecoBlocks": [],
+      "chestConfig": "default.json",
+      "spawnUnderWater": false,
+      "spawnOnGround": true,
+      "overrideExsistingBlocks": false,
+      "allowRotation": true,
+      "applyPhysics": false,
+      "applyAir": false,
+      "fixFlyingRoots": true,
+      "replaceAir": true,
+      "minY": 62,
+      "maxY": 80,
+      "maxSlope": 0.7,
+      "minSlope": 0.0,
+      "transitionClearance": -1.0,
+      "snapToXGrid": -1,
+      "snapToYGrid": -1,
+      "gridXOffset": 0,
+      "gridYOffset": 0,
+      "anchorYOffset": 0
+    }
+  ],
   "maxEWGObjectsPerChunk": 4,
   "xNoiseModifier": 1.2,
   "yNoiseModifier": 0.7,
@@ -230,7 +296,11 @@
   "nativeBiomes": [
     {
       "nativeBiome": "ICE_SPIKES",
-      "chance": 1.0
+      "chance": 0.8
+    },
+    {
+      "nativeBiome": "SNOWY_MOUNTAINS",
+      "chance": 0.2
     }
   ],
   "groundBlockSettings": {

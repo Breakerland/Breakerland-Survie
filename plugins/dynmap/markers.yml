@@ -136,26 +136,13 @@ sets:
             }
         layerprio: 0
     markers:
-        hide: true
-        circles: {
-            }
-        deficon: default
-        areas: {
-            }
-        label: Markers
-        markers: {
-            }
-        lines: {
-            }
-        layerprio: 0
-    Warps:
         hide: false
         circles: {
             }
         deficon: default
         areas: {
             }
-        label: Warps
+        label: Markers
         markers:
             marker_1:
                 world: survie_new
@@ -189,6 +176,71 @@ sets:
                 y: 34.0
                 z: 29.0
                 label: Mage
+        lines: {
+            }
+        layerprio: 0
+    Warps:
+        hide: false
+        circles: {
+            }
+        deficon: default
+        areas: {
+            }
+        label: Warps
+        markers: {
+            }
+        lines: {
+            }
+        layerprio: 0
+    xyz.olzie.playerwarps:
+        hide: false
+        circles: {
+            }
+        deficon: default
+        areas: {
+            }
+        label: Warps
+        markers:
+            CMJN:
+                world: survie_new
+                markup: false
+                x: 3878.5419040761894
+                icon: pin
+                y: 154.875
+                z: 630.4490153766938
+                label: CMJN
+            yohan:
+                world: survie_new
+                markup: false
+                x: -382.6272879305228
+                icon: pin
+                y: 57.0
+                z: 1188.7138649163132
+                label: yohan
+            CharoShop:
+                world: survie_new
+                markup: false
+                x: 4842.225908905462
+                icon: pin
+                y: 115.0
+                z: -3834.9256731106507
+                label: CharoShop
+            benji:
+                world: survie_new
+                markup: false
+                x: 11383.459763262652
+                icon: pin
+                y: 83.0
+                z: -8157.498302875505
+                label: benji
+            CharoGold:
+                world: survie_new
+                markup: false
+                x: 4823.581666245647
+                icon: pin
+                y: 60.0
+                z: -3866.7615056104423
+                label: CharoGold
         lines: {
             }
         layerprio: 0

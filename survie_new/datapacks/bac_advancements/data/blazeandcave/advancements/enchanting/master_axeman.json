@@ -5,7 +5,7 @@
 			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
         },
         "title": {"translate":"Master Axeman"},
-        "description": {"translate":"Create a axe with all possible enchantments at max level"},
+        "description": {"translate":"Create an axe with all possible enchantments at max level"},
 		"frame": "challenge"
     },
     "parent": "blazeandcave:enchanting/master_digger",

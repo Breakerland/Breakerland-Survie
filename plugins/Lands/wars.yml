@@ -21,6 +21,13 @@ declaration:
   # Should a broadcast message be sent to the whole server?
   # You can edit the message in your language file.
   broadcast: true
+  # Should war declarations need a mutual acception?
+  # If enabled, the defender land needs to confirm the declaration before the war can start. They need to do this by executing /Wars declare <attacker>
+  # They can deny a war declaration by executing /Wars deny
+  # NOTE: This setting requires server reload / restart.
+  mutual: false
+  # Set minimum land balance for attackers to be able to start a war.
+  min-balance: 5000
 
 # War status message interval. This message appears while the war is running. This is very useful to inform players, which might have been offline for some time, that their land is participating in a war.
 status-interval: 15m
@@ -29,7 +36,7 @@ status-interval: 15m
 duration: 36h
 
 # Allow players doing the following things in the enemy land (only during war).
-# Available actions: https://github.com/Angeschossen/LandsAPI/blob/master/LandsAPI/src/main/java/me/angeschossen/lands/api/role/enums/RoleSetting.java
+# Available actions: https://github.com/Angeschossen/LandsAPI/blob/master/src/main/java/me/angeschossen/lands/api/role/enums/RoleSetting.java
 # NOTE: PLACE_SCAFFOLDING is only available in spigot 1.14.x or higher.
 role-settings_list:
   - ATTACK_PLAYER
@@ -53,17 +60,24 @@ block-break_list:
 surrender:
   # Tribute settings
   tribute:
+    # If you disable this option, the opposite team will be able to surrender even if no tribute is set.
+    force: true
+
     # Max tribute settings
     max:
-      # The defender will pay a specific amount of money to the attackers land, if they surrender.
-      # Set the tribute mode.
+      # Maximum tribute size that attackers can set.
+      # The tribute size set by the attackers will be paid by the defenders in
+      # favor of the attackers, if the defenders voluntarily surrender in the war.
+      #
       # Use % to set a specific percentage of the defenders land balance.
       # Use normal numbers to set a total amount of money.
       # If you have banks disabled, the money will be taken from the land owner.
       defender: 75%
-      # The attacker will pay a specific amount of money to the defenders land, if they surrender.
-      # Set the tribute mode.
-      # Use % to set a specific percentage of the defenders land balance.
+      # In the case that the attackers voluntarily surrender in a war, regardless
+      # of the tribute size, the attackers will pay in favor of the
+      # defenders, the amount of money set in this variable.
+      #
+      # Use % to set a specific percentage of the attackers land balance.
       # Use normal numbers to set a total amount of money.
       # If you have banks disabled, the money will be taken from the land owner.
       # NOTE: You can set this to 0 to disable it.
@@ -147,9 +161,9 @@ end:
       # %ally-owner% - Name of the owner of the ally land
       allies: ''
 
-  # The looser will pay a specific amount of money to the attackers land, if they surrender.
+  # The looser will pay a specific amount of money to the attackers when the war ends.
   # Set the reward mode.
-  # Use % to set a specific percentage of the loosers land balance.
+  # Use % to set a specific percentage of the loosers balance.
   # Use normal numbers to set a total amount of money. If the looser does not have anough money, they will pay as much as possible.
   # If you have banks disabled, the money will be taken from the land owner.
   robbery: 75%

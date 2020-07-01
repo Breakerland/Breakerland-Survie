@@ -12,8 +12,29 @@
 		"function": "bc_rewards:adventure/whats_up_doc"
     },		
     "criteria": {
-        "name_tag": {
-            "trigger": "minecraft:impossible"
-        }
-    }
+		"name_tag": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"item": "minecraft:name_tag",
+					"nbt": "{display:{Name:\"{\\\"text\\\":\\\"Dinnerbone\\\"}\"}}"
+				}
+			}
+		},
+		"name_tag_grumm": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"item": "minecraft:name_tag",
+					"nbt": "{display:{Name:\"{\\\"text\\\":\\\"Grumm\\\"}\"}}"
+				}
+			}
+		}
+    },
+	"requirements": [
+		[
+			"name_tag",
+			"name_tag_grumm"
+		]
+	]
 }

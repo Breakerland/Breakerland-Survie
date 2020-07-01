@@ -1,0 +1,152 @@
+crafting_inventory:
+  '0':
+    slot: 0
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '1':
+    slot: 1
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '2':
+    slot: 2
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '3':
+    slot: 3
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '4':
+    slot: 4
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '5':
+    slot: 5
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '6':
+    slot: 6
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '7':
+    slot: 7
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '8':
+    slot: 8
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '9':
+    slot: 9
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '10':
+    slot: 17
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '11':
+    slot: 18
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '12':
+    slot: 26
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '13':
+    slot: 27
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '14':
+    slot: 35
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '15':
+    slot: 36
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '16':
+    slot: 37
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '17':
+    slot: 38
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '18':
+    slot: 39
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '19':
+    slot: 40
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '20':
+    slot: 41
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '21':
+    slot: 42
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '22':
+    slot: 43
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '23':
+    slot: 44
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+crafting_item_inventory:
+  '0':
+    slot: 0
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '1':
+    slot: 1
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '2':
+    slot: 2
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '3':
+    slot: 3
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '4':
+    slot: 4
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '5':
+    slot: 5
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '6':
+    slot: 6
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '7':
+    slot: 7
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '8':
+    slot: 8
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '9':
+    slot: 9
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '10':
+    slot: 11
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '11':
+    slot: 17
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '12':
+    slot: 18
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '13':
+    slot: 20
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '14':
+    slot: 26
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '15':
+    slot: 27
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '16':
+    slot: 29
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '17':
+    slot: 35
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '18':
+    slot: 36
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '19':
+    slot: 37
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '20':
+    slot: 38
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '21':
+    slot: 39
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '22':
+    slot: 40
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '23':
+    slot: 42
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '24':
+    slot: 43
+    id: LIGHT_BLUE_STAINED_GLASS_PANE
+  '25':
+    slot: 44
+    id: LIGHT_BLUE_STAINED_GLASS_PANE

@@ -23,7 +23,13 @@ aliases:
   - customtext links $1-
   grades:
   - menu grades
+  rank:
+  - menu grades
+  rankup:
+  - menu grades
   lag:
+  - spigot:tps
+  gc:
   - spigot:tps
   help:
   - essentials:help $1-
@@ -43,18 +49,28 @@ aliases:
   - essentials:warp Nether
   enchantement:
   - essentials:warp Enchantement
+  enchant:
+  - essentials:warp Enchantement
   ender:
   - essentials:warp End
   mage:
   - essentials:warp Mage
   warps:
-  - bwarp
+  - warp open
   setwarp:
-  - setbwarp $1-
+  - warp set $1-
   delwarp:
-  - delbwarp $1-
+  - warp remove $1-
   editwarp:
   - editbwarp $1-
+  mywarp:
+  - warp mywarp
+  weather:
+  - pweather $1-
+  time:
+  - ptime $1-
+  setspawn:
+  - sethome home
   lp:
   - []
   luckperms:

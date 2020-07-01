@@ -4,8 +4,8 @@
             "item": "minecraft:iron_shovel"
         },
         "title": {"translate":"Shovel Knight"},
-        "description": {"translate":"Hit a mob using all five types of shovels"},
-		"frame": "challenge"
+        "description": {"translate":"Hit a mob using all six types of shovels"},
+		"frame": "goal"
     },
     "parent": "blazeandcave:weaponry/axeman",
     "rewards": {
@@ -107,6 +107,25 @@
                     }
                 }
             }
-        }		
+        },
+        "netherite_shovel": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+					"distance": {
+						"absolute": {
+							"max": 5
+						}
+					}
+                },
+                "damage": {
+                    "type": {
+						"source_entity": {
+							"nbt": "{SelectedItem:{id:\"minecraft:netherite_shovel\",}}"
+						}
+                    }
+                }
+            }
+        }
     }
 }

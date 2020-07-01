@@ -2,7 +2,7 @@
 # For use if you have a world that ran 1.5 or an earlier version of the pack and updated to 1.5.1 but want to see your score
 
 # Set to 0
-scoreboard players set @s bac_advancements 0
+scoreboard players set @a bac_advancements 0
 
 # Go through every advancement, and adds 1 to score if you have obtained that advancement
 execute as @a[advancements={blazeandcave:adventure/businessman=true}] run scoreboard players add @s bac_advancements 1
@@ -809,3 +809,141 @@ execute as @a[advancements={blazeandcave:bacap/redstone_milestone=true}] run sco
 execute as @a[advancements={blazeandcave:bacap/statistics_milestone=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={blazeandcave:bacap/weaponry_milestone=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={blazeandcave:bacap/advancement_legend=true}] run scoreboard players add @s bac_advancements 1
+
+# The following advancements were added in version 1.10
+execute as @a[advancements={blazeandcave:mining/dungeons_and_spawners=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:mining/steals_on_wheels=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:mining/delicious_hot_schmoes=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:mining/oresome=true}] run scoreboard players add @s bac_advancements 1
+
+execute as @a[advancements={blazeandcave:building/grass_type=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:building/shroom_lightyear=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:building/cerulean=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:building/let_there_be_light=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:building/no_chain_no_gain=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:building/blackstonehenge=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:building/colors_of_the_wind=true}] run scoreboard players add @s bac_advancements 1
+
+execute as @a[advancements={blazeandcave:farming/a_gluttonous_diet=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:farming/natural_fertiliser=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:farming/combine_harvester=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:farming/whats_new_with_composting=true}] run scoreboard players add @s bac_advancements 1
+
+execute as @a[advancements={blazeandcave:animal/foilage=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:animal/going_down_the_rabbit_hole=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:animal/just_keeps_going=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:animal/nest_quick=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:animal/heavy_duty_caravan=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:animal/save_the_turtles=true}] run scoreboard players add @s bac_advancements 1
+
+execute as @a[advancements={blazeandcave:biomes/so_long_and_thanks_for_all_the_fish=true}] run scoreboard players add @s bac_advancements 1
+
+execute as @a[advancements={blazeandcave:adventure/now_youre_thinking_with_portals=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:adventure/i_just_want_to_make_toast=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:adventure/whats_up_doc=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:adventure/nyan_sheep=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:adventure/slenderman=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:adventure/the_one_and_true_johnny=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:adventure/prime_specimen=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:adventure/council_of_crafters=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:adventure/redemption_arc=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:adventure/workaholic=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:adventure/i_am_loot=true}] run scoreboard players add @s bac_advancements 1
+
+execute as @a[advancements={blazeandcave:combat/paleontologist=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:combat/impossible=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:combat/family_reunion=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:combat/bone_to_party=true}] run scoreboard players add @s bac_advancements 1
+
+execute as @a[advancements={blazeandcave:weaponry/loser=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:weaponry/multiclassed=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:weaponry/pyrotechnic=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:weaponry/my_eyes=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:weaponry/who_ya_gonna_call=true}] run scoreboard players add @s bac_advancements 1
+
+execute as @a[advancements={blazeandcave:redstone/target_acquired=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={minecraft:adventure/bullseye=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:redstone/target_practise=true}] run scoreboard players add @s bac_advancements 1
+
+execute as @a[advancements={blazeandcave:enchanting/this_name_sounds_cooler=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:enchanting/ill_be_back=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:enchanting/god_of_thunder=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:enchanting/a_rather_pointy_fence_post=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:enchanting/gotta_go_fast=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:enchanting/handmade_blinding=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:enchanting/master_digger=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:enchanting/master_axeman=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:enchanting/master_farmer=true}] run scoreboard players add @s bac_advancements 1
+
+execute as @a[advancements={blazeandcave:statistics/mob_hunter=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:statistics/bloodthirsty=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:statistics/kill_or_be_killed=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:statistics/taking_it_in_stride=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:statistics/who_needs_boats=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:statistics/this_ride_is_lit_yo=true}] run scoreboard players add @s bac_advancements 1
+
+execute as @a[advancements={blazeandcave:nether/stem_research=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:nether/what_a_fungi=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:nether/i_am_root=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:nether/dont_blink=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:nether/twisted=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:nether/what_about_corruption_planks=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:nether/welcome_to_warp_zone=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={minecraft:nether/explore_nether=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:nether/hell_botanist=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:nether/spreading_corruption=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:nether/the_struggle_nether_ends=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:nether/roadhog=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:nether/when_hoglins_breed=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:nether/whole_hog=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:nether/giddy_up=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:nether/zork_chop=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={minecraft:nether/ride_strider=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:nether/bobbleheads=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:nether/this_ones_mine=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={minecraft:nether/distract_piglin=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:nether/cultural_misunderstandings=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={minecraft:nether/obtain_crying_obsidian=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:nether/anchorman=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={minecraft:nether/charge_respawn_anchor=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:nether/we_got_a_live_one=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:nether/when_piglins_fly=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:nether/electrifying_alliance=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:nether/time_to_fire_back=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:nether/from_whence_it_came=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={minecraft:nether/find_bastion=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={minecraft:nether/loot_bastion=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:nether/gilty=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:nether/wub_wub_wub=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:nether/nugget_in_a_biscuit=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:nether/dark_ages=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:nether/burnt_right_into_your_soul=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:nether/a_soul_for_a_soul=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:nether/let_me_out=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:nether/inception=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:nether/the_descent=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={minecraft:nether/obtain_ancient_debris=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:nether/holy_scrap=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:nether/diamonds_are_not_forever=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:nether/moar_upgraded_tools=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={minecraft:nether/netherite_armor=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:nether/soul_runnings=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:nether/fool_me_twice=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:nether/get_a_lode_of_this=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={minecraft:nether/use_lodestone=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:nether/lodes_of_applications=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:nether/archaeologist=true}] run scoreboard players add @s bac_advancements 1
+
+execute as @a[advancements={blazeandcave:potion/failed_concoctions=true}] run scoreboard players add @s bac_advancements 1
+
+execute as @a[advancements={blazeandcave:end/what_for=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:end/ring_of_the_end=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:end/in_your_face_neil_armstrong=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:end/organizational_wizard=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:end/a_wizards_breakfast=true}] run scoreboard players add @s bac_advancements 1
+
+execute as @a[advancements={blazeandcave:challenges/constellation=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:challenges/hearts_of_the_stack=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:challenges/the_devils_distance=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:challenges/ad_astra=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:challenges/dragon_vs_wither_the_pre_sequel=true}] run scoreboard players add @s bac_advancements 1

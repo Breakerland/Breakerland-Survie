@@ -1,0 +1,95 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:firework_star",
+			"nbt": "{Explosion:{Type:0b,Colors:[I; 4312372]}}"
+        },
+        "title": {"translate":"Pyrotechnic"},
+        "description": {"translate":"Craft a firework of every shape and additional effect"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:weaponry/fireworks_display",
+    "rewards": {
+        "experience": 50,
+		"function": "bc_rewards:weaponry/pyrotechnic"
+    },		
+    "criteria": {
+        "small_ball": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:firework_rocket",
+						"nbt": "{Fireworks:{Explosions:[{Type:0b}]}}"
+                    }
+                ]
+            }
+        },
+        "large_ball": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:firework_rocket",
+						"nbt": "{Fireworks:{Explosions:[{Type:1b}]}}"
+                    }
+                ]
+            }
+        },
+        "star": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:firework_rocket",
+						"nbt": "{Fireworks:{Explosions:[{Type:2b}]}}"
+                    }
+                ]
+            }
+        },
+        "creeper": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:firework_rocket",
+						"nbt": "{Fireworks:{Explosions:[{Type:3b}]}}"
+                    }
+                ]
+            }
+        },
+        "burst": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:firework_rocket",
+						"nbt": "{Fireworks:{Explosions:[{Type:4b}]}}"
+                    }
+                ]
+            }
+        },
+        "flicker": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:firework_rocket",
+						"nbt": "{Fireworks:{Explosions:[{Flicker:1b}]}}"
+                    }
+                ]
+            }
+        },
+        "trail": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:firework_rocket",
+						"nbt": "{Fireworks:{Explosions:[{Trail:1b}]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

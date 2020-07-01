@@ -13,6 +13,12 @@
         "function": "bc_rewards:adventure/raidin_master"
     },		
     "criteria": {
+        "dungeon": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "minecraft:chests/simple_dungeon"
+			}
+		},
         "igloo": {
             "trigger": "minecraft:location",
             "conditions": {
@@ -92,20 +98,28 @@
             }
         },	
         "buried_treasure": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:heart_of_the_sea"
-                    }
-                ]
-            }
-        },	
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "minecraft:chests/buried_treasure"
+			}
+		},	
         "pillager_outpost": {
             "trigger": "minecraft:location",
             "conditions": {
                 "feature": "pillager_outpost"
             }
-        }		
+        },	
+        "ruined_portal": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "ruined_portal"
+            }
+        },	
+        "bastion_remnant": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "bastion_remnant"
+            }
+        }
     }
 }

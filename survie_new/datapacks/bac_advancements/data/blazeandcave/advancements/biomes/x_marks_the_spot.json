@@ -4,7 +4,7 @@
             "item": "minecraft:filled_map"
         },
         "title": {"translate":"X Marks the Spot"},
-        "description": {"translate":"Use a treasure map to find a Heart of the Sea in Buried Treasure"},
+        "description": {"translate":"Use a treasure map to find Buried Treasure"},
 		"frame": "goal"
     },
     "parent": "blazeandcave:biomes/get_ship_rekt",
@@ -12,15 +12,11 @@
         "function": "bc_rewards:biomes/x_marks_the_spot"
     },		
     "criteria": {
-        "heart_of_the_sea": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:heart_of_the_sea"
-                    }
-                ]
-            }
-        }
+		"heart_of_the_sea": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "minecraft:chests/buried_treasure"
+			}
+		}
 	}		
 }

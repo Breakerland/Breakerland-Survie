@@ -7,7 +7,7 @@
         "description": {"translate":"Get above the roof in the nether"},
         "frame": "goal"
     },
-    "parent": "blazeandcave:nether/dont_step_on_it",
+    "parent": "blazeandcave:nether/im_in_lava_with_you",
     "rewards": {
 		"experience": 100,
         "function": "bc_rewards:nether/limbo_walker"

@@ -6,16 +6,23 @@
         "title": {"translate":"Pathways"},
         "description": {"translate":"Use a shovel to create grass paths"}
     },
-    "parent": "blazeandcave:building/root",
+    "parent": "blazeandcave:building/i_dont_like_sand",
 	"rewards": {
 		"function": "bc_rewards:building/pathways"
     },
     "criteria": {
-        "enter_grass_path": {
-            "trigger": "minecraft:enter_block",
-            "conditions": {
-                "block": "minecraft:grass_path"
-            }
-        }
+		"grass_path": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"block": "minecraft:grass_path"
+					}
+				},
+				"item": {
+					"tag": "minecraft:shovels"
+				}
+			}
+		}
     }
 }

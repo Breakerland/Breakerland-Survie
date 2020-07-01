@@ -3,10 +3,11 @@
   "rarity": 0.3,
   "biomeType": "FOREST",
   "useDungeons": true,
-  "dungeonChance": 8,
+  "dungeonChance": 15,
   "useMineShafts": true,
   "useStrongholds": true,
   "useVillages": true,
+  "villageStyle": "PLAINS",
   "useTemples": false,
   "useNetherFortress": false,
   "useCaves": true,
@@ -67,7 +68,6 @@
       [
         {
           "type": "CYAN_TERRACOTTA",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -119,7 +119,6 @@
       [
         {
           "type": "GRASS_BLOCK",
-          "data": 0,
           "tags": {},
           "chance": 1.0
         }
@@ -130,7 +129,6 @@
       [
         {
           "type": "CYAN_TERRACOTTA",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -182,7 +180,6 @@
       [
         {
           "type": "DIRT",
-          "data": 0,
           "tags": {},
           "chance": 1.0
         }
@@ -212,7 +209,6 @@
       [
         {
           "type": "DIRT",
-          "data": 0,
           "tags": {},
           "chance": 0.5
         },
@@ -228,7 +224,6 @@
       [
         {
           "type": "WHEAT",
-          "data": 0,
           "tags": {},
           "chance": 1.0
         }
@@ -236,7 +231,6 @@
       [
         {
           "type": "WHEAT",
-          "data": 0,
           "tags": {},
           "chance": 1.0
         }
@@ -244,7 +238,6 @@
       [
         {
           "type": "WHEAT",
-          "data": 0,
           "tags": {},
           "chance": 1.0
         }
@@ -260,7 +253,6 @@
       [
         {
           "type": "WHEAT",
-          "data": 0,
           "tags": {},
           "chance": 1.0
         }
@@ -268,7 +260,6 @@
       [
         {
           "type": "WHEAT",
-          "data": 0,
           "tags": {},
           "chance": 1.0
         }
@@ -276,8 +267,9 @@
       [
         {
           "type": "MELON_STEM",
-          "data": 4,
-          "tags": {},
+          "tags": {
+            "age": 4.0
+          },
           "chance": 1.0
         }
       ],
@@ -292,15 +284,15 @@
       [
         {
           "type": "MELON_STEM",
-          "data": 3,
-          "tags": {},
+          "tags": {
+            "age": 7.0
+          },
           "chance": 1.0
         }
       ],
       [
         {
           "type": "GRASS_BLOCK",
-          "data": 0,
           "tags": {},
           "chance": 0.4
         },
@@ -312,7 +304,6 @@
         },
         {
           "type": "COBBLESTONE",
-          "data": 0,
           "tags": {},
           "chance": 0.3
         }
@@ -350,7 +341,6 @@
         },
         {
           "type": "SUNFLOWER",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -362,7 +352,6 @@
         },
         {
           "type": "LILAC",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -374,7 +363,6 @@
         },
         {
           "type": "TALL_GRASS",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -386,7 +374,6 @@
         },
         {
           "type": "LARGE_FERN",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -398,7 +385,6 @@
         },
         {
           "type": "ROSE_BUSH",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -410,7 +396,6 @@
         },
         {
           "type": "PEONY",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -422,7 +407,6 @@
         },
         {
           "type": "DANDELION",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -434,7 +418,6 @@
         },
         {
           "type": "POPPY",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -446,7 +429,6 @@
         },
         {
           "type": "BLUE_ORCHID",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -458,7 +440,6 @@
         },
         {
           "type": "ALLIUM",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -470,7 +451,6 @@
         },
         {
           "type": "AZURE_BLUET",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -482,7 +462,6 @@
         },
         {
           "type": "RED_TULIP",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -494,7 +473,6 @@
         },
         {
           "type": "ORANGE_TULIP",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -506,7 +484,6 @@
         },
         {
           "type": "PINK_TULIP",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -518,7 +495,17 @@
         },
         {
           "type": "WHITE_TULIP",
-          "data": 0,
+          "tags": {},
+          "inclinationsConditions": [
+            {
+              "minInclination": 0.0,
+              "maxInclination": 1.7
+            }
+          ],
+          "chance": 0.001
+        },
+        {
+          "type": "SWEET_BERRY_BUSH",
           "tags": {},
           "inclinationsConditions": [
             {
@@ -533,7 +520,7 @@
     "riverBlocks": [
       [
         {
-          "type": "SAND",
+          "type": "DIRT",
           "data": 0,
           "tags": {},
           "heightConditions": [
@@ -548,15 +535,13 @@
     ],
     "fieldGroundBlock": {
       "type": "FARMLAND",
-      "data": 7,
-      "tags": {},
-      "chance": 0.0
+      "tags": {}
     }
   },
   "customTrees": [
     {
-      "name": "TREES_fantasy_small_2",
-      "density": 0.005,
+      "name": "CUSTOM_Tree_Oak_normal01",
+      "density": 0.003,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "TREES",
@@ -585,8 +570,8 @@
       "anchorYOffset": 0
     },
     {
-      "name": "TREES_fantasy_normal",
-      "density": 0.005,
+      "name": "CUSTOM_Tree_Oak_normal02",
+      "density": 0.003,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "TREES",
@@ -615,8 +600,8 @@
       "anchorYOffset": 0
     },
     {
-      "name": "TREES_fantasy_normal_2",
-      "density": 0.005,
+      "name": "CUSTOM_Tree_Oak_normal03",
+      "density": 0.003,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "TREES",
@@ -645,8 +630,8 @@
       "anchorYOffset": 0
     },
     {
-      "name": "TREES_fantasy_small",
-      "density": 0.005,
+      "name": "CUSTOM_Tree_Oak_normal04",
+      "density": 0.002,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "TREES",
@@ -675,8 +660,68 @@
       "anchorYOffset": 0
     },
     {
-      "name": "TREES_fantasy_small_3",
-      "density": 0.005,
+      "name": "CUSTOM_Tree_Oak_normal05",
+      "density": 0.002,
+      "size": "MEDIUM",
+      "provider": "EWG",
+      "type": "TREES",
+      "blocksRequiredUnderneath": [
+        "GRASS_BLOCK"
+      ],
+      "blacklistedDecoBlocks": [],
+      "chestConfig": "default.json",
+      "spawnUnderWater": false,
+      "spawnOnGround": true,
+      "overrideExsistingBlocks": false,
+      "allowRotation": true,
+      "applyPhysics": false,
+      "applyAir": false,
+      "fixFlyingRoots": true,
+      "replaceAir": true,
+      "minY": 62,
+      "maxY": 113,
+      "maxSlope": 0.7,
+      "minSlope": 0.0,
+      "transitionClearance": -1.0,
+      "snapToXGrid": -1,
+      "snapToYGrid": -1,
+      "gridXOffset": 0,
+      "gridYOffset": 0,
+      "anchorYOffset": 0
+    },
+    {
+      "name": "CUSTOM_Tree_Oak_normal06",
+      "density": 0.002,
+      "size": "MEDIUM",
+      "provider": "EWG",
+      "type": "TREES",
+      "blocksRequiredUnderneath": [
+        "GRASS_BLOCK"
+      ],
+      "blacklistedDecoBlocks": [],
+      "chestConfig": "default.json",
+      "spawnUnderWater": false,
+      "spawnOnGround": true,
+      "overrideExsistingBlocks": false,
+      "allowRotation": true,
+      "applyPhysics": false,
+      "applyAir": false,
+      "fixFlyingRoots": true,
+      "replaceAir": true,
+      "minY": 62,
+      "maxY": 113,
+      "maxSlope": 0.7,
+      "minSlope": 0.0,
+      "transitionClearance": -1.0,
+      "snapToXGrid": -1,
+      "snapToYGrid": -1,
+      "gridXOffset": 0,
+      "gridYOffset": 0,
+      "anchorYOffset": 0
+    },
+    {
+      "name": "CUSTOM_Tree_Oak_normal07",
+      "density": 0.002,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "TREES",
@@ -707,8 +752,68 @@
   ],
   "customStructures": [
     {
-      "name": "DECO_forest_house",
-      "density": 0.2,
+      "name": "CUSTOM_Building_Farmland_Windmill01",
+      "density": 7.0E-6,
+      "size": "MEDIUM",
+      "provider": "EWG",
+      "type": "TREES",
+      "blocksRequiredUnderneath": [
+        "GRASS_BLOCK"
+      ],
+      "blacklistedDecoBlocks": [],
+      "chestConfig": "default.json",
+      "spawnUnderWater": false,
+      "spawnOnGround": true,
+      "overrideExsistingBlocks": true,
+      "allowRotation": false,
+      "applyPhysics": false,
+      "applyAir": true,
+      "fixFlyingRoots": false,
+      "replaceAir": true,
+      "minY": 106,
+      "maxY": 200,
+      "maxSlope": 1.0,
+      "minSlope": 0.0,
+      "transitionClearance": -1.0,
+      "snapToXGrid": -1,
+      "snapToYGrid": -1,
+      "gridXOffset": 0,
+      "gridYOffset": 0,
+      "anchorYOffset": 0
+    },
+    {
+      "name": "CUSTOM_Struc_Deco_Campfire01",
+      "density": 1.0E-4,
+      "size": "MEDIUM",
+      "provider": "EWG",
+      "type": "TREES",
+      "blocksRequiredUnderneath": [
+        "GRASS_BLOCK"
+      ],
+      "blacklistedDecoBlocks": [],
+      "chestConfig": "",
+      "spawnUnderWater": false,
+      "spawnOnGround": true,
+      "overrideExsistingBlocks": true,
+      "allowRotation": false,
+      "applyPhysics": false,
+      "applyAir": false,
+      "fixFlyingRoots": true,
+      "replaceAir": true,
+      "minY": 40,
+      "maxY": 113,
+      "maxSlope": 0.7,
+      "minSlope": 0.0,
+      "transitionClearance": -1.0,
+      "snapToXGrid": -1,
+      "snapToYGrid": -1,
+      "gridXOffset": 0,
+      "gridYOffset": 0,
+      "anchorYOffset": 0
+    },
+    {
+      "name": "CUSTOM_Building_Forest_House01",
+      "density": 7.0E-6,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "DECO",
@@ -737,7 +842,7 @@
       "anchorYOffset": 0
     }
   ],
-  "maxEWGObjectsPerChunk": 4,
+  "maxEWGObjectsPerChunk": 8,
   "xNoiseModifier": 1.2,
   "yNoiseModifier": 0.7,
   "zNoiseModifier": 1.2,
@@ -746,7 +851,15 @@
   "nativeBiomes": [
     {
       "nativeBiome": "FOREST",
-      "chance": 1.0
+      "chance": 0.9
+    },
+    {
+      "nativeBiome": "BIRCH_FOREST",
+      "chance": 0.2
+    },
+    {
+      "nativeBiome": "FOREST",
+      "chance": 0.1
     }
   ],
   "groundBlockSettings": {

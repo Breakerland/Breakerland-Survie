@@ -4,7 +4,7 @@
             "item": "minecraft:chiseled_quartz_block"
         },
         "title": {"translate":"Greek Art Decor"},
-        "description": {"translate":"Craft quartz blocks, stairs, slabs, pillars and chiseled"}
+        "description": {"translate":"Craft all forms of quartz blocks"}
     },
     "parent": "blazeandcave:building/fake_fortress",
     "rewards": {
@@ -57,6 +57,46 @@
                 "items": [
                     {
                         "item": "minecraft:quartz_slab"
+                    }
+                ]
+            }
+        },
+		"quartz_bricks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:quartz_bricks"
+                    }
+                ]
+            }
+        },
+		"smooth_quartz": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:smooth_quartz"
+                    }
+                ]
+            }
+        },
+        "smooth_quartz_stairs": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:smooth_quartz_stairs"
+                    }
+                ]
+            }
+        },
+		"smooth_quartz_slab": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:smooth_quartz_slab"
                     }
                 ]
             }

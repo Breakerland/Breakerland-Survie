@@ -12,41 +12,73 @@
     },
     "criteria": {
         "golden_helmet": {
-            "trigger": "minecraft:inventory_changed",
+            "trigger": "minecraft:location",
             "conditions": {
-                "items": [
+                "player": [
                     {
-                        "item": "minecraft:golden_helmet"
+                        "condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"head": {
+									"item": "minecraft:golden_helmet"
+								}
+							}
+						}
                     }
                 ]
             }
         },
         "golden_chestplate": {
-            "trigger": "minecraft:inventory_changed",
+            "trigger": "minecraft:location",
             "conditions": {
-                "items": [
+                "player": [
                     {
-                        "item": "minecraft:golden_chestplate"
+                        "condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"chest": {
+									"item": "minecraft:golden_chestplate"
+								}
+							}
+						}
                     }
                 ]
             }
         },
         "golden_leggings": {
-            "trigger": "minecraft:inventory_changed",
+            "trigger": "minecraft:location",
             "conditions": {
-                "items": [
+                "player": [
                     {
-                        "item": "minecraft:golden_leggings"
+                        "condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"legs": {
+									"item": "minecraft:golden_leggings"
+								}
+							}
+						}
                     }
                 ]
             }
         },
         "golden_boots": {
-            "trigger": "minecraft:inventory_changed",
+            "trigger": "minecraft:location",
             "conditions": {
-                "items": [
+                "player": [
                     {
-                        "item": "minecraft:golden_boots"
+                        "condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"feet": {
+									"item": "minecraft:golden_boots"
+								}
+							}
+						}
                     }
                 ]
             }

@@ -11,8 +11,23 @@
 		"function": "bc_rewards:adventure/nyan_sheep"
     },		
     "criteria": {
-        "name_tag": {
-            "trigger": "minecraft:impossible"
-        }
+		"name_tag": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"item": "minecraft:name_tag",
+					"nbt": "{display:{Name:\"{\\\"text\\\":\\\"jeb_\\\"}\"}}"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"type": "minecraft:sheep"
+						},
+						"entity": "this"
+					}
+				]
+			}
+		}
     }
 }

@@ -4,7 +4,7 @@
             "item": "minecraft:trident"
         },
         "title": {"translate":"Captain Etho"},
-        "description": {"translate":"Defeat a Drowned holding both a nautilus shell and a trident"},
+        "description": {"translate":"Defeat a Drowned that is holding both a nautilus shell and a trident"},
 		"frame": "challenge"
     },
     "parent": "blazeandcave:combat/mollusc_man",

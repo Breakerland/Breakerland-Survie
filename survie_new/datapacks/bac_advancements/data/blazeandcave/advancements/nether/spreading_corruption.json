@@ -9,6 +9,7 @@
     },
     "parent": "blazeandcave:nether/hell_botanist",
 	"rewards": {
+		"experience": 100,
 		"function": "bc_rewards:nether/spreading_corruption"
     },		
     "criteria": {
@@ -160,6 +161,15 @@
             "trigger": "minecraft:placed_block",
             "conditions": {
                 "block": "minecraft:soul_fire",
+				"location": {
+					"dimension": "overworld"
+				}
+            }
+        },
+        "blackstone": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:blackstone",
 				"location": {
 					"dimension": "overworld"
 				}

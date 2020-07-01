@@ -9,7 +9,8 @@
     },
     "parent": "blazeandcave:combat/plane_walker",
     "rewards": {
-        "function": "bc_rewards:combat/impossible"
+		"experience": 100,
+		"function": "bc_rewards:combat/impossible"
     },		
     "criteria": {
         "enderman_arrow": {

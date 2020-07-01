@@ -7,13 +7,14 @@
   "useMineShafts": true,
   "useStrongholds": true,
   "useVillages": false,
+  "villageStyle": "PLAINS",
   "useTemples": false,
   "useNetherFortress": false,
   "useCaves": true,
   "useMonuments": false,
   "useWoodlandMansion": false,
   "useRavines": true,
-  "useWitchHuts": false,
+  "useWitchHuts": true,
   "usePyramids": false,
   "useJungleTemples": false,
   "useIgloos": false,
@@ -21,13 +22,11 @@
   "useWaterLakes": true,
   "useLavaLakes": false,
   "useBedrock": true,
-  "useRivers": true,
+  "useRivers": false,
   "useNativePainting": false,
   "useNativeStructure": false,
   "useNativeDecorations": false,
   "biomeColors": [
-    "#474a39",
-    "#024844",
     "#06694e"
   ],
   "fossilChance": 64,
@@ -95,7 +94,6 @@
       [
         {
           "type": "CYAN_TERRACOTTA",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -280,7 +278,6 @@
       [
         {
           "type": "GRASS",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -307,7 +304,6 @@
       [
         {
           "type": "TALL_GRASS",
-          "data": 0,
           "tags": {},
           "chance": 0.001953125
         }
@@ -321,13 +317,11 @@
       [
         {
           "type": "DIRT",
-          "data": 0,
           "tags": {},
           "chance": 0.3333333333333333
         },
         {
           "type": "GRASS_BLOCK",
-          "data": 0,
           "tags": {},
           "chance": 0.3333333333333333
         }
@@ -536,8 +530,40 @@
   ],
   "customStructures": [
     {
+      "name": "CUSTOM_Struc_Swamp_Ship_Wreck01",
+      "density": 6.0E-6,
+      "size": "MEDIUM",
+      "provider": "EWG",
+      "type": "TREES",
+      "blocksRequiredUnderneath": [
+        "WATER"
+      ],
+      "blacklistedDecoBlocks": [
+        "TNT"
+      ],
+      "chestConfig": "default.json",
+      "spawnUnderWater": true,
+      "spawnOnGround": false,
+      "overrideExsistingBlocks": true,
+      "allowRotation": false,
+      "applyPhysics": false,
+      "applyAir": false,
+      "fixFlyingRoots": false,
+      "replaceAir": true,
+      "minY": 62,
+      "maxY": 200,
+      "maxSlope": 4.0,
+      "minSlope": 0.0,
+      "transitionClearance": -1.0,
+      "snapToXGrid": 15,
+      "snapToYGrid": 15,
+      "gridXOffset": 0,
+      "gridYOffset": 0,
+      "anchorYOffset": 0
+    },
+    {
       "name": "DECO_swampRoot_1",
-      "density": 0.001,
+      "density": 0.05,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "DECO",
@@ -570,7 +596,7 @@
     },
     {
       "name": "DECO_swampRoot_2",
-      "density": 0.001,
+      "density": 0.05,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "DECO",
@@ -603,7 +629,7 @@
     },
     {
       "name": "DECO_swampRoot_3",
-      "density": 0.001,
+      "density": 0.05,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "DECO",
@@ -636,7 +662,7 @@
     },
     {
       "name": "DECO_swampRoot_4",
-      "density": 0.001,
+      "density": 0.05,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "DECO",
@@ -669,7 +695,7 @@
     },
     {
       "name": "DECO_swampRoot_5",
-      "density": 0.001,
+      "density": 0.05,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "DECO",
@@ -702,7 +728,7 @@
     },
     {
       "name": "DECO_swampRoot_6",
-      "density": 0.001,
+      "density": 0.05,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "DECO",
@@ -735,7 +761,7 @@
     },
     {
       "name": "DECO_swampRoot_7",
-      "density": 0.001,
+      "density": 0.05,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "DECO",
@@ -768,7 +794,7 @@
     },
     {
       "name": "DECO_swampPlants_1",
-      "density": 0.0033333333333333335,
+      "density": 1.0,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "DECO",
@@ -801,7 +827,7 @@
     },
     {
       "name": "DECO_swampPlants_2",
-      "density": 0.0033333333333333335,
+      "density": 1.0,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "DECO",
@@ -834,7 +860,7 @@
     },
     {
       "name": "DECO_swampPlants_3",
-      "density": 0.0033333333333333335,
+      "density": 1.0,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "DECO",
@@ -867,7 +893,7 @@
     },
     {
       "name": "DECO_swampPlants_4",
-      "density": 0.0033333333333333335,
+      "density": 1.0,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "DECO",
@@ -900,7 +926,7 @@
     },
     {
       "name": "DECO_swampRocks_1",
-      "density": 5.0E-4,
+      "density": 0.3333333333333333,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "DECO",
@@ -933,7 +959,7 @@
     },
     {
       "name": "DECO_swampRootSmall_1",
-      "density": 6.666666666666666E-4,
+      "density": 1.0,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "DECO",
@@ -966,7 +992,7 @@
     },
     {
       "name": "DECO_swampRootSmall_2",
-      "density": 6.666666666666666E-4,
+      "density": 1.0,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "DECO",
@@ -999,7 +1025,7 @@
     },
     {
       "name": "DECO_swampRootSmall_3",
-      "density": 6.666666666666666E-4,
+      "density": 1.0,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "DECO",
@@ -1032,7 +1058,7 @@
     },
     {
       "name": "DECO_swampRootSmall_4",
-      "density": 6.666666666666666E-4,
+      "density": 1.0,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "DECO",
@@ -1065,7 +1091,7 @@
     },
     {
       "name": "DECO_swampRootSmall_5",
-      "density": 6.666666666666666E-4,
+      "density": 1.0,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "DECO",
@@ -1098,7 +1124,7 @@
     },
     {
       "name": "DECO_swampRootSmall_6",
-      "density": 6.666666666666666E-4,
+      "density": 1.0,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "DECO",

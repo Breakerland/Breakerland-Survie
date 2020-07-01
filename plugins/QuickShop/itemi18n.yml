@@ -981,3 +981,105 @@ itemi18n:
   HONEYCOMB_BLOCK: Honeycomb Block
   HONEY_BLOCK: Honey Block
   HONEY_BOTTLE: Honey Bottle
+  ANCIENT_DEBRIS: Débris antiques
+  BASALT: Basalte
+  BLACKSTONE: Roche noire
+  BLACKSTONE_SLAB: Dalle de roche noire
+  BLACKSTONE_STAIRS: Escalier de roche noire
+  BLACKSTONE_WALL: Muret de roche noire
+  CHAIN: Chaîne
+  CHISELED_NETHER_BRICKS: Briques du Nether sculptées
+  CHISELED_POLISHED_BLACKSTONE: Pierre noire sculptée
+  CRACKED_NETHER_BRICKS: Briques du Nether craquelées
+  CRACKED_POLISHED_BLACKSTONE_BRICKS: Pierre noire taillée craquelée
+  CRIMSON_BUTTON: Bouton carmin
+  CRIMSON_DOOR: Porte carmin
+  CRIMSON_FENCE: Barrière carmin
+  CRIMSON_FENCE_GATE: Portillon carmin
+  CRIMSON_FUNGUS: Champignon carmin
+  CRIMSON_HYPHAE: Hyphes carmin
+  CRIMSON_NYLIUM: Nylium carmin
+  CRIMSON_PLANKS: Planches carmin
+  CRIMSON_PRESSURE_PLATE: Plaque de pression carmin
+  CRIMSON_ROOTS: Racines carmin
+  CRIMSON_SIGN: Pancarte carmin
+  CRIMSON_SLAB: Dalle carmin
+  CRIMSON_STAIRS: Escalier carmin
+  CRIMSON_STEM: Tige carmin
+  CRIMSON_TRAPDOOR: Trappe carmin
+  CRIMSON_WALL_SIGN: Pancarte carmin murale
+  CRYING_OBSIDIAN: Obsidienne pleureuse
+  GILDED_BLACKSTONE: Roche noire dorée
+  HOGLIN_SPAWN_EGG: Oeuf d'apparition de Hoglin
+  LODESTONE: Magnétite
+  MUSIC_DISC_PIGSTEP: Disque
+  NETHERITE_AXE: Hache en Netherite
+  NETHERITE_BLOCK: Bloc de Netherite
+  NETHERITE_BOOTS: Bottes en Netherite
+  NETHERITE_CHESTPLATE: Plastron en Netherite
+  NETHERITE_HELMET: Casque en Netherite
+  NETHERITE_HOE: Houe en Netherite
+  NETHERITE_INGOT: Lingot de Netherite
+  NETHERITE_LEGGINGS: Jambières en Netherite
+  NETHERITE_PICKAXE: Pioche en Netherite
+  NETHERITE_SCRAP: Fragments de Netherite
+  NETHERITE_SHOVEL: Pelle en Netherite
+  NETHERITE_SWORD: Épée en Netherite
+  NETHER_GOLD_ORE: Minerai d'or du Nether
+  NETHER_SPROUTS: Germes du Nether
+  PIGLIN_BANNER_PATTERN: Motif de bannière
+  PIGLIN_SPAWN_EGG: Oeuf d'apparition de Piglin
+  POLISHED_BASALT: Basalte poli
+  POLISHED_BLACKSTONE: Pierre noire
+  POLISHED_BLACKSTONE_BRICKS: Pierre noire taillée
+  POLISHED_BLACKSTONE_BRICK_SLAB: Dalle en pierre noire taillée
+  POLISHED_BLACKSTONE_BRICK_STAIRS: Escalier en pierre noire taillée
+  POLISHED_BLACKSTONE_BRICK_WALL: Muret en pierre noire taillée
+  POLISHED_BLACKSTONE_BUTTON: Bouton en pierre noire
+  POLISHED_BLACKSTONE_PRESSURE_PLATE: Plaque de pression en pierre noire
+  POLISHED_BLACKSTONE_SLAB: Dalle en pierre noire
+  POLISHED_BLACKSTONE_STAIRS: Escalier en pierre noire
+  POLISHED_BLACKSTONE_WALL: Muret en pierre noire
+  POTTED_CRIMSON_FUNGUS: Champignon carmin en pot
+  POTTED_CRIMSON_ROOTS: Racines carmin en pot
+  POTTED_WARPED_FUNGUS: Champignon biscornu en pot
+  POTTED_WARPED_ROOTS: Racines biscornues en pot
+  QUARTZ_BRICKS: Briques de quartz
+  RESPAWN_ANCHOR: Ancre de réapparition
+  SHROOMLIGHT: Champilampe
+  SOUL_CAMPFIRE: Feu de camp des âmes
+  SOUL_FIRE: Feu des âmes
+  SOUL_LANTERN: Lanterne des âmes
+  SOUL_SOIL: Terre des âmes
+  SOUL_TORCH: Torche des âmes
+  SOUL_WALL_TORCH: Torche des âmes murale
+  STRIDER_SPAWN_EGG: Oeuf d'apparition d'arpenteur
+  STRIPPED_CRIMSON_HYPHAE: Hyphes carmin dénudées
+  STRIPPED_CRIMSON_STEM: Tige carmin dénudée
+  STRIPPED_WARPED_HYPHAE: Hyphes biscornues dénudées
+  STRIPPED_WARPED_STEM: Tige biscornue dénudée
+  TARGET: Cible
+  TWISTING_VINES: Lianes tortueuses
+  TWISTING_VINES_PLANT: Lianes tortueuses
+  WARPED_BUTTON: Bouton biscornu
+  WARPED_DOOR: Porte biscornue
+  WARPED_FENCE: Barrière biscornue
+  WARPED_FENCE_GATE: Portillon biscornu
+  WARPED_FUNGUS: Champignon biscornu
+  WARPED_FUNGUS_ON_A_STICK: Champignon biscornu sur un bâton
+  WARPED_HYPHAE: Hyphes biscornues
+  WARPED_NYLIUM: Nylium biscornu
+  WARPED_PLANKS: Planches biscornues
+  WARPED_PRESSURE_PLATE: Plaque de pression biscornue
+  WARPED_ROOTS: Racines biscornues
+  WARPED_SIGN: Pancarte biscornue
+  WARPED_SLAB: Dalle biscornue
+  WARPED_STAIRS: Escalier biscornu
+  WARPED_STEM: Tige biscornue
+  WARPED_TRAPDOOR: Trappe biscornue
+  WARPED_WALL_SIGN: Pancarte biscornue murale
+  WARPED_WART_BLOCK: Bloc de verrues biscornues
+  WEEPING_VINES: Lianes pleureuses
+  WEEPING_VINES_PLANT: Lianes pleureuses
+  ZOGLIN_SPAWN_EGG: Oeuf d'apparition de Zoglin
+  ZOMBIFIED_PIGLIN_SPAWN_EGG: Oeuf d'apparition de Piglin zombifié

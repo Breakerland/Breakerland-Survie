@@ -321,6 +321,56 @@
                     }
                 ]
             }
+        },
+        "crimson_stairs": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:crimson_stairs"
+                    }
+                ]
+            }
+        },
+        "warped_stairs": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:warped_stairs"
+                    }
+                ]
+            }
+        },
+        "blackstone_stairs": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:blackstone_stairs"
+                    }
+                ]
+            }
+        },
+        "polished_blackstone_stairs": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:polished_blackstone_stairs"
+                    }
+                ]
+            }
+        },
+        "polished_blackstone_brick_stairs": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:polished_blackstone_brick_stairs"
+                    }
+                ]
+            }
         }
 	}		
 }

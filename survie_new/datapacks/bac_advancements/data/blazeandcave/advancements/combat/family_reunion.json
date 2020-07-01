@@ -10,6 +10,7 @@
     },
     "parent": "blazeandcave:combat/freezing",
 	"rewards": {
+		"experience": 100,
 		"function": "bc_rewards:combat/family_reunion"
     },
     "criteria": {

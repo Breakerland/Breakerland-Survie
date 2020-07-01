@@ -10,9 +10,11 @@
 # Website: https://papermc.io/ 
 # Docs: https://paper.readthedocs.org/ 
 
+allow-perm-block-break-exploits: false
 verbose: false
 config-version: 20
 settings:
+  console-has-all-permissions: false
   chunk-tasks-per-tick: 1000
   load-permissions-yml-before-plugins: true
   bungee-online-mode: false
@@ -40,6 +42,8 @@ settings:
   book-size:
     page-max: 2560
     total-multiplier: 0.98
+  unsupported-settings:
+    allow-piston-duplication: false
 messages:
   no-permission: '&cVous n''avez pas la permission d''exécuter cette commande.'
   kick:
@@ -60,6 +64,7 @@ timings:
   server-name: BreakerLand
 world-settings:
   default:
+    delay-chunk-unloads-by: 30s
     phantoms-do-not-spawn-on-creative-players: true
     phantoms-only-attack-insomniacs: true
     light-queue-size: 20
@@ -101,7 +106,7 @@ world-settings:
     bed-search-radius: 1
     use-faster-eigencraft-redstone: true
     fix-zero-tick-instant-grow-farms: true
-    nether-ceiling-void-damage-height: 256
+    nether-ceiling-void-damage-height: 128
     allow-non-player-entities-on-scoreboards: false
     disable-explosion-knockback: false
     parrots-are-unaffected-by-player-movement: false
@@ -123,16 +128,16 @@ world-settings:
       shield-blocking-delay: 5
       disable-player-crits: false
       disable-sprint-interruption-on-attack: false
-      disable-end-credits: true
+      disable-end-credits: false
       disable-relative-projectile-velocity: false
       disable-unloaded-chunk-enderpearl-exploit: true
       pillager-patrols:
         spawn-chance: 0.2
         spawn-delay:
-          per-player: false
+          per-player: true
           ticks: 12000
         start:
-          per-player: false
+          per-player: true
           day: 5
     max-growth-height:
       cactus: 3
@@ -200,9 +205,9 @@ world-settings:
     auto-save-interval: 3000
     keep-spawn-loaded: true
     anti-xray:
-      enabled: true
-      engine-mode: 1
       chunk-edge-mode: 2
+      enabled: true
+      engine-mode: 2
       max-chunk-section-index: 3
       update-radius: 2
       hidden-blocks:
@@ -220,3 +225,4 @@ world-settings:
       - ender_chest
       replacement-blocks:
       - stone
+      - oak_planks

@@ -36,13 +36,13 @@
                 }
             }
         },
-        "zombie_pigman": {
+        "zombified_piglin": {
             "trigger": "minecraft:entity_hurt_player",
             "conditions": {
                 "damage": {
                     "blocked": true,
 					"source_entity": {
-						"type": "zombie_pigman"
+						"type": "zombified_piglin"
 					}
                 }
             }
@@ -274,6 +274,39 @@
                     "blocked": true,
 					"source_entity": {
 						"type": "vex"
+					}
+                }
+            }
+        },
+        "piglin": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "blocked": true,
+					"source_entity": {
+						"type": "piglin"
+					}
+                }
+            }
+        },
+        "hoglin": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "blocked": true,
+					"source_entity": {
+						"type": "hoglin"
+					}
+                }
+            }
+        },
+        "zoglin": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "blocked": true,
+					"source_entity": {
+						"type": "zoglin"
 					}
                 }
             }

@@ -11,8 +11,23 @@
 		"function": "bc_rewards:adventure/i_just_want_to_make_toast"
     },		
     "criteria": {
-        "name_tag": {
-            "trigger": "minecraft:impossible"
-        }
+		"name_tag": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"item": "minecraft:name_tag",
+					"nbt": "{display:{Name:\"{\\\"text\\\":\\\"Toast\\\"}\"}}"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"type": "minecraft:rabbit"
+						},
+						"entity": "this"
+					}
+				]
+			}
+		}
     }
 }

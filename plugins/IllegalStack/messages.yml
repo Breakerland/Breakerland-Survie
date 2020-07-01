@@ -128,3 +128,14 @@ StaffNoNBTAPI: 'NBT-Api was not found on your server and is needed for ~prot~ si
   it is enabled!  Please download and install it from:  https://www.spigotmc.org/resources/nbt-api.7939/'
 StaffEndPortalProtected: Prevented the end portal from being broken using a dispenser
   @
+StaffChestPunishment: punished ~player~ for continuing to try to put chests on a creature.  A
+  ~entity~ was removed, the player's inventory has been cleared and the player has
+  been kicked from the server. @
+MinecartMount: Prevented a ~entity~ from being able to mount a ~vehicle~ @
+PlayerDisabledRidingChestedMsg: §cSorry, taming creatures that can carry chests is
+  disabled!
+PlayerKickForChestMsg: §cYou were warned about chests on mobs, stop trying.
+StaffMsgNoPerm: 'You do not have permission to use that IllegalStack feature, node
+  required: ~perm~'
+DestroyedEnchantedItem: 'Destroyed an Illegally Enchanted Item ~item~ ~enchant~.(~lvl)
+  found on player: ~player~'

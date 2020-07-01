@@ -1,5 +1,5 @@
 # PlayerWarps by Olzie-12
-# https://www.spigotmc.org/resources/player-warps-1-8-1-13.66692/
+# https://www.spigotmc.org/resources/66692/
 # We also have a discord server for help: https://discord.gg/bAHuRJq
 # Also if you find any bugs be happy to report them i will fix them :)
 # Made with love
@@ -181,8 +181,8 @@ managewarp:
       # commands that will be executed on click.
       # [server] means the command is executed as the console
       # [player] means the command is executed as the player
-      #commands:
-      #  - "[server] msg %player% you clicked this item!"
+      # commands:
+      #   - "[server] msg %player% you clicked this item!"
       # These only work if the skull is a ITEM_SKULL and the data is 3!
       #texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZmOGFmYjI3YmFmYzc3YzJiODI1OTljMmY3YjhmMWY2ODMxMGU2YWE5MDRmMDUxYjA3YWIxYzJiNmIifX19 - Skull texture
       #owner: Glass - Skull owner

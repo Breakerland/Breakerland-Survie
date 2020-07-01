@@ -9,6 +9,7 @@
     },
     "parent": "blazeandcave:mining/mineral_collection",
     "rewards": {
+		"experience": 100,
 		"function": "bc_rewards:mining/oresome"
     },			
     "criteria": {

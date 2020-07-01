@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potion",
+			"nbt": "{Potion:\"minecraft:strength\"}"
+        },
+        "title": {"translate":"Heavy Duty Caravan"},
+        "description": {"translate":"Tame a llama with a strength of 5"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:animal/llama_llama_duck_king",
+	"rewards": {
+		"experience": 50,
+		"function": "bc_rewards:animal/heavy_duty_caravan"
+    },		
+    "criteria": {
+        "strength": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:llama",
+					"nbt": "{Strength:5}"
+                }
+			}
+        }
+    }
+}

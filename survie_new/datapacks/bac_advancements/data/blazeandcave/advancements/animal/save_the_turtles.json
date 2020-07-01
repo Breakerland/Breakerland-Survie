@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:turtle_egg"
+        },
+        "title": {"translate":"Save the Turtles!"},
+        "description": {"translate":"Collect a stack of turtle eggs"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:animal/turtle_soldier",
+    "rewards": {
+		"experience": 50,
+		"function": "bc_rewards:animal/save_the_turtles"
+    },		
+    "criteria": {
+        "scute": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:turtle_egg",
+						"count": 64
+                    }
+                ]
+            }
+        }		
+    }	
+}

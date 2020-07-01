@@ -4,10 +4,12 @@
             "item": "minecraft:arrow"
         },
         "title": {"translate":"Bullseye"},
-        "description": {"translate":"Hit the bullseye of a Target Block with an arrow"}
+        "description": {"translate":"Hit the bullseye of a Target Block with an arrow from 30 blocks away"},
+		"frame": "challenge"
     },
     "parent": "blazeandcave:redstone/target_acquired",
 	"rewards": {
+		"experience": 50,
 		"function": "bc_rewards:redstone/bullseye"
     },	
     "criteria": {
@@ -17,6 +19,13 @@
                 "signal_strength": 15,
 				"projectile": {
 					"type": "minecraft:arrow"
+				},
+				"shooter": {
+					"distance": {
+						"horizontal": {
+							"min": 30
+						}
+					}
 				}
             }
         }

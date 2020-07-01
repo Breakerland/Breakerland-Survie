@@ -233,11 +233,11 @@
 				}
             }
         },
-        "zombie_pigman": {
+        "zombified_piglin": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
 				"entity": {
-					"type": "zombie_pigman",
+					"type": "zombified_piglin",
                     "location": {
                         "dimension": "the_nether"
                     }
@@ -667,6 +667,50 @@
             "conditions": {
 				"entity": {
 					"type": "bee",
+                    "location": {
+                        "dimension": "the_nether"
+                    }
+				}
+            }
+        },
+        "piglin": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+				"entity": {
+					"type": "piglin",
+                    "location": {
+                        "dimension": "the_nether"
+                    }
+				}
+            }
+        },
+        "hoglin": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+				"entity": {
+					"type": "hoglin",
+                    "location": {
+                        "dimension": "the_nether"
+                    }
+				}
+            }
+        },
+        "strider": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+				"entity": {
+					"type": "strider",
+                    "location": {
+                        "dimension": "the_nether"
+                    }
+				}
+            }
+        },
+        "zoglin": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+				"entity": {
+					"type": "zoglin",
                     "location": {
                         "dimension": "the_nether"
                     }

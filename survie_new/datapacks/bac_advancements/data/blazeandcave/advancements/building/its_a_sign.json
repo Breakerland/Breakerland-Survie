@@ -58,6 +58,22 @@
 					"item": "minecraft:dark_oak_sign"
 				}
             }
+        },
+        "crimson_sign": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+				"item": {
+					"item": "minecraft:crimson_sign"
+				}
+            }
+        },
+        "warped_sign": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+				"item": {
+					"item": "minecraft:warped_sign"
+				}
+            }
         }
     },
     "requirements": [
@@ -67,7 +83,9 @@
 		"birch_sign",
 		"jungle_sign",
 		"acacia_sign",
-		"dark_oak_sign"
+		"dark_oak_sign",
+		"crimson_sign",
+		"warped_sign"
 		]
     ]
 }

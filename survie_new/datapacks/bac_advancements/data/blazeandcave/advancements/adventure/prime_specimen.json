@@ -13,20 +13,24 @@
     },		
     "criteria": {
         "tall_grass": {
-            "trigger": "minecraft:villager_trade",
-			"conditions": {
-				"item": {
-					"item": "minecraft:tall_grass"
-				}
-			}
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:tall_grass"
+                    }
+                ]
+            }
         },
         "large_fern": {
-            "trigger": "minecraft:villager_trade",
-			"conditions": {
-				"item": {
-					"item": "minecraft:large_fern"
-				}
-			}
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:large_fern"
+                    }
+                ]
+            }
         }
     },
 	"requirements": [

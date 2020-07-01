@@ -4,7 +4,7 @@
             "item": "minecraft:creeper_banner_pattern"
         },
         "title": {"translate":"Fruit of the Looms"},
-        "description": {"translate":"Craft all the special banner patterns"},
+        "description": {"translate":"Obtain all the special banner patterns"},
 		"frame": "challenge"
     },
     "parent": "blazeandcave:building/prepare_to_meet_your_loom",
@@ -61,6 +61,16 @@
                     }
                 ]
             }
-        }		
+        },
+        "piglin_banner_pattern": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:piglin_banner_pattern"
+                    }
+                ]
+            }
+        }
 	}
 }

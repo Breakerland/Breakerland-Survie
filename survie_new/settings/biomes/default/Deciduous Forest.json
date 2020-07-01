@@ -6,7 +6,8 @@
   "dungeonChance": 8,
   "useMineShafts": true,
   "useStrongholds": true,
-  "useVillages": false,
+  "useVillages": true,
+  "villageStyle": "PLAINS",
   "useTemples": false,
   "useNetherFortress": false,
   "useCaves": true,
@@ -67,7 +68,6 @@
       [
         {
           "type": "CYAN_TERRACOTTA",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -137,7 +137,6 @@
       [
         {
           "type": "GRASS_BLOCK",
-          "data": 0,
           "tags": {},
           "chance": 1.0
         }
@@ -146,7 +145,6 @@
       [
         {
           "type": "GRASS_BLOCK",
-          "data": 0,
           "tags": {},
           "chance": 1.0
         }
@@ -161,7 +159,6 @@
       [
         {
           "type": "STONE",
-          "data": 0,
           "tags": {},
           "chance": 0.4
         },
@@ -173,7 +170,6 @@
         },
         {
           "type": "COBBLESTONE",
-          "data": 0,
           "tags": {},
           "chance": 0.3
         }
@@ -229,7 +225,6 @@
         },
         {
           "type": "SUNFLOWER",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -241,7 +236,6 @@
         },
         {
           "type": "LILAC",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -253,7 +247,6 @@
         },
         {
           "type": "TALL_GRASS",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -265,7 +258,6 @@
         },
         {
           "type": "LARGE_FERN",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -277,7 +269,6 @@
         },
         {
           "type": "ROSE_BUSH",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -289,7 +280,6 @@
         },
         {
           "type": "PEONY",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -301,7 +291,6 @@
         },
         {
           "type": "DANDELION",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -313,7 +302,6 @@
         },
         {
           "type": "POPPY",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -325,7 +313,6 @@
         },
         {
           "type": "BLUE_ORCHID",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -337,7 +324,6 @@
         },
         {
           "type": "ALLIUM",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -349,7 +335,6 @@
         },
         {
           "type": "AZURE_BLUET",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -361,7 +346,6 @@
         },
         {
           "type": "RED_TULIP",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -373,7 +357,6 @@
         },
         {
           "type": "ORANGE_TULIP",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -385,7 +368,6 @@
         },
         {
           "type": "PINK_TULIP",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -397,7 +379,17 @@
         },
         {
           "type": "WHITE_TULIP",
-          "data": 0,
+          "tags": {},
+          "inclinationsConditions": [
+            {
+              "minInclination": 0.0,
+              "maxInclination": 1.7
+            }
+          ],
+          "chance": 0.001
+        },
+        {
+          "type": "SWEET_BERRY_BUSH",
           "tags": {},
           "inclinationsConditions": [
             {
@@ -433,7 +425,6 @@
         },
         {
           "type": "SUNFLOWER",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -445,7 +436,6 @@
         },
         {
           "type": "LILAC",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -457,7 +447,6 @@
         },
         {
           "type": "TALL_GRASS",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -469,7 +458,6 @@
         },
         {
           "type": "LARGE_FERN",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -481,7 +469,6 @@
         },
         {
           "type": "ROSE_BUSH",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -493,7 +480,6 @@
         },
         {
           "type": "PEONY",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -505,7 +491,6 @@
         },
         {
           "type": "DANDELION",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -517,7 +502,6 @@
         },
         {
           "type": "POPPY",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -529,7 +513,6 @@
         },
         {
           "type": "BLUE_ORCHID",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -541,7 +524,6 @@
         },
         {
           "type": "ALLIUM",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -553,7 +535,6 @@
         },
         {
           "type": "AZURE_BLUET",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -565,7 +546,6 @@
         },
         {
           "type": "RED_TULIP",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -577,7 +557,6 @@
         },
         {
           "type": "ORANGE_TULIP",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -589,7 +568,6 @@
         },
         {
           "type": "PINK_TULIP",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -601,7 +579,17 @@
         },
         {
           "type": "WHITE_TULIP",
-          "data": 0,
+          "tags": {},
+          "inclinationsConditions": [
+            {
+              "minInclination": 0.0,
+              "maxInclination": 1.7
+            }
+          ],
+          "chance": 0.001
+        },
+        {
+          "type": "SWEET_BERRY_BUSH",
           "tags": {},
           "inclinationsConditions": [
             {
@@ -616,7 +604,7 @@
     "riverBlocks": [
       [
         {
-          "type": "SAND",
+          "type": "DIRT",
           "data": 0,
           "tags": {},
           "heightConditions": [
@@ -631,21 +619,19 @@
     ],
     "leavesBlock": {
       "type": "OAK_LEAVES",
-      "data": 0,
       "tags": {},
       "inclinationsConditions": [
         {
           "minInclination": 0.30000001192092896,
           "maxInclination": 0.6000000238418579
         }
-      ],
-      "chance": 0.0
+      ]
     }
   },
   "customTrees": [
     {
-      "name": "TREES_stoneForest_normal",
-      "density": 8.333333333333334E-4,
+      "name": "CUSTOM_Tree_DecuduousForest_Big01",
+      "density": 7.333333333333334E-4,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "TREES",
@@ -653,7 +639,7 @@
         "GRASS_BLOCK"
       ],
       "blacklistedDecoBlocks": [],
-      "chestConfig": "default.json",
+      "chestConfig": "",
       "spawnUnderWater": false,
       "spawnOnGround": true,
       "overrideExsistingBlocks": false,
@@ -674,8 +660,8 @@
       "anchorYOffset": 0
     },
     {
-      "name": "TREES_stoneForest_normal_2",
-      "density": 8.333333333333334E-4,
+      "name": "CUSTOM_Tree_DecuduousForest_Big02",
+      "density": 7.333333333333334E-4,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "TREES",
@@ -683,7 +669,7 @@
         "GRASS_BLOCK"
       ],
       "blacklistedDecoBlocks": [],
-      "chestConfig": "default.json",
+      "chestConfig": "",
       "spawnUnderWater": false,
       "spawnOnGround": true,
       "overrideExsistingBlocks": false,
@@ -704,8 +690,8 @@
       "anchorYOffset": 0
     },
     {
-      "name": "TREES_stoneForest_normal_3",
-      "density": 8.333333333333334E-4,
+      "name": "CUSTOM_Tree_DecuduousForest_Big03",
+      "density": 7.333333333333334E-4,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "TREES",
@@ -713,7 +699,67 @@
         "GRASS_BLOCK"
       ],
       "blacklistedDecoBlocks": [],
-      "chestConfig": "default.json",
+      "chestConfig": "",
+      "spawnUnderWater": false,
+      "spawnOnGround": true,
+      "overrideExsistingBlocks": false,
+      "allowRotation": true,
+      "applyPhysics": false,
+      "applyAir": false,
+      "fixFlyingRoots": true,
+      "replaceAir": true,
+      "minY": 62,
+      "maxY": 113,
+      "maxSlope": 0.7,
+      "minSlope": 0.0,
+      "transitionClearance": -1.0,
+      "snapToXGrid": -1,
+      "snapToYGrid": -1,
+      "gridXOffset": 0,
+      "gridYOffset": 0,
+      "anchorYOffset": -1
+    },
+    {
+      "name": "CUSTOM_Tree_DecuduousForest_Big04",
+      "density": 7.333333333333334E-4,
+      "size": "MEDIUM",
+      "provider": "EWG",
+      "type": "TREES",
+      "blocksRequiredUnderneath": [
+        "GRASS_BLOCK"
+      ],
+      "blacklistedDecoBlocks": [],
+      "chestConfig": "",
+      "spawnUnderWater": false,
+      "spawnOnGround": true,
+      "overrideExsistingBlocks": false,
+      "allowRotation": true,
+      "applyPhysics": false,
+      "applyAir": false,
+      "fixFlyingRoots": true,
+      "replaceAir": true,
+      "minY": 62,
+      "maxY": 113,
+      "maxSlope": 0.7,
+      "minSlope": 0.0,
+      "transitionClearance": -1.0,
+      "snapToXGrid": -1,
+      "snapToYGrid": -1,
+      "gridXOffset": 0,
+      "gridYOffset": 0,
+      "anchorYOffset": -1
+    },
+    {
+      "name": "CUSTOM_Tree_DecuduousForest_Big05",
+      "density": 7.333333333333334E-4,
+      "size": "MEDIUM",
+      "provider": "EWG",
+      "type": "TREES",
+      "blocksRequiredUnderneath": [
+        "GRASS_BLOCK"
+      ],
+      "blacklistedDecoBlocks": [],
+      "chestConfig": "",
       "spawnUnderWater": false,
       "spawnOnGround": true,
       "overrideExsistingBlocks": false,

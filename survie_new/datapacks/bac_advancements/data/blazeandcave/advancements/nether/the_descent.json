@@ -6,7 +6,7 @@
         "title": {"translate":"The Descent"},
         "description": {"translate":"Dig down into the deepest depths of the Nether"}
     },
-    "parent": "blazeandcave:nether/dont_step_on_it",
+    "parent": "blazeandcave:nether/nugget_in_a_biscuit",
     "rewards": {
         "function": "bc_rewards:nether/the_descent"
     },		

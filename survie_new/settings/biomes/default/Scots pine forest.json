@@ -3,10 +3,11 @@
   "rarity": 1.0,
   "biomeType": "GRASSLAND",
   "useDungeons": true,
-  "dungeonChance": 8,
+  "dungeonChance": 10,
   "useMineShafts": true,
   "useStrongholds": true,
   "useVillages": true,
+  "villageStyle": "TAIGA",
   "useTemples": false,
   "useNetherFortress": false,
   "useCaves": true,
@@ -136,7 +137,6 @@
       [
         {
           "type": "CYAN_TERRACOTTA",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -212,7 +212,6 @@
       [
         {
           "type": "GRASS_BLOCK",
-          "data": 0,
           "tags": {},
           "chance": 1.0
         }
@@ -223,7 +222,6 @@
       [
         {
           "type": "CYAN_TERRACOTTA",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -275,7 +273,6 @@
       [
         {
           "type": "DIRT",
-          "data": 0,
           "tags": {},
           "chance": 1.0
         }
@@ -331,7 +328,6 @@
         },
         {
           "type": "SUNFLOWER",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -343,7 +339,6 @@
         },
         {
           "type": "LILAC",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -355,7 +350,6 @@
         },
         {
           "type": "TALL_GRASS",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -367,7 +361,6 @@
         },
         {
           "type": "LARGE_FERN",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -379,7 +372,6 @@
         },
         {
           "type": "ROSE_BUSH",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -391,7 +383,6 @@
         },
         {
           "type": "PEONY",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -403,7 +394,6 @@
         },
         {
           "type": "DANDELION",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -415,7 +405,6 @@
         },
         {
           "type": "POPPY",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -427,7 +416,6 @@
         },
         {
           "type": "BLUE_ORCHID",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -439,7 +427,6 @@
         },
         {
           "type": "ALLIUM",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -451,7 +438,6 @@
         },
         {
           "type": "AZURE_BLUET",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -463,7 +449,6 @@
         },
         {
           "type": "RED_TULIP",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -475,7 +460,6 @@
         },
         {
           "type": "ORANGE_TULIP",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -487,7 +471,6 @@
         },
         {
           "type": "PINK_TULIP",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -499,7 +482,17 @@
         },
         {
           "type": "WHITE_TULIP",
-          "data": 0,
+          "tags": {},
+          "inclinationsConditions": [
+            {
+              "minInclination": 0.0,
+              "maxInclination": 1.7
+            }
+          ],
+          "chance": 0.001
+        },
+        {
+          "type": "SWEET_BERRY_BUSH",
           "tags": {},
           "inclinationsConditions": [
             {
@@ -511,7 +504,6 @@
         },
         {
           "type": "GRASS",
-          "data": 0,
           "tags": {},
           "inclinationsConditions": [
             {
@@ -526,67 +518,56 @@
       [
         {
           "type": "DANDELION",
-          "data": 0,
           "tags": {},
           "chance": 0.001953125
         },
         {
           "type": "POPPY",
-          "data": 0,
           "tags": {},
           "chance": 0.001953125
         },
         {
           "type": "BLUE_ORCHID",
-          "data": 0,
           "tags": {},
           "chance": 0.001953125
         },
         {
           "type": "ALLIUM",
-          "data": 0,
           "tags": {},
           "chance": 0.001953125
         },
         {
           "type": "AZURE_BLUET",
-          "data": 0,
           "tags": {},
           "chance": 0.001953125
         },
         {
           "type": "RED_TULIP",
-          "data": 0,
           "tags": {},
           "chance": 0.001953125
         },
         {
           "type": "ORANGE_TULIP",
-          "data": 0,
           "tags": {},
           "chance": 0.001953125
         },
         {
           "type": "WHITE_TULIP",
-          "data": 0,
           "tags": {},
           "chance": 0.001953125
         },
         {
           "type": "PINK_TULIP",
-          "data": 0,
           "tags": {},
           "chance": 0.001953125
         },
         {
           "type": "TALL_GRASS",
-          "data": 0,
           "tags": {},
           "chance": 0.001953125
         },
         {
           "type": "LARGE_FERN",
-          "data": 0,
           "tags": {},
           "chance": 0.001953125
         }
@@ -595,7 +576,7 @@
     "riverBlocks": [
       [
         {
-          "type": "SAND",
+          "type": "DIRT",
           "data": 0,
           "tags": {},
           "heightConditions": [
@@ -610,21 +591,19 @@
     ],
     "leavesBlock": {
       "type": "SPRUCE_LEAVES",
-      "data": 0,
       "tags": {},
       "inclinationsConditions": [
         {
           "minInclination": 0.44999998807907104,
           "maxInclination": 0.6000000238418579
         }
-      ],
-      "chance": 0.0
+      ]
     }
   },
   "customTrees": [
     {
-      "name": "TREES_scotsPine_normal_10",
-      "density": 8.333333333333334E-4,
+      "name": "CUSTOM_Tree_ScotsPineForest_Normal01",
+      "density": 8.533333333333334E-4,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "TREES",
@@ -632,10 +611,10 @@
         "GRASS_BLOCK"
       ],
       "blacklistedDecoBlocks": [],
-      "chestConfig": "default.json",
+      "chestConfig": "",
       "spawnUnderWater": false,
       "spawnOnGround": true,
-      "overrideExsistingBlocks": false,
+      "overrideExsistingBlocks": true,
       "allowRotation": true,
       "applyPhysics": false,
       "applyAir": false,
@@ -653,7 +632,7 @@
       "anchorYOffset": 0
     },
     {
-      "name": "TREES_scotsPine_normal_11",
+      "name": "CUSTOM_Tree_ScotsPineForest_Normal02",
       "density": 8.333333333333334E-4,
       "size": "MEDIUM",
       "provider": "EWG",
@@ -662,10 +641,10 @@
         "GRASS_BLOCK"
       ],
       "blacklistedDecoBlocks": [],
-      "chestConfig": "default.json",
+      "chestConfig": "",
       "spawnUnderWater": false,
       "spawnOnGround": true,
-      "overrideExsistingBlocks": false,
+      "overrideExsistingBlocks": true,
       "allowRotation": true,
       "applyPhysics": false,
       "applyAir": false,
@@ -683,8 +662,8 @@
       "anchorYOffset": 0
     },
     {
-      "name": "TREES_scotsPine_normal_12",
-      "density": 8.333333333333334E-4,
+      "name": "CUSTOM_Tree_ScotsPineForest_Normal03",
+      "density": 7.333333333333334E-4,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "TREES",
@@ -692,10 +671,10 @@
         "GRASS_BLOCK"
       ],
       "blacklistedDecoBlocks": [],
-      "chestConfig": "default.json",
+      "chestConfig": "",
       "spawnUnderWater": false,
       "spawnOnGround": true,
-      "overrideExsistingBlocks": false,
+      "overrideExsistingBlocks": true,
       "allowRotation": true,
       "applyPhysics": false,
       "applyAir": false,
@@ -713,8 +692,8 @@
       "anchorYOffset": 0
     },
     {
-      "name": "TREES_scotsPine_normal_6",
-      "density": 8.333333333333334E-4,
+      "name": "CUSTOM_Tree_ScotsPineForest_Big01",
+      "density": 7.333333333333334E-4,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "TREES",
@@ -722,10 +701,10 @@
         "GRASS_BLOCK"
       ],
       "blacklistedDecoBlocks": [],
-      "chestConfig": "default.json",
+      "chestConfig": "",
       "spawnUnderWater": false,
       "spawnOnGround": true,
-      "overrideExsistingBlocks": false,
+      "overrideExsistingBlocks": true,
       "allowRotation": true,
       "applyPhysics": false,
       "applyAir": false,
@@ -743,8 +722,8 @@
       "anchorYOffset": 0
     },
     {
-      "name": "TREES_scotsPine_normal_8",
-      "density": 8.333333333333334E-4,
+      "name": "CUSTOM_Tree_ScotsPineForest_Big02",
+      "density": 7.333333333333334E-4,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "TREES",
@@ -752,10 +731,10 @@
         "GRASS_BLOCK"
       ],
       "blacklistedDecoBlocks": [],
-      "chestConfig": "default.json",
+      "chestConfig": "",
       "spawnUnderWater": false,
       "spawnOnGround": true,
-      "overrideExsistingBlocks": false,
+      "overrideExsistingBlocks": true,
       "allowRotation": true,
       "applyPhysics": false,
       "applyAir": false,
@@ -773,8 +752,8 @@
       "anchorYOffset": 0
     },
     {
-      "name": "TREES_scotsPine_normal_9",
-      "density": 8.333333333333334E-4,
+      "name": "CUSTOM_Tree_ScotsPineForest_Big03",
+      "density": 7.333333333333334E-4,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "TREES",
@@ -782,10 +761,40 @@
         "GRASS_BLOCK"
       ],
       "blacklistedDecoBlocks": [],
-      "chestConfig": "default.json",
+      "chestConfig": "",
       "spawnUnderWater": false,
       "spawnOnGround": true,
-      "overrideExsistingBlocks": false,
+      "overrideExsistingBlocks": true,
+      "allowRotation": true,
+      "applyPhysics": false,
+      "applyAir": false,
+      "fixFlyingRoots": true,
+      "replaceAir": true,
+      "minY": 62,
+      "maxY": 120,
+      "maxSlope": 0.7,
+      "minSlope": 0.0,
+      "transitionClearance": -1.0,
+      "snapToXGrid": -1,
+      "snapToYGrid": -1,
+      "gridXOffset": 0,
+      "gridYOffset": 0,
+      "anchorYOffset": 0
+    },
+    {
+      "name": "CUSTOM_Tree_ScotsPineForest_Mega01",
+      "density": 1.333333333333334E-4,
+      "size": "MEDIUM",
+      "provider": "EWG",
+      "type": "TREES",
+      "blocksRequiredUnderneath": [
+        "GRASS_BLOCK"
+      ],
+      "blacklistedDecoBlocks": [],
+      "chestConfig": "",
+      "spawnUnderWater": false,
+      "spawnOnGround": true,
+      "overrideExsistingBlocks": true,
       "allowRotation": true,
       "applyPhysics": false,
       "applyAir": false,
@@ -805,46 +814,46 @@
   ],
   "customStructures": [
     {
-      "name": "DECO_rock_01",
-      "density": 0.005,
+      "name": "CUSTOM_Struc_Deco_Campfire01",
+      "density": 1.0E-4,
       "size": "MEDIUM",
       "provider": "EWG",
-      "type": "DECO",
+      "type": "TREES",
       "blocksRequiredUnderneath": [
         "GRASS_BLOCK"
       ],
       "blacklistedDecoBlocks": [],
-      "chestConfig": "default.json",
+      "chestConfig": "",
       "spawnUnderWater": false,
       "spawnOnGround": true,
-      "overrideExsistingBlocks": false,
+      "overrideExsistingBlocks": true,
       "allowRotation": false,
       "applyPhysics": false,
-      "applyAir": true,
-      "fixFlyingRoots": false,
+      "applyAir": false,
+      "fixFlyingRoots": true,
       "replaceAir": true,
-      "minY": 78,
-      "maxY": 138,
-      "maxSlope": 1.5,
+      "minY": 40,
+      "maxY": 113,
+      "maxSlope": 0.7,
       "minSlope": 0.0,
       "transitionClearance": -1.0,
-      "snapToXGrid": 150,
-      "snapToYGrid": 150,
+      "snapToXGrid": -1,
+      "snapToYGrid": -1,
       "gridXOffset": 0,
       "gridYOffset": 0,
-      "anchorYOffset": 2
+      "anchorYOffset": 0
     },
     {
-      "name": "DECO_rock_02",
-      "density": 0.005,
+      "name": "CUSTOM_Struc_ScotsPine_Deco_rock01",
+      "density": 1.333333333333334E-4,
       "size": "MEDIUM",
       "provider": "EWG",
-      "type": "DECO",
+      "type": "TREES",
       "blocksRequiredUnderneath": [
         "GRASS_BLOCK"
       ],
       "blacklistedDecoBlocks": [],
-      "chestConfig": "default.json",
+      "chestConfig": "",
       "spawnUnderWater": false,
       "spawnOnGround": true,
       "overrideExsistingBlocks": false,
@@ -854,22 +863,22 @@
       "fixFlyingRoots": false,
       "replaceAir": true,
       "minY": 78,
-      "maxY": 138,
+      "maxY": 110,
       "maxSlope": 1.5,
       "minSlope": 0.0,
       "transitionClearance": -1.0,
-      "snapToXGrid": 150,
-      "snapToYGrid": 150,
+      "snapToXGrid": 1,
+      "snapToYGrid": 1,
       "gridXOffset": 0,
       "gridYOffset": 0,
-      "anchorYOffset": 2
+      "anchorYOffset": 0
     },
     {
-      "name": "DECO_rock_03",
-      "density": 0.005,
+      "name": "CUSTOM_Building_ScotsPine_Mine01",
+      "density": 8.0E-6,
       "size": "MEDIUM",
       "provider": "EWG",
-      "type": "DECO",
+      "type": "TREES",
       "blocksRequiredUnderneath": [
         "GRASS_BLOCK"
       ],
@@ -877,34 +886,34 @@
       "chestConfig": "default.json",
       "spawnUnderWater": false,
       "spawnOnGround": true,
-      "overrideExsistingBlocks": false,
+      "overrideExsistingBlocks": true,
       "allowRotation": false,
       "applyPhysics": false,
       "applyAir": true,
       "fixFlyingRoots": false,
       "replaceAir": true,
-      "minY": 78,
-      "maxY": 138,
-      "maxSlope": 1.5,
+      "minY": 40,
+      "maxY": 75,
+      "maxSlope": 0.5,
       "minSlope": 0.0,
       "transitionClearance": -1.0,
-      "snapToXGrid": 150,
-      "snapToYGrid": 150,
+      "snapToXGrid": 50,
+      "snapToYGrid": 50,
       "gridXOffset": 0,
       "gridYOffset": 0,
-      "anchorYOffset": 2
+      "anchorYOffset": 0
     },
     {
-      "name": "DECO_rock_04",
-      "density": 0.005,
+      "name": "CUSTOM_Struc_ScotsPine_Deco_rock02",
+      "density": 1.333333333333334E-4,
       "size": "MEDIUM",
       "provider": "EWG",
-      "type": "DECO",
+      "type": "TREES",
       "blocksRequiredUnderneath": [
         "GRASS_BLOCK"
       ],
       "blacklistedDecoBlocks": [],
-      "chestConfig": "default.json",
+      "chestConfig": "",
       "spawnUnderWater": false,
       "spawnOnGround": true,
       "overrideExsistingBlocks": false,
@@ -914,27 +923,27 @@
       "fixFlyingRoots": false,
       "replaceAir": true,
       "minY": 78,
-      "maxY": 138,
+      "maxY": 110,
       "maxSlope": 1.5,
       "minSlope": 0.0,
       "transitionClearance": -1.0,
-      "snapToXGrid": 150,
-      "snapToYGrid": 150,
+      "snapToXGrid": 1,
+      "snapToYGrid": 1,
       "gridXOffset": 0,
       "gridYOffset": 0,
-      "anchorYOffset": 2
+      "anchorYOffset": 0
     },
     {
-      "name": "DECO_rock_10",
-      "density": 0.005,
+      "name": "CUSTOM_Struc_ScotsPine_Deco_rock03",
+      "density": 1.333333333333334E-4,
       "size": "MEDIUM",
       "provider": "EWG",
-      "type": "DECO",
+      "type": "TREES",
       "blocksRequiredUnderneath": [
         "GRASS_BLOCK"
       ],
       "blacklistedDecoBlocks": [],
-      "chestConfig": "default.json",
+      "chestConfig": "",
       "spawnUnderWater": false,
       "spawnOnGround": true,
       "overrideExsistingBlocks": false,
@@ -944,27 +953,27 @@
       "fixFlyingRoots": false,
       "replaceAir": true,
       "minY": 78,
-      "maxY": 138,
+      "maxY": 110,
       "maxSlope": 1.5,
       "minSlope": 0.0,
       "transitionClearance": -1.0,
-      "snapToXGrid": 150,
-      "snapToYGrid": 150,
+      "snapToXGrid": 1,
+      "snapToYGrid": 1,
       "gridXOffset": 0,
       "gridYOffset": 0,
-      "anchorYOffset": 2
+      "anchorYOffset": 0
     },
     {
-      "name": "DECO_rock_17",
-      "density": 0.005,
+      "name": "CUSTOM_Struc_ScotsPine_Deco_rock04",
+      "density": 1.333333333333334E-4,
       "size": "MEDIUM",
       "provider": "EWG",
-      "type": "DECO",
+      "type": "TREES",
       "blocksRequiredUnderneath": [
         "GRASS_BLOCK"
       ],
       "blacklistedDecoBlocks": [],
-      "chestConfig": "default.json",
+      "chestConfig": "",
       "spawnUnderWater": false,
       "spawnOnGround": true,
       "overrideExsistingBlocks": false,
@@ -974,27 +983,27 @@
       "fixFlyingRoots": false,
       "replaceAir": true,
       "minY": 78,
-      "maxY": 138,
+      "maxY": 110,
       "maxSlope": 1.5,
       "minSlope": 0.0,
       "transitionClearance": -1.0,
-      "snapToXGrid": 150,
-      "snapToYGrid": 150,
+      "snapToXGrid": 1,
+      "snapToYGrid": 1,
       "gridXOffset": 0,
       "gridYOffset": 0,
-      "anchorYOffset": 8
+      "anchorYOffset": 0
     },
     {
-      "name": "DECO_rock_18",
-      "density": 0.005,
+      "name": "CUSTOM_Struc_ScotsPine_Deco_rock05",
+      "density": 1.333333333333334E-4,
       "size": "MEDIUM",
       "provider": "EWG",
-      "type": "DECO",
+      "type": "TREES",
       "blocksRequiredUnderneath": [
         "GRASS_BLOCK"
       ],
       "blacklistedDecoBlocks": [],
-      "chestConfig": "default.json",
+      "chestConfig": "",
       "spawnUnderWater": false,
       "spawnOnGround": true,
       "overrideExsistingBlocks": false,
@@ -1004,27 +1013,27 @@
       "fixFlyingRoots": false,
       "replaceAir": true,
       "minY": 78,
-      "maxY": 138,
+      "maxY": 110,
       "maxSlope": 1.5,
       "minSlope": 0.0,
       "transitionClearance": -1.0,
-      "snapToXGrid": 150,
-      "snapToYGrid": 150,
+      "snapToXGrid": 1,
+      "snapToYGrid": 1,
       "gridXOffset": 0,
       "gridYOffset": 0,
-      "anchorYOffset": 2
+      "anchorYOffset": 0
     },
     {
-      "name": "DECO_rock_19",
-      "density": 0.005,
+      "name": "CUSTOM_Struc_ScotsPine_Deco_rock06",
+      "density": 1.333333333333334E-4,
       "size": "MEDIUM",
       "provider": "EWG",
-      "type": "DECO",
+      "type": "TREES",
       "blocksRequiredUnderneath": [
         "GRASS_BLOCK"
       ],
       "blacklistedDecoBlocks": [],
-      "chestConfig": "default.json",
+      "chestConfig": "",
       "spawnUnderWater": false,
       "spawnOnGround": true,
       "overrideExsistingBlocks": false,
@@ -1034,27 +1043,27 @@
       "fixFlyingRoots": false,
       "replaceAir": true,
       "minY": 78,
-      "maxY": 138,
+      "maxY": 110,
       "maxSlope": 1.5,
       "minSlope": 0.0,
       "transitionClearance": -1.0,
-      "snapToXGrid": 150,
-      "snapToYGrid": 150,
+      "snapToXGrid": 1,
+      "snapToYGrid": 1,
       "gridXOffset": 0,
       "gridYOffset": 0,
-      "anchorYOffset": 2
+      "anchorYOffset": 0
     },
     {
-      "name": "DECO_rock_20",
-      "density": 0.005,
+      "name": "CUSTOM_Struc_ScotsPine_Deco_rock07",
+      "density": 1.333333333333334E-4,
       "size": "MEDIUM",
       "provider": "EWG",
-      "type": "DECO",
+      "type": "TREES",
       "blocksRequiredUnderneath": [
         "GRASS_BLOCK"
       ],
       "blacklistedDecoBlocks": [],
-      "chestConfig": "default.json",
+      "chestConfig": "",
       "spawnUnderWater": false,
       "spawnOnGround": true,
       "overrideExsistingBlocks": false,
@@ -1064,27 +1073,27 @@
       "fixFlyingRoots": false,
       "replaceAir": true,
       "minY": 78,
-      "maxY": 138,
+      "maxY": 110,
       "maxSlope": 1.5,
       "minSlope": 0.0,
       "transitionClearance": -1.0,
-      "snapToXGrid": 150,
-      "snapToYGrid": 150,
+      "snapToXGrid": 1,
+      "snapToYGrid": 1,
       "gridXOffset": 0,
       "gridYOffset": 0,
-      "anchorYOffset": 8
+      "anchorYOffset": 0
     },
     {
-      "name": "DECO_rock_21",
-      "density": 0.005,
+      "name": "CUSTOM_Struc_ScotsPine_Deco_rock08",
+      "density": 1.333333333333334E-4,
       "size": "MEDIUM",
       "provider": "EWG",
-      "type": "DECO",
+      "type": "TREES",
       "blocksRequiredUnderneath": [
         "GRASS_BLOCK"
       ],
       "blacklistedDecoBlocks": [],
-      "chestConfig": "default.json",
+      "chestConfig": "",
       "spawnUnderWater": false,
       "spawnOnGround": true,
       "overrideExsistingBlocks": false,
@@ -1094,27 +1103,27 @@
       "fixFlyingRoots": false,
       "replaceAir": true,
       "minY": 78,
-      "maxY": 138,
+      "maxY": 110,
       "maxSlope": 1.5,
       "minSlope": 0.0,
       "transitionClearance": -1.0,
-      "snapToXGrid": 150,
-      "snapToYGrid": 150,
+      "snapToXGrid": 1,
+      "snapToYGrid": 1,
       "gridXOffset": 0,
       "gridYOffset": 0,
-      "anchorYOffset": 8
+      "anchorYOffset": 0
     },
     {
-      "name": "DECO_rock_22",
-      "density": 0.005,
+      "name": "CUSTOM_Struc_ScotsPine_Deco_rock09",
+      "density": 1.333333333333334E-4,
       "size": "MEDIUM",
       "provider": "EWG",
-      "type": "DECO",
+      "type": "TREES",
       "blocksRequiredUnderneath": [
         "GRASS_BLOCK"
       ],
       "blacklistedDecoBlocks": [],
-      "chestConfig": "default.json",
+      "chestConfig": "",
       "spawnUnderWater": false,
       "spawnOnGround": true,
       "overrideExsistingBlocks": false,
@@ -1124,27 +1133,27 @@
       "fixFlyingRoots": false,
       "replaceAir": true,
       "minY": 78,
-      "maxY": 138,
+      "maxY": 90,
       "maxSlope": 1.5,
       "minSlope": 0.0,
       "transitionClearance": -1.0,
-      "snapToXGrid": 150,
-      "snapToYGrid": 150,
+      "snapToXGrid": 1,
+      "snapToYGrid": 1,
       "gridXOffset": 0,
       "gridYOffset": 0,
-      "anchorYOffset": 2
+      "anchorYOffset": 0
     },
     {
-      "name": "DECO_rock_24",
-      "density": 0.005,
+      "name": "CUSTOM_Struc_ScotsPine_Deco_rock10",
+      "density": 2.333333333333334E-4,
       "size": "MEDIUM",
       "provider": "EWG",
-      "type": "DECO",
+      "type": "TREES",
       "blocksRequiredUnderneath": [
         "GRASS_BLOCK"
       ],
       "blacklistedDecoBlocks": [],
-      "chestConfig": "default.json",
+      "chestConfig": "",
       "spawnUnderWater": false,
       "spawnOnGround": true,
       "overrideExsistingBlocks": false,
@@ -1154,27 +1163,27 @@
       "fixFlyingRoots": false,
       "replaceAir": true,
       "minY": 78,
-      "maxY": 138,
+      "maxY": 90,
       "maxSlope": 1.5,
       "minSlope": 0.0,
       "transitionClearance": -1.0,
-      "snapToXGrid": 150,
-      "snapToYGrid": 150,
+      "snapToXGrid": 1,
+      "snapToYGrid": 1,
       "gridXOffset": 0,
       "gridYOffset": 0,
-      "anchorYOffset": 8
+      "anchorYOffset": 0
     },
     {
-      "name": "DECO_rock_25",
-      "density": 0.005,
+      "name": "CUSTOM_Struc_ScotsPine_Deco_rock11",
+      "density": 1.333333333333334E-4,
       "size": "MEDIUM",
       "provider": "EWG",
-      "type": "DECO",
+      "type": "TREES",
       "blocksRequiredUnderneath": [
         "GRASS_BLOCK"
       ],
       "blacklistedDecoBlocks": [],
-      "chestConfig": "default.json",
+      "chestConfig": "",
       "spawnUnderWater": false,
       "spawnOnGround": true,
       "overrideExsistingBlocks": false,
@@ -1184,27 +1193,27 @@
       "fixFlyingRoots": false,
       "replaceAir": true,
       "minY": 78,
-      "maxY": 138,
+      "maxY": 90,
       "maxSlope": 1.5,
       "minSlope": 0.0,
       "transitionClearance": -1.0,
-      "snapToXGrid": 150,
-      "snapToYGrid": 150,
+      "snapToXGrid": 1,
+      "snapToYGrid": 1,
       "gridXOffset": 0,
       "gridYOffset": 0,
-      "anchorYOffset": 2
+      "anchorYOffset": 0
     },
     {
-      "name": "DECO_forest_house",
-      "density": 5.0E-4,
+      "name": "CUSTOM_Struc_ScotsPine_Deco_rock12",
+      "density": 1.333333333333334E-4,
       "size": "MEDIUM",
       "provider": "EWG",
-      "type": "DECO",
+      "type": "TREES",
       "blocksRequiredUnderneath": [
         "GRASS_BLOCK"
       ],
       "blacklistedDecoBlocks": [],
-      "chestConfig": "default.json",
+      "chestConfig": "",
       "spawnUnderWater": false,
       "spawnOnGround": true,
       "overrideExsistingBlocks": false,
@@ -1214,15 +1223,45 @@
       "fixFlyingRoots": false,
       "replaceAir": true,
       "minY": 78,
-      "maxY": 118,
+      "maxY": 90,
       "maxSlope": 1.5,
       "minSlope": 0.0,
       "transitionClearance": -1.0,
-      "snapToXGrid": 150,
-      "snapToYGrid": 150,
+      "snapToXGrid": 1,
+      "snapToYGrid": 1,
       "gridXOffset": 0,
       "gridYOffset": 0,
-      "anchorYOffset": 2
+      "anchorYOffset": 0
+    },
+    {
+      "name": "CUSTOM_Struc_ScotsPine_Deco_rock13",
+      "density": 2.333333333333334E-4,
+      "size": "MEDIUM",
+      "provider": "EWG",
+      "type": "TREES",
+      "blocksRequiredUnderneath": [
+        "GRASS_BLOCK"
+      ],
+      "blacklistedDecoBlocks": [],
+      "chestConfig": "",
+      "spawnUnderWater": false,
+      "spawnOnGround": true,
+      "overrideExsistingBlocks": false,
+      "allowRotation": false,
+      "applyPhysics": false,
+      "applyAir": true,
+      "fixFlyingRoots": false,
+      "replaceAir": true,
+      "minY": 78,
+      "maxY": 90,
+      "maxSlope": 1.5,
+      "minSlope": 0.0,
+      "transitionClearance": -1.0,
+      "snapToXGrid": 1,
+      "snapToYGrid": 1,
+      "gridXOffset": 0,
+      "gridYOffset": 0,
+      "anchorYOffset": 0
     }
   ],
   "maxEWGObjectsPerChunk": 4,

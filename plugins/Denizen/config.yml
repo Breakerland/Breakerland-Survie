@@ -33,6 +33,8 @@ Debug:
     Prefix: ""
     # Whether to show full information about scripts being loaded (at startup and "/ex reload" usage).
     Show loading info: false
+    # Whether to show deprecation warnings that are scheduled as future warnings.
+    Show future warnings: false
 Scripts:
     World:
         Events:
@@ -184,4 +186,4 @@ Packets:
 # The below value is how many times automatic updates have been applied
 # since you last cleaned this file.
 # ----------- End Important! -----------
-times_changed: 2
+times_changed: 3

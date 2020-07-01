@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:piston"
+        },
+        "title": {"translate":"Inception"},
+        "description": {"translate":"Build a machine that can break a hole in the roof of the Nether"},
+		"frame": "challenge"
+    },
+    "parent": "minecraft:nether/fast_travel",
+	"rewards": {
+		"experience": 100,
+		"function": "bc_rewards:nether/inception"
+    },
+    "criteria": {
+        "enter_cave": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "block": {
+					"tag": "minecraft:non_underwater_blocks"
+				},
+				"position": {
+					"y": {
+						"min": 127,
+						"max": 127.9999
+					}
+				},
+				"dimension": "the_nether"
+            }
+        }
+    }
+}

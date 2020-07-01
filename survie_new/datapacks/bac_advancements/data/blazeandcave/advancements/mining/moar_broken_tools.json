@@ -68,6 +68,17 @@
 				}
             }
         },
+        "netherite_shovel": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"item": {
+					"item": "minecraft:netherite_shovel"
+				},
+				"durability": {
+					"max": 0
+				}
+            }
+        },
         "wooden_pickaxe": {
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
@@ -117,6 +128,17 @@
             "conditions": {
 				"item": {
 					"item": "minecraft:diamond_pickaxe"
+				},
+				"durability": {
+					"max": 0
+				}
+            }
+        },
+        "netherite_pickaxe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"item": {
+					"item": "minecraft:netherite_pickaxe"
 				},
 				"durability": {
 					"max": 0
@@ -178,6 +200,17 @@
 				}
             }
         },
+        "netherite_axe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"item": {
+					"item": "minecraft:netherite_axe"
+				},
+				"durability": {
+					"max": 0
+				}
+            }
+        },
         "wooden_hoe": {
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
@@ -233,6 +266,17 @@
 				}
             }
         },
+        "netherite_hoe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"item": {
+					"item": "minecraft:netherite_hoe"
+				},
+				"durability": {
+					"max": 0
+				}
+            }
+        },
         "wooden_sword": {
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
@@ -282,6 +326,17 @@
             "conditions": {
 				"item": {
 					"item": "minecraft:diamond_sword"
+				},
+				"durability": {
+					"max": 0
+				}
+            }
+        },
+        "netherite_sword": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"item": {
+					"item": "minecraft:netherite_sword"
 				},
 				"durability": {
 					"max": 0
@@ -348,6 +403,39 @@
             "conditions": {
 				"item": {
 					"item": "minecraft:carrot_on_a_stick"
+				},
+				"durability": {
+					"max": 0
+				}
+            }
+        },
+        "shears": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"item": {
+					"item": "minecraft:shears"
+				},
+				"durability": {
+					"max": 0
+				}
+            }
+        },
+        "flint_and_steel": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"item": {
+					"item": "minecraft:flint_and_steel"
+				},
+				"durability": {
+					"max": 0
+				}
+            }
+        },
+        "warped_fungus_on_a_stick": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"item": {
+					"item": "minecraft:warped_fungus_on_a_stick"
 				},
 				"durability": {
 					"max": 0

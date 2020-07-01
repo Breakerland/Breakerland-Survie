@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chain"
+        },
+        "title": {"translate":"No Chain, No Gain"},
+        "description": {"translate":"Craft a chain using an iron ingot and iron nuggets"}
+    },
+    "parent": "blazeandcave:building/greek_art_decor",
+    "rewards": {
+        "function": "bc_rewards:building/no_chain_no_gain"
+    },		
+    "criteria": {
+        "chain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:chain"
+                    }
+                ]
+            }
+        }
+	}	
+}

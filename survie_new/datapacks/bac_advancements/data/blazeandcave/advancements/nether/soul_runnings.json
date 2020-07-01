@@ -1,0 +1,43 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_boots",
+			"nbt": "{Enchantments:[{id:\"minecraft:soul_speed\",lvl:3}]}"
+        },
+        "title": {"translate":"Soul Runnings!"},
+        "description": {"translate":"Step on Soul Sand with Netherite Boots enchanted with Soul Speed III"},
+		"frame": "goal"
+    },
+    "parent": "minecraft:nether/netherite_armor",
+	"rewards": {
+		"experience": 50,
+		"function": "bc_rewards:nether/soul_runnings"
+    },
+    "criteria": {
+        "soul_runnings": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+				"block": "minecraft:soul_sand",
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"feet": {
+									"item": "minecraft:netherite_boots",
+									"enchantments": [
+										{
+											"enchantment": "minecraft:soul_speed",
+											"levels": 3
+										}
+									]
+								}
+							}
+						}
+                    }
+                ]
+            }
+        }
+    }
+}

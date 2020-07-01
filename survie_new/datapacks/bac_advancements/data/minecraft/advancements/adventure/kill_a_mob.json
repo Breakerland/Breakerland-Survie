@@ -27,11 +27,11 @@
         }
       }
     },
-    "minecraft:zombie_pigman": {
+    "minecraft:zombified_piglin": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:zombie_pigman"
+          "type": "minecraft:zombified_piglin"
         }
       }
     },
@@ -234,13 +234,61 @@
           "type": "minecraft:skeleton_horse"
         }
       }
+    },
+    "minecraft:piglin": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        }
+      }
+    },
+    "minecraft:hoglin": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:hoglin"
+        }
+      }
+    },
+    "minecraft:zoglin": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zoglin"
+        }
+      }
+    },
+    "minecraft:elder_guardian": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:elder_guardian"
+        }
+      }
+    },
+    "minecraft:ender_dragon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:ender_dragon"
+        }
+      }
+    },
+    "minecraft:wither": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wither"
+        }
+      }
     }
   },
   "requirements": [
     [
       "minecraft:cave_spider",
       "minecraft:spider",
-      "minecraft:zombie_pigman",
+      "minecraft:zombified_piglin",
       "minecraft:enderman",
       "minecraft:blaze",
       "minecraft:creeper",
@@ -265,7 +313,13 @@
       "minecraft:ravager",
       "minecraft:endermite",
       "minecraft:vex",
-      "minecraft:skeleton_horse"
+      "minecraft:skeleton_horse",
+      "minecraft:piglin",
+      "minecraft:hoglin",
+      "minecraft:zoglin",
+      "minecraft:elder_guardian",
+      "minecraft:ender_dragon",
+      "minecraft:wither"
     ]
   ]
 }

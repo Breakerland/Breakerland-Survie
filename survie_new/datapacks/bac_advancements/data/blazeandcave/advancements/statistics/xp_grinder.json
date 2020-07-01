@@ -5,7 +5,7 @@
 			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
         },
         "title": {"translate":"XP Grinder"},
-        "description": {"translate":"Reach 1000 experience levels"},
+        "description": {"translate":"Reach 300 experience levels"},
 		"frame": "challenge"
     },
     "parent": "blazeandcave:statistics/overlevelling",
@@ -15,7 +15,16 @@
     },		
     "criteria": {
         "trigger": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"level": {
+							"min": 300
+						}
+					}
+				}
+			}
         }
     }
 }

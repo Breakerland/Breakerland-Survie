@@ -7,7 +7,7 @@
         "description": {"translate":"Completely use up a diamond hoe, and then reevaluate your life choices"},
         "frame": "challenge"
     },
-    "parent": "blazeandcave:farming/the_garbage_will_do",
+    "parent": "blazeandcave:farming/whats_new_with_composting",
     "rewards": {
         "experience": 100,
 		"function": "bc_rewards:farming/serious_dedication"

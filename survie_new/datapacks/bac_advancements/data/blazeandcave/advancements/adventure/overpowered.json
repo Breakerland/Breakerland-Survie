@@ -7,7 +7,7 @@
         "description": {"translate":"Obtain a Notch Apple"},
         "frame": "challenge"
     },
-    "parent": "blazeandcave:adventure/music_to_my_ears",
+    "parent": "blazeandcave:adventure/disc_jockey",
     "rewards": {
         "experience": 50,
         "function": "bc_rewards:adventure/overpowered"

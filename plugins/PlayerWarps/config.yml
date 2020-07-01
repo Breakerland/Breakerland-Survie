@@ -1,11 +1,11 @@
 # PlayerWarps by Olzie-12
-# https://www.spigotmc.org/resources/player-warps-1-8-1-13.66692/
+# https://www.spigotmc.org/resources/66692/
 # We also have a discord server for help: https://discord.gg/bAHuRJq
 # Also if you find any bugs be happy to report them i will fix them :)
 # Made with love
 
 # DO NOT TOUCH THIS!
-config-version: 59
+config-version: 62
 
 settings:
   # very useful to tell if there are any memory leaks or if the author needs
@@ -20,14 +20,13 @@ settings:
   metrics: true
   # Want to disable the sponsor message that is shown in the console?
   sponsor-message: true
-  # This is the main command for the plugin. YOU WILL NEED TO RESTART THE SERVER!
+  # This is the main command for the plugin.
   main-command: warp
-  # Extra aliases for the main command. YOU WILL NEED RESTART THE SERVER!
+  # Extra aliases for the main command.
   command-aliases:
   - 'playerwarp'
   - 'pwarp'
   - 'pw'
-
 
   # What order should the warps be listed?
   # options:
@@ -81,16 +80,11 @@ settings:
   database:
     # Please enter the server name on your bungee network, otherwise the plugin will not be able to redirect you to that server.
     # If you don't want to setup this database as a bungee network, please leave this blank.
+
+    # You will also need to download PlayerWarps Proxy for this to work: https://olziedev.com/playerwarps/PlayerWarps_Proxy.jar/
+    # Make sure to put it in your Bungeecord plugins folder!
     server-name: survie
 
-    # Never do /pwarp reload if you changed the database details. It will mess everything, if you wish to change it, change it then restart the server.
-    # This also means if you have just enabled/disabled it please restart the server.
-
-    # WARNING: Because I'm only working with MySQL and Bungeecord. It is very limited. Meaning it can be slow due to MySQL updates
-    # There is also a big limitation that removes some awesome features that PlayerWarps gives like:
-    # Checking if the warp is safe
-
-    # I cannot do anything about this, its just how spigot works. Sorry :(
     mysql:
       # Should SQL be enabled?
       enabled: true
@@ -109,7 +103,7 @@ settings:
       password: $mysql_password_survie
 
     # How often should the GUI refresh in every server? If the time is low the more lag the plugin could produce. This is in seconds.
-    refresh-time: 60
+    refresh-time: 0
 
   icon:
     # Set the icon as a item in a player's hand. If this is disabled the player will need to enter the item name manually.
@@ -130,10 +124,20 @@ settings:
     blacklisted-names:
     - 'olzieisbad'
     # What is the cooldown for setting a warp? Set this to -1 to disable.
-    cooldown: 0
+    cooldown: -1
+    # Should players not be able to set warps in these worlds?
+    disabled-worlds: []
+
+    renting:
+      # Should renting warps be enabled?
+      enabled: false
+      # What is the price they have to pay x amount of days? If they dont have this in their bank, the warp will be removed.
+      renting-price: 500
+      # Every x days do they have to pay?
+      time: 1
 
     economy:
-      # This is how much they will need to set  a warp, otherwise if they don't have that it will not set the warp and send the message
+      # This is how much they will need to set a warp, otherwise if they don't have that it will not set the warp and send the message
       # in lang.yml. Make sure you have an economy plugin and vault supports that economy plugin!
       # Set this to -1 to disable.
       set-price: 50000
@@ -144,9 +148,6 @@ settings:
         vip: 1
         # The rank MVP does not need to pay
         MVP: -1
-
-    # Should players not be able to set warps in these worlds?
-    disabled-worlds: []
 
   # The remove section.
   remove:
@@ -209,7 +210,7 @@ settings:
     # You can bypass this by giving the permission 'pw.delay.bypass'
     teleport-wait: -1
     # What is the cooldown for teleporting to a warp? Set this to -1 to disable.
-    cooldown: 60
+    cooldown: 10
     # If the above option is true, what are the names of the warps?
     specific-warps-list:
     - ''
@@ -226,7 +227,7 @@ settings:
     particles:
       # What particle should be shown when they are teleporting to a playerwarp? Set this to none to disable.
       # YOU WILL NEED TO CHANGE THE PARTICLE IF YOU ARE ON A DIFFERENT VERSION!
-      particle-teleport: false
+      particle-teleport: none
       # How many particles should there be?
       particle-count: 2
       # Should the player see the particle, or should everyone see the particle? This is recommended as just the player.
@@ -235,13 +236,11 @@ settings:
     sounds:
       # What sound should be played when they are teleporting to a playerwarp? Set this to none to disable.
       # YOU WILL NEED TO CHANGE THE SOUND IF YOU ARE ON A DIFFERENT VERSION!
-      sound-teleport: false
+      sound-teleport: none
       # What should the volume be when the sound is played?
       volume-teleport: 1.0
       # What should the pitch be when the sound is played?
       pitch-teleport: 1.0
-
-
 
     economy:
       # This is how much they will need to teleport to a warp, otherwise if they don't have that it they wont teleport to the warp and send the message

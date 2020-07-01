@@ -27,11 +27,11 @@
                 }
             }
         },
-        "zombie_pigman": {
+        "zombified_piglin": {
             "trigger": "minecraft:fishing_rod_hooked",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:zombie_pigman"
+                    "type": "minecraft:zombified_piglin"
                 }
             }
         },
@@ -250,13 +250,37 @@
                     "type": "minecraft:skeleton_horse"
                 }
             }
-        }	
+        },
+        "piglin": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:piglin"
+                }
+            }
+        },
+        "hoglin": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:hoglin"
+                }
+            }
+        },
+        "zoglin": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zoglin"
+                }
+            }
+        }
     },
 	"requirements": [
 		[
 		"cave_spider",
 		"spider",
-		"zombie_pigman",
+		"zombified_piglin",
 		"enderman",
 		"polar_bear",
 		"blaze",
@@ -282,7 +306,10 @@
 		"ravager",
 		"endermite",
 		"vex",
-		"skeleton_horse"
+		"skeleton_horse",
+		"piglin",
+		"hoglin",
+		"zoglin"
 		]
 	]
 }

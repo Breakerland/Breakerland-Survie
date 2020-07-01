@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:crying_obsidian"
+        },
+        "title": {"translate":"Now You’re Thinking With Portals"},
+        "description": {"translate":"Find a broken Nether Portal in the Overworld"}
+    },
+    "parent": "minecraft:adventure/root",
+    "rewards": {
+        "function": "bc_rewards:adventure/now_youre_thinking_with_portals"
+    },		
+    "criteria": {
+        "ruined_portal": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "ruined_portal",
+				"dimension": "overworld"
+            }
+        }		
+    }
+}
