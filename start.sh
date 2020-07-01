@@ -8,6 +8,7 @@
 source secret.dat
 
 # Pull from Github
+git reset --hard
 git pull 
 
 echo "Starting to deobfuscate files..."
