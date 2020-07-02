@@ -29,11 +29,11 @@ data:
 
   # The name of the database to store LuckPerms data in.
   # - This must be created already. Don't worry about this setting if you're using MongoDB.
-  database: $mysql_database
+  database: $mysql_database_proxy
 
   # Credentials for the database.
-  username: $mysql_user
-  password: $mysql_password
+  username: $mysql_user_proxy
+  password: $mysql_password_proxy
 
   # These settings apply to the MySQL connection pool.
   # - The default values will be suitable for the majority of users.

@@ -35,11 +35,11 @@ MyPet:
     ConvertFrom: '-'
     LoadDelay: 20
     MySQL:
-      Database: $mysql_database
+      Database: $mysql_database_survie
       TablePrefix: pet_
       Host: $mysql_host
-      Password: $mysql_password
-      User: $mysql_user
+      Password: $mysql_password_survie
+      User: $mysql_user_survie
       Port: $mysql_port
       MaxConnections: 8
       CharacterEncoding: utf8
