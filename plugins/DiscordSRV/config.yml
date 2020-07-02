@@ -89,7 +89,7 @@ DiscordChatChannelTranslateMentions: true
 DiscordChatChannelPrefixRequiredToProcessMessage: ""
 DiscordChatChannelRolesAllowedToUseColorCodesInChat: ["Premium"]
 DiscordChatChannelBroadcastDiscordMessagesToConsole: false
-DiscordChatChannelRequireLinkedAccount: true
+DiscordChatChannelRequireLinkedAccount: false
 DiscordChatChannelBlockBots: true
 DiscordChatChannelBlockedIds: ["000000000000000000"]
 DiscordChatChannelColorTranslations: {
