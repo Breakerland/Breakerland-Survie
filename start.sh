@@ -5,7 +5,7 @@
 # ORIGIN=origin
 # BRANCH=master
 
-source secret.dat
+source secret.key
 
 # Pull from Github
 git reset --hard
