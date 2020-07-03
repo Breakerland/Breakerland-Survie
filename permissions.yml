@@ -1,4 +1,4 @@
-avantages.premium:
+premium:
   default: false
   children:
     essentials.repair: true
@@ -21,3 +21,7 @@ avantages.premium:
     jobs.weaponsmith.vipmaxlevel: true
     essentials.signs.color: true
     essentials.signs.magic: true
+héro:
+  default: false
+  children:
+    essentials.repair: true
