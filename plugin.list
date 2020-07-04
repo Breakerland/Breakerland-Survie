@@ -1,4 +1,5 @@
 AntiRedstoneClock
+Anvil
 ArmorStandTools
 AuctionHouse
 AuthMe
@@ -14,6 +15,7 @@ CitizensBooks
 CommandNPC
 CoreProtect
 CrazyEnchantments
+CustomEnderChest
 DBack
 Denizen
 DiscordSRV
@@ -29,6 +31,7 @@ FastLoginBukkit
 HeadDatabase
 HolographicDisplays
 IllegalStack
+ImageOnMap
 Jobs
 Lands
 LuckPerms
@@ -45,6 +48,7 @@ Referral
 Regionerator
 SimplePortal
 Sleep
+Smelt
 UltimateStacker
 Vault
 ViewDistance
