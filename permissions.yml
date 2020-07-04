@@ -1,4 +1,4 @@
-avantages.premium:
+premium:
   default: false
   children:
     essentials.repair: true
@@ -21,3 +21,145 @@ avantages.premium:
     jobs.weaponsmith.vipmaxlevel: true
     essentials.signs.color: true
     essentials.signs.magic: true
+
+survivant:
+  default: false
+  children:
+    sleep.cancel: true
+    simpleportals.switchserver: true
+    quickshop.use: true
+    quests.top: true
+    quests.take: true
+    quests.stats: true
+    quests.quit: true
+    quests.list: true
+    quests.journal: true
+    pw.rate: true
+    pw.warp: true
+    pw.list: true
+    pw.warp: true
+    pw.open: true
+    minecraft.command.seed: true
+    max_view_distance.15: true
+    lands.setting.spawn_public: true
+    lands.ownlands.1: true
+    lands.members.number: true
+    lands.lands.1: true
+    lands.gui.chunk.teleport: true
+    jobs.use: true
+    jobs.max.1: true
+    jobs.join: true
+    grade.aventurier: true
+    essentials.warp: true
+    essentials.tpdeny: true
+    essentials.tpahere: true
+    essentials.tpaccept: true
+    essentials.tpacancel: true
+    essentials.tpa: true
+    essentials.time: true
+    essentials.suicide: true
+    essentials.spawn: true
+    essentials.signs.use.kit: true
+    essentials.rules: true
+    essentials.ping: true
+    essentials.pay: true
+    essentials.money: true
+    essentials.mail: true
+    essentials.list: true
+    essentials.kits.survivant: true
+    essentials.info: true
+    essentials.help: true
+    essentials.customtext: true
+    essentials.chat.url: true
+    essentials.balance: true
+    essentials.back: true
+    essentials.back.ondeath: false
+    essentials.afk.auto: true
+    essentials.afk: true
+    ecraft.command.ecraft: true
+    bukkit.command.plugins: true
+    bukkit.command.version: true
+    bukkit.command.help: true
+    bukkit.command.tps: true
+    breakerlandmenu.menu.grades: true
+    betterbees.hive-item: true
+    betterbees.bee: true
+    authme.player: true
+    simpleportals.portal.*: true
+    minecraft.*: false
+    lands.setting.*: true
+    lands.role.*: true
+    lands.gui.*: true
+    lands.chunks.support.*: true
+    lands.chunks.number.*: true
+    lands.chunks.*: true
+    jobs.join.*: true
+    fastlogin.bukkit.command.*: true
+    pvptoggle.toggle: true
+    prefix.5.&f[&7S&f] &7: true
+    lands.command.wild: true
+    lands.command.accept: true
+    lands.command.claim: true
+    lands.command.create: true
+    lands.command.delete: true
+    lands.command.deny: true
+    lands.command.edit: true
+    lands.command.help: true
+    lands.command.info: true
+    lands.command.invites: true
+    lands.command.leave: true
+    lands.command.menu: true
+    lands.command.selection: true
+    lands.command.setrole: true
+    lands.command.setspawn: true
+    lands.command.spawn: true
+    lands.command.trust: true
+    lands.command.unclaim: true
+    lands.command.untrust: true
+    lands.command.view: true
+    lands.bypass.wilderness.fly: false
+    lands.bypass.wilderness.worldedit: false
+    jobs.command.browse: true
+    jobs.command.info: true
+    jobs.command.join: true
+    jobs.command.leave: true
+    jobs.command.leaveall: true
+    jobs.command.shop: true
+    jobs.command.stats: true
+    essentials.exp: true
+    essentials.delhome: true
+    essentials.home: true
+    essentials.home.bed: true
+    essentials.sethome.bed: true
+    essentials.kit: true
+    essentials.showkit: true
+    essentials.mail.send: true
+    essentials.seen: true
+    auctionhouse.cancel: true
+    auctionhouse.expired: true
+    auctionhouse.help: true
+    auctionhouse.menu: true
+    auctionhouse.return: true
+    auctionhouse.search: true
+    auctionhouse.sell: true
+    auctionhouse.selling: true
+    auctionhouse.sold: true
+    auctionhouse.use: true
+    ultimatestacker.egg.*: true
+    lands.role.admin.setting.*: true
+    lands.role.member.setting.*: true
+    lands.role.visitor.setting.*: true
+    lands.members.*: true
+    lands.settings.*: true
+    CustomEnderChest.level.2: true
+
+héro:
+  default: false
+  children:
+    essentials.repair: true
+    CustomEnderChest.level.3: true
+    smelt.use: true
+    lands.lands.4: true
+    virtualenchant.etable: true
+    MyPet.command.respawn: true
+
