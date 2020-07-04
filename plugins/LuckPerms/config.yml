@@ -16,7 +16,7 @@
 # |  New options are not added to this file automatically. Default values are used if an         | #
 # |  option cannot be found. The latest config versions can be obtained at the link above.       | #
 # +----------------------------------------------------------------------------------------------+ #
-server: survie
+server: $server_name
 use-server-uuid-cache: false
 storage-method: MariaDB
 data:
