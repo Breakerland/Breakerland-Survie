@@ -163,3 +163,12 @@ héro:
     virtualenchant.etable: true
     MyPet.command.respawn: true
 
+légende:
+    default: false
+    children:
+        CustomEnderChest.level.4: true
+
+Empereur:
+    default: false
+    children:
+        CustomEnderChest.level.5: true

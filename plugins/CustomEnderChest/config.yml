@@ -38,7 +38,7 @@ enderChestTitle:
     #EnderChest folder name. Supports color and format codes.
     #Minecraft Color and Format Codes: http://minecraft.gamepedia.com/Formatting_codes
     #WARNING! Max size is 32 characters including color, format codes.
-    enderChestName: '&5&lEnderChest &7- %level'
+    enderChestName: '&5&lEnder Chest &7- %level'
     #The place holder  %player  will be replaced by player's name.
     #The  %level  place holder replace text below. So you can customize each enderchest title by enderchest size.
    
@@ -49,11 +49,11 @@ enderChestTitle:
     #For 27 slots enderchest.
     level2: '&dLevel 2'
     #For 36 slots enderchest.
-    level3: '&5Level 3'
+    level3: '&2Prince ou Héros'
     #For 45 slots enderchest.
-    level4: '&5Level 4'
+    level4: '&6Légende ou Roi'
     #For 54 slots enderchest.
-    level5: '&5Level 5'
+    level5: '&0Fantome ou Empereur'
 
 #Chat messages. Supports color and format codes. 
 chatMessages:
