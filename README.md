@@ -14,6 +14,7 @@ Cependant tous les fichiers de configuration restent disponible à la modificati
 ### Propriétés serveur
 Pour les identifiants du Bot Discord BreakerBot, veuillez utiliser les variables suivantes :
 ```bash
+Server name: '$server_name'
 Server ip: '$server_ip'
 Server port: '$server_port'
 Query port: '$query_port'
@@ -55,5 +56,8 @@ Password: '$smtp_password'
 ### Bot Discord
 Pour les identifiants du Bot Discord BreakerBot, veuillez utiliser les variables suivantes :
 ```bash
+Invite: '$discord_invite'
+General channel: '$discord_channel_general'
+Console channel: '$discord_channel_console'
 Token: '$discord_token'
 ```

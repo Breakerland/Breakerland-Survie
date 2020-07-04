@@ -11,13 +11,13 @@ BotToken: $discord_token
 # syntax is Channels: {"in-game channel name": "numerical channel ID from Discord", "another in-game channel name": "another numerical channel ID from Discord"}
 # The first channel pair specified in this config option will be the "main" channel, used for sending player joins/quits/deaths/achievements/etc
 #
-Channels: {"global": "614477179853733918", "auctionhouse": "644180651808915478"}
+Channels: {"global": "$discord_channel_general"}
 
 # Console channel numerical ID (NOT NAME), leave blank to disable the console channel all together
-DiscordConsoleChannelId: ""
+DiscordConsoleChannelId: "$discord_channel_console"
 
 # Invitation link shown to players when using /discord and on the message shown to unlinked players when linking is enforced
-DiscordInviteLink: "https://discord.gg/47vXJnJ"
+DiscordInviteLink: "$discord_invite"
 
 # Debug options, don't touch unless needed
 #
@@ -89,7 +89,7 @@ DiscordChatChannelTranslateMentions: true
 DiscordChatChannelPrefixRequiredToProcessMessage: ""
 DiscordChatChannelRolesAllowedToUseColorCodesInChat: ["Premium"]
 DiscordChatChannelBroadcastDiscordMessagesToConsole: false
-DiscordChatChannelRequireLinkedAccount: true
+DiscordChatChannelRequireLinkedAccount: false
 DiscordChatChannelBlockBots: true
 DiscordChatChannelBlockedIds: ["000000000000000000"]
 DiscordChatChannelColorTranslations: {
@@ -151,12 +151,12 @@ DiscordConsoleChannelLevels: [info, warn, error]
 # DiscordChatChannelConsoleCommandExpiration: time in seconds until a sent command output is automatically removed by the bot. set to 0 to disable expiration.
 # DiscordChatChannelConsoleCommandExpirationDeleteRequest: whether or not to delete the message of the person that originally issued the command
 #
-DiscordChatChannelConsoleCommandEnabled: false
+DiscordChatChannelConsoleCommandEnabled: true
 DiscordChatChannelConsoleCommandNotifyErrors: true
 DiscordChatChannelConsoleCommandPrefix: "!c"
-DiscordChatChannelConsoleCommandRolesAllowed: ["Developer", "Owner"]
+DiscordChatChannelConsoleCommandRolesAllowed: ["STAFF", "Op", "Responsable", "Logicienne", "Administratrice", "Web Master", "Premium", "Membre de la famille ❤️", "Graphiste", "Responsable Staff", "Contributeur"]
 DiscordChatChannelConsoleCommandWhitelist: ["say", "lag", "tps"]
-DiscordChatChannelConsoleCommandWhitelistBypassRoles: ["Owner", "Developer"]
+DiscordChatChannelConsoleCommandWhitelistBypassRoles: ["Logicienne", "Administratrice"]
 DiscordChatChannelConsoleCommandWhitelistActsAsBlacklist: false
 DiscordChatChannelConsoleCommandExpiration: 0
 DiscordChatChannelConsoleCommandExpirationDeleteRequest: true

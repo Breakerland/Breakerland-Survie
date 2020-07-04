@@ -205,24 +205,54 @@ world-settings:
     auto-save-interval: 3000
     keep-spawn-loaded: true
     anti-xray:
-      chunk-edge-mode: 2
       enabled: true
       engine-mode: 2
-      max-chunk-section-index: 3
+      chunk-edge-mode: 2
+      max-chunk-section-index: 2
       update-radius: 2
       hidden-blocks:
+      # You can add air here such that many holes are generated.
+      # This works well against cave finders but may cause client FPS drops for all players.
+      - coal_ore
+      - diamond_ore
+      - emerald_ore
       - gold_ore
       - iron_ore
-      - coal_ore
       - lapis_ore
-      - mossy_cobblestone
-      - obsidian
-      - chest
       - diamond_ore
+      - mossy_cobblestone
       - redstone_ore
       - clay
-      - emerald_ore
+      - chest
       - ender_chest
       replacement-blocks:
-      - stone
+      - andesite
+      - diorite
+      - dirt
+      - granite
+      - gravel
       - oak_planks
+      - stone
+  survie_new_nether:
+    anti-xray:
+      enabled: true
+      engine-mode: 2
+      chunk-edge-mode: 2
+      update-radius: 2
+      max-chunk-section-index: 7
+      hidden-blocks:
+      - ancient_debris
+      - bone_block
+      - glowstone
+      - magma_block
+      - nether_bricks
+      - nether_gold_ore
+      - nether_quartz_ore
+      - polished_blackstone_bricks
+      replacement-blocks:
+      - basalt
+      - blackstone
+      - gravel
+      - netherrack
+      - soul_sand
+      - soul_soil
