@@ -728,6 +728,10 @@ Jobs:
         income: 4
         points: 3
         experience: 4
+      ancient_debris:
+        income: 15
+        points: 5
+        experience: 12
       obsidian:
         income: 2.5
         points: 2.5
@@ -756,7 +760,11 @@ Jobs:
       diamond_ore:
         income: -15
         points: -5
-        experience: -10
+        experience: -12
+      ancient_debris:
+        income: -15
+        points: -5
+        experience: -12
       emerald_ore:
         income: -20
         points: -10
@@ -791,6 +799,10 @@ Jobs:
         points: 10.0
         experience: 10.0
       iron_pickaxe:
+        income: 20.0
+        points: 20.0
+        experience: 20.0
+      netherite_ingot:
         income: 20.0
         points: 20.0
         experience: 20.0
