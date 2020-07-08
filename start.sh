@@ -8,7 +8,7 @@
 source secret.key
 
 # Pull from Github
-git reset --hard $origin/$branch
+git reset --hard
 git pull 
 
 echo "Starting to deobfuscate files..."
