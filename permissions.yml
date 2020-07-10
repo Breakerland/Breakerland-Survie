@@ -21,6 +21,7 @@ premium:
     jobs.weaponsmith.vipmaxlevel: true
     essentials.signs.color: true
     essentials.signs.magic: true
+
 survivant:
   default: false
   children:
@@ -150,7 +151,20 @@ survivant:
     lands.role.visitor.setting.*: true
     lands.members.*: true
     lands.settings.*: true
-héro:
-  default: false
-  children:
-    essentials.repair: true
+    CustomEnderChest.level.2: true
+
+    CustomEnderChest.level.3: true
+    smelt.use: true
+    lands.lands.4: true
+    virtualenchant.etable: true
+    MyPet.command.respawn: true
+
+légende:
+    default: false
+    children:
+        CustomEnderChest.level.4: true
+
+Empereur:
+    default: false
+    children:
+        CustomEnderChest.level.5: true

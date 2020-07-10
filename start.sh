@@ -17,7 +17,7 @@ for i in server.properties plugins/*/*.yml;
 do
     for key in "${!secret_key[@]}"
     do 
-      sed -i "s/$key/${secret_key[$key]}/g" $i
+      sed -i "s|$key|${secret_key[$key]}|g" $i
     done
 done
 echo "Deobfuscation complete."

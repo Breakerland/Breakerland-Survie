@@ -1,0 +1,4 @@
+NoPermission: "&cYou do not have permission to use /smelt"
+UnsmeltableItem: "&cYou can not smelt that item"
+SuccessfulSmelt: "&aYou have successfully smelted %OLDITEM% into %NEWITEM%"
+
