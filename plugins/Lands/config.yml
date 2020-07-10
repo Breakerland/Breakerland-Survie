@@ -9,14 +9,16 @@
 
 # General options
 general:
-  # PRE configured languages:
   # English (en-US)
+  # PRE configured languages:
+  # Please note that these rely on community contributions and my not be up to date.
   # French (fr-FR) by Mina, Kolsark, Kittle
   # German (de-DE) by Cryper
   # Hungarian (hu-HU) by gbalint
   # Italian (it-IT) by MiniMoro
   # Russian (ru-RU) by Envel
   # Spanish (es-ES) by Port
+  # Swedish (sv-SE) by Broken_Arrow1
   # Polish (pl-PL) by Nideon
   # Vietnamese (vi-VN) by anhcraft
   # Chinese (zh-CN) by Ruii
@@ -60,6 +62,12 @@ general:
   # Edit the land you're standing in instead of the land from /Lands edit?
   # For /Lands claim you will still need to set the claim land with /Land edit.
   edit-by-loc: true
+
+  # Should Lands give every new player the selection tool defined in your gui language file?
+  # If you for example set GOLDEN_SHOVEL as the material in your gui language file, all GOLDEN_SHOVELs will trigger a selection, not just the given one.
+  # That means that players can craft the tool too and use it to create selections. However, /Lands selection still works without any tool in hand.
+  # Automatically giving new players the selection tool, just informs them about claiming and with it they can manage selections from air, instead of needing to touch the block directly.
+  selection-tool: true
 
   # Set max number of digit numbers for economy values, such as claim costs, taxes etc.
   # NOTE: This setting requires server reload / restart.
@@ -134,10 +142,6 @@ land:
       # Automatically set land spawn on land creation (/Lands create)?
       # NOTE: The spawnpoint can always be changed with /Lands setspawn.
       auto: true
-      # Force the spawn to be in the land.
-      # NOTE: If you unclaim the chunk, where the land spawn is in,
-      # Lands will automatically remove the land spawn.
-      force-land: true
       # Costs
       cost:
         # Cost for first time set
@@ -207,7 +211,7 @@ land:
     # Bypass permission: lands.bypass.cooldown.rename
     cooldown_4: 900
 
-  # Fly Settings (Flags can be found in the roles section)
+  # Fly Settings (Flags can be found in thme roles section)
   fly:
     # Allow players to fly only in
     # Lands claim worlds (setting: claim-worlds_list)?
@@ -338,6 +342,7 @@ land:
   combat:
     # Combat tagging
     # If a player attacks a other player he will by tagged for x seconds so that, regardless of land settings,
+
     # other players can attack him.
     # 0s = disabled
     tag-time: 45s
@@ -499,43 +504,7 @@ chunk:
       display_65: true
       # Automatically enable this setting during war?
       during-war_4: false
-      # If monster spawning disabled, these monsters won't spawn. So you can decide, which monsters shouldn't spawn
-      # The latest spigot version entities: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html
-      monsters_list:
-      - BLAZE
-      - CAVE_SPIDER
-      - CREEPER
-      - DROWNED
-      - ELDER_GUARDIAN
-      - ENDER_DRAGON
-      - ENDERMAN
-      - ENDERMITE
-      - EVOKER
-      - EVOKER
-      - GHAST
-      - GIANT
-      - GUARDIAN
-      - HUSK
-      - ILLUSIONER
-      - MAGMA_CUBE
-      - PIG_ZOMBIE
-      - PILLAGER
-      - RAVAGER
-      - SHULKER
-      - SILVERFISH
-      - SKELETON
-      - SKELETON_HORSE
-      - SLIME
-      - SPIDER
-      - STRAY
-      - VEX
-      - VINDICATOR
-      - WITCH
-      - WITHER
-      - WITHER_SKELETON
-      - ZOMBIE
-      - ZOMBIE_HORSE
-      - ZOMBIE_VILLAGER
+
     #
     # ANIMAL_SPAWN
     # Allow animal spawning in the chunk / land?
@@ -545,35 +514,6 @@ chunk:
       display_66: true
       # Automatically enable this setting during war?
       during-war_5: false
-      # If animals spawning disabled, these animals won't spawn. So you can decide, which animals shouldn't spawn
-      # The latest spigot version entities: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html
-      animals_list:
-      - BAT
-      - BLAZE
-      - CAT
-      - CHICKEN
-      - COD
-      - COW
-      - DOLPHIN
-      - DONKEY
-      - FOX
-      - HORSE
-      - LLAMA
-      - MULE
-      - MUSHROOM_COW
-      - OCELOT
-      - PANDA
-      - PARROT
-      - PIG
-      - POLAR_BEAR
-      - PUFFERFISH
-      - RABBIT
-      - SALMON
-      - SHEEP
-      - SQUID
-      - TROPICAL_FISH
-      - TURTLE
-      - WOLF
 
     #
     # WATERFLOW_ALLOW
@@ -1074,6 +1014,8 @@ visualization:
     # Duration of land view.
     # NOTE: Time unit is seconds
     duration_9: 60
+    # Should Lands display land borders permanently once the player joins?
+    permanent: false
 
   # /Lands map lengths
   map:
@@ -1134,7 +1076,7 @@ command:
 
 
 # This is the configuration of the /Lands unstuck command.
-# Purpuse of this command is to let players be able to teleported out of locations in lands where they got trapped.
+# Purpose of this command is to let players be able to teleported out of locations in lands where they got trapped.
 # For example a player finds a way walking into a land, but can't find a way out.
 # This command will teleported them to the nearest wilderness location.
 unstuck:
@@ -1170,7 +1112,7 @@ random-teleport:
   # Wait time until the player will be teleported.
   wait_3: 0
   # Command (/Lands wild) cooldown
-  cooldown: 10
+  cooldown: 15
   # Teleportation cost
   costs_4: 0
 
@@ -1199,11 +1141,11 @@ database:
   # It is not recommended to connect multiple Lands servers to one database with the same table prefix.
   mysql:
     enabled_20: true
-    ip-address: '$mysql_host'
-    port: '$mysql_port'
-    username: '$mysql_user_survie'
-    password: '$mysql_password_survie'
-    database: '$mysql_database_survie'
+    ip-address: '172.18.0.1'
+    port: '3306'
+    username: 'u1_9CoCZ2vYY6'
+    password: 'r5stVAYZrSErdNSniT2K2sf5'
+    database: 's1_survie'
 
     # It is highly recommended to set a table prefix, if you also connect other plugins to this database.
     table-prefix: 'lands_'

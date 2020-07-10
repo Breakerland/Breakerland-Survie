@@ -10,7 +10,6 @@
 # Website: https://papermc.io/ 
 # Docs: https://paper.readthedocs.org/ 
 
-allow-perm-block-break-exploits: false
 verbose: false
 config-version: 20
 settings:
@@ -43,7 +42,14 @@ settings:
     page-max: 2560
     total-multiplier: 0.98
   unsupported-settings:
+    allow-permanent-block-break-exploits: true
     allow-piston-duplication: false
+    allow-permanent-block-break-exploits-readme: This setting controls if players
+      should be able to break bedrock, end portals and other intended to be permanent
+      blocks.
+    allow-piston-duplication-readme: This setting controls if player should be able
+      to use TNT duplication, but this also allows duplicating carpet, rails and potentially
+      other items
 messages:
   no-permission: '&cVous n''avez pas la permission d''exécuter cette commande.'
   kick:
@@ -64,7 +70,7 @@ timings:
   server-name: BreakerLand
 world-settings:
   default:
-    delay-chunk-unloads-by: 30s
+    delay-chunk-unloads-by: 20s
     phantoms-do-not-spawn-on-creative-players: true
     phantoms-only-attack-insomniacs: true
     light-queue-size: 20
@@ -121,7 +127,7 @@ world-settings:
     all-chunks-are-slime-chunks: false
     mob-spawner-tick-rate: 4
     game-mechanics:
-      nerf-pigmen-from-nether-portals: false
+      nerf-pigmen-from-nether-portals: true
       disable-pillager-patrols: false
       scan-for-legacy-ender-dragon: true
       disable-chest-cat-detection: false
@@ -173,9 +179,7 @@ world-settings:
         COBBLESTONE: 300
         LILY_PAD: 300
     anti-xray:
-      enabled: false
-      engine-mode: 2
-      chunk-edge-mode: 2
+      engine-mode: 1
       max-chunk-section-index: 3
       update-radius: 2
       hidden-blocks:
@@ -194,13 +198,14 @@ world-settings:
       replacement-blocks:
       - stone
       - oak_planks
+      enabled: false
     generator-settings:
       flat-bedrock: false
     squid-spawn-height:
       maximum: 0.0
     baby-zombie-movement-modifier: 0.5
     viewdistances:
-      no-tick-view-distance: -1
+      no-tick-view-distance: 15
   survie_new:
     auto-save-interval: 3000
     keep-spawn-loaded: true
@@ -209,10 +214,8 @@ world-settings:
       engine-mode: 2
       chunk-edge-mode: 2
       max-chunk-section-index: 2
-      update-radius: 2
+      update-radius: 3
       hidden-blocks:
-      # You can add air here such that many holes are generated.
-      # This works well against cave finders but may cause client FPS drops for all players.
       - coal_ore
       - diamond_ore
       - emerald_ore
@@ -238,7 +241,7 @@ world-settings:
       enabled: true
       engine-mode: 2
       chunk-edge-mode: 2
-      update-radius: 2
+      update-radius: 3
       max-chunk-section-index: 7
       hidden-blocks:
       - ancient_debris

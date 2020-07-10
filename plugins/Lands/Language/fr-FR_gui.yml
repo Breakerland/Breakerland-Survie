@@ -365,140 +365,6 @@ gui:
         - '&7area&6 {area}&7.'
         material: GOLD_INGOT
         slot: 33
-  settings_role_advanced:
-    title: '&8Paramètres avancés &7-> {role}'
-    size: 27
-    s: {}
-    f:
-      page_previous:
-        name: '&9Page précédente'
-        lore:
-        - '&7Aller à la page précédente:&9 {previous}'
-        - ' '
-        - '&8- &7Page actuelle:&b {current}'
-        material: ARROW
-        slot: 21
-      page_next:
-        name: '&aPage suivante'
-        lore:
-        - '&7Aller à la page suivante:&9 {next}'
-        - ' '
-        - '&8- &7Page actuelle:&b {current}'
-        material: ARROW
-        slot: 25
-      back:
-        name: '&cBack'
-        lore:
-        - '&7Go back to'
-        - '{back}&7.'
-        material: RED_STAINED_GLASS_PANE
-        slot: 19
-    l:
-      land_claim:
-        name: '&bAcquérir des parcelles'
-        lore:
-        - '&7Statut: {enabled}'
-        - '&7Déverrouillé: {unlocked}'
-        - ' '
-        - '&7Autoriser ce rôle à'
-        - '&7acquérir des parcelles pour ce terrain?'
-        material: IRON_SHOVEL
-        from: 10
-        to: 18
-      land_claim_border:
-        name: '&bAcquérir une parcelle limitrophe'
-        lore:
-        - '&7Statut: {enabled}'
-        - '&7Déverrouillé: {unlocked}'
-        - ' '
-        - '&7Autoriser ce rôle à'
-        - '&7acquérir des parcelles limitrophes'
-        - '&7à votre terrain?'
-        material: LEAD
-        from: 10
-        to: 18
-      land_spawn_set:
-        name: '&bDéfinir le point de téléportation du terrain'
-        lore:
-        - '&7Statut: {enabled}'
-        - '&7Déverrouillé: {unlocked}'
-        - ' '
-        - '&7Autoriser ce rôle à'
-        - '&7éditer le point de téléportaion du terrain?'
-        material: LEVER
-        from: 10
-        to: 18
-      land_spawn_teleport:
-        name: '&bTéléportation au terrain'
-        lore:
-        - '&7Statut: {enabled}'
-        - '&7Déverrouillé: {unlocked}'
-        - ' '
-        - '&7Autoriser ce rôle à'
-        - '&7se téléporter au terrain?'
-        material: ENDER_PEARL
-        from: 10
-        to: 18
-      land_rename:
-        name: '&bRenommer le terrain'
-        lore:
-        - '&7Statut: {enabled}'
-        - '&7Déverrouillé: {unlocked}'
-        - ' '
-        - '&7Autoriser ce rôle à'
-        - '&7renommer le terrain?'
-        material: NAME_TAG
-        from: 10
-        to: 18
-      setting_edit_various:
-        name: '&bEdit various Land Settings'
-        lore:
-        - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
-        - ' '
-        - '&7Allow this role to'
-        - '&7edit various land settings?'
-        - ' '
-        - '&8- &7Please note that they'
-        - '  &7will be able to change the'
-        - '  &7land name and title.'
-        material: NAME_TAG
-        from: 10
-        to: 18
-      balance_withdraw:
-        name: '&bWithdraw Money from Land Bank'
-        lore:
-        - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
-        - ' '
-        - '&7Allow this role to'
-        - '&7withdraw money from'
-        - '&7the land bank?'
-        - ' '
-        - '&8- &7Command:'
-        - '  &8/&3Lands withdraw'
-        material: GOLD_INGOT
-        from: 10
-        to: 18
-    a:
-      failure_permission:
-        name: '&4Echec: &cPas de permission'
-        lore:
-        - '&7Vous n''êtes pas autorisé-e à'
-        - '&7éditer ce paramètre.'
-        - ' '
-        - '&8- &7Vous devez avoir la permission'
-        - '  &e{permission}&7.'
-        material: RED_STAINED_GLASS_PANE
-    p:
-      placeholder_1:
-        material: GRAY_STAINED_GLASS_PANE
-        from: 1
-        to: 9
-      placeholder_2:
-        material: GRAY_STAINED_GLASS_PANE
-        from: 19
-        to: 27
   player_info:
     title: '&8Joueur {player}'
     size: 27
@@ -2948,18 +2814,6 @@ gui:
         material: PLAYER_HEAD
         from: 10
         to: 27
-      no-player:
-        name: '&cNo Players trusted'
-        lore:
-        - '&7There aren''t any trusted'
-        - '&7players yet.'
-        - ' '
-        - '&7Click on the trust button'
-        - '&7below, to trust a player'
-        - '&7to this area.'
-        material: OAK_SIGN
-        from: 10
-        to: 27
     a:
       failure_priority:
         name: '&4Failure: &cRole Priority'
@@ -3150,6 +3004,13 @@ physical-Item:
     - ' '
     - '&7Owner:&a {owner}'
     material: GRASS_BLOCK
+  selection:
+    name: '&eClaim Tool'
+    lore:
+    - '&7Use this tool to create a'
+    - '&7selection and claim it:'
+    - '&8/&3Lands claim'
+    material: GOLDEN_SHOVEL
 skull:
   role:
     owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmJjMzExYTRmYjljNDkzODliNGY0NThjMjllOTY4MzI0YzU4MjNiOGE5OWVhZGUxNzQ3ODY2Yzk1YjA2NGEifX19
