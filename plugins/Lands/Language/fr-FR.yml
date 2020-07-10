@@ -209,6 +209,8 @@ help:
     unban: '&8/&3Lands unban &8<&3player&8> - &7Unban player'
     taxes: '&8/&3Lands taxes &8- &7Show upcoming tax payments'
     unstuck: '&8/&3Lands unstuck &8- &7Teleport out of traps'
+    mod:
+      chatspy: '&8/&3Lands chatspy &8[&aland&8] - &7Listen to land chat'
 message:
   world-invalid: '&cCeci est désactivé dans ce monde.'
   feature-disabled: '&cCette fonctionnalité a été désactivée par un administrateur.
@@ -259,21 +261,13 @@ message:
     fly: '&cYou''re not allowed to fly here. &7This area belongs to land&2 {land}&7.'
     teleport: '&cYou''re not allowed to use this item to teleport into the land&4
       {land}&c. &7You''re not trusted in this land.'
+    position: '&cYou''re not allowed to do this for the land&4 {land} &cat your current
+      position. &8Bypass permission: {bypass}'
   event:
     fly:
       counter: '#a#&cFly-Mode disabling{newline}&cin &4{sec} &csecond(s)'
       disabled: '&cYour fly mode was disabled. &7You''re missing permission to fly
         here.'
-    teleport:
-      already: '&cYou can''t start a second teleportation, because there''s already
-        a teleportation in progress. &7Please wait until it''s done.'
-      started: '&7Teleportation process started. Teleporting in&5 {sec} &7seconds.
-        Please don''t move.'
-      cancelled: '&cYour teleportation has been cancelled. &7Please don''t move while
-        you''re waiting&5 {sec} &7seconds for teleportation.'
-      chunk: '#t#&9&lTeleported{newline}&7X: {x} Z: {z} Cost:&c ${cost}'
-      cancelled-plugins: '&cTeleportation was cancelled by a other plugin. &7Please
-        check your other plugins. &7This is not a Lands issue.'
     enter:
       land: '#t#&2&l{land}{newline}&3{title}'
       safezone: '#t#&2&l{land}{newline}{title}'
@@ -296,13 +290,6 @@ message:
       atteint. Name:&b {name}'
     started: '&7Action automatique démarrée avec succès. Nom:&b {name}'
     removed: '&7Action automatique arrêtée avec succès. &7Nom:&b {name}'
-  gui:
-    chats:
-      title: '#t#&e&lEnter new{newline}&e&lTitle in Chat'
-      title-done: '#t#&a&lSuccessful set{newline}&7&lLand Title.'
-      name: '#t#&e&lEnter new{newline}&e&lName in Chat'
-      name-done: '#t#&2&lSuccessful set{newline}&7&lLand Name'
-      cancel: '&7Type &bcancel &7in chat to cancel this action.'
   chat-action:
     cancelled: '#t#&c&lCancelled{newline}&c&lChat Action'
     player: '&7Please enter the name of the target player.'
@@ -345,6 +332,19 @@ message:
         &7has a higher or equal priority than yours.'
       area: '&cYou can''t edit this player in the area&4 {area} &8(&7Land:&2 {land}&8)&c.
         &7The role&6 {role} &7has a higher or equal priority than yours.'
+  teleportation:
+    already: '&cYou can''t start a second teleportation. There''s already a teleportation
+      in progress. &7Please wait until it''s done.'
+    started: '&7Teleportation process started. Teleporting in&5 {sec} &7seconds. Please
+      don''t move.'
+    cancelled: '&cYour teleportation has been cancelled. &7Please don''t move while
+      you''re waiting&5 {sec} &7seconds for teleportation.'
+    chunk: '#t#&9&lTeleported{newline}&7X: {x} Z: {z} Cost:&c ${cost}'
+    plugin: '&cTeleportation has been cancelled by a 3rd party plugin. &7Please check
+      your other plugins. &7This is not a Lands issue.'
+    unsafe: '&cTeleportation has been cancelled, because the destination is not safe.'
+    corrected: '&7The original teleport destination was unsafe. &7Your final destination
+      has been corrected to a safe location.'
 command:
   general:
     land-not-exist: '&cLe terrain&e {land} &cn''existe pas. &7Il n''y a pas de terrain
@@ -354,14 +354,6 @@ command:
     land-not-trusted: '&cVous ne pouvez pas faire cela. &7Joueur&b {player} &7n''est
       pas membre de ce terrain &8(&7Terrain:&e {land}&8)&7. Vous devez d''abord l''inviter
       en tapant &8/&aLands trust&7.'
-    land-no-action:
-      edit: '&cYou''re not member of any land, in this world, where you''re allowed
-        to do this &8(&4{setting}&8)&c. &7Use &8/&3Land create &7to create one.'
-      position:
-        setting: '&cYou''re not allowed to do this in the land you''re currently standing
-          on. &7Please go into your land. &7Setting:&3 {setting}'
-        general: '&cYou''re not allowed to do this in the land you''re currently standing
-          on. &7Please go into your land.'
     name-exists: '&cCe nom est déjà pris par un autre terrain. &7Vous devez en choisir
       un différent.'
     action-cooldown: '&cVous ne pouvez pas faire cela maintenant. &7Vous devez patienter&b
@@ -455,6 +447,15 @@ command:
       enabled: '&7Successfully expanded your selection from bottom to the top (to
         all y levels).'
       disabled: '&7Your current selection isn''t any longer expanded to all y levels.'
+    too-far: '&cThe block you''re looking at is too far away. &7Please move closer
+      to it.'
+    complete: |
+      &7Your selection is complete. Following actions can be executed:
+        &8┏
+        &8┃ &7Claim: &8/&3Lands claim
+        &8┃ &7Unclaim: &8/&3Lands unclaim
+        &8┃ &7Assign to sub area: &8/&3Lands assign
+        &8┗
   claim:
     auto-create: '&7Tentative de création automatique d''un terrain pour vous, parce
       que vous n''en avez aucun dans ce monde. Vous pouvez en changer le nom en exécutant
@@ -633,8 +634,7 @@ command:
   balance: '&7The balance is&b ${balance} &8(&7Land:&e {land}&8)&7.'
   view:
     disabled: '&7You successfully disabled the current &8/&3Lands view &7visualization.'
-    permanent: '&7You successfully started a permanent view visualization. Execute
-      &8/&3Lands view &7again to disable it.'
+    wilderness: '&7Enabled visualization of claims. &7Your current position is wilderness.'
   assign:
     selection: '&cYou need to create a selection first. &7Use &8/&3Lands selection
       &7to create one. After that try again.'

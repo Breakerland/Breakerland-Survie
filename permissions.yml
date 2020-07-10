@@ -153,10 +153,6 @@ survivant:
     lands.settings.*: true
     CustomEnderChest.level.2: true
 
-héro:
-  default: false
-  children:
-    essentials.repair: true
     CustomEnderChest.level.3: true
     smelt.use: true
     lands.lands.4: true

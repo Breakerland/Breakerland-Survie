@@ -516,7 +516,7 @@ Config:
       - '&6La légende dit que'
       - '&6cette lame n''est qu''une'
       - '&6partie d''une autre...'
-      hide-required-items-flags: false
+      hide-required-items-flags: true
       enchants:
       - FIRE_ASPECT;3
       - LOOT_BONUS_MOBS;3
@@ -1389,6 +1389,7 @@ Config:
       - DIG_SPEED;7
       - DURABILITY;10
       unbreakable: 'false'
+      hide-required-items-flags: true
       requires:
       - IRON_PICKAXE;1;&ePioche du vieux &2Alfred;&cUne pioche qui a beaucoup de valeur;
         &csi vous trouvez à qui l'échanger;ENCHANTS:DURABILITY,10
@@ -1545,6 +1546,7 @@ Config:
       - HIDE_UNBREAKABLE
       - HIDE_POTION_EFFECTS
       unbreakable: 'false'
+      hide-required-items-flags: true
       requires:
       - BOOK;1;&3&lGrimoire vide;&6Un manuscrit sans rien d'écrit;&6dedans, c'est
         à vous d'écrire;&6ce qu'il doit contenir...
@@ -1673,6 +1675,7 @@ Config:
       - PROTECTION_ENVIRONMENTAL;2
       - DURABILITY;5
       unbreakable: 'false'
+      hide-required-items-flags: true
       requires:
       - LEATHER_HELMET;1;&2&lChapeau des Ombres;&6Une protection adéquat pour;&6nager
         parmis les ténèbres.;ENCHANTS:PROTECTION_ENVIRONMENTAL,1:DURABILITY,1;ARMOR_COLOR:1908001
@@ -1698,6 +1701,7 @@ Config:
       - PROTECTION_ENVIRONMENTAL;2
       - DURABILITY;5
       unbreakable: 'false'
+      hide-required-items-flags: true
       requires:
       - LEATHER_CHESTPLATE;1;&2&lChemise des Ombres;&6Une protection adéquat pour;&6nager
         parmis les ténèbres.;ENCHANTS:PROTECTION_ENVIRONMENTAL,1:DURABILITY,1;ARMOR_COLOR:1908001
@@ -1722,6 +1726,7 @@ Config:
       - PROTECTION_ENVIRONMENTAL;2
       - DURABILITY;5
       unbreakable: 'false'
+      hide-required-items-flags: true
       requires:
       - LEATHER_LEGGINGS;1;&2&lPantalon des Ombres;&6Une protection adéquat pour;&6nager
         parmis les ténèbres.;ENCHANTS:PROTECTION_ENVIRONMENTAL,1:DURABILITY,1;ARMOR_COLOR:1908001
@@ -1739,6 +1744,7 @@ Config:
       amount: '1'
       durability: '0'
       name: '&3&lBottes des Lunes'
+      hide-required-items-flags: true
       lore:
       - '&7Gears I'
       - '&6Une armure faite de'
@@ -1763,6 +1769,7 @@ Config:
       amount: '1'
       durability: '0'
       name: '&3&lCasque du Soleil'
+      hide-required-items-flags: true
       lore:
       - '&7Mermaid I'
       - '&6Une armure faite de'
@@ -1796,6 +1803,7 @@ Config:
       - PROTECTION_ENVIRONMENTAL;3
       - DURABILITY;7
       unbreakable: 'false'
+      hide-required-items-flags: true
       requires:
       - LEATHER_CHESTPLATE;1;&2&lVeste des Lumières;&6Une protection excellente pour;&6nager
         parmis la lumière.;ENCHANTS:PROTECTION_ENVIRONMENTAL,2;ARMOR_COLOR:16383998
@@ -1821,6 +1829,7 @@ Config:
       - PROTECTION_ENVIRONMENTAL;3
       - DURABILITY;7
       unbreakable: 'false'
+      hide-required-items-flags: true
       requires:
       - LEATHER_LEGGINGS;1;&2&lPantalon des Lumières;&6Une protection excellente pour;&6nager
         parmis la lumière.;ENCHANTS:PROTECTION_ENVIRONMENTAL,2;ARMOR_COLOR:16383998
@@ -1845,6 +1854,7 @@ Config:
       - PROTECTION_ENVIRONMENTAL;3
       - DURABILITY;7
       unbreakable: 'false'
+      hide-required-items-flags: true
       requires:
       - LEATHER_BOOTS;1;&2&lChaussures des Lumières;&6Une protection excellente pour;&6nager
         parmis la lumière.;ENCHANTS:PROTECTION_ENVIRONMENTAL,2;ARMOR_COLOR:16383998
@@ -1968,6 +1978,7 @@ Config:
       - OXYGEN;3
       - DURABILITY;7
       unbreakable: 'false'
+      hide-required-items-flags: true
       requires:
       - CHAINMAIL_HELMET;1;&3&lCasque des Lunes;&7Implants I;&6Une armure faite de;&6morceaux
         de lunes.;ENCHANTS:PROTECTION_ENVIRONMENTAL,2:DURABILITY,5
@@ -2000,6 +2011,7 @@ Config:
       - PROTECTION_ENVIRONMENTAL;10
       - DURABILITY;7
       unbreakable: 'false'
+      hide-required-items-flags: true
       requires:
       - CHAINMAIL_CHESTPLATE;1;&3&lPlastron des Lunes;&7Infestation I;&6Une armure
         faite de;&6morceaux de lunes.;ENCHANTS:PROTECTION_ENVIRONMENTAL,2:DURABILITY,5
@@ -2032,6 +2044,7 @@ Config:
       - THORNS;3
       - DURABILITY;7
       unbreakable: 'false'
+      hide-required-items-flags: true
       requires:
       - CHAINMAIL_LEGGINGS;1;&3&lJambières des Lunes;&7HellForged I;&6Une armure faite
         de;&6morceaux de lunes.;ENCHANTS:PROTECTION_ENVIRONMENTAL,2:DURABILITY,5
@@ -2066,6 +2079,7 @@ Config:
       - PROTECTION_ENVIRONMENTAL;10
       - DURABILITY;7
       unbreakable: 'false'
+      hide-required-items-flags: true
       requires:
       - CHAINMAIL_BOOTS;1;&3&lBottes des Lunes;&7Gears I;&6Une armure faite de;&6morceaux
         de lunes.;ENCHANTS:PROTECTION_ENVIRONMENTAL,2:DURABILITY,5
@@ -2098,6 +2112,7 @@ Config:
       - OXYGEN;5
       - DURABILITY;5
       unbreakable: 'false'
+      hide-required-items-flags: true
       requires:
       - GOLDEN_HELMET;1;&3&lCasque du Soleil;&7Mermaid I;&6Une armure faite de;&6rayons
         de soleil.;ENCHANTS:PROTECTION_ENVIRONMENTAL,3:OXYGEN,1:DURABILITY,7
@@ -2131,6 +2146,7 @@ Config:
       - PROTECTION_ENVIRONMENTAL;6
       - DURABILITY;5
       unbreakable: 'false'
+      hide-required-items-flags: true
       requires:
       - GOLDEN_CHESTPLATE;1;&3&lPlastron du Soleil;&7Tamer I;&6Une armure faite de;&6rayons
         de soleil.;ENCHANTS:PROTECTION_ENVIRONMENTAL,3:DURABILITY,7
@@ -2164,6 +2180,7 @@ Config:
       - THORNS;3
       - DURABILITY;5
       unbreakable: 'false'
+      hide-required-items-flags: true
       requires:
       - GOLDEN_LEGGINGS;1;&3&lJambières du Soleil;&7HellForged I;&6Une armure faite
         de;&6rayons de soleil.;ENCHANTS:PROTECTION_ENVIRONMENTAL,3:DURABILITY,7
@@ -2200,6 +2217,7 @@ Config:
       - PROTECTION_ENVIRONMENTAL;6
       - DURABILITY;5
       unbreakable: 'false'
+      hide-required-items-flags: true
       requires:
       - GOLDEN_BOOTS;1;&3&lBottes du Soleil;&7Springs I;&6Une armure faite de;&6rayons
         de soleil.;ENCHANTS:PROTECTION_ENVIRONMENTAL,3:DURABILITY,7

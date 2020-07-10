@@ -24,8 +24,8 @@ settings:
   shutdown-message: Arrêt du serveur
   minimum-api: none
 spawn-limits:
-  water-ambient: 20
-  monsters: 15
+  water-ambient: 5
+  monsters: 10
   animals: 10
   water-animals: 3
   ambient: 2
