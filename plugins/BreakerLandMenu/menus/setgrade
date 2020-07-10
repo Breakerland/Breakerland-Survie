@@ -2,7 +2,7 @@
 rows: 1
 alias: setgrade
 # Title of the GUI
-title: '&2AAAAAAAAAAAAAAA'
+title: '&2Set Grade'
 # List of GUI slot
 0:
   item: 'PURPLE_STAINED_GLASS_PANE 1 title:&5Grade_Aventurier description:&ePrix:_15_000β||&e&oKit_Aventurier||&e&o2_homes||&e&o10_items_HDV||&e&o/l_map|rename|setspawn|view'
