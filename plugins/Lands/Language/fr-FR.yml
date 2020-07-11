@@ -119,13 +119,13 @@ general:
       ban: '&8{0}: &cLe joueur {1} a été banni.'
     economy:
       upkeep:
-        warning: '&8{0}: &cImpossible de payer les frais d'entretien: {1}ß'
-        unclaimed: '&8{0}: &cImpossible de payer les frais d'entretien de {1}ß. Le dernier chunk claim
+        warning: '&8{0}: &cImpossible de payer les frais d''entretien: {1}ß'
+        unclaimed: '&8{0}: &cImpossible de payer les frais d''entretien de {1}ß. Le dernier chunk claim
           (X: {2} Z: {3}) a été unclaim.'
-        paid: '&8{0}: &7Frais d'entretien payés: {1}ß'
+        paid: '&8{0}: &7Frais d''entretien payés: {1}ß'
       taxes:
-        warning: '&8{0}: &cLe joueur {1} n'a pas payé les taxes.'
-        untrusted: '&8{0}: &cLe joueur {1} n'a pas payé les taxes. Il est maintenant untrust.'
+        warning: '&8{0}: &cLe joueur {1} n''a pas payé les taxes.'
+        untrusted: '&8{0}: &cLe joueur {1} n''a pas payé les taxes. Il est maintenant untrust.'
         received: '&8{0}: &7Vous recevez un total de {1}ß taxes des membres du Terrain -> Solde
           = {2}ß'
       bank:
@@ -136,16 +136,16 @@ general:
         sent: '&8{0}: &7Guerre déclarée contre {1}: &8/Wars info'
         received: '&8{0}: &c{1} &cvous a déclaré la guerre: &8/Wars info'
         mutual:
-          sent: '&8{0}: &7Demande de guerre envoyée à {1}. &7Ils doivent l'accepter.'
-          received: '&8{0}: &c{1} &ca envoyé une demande de guerre. Pour l'accepter: &8/&3Wars declare
+          sent: '&8{0}: &7Demande de guerre envoyée à {1}. &7Ils doivent l''accepter.'
+          received: '&8{0}: &c{1} &ca envoyé une demande de guerre. Pour l''accepter: &8/&3Wars declare
             {2}'
       surrender:
-        sent: '&8{0}: &cGuerre abandonée. {1}ß ont été envoyés à l'ennemi.'
-        received: '&8{0}: &7L'ennemi {1} &7s'est rendu. {2}ß reçus.'
+        sent: '&8{0}: &cGuerre abandonée. {1}ß ont été envoyés à l''ennemi.'
+        received: '&8{0}: &7L''ennemi {1} &7s''est rendu. {2}ß reçus.'
       end:
         won: '&8{0}: Vous avez gagné la guerre avec {1} tués.'
         lost: '&8{0}: Vous avez perdu la guerre avec {1} morts.'
-        draw: '&8{0}: La Guerre s'est terminée à égalité avec {1} tués et {2} morts.'
+        draw: '&8{0}: La Guerre s''est terminée à égalité avec {1} tués et {2} morts.'
   unlimited: '&aillimité'
 help:
   general:
@@ -204,13 +204,13 @@ help:
         les messages'
       about: '&8/&7Lands about &8- &eAffiche les informations au sujet du lands Lands'
     assign: '&8/&3Lands assign &8<&3area&8> - &7Assigne la selection à une zone'
-    setowner: '&8/&3Lands setowner &8<&3player&8> - &7Change le propriétaire d'un land'
+    setowner: '&8/&3Lands setowner &8<&3player&8> - &7Change le propriétaire d''un land'
     ban: '&8/&3Lands ban &8<&3player&8> - &7Bannis un joueur'
     unban: '&8/&3Lands unban &8<&3player&8> - &7Débannis un joueur'
     taxes: '&8/&3Lands taxes &8- &7Montre les taxes en approche'
     unstuck: '&8/&3Lands unstuck &8- &7Vous téléporte en dehors des pièges'
     mod:
-      chatspy: '&8/&3Lands chatspy &8[&aland&8] - &7écouter le chat privé d'un land'
+      chatspy: '&8/&3Lands chatspy &8[&aland&8] - &7écouter le chat privé d''un land'
 message:
   world-invalid: '&cCeci est désactivé dans ce monde.'
   feature-disabled: '&cCette fonctionnalité a été désactivée par un administrateur.
@@ -219,7 +219,7 @@ message:
   current-war: '&cVous ne pouvez pas faire ça maintenant. &7Vous êtes actuellement
   engagés dans une guerre. &7Merci de réessayer à la fin de la guerre.'
   noaccess:
-    chunk: '&cVous n''avez pas accès sur cette parcelle. &8(&7Parcelle:&e {land} &7X:&e
+    chunk: '&cVous n''avez pas accès à cette parcelle. &8(&7Parcelle:&e {land} &7X:&e
       {x} &7Z:&e {z}&8)&c.'
     land: '&cVous n''êtes pas autorisé-e à faire cela pour ce terrain &8(&7Terrain:&e
       {land}&8)&7.'
@@ -241,7 +241,7 @@ message:
       pvp:
         attacker: '&cVous n''êtes pas autorisé-e à attaquer des joueurs ici. &7Ce chunk appartient
         au land&2 {land}&7.'
-        target: '&cVotre cible n''est pas autorisé-e a attaquer des joueurs ici. &7Vous ne
+        target: '&cVotre cible n''est pas autorisée a attaquer des joueurs ici. &7Vous ne
         pouvez pas vous battre avec elle maintenant. &7Ce chunk appartient au land&2 {land}&7.'
         ally: '&cVous ne pouvez pas attaquer ce joueur en zone libre, parce qu''il est membre
         dans l''un de vos terrains. &7Le pvp peut être activé dans les paramètres de rôles.'
@@ -249,42 +249,35 @@ message:
           et vous dans un claim.'
     claim: '&cVous ne pouvez pas claim ici. &7Ce chunk appartient à un autre plugin de management
       . Nom: {plugin}'
-    #
-    #
-    # Traduction suspendue ici. 
-    #
-    #
-    enter: '&cYou''re not allowed to enter the area&4 {area} &cof land&4 {land}&c.
-      &7You were teleported to your previous location.'
-    area: '&cYou''re not allowed to do this in this area &8(&7Area:&6 {area} &7Land:&2
+    enter: '&cVous n''êtes pas autorisé-e à entrer dans la zone&4 {area} &cdu land&4 {land}&c.
+      &7Vous avez été téléporté à votre localisation précédente.'
+    area: '&cVous n''êtes pas autorisé à faire cela dans cette zone &8(&7Zone:&6 {area} &7Land:&2
       {land} &7X: {x} &7Z: {z}&8)&c. &8Bypass permission: {bypass}'
-    banned: '&cYou''re not allowed to enter this area. &7You have been banned from
-      this area &8(&7Area:&6 {area} &7Land:&2 {land}&8)&7. &8Bypass permission: {bypass}'
-    vehicle: '&cYou''re not allowed to use vehicles here. &7This area belongs to land&2
+    banned: '&cVous n''êtes pas autorisé-e à entrer dans cette zone. &Vous avez été banni de
+      cette zone &8(&7Zone:&6 {area} &7Land:&2 {land}&8)&7. &8Bypass permission: {bypass}'
+    vehicle: '&cVous n''êtes pas autorisé-e à entrer dans cette zone dans unu véhicule. &7Cette zone appartient au land&2
       {land}&7.'
-    fly: '&cYou''re not allowed to fly here. &7This area belongs to land&2 {land}&7.'
-    teleport: '&cYou''re not allowed to use this item to teleport into the land&4
-      {land}&c. &7You''re not trusted in this land.'
-    position: '&cYou''re not allowed to do this for the land&4 {land} &cat your current
-      position. &8Bypass permission: {bypass}'
+    fly: '&cVous n''êtes pas autorisé-e à voler ici. &7Cette zone appartient au land&2 {land}&7.'
+    teleport: '&cVous n''êtes pas autorisé-e à utiliser cet item pour vous téléporter dans ce land&4
+      {land}&c. &7Vous n''êtes pas membre de ce land.'
+    position: '&cVous n''êtes pas autorisé-e à faire ça pour le land&4 {land} &. &8Bypass permission: {bypass}'
   event:
     fly:
       counter: '#a#&cFly-Mode disabling{newline}&cin &4{sec} &csecond(s)'
-      disabled: '&cYour fly mode was disabled. &7You''re missing permission to fly
-        here.'
+      disabled: '&cVotre mode vol a été désactivé. &7Vous n''avez pas la permission de voler ici.'
     enter:
       land: '#t#&2&l{land}{newline}&3{title}'
       safezone: '#t#&2&l{land}{newline}{title}'
-      pvp-warning: '#a#&cYou entered a pvp zone.'
+      pvp-warning: '#a#&cVous entrez dans une zone de pvp, non protégée.'
     leave:
-      land: '#t#&2&lWilderness{newline}&7Feel the wild'
-      safezone: '#t#&2&lWilderness{newline}&7Feel the wild'
+      land: '#t#&2&lZone sauvage{newline}&7Ne faites qu''un avec la nature'
+      safezone: '#t#&2&lZone sauvage{newline}&7Ne faites qu''un avec la nature'
   claimblock:
     dropped: '&cDes claimblocks ont été déposés sur le sol. &7Il n''y avait pas d''emplacement
       libre dans votre inventaire.'
     success: '&7Vous avez obtenu&b {blocks} &7claimblocks. &7Placez-les sur la parcelle
       de votre choix pour vous l''approprier.'
-    not-owner: '&cYou''re not allowed use this claimblock. &7It belongs to&3 {owner}&7.'
+    not-owner: '&cVous n''êtes pas autorisé-e à utiliser ce claimblock. &7Il appartient à&3 {owner}&7.'
   blacklist:
     untrusted: '&cVous n''êtes pas autorisé-e à utiliser cette commande ici. &7Vous
       n''êtes pas membre de ce terrain.'
@@ -295,31 +288,36 @@ message:
     started: '&7Action automatique démarrée avec succès. Nom:&b {name}'
     removed: '&7Action automatique arrêtée avec succès. &7Nom:&b {name}'
   chat-action:
-    cancelled: '#t#&c&lCancelled{newline}&c&lChat Action'
-    player: '&7Please enter the name of the target player.'
+    cancelled: '#t#&c&lAction de chat{newline}&c&lStoppée'
+    player: '&7Merci d''entrer le nom du joueur cible.'
     area:
-      create: '&7Please enter a name for the new area. You can include colorcodes.'
-      delete: '&7Please enter the name of the area, which you want to delete.'
-      exists: '&cThe area&4 {area} &calready exists in this land &8(&7Land:&2 {land}&8)&c.
-        &7Please choose a different name.'
-      max: '&cYou can''t create more areas for this land. &7You reached your limit
-        of&3 {max} &7areas. Permisssion: lands.areas.NUMBER'
-    title: '&7Please enter a new title for this land. You can include colorcodes.'
-    rename: '&7Please enter a new name for this land. Spaces are not allowed.'
-    land: '&7Please enter the name of the land.'
-    name: '&7Please enter the name in chat.'
-  world-not-exist: '&cThe world with the name&4 {world} &cdoest exist. &7Typo?'
+      create: '&7Merci d''entrer un nom pour la nouvelle zone. Vous pouvez inclure des codes couleurs.'
+      delete: '&7Merci d''entrer un nom pour la zone que vous souhaitez supprimer.'
+      exists: '&cLa zone&4 {area} &cexiste déjà pour ce land &8(&7Land:&2 {land}&8)&c.
+        &7Merci de choisir un nom différent.'
+      max: '&cVous ne pouvez pas créer plus de zones pour ce land. &7Vous avez atteint votre limite
+      de &3 {max} &7zones. Permisssion: lands.areas.NUMBER'
+    title: '&7Merci d''entrer un titre pour ce land. Vous pouvez inclure des codes couleur.'
+    rename: '&7Merci d''entrer un nouveau nom pour ce land. Les espaces ne sont pas autorisés.'
+    land: '&7Merci d''entrer le nom du land.'
+    name: '&7Merci d''entrer le nom dans le chat.'
+  world-not-exist: '&cLe monde qui a pour nom&4 {world} &cn''existe pas. &7Typo?'
   area:
-    exists: '&cA area with the name&4 {area} &calready exists in land&4 {land}&c.'
-    not-exist: '&cThe area&4 {area} &cdoesn''t exist in land&4 {land}&c.'
-    default: '&cYou can''t do this with the default area&4 {area} &cof land&4 {land}&c.'
+    exists: '&cUne zone avec le nom&4 {area} &cexiste déjà dans le land&4 {land}&c.'
+    not-exist: '&cLa zone&4 {area} &cn''existe pas dans le land&4 {land}&c.'
+    default: '&cVous ne pouvez pas faire ça avec la zone par défaut&4 {area} &cdu land&4 {land}&c.'
   role:
-    exists: '&cA role with the name&4 {role} &calready exists. &7Please choose a different
-      name.'
-    not-exist: '&cRole&e {role} &cdoes not exist in the area&4 {area} &cof land&4
+    exists: '&cUn role qui a pour nom&4 {role} &cexiste déjà. &7Merci de choisir un nom
+      différent.'
+    not-exist: '&cLe role&e {role} &cn''existe pas dans la zone&4 {area} &cdu land&4
       {land}&c. &7Typo?'
-    max: '&cYou can''t create more roles for this land. &7You reached your limit of&3
+    max: '&cVous ne pouvez pas créer plus de rôles pour ce land. &7Vous avez atteint votre limite de&3
       {max} &7roles. Permisssion: lands.roles.NUMBER'
+#
+#
+# Traduction suspendue ici
+#
+#
     weight:
       land: '&cYou can''t edit this player in the land&4 {land}&c. &7The role&6 {role}
         &7has a higher priority than yours.'
