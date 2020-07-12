@@ -2,7 +2,7 @@
 # Need help? Join our Discord, https://discordsrv.com/discord
 
 # Don't touch pls
-ConfigVersion: 1.19.1-SNAPSHOT
+ConfigVersion: 1.19.2-SNAPSHOT
 
 # Bot token; Vous ne savez pas ce que c'est ? Regardez la vidéo sur la page du plugin
 BotToken: $discord_token
@@ -45,13 +45,16 @@ Experiment_MCDiscordReserializer_InBroadcast: true
 Experiment_Automatic_Color_Translations: false
 PrintGuildsAndChannels: false
 ForceTLSv12: true
+NoopHostnameVerifier: false
 ParseEmojisToNames: true
 MaximumAttemptsForSystemDNSBeforeUsingFallbackDNS: 3
 
-# Disabled plugin hooks
-# Generally, unless you have a reason to touch this, don't
+# Plugin hooks
 #
+# DisabledPluginHooks: plugin hooks that will not be used (usually just the name of the plugin)
+# VentureChatBungee: enables the VentureChat hook's BungeeCord functionality (messages are received from every server, requires atleast 1 player to be online)
 DisabledPluginHooks: []
+VentureChatBungee: false
 
 # Game Information
 # Sets the "Playing: ______" indicator for the bot.
@@ -89,7 +92,7 @@ DiscordChatChannelTranslateMentions: true
 DiscordChatChannelPrefixRequiredToProcessMessage: ""
 DiscordChatChannelRolesAllowedToUseColorCodesInChat: ["Premium"]
 DiscordChatChannelBroadcastDiscordMessagesToConsole: false
-DiscordChatChannelRequireLinkedAccount: false
+DiscordChatChannelRequireLinkedAccount: true
 DiscordChatChannelBlockBots: true
 DiscordChatChannelBlockedIds: ["000000000000000000"]
 DiscordChatChannelColorTranslations: {
@@ -151,7 +154,7 @@ DiscordConsoleChannelLevels: [info, warn, error]
 # DiscordChatChannelConsoleCommandExpiration: time in seconds until a sent command output is automatically removed by the bot. set to 0 to disable expiration.
 # DiscordChatChannelConsoleCommandExpirationDeleteRequest: whether or not to delete the message of the person that originally issued the command
 #
-DiscordChatChannelConsoleCommandEnabled: true
+DiscordChatChannelConsoleCommandEnabled: false
 DiscordChatChannelConsoleCommandNotifyErrors: true
 DiscordChatChannelConsoleCommandPrefix: "!c"
 DiscordChatChannelConsoleCommandRolesAllowed: ["STAFF", "Op", "Responsable", "Logicienne", "Administratrice", "Web Master", "Premium", "Membre de la famille ❤️", "Graphiste", "Responsable Staff", "Contributeur"]
