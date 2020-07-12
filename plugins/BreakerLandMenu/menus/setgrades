@@ -24,8 +24,6 @@ title: '&2Choix de l''arbre'
   click:
     action:
       open: grades_joueurs
-4:
-  item: 'BLACK_STAINED_GLASS_PANE 1'
 5:
   item: 'YELLOW_STAINED_GLASS_PANE 1 title:&6Grades_Staffs'
   click:
