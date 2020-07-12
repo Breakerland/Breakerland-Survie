@@ -46,9 +46,9 @@ data:
 db:
   host: $mysql_host
   port: $mysql_port
-  database: $mysql_proxy_database
-  username: $mysql_proxy_user
-  password: $mysql_proxy_password
+  database: $mysql_database_proxy
+  username: $mysql_user_proxy
+  password: $mysql_password_proxy
 advancement:
 - blazeandcave:mining/master_diamond_miner
 - blazeandcave:mining/gold_mine
