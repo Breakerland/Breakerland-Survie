@@ -22,7 +22,8 @@ title: '&2Debug grade'
     action:
       scommand: 'luckperms:lp user {player} parent set chevalier $server_name'
       message: '&6Vous faites partie du groupe &eDuc&6!'
-3: title:&5Grade_Comte'
+3:
+  item: 'LIGHT_BLUE_STAINED_GLASS_PANE 1 title:&5Grade_Comte'
   click:
     action:
       scommand: 'luckperms:lp user {player} parent set comte $server_name'

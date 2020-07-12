@@ -1,6 +1,6 @@
 # Amount of rows
 rows: 1
-alias: debug
+alias: setgrades
 # Title of the GUI
 title: '&2Choix de l''arbre'
 # List of GUI slot
