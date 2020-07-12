@@ -313,40 +313,40 @@ message:
       {land}&c. &7Typo?'
     max: '&cVous ne pouvez pas créer plus de rôles pour ce land. &7Vous avez atteint votre limite de&3
       {max} &7roles. Permisssion: lands.roles.NUMBER'
-#
-#
-# Traduction suspendue ici
-#
-#
     weight:
-      land: '&cYou can''t edit this player in the land&4 {land}&c. &7The role&6 {role}
-        &7has a higher priority than yours.'
-      area: '&cYou can''t edit this player in the area&4 {area} &8(&7Land:&2 {land}&8)&c.
-        &7The role&6 {role} &7has a higher priority than yours.'
+      land: '&cVous ne pouvez pas éditer les permissions de ce joueur dans le land&4 {land}&c. &7Le role&6 {role}
+        &7est supérieur au votre hiérarchiquement.'
+      area: '&cVous ne pouvez pas éditer les permissions de ce joueur dans la zone&4 {area} &8(&7Land:&2 {land}&8)&c.
+        &7Le role&6 {role} &7est supérieur au votre hiérarchiquement.'
     delete:
-      entry: '&cYou can''t delete the entry role of your land. &7It is required for
-        new players.'
-      visitor: '&cYou can''t delete the visitor role of your land. &7It is required
-        for entering visitors.'
-      owner: '&cYou can''t delete the owner role of your land. &7This role is required.'
+      entry: '&cVous ne pouvez pas supprimer le rôle d'entrée dans votre Land . &7Cela est requis 
+        pour les nouveaux joueurs .'
+      visitor: '&cVous ne pouvez pas supprimer le rôle visiteur dans votre Land . &7Cela est requis
+        pour les visiteurs.'
+      owner: '&cVous ne pouvez pas supprimer le rôle propriétaire de votre Land . &7Ce rôle est requis.'
     player:
-      land: '&cYou can''t edit this player in the land&4 {land}&c. &7The role&6 {role}
-        &7has a higher or equal priority than yours.'
-      area: '&cYou can''t edit this player in the area&4 {area} &8(&7Land:&2 {land}&8)&c.
-        &7The role&6 {role} &7has a higher or equal priority than yours.'
+      land: '&cVous ne pouvez pas éditer les permissions de ce joueur dans le Land &4 {land}&c. &7le role&6 {role}
+        &7est égal ou supérieur au votre hiérarchiquement.'
+      area: '&cVous ne pouvez pas éditer les permissions de ce joueur dans la zone &4 {area} &8(&7Land:&2 {land}&8)&c.
+        &7Le role &6 {role} &7est égal ou supérieur au votre hiérarchiquement'
   teleportation:
-    already: '&cYou can''t start a second teleportation. There''s already a teleportation
-      in progress. &7Please wait until it''s done.'
-    started: '&7Teleportation process started. Teleporting in&5 {sec} &7seconds. Please
-      don''t move.'
-    cancelled: '&cYour teleportation has been cancelled. &7Please don''t move while
-      you''re waiting&5 {sec} &7seconds for teleportation.'
-    chunk: '#t#&9&lTeleported{newline}&7X: {x} Z: {z} Cost:&c ${cost}'
-    plugin: '&cTeleportation has been cancelled by a 3rd party plugin. &7Please check
-      your other plugins. &7This is not a Lands issue.'
-    unsafe: '&cTeleportation has been cancelled, because the destination is not safe.'
-    corrected: '&7The original teleport destination was unsafe. &7Your final destination
-      has been corrected to a safe location.'
+    already: '&cVous ne pouvez pas commencer une seconde téléportation. Il y a déjà une téléportation
+      en cours. &7Merci d'attendre qu'elle soit finie.'
+    started: '&7Processus de téléportation debuté. Téléportation dans &5 {sec} &7secondes. Merci
+      de ne pas bouger.'
+    cancelled: '&cVotre téléportation a été stoppée. &7Merci de ne pas bouger tant que 
+      vous attendez &5 {sec} &7secondes pour vous teleporter.'
+    chunk: '#t#&9&lTeleporté{newline}&7X: {x} Z: {z} Cout:&c {cost} breakercoins.'
+    plugin: '&cLa teleportation a été stoppée par un 3rd party plugin. &7Merci de vérifier
+      vos autres plugins. &7Le problème ne vient pas de lands .'
+    unsafe: '&cLa téléportation a été stoppée, car la destination n'est pas sécurisée.'
+    corrected: '&7Votre destination initiale n'était pas sure mais la nouvelle l'est. &7Votre destination finale 
+      a été corrigée sur la destination sure.'
+#
+#
+#traduxtion suspendue ici
+#
+#
 command:
   general:
     land-not-exist: '&cLe terrain&e {land} &cn''existe pas. &7Il n''y a pas de terrain
