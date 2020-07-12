@@ -87,7 +87,7 @@ world-settings:
     per-player-mob-spawns: true
     portal-search-radius: 128
     use-vanilla-world-scoreboard-name-coloring: false
-    enable-treasure-maps: true
+    enable-treasure-maps: false
     treasure-maps-return-already-discovered: false
     experience-merge-max-value: -1
     prevent-moving-into-unloaded-chunks: true
