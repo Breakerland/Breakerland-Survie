@@ -1,0 +1,69 @@
+# Amount of rows
+rows: 1
+alias: debug
+# Title of the GUI
+title: '&2Choix de l''arbre'
+# List of GUI slot
+0:
+  item: 'LIGHT_BLUE_STAINED_GLASS_PANE 1 title:&bGrades_Joueurs'
+  click:
+    action:
+      open: grades_joueurs
+1:
+  item: 'LIGHT_BLUE_STAINED_GLASS_PANE 1 title:&bGrades_Joueurs'
+  click:
+    action:
+      open: grades_joueurs
+2:
+  item: 'LIGHT_BLUE_STAINED_GLASS_PANE 1 title:&bGrades_Joueurs'
+  click:
+    action:
+      open: grades_joueurs
+3:
+  item: 'LIGHT_BLUE_STAINED_GLASS_PANE 1 title:&bGrades_Joueurs'
+  click:
+    action:
+      open: grades_joueurs
+4:
+  item: 'BLACK_STAINED_GLASS_PANE 1'
+5:
+  item: 'YELLOW_STAINED_GLASS_PANE 1 title:&6Grades_Staffs'
+  click:
+    action:
+      open: grades_staffs
+6:
+  item: 'YELLOW_STAINED_GLASS_PANE 1 title:&6Grades_Staffs'
+  click:
+    action:
+      open: grades_staffs
+7:
+  item: 'YELLOW_STAINED_GLASS_PANE 1 title:&6Grades_Staffs'
+  click:
+    action:
+      open: grades_staffs
+8:
+  item: 'YELLOW_STAINED_GLASS_PANE 1 title:&6Grades_Staffs'
+  click:
+    action:
+      open: grades_staffs
+
+# item:        -- ItemStack icon.
+# keep-open:   -- If menu stay open after action.
+#
+# action/right/left:
+#   open:        -- Name of the other menu to open. It must be defined in "menus" folder.
+#   close:       -- Close opened menu.
+#   message:     -- Send player message.
+#   broadcast:   -- Broadcast message.
+#   pcommand:    -- Execute player command.
+#   scommand:    -- Execute server command.
+#
+# permission:  -- Permission needed to execute action.
+#
+# KIT ACTION
+# kit:         -- Buy level or next level of the player kit if it isn't specified
+#
+# BUY ACTION
+# buy:         -- Buy action is to purchased certains items
+#   price:     -- Price of the purchased (no price defined = 0)
+#   items:     -- List of items purchased (itemstack, level kit or command -> See kit example)
