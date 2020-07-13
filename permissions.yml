@@ -138,22 +138,22 @@ survivant:
 héro:
     default: false
     children:
-    CustomEnderChest.level.3: true
-    lands.lands.4: true
-    MyPet.command.respawn: true
-    music.command: true
-    wars.command.*: true
-    skinsetter.set: true
+      CustomEnderChest.level.3: true
+      lands.lands.4: true
+      MyPet.command.respawn: true
+      music.command: true
+      wars.command.*: true
+      skinsetter.set: true
 
 légende:
     default: false
     children:
-        CustomEnderChest.level.4: true
+      CustomEnderChest.level.4: true
 
 Empereur:
     default: false
     children:
-        CustomEnderChest.level.5: true
+      CustomEnderChest.level.5: true
 
 premium:
   default: false
