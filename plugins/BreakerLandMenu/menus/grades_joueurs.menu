@@ -5,10 +5,10 @@ alias: debug
 title: '&2Debug grade'
 # List of GUI slot
 0:
-  item: 'PURPLE_STAINED_GLASS_PANE 1 title:&5Grade_Survivant'
+  item: 'BARRIER 1 title:&5Grade_Survivant'
   click:
     action:
-      scommand: 'luckperms:lp user {player} parent set survivant $server_name'
+      scommand: 'luckperms:lp user {player} parent set default $server_name'
       message: '&6Vous faites partie du groupe &eSurvivant&6!'
 1:
   item: 'MAGENTA_STAINED_GLASS_PANE 1 title:&5Grade_Aventurier'
