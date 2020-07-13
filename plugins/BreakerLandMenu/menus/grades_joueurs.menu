@@ -8,37 +8,37 @@ title: '&2Debug grade'
   item: 'BARRIER 1 title:&5Grade_Survivant'
   click:
     action:
-      scommand: 'luckperms:lp user {player} parent set default $server_name'
+      scommand: 'luckperms:lp user {player} parent set default $server_name '
       message: '&6Vous faites partie du groupe &eSurvivant&6!'
 1:
   item: 'MAGENTA_STAINED_GLASS_PANE 1 title:&5Grade_Aventurier'
   click:
     action:
-      scommand: 'luckperms:lp user {player} parent set aventurier $server_name'
+      scommand: 'luckperms:lp user {player} parent set aventurier $server_name '
       message: '&6Vous faites partie du groupe &eAventurier&6!'
 2:
   item: 'BLUE_STAINED_GLASS_PANE 1 title:&5Grade_Duc'
   click:
     action:
-      scommand: 'luckperms:lp user {player} parent set chevalier $server_name'
+      scommand: 'luckperms:lp user {player} parent set chevalier $server_name '
       message: '&6Vous faites partie du groupe &eDuc&6!'
 3:
   item: 'LIGHT_BLUE_STAINED_GLASS_PANE 1 title:&5Grade_Comte'
   click:
     action:
-      scommand: 'luckperms:lp user {player} parent set comte $server_name'
+      scommand: 'luckperms:lp user {player} parent set comte $server_name '
       message: '&6Vous faites partie du groupe &eComte&6!'
 4:
   item: 'LIME_STAINED_GLASS_PANE 1 title:&5Grade_Marquis'
   click:
     action:
-      scommand: 'luckperms:lp user {player} parent set marquis $server_name'
+      scommand: 'luckperms:lp user {player} parent set marquis $server_name '
       message: '&6Vous faites partie du groupe &eMarquis&6!'
 5:
   item: 'GREEN_STAINED_GLASS_PANE 1 title:&5Grade_Héro'
   click:
     action:
-      scommand: 'luckperms:lp user {player} parent set héro $server_name'
+      scommand: 'luckperms:lp user {player} parent set héro $server_name '
       message: '&6Vous faites partie du groupe &eHéro&6!'
 8:
   item: 'BARRIER 1 title:&cQuitter'

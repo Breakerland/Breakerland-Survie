@@ -8,49 +8,49 @@ title: '&2Grades staffs'
   item: 'PURPLE_STAINED_GLASS_PANE 1 title:&5Grade_Staff'
   click:
     action:
-      scommand: 'luckperms:lp user {player} parent set staff $server_name'
+      scommand: 'luckperms:lp user {player} parent set staff $server_name '
       message: '&6Vous faites partie du groupe &eStaff&6!'
 1:
   item: 'MAGENTA_STAINED_GLASS_PANE 1 title:&5Grade_Scribe'
   click:
     action:
-      scommand: 'luckperms:lp user {player} parent set scribe $server_name'
+      scommand: 'luckperms:lp user {player} parent set scribe $server_name '
       message: '&6Vous faites partie du groupe &eScribe&6!'
 2:
   item: 'BLUE_STAINED_GLASS_PANE 1 title:&5Grade_Architecte'
   click:
     action:
-      scommand: 'luckperms:lp user {player} parent set architecte $server_name'
+      scommand: 'luckperms:lp user {player} parent set architecte $server_name '
       message: '&6Vous faites partie du groupe &eArchitecte&6!'
 3:
   item: 'LIGHT_BLUE_STAINED_GLASS_PANE 1 title:&5Grade_Animateur'
   click:
     action:
-      scommand: 'luckperms:lp user {player} parent set animateur $server_name'
+      scommand: 'luckperms:lp user {player} parent set animateur $server_name '
       message: '&6Vous faites partie du groupe &eAnimateur&6!'
 4:
   item: 'LIME_STAINED_GLASS_PANE 1 title:&5Grade_Guide'
   click:
     action:
-      scommand: 'luckperms:lp user {player} parent set guide $server_name'
+      scommand: 'luckperms:lp user {player} parent set guide $server_name '
       message: '&6Vous faites partie du groupe &eGuide&6!'
 5:
   item: 'GREEN_STAINED_GLASS_PANE 1 title:&5Grade_Développeur'
   click:
     action:
-      scommand: 'luckperms:lp user {player} parent set développeur $server_name'
+      scommand: 'luckperms:lp user {player} parent set développeur $server_name '
       message: '&6Vous faites partie du groupe &eDéveloppeur&6!'
 6:
   item: 'YELLOW_STAINED_GLASS_PANE 1 title:&5Grade_Modérateur'
   click:
     action:
-      scommand: 'luckperms:lp user {player} parent set modérateur $server_name'
+      scommand: 'luckperms:lp user {player} parent set modérateur $server_name '
       message: '&6Vous faites partie du groupe &eModérateur&6!'
 7:
   item: 'BLACK_STAINED_GLASS_PANE 1 title:&5Grade_Administrateur'
   click:
     action:
-      scommand: 'luckperms:lp user {player} parent set administrateur $server_name'
+      scommand: 'luckperms:lp user {player} parent set administrateur $server_name '
       message: '&6Vous faites partie du groupe &eAdministrateur&6!'
 8:
   item: 'BARRIER 1 title:&cQuitter'
