@@ -147,7 +147,9 @@ héro:
     CustomEnderChest.level.3: true
     lands.lands.4: true
     MyPet.command.respawn: true
+    music.command: true
     wars.command.*: true
+    skinsetter.set: true
 
 légende:
     default: false
