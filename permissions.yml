@@ -1,4 +1,3 @@
-
 survivant:
   default: false
   children:
@@ -140,9 +139,23 @@ survivant:
     lands.lands.4: true
     virtualenchant.etable: true
     MyPet.command.respawn: true
-<<<<<<< HEAD
     music.command: true
-=======
+
+héro:
+    default: false
+    children:
+        wars.command.*: true
+
+légende:
+    default: false
+    children:
+        CustomEnderChest.level.4: true
+
+Empereur:
+    default: false
+    children:
+        CustomEnderChest.level.5: true
+
 premium:
   default: false
   children:
@@ -166,15 +179,3 @@ premium:
     jobs.weaponsmith.vipmaxlevel: true
     essentials.signs.color: true
     essentials.signs.magic: true
-
->>>>>>> 7337a8b313217af3375501655b8a746e731f84d5
-
-légende:
-    default: false
-    children:
-        CustomEnderChest.level.4: true
-
-Empereur:
-    default: false
-    children:
-        CustomEnderChest.level.5: true
