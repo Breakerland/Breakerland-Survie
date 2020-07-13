@@ -18,14 +18,14 @@ title: '&2Achat de grade'
   item: 'MAGENTA_STAINED_GLASS_PANE 1 title:&dGrade_Baron description:&ePrix:_50_000β||&e&oKit_Baron||&e&o4_homes||&e&o15_items_HDV||&e&o/balancetop||&e&o/exp'
   click:
     condition:
-      permission: grade.chevalier
+      permission: grade.baron
       balance: 50000
     action:
       balance: 50000
       scommand: 'luckperms:lp user {player} parent add chevalier $server_name'
       broadcast: '&6{player} vient d''acquérir le grade &d&lBaron&r&6!'
 2:
-  item: 'BLUE_STAINED_GLASS_PANE 1 title:&3Grade_Duc description:&ePrix:_200_000β||&e&oKit_Duc||&e&o6_homes||&e&o20_items_HDV||&e&o/craft||&e&o/near||&e&o/l_setrole'
+  item: 'BLUE_STAINED_GLASS_PANE 1 title:&3Grade_Duc description:&ePrix:_200_000β||&e&oKit_Duc||&e&o6_homes||&e&o20_items_HDV||&e&oMembre_de_2_Terrains||&e&o/craft||&e&o/near||&e&o/l_setrole'
   click:
     condition:
       permission: grade.duc
