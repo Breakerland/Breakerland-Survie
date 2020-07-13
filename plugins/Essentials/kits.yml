@@ -9,24 +9,6 @@
 # Set delay to -1 for a one time kit.
 # For more information, visit http://wiki.ess3.net/wiki/Kits
 kits:
-  notch:
-    delay: 6000
-    items:
-    - playerhead 1 player:Notch
-  colors:
-    delay: 6000
-    items:
-    - writtenbook 1 title:&4Book_&9o_&6Colors author:KHobbits lore:Ingame_color_codes
-      book:Colors
-  firework:
-    delay: 6000
-    items:
-    - fireworkrocket 1 name:Angry_Creeper color:red fade:green type:creeper power:1
-    - fireworkrocket 1 name:Starry_Night color:yellow,orange fade:blue type:star effect:trail,twinkle
-      power:1
-    - fireworkrocket 2 name:Solar_Wind color:yellow,orange fade:red shape:large effect:twinkle
-      color:yellow,orange fade:red shape:ball effect:trail color:red,purple fade:pink
-      shape:star effect:trail power:1
   Survivant:
     delay: 172800
     items:

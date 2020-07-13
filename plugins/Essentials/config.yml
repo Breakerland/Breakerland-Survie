@@ -521,7 +521,7 @@ world-home-permissions: false
 # For more information, visit http://wiki.ess3.net/wiki/Multihome
 sethome-multiple:
   aventurier : 2
-  chevalier: 4
+  baron: 4
   duc: 6
   comte: 8
   marquis: 10
