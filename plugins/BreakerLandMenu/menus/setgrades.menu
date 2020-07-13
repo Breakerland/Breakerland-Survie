@@ -24,23 +24,29 @@ title: '&2Choix de l''arbre'
   click:
     action:
       open: grades_joueurs
-5:
+4:
   item: 'YELLOW_STAINED_GLASS_PANE 1 title:&6Grades_Staffs'
+  click:
+    action:
+      scommand: 'luckperms:lp user {player} parent set premium $server_name '
+      message: '&6Vous faites partie du groupe &ePremium&6!'
+5:
+  item: 'GREEN_STAINED_GLASS_PANE 1 title:&6Grades_Staffs'
   click:
     action:
       open: grades_staffs
 6:
-  item: 'YELLOW_STAINED_GLASS_PANE 1 title:&6Grades_Staffs'
+  item: 'GREEN_STAINED_GLASS_PANE 1 title:&6Grades_Staffs'
   click:
     action:
       open: grades_staffs
 7:
-  item: 'YELLOW_STAINED_GLASS_PANE 1 title:&6Grades_Staffs'
+  item: 'GREEN_STAINED_GLASS_PANE 1 title:&6Grades_Staffs'
   click:
     action:
       open: grades_staffs
 8:
-  item: 'YELLOW_STAINED_GLASS_PANE 1 title:&6Grades_Staffs'
+  item: 'GREEN_STAINED_GLASS_PANE 1 title:&6Grades_Staffs'
   click:
     action:
       open: grades_staffs
