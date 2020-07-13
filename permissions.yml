@@ -144,7 +144,10 @@ survivant:
 héro:
     default: false
     children:
-        wars.command.*: true
+    CustomEnderChest.level.3: true
+    lands.lands.4: true
+    MyPet.command.respawn: true
+    wars.command.*: true
 
 légende:
     default: false
