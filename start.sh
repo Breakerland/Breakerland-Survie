@@ -4,16 +4,22 @@
 # Variables
 # ORIGIN=origin
 # BRANCH=master
+ender_dir='/home/container/survie_new_the_end'
+ender_region_dir=''$ender_dir'/DIM1/region'
+ender_level_file='level.dat'
+ender_reset_time='7'
 
+# Declare variables
 source secret.key
 
 # Pull from Github
 git reset --hard
-git pull 
+git pull
 
+# Deobfuscate variables
 echo "Starting to deobfuscate files..."
 shopt -s nullglob
-for i in server.properties plugins/*/*.yml;
+for i in server.properties plugins/*/*.yml plugins/*/*.txt plugins/BreakerLandMenu/menus/*.menu;
 do
     for key in "${!secret_key[@]}"
     do 
@@ -21,6 +27,14 @@ do
     done
 done
 echo "Deobfuscation complete."
+
+# Reset end dimension
+if [ $(find $ender_dir -mtime -$ender_reset_time -type f -name "$ender_session_file" 2>/dev/null) ]; then
+  echo "Time to reset end dimension."
+  rm "$ender_dir/$ender_level_file" "$ender_region_dir/r.0.0.mca" "$ender_region_dir/r.0.-1.mca" "$ender_region_dir/r.-1.0.mca" "$ender_region_dir/r.-1.-1.mca"
+else
+  echo "Not time to reset end dimension."
+fi
 
 # Start server
 echo "Starting server..."

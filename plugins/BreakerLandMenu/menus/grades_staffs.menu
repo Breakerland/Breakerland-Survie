@@ -1,0 +1,80 @@
+# Amount of rows
+rows: 1
+alias: debug
+# Title of the GUI
+title: '&2Grades staffs'
+# List of GUI slot
+0:
+  item: 'PURPLE_STAINED_GLASS_PANE 1 title:&5Grade_Staff'
+  click:
+    action:
+      scommand: 'luckperms:lp user {player} parent set staff $server_name '
+      message: '&6Vous faites partie du groupe &eStaff&6!'
+1:
+  item: 'MAGENTA_STAINED_GLASS_PANE 1 title:&5Grade_Scribe'
+  click:
+    action:
+      scommand: 'luckperms:lp user {player} parent set scribe $server_name '
+      message: '&6Vous faites partie du groupe &eScribe&6!'
+2:
+  item: 'BLUE_STAINED_GLASS_PANE 1 title:&5Grade_Architecte'
+  click:
+    action:
+      scommand: 'luckperms:lp user {player} parent set architecte $server_name '
+      message: '&6Vous faites partie du groupe &eArchitecte&6!'
+3:
+  item: 'LIGHT_BLUE_STAINED_GLASS_PANE 1 title:&5Grade_Animateur'
+  click:
+    action:
+      scommand: 'luckperms:lp user {player} parent set animateur $server_name '
+      message: '&6Vous faites partie du groupe &eAnimateur&6!'
+4:
+  item: 'LIME_STAINED_GLASS_PANE 1 title:&5Grade_Guide'
+  click:
+    action:
+      scommand: 'luckperms:lp user {player} parent set guide $server_name '
+      message: '&6Vous faites partie du groupe &eGuide&6!'
+5:
+  item: 'GREEN_STAINED_GLASS_PANE 1 title:&5Grade_Développeur'
+  click:
+    action:
+      scommand: 'luckperms:lp user {player} parent set développeur $server_name '
+      message: '&6Vous faites partie du groupe &eDéveloppeur&6!'
+6:
+  item: 'YELLOW_STAINED_GLASS_PANE 1 title:&5Grade_Modérateur'
+  click:
+    action:
+      scommand: 'luckperms:lp user {player} parent set modérateur $server_name '
+      message: '&6Vous faites partie du groupe &eModérateur&6!'
+7:
+  item: 'BLACK_STAINED_GLASS_PANE 1 title:&5Grade_Administrateur'
+  click:
+    action:
+      scommand: 'luckperms:lp user {player} parent set administrateur $server_name '
+      message: '&6Vous faites partie du groupe &eAdministrateur&6!'
+8:
+  item: 'BARRIER 1 title:&cQuitter'
+  click:
+    action:
+      close: true
+
+# item:        -- ItemStack icon.
+# keep-open:   -- If menu stay open after action.
+#
+# action/right/left:
+#   open:        -- Name of the other menu to open. It must be defined in "menus" folder.
+#   close:       -- Close opened menu.
+#   message:     -- Send player message.
+#   broadcast:   -- Broadcast message.
+#   pcommand:    -- Execute player command.
+#   scommand:    -- Execute server command.
+#
+# permission:  -- Permission needed to execute action.
+#
+# KIT ACTION
+# kit:         -- Buy level or next level of the player kit if it isn't specified
+#
+# BUY ACTION
+# buy:         -- Buy action is to purchased certains items
+#   price:     -- Price of the purchased (no price defined = 0)
+#   items:     -- List of items purchased (itemstack, level kit or command -> See kit example)

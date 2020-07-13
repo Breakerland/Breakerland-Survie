@@ -1,30 +1,31 @@
-premium:
-  default: false
-  children:
-    essentials.repair: true
-    essentials.kits.premium: true
-    essentials.feed: true
-    essentials.condense: true
-    essentials.hat: true
-    essentials.speed: true
-    essentials.speed.walk: true
-    essentials.me: true
-    essentials.sethome.multiple.premium: true
-    jobs.woodcutter.vipmaxlevel: true
-    jobs.miner.vipmaxlevel: true
-    jobs.builder.vipmaxlevel: true
-    jobs.digger.vipmaxlevel: true
-    jobs.farmer.vipmaxlevel: true
-    jobs.hunter.vipmaxlevel: true
-    jobs.crafter.vipmaxlevel: true
-    jobs.fisherman.vipmaxlevel: true
-    jobs.weaponsmith.vipmaxlevel: true
-    essentials.signs.color: true
-    essentials.signs.magic: true
 
 survivant:
   default: false
   children:
+  # Minecraft
+    minecraft.*: false
+  # Bukkit
+    bukkit.command.plugins: false
+    bukkit.command.version: false
+    bukkit.command.help: true
+    bukkit.command.tps: true
+  # AuctionHouse
+    auctionhouse.cancel: true
+    auctionhouse.expired: true
+    auctionhouse.help: true
+    auctionhouse.menu: true
+    auctionhouse.return: true
+    auctionhouse.search: true
+    auctionhouse.sell: true
+    auctionhouse.selling: true
+    auctionhouse.sold: true
+    auctionhouse.use: true
+  # AuthMe
+    authme.player: true
+  # BetterBees
+    betterbees.hive-item: true
+    betterbees.bee: true
+  # BreakerAgri
     sleep.cancel: true
     simpleportals.switchserver: true
     quickshop.use: true
@@ -77,16 +78,8 @@ survivant:
     essentials.afk.auto: true
     essentials.afk: true
     ecraft.command.ecraft: true
-    bukkit.command.plugins: true
-    bukkit.command.version: true
-    bukkit.command.help: true
-    bukkit.command.tps: true
     breakerlandmenu.menu.grades: true
-    betterbees.hive-item: true
-    betterbees.bee: true
-    authme.player: true
     simpleportals.portal.*: true
-    minecraft.*: false
     lands.setting.*: true
     lands.role.*: true
     lands.gui.*: true
@@ -135,16 +128,6 @@ survivant:
     essentials.showkit: true
     essentials.mail.send: true
     essentials.seen: true
-    auctionhouse.cancel: true
-    auctionhouse.expired: true
-    auctionhouse.help: true
-    auctionhouse.menu: true
-    auctionhouse.return: true
-    auctionhouse.search: true
-    auctionhouse.sell: true
-    auctionhouse.selling: true
-    auctionhouse.sold: true
-    auctionhouse.use: true
     ultimatestacker.egg.*: true
     lands.role.admin.setting.*: true
     lands.role.member.setting.*: true
@@ -152,17 +135,39 @@ survivant:
     lands.members.*: true
     lands.settings.*: true
     CustomEnderChest.level.2: true
-
-héro:
-  default: false
-  children:
-    essentials.repair: true
     CustomEnderChest.level.3: true
     smelt.use: true
     lands.lands.4: true
     virtualenchant.etable: true
     MyPet.command.respawn: true
+<<<<<<< HEAD
     music.command: true
+=======
+premium:
+  default: false
+  children:
+    essentials.repair: true
+    essentials.kits.premium: true
+    essentials.feed: true
+    essentials.condense: true
+    essentials.hat: true
+    essentials.speed: true
+    essentials.speed.walk: true
+    essentials.me: true
+    essentials.sethome.multiple.premium: true
+    jobs.woodcutter.vipmaxlevel: true
+    jobs.miner.vipmaxlevel: true
+    jobs.builder.vipmaxlevel: true
+    jobs.digger.vipmaxlevel: true
+    jobs.farmer.vipmaxlevel: true
+    jobs.hunter.vipmaxlevel: true
+    jobs.crafter.vipmaxlevel: true
+    jobs.fisherman.vipmaxlevel: true
+    jobs.weaponsmith.vipmaxlevel: true
+    essentials.signs.color: true
+    essentials.signs.magic: true
+
+>>>>>>> 7337a8b313217af3375501655b8a746e731f84d5
 
 légende:
     default: false
