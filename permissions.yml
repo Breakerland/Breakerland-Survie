@@ -162,6 +162,7 @@ héro:
     lands.lands.4: true
     virtualenchant.etable: true
     MyPet.command.respawn: true
+    music.command: true
 
 légende:
     default: false

@@ -49,11 +49,11 @@ enderChestTitle:
     #For 27 slots enderchest.
     level2: '&dLevel 2'
     #For 36 slots enderchest.
-    level3: '&2Prince ou Héros'
+    level3: '&2Héros'
     #For 45 slots enderchest.
-    level4: '&6Légende ou Roi'
+    level4: '&6Légende'
     #For 54 slots enderchest.
-    level5: '&0Fantome ou Empereur'
+    level5: '&0FEmpereur'
 
 #Chat messages. Supports color and format codes. 
 chatMessages:
