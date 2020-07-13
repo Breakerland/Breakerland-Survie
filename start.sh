@@ -19,7 +19,7 @@ git pull
 # Deobfuscate variables
 echo "Starting to deobfuscate files..."
 shopt -s nullglob
-for i in server.properties plugins/*/*.yml plugins/*/*.txt plugins/*/*.menu;
+for i in server.properties plugins/*/*.yml plugins/*/*.txt plugins/BreakerLandMenu/menus/*.menu;
 do
     for key in "${!secret_key[@]}"
     do 
