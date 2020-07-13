@@ -20,7 +20,7 @@ title: '&2Debug grade'
   item: 'MAGENTA_STAINED_GLASS_PANE 1 title:&5Grade_Baron'
   click:
     action:
-      scommand: 'luckperms:lp user {player} parent set baron $server_name '
+      scommand: 'luckperms:lp user {player} parent set chevalier $server_name '
       message: '&6Vous faites partie du groupe &eBaron&6!'
 3:
   item: 'BLUE_STAINED_GLASS_PANE 1 title:&5Grade_Duc'
