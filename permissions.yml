@@ -134,12 +134,6 @@ survivant:
     lands.members.*: true
     lands.settings.*: true
     CustomEnderChest.level.2: true
-    CustomEnderChest.level.3: true
-    smelt.use: true
-    lands.lands.4: true
-    virtualenchant.etable: true
-    MyPet.command.respawn: true
-    music.command: true
 
 héro:
     default: false
