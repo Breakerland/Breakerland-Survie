@@ -3,7 +3,6 @@ Anvil
 ArmorStandTools
 AuctionHouse
 AuthMe
-BetterBees
 BreakerAgri
 BreakerLandMenu
 BreakerLandPlugin
@@ -21,12 +20,10 @@ Denizen
 DiscordSRV
 Dynmap
 EpicCraftingsPlus
-EpicNetherGenerator
 EpicWorldGenerator
 EssentialsX
 EssentialsXChat
 EssentialsXSpawn
-ExplosionRegen
 FastLoginBukkit
 HeadDatabase
 HolographicDisplays
@@ -51,6 +48,4 @@ Sleep
 Smelt
 UltimateStacker
 Vault
-ViewDistance
 WorldEdit
-XuanCatAPI
