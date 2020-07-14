@@ -29,10 +29,10 @@ survivant:
     pvptoggle.toggle: true
   # CustomEnderChest
     customenderchest.level.2: true
+  # DeathBack
+    dback.survivant: true
   # EpicCraftingsPlus
     ecraft.command.ecraft: true
-  # EpicNetherGenerator
-  # EpicWorldGenerator
   # EssentialsX
     essentials.exp: true
     essentials.home: true
@@ -134,8 +134,6 @@ survivant:
     quests.journal: true
   # QuickShop
     quickshop.use: true
-  # Referral
-  # Regionerator
   # SimplePortal
     simpleportals.portal.*: true
     simpleportals.switchserver: true
@@ -153,7 +151,11 @@ aventurier:
   # BreakerLandMenu
     grade.aventurier: false
     grade.baron: true
+  # DeathBack
+    dback.survivant: false
+    dback.aventurier: true
   # EssentialsX
+    essentials.sethome: true
     essentials.delhome: true
     essentials.kits.aventurier: true
     essentials.sethome.multiple.aventurier: true
@@ -179,8 +181,11 @@ baron:
   # AuctionHouse
     meta.auctions.15: true
   # BreakerLandMenu
-    grade.baron: false
-    grade.duc: true
+    grade.aventurier: false
+    grade.baron: true
+  # DeathBack
+    dback.aventurier: false
+    dback.baron: true
   # EssentialsX
     essentials.exp.other: true
     essentials.balance.other: true
@@ -212,6 +217,9 @@ duc:
   # BreakerLandMenu
     grade.duc: false
     grade.comte: true
+  # DeathBack
+    dback.baron: false
+    dback.duc: true
   # EssentialsX
     essentials.kits.duc: true
     essentials.sethome.multiple.duc: true
@@ -231,6 +239,9 @@ comte:
   # BreakerLandMenu
     grade.comte: false
     grade.marquis: true
+  # DeathBack
+    dback.duc: false
+    dback.comte: true
   # EssentialsX
     essentials.kits.comte: true
     essentials.sethome.multiple.comte: true
@@ -268,6 +279,9 @@ marquis:
   # BreakerLandMenu
     grade.marquis: false
     #grade.héro: true
+  # DeathBack
+    dback.comte: false
+    dback.marquis: true
   # EssentialsX
     essentials.kits.marquis: true
     essentials.sethome.multiple.marquis: true
@@ -290,6 +304,9 @@ héro:
   children:
   # CustomEnderChest
     customenderchest.level.3: true
+  # EssentialsX
+    essentials.kits.héro: true
+    essentials.sethome.multiple.héro: true
   # Lands
     lands.lands.4: true
     wars.command.*: true
