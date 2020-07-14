@@ -182,11 +182,11 @@ baron:
     grade.baron: false
     grade.duc: true
   # EssentialsX
-    essentials.exp.other:true
+    essentials.exp.other: true
     essentials.balance.other: true
-    essentials.kits.baron:true
-    essentials.sethome.multiple.baron:true
-    essentials.balancetop:true
+    essentials.kits.baron: true
+    essentials.sethome.multiple.baron: true
+    essentials.balancetop: true
   # Lands
     lands.command.top: true
   # MyPet
@@ -213,8 +213,8 @@ duc:
     grade.duc: false
     grade.comte: true
   # EssentialsX
-    essentials.kits.duc:true
-    essentials.sethome.multiple.duc:true
+    essentials.kits.duc: true
+    essentials.sethome.multiple.duc: true
     essentials.seen: true
     essentials.workbench: true
   # Lands
@@ -232,8 +232,8 @@ comte:
     grade.comte: false
     grade.marquis: true
   # EssentialsX
-    essentials.kits.comte:true
-    essentials.sethome.multiple.comte:true
+    essentials.kits.comte: true
+    essentials.sethome.multiple.comte: true
   # Lands
     lands.ownlands.2: true
     lands.lands.3: true
@@ -269,11 +269,11 @@ marquis:
     grade.marquis: false
     #grade.héro: true
   # EssentialsX
-    essentials.kits.marquis:true
-    essentials.sethome.multiple.marquis:true
-    essentials.disposal:true
-    essentials.enderchest:true
-    essentials.ext:true
+    essentials.kits.marquis: true
+    essentials.sethome.multiple.marquis: true
+    essentials.disposal: true
+    essentials.enderchest: true
+    essentials.ext: true
   # Lands
     lands.command.deposit: true
   # MyPet
