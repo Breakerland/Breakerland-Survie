@@ -146,171 +146,171 @@ survivant:
     ultimatestacker.spawner.silktouch: true
 
 aventurier:
-    default: false
-    children:
-    # AuctionHouse
-      meta.auctions.10: true
-    # BreakerLandMenu
-      grade.aventurier: false
-      grade.baron: true
-    # EssentialsX
-      essentials.delhome: true
-      essentials.kits.aventurier:true
-      essentials.sethome.multiple.aventurier:true
-    # Jobs
-      jobs.command.toggle: true
-      jobs.command.top: true
-    # Lands
-      lands.command.chat: true
-      lands.command.map: true
-      lands.command.rename: true
-      lands.command.setspawn: true
-      lands.command.view: true
-    # Marriage
-      marry.default: true
-    # MyPet
-      mypet.skilltree.utility: true
-    # QuickShop
-      quickshop.find: true
+  default: false
+  children:
+  # AuctionHouse
+    meta.auctions.10: true
+  # BreakerLandMenu
+    grade.aventurier: false
+    grade.baron: true
+  # EssentialsX
+    essentials.delhome: true
+    essentials.kits.aventurier:true
+    essentials.sethome.multiple.aventurier:true
+  # Jobs
+    jobs.command.toggle: true
+    jobs.command.top: true
+  # Lands
+    lands.command.chat: true
+    lands.command.map: true
+    lands.command.rename: true
+    lands.command.setspawn: true
+    lands.command.view: true
+  # Marriage
+    marry.default: true
+  # MyPet
+    mypet.skilltree.utility: true
+  # QuickShop
+    quickshop.find: true
 
 baron:
-    default: false
-    children:
-    # AuctionHouse
-      meta.auctions.15: true
-    # BreakerLandMenu
-      grade.baron: false
-      grade.duc: true
-    # EssentialsX
-      essentials.exp.other:true
-      essentials.balance.other: true
-      essentials.kits.baron:true
-      essentials.sethome.multiple.baron:true
-      essentials.balancetop:true
-    # Lands
-      lands.command.top: true
-    # MyPet
-      mypet.leash.*: true
-      mypet.shop.access.*: true
-      mypet.skilltree.combat: true
-      mypet.command.trade.*: true
-      mypet.command.capturehelper: true
-      mypet.command.name: true
-      mypet.command.release: true
-      mypet.command.store: true
-      mypet.command.switch: true
-      mypet.extended.beacon: true
-      mypet.extended.feed: true
-      mypet.extended.pickup: true
-      mypet.extended.inventory: true
+  default: false
+  children:
+  # AuctionHouse
+    meta.auctions.15: true
+  # BreakerLandMenu
+    grade.baron: false
+    grade.duc: true
+  # EssentialsX
+    essentials.exp.other:true
+    essentials.balance.other: true
+    essentials.kits.baron:true
+    essentials.sethome.multiple.baron:true
+    essentials.balancetop:true
+  # Lands
+    lands.command.top: true
+  # MyPet
+    mypet.leash.*: true
+    mypet.shop.access.*: true
+    mypet.skilltree.combat: true
+    mypet.command.trade.*: true
+    mypet.command.capturehelper: true
+    mypet.command.name: true
+    mypet.command.release: true
+    mypet.command.store: true
+    mypet.command.switch: true
+    mypet.extended.beacon: true
+    mypet.extended.feed: true
+    mypet.extended.pickup: true
+    mypet.extended.inventory: true
 
 duc:
-    default: false
-    children:
-    # AuctionHouse
-      meta.auctions.20: true
-    # BreakerLandMenu
-      grade.duc: false
-      grade.comte: true
-    # EssentialsX
-      essentials.kits.duc:true
-      essentials.sethome.multiple.duc:true
-      essentials.seen: true
-      essentials.workbench: true
-    # Lands
-      lands.lands.2: true
-    # MyPet
-      mypet.petstorage.limit.6: true
-      mypet.skilltree.farm: true
+  default: false
+  children:
+  # AuctionHouse
+    meta.auctions.20: true
+  # BreakerLandMenu
+    grade.duc: false
+    grade.comte: true
+  # EssentialsX
+    essentials.kits.duc:true
+    essentials.sethome.multiple.duc:true
+    essentials.seen: true
+    essentials.workbench: true
+  # Lands
+    lands.lands.2: true
+  # MyPet
+    mypet.petstorage.limit.6: true
+    mypet.skilltree.farm: true
 
 comte:
-    default: false
-    children:
-    # AuctionHouse
-      meta.auctions.25: true
-    # BreakerLandMenu
-      grade.comte: false
-      grade.marquis: true
-    # EssentialsX
-      essentials.kits.comte:true
-      essentials.sethome.multiple.comte:true
-    # Lands
-      lands.ownlands.2: true
-      lands.lands.3: true
-    # MyPet
-      mypet.petstorage.limit.12: true
-      mypet.skilltree.pvp: true
-    # PlayerWarps
-      pw.category: true
-      pw.limit.1: true
-      pw.warp.notify: true
-      pw.remove: true
-      pw.desc: true
-      pw.lock: true
-      pw.setowner: true
-      pw.rename: true
-      pw.icon: true
-      pw.category.Magasins: true
-      pw.category.Bases: true
-      pw.category.Farms: true
-    # QuickShop
-      quickshop.create.buy: true
-      quickshop.create.changeprice: true
-      quickshop.create.double: true
-      quickshop.create.sell: true
-      quickshop.create.cmd: true
+  default: false
+  children:
+  # AuctionHouse
+    meta.auctions.25: true
+  # BreakerLandMenu
+    grade.comte: false
+    grade.marquis: true
+  # EssentialsX
+    essentials.kits.comte:true
+    essentials.sethome.multiple.comte:true
+  # Lands
+    lands.ownlands.2: true
+    lands.lands.3: true
+  # MyPet
+    mypet.petstorage.limit.12: true
+    mypet.skilltree.pvp: true
+  # PlayerWarps
+    pw.category: true
+    pw.limit.1: true
+    pw.warp.notify: true
+    pw.remove: true
+    pw.desc: true
+    pw.lock: true
+    pw.setowner: true
+    pw.rename: true
+    pw.icon: true
+    pw.category.Magasins: true
+    pw.category.Bases: true
+    pw.category.Farms: true
+  # QuickShop
+    quickshop.create.buy: true
+    quickshop.create.changeprice: true
+    quickshop.create.double: true
+    quickshop.create.sell: true
+    quickshop.create.cmd: true
 
 marquis:
-    default: false
-    children:
-    # AuctionHouse
-      meta.auctions.30: true
-    # BreakerLandMenu
-      grade.marquis: false
-      #grade.héro: true
-    # EssentialsX
-      essentials.kits.marquis:true
-      essentials.sethome.multiple.marquis:true
-      essentials.disposal:true
-      essentials.enderchest:true
-      essentials.ext:true
-    # Lands
-      lands.command.deposit: true
-    # MyPet
-      mypet.petstorage.limit.24: true
-      mypet.command.respawn: true
-      mypet.command.trade.offer: true
-      mypet.command.trade.receive: true
-    # PlayerWarps
-      pw.limit.2: true
-      pw.cost: true
+  default: false
+  children:
+  # AuctionHouse
+    meta.auctions.30: true
+  # BreakerLandMenu
+    grade.marquis: false
+    #grade.héro: true
+  # EssentialsX
+    essentials.kits.marquis:true
+    essentials.sethome.multiple.marquis:true
+    essentials.disposal:true
+    essentials.enderchest:true
+    essentials.ext:true
+  # Lands
+    lands.command.deposit: true
+  # MyPet
+    mypet.petstorage.limit.24: true
+    mypet.command.respawn: true
+    mypet.command.trade.offer: true
+    mypet.command.trade.receive: true
+  # PlayerWarps
+    pw.limit.2: true
+    pw.cost: true
 
 héro:
-    default: false
-    children:
-    # CustomEnderChest
-      customenderchest.level.3: true
-    # Lands
-      lands.lands.4: true
-      wars.command.*: true
-    # MyPet
-      mypet.command.respawn: true
-    # Music
-      music.command: true
-    # Skin
-      skinsetter.set: true
+  default: false
+  children:
+  # CustomEnderChest
+    customenderchest.level.3: true
+  # Lands
+    lands.lands.4: true
+    wars.command.*: true
+  # MyPet
+    mypet.command.respawn: true
+  # Music
+    music.command: true
+  # Skin
+    skinsetter.set: true
 
 légende:
-    default: false
-    children:
-    # CustomEnderChest
-      customenderchest.level.4: true
+  default: false
+  children:
+  # CustomEnderChest
+    customenderchest.level.4: true
 
 empereur:
-    default: false
-    children:
-    # CustomEnderChest
-      customenderchest.level.5: true
+  default: false
+  children:
+  # CustomEnderChest
+    customenderchest.level.5: true
 
 premium:
   default: false
