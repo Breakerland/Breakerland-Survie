@@ -8,30 +8,6 @@ announce:
   action_bar:
     listings: false
     purchases: false
-blacklist:
-  '0':
-    item: minecraft:bedrock
-  '1':
-    item: minecraft:barrier
-  '2':
-    item: minecraft:command_block
-  '3':
-    item: minecraft:structure_block
-  example:
-    name: \u00a7cVorpal Sword
-    item: minecraft:diamond_sword
-    lore:
-    - Special Item
-    - Does not list in AuctionHouse
-    enchantments:
-    - ench: minecraft:sharpness
-      level: 10
-    - ench: minecraft:unbreaking
-      level: 3
-    - ench: minecraft:looting
-      level: 3
-    - ench: minecraft:fire_aspect
-      level: 2
 updateTicks: 100
 locale: fr_FR
 decimal_format: '#,##0.00'
@@ -78,7 +54,7 @@ auction:
   unclaimedCheckOnWorldChange: true
   replacePlayerNames: false
   dropAtFeet: false
-  discord: true
+  discord: false
   discord_channel: auctionhouse
   replaceUUIDs: false
   listingPrice: 0.0
@@ -102,4 +78,28 @@ triggers:
   sign: '[HDV]'
   block_name: Hôtel des Ventes
   entity_name: Hôtel des Ventes
-configVersion: 26
+configVersion: 27
+restricted_items:
+  '0':
+    item: minecraft:bedrock
+  '1':
+    item: minecraft:barrier
+  '2':
+    item: minecraft:command_block
+  '3':
+    item: minecraft:structure_block
+  example:
+    name: \u00a7cVorpal Sword
+    item: minecraft:diamond_sword
+    lore:
+    - Special Item
+    - Does not list in AuctionHouse
+    enchantments:
+    - ench: minecraft:sharpness
+      level: 10
+    - ench: minecraft:unbreaking
+      level: 3
+    - ench: minecraft:looting
+      level: 3
+    - ench: minecraft:fire_aspect
+      level: 2

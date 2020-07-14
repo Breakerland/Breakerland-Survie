@@ -50,6 +50,7 @@
   "message.expired_listings.info.desc5": "&aIl suffit de cliquer sur l'élément et si vous avez assez",
   "message.expired_listings.info.desc6": "&aespace dans votre inventaire, vous recevrez l'article.",
   "message.expired_listings.notice1": "&eVous avez des articles expirés dans l'HDV",
+  "message.active_listings.unaffordable": "&6Vous n'avez pas assez d'argent.",
   "message.active_listings.spacing.top": "&7&l--------------",
   "message.active_listings.spacing.bottom": "&7&l--------------",
   "message.expired_listings.notice2": "&6Utilise &e/hdv retour &6pour récupérer les articles expirés/annulés.",

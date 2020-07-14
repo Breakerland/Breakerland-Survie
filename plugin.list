@@ -1,22 +1,23 @@
-AntiRedstoneClock
-Anvil
-ArmorStandTools
-AuctionHouse
-AuthMe
-BreakerAgri
-BreakerLandMenu
-BreakerLandPlugin
-BreakerLandPvp
-BungeeTabListPlus
-ChunkMaster
-Citizens
-CitizensBooks
-CommandNPC
-CoreProtect
-CrazyEnchantments
-CustomEnderChest
+|      Plugin       |    Version     |                                                Link                                                |
+| :---------------: | :------------: | :------------------------------------------------------------------------------------------------: |
+| AntiRedstoneClock |     1.1.0      | https://www.spigotmc.org/resources/antiredstoneclock-worldguard-plotsquard-support-1-8-1-15.18557/ |
+|       Anvil       |   2020-04-08   | https://www.spigotmc.org/resources/anvilgui.77142/ |
+|  ArmorStandTools  |      3.5.1     | https://www.spigotmc.org/resources/armor-stand-tools.2237/ |
+|    AuctionHouse   |      2.1-b6    | https://www.spigotmc.org/resources/auctionhouse.61836/ |
+|        AuthMe     | 5.6.0-SNAPSHOT | https://ci.codemc.io/job/AuthMe/job/AuthMeReloaded/ |
+|      BreakerAgri  |       1.0      | |
+|  BreakerLandMenu  |       1.1      | |
+| BreakerLandPlugin |       1.0      | |
+|   BreakerLandPvp  |       1.0      | |
+| BungeeTabListPlus | 3.3.3-SNAPSHOT | https://ci.codecrafter47.de/job/BungeeTabListPlus/ |
+|    ChunkMaster    |      1.2.1     | https://www.spigotmc.org/resources/chunkmaster.71351/ |
+|      Citizens     |  2.0.27-b2058  | https://ci.citizensnpcs.co/job/Citizens2/ |
+|   CitizensBooks   |      2.6.0     | https://www.spigotmc.org/resources/citizensbooks.37465/ |
+|     CommandNPC    |      1.9.1     | https://www.spigotmc.org/resources/commandnpc.40295/ |
+|    CoreProtect    |       19.0     | https://www.spigotmc.org/resources/coreprotect.8631/updates |
+| CrazyEnchantments |  8.1-SNAPSHOT  | https://jenkins.badbones69.com/job/Crazy-Enchantments/ |
+| CustomEnderChest  |      1.13.0    | https://www.spigotmc.org/resources/custom-enderchest.8868/ |
 DBack
-Denizen
 DiscordSRV
 Dynmap
 EpicCraftingsPlus
