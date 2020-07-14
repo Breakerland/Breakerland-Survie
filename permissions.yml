@@ -155,8 +155,8 @@ aventurier:
     grade.baron: true
   # EssentialsX
     essentials.delhome: true
-    essentials.kits.aventurier:true
-    essentials.sethome.multiple.aventurier:true
+    essentials.kits.aventurier: true
+    essentials.sethome.multiple.aventurier: true
   # Jobs
     jobs.command.toggle: true
     jobs.command.top: true
