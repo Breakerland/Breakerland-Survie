@@ -353,7 +353,7 @@ premium:
     mypet.shop.storage: true
     mypet.leash: true
     mypet.leash.*: true
-    mypet.command.name.color:true
+    mypet.command.name.color: true
     mypet.command.capturehelper: true
     mypet.command.info.other: true
     mypet.command.name: true
