@@ -181,8 +181,8 @@ baron:
   # AuctionHouse
     meta.auctions.15: true
   # BreakerLandMenu
-    grade.aventurier: false
-    grade.baron: true
+    grade.baron: false
+    grade.duc: true
   # DeathBack
     dback.aventurier: false
     dback.baron: true
