@@ -55,15 +55,6 @@
                     "item": "minecraft:saddle"
                 }
             }
-        },
-        "lily_pad": {
-            "trigger": "minecraft:fishing_rod_hooked",
-            "conditions": {
-                "item":
-                {
-                    "item": "minecraft:lily_pad"
-                }
-            }
         }	
     },
     "requirements": [
@@ -72,8 +63,7 @@
 		"enchanted_book",
 		"name_tag",
 		"nautilus_shell",
-		"saddle",
-		"lily_pad"
+		"saddle"
 		]
     ]
 }

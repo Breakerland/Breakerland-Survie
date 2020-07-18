@@ -109,7 +109,16 @@
                     "item": "minecraft:bamboo"
                 }
             }
-        }		
+        },
+        "lily_pad": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item":
+                {
+                    "item": "minecraft:lily_pad"
+                }
+            }
+        }	
     },
     "requirements": [
 		[
@@ -123,7 +132,8 @@
 		"bone",
 		"ink_sac",		
 		"tripwire_hook",
-		"bamboo"
+		"bamboo",
+		"lily_pad"
 		]
     ]
 }
