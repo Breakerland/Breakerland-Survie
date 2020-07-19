@@ -88,7 +88,7 @@ StatusUpdateRateInMinutes: 0
 DiscordChatChannelDiscordToMinecraft: true
 DiscordChatChannelMinecraftToDiscord: true
 DiscordChatChannelTruncateLength: 256
-DiscordChatChannelTranslateMentions: true
+DiscordChatChannelTranslateMentions: false
 DiscordChatChannelPrefixRequiredToProcessMessage: ""
 DiscordChatChannelRolesAllowedToUseColorCodesInChat: ["Premium"]
 DiscordChatChannelBroadcastDiscordMessagesToConsole: false
