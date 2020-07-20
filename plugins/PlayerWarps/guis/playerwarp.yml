@@ -10,7 +10,7 @@ pwarp:
   # The title of the gui (Can use color codes) the variable "[category]" will only work if it is enabled.
   title: '&e&lWarps [category] ([page]/[pages])'
   # What is the size of this GUI? (multiples of 9 can only go up to 54)
-  size: 36
+  size: 54
   # should /pwarp open the gui? if so you just do /pwarp open (if enabled)
   override-pwarp: false
 
