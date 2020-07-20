@@ -5,7 +5,7 @@
 # Made with love
 
 # DO NOT TOUCH THIS!
-config-version: 62
+config-version: 64
 
 settings:
   # very useful to tell if there are any memory leaks or if the author needs
@@ -13,13 +13,14 @@ settings:
   debug: false
   # notifies you if there is a update (Only people with pw.admin.update can see this when they join)
   notify-update: true
+  # Should the plugin automatically download the latest version from spigot if your plugin version is out of date?
+  # Please note, this will only work if the above option is enabled
+  download-update: true
   # Plugin metrics, this is very useful for the author to
   # see information about the server. Please keep it enabled,
   # it makes me more encouraged to make plugins like this.
   # YOU WILL NEED TO RESTART THE SERVER!
   metrics: true
-  # Want to disable the sponsor message that is shown in the console?
-  sponsor-message: true
   # This is the main command for the plugin.
   main-command: warp
   # Extra aliases for the main command.
@@ -81,9 +82,12 @@ settings:
     # Please enter the server name on your bungee network, otherwise the plugin will not be able to redirect you to that server.
     # If you don't want to setup this database as a bungee network, please leave this blank.
 
-    # You will also need to download PlayerWarps Proxy for this to work: https://olziedev.com/playerwarps/PlayerWarps_Proxy.jar/
     # Make sure to put it in your Bungeecord plugins folder!
     server-name: survie
+
+    # Please put down all the server names here (that you put in all the other playerwarps's config files) don't add this config files server name though!
+    server-names:
+    - ''
 
     mysql:
       # Should SQL be enabled?
@@ -115,11 +119,11 @@ settings:
   set:
     # Should there be a confirmation before setting a warp?
     confirmation: true
-    # How many seconds, show the confirmation expire for the warp. This means how many seconds they have to wait
-    # to set to a warp. Recommended is 3
+    # How many seconds should the confirmation expire. This means how many seconds they have to
+    # set to a warp. Recommended is 3
     confirmation-expire-time: 3
     # the amount of characters a warp name can have.
-    max-warp-name-chars: 10
+    max-warp-name-chars: 15
     # Blacklist any names from anyone setting a playerwarp called that.
     blacklisted-names:
     - 'olzieisbad'
@@ -263,10 +267,10 @@ settings:
 
   desc:
     # the amount of characters a desc can have.
-    max-warp-desc-chars: 50
+    max-warp-desc-chars: 200
     # The description will automatically go onto the next line if there is x amount of characters on that line
     # How many characters should a description be par line?
-    characters-per-line: 15
+    characters-per-line: 50
 
 
   rate:
@@ -283,15 +287,14 @@ settings:
 
 # Should PlayerWarps be able to convert data from other plugins?
 converters:
-  MySQL:
-    # if this is enabled, this will convert data from the data.yml to mysql.
-    # please restart the server for this conversion to happen.
-    enabled: false
   WelcomeWarpSign:
-    # if this is enabled, this will convert data from Welcome Warp Sign to PlayerWarps.
+    # if this is enabled, this will convert data from Welcome Warp Sign (https://www.spigotmc.org/resources/12256/) to PlayerWarps.
     # Please restart the server for this conversion to happen.
     enabled: false
-
+  PWarp:
+    # if this is enabled, this will convert data from PWarp (https://www.spigotmc.org/resources/64542/) to PlayerWarps.
+    # Please restart the server for this conversion to happen.
+    enabled: false
 plugins:
   # plotsquared support will allow players to only set warps
   # in their plot. The permission for admins to bypass is 'pw.admin.bypass'.

@@ -12,6 +12,9 @@
 # make sure you use '' to end of every string
 # Also you can use colour codes <3
 
+# To use hex color codes you will need to do
+# '{#HEX} text'
+
 lang:
   prefix: ''
   list: '&7Warps actuels: &e%list%'

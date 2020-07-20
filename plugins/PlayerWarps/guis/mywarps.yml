@@ -5,7 +5,7 @@
 # Made with love
 
 mywarps:
-  # Should you enable a warps gui meaning players will be able to manage their own warps.
+  # Should you enable my warps gui meaning players will be able to manage their own warps.
   enabled: true
   # The title of the gui (Can use color codes)
   title: '&e&lMes Warps ([page]/[pages])'
