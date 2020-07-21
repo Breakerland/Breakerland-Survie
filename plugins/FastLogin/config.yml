@@ -53,7 +53,7 @@ switchMode: false
 # authentication.
 #
 # This feature requires Cauldron, Spigot or a fork of Spigot (Paper)
-premiumUuid: false
+premiumUuid: true
 
 # This will make an additional check (only for player names which are not in the database) against the mojang servers
 # in order to get the premium UUID. If that premium UUID is in the database, we can assume on successful login that the
