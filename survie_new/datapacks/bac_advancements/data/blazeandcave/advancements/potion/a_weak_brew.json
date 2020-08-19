@@ -11,11 +11,23 @@
 		"function": "bc_rewards:potion/a_weak_brew"
     },	
     "criteria": {
-        "potion": {
+        "weakness": {
             "trigger": "minecraft:brewed_potion",
             "conditions": {
                 "potion": "minecraft:weakness"
             }
+        },
+        "long_weakness": {
+            "trigger": "minecraft:brewed_potion",
+            "conditions": {
+                "potion": "minecraft:long_weakness"
+            }
         }
-    }
+    },
+	"requirements": [
+		[
+			"weakness",
+			"long_weakness"
+		]
+	]
 }

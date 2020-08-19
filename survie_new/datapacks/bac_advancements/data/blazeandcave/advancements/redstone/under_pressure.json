@@ -100,6 +100,36 @@
                     }
                 ]
             }
+        },
+        "crimson_pressure_plate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:crimson_pressure_plate"
+                    }
+                ]
+            }
+        },
+        "warped_pressure_plate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:warped_pressure_plate"
+                    }
+                ]
+            }
+        },
+        "polished_blackstone_pressure_plate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:polished_blackstone_pressure_plate"
+                    }
+                ]
+            }
         }
     },
     "requirements": [
@@ -110,9 +140,12 @@
 		"jungle_pressure_plate",
 		"acacia_pressure_plate",
 		"dark_oak_pressure_plate",
+		"crimson_pressure_plate",
+		"warped_pressure_plate",
         "stone_pressure_plate",
         "light_weighted_pressure_plate",
-        "heavy_weighted_pressure_plate"
+        "heavy_weighted_pressure_plate",
+        "polished_blackstone_pressure_plate"
 		]
     ]	
 }

@@ -16,13 +16,19 @@
         "killed_piglin": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
-                "entity": {
-                    "type": "minecraft:piglin",
-                    "location": {
-                        "dimension": "overworld"
-                    }
-                }
-            }
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "#blazeandcave:piglins",
+							"location": {
+								"dimension": "overworld"
+							}
+						}
+					}
+				]
+			}
         }
     }
 }

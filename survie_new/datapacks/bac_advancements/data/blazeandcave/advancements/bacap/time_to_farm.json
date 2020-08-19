@@ -60,6 +60,16 @@
                     }
                 ]
             }
+        },
+        "netherite_hoe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:netherite_hoe"
+                    }
+                ]
+            }
         }
     },
     "requirements": [
@@ -68,7 +78,8 @@
         "stone_hoe",
 		"iron_hoe",
 		"diamond_hoe",
-		"golden_hoe"
+		"golden_hoe",
+		"netherite_hoe"
 		]
     ]
 }

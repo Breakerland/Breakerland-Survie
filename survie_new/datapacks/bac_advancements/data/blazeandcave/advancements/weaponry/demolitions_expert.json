@@ -353,6 +353,17 @@
 		  "is_explosion": "true"
 		}
       }
+    },
+    "piglin_brute": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin_brute"
+        },
+		"killing_blow": {
+		  "is_explosion": "true"
+		}
+      }
     }
   }
 }

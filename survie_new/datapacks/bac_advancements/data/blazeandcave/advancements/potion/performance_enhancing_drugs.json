@@ -11,11 +11,30 @@
 		"function": "bc_rewards:potion/performance_enhancing_drugs"
     },	
     "criteria": {
-        "speed_potion": {
+        "swiftness": {
             "trigger": "minecraft:brewed_potion",
             "conditions": {
                 "potion": "minecraft:swiftness"
             }
+        },
+        "long_swiftness": {
+            "trigger": "minecraft:brewed_potion",
+            "conditions": {
+                "potion": "minecraft:long_swiftness"
+            }
+        },
+        "strong_swiftness": {
+            "trigger": "minecraft:brewed_potion",
+            "conditions": {
+                "potion": "minecraft:strong_swiftness"
+            }
         }
-    }
+    },
+	"requirements": [
+		[
+			"swiftness",
+			"long_swiftness",
+			"strong_swiftness"
+		]
+	]
 }

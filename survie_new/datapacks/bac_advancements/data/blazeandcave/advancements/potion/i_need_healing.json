@@ -11,11 +11,23 @@
 		"function": "bc_rewards:potion/i_need_healing"
     },	
     "criteria": {
-        "speed_potion": {
+        "healing": {
             "trigger": "minecraft:brewed_potion",
             "conditions": {
                 "potion": "minecraft:healing"
             }
+        },
+        "strong_healing": {
+            "trigger": "minecraft:brewed_potion",
+            "conditions": {
+                "potion": "minecraft:strong_healing"
+            }
         }
-    }
+    },
+	"requirements": [
+		[
+			"healing",
+			"strong_healing"
+		]
+	]
 }

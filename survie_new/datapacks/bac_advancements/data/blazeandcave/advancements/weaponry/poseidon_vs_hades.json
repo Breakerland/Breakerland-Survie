@@ -155,6 +155,20 @@
                     "type": "zoglin"
                 }
             }
+        },
+        "piglin_brute": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:trident"
+                        }
+                },
+                "entity": {
+                    "type": "piglin_brute"
+                }
+            }
         }
     }
 }

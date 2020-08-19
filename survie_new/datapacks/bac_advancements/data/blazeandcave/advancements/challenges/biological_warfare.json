@@ -895,6 +895,20 @@
 					}
 				}
             }
+        },
+        "piglin_brute": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+				"entity": {
+					"type": "piglin_brute"
+				},
+				"killing_blow": {
+					"is_magic": "true",
+					"direct_entity": {
+						"type": "minecraft:area_effect_cloud"
+					}
+				}
+            }
         }
     }
 }
