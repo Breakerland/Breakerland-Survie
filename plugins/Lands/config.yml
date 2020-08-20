@@ -24,11 +24,6 @@ general:
   # Chinese (zh-CN) by Ruii
   # Taiwanese (zh-TW) by FallingEagle96
   language: 'fr-FR'
-  # This will send a message to console on a server startup,
-  # if a new version is available.
-  check-update: false
-  # Print lands logo to console when lands enables.
-  logo: false
 
   # Date format
   # MM: Month
@@ -64,7 +59,7 @@ general:
   edit-by-loc: true
 
   # Should Lands give every new player the selection tool defined in your gui language file?
-  # If you for example set GOLDEN_SHOVEL as the material in your gui language file, all GOLDEN_SHOVELs will trigger a selection, not just the given one.
+  # If you for example set GOLDEN_HOE as the material in your gui language file, all GOLDEN_HOE's will trigger a selection, not just the given one.
   # That means that players can craft the tool too and use it to create selections. However, /Lands selection still works without any tool in hand.
   # Automatically giving new players the selection tool, just informs them about claiming and with it they can manage selections from air, instead of needing to touch the block directly.
   selection-tool: true
@@ -162,17 +157,14 @@ land:
       # Teleport a player after death to land spawn.
       re-spawn: false
 
-  # Chunks (claims) addition (/Lands trust, /Lands accept)
-  chunks-addition:
-    # Only add lands.chunks.support.NUMBER value to max claim amount of lands,
-    # if the player is trusted in the whole land?
-    only-global: true
-
-  # Land ("sub") areas
-  # With areas you can create "sub" areas to specify special zones in your land.
-  # You can also trust players to them and configure settings.
-  areas:
-    enabled_21: true
+  # Rent/sell areas settings - Wiki: https://github.com/Angeschossen/Lands/wiki/Rent-System
+  # Rent = The players can rent a area of their choice without needing to get trusted. They can decide how long they want to rent it.
+  # Taxes = Trusted players pay a defined amount of tax per defined interval.
+  rent:
+    # Allow your players to set sub areas available for rent?
+    rent: true
+    # Allow your players to sell sub areas or their whole land?
+    sell: true
 
   # Invite settings
   invite:
@@ -192,6 +184,8 @@ land:
     # If someone deleted his land, and the claim size isn't null (this prevents spamming).
     # Message: land.create.broadcast
     delete: false
+    # Should /Lands chat messages be forwarded to console?
+    chat: false
 
   # Send a message if you enter / leave a land.
   # You can configure the display mode (title, chat, actionbar) in your language file.
@@ -359,6 +353,8 @@ land:
 
 
 # Taxes settings
+# Taxes = Trusted players pay a defined amount of tax per defined interval.
+# Rent = The players can rent a area of their choice without needing to get trusted. They can decide how long they want to rent it.
 taxes:
   enabled_3: false
   # Taxes interval
@@ -389,7 +385,8 @@ taxes:
   announcement: 45m
 
   # Land upkeep costs
-  # Enable this, if you want the lands to pay x amount of money per chunk in order to keep their land.
+  # Upkeep = Lands pay a defined amount of money to the server in order to keep their claimed land.
+  # Taxes = Trusted players pay a defined amount of tax per defined interval.
   upkeep:
     # NOTE: This setting requires server reload / restart.
     enabled_19: false
@@ -522,6 +519,26 @@ chunk:
     waterflow_allow:
       default_68: false
       display_67: true
+
+    #
+    # FIRE_SPREAD
+    # Allow fire spreading inside the land? Fire won't be able to spread from wilderness inside the land.
+    fire_spread:
+      default_73: false
+      display_76: true
+
+    #
+    # LEAF_DECAY
+    # Should leaves decay inside a land?
+    leaf_decay:
+      default_74: true
+      display_77: true
+    #
+    # PLANT_GROWTH
+    # Should plants be able to grow?
+    plant_growth:
+      default_75: true
+      display_78: true
 
   # Role settings
   # There are three different roles:
@@ -982,6 +999,7 @@ visualization:
       # Purple: 8388736
       # Orange: 16753920
       color: 16753920
+      # Duration in seconds
       duration: 20
       rows: 2
     # If the player is the land owner.
@@ -1002,20 +1020,23 @@ visualization:
       color_5: 16711680
       duration_5: 4
       rows_5: 2
-    # Visualize chunk selection (/Lands selection)
+    # Visualize selection mode (/Lands selection)
     selection:
       particle_8: REDSTONE
       color_8: 16753920
+      # Will stay permanent until selection mode is disabled.
+      # You can change that by editing this value.
       duration_8: 45
       rows_8: 2
 
-  # /Lands view
+  # /Lands view visualization
   view:
+    # Should Lands display land borders automatically once the player joins?
+    # NOTE: You can set duration_9 (below) to -1 to make the visualization permanent.
+    join: false
     # Duration of land view.
-    # NOTE: Time unit is seconds
+    # Time unit is seconds. You can make this permanent by setting the value to -1
     duration_9: 60
-    # Should Lands display land borders permanently once the player joins?
-    permanent: false
 
   # /Lands map lengths
   map:
@@ -1141,11 +1162,11 @@ database:
   # It is not recommended to connect multiple Lands servers to one database with the same table prefix.
   mysql:
     enabled_20: true
-    ip-address: '172.18.0.1'
-    port: '3306'
-    username: 'u1_9CoCZ2vYY6'
-    password: 'r5stVAYZrSErdNSniT2K2sf5'
-    database: 's1_survie'
+    ip-address: '$mysql_host'
+    port: '$mysql_port'
+     username: '$mysql_user_survie'
+     password: '$mysql_password_survie'
+     database: '$mysql_database_survie'
 
     # It is highly recommended to set a table prefix, if you also connect other plugins to this database.
     table-prefix: 'lands_'

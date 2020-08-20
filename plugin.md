@@ -31,7 +31,7 @@
 |    IllegalStack     |          2.1.6        | https://www.spigotmc.org/resources/dupe-fixes-illegal-stack-remover.44411/ |
 |     ImageOnMap      |           4.0         | https://www.spigotmc.org/resources/imageonmap.26585/ |
 |        Jobs         |          4.16.0       | https://www.spigotmc.org/resources/jobs-reborn.4216/ |
-|       Lands         |          4.8.1        | https://www.spigotmc.org/resources/lands-minecraft-land-claim-plugin-grief-prevention-protection-gui-management-wars-1-15-support.53313/ |
+|       Lands         |          4.9.1        | https://www.spigotmc.org/resources/lands-minecraft-land-claim-plugin-grief-prevention-protection-gui-management-wars-1-15-support.53313/ |
 |      LuckPerms      |          5.1.26       | https://www.spigotmc.org/resources/luckperms-an-advanced-permissions-plugin.28140/ |
 |       Marriage      |          2.0.20       | https://www.spigotmc.org/resources/marriage-reloaded-1-15-1-8.18998/ |
 |        MyPet        |  3.11-SNAPSHOT-B1550  | https://mypet-plugin.de/download |

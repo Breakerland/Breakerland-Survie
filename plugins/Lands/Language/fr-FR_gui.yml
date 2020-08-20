@@ -103,6 +103,7 @@ general:
     members: '&eMembers'
     economy: '&cEconomy'
     war: '&4War'
+  all: '&aAll'
 misc:
   claim-block:
     name: '&bClaimblock'
@@ -762,6 +763,12 @@ gui:
         - '&7amount of&3 {max} &7Areas.'
         - ' '
         - '&8Permission: lands.areas.NUMBER'
+      failure_rental:
+        name: '&4Failure: &cRental'
+        lore:
+        - '&7You can''t edit this area'
+        - '&7while it is rented/sold.'
+        - '&7Tenant:&3 {player}'
     p:
       placeholder_1:
         material: GRAY_STAINED_GLASS_PANE
@@ -858,6 +865,13 @@ gui:
         material: BLUE_STAINED_GLASS_PANE
         from: 30
         to: 30
+    a:
+      failure_rental:
+        name: '&4Failure: &cRental'
+        lore:
+        - '&7You can''t set taxes for this'
+        - '&7area while it is rented/sold.'
+        - '&7Tenant:&3 {player}'
   area_invites:
     title: '&8Invites'
     size: 36
@@ -1070,6 +1084,13 @@ gui:
         - '&7It has a higher priority'
         - '&7than yours or you''re a'
         - '&7member of this role.'
+        - ' '
+        - '&8Bypass: {bypass}'
+      failure_access:
+        name: '&4Failure: &cNot allowed'
+        lore:
+        - '&7You''re not allowed to'
+        - '&7edit roles in this area.'
         - ' '
         - '&8Bypass: {bypass}'
     p:
@@ -1532,6 +1553,13 @@ gui:
         - '&7than yours.'
         - ' '
         - '&8Bypass: {bypass}'
+      failure_access:
+        name: '&4Failure: &cNot allowed'
+        lore:
+        - '&7You''re not allowed to'
+        - '&7edit roles in this area.'
+        - ' '
+        - '&8Bypass: {bypass}'
     p:
       placeholder_1:
         material: GRAY_STAINED_GLASS_PANE
@@ -1661,6 +1689,41 @@ gui:
         material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQ2YzZlZGE5NDJmN2Y1ZjcxYzMxNjFjNzMwNmY0YWVkMzA3ZDgyODk1ZjlkMmIwN2FiNDUyNTcxOGVkYzUifX19
         from: 10
         to: 18
+      fire_spread:
+        name: '&6Fire Spread'
+        lore:
+        - '&7Status: {enabled}'
+        - '&7Unlocked: {unlocked}'
+        - ' '
+        - '&7Allow fire to spread'
+        - '&7inside your land?'
+        - ' '
+        - '&8Fire from wilderness'
+        - '&8can''t enter your land.'
+        material: FLINT_AND_STEEL
+        from: 10
+        to: 18
+      leaf_decay:
+        name: '&6Leaf Decay'
+        lore:
+        - '&7Status: {enabled}'
+        - '&7Unlocked: {unlocked}'
+        - ' '
+        - '&7Should leaves decay'
+        - '&7inside your land?'
+        material: OAK_LEAVES
+        from: 10
+        to: 18
+      plant_growth:
+        name: '&6Plant Growth'
+        lore:
+        - '&7Status: {enabled}'
+        - '&7Unlocked: {unlocked}'
+        - ' '
+        - '&7Should plants be able to grow?'
+        material: VINE
+        from: 10
+        to: 18
     a:
       failure_permission:
         name: '&4Failure: &cNo Permission'
@@ -1679,6 +1742,23 @@ gui:
         - '&7The land owner needs to'
         - '&7allow you to do so.'
         - '&8Setting: {setting}'
+      failure_priority:
+        name: '&4Failure: &cRole Priority'
+        lore:
+        - '&7You''re not allowed to'
+        - '&7edit settings of this role.'
+        - '&7It has a higher priority'
+        - '&7than yours or you''re a'
+        - '&7member of this role.'
+        - ' '
+        - '&8Bypass: {bypass}'
+      failure_access:
+        name: '&4Failure: &cNot allowed'
+        lore:
+        - '&7You''re not allowed to'
+        - '&7edit roles in this area.'
+        - ' '
+        - '&8Bypass: {bypass}'
     p:
       placeholder_1:
         material: GRAY_STAINED_GLASS_PANE
@@ -2980,6 +3060,23 @@ gui:
         lore:
         - '&7You need to have an item'
         - '&7in your main hand.'
+      failure_access:
+        name: '&4Failure: &cNot allowed'
+        lore:
+        - '&7You''re not allowed to'
+        - '&7edit roles in this area.'
+        - ' '
+        - '&8Bypass: {bypass}'
+      failure_priority:
+        name: '&4Failure: &cRole Priority'
+        lore:
+        - '&7You''re not allowed to'
+        - '&7edit settings of this role.'
+        - '&7It has a higher priority'
+        - '&7than yours or you''re a'
+        - '&7member of this role.'
+        - ' '
+        - '&8Bypass: {bypass}'
     p:
       placeholder_1:
         material: GRAY_STAINED_GLASS_PANE
@@ -2993,6 +3090,66 @@ gui:
         material: BLUE_STAINED_GLASS_PANE
         from: 21
         to: 21
+  land_claims:
+    title: '&7{land} - Claims'
+    size: 36
+    s: {}
+    f:
+      toggle:
+        name: '&7World:&3 {world}'
+        lore:
+        - '&7Click here to toggle'
+        - '&7the world.'
+        material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzljODg4MWU0MjkxNWE5ZDI5YmI2MWExNmZiMjZkMDU5OTEzMjA0ZDI2NWRmNWI0MzliM2Q3OTJhY2Q1NiJ9fX0=
+        slot: 32
+      page_previous:
+        name: '&9Previous Page'
+        lore:
+        - '&7Go to previous page:&9 {previous}'
+        - ' '
+        - '&8- &7Current:&3 {current}'
+        material: ARROW
+        slot: 30
+      page_next:
+        name: '&aNext Page'
+        lore:
+        - '&7Go to next page:&9 {next}'
+        - ' '
+        - '&8- &7Current:&3 {current}'
+        material: ARROW
+        slot: 34
+      back:
+        name: '&cBack'
+        lore:
+        - '&7Go back to'
+        - '{back}&7.'
+        material: RED_STAINED_GLASS_PANE
+        slot: 28
+    l:
+      object:
+        name: '&6World: {world} X: {x} Z: {z}'
+        lore:
+        - '&7Claimed: {time} &7ago'
+        - ' '
+        - '&7Click to teleport.'
+        material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODQ0OWI5MzE4ZTMzMTU4ZTY0YTQ2YWIwZGUxMjFjM2Q0MDAwMGUzMzMyYzE1NzQ5MzJiM2M4NDlkOGZhMGRjMiJ9fX0=
+        from: 10
+        to: 27
+    a:
+      failure_cooldown:
+        name: '&4Failure: &cCooldown'
+        lore:
+        - '&7You need to wait another {time}'
+        - '&7before you can do this again.'
+    p:
+      placeholder_1:
+        material: GRAY_STAINED_GLASS_PANE
+        from: 1
+        to: 9
+      placeholder_2:
+        material: GRAY_STAINED_GLASS_PANE
+        from: 29
+        to: 36
 physical-Item:
   claim-block:
     name: '&bClaimblock'
