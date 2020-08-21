@@ -22,6 +22,12 @@ RCON port: '$rcon_port'
 RCON password: '$rcon_password'
 ```
 
+### Votifier
+Pour les informations de connexion avec Votifier.
+```bash
+Votifier port: '$votifier_port'
+```
+
 ### Base de donnée
 Il est préférable de favoriser l'utilisation de MySQL ou MariaDB lorsqu'il l'est possible.
 Pour les informations de connexion, veuillez utiliser les variables suivantes :

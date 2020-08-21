@@ -2,39 +2,36 @@ VoteSites:
   # VoteSite key
   # Used for saving data for votesites
   # Use a short name if you can
-  ExampleVoteSite:
+  liste-serveurs:
     # Enable voteSite
     # If false, votesite will not be loaded by plugin
     # Default: false
-    Enabled: false
+    Enabled: true
     
     # Display name of voting site
-    Name: 'ExampleVoteSite'
+    Name: 'Liste-serveurs.fr'
           
     # Priority of this site
     # Used for sorted list
     # High prority, higher on the list
-    Priority: 5
+    Priority: 0
           
     # The serviceName from the vote, has to be correct to work correctly
     # Gotten from voting on the site (will be in console/log)
     # Usually is the main part of the url(e.g. PlanetMinecraft.com), but not always
     # See console when you vote (it will notify you if the plugin didn't find a votingsite matching the service site
-    ServiceSite: 'PlanetMinecraft.com'
+    ServiceSite: 'liste-serveurs.fr'
 
     # vote url for /vote
     # Format for this can be set in Format.yml
     # Do not include colors here
     # If you need to force a url set the url as this:
     # VoteURL: '[Text="ANY TEXT TO CLICK ON HERE",url="URLHERE"]'
-    VoteURL: 'link to vote URL here, used in /vote'
+    VoteURL: 'https://www.liste-serveurs.fr/server-breakerland.54'
 
     # Time between votes in hours (used for /vote next)
     # Most sites are 24 hours
-    VoteDelay: 24
-    
-    # Use to have a minute votedelay
-    #VoteDelayMin: 30
+    VoteDelay: 3
     
     # Require waiting until votedelay time has pasted in order to accept vote
     # Recommend: false
@@ -44,68 +41,143 @@ VoteSites:
     # Recommend: false
     VoteDelayDaily: false
     
-    # If true, rewards can be executed offline (requires ForceOffline to be true in the reward)
-    # Setting this to true will execute the reward offline while the player is offline
-    # This basiclly disables offline voting if set to true, don't misinterpret this option
-    ForceOffline: false
-    
     # VoteSite Material for some GUI's
     # Removing this may result in an error, required on each site
     Item:
       Material: 'DIAMOND'
       Amount: 1
-
-    # Rewards to give
-    # https://github.com/Ben12345rocks/AdvancedCore/wiki/Rewards
-    Rewards:
-      # Execute console commands
-      Commands:
-      - 'say hello'
-      # Send player a message
-      Messages:
-        Player: 'You voted'
-  # Site 2 example
-  Site2:
-    Enabled: false
-    Name: 'Site2'
-    ServiceSite: 'PlanetMinecraft.com'
-    VoteURL: 'link to vote URL here, used in /vote'
+  # Serveur-prive.net
+  serveur-prive:
+    Enabled: true
+    Name: 'Serveur-prive.net'
+    ServiceSite: 'serveur-prive.net'
+    VoteURL: 'https://serveur-prive.net/minecraft/breakerland-1868'
     VoteDelay: 24
     Item:
       Material: 'DIAMOND'
       Amount: 1
-    Rewards:
-      Commands:
-      - 'say hello'
-      # Advanced example
-      # 50% chance for reward1, if reward1 not given then 20% chance to get reward2, if reward2 not given then fallback
-      AdvancedPriority:
-        # Similar to priority, but no need to have to use reward files
-        # Add requirements under each reward
-        # Will go in order from list here and try to run each of the following rewards...
-        # This name can be anything, but they need to be different
-        Reward1:
-          Chance: 50
-          # Any other requirement here
-          # If any requirement fails, the next reward will be attempted
-          # Use permission requirement for rank based rewards
-          #RequirePermission: true
-          #Permission: 'permhere'
-          Messages:
-            Player: 'You got first reward'
-        Reward2:
-          Chance: 20
-          Messages:
-            Player: 'You got second reward'
-        # Fallback, 100% chance, after other rewards fail chances
-        Fallback:
-          Messages:
-            Player: 'You got unlucky'
-
-      Messages:
-        Player: 'You voted'
+  # minecraft-serveur.fr
+  minecraft-serveur:
+    Enabled: true
+    Name: 'Minecraft-serveur.fr'
+    ServiceSite: 'minecraft-serveur.fr'
+    VoteURL: 'https://minecraft-serveur.fr/server-breakerland.1362'
+    VoteDelay: 3
+    Item:
+      Material: 'DIAMOND'
+      Amount: 1
+  # serveursminecraft.org
+  serveursminecraft:
+    Enabled: true
+    Name: 'Serveursminecraft.org'
+    ServiceSite: 'serveursminecraft.org'
+    VoteURL: 'https://www.serveursminecraft.org/serveur/3458/'
+    VoteDelay: 24
+    Item:
+      Material: 'DIAMOND'
+      Amount: 1
+  # liste-serv-minecraft.fr
+  liste-serv-minecraft:
+    Enabled: true
+    Name: 'Liste-serv-minecraft.fr'
+    ServiceSite: 'liste-serv-minecraft.fr'
+    VoteURL: 'https://liste-serv-minecraft.fr/serveur.php?id=313'
+    VoteDelay: 3
+    Item:
+      Material: 'DIAMOND'
+      Amount: 1
+  # liste-serveurs-minecraft.org
+  liste-serveurs-minecraft:
+    Enabled: true
+    Name: 'Liste-serveurs-minecraft.org'
+    ServiceSite: 'liste-serveurs-minecraft.org'
+    VoteURL: 'https://www.liste-serveurs-minecraft.org/serveur-minecraft/serveur-minecraft-breakerland/'
+    VoteDelay: 3
+    Item:
+      Material: 'DIAMOND'
+      Amount: 1
+  # minecraft-top.com
+  minecraft-top:
+    Enabled: true
+    Name: 'Minecraft-top.com'
+    ServiceSite: 'minecraft-top.com'
+    VoteURL: 'https://minecraft-top.com/vote/73'
+    VoteDelayMin: 90
+    Item:
+      Material: 'DIAMOND'
+      Amount: 1
+  # serveur-minecraft.fr
+  serveur-minecraft:
+    Enabled: true
+    Name: 'Serveur-minecraft.fr'
+    ServiceSite: 'serveur-minecraft.fr'
+    VoteURL: 'https://serveur-minecraft.fr/server-breakerland.97'
+    VoteDelay: 24
+    Item:
+      Material: 'DIAMOND'
+      Amount: 1
+  # rpg-paradize.com
+  rpg-paradize:
+    Enabled: true
+    Name: 'RPG-paradize.com'
+    ServiceSite: 'rpg-paradize.com'
+    VoteURL: 'https://www.rpg-paradize.com/?page=vote&vote=112416'
+    VoteDelay: 24
+    Item:
+      Material: 'DIAMOND'
+      Amount: 1
+  # liste-serveur.fr
+  liste-serveur:
+    Enabled: true
+    Name: 'Liste-serveur.fr'
+    ServiceSite: 'liste-serveur.fr'
+    VoteURL: 'https://www.liste-serveur.fr/serveurs/minecraft/breakerland-9580/voter'
+    VoteDelay: 3
+    Item:
+      Material: 'DIAMOND'
+      Amount: 1
+  # bedrock.serveurs-minecraft.org
+  bedrock.serveurs-minecraft:
+    Enabled: true
+    Name: 'Bedrock - Serveurs-minecraft.org'
+    ServiceSite: 'bedrock.serveurs-minecraft.org'
+    VoteURL: 'https://bedrock.serveurs-minecraft.org/vote.php?id=30'
+    VoteDelay: 24
+    Item:
+      Material: 'DIAMOND'
+      Amount: 1
+  # serveurs-minecraft.org
+  serveurs-minecraft:
+    Enabled: true
+    Name: 'Java - Serveurs-minecraft.org'
+    ServiceSite: 'serveurs-minecraft.org'
+    VoteURL: 'https://www.serveurs-minecraft.org/vote.php?id=57264'
+    VoteDelay: 24
+    Item:
+      Material: 'DIAMOND'
+      Amount: 1
+  # topg.org
+  topg:
+    Enabled: true
+    Name: 'Topg.org'
+    ServiceSite: 'topg.org'
+    VoteURL: 'https://topg.org/fr/Minecraft/server-520668'
+    VoteDelay: 24
+    Item:
+      Material: 'DIAMOND'
+      Amount: 1
+  # liste-minecraft-serveurs.com
+  liste-minecraft-serveurs:
+    Enabled: true
+    Name: 'Liste-minecraft-serveurs.com'
+    ServiceSite: 'liste-minecraft-serveurs.com'
+    VoteURL: 'https://www.liste-minecraft-serveurs.com/Serveur/288'
+    VoteDelay: 24
+    Item:
+      Material: 'DIAMOND'
+      Amount: 1
     
 # Reward for any site
 # Similar to AnySiteReward
 # This requires the site to be configured in order to get the reward.
-EverySiteReward: []
+EverySiteReward: 'main'
