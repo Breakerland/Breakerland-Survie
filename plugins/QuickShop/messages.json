@@ -3,9 +3,9 @@
   "translation-contributors": "§c§lContributeurs: §b§lTimtower, Netherfoam, KaiNoMood and Mgazul",
   "translation-version": "§c§lVersion suportée: §b§lReremake",
   "translation-country": "§c§lLangue: §b§lFrançais (fr_FR)",
-  "language-version": 40,
+  "language-version": 41,
   "not-looking-at-shop": "§cAucun shop trouvé. Tu dois en regarder un.",
-  "no-anythings-in-your-hand": "§cTa main est pleine.",
+  "no-anythings-in-your-hand": "§cTa main est vide.",
   "no-permission": "§cTu n'as pas la permission de faire ça.",
   "no-creative-break": "&cYou cannot break other players shops in the creative mode, switch to survival mode or try to use supertool {0} instead.",
   "no-double-chests": "§cTu ne peux pas casser les shops des autres joueurs en mode créatif. Utilise le mode survie ou le super outil à la place. ({0})",
@@ -70,9 +70,6 @@
   "no-pending-action": "&cYou do not have any pending action",
   "permission-denied-3rd-party": "&cPermission denied: 3rd party plugin [{0}].",
   "menu": {
-    "commands": {
-      "preview": "/qs silentpreview {0} {1} {2} {3}"
-    },
     "successful-purchase": "§aAchat réussi:",
     "successfully-sold": "§aVente réussie:",
     "item-name-and-price": "§e{0} {1} §apour §e{2}",
@@ -188,18 +185,6 @@
     "empty-hover": "&eCliquez pour vide le shop.",
     "remove": "&c&l[Supprimer]",
     "remove-hover": "&eCliquez pour supprimer le shop.",
-    "commands": {
-      "setowner": "/qs setowner [Player]",
-      "unlimited": "/qs silentunlimited {0} {1} {2} {3}",
-      "buy": "/qs silentbuy {0} {1} {2} {3}",
-      "sell": "/qs silentsell {0} {1} {2} {3}",
-      "price": "/qs price [New Price]",
-      "refill": "/qs refill [Amount]",
-      "empty": "/qs silentempty {0} {1} {2} {3}",
-      "remove": "/qs silentremove {0} {1} {2} {3}",
-      "stack": "/qs size [Amount]",
-      "item": "/qs item"
-    },
     "stack": "&aVolume de vente: &b{0} &e[&d&lChanger&e]",
     "stack-hover": "&eCliquer pour changer le volume de vente.",
     "item": "&aObjet: {0} &e[&d&lChanger&e]",

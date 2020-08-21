@@ -26,7 +26,7 @@
 |  EssentialsXChat    |         2.18.0.3      | https://ci.ender.zone/job/EssentialsX/ |
 |  EssentialsXSpawn   |         2.18.0.3      | https://ci.ender.zone/job/EssentialsX/ |
 |  FastLoginBukkit    | 1.11-SNAPSHOT-f40e787 | https://ci.codemc.org/job/Games647/job/FastLogin/ |
-|   HeadDatabase      |         4.12.3        | https://www.spigotmc.org/resources/head-database.14280/ |
+|   HeadDatabase      |         4.12.6        | https://www.spigotmc.org/resources/head-database.14280/ |
 | HolographicDisplays |          2.4.2        | https://dev.bukkit.org/projects/holographic-displays |
 |    IllegalStack     |          2.1.6        | https://www.spigotmc.org/resources/dupe-fixes-illegal-stack-remover.44411/ |
 |     ImageOnMap      |           4.0         | https://www.spigotmc.org/resources/imageonmap.26585/ |
@@ -41,7 +41,7 @@
 |    PlayerWarps      |          6.1.2        | https://www.spigotmc.org/resources/⭐-player-warps-⭐-➢-let-your-players-set-warps-1-8-1-16-1.66692/ |
 |    ProtocolLib      |     4.6.0-SNAPSHOT    | https://ci.dmulloy2.net/job/ProtocolLib/ |
 |       Quests        |          3.9.6        | https://ci.codemc.io/job/PikaMug/job/Quests/ |
-|      QuickShop      |         4.0.3.2       | https://www.spigotmc.org/resources/quickshop-reremake-1-15-ready-bees-bees-bee.62575/ |
+|      QuickShop      |         4.0.4.8       | https://www.spigotmc.org/resources/quickshop-reremake-1-15-ready-bees-bees-bee.62575/ |
 |      Referral       |           1.0         | |
 |     Regionerator    |          2.0.2        | https://www.spigotmc.org/resources/regionerator.12219/ |
 |     SimplePortal    |          1.4.7        | https://www.spigotmc.org/resources/1-16-ready-%E2%8D%9F-simple-portals-%E2%8D%9F-effective-regional-portals-bungeecord-compatible.56772/ |

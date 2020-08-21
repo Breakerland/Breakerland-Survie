@@ -5,7 +5,7 @@
 # Made with love
 
 # DO NOT TOUCH THIS!
-config-version: 64
+config-version: 68
 
 settings:
   # very useful to tell if there are any memory leaks or if the author needs
@@ -60,6 +60,7 @@ settings:
     reset-command: true
     rename-command: true
     setowner-command: true
+    ban-command: true
 
     # Here the sub command syntax's please know that you cannot have spaces in these otherwise you will break everything
     desc-command-name: desc
@@ -77,6 +78,7 @@ settings:
     reset-command-name: reset
     rename-command-name: rename
     setowner-command-name: setowner
+    ban-command-name: setowner
 
   database:
     # Please enter the server name on your bungee network, otherwise the plugin will not be able to redirect you to that server.
@@ -152,6 +154,10 @@ settings:
         vip: 1
         # The rank MVP does not need to pay
         MVP: -1
+      items:
+        material: DIAMOND
+        # set the amount to -1 to disable
+        amount: -1
 
   # The remove section.
   remove:
@@ -190,7 +196,7 @@ settings:
   # The teleport section.
   teleport:
     # Should there be a confirmation before teleporting  to a warp?
-    confirmation: false
+    confirmation: true
     # How many seconds, show the confirmation expire for the warp. This means how many seconds they have to wait
     # to teleport to a warp. Recommended is 3
     confirmation-expire-time: 3
@@ -210,6 +216,8 @@ settings:
     time-expire-unsafe: 5
     # Should the vists only be counted once per player, or be counted every time a player teleports to it.  This is HIGHLY recommended as true so players cannot farm it.
     protect-boost-visits: true
+    # If the option above is false, you can add a cooldown in seconds per player for the visits to go up again. Set to -1 to disable, meaning there wont be a cooldown.
+    visits-cooldown: 60
     # How much time does the player need to stay still, till they get teleported to a warp? Set this to -1 to disable.
     # You can bypass this by giving the permission 'pw.delay.bypass'
     teleport-wait: -1

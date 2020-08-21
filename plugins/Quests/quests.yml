@@ -581,8 +581,8 @@ quests:
       share-progress-level: 1
       require-same-quest: true
   custom29:
-    name: Mais où est GwanForth ?
-    ask-message: '[&2Toryar&r] : Salut ! Je suis à la recherche de GwanForth qui a disparu
+    name: Mais où est Amaxet ?
+    ask-message: '[&2Toryar&r] : Salut ! Je suis à la recherche d''Amaxet qui a disparu
       après être tombé malade ! Pourrais-tu enquêter pour moi ?'
     finish-message: '[&2Toryar&r] : Merci, ça faisait si longtemps qu''on ne l''avais
       pas vu ! Je le pensais mort !'
@@ -598,10 +598,8 @@ quests:
           - 64
           - 59
           - 7
-          - 84
           - 58
           - 8
-          - 74
           - 11
           - 81
           - 89
@@ -610,7 +608,7 @@ quests:
           - 83
         '2':
           npc-ids-to-talk-to:
-          - 59
+          - 85
     rewards:
       items:
       - ==: org.bukkit.inventory.ItemStack
@@ -619,10 +617,10 @@ quests:
         meta:
           ==: ItemMeta
           meta-type: SKULL
-          display-name: §eTête de GwanForth
+          display-name: §eTête d'Amaxet
           Damage: 3
           internal: H4sIAAAAAAAAAE2SyZKjVhBF6Q7bUV3hz/BOUSEek2DhBUJiEoMYH7Bj5jFKAgTim/ojrdp5kZubeW7ejMhPDPvE/naauW2vj6FAbf6B/VQy7B86zdJDjHNfAC/AF5Uz4CtOqMMXoAFgmCyjaZb+xD7f0C1/TCgff2EfU75O8yMfPzEM+/GB/XJQ2cffys/fN0W7XonjxR4uqKgpK70bD3sW/NOpPgAc0ZY9edyeL6FjzprimnELFV3ZV/6po3zfdmcmjFShKGJZs1pceepIpUeQrI81H4tdKYqGSvqFoTlg31anu+PO1ivjsnv/rAZWdUbJfozTLhD5Vd0TF6pngvOLbZiGQGzFUvJKDU/RG7NtGNW4lOBeMEKWppwmEY2cTJJkFM98a18gcV2LMuvPNd3HzcJJZXsijh3DH7bdi8hsGOFP4UqHK8EbtrRjdkJtuGZJM/IcHW6jBLW0uFLzFHFXmowblX/YwbbGHTkgGkylp5aENMHduaFf4sD4/hzRDe8b+75xOzJVcb5lMxjcKJWn4p6Ul/hy2qcXdYKm3zyL+JHVSG4XIUPX07MT7GVX+S1NWODUFkbwPDLDPUbbnqPGXVjq3HOZCknfes3EB3+31clhWnC5qQ9RNVOm6K8vK54XxcE55r52NytmC9NCkXe8H/mCyWHSVTf4SurZlY3qYDsepZrmcLkoeg0ZhyXLlSNNzQOqv6NjxJpXOQRRby6OVdwDIU0FHR5x58rPyU7t6npQD7WViUoNTW6zi8wM5wIxLGyULr6yCww1yhuGesnpdH8nFLSzQJVYp/1m2YIjnQCYTilJpyzhbEjTBmqy4P4yrXwiomW9G1oPWGet1qU3SoIjSYDKxXzcvFtAHXBKkjfWgqB2zv9+YH/6cTvnP9z8peIxBG1K2lUS8Misz8DYeFLf+FWvv+s8Kv3xlRDRLZF8NRIURqn9OpJ0MnR5WnePne7arVGLVVhbpO56q+6GRCRZwHBLoKAFpbL6jLp2jDy6SqCHTKQeEyhSUWAhTVC3GGZzGNgg7XwnCkQQB2r7vSeTVRA5C8okn8pk/xUFOjL7EXn4pLpIYd7Z38zy7Tdksr2YiH3+b3ZOYDtH0HiF75/VOrrNBA6PggrP3v7aptOGFLW6qzZG573et6wh4dFh3azmWzfq86pLOq67OhW5Z/D2QeH27p3axngzkXSmjLpCYe1RemegCJ4Jw+VREQAOwz6wP4y4y7G/+C5e8wnD/gM5Sq77hQQAAA==
-          skull-owner: GwanForth
+          skull-owner: Amaxet
       quest-points: 2
       exp: 500
     options:

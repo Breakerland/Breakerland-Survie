@@ -1,6 +1,6 @@
 # 
 # whether to use decimal format output.
-config-version: 107
+config-version: 111
 language: fr
 dev-mode: false
 tax: 0.0
@@ -58,7 +58,7 @@ shop:
   ignore-unlimited-shop-messages: false
   special-region-only: false
   auto-fetch-shop-messages: true
-  ignore-cancel-chat-event: true
+  ignore-cancel-chat-event: false
   allow-shop-without-space-for-sign: false
   maximum-price: -1
   sign-material: OAK_WALL_SIGN
@@ -107,6 +107,8 @@ shop:
     sneak-to-control: false
     switch-mode: false
   use-enchantment-for-enchanted-book: false
+  protection-checking-blacklist:
+  - disabled_world
 blacklist:
 - Bedrock
 lockette:
@@ -171,6 +173,7 @@ integration:
     - CHEST_ACCESS
     trade: []
     whitelist-mode: true
+    any-owner: true
   plotsquared:
     enable: false
     whitelist-mode: true
@@ -207,6 +210,10 @@ integration:
         own: false
         warzone: false
     whitelist-mode: true
+  lands:
+    enable: true
+    whitelist-mode: false
+    ignore-disabled-worlds: true
 protect:
   explode: true
   hopper: true
@@ -214,3 +221,5 @@ protect:
 respect-item-flag: true
 use-caching: false
 custom-item-stacksize: []
+debug:
+  shop-deletion: false
