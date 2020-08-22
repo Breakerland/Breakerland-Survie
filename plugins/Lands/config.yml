@@ -1164,9 +1164,9 @@ database:
     enabled_20: true
     ip-address: '$mysql_host'
     port: '$mysql_port'
-     username: '$mysql_user_survie'
-     password: '$mysql_password_survie'
-     database: '$mysql_database_survie'
+    username: '$mysql_user_survie'
+    password: '$mysql_password_survie'
+    database: '$mysql_database_survie'
 
     # It is highly recommended to set a table prefix, if you also connect other plugins to this database.
     table-prefix: 'lands_'
