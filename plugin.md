@@ -36,7 +36,6 @@
 |       Marriage      |          2.0.20       | https://www.spigotmc.org/resources/marriage-reloaded-1-15-1-8.18998/ |
 |        MyPet        |  3.11-SNAPSHOT-B1550  | https://mypet-plugin.de/download |
 | MysqlInventoryBridge|          2.3.2        | https://www.spigotmc.org/resources/mysql-inventory-bridge.7849/ |
-|      NuVotifier     |          2.7.1        | https://www.spigotmc.org/resources/nuvotifier.13449/ |
 |    PlaceHolderAPI   |          2.10.6       | https://www.spigotmc.org/resources/placeholderapi.6245/ |
 |    PlayerWarps      |          6.1.2        | https://www.spigotmc.org/resources/⭐-player-warps-⭐-➢-let-your-players-set-warps-1-8-1-16-1.66692/ |
 |    ProtocolLib      |     4.6.0-SNAPSHOT    | https://ci.dmulloy2.net/job/ProtocolLib/ |
