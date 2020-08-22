@@ -3,7 +3,7 @@
 host: 0.0.0.0
 
 # Port to listen for new votes on
-port: 8192
+port: -1
 
 # Setting this option to true will disable handling of Protocol v1 packets. While the old protocol is not secure, this
 # option is currently not recommended as most voting sites only support the old protocol at present. However, if you are
