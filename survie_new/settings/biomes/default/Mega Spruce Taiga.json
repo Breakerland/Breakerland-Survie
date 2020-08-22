@@ -3,7 +3,7 @@
   "rarity": 1.0,
   "biomeType": "GRASSLAND",
   "useDungeons": true,
-  "dungeonChance": 15,
+  "dungeonChance": 12,
   "useMineShafts": true,
   "useStrongholds": true,
   "useVillages": true,

@@ -3,7 +3,7 @@
   "rarity": 1.0,
   "biomeType": "FOREST",
   "useDungeons": true,
-  "dungeonChance": 10,
+  "dungeonChance": 8,
   "useMineShafts": true,
   "useStrongholds": true,
   "useVillages": true,
