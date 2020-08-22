@@ -71,7 +71,7 @@ VoteReminding:
   # Can add titles and more in the reward file
   Rewards:
     Messages:
-      Player: '&aRemember to vote!'
+      Player: '&aTu as des votes de disponible, profites en !'
     Title:
       Enabled: false
       Title: '&cRemember to vote!'
@@ -80,7 +80,8 @@ VoteReminding:
       ShowTime: 50
       FadeOut: 10
     ActionBar:
-      Message: '&cRemember to vote'
+      Enabled: false
+      Message: ''
       Delay: 30
     
 # ------------------------------------------------
@@ -108,7 +109,7 @@ Commands:
     Streak: true
   # If true, you can right click a votesite from /vote (gui version) and open the vote reward gui for that site
   # Can be used to display rewards for that site
-  VoteRewardFromVoteURL: false
+  VoteRewardFromVoteURL: true
   # disable /vote reward commands
   # Effective after restart
   DisableVoteRewardGUIs: false
@@ -128,7 +129,7 @@ Format:
     # Format for /vote
     # %num% = the number of the site, for a numbered list
     # %url% = site URL
-    Vote: 
+    Vote:
       Text:
       - '&6&lVote for our server!'
       
@@ -147,7 +148,7 @@ Format:
       # Format for /vote next
       Next: 
         # First line
-        Title: '&3&l%player% Next Votes:'
+        Title: '&3&l%player% Prochains votes:'
         
         # How each line is setup for each vote site
         # %info% = Info - See Below 
@@ -156,15 +157,15 @@ Format:
         
         Info:
           # Message when player can vote
-          CanVote: 'Go Vote!'
+          CanVote: 'Disponible!'
           # Time until vote msg
           # %hours% = hours until next vote
           # %minutes% = minutes until next vote
-          TimeUntilVote: '%hours% Hours and %minutes% Minutes'
+          TimeUntilVote: '%hours% heures et %minutes% minutes'
           # If there is an error finding out time until next vote
           Error: '&cCould not caculate time until next vote!'
           # For sites that have this, requires votedelaydaily to be set to true in the site
-          VoteDelayDaily: '%hours% Hours and %minutes% Minutes'
+          VoteDelayDaily: '%hours% heures et %minutes% minutes'
           
        # Format for /vote last
       Last:
@@ -176,25 +177,25 @@ Format:
         Line: '&3%SiteName%: &6%timeSince%'
         # Spelling of TimeType can be changed under Format.Commands.TimeFormats
         TimeFormat: '%amount% %TimeType%'
-        LastVoted: '%times% ago'
-        NeverVoted: 'Never voted'
-        
+        LastVoted: 'Il y a %times%'
+        NeverVoted: 'Jamais'
+
       # Format for /vote total
       Total:
-      - '&3&l%player% Total Votes:'
-      - '&3&lDaily Total: &6&l%DailyTotal%'
-      - '&3&lWeekly Total: &6&l%WeeklyTotal%'
-      - '&3&lMonthly Total: &6&l%MonthlyTotal%'
-      - '&3&lAllTime Total: &6&l%AllTimeTotal%'
-        
+      - '&3&l%player% Total de votes:'
+      - '&3&lTotal quotidien: &6&l%DailyTotal%'
+      - '&3&lTotal hebdomadaire: &6&l%WeeklyTotal%'
+      - '&3&lTotal mensuel: &6&l%MonthlyTotal%'
+      - '&3&lTotal: &6&l%AllTimeTotal%'
+
       # Format for /vote total all  
       TotalAll:
-      - '&3&lServer Total Votes:'
-      - '&3&lDaily Total: &6&l%DailyTotal%'
-      - '&3&lWeekly Total: &6&l%WeeklyTotal%'
-      - '&3&lMonthly Total: &6&l%MonthlyTotal%'
-      - '&3&lAllTime Total: &6&l%AllTimeTotal%'
-        
+      - '&3&lTotal de votes du serveur:'
+      - '&3&lTotal quotidien: &6&l%DailyTotal%'
+      - '&3&lTotal hebdomadaire: &6&l%WeeklyTotal%'
+      - '&3&lTotal mensuel: &6&l%MonthlyTotal%'
+      - '&3&lTotal: &6&l%AllTimeTotal%'
+
       # Format for /vote top
       Top:
         # First line
@@ -204,7 +205,7 @@ Format:
         Title: '&3Top %Top% Voters %page%/%maxpages%'
         # Line for each player in that page
         Line: '&c%num%: &6%player%, %votes%'
-        
+
       # Format for /vote help
       Help:
         # Title of /vote help
@@ -213,14 +214,14 @@ Format:
         Line: '&3&l%Command% - &3%HelpMessage%'
         # Require permission to see command in /v help or /av help
         RequirePermission: true
-        
+
       Best:
         Title: '&3&l%player% Best Votes'
         Lines:
         - '&3Highest Daily Total: &3&l%HighestDailyTotal%'
         - '&3Highest Week Total: &3&l%HighestWeeklyTotal%'
         - '&3Highest Month Total: &3&l%HighestMonthlyTotal%'
-        
+
       Streak:
         Title: '&3&l%player% Vote Streak'
         Lines:
@@ -231,41 +232,41 @@ Format:
         - '&3Highest Daily Streak: &3&l%BestDailyStreak%'
         - '&3Highest Week Streak: &3&l%BestWeeklyStreak%'
         - '&3Highest Month Streak: &3&l%BestMonthlyStreak%'
-        
+
       Today:
         Line: '&6%player% : %VoteSite% : %Time%'
-        
+
       # PlaceHolders:
       # %VotesRequired% = VotesRequired
       # %NeededVotes% = Number of votes needed to reach VotesRequired
       # %Votes% = Number of votes
       Party:
       - '&cCurrently at &6%Votes%&c, &6%NeededVotes% &cmore votes to go to reach &6%VotesRequired%'
-      
+
       # %Points% = player points
       Points: '&a%Player% currently has &a&l%Points%&a Points!'
-      
+
       ToggleBroadcasts:
         Enabled: '&cYou will now see vote broadcasts'
         Disabled: '&cYou will no longer see vote broadcasts'
-  
+
   # Msg on top voter award, will only send message if that place has a reward set
   # %place% = place - 1,2,3,etc
   TopVoterAwardMsg: '&aYou came in %place% in top voters of the month! Here is an award!'
-  
+
   # Time Format
   # See https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html
   TimeFormat: 'EEE, d MMM yyyy HH:mm'
-  
+
   TimeFormats:
-    Day: 'Day'
-    Days: 'Days'
-    Hour: 'Hour'
-    Hours: 'Hours'
-    Minute: 'Minute'
-    Minutes: 'Minutes'
-    Second: 'Second'
-    Seconds: 'Seconds'
+    Day: 'jour'
+    Days: 'jours'
+    Hour: 'heure'
+    Hours: 'heures'
+    Minute: 'minute'
+    Minutes: 'minutes'
+    Second: 'seconde'
+    Seconds: 'secondes'
   
   # Format for signs
   # SiteName may be all, depending on sign
@@ -297,22 +298,22 @@ Format:
   PrevItem:
     Material: 'BLACK_STAINED_GLASS_PANE'
     Amount: 1
-    Name: '&aPrevious Page'
+    Name: '&aPage précédente'
     
   NextItem:
     Material: 'BLACK_STAINED_GLASS_PANE'
     Amount: 1
-    Name: '&aNext Page'
+    Name: '&aPage suivante'
   
   InvFull: '&cInventory full, dropping items on ground'
   
   # Display text
   # Used in /vote top (GUI)
   TopVoter:
-    Daily: 'Daily'
-    Weekly: 'Weekly'
-    Monthly: 'Monthly'
-    AllTime: 'AllTime'
+    Daily: 'quotidien'
+    Weekly: 'hebdomadaire'
+    Monthly: 'mensuel'
+    AllTime: 'général'
 
 # ------------------------------------------------
 # GUI Options
@@ -337,7 +338,7 @@ GUI:
         Amount: 1
         Name: '&4URL'
         Lore:
-        - '&aClick me for links'
+        - '&aClique pour voter'
         # You can set skulls of the player using the following
         # Remove the # to enable
         #Skull: '%Player%'
@@ -376,7 +377,7 @@ GUI:
         Material: 'DIAMOND'
         Data: 0
         Amount: 1
-        Name: '&4Vote Shop'
+        Name: '&4Boutique de vote'
         Lore:
         - '&aYou currently have %points% points'
       
@@ -384,39 +385,40 @@ GUI:
   # And /vote if enabled in Config.yml
   VoteURL:
     # GUI Name
-    Name: '&cVoteURL'
+    Name: '&cSites de vote'
     BackButton: true
     SiteName: '&c%Name%'
-    SeeURL: '&cClick to see URL'
-    NextVote: '&cCan Vote In: %Info%'
+    SeeURL: '&cClique pour afficher le lien'
+    NextVote: '&cProchain vote dans: %Info%'
     ViewAllUrlsButtonEnabled: true
     AllUrlsButton:
       RequireAllSitesVoted: true
       AlreadyVotedItem:
-        Material: 'REDSTONE_BLOCK'
+        Material: 'RED_CONCRETE'
         Data: 0 
         Amount: 1
         Name: '&4All Voting Sites'
         Lore:
-        - '&cClick Me'
+        - '&cVous avez déjà voté'
+        - '&cClique pour voter'
       CanVoteItem:
-        Material: 'EMERALD_BLOCK'
+        Material: 'LIME_CONCRETE'
         Data: 0
         Amount: 1
         Name: '&4All Voting Sites'
         Lore:
-        - '&cClick Me'
+        - '&8Clique pour voter'
     AlreadyVotedItem:
-      Material: 'REDSTONE_BLOCK'
+      Material: 'RED_CONCRETE'
       Data: 0 
       Amount: 1
     CanVoteItem:
-      Material: 'EMERALD_BLOCK'
+      Material: 'LIME_CONCRETE'
       Data: 0
       Amount: 1
     URLText: '%VoteUrl%'
     
-  VoteRewardBackButton: false
+  VoteRewardBackButton: true
   # Customize /vote reward
   # Show players what you get when you vote on each site
   VoteReward:

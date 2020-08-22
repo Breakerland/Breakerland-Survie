@@ -142,6 +142,8 @@ survivant:
   # UltimateStacker
     ultimatestacker.egg.*: true
     ultimatestacker.spawner.silktouch: true
+  # VotingPlugin
+    votingplugin.player: true
 
 aventurier:
   default: false
