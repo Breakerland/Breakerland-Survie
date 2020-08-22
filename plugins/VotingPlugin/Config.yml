@@ -384,8 +384,7 @@ GUI:
   # GUI for /vote url
   # And /vote if enabled in Config.yml
   VoteURL:
-    # GUI Name
-    Name: '&cSites de vote'
+    Name: '&e&lSites de vote'
     BackButton: true
     SiteName: '&c%Name%'
     SeeURL: '&cClique pour afficher le lien'
@@ -988,24 +987,14 @@ ExtraBackgroundUpdate: false
 # --------------------------
 
 # Plugin using bungee, requires plugin on bungee server
-UseBungeecoord: false
+UseBungeecoord: true
 
 # Get the plugin to broadcast to all servers
-BungeeBroadcast: false
+BungeeBroadcast: true
 
 # What server this is in bungee (must match)
 # Also can be applied to rewards
-Server: PleaseSet
-
-# Bungee communication, add bungee host/port here
-BungeeServer:
-  Host: '127.0.0.1'
-  Port: 1297
-  
-# Bungee communication, add this to bungee server
-SpigotServer:
-  Host: '127.0.0.1'
-  Port: 1298
+Server: $server_name
 
 # Enables more debug messages for communication between servers
 # Use /votingpluginbungee status for testing communication
