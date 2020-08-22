@@ -26,7 +26,7 @@ MySQL:
   # Affecting this value may affect performance
   MaxSize: -1
   # Table name prefix, for use with mutliple servers
-  Prefix: ''
+  Prefix: 'vote_'
   #UseSSL: true
 
 # Let players who never joined before vote
@@ -280,33 +280,33 @@ Format:
       Line4: '%votes% Votes'
     # Message when right clicking sign, uses same placeholders as above
     RightClickMessage: '&c&l%player% &cis &c&l%position% &cwith &c&l%votes% &cvotes in &c&l%SiteName%'
-      
+
   # Message when player tries to run command without required permissions
   NoPerms: '&cYou do not have enough permission!'
-  
+
   # Message when player types a command but does not input a number where needed
   NotNumber: '&cError on &6%arg%&c, number expected!'
-  
+
   # Shop messages when using the /vote shop
   ShopPurchase: '&aYou bought the %Identifier% for %Points% Points!'
   ShopFailed: '&cYou do not have %Points% points to purchase this!'
-  
+
   # User not exist message, from commands such as /vote next (player)
   UserNotExist: '&cUser does not exist: %player%'
-  
+
   # Prev/Next page tems in GUIs
   PrevItem:
-    Material: 'BLACK_STAINED_GLASS_PANE'
+    Material: 'BARRIER'
     Amount: 1
-    Name: '&aPage précédente'
-    
+    Name: '&ePage précédente'
+
   NextItem:
-    Material: 'BLACK_STAINED_GLASS_PANE'
+    Material: 'ARROW'
     Amount: 1
-    Name: '&aPage suivante'
-  
-  InvFull: '&cInventory full, dropping items on ground'
-  
+    Name: '&ePage suivante'
+
+  InvFull: '&cVotre inventaire est plein. Vos objets ont été déposé au sol.'
+
   # Display text
   # Used in /vote top (GUI)
   TopVoter:
@@ -318,11 +318,11 @@ Format:
 # ------------------------------------------------
 # GUI Options
 # ------------------------------------------------
-  
+
 # Enable command for last month gui
 # Requires restart to take effect
 LastMonthGUI: false
-  
+
 # Configure GUI's here
 # Note: Slots start at 0 instead of 1, max slot is 53 (don't go over) (E.g: last slot in first row of inventory is 8)
 # Item Material's can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
@@ -344,10 +344,10 @@ GUI:
         #Skull: '%Player%'
     Next:
       Item:
-        Material: 'COMPASS'
+        Material: 'ARROW'
         Data: 0
         Amount: 1
-        Name: '&4Next'
+        Name: '&ePage suivante'
     Last:
       Item:
         Material: 'CLOCK'
@@ -389,7 +389,7 @@ GUI:
     SiteName: '&c%Name%'
     SeeURL: '&cClique pour afficher le lien'
     NextVote: '&cProchain vote dans: %Info%'
-    ViewAllUrlsButtonEnabled: true
+    ViewAllUrlsButtonEnabled: false
     AllUrlsButton:
       RequireAllSitesVoted: true
       AlreadyVotedItem:
@@ -615,11 +615,11 @@ Shop:
         Diamond:
           Material: 'DIAMOND'
           Amount: 1     
-     
+
 # ------------------------------------------------
 # Extra Rewards
 # ------------------------------------------------
-    
+
 # To disable reward set value to []
 # Eg:
 # FirstVote: [] (All in one line)
@@ -685,10 +685,10 @@ VoteParty:
       DIAMOND:
         Material: 'DIAMOND'
         Amount: 1
-  
+
 # Reset milestones at end of the month
 ResetMilestonesMonthly: false
-  
+
 MileStones:
   # Number of votes required
   # Allows multiple milestones
@@ -699,7 +699,7 @@ MileStones:
     Rewards: 
       Messages:
         Player: '&aYou got %milestone% milestone votes!'
-   
+
 VoteStreak:
   # Valid options: Day, Week, Month
   Day:
@@ -741,11 +741,10 @@ VoteStreak:
     Day: 50
     Week: 50
     Month: 50
-    
+
 # Reward given when vote cooldown ended
 VoteCoolDownEndedReward: []
-          
-  
+
 # ONLY USE THIS FOR TITLES/SOUNDS AND OTHER EFFECTS
 # IT WILL ONLY RUN ONE TIME FOR ANY NUMBER OF OFFLINE VOTES (3 offline votes = 1 AnySiteReward)
 # Any reward files listed here are ran on vote of any site
@@ -754,15 +753,13 @@ VoteCoolDownEndedReward: []
 # Use EverySiteReward in VoteSites.yml for a global reward for each site
 AnySiteRewards: []
 
-
 # ------------------------------------------------
 # Top Voter
 # ------------------------------------------------
 
 # Top voter blacklist
 # Hide these names from top voter lists
-BlackList:
-- 'Notch'
+BlackList: []
 
 # If true players with the permission 'VotingPlugin.TopVoter.Ignore' will act 
 # as if there name was added on the the blacklist above
@@ -778,7 +775,7 @@ TopVoterAwardsTies: true
 
 # These are required to be enabled in order for top voter awards to work
 LoadTopVoter:
-  AllTime: true
+  AllTime: false
   Monthly: true
   Weekly: false
   Daily: false
@@ -890,12 +887,12 @@ LogVotesToFile: false
 AlwaysUpdate: false
 
 # Update in the background only if players are online
-UpdateWithPlayersOnlineOnly: false
+UpdateWithPlayersOnlineOnly: true
 
 # Delay between background updates like signs and more
 # Default: 3 Minutes
 # Longer times result in longer wait in stuff updating after a vote, like topvoter
-DelayBetweenUpdates: 3
+DelayBetweenUpdates: 5
 
 # Set to true to disable no service site message on voting
 # You should never have to touch this if everything is setup properly
@@ -1019,27 +1016,4 @@ ClearCacheOnJoin: false
 ClearCacheOnVote: false
 
 # Clear cache when player leaves
-ClearCacheOnLeave: false
-
-# ###############################################################
-# Deprecated options, don't recommend using any of these
-
-# Will force GUI's to close on every click
-AlwaysCloseInventory: false
-
-# Options for request api
-# Current methods:
-# ANVIL
-# BOOK
-# CHAT
-# This is mainly used for admin gui's to type in values
-RequestAPI:
-  DefaultMethod: 'Anvil'
-  DisabledMethods: []
-
-# Shouldn't need to change this
-#AutoKillInvs: true
-
-# Disable checking on world change
-# May improve performance
-#DisableCheckOnWorldChange: false
+ClearCacheOnLeave: true
