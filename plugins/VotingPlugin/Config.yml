@@ -14,12 +14,11 @@ DataStorage: MYSQL
 # Information for mysql
 # See the end of the config for cache options
 MySQL:
-  Host: '%mysql_host'
-  # Default port is 3306
-  Port: %mysql_port
-  Database: '%mysql_database_proxy'
-  Username: '%mysql_user_proxy'
-  Password: '%mysql_password_proxy'
+  Host: '$mysql_host'
+  Port: $mysql_port
+  Database: '$mysql_database_proxy'
+  Username: '$mysql_user_proxy'
+  Password: '$mysql_password_proxy'
   # Max number of connections
   MaxConnections: 1
   # Maxium size of caching mysql
