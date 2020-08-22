@@ -1,21 +1,68 @@
 VoteSites:
-  # VoteSite key
-  # Used for saving data for votesites
-  # Use a short name if you can
+  # liste-serveur.fr
+  liste-serveur:
+    Enabled: true
+    Name: 'Liste-serveur.fr'
+    ServiceSite: 'liste-serveur.fr'
+    VoteURL: 'https://www.liste-serveur.fr/serveurs/minecraft/breakerland-9580/voter'
+    VoteDelay: 3
+    Item:
+      Material: 'WHITE_CONCRETE'
+      Amount: 1
+  # minecraft-top.com
+  minecraft-top:
+    Enabled: true
+    Name: 'Minecraft-top.com'
+    ServiceSite: 'minecraft-top.com'
+    VoteURL: 'https://minecraft-top.com/vote/73'
+    VoteDelayMin: 90
+    Item:
+      Material: 'ORANGE_CONCRETE'
+      Amount: 1
+  # liste-serv-minecraft.fr
+  liste-serv-minecraft:
+    Enabled: true
+    Name: 'Liste-serv-minecraft.fr'
+    ServiceSite: 'liste-serv-minecraft.fr'
+    VoteURL: 'https://liste-serv-minecraft.fr/serveur.php?id=313'
+    VoteDelay: 3
+    Item:
+      Material: 'MAGENTA_CONCRETE'
+      Amount: 1
+  # liste-serveurs-minecraft.org
+  liste-serveurs-minecraft:
+    Enabled: true
+    Name: 'Liste-serveurs-minecraft.org'
+    ServiceSite: 'liste-serveurs-minecraft.org'
+    VoteURL: 'https://www.liste-serveurs-minecraft.org/serveur-minecraft/serveur-minecraft-breakerland/'
+    VoteDelay: 3
+    Item:
+      Material: 'LIGHT_BLUE_CONCRETE'
+      Amount: 1
+  # minecraft-serveur.fr
+  minecraft-serveur:
+    Enabled: true
+    Name: 'Minecraft-serveur.fr'
+    ServiceSite: 'minecraft-serveur.fr'
+    VoteURL: 'https://minecraft-serveur.fr/server-breakerland.1362'
+    VoteDelay: 3
+    Item:
+      Material: 'YELLOW_CONCRETE'
+      Amount: 1
   liste-serveurs:
     # Enable voteSite
     # If false, votesite will not be loaded by plugin
     # Default: false
     Enabled: true
-    
+
     # Display name of voting site
     Name: 'Liste-serveurs.fr'
-          
+
     # Priority of this site
     # Used for sorted list
     # High prority, higher on the list
     Priority: 0
-          
+
     # The serviceName from the vote, has to be correct to work correctly
     # Gotten from voting on the site (will be in console/log)
     # Usually is the main part of the url(e.g. PlanetMinecraft.com), but not always
@@ -32,19 +79,19 @@ VoteSites:
     # Time between votes in hours (used for /vote next)
     # Most sites are 24 hours
     VoteDelay: 3
-    
+
     # Require waiting until votedelay time has pasted in order to accept vote
     # Recommend: false
     WaitUntilVoteDelay: false
-    
+
     # Reset vote delay each day (for certain sites that do this)
     # Recommend: false
     VoteDelayDaily: false
-    
+
     # VoteSite Material for some GUI's
     # Removing this may result in an error, required on each site
     Item:
-      Material: 'DIAMOND'
+      Material: 'LIME_CONCRETE'
       Amount: 1
   # Serveur-prive.net
   serveur-prive:
@@ -54,17 +101,7 @@ VoteSites:
     VoteURL: 'https://serveur-prive.net/minecraft/breakerland-1868'
     VoteDelay: 24
     Item:
-      Material: 'DIAMOND'
-      Amount: 1
-  # minecraft-serveur.fr
-  minecraft-serveur:
-    Enabled: true
-    Name: 'Minecraft-serveur.fr'
-    ServiceSite: 'minecraft-serveur.fr'
-    VoteURL: 'https://minecraft-serveur.fr/server-breakerland.1362'
-    VoteDelay: 3
-    Item:
-      Material: 'DIAMOND'
+      Material: 'PINK_CONCRETE'
       Amount: 1
   # serveursminecraft.org
   serveursminecraft:
@@ -74,37 +111,7 @@ VoteSites:
     VoteURL: 'https://www.serveursminecraft.org/serveur/3458/'
     VoteDelay: 24
     Item:
-      Material: 'DIAMOND'
-      Amount: 1
-  # liste-serv-minecraft.fr
-  liste-serv-minecraft:
-    Enabled: true
-    Name: 'Liste-serv-minecraft.fr'
-    ServiceSite: 'liste-serv-minecraft.fr'
-    VoteURL: 'https://liste-serv-minecraft.fr/serveur.php?id=313'
-    VoteDelay: 3
-    Item:
-      Material: 'DIAMOND'
-      Amount: 1
-  # liste-serveurs-minecraft.org
-  liste-serveurs-minecraft:
-    Enabled: true
-    Name: 'Liste-serveurs-minecraft.org'
-    ServiceSite: 'liste-serveurs-minecraft.org'
-    VoteURL: 'https://www.liste-serveurs-minecraft.org/serveur-minecraft/serveur-minecraft-breakerland/'
-    VoteDelay: 3
-    Item:
-      Material: 'DIAMOND'
-      Amount: 1
-  # minecraft-top.com
-  minecraft-top:
-    Enabled: true
-    Name: 'Minecraft-top.com'
-    ServiceSite: 'minecraft-top.com'
-    VoteURL: 'https://minecraft-top.com/vote/73'
-    VoteDelayMin: 90
-    Item:
-      Material: 'DIAMOND'
+      Material: 'GRAY_CONCRETE'
       Amount: 1
   # serveur-minecraft.fr
   serveur-minecraft:
@@ -114,7 +121,7 @@ VoteSites:
     VoteURL: 'https://serveur-minecraft.fr/server-breakerland.97'
     VoteDelay: 24
     Item:
-      Material: 'DIAMOND'
+      Material: 'LIGHT_GRAY_CONCRETE'
       Amount: 1
   # rpg-paradize.com
   rpg-paradize:
@@ -124,17 +131,7 @@ VoteSites:
     VoteURL: 'https://www.rpg-paradize.com/?page=vote&vote=112416'
     VoteDelay: 24
     Item:
-      Material: 'DIAMOND'
-      Amount: 1
-  # liste-serveur.fr
-  liste-serveur:
-    Enabled: true
-    Name: 'Liste-serveur.fr'
-    ServiceSite: 'liste-serveur.fr'
-    VoteURL: 'https://www.liste-serveur.fr/serveurs/minecraft/breakerland-9580/voter'
-    VoteDelay: 3
-    Item:
-      Material: 'DIAMOND'
+      Material: 'CYAN_CONCRETE'
       Amount: 1
   # bedrock.serveurs-minecraft.org
   bedrock.serveurs-minecraft:
@@ -144,7 +141,7 @@ VoteSites:
     VoteURL: 'https://bedrock.serveurs-minecraft.org/vote.php?id=30'
     VoteDelay: 24
     Item:
-      Material: 'DIAMOND'
+      Material: 'PURPLE_CONCRETE'
       Amount: 1
   # serveurs-minecraft.org
   serveurs-minecraft:
@@ -154,7 +151,7 @@ VoteSites:
     VoteURL: 'https://www.serveurs-minecraft.org/vote.php?id=57264'
     VoteDelay: 24
     Item:
-      Material: 'DIAMOND'
+      Material: 'BLUE_CONCRETE'
       Amount: 1
   # topg.org
   topg:
@@ -164,7 +161,7 @@ VoteSites:
     VoteURL: 'https://topg.org/fr/Minecraft/server-520668'
     VoteDelay: 24
     Item:
-      Material: 'DIAMOND'
+      Material: 'BROWN_CONCRETE'
       Amount: 1
   # liste-minecraft-serveurs.com
   liste-minecraft-serveurs:
@@ -174,7 +171,7 @@ VoteSites:
     VoteURL: 'https://www.liste-minecraft-serveurs.com/Serveur/288'
     VoteDelay: 24
     Item:
-      Material: 'DIAMOND'
+      Material: 'GREEN_CONCRETE'
       Amount: 1
     
 # Reward for any site
