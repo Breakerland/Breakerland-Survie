@@ -16,45 +16,22 @@
 # at the basic example, you can simply copy and paste from here what you want
 # in other reward files, that is the way they are designed
 
-# Chance out of 100
-# Set to 0 or 100 for always, or delete this line to disable chance
-# Will not give any rewards unless chance is lucky or disabled
-Chance: 2
-  
-# Will give one command from the list
-RandomCommand: []
-
-# Will give one reward from the list of rewards
-RandomReward: []
-
-# Give one of the following items
-RandomItem:
-  Diamond:
-    Material: DIAMOND
-    Amount: 1
-  Iron:
-    Material: IRON_INGOT
-    Amount: 10
-  
 # Advanced example
 # 50% chance for reward1, if reward1 not given then 20% chance to get reward2, if reward2 not given then fallback
-AdvancedPriority:
-  # Similar to priority, but no need to have to use reward files
-  # Add requirements under each reward
-  # Will go in order from list here and try to run each of the following rewards...
-  # This name can be anything, but they need to be different
-  Reward1:
-    Chance: 50
-    # Any other requirement here
-    # If any requirement fails, the next will be attempted
+Priority:
+- clay
+
+SpecialChance:
+  10:
+    Material: 'DIAMOND'
     Messages:
-      Player: 'You got first reward'
-  Reward2:
-    Chance: 20
+      Player: '&8Hmmm... un peu d''argile ça peut toujours servir!'
+  5:
+    MinEXP: 1000
+    MaxEXP: 5000
     Messages:
-      Player: 'You got second reward'
-  # Fallback, 100% chance
-  Fallback:
+      Player: '&8Bien ouej ma couille, tu gagnes &6&l%exp% &8d''expérience !'
+  2:
     Messages:
       Player: 'You got unlucky'
     
