@@ -71,18 +71,11 @@ VoteReminding:
   # Can add titles and more in the reward file
   Rewards:
     Messages:
-      Player: '&aTu as des votes de disponible, profites en !'
+      Player: '&aTu as des votes de disponible, profites-en!'
     Title:
       Enabled: false
-      Title: '&cRemember to vote!'
-      SubTitle: '&aType /vote'
-      FadeIn: 10
-      ShowTime: 50
-      FadeOut: 10
     ActionBar:
       Enabled: false
-      Message: ''
-      Delay: 30
     
 # ------------------------------------------------
 # Format
@@ -99,14 +92,14 @@ VoteReminding:
 Commands:
   # Whether or not the following commands will open GUIs rather than display text
   UseGUI:
-    Today: true
+    Today: false
     TopVoter: false
-    Last: true
+    Last: false
     Next: true
     Total: true
     Vote: true
     Best: true
-    Streak: true
+    Streak: false
   # If true, you can right click a votesite from /vote (gui version) and open the vote reward gui for that site
   # Can be used to display rewards for that site
   VoteRewardFromVoteURL: true
@@ -116,15 +109,15 @@ Commands:
 
 Format:
   # CommandHandler help message
-  HelpLine: '&3&l%Command% - &3%HelpMessage%'
+  HelpLine: '&7%Command% - &8%HelpMessage%'
 
   # Broadcast vote message
   # Set to an empty message to disable
-  BroadcastMsg: '&6[&4Broadcast&6] &2Thanks &c%player% &2for voting on %SiteName%'
-  
+  BroadcastMsg: ''
+
   # Broadcast only when player is online
   BroadcastWhenOnline: false
-  
+
   Commands:
     # Format for /vote
     # %num% = the number of the site, for a numbered list
@@ -202,16 +195,17 @@ Format:
         # %page% = current page
         # %maxpages% = max number of pages
         # %Top% = Monthly/Weekly/Daily (depending on command)
-        Title: '&3Top %Top% Voters %page%/%maxpages%'
+        Title: '&7&l&m-------------&7&l[ &6&lTop voteurs &7&l]&m-------------
+        &3Top %Top% Voters %page%/%maxpages%'
         # Line for each player in that page
-        Line: '&c%num%: &6%player%, %votes%'
+        Line: '&6%num%&7. %player% &f[&6&l%votes%&f]'
 
       # Format for /vote help
       Help:
         # Title of /vote help
-        Title: '&3&lVoting Player Help'
+        Title: '&7&l&m---------------&7&l[ &6&lVotes &7&l]&m---------------'
         # Format for help message in /v help
-        Line: '&3&l%Command% - &3%HelpMessage%'
+        Line: '&7%Command% - &8%HelpMessage%'
         # Require permission to see command in /v help or /av help
         RequirePermission: true
 
@@ -244,7 +238,7 @@ Format:
       - '&cCurrently at &6%Votes%&c, &6%NeededVotes% &cmore votes to go to reach &6%VotesRequired%'
 
       # %Points% = player points
-      Points: '&a%Player% currently has &a&l%Points%&a Points!'
+      Points: '&7%Player% possède actuellement &6&l%Points%&7 points de vote!'
 
       ToggleBroadcasts:
         Enabled: '&cYou will now see vote broadcasts'
@@ -256,7 +250,7 @@ Format:
 
   # Time Format
   # See https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html
-  TimeFormat: 'EEE, d MMM yyyy HH:mm'
+  TimeFormat: 'd/MM/yyyy HH:mm'
 
   TimeFormats:
     Day: 'jour'
@@ -282,17 +276,17 @@ Format:
     RightClickMessage: '&c&l%player% &cis &c&l%position% &cwith &c&l%votes% &cvotes in &c&l%SiteName%'
 
   # Message when player tries to run command without required permissions
-  NoPerms: '&cYou do not have enough permission!'
+  NoPerms: '&cVous n''avez pas la permission d''exécuter cette commande!'
 
   # Message when player types a command but does not input a number where needed
   NotNumber: '&cError on &6%arg%&c, number expected!'
 
   # Shop messages when using the /vote shop
-  ShopPurchase: '&aYou bought the %Identifier% for %Points% Points!'
-  ShopFailed: '&cYou do not have %Points% points to purchase this!'
+  ShopPurchase: '&7Tu viens d''acheter &6%Identifier% &7pour &6%Points% &7points de vote!'
+  ShopFailed: '&cTu as besoin de &6%Points% &cpoints de vote pour acheter ceci!'
 
   # User not exist message, from commands such as /vote next (player)
-  UserNotExist: '&cUser does not exist: %player%'
+  UserNotExist: '&cLe joueur %player% n''existe pas.'
 
   # Prev/Next page tems in GUIs
   PrevItem:
@@ -366,7 +360,7 @@ GUI:
         Material: 'OAK_SIGN'
         Data: 0
         Amount: 1
-        Name: '&4Meilleurs voteurs'
+        Name: '&6Meilleurs voteurs'
     Today:
       Item:
         Material: 'BOOK'
@@ -380,7 +374,7 @@ GUI:
         Amount: 1
         Name: '&6Boutique de vote'
         Lore:
-        - '&aYou currently have %points% points'
+        - '&8Vous possédez &6%points% &8points de vote'
       
   # GUI for /vote url
   # And /vote if enabled in Config.yml
@@ -446,24 +440,24 @@ GUI:
           - '&4Line 1'
   VoteLast:
     Name: '&e&lDerniers votes'
-    BackButton: true
+    BackButton: false
   VoteNext:
     Name: '&e&lProchains votes'
-    BackButton: true
+    BackButton: false
   VoteToday:
     Name: '&e&lVotes du jour'
     Line: '&6%VoteSite% : %Time%'
     IconTitle: '%player%'
-    BackButton: true
+    BackButton: false
   VoteTop:
     Name: '&e&lTop voteur'
     BackButton: false
     Item:
-      Name: '&3&l%position%: &3%player%'
-      Lore: '&3&lVotes: &3%votes%'
+      Name: '&6%position%&e. %player%'
+      Lore: '&7Votes: &8%votes%'
     SwitchItem:
-      Name: '&3Switch TopVoter'
-      Lore: '&bCurrently: %Top%'
+      Name: '&eChanger la période du Top'
+      Lore: '&7Actuellement: &8%Top%'
       Material: 'OAK_SIGN'
       Amount: 1
       # 8 Slots over from the bottom left
@@ -477,34 +471,34 @@ GUI:
     PlayerItem:
       Material: 'PAPER'
   VoteTotal:
-    Name: '&e&lVoteTotal: %player%'
+    Name: '&e&lStatistiques de vote'
     BackButton: true
     DayTotal:
       Item:
         Material: 'CLOCK'
-        Name: '&eTotal quotidien'
+        Name: '&eVotes quotidien'
         Lore: '&7Total: &6&l%Total%'
         Amount: 1
     WeekTotal:
       Item:
         Material: 'CLOCK'
-        Name: '&eTotal hebdomadaire'
+        Name: '&eVotes hebdomadaire'
         Lore: '&7Total: &6&l%Total%'
         Amount: 1
     MonthTotal:
       Item:
         Material: 'CLOCK'
-        Name: '&eTotal mensuel'
+        Name: '&eVotes mensuel'
         Lore: '&7Total: &6&l%Total%'
         Amount: 1
     AllTimeTotal:
       Item:
         Material: 'CLOCK'
-        Name: '&eTotal général'
+        Name: '&eVotes général'
         Lore: '&7Total: &6&l%Total%'
         Amount: 1
   VoteBest:
-    Name: '&eMeilleurs voteurs'
+    Name: '&e&lMeilleurs voteurs'
     DayBest:
       Item:
         Material: 'CLOCK'
@@ -564,9 +558,9 @@ GUI:
         Amount: 1
   VoteURLSite:
     Name: 'VoteSite: %site%'
-  VoteGUIName: '&eProfile de vote'
-  VoteRewardName: '&eRécompenses de vote'
-  VoteShopName: '&eBoutique de vote'
+  VoteGUIName: '&e&lProfile de vote'
+  VoteRewardName: '&e&lRécompenses de vote'
+  VoteShopName: '&e&lBoutique de vote'
 
 BackButton:
   Material: 'BOOK'
@@ -576,13 +570,13 @@ BackButton:
   Lore:
   - '&7Cliquez pour revenir à votre profile.'
 
-VoteShopBackButton: true
+VoteShopBackButton: false
 VoteShopEnabled: true
 # Hide items in vote shop which user can not buy
 VoteShopHideLimitedReached: false
 # Requires above to be false
 VoteShopLimitReached: '&cVous avez atteint la limite'
-VoteShopRequireConfirmation: true
+VoteShopRequireConfirmation: false
 Shop:
   # Identifier
   # Used in placeholders for formats
@@ -628,7 +622,7 @@ Shop:
 # Rewards will be given if there is a reward to give
 
 # First vote rewards
-FirstVote: 
+FirstVote:
   Messages:
     Player: '&7Félicitation, tu viens d''effectuer ton premier vote!'
 
@@ -810,11 +804,11 @@ WeeklyAwards:
   1:
     Rewards:
       Messages:
-        Player: '&aYou came in first place in %TopVoter%!'
+        Player: '&8Vous êtes désormais &6&l1er&8 de la liste des Top voteurs %TopVoter%!'
   2:
     Rewards:
       Messages:
-        Player: '&aYou came in second place in %TopVoter%!'
+        Player: '&8Vous êtes désormais &6&l2ème&8 de la liste des Top voteurs %TopVoter%!'
     
 EnableDailyRewards: false
 # Rewards to give on daily top voter
@@ -869,7 +863,7 @@ LimitMonthlyVotes: false
 # NONE
 # INFO
 # EXTRA
-DebugLevel: NONE
+DebugLevel: EXTRA
 
 # Debug info ingame
 # Players with permission "VotingPlugin.Debug"
