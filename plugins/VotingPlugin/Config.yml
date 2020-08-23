@@ -837,7 +837,7 @@ DailyAwards:
 
 # Number of points to give on vote
 # Set to 0 to give no points
-PointsOnVote: 1
+PointsOnVote: 0
 
 # Set this to false to disable the plugin adding totals
 # Not really recommended
@@ -1003,6 +1003,10 @@ BungeeMethod: PLUGINMESSAGING
 
 # Get the plugin to broadcast to all servers
 BungeeBroadcast: true
+
+# What server this is in bungee (must match)
+# Also can be applied to rewards
+Server: $server_name
 
 # Enables more debug messages for communication between servers
 # Use /votingpluginbungee status for testing communication
