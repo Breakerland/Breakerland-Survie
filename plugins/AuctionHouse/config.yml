@@ -1,7 +1,11 @@
 # 
 # AuctionHouse
+config_version: 30
 economy: vault
 announce:
+  discord:
+    listings: false
+    purchases: false
   chat:
     listings: true
     purchases: true
@@ -44,6 +48,8 @@ log:
   purged: true
 disabled-worlds: []
 auction:
+  integerPrice: false
+  showRepairCost: true
   spawnerInfo: true
   action_bar: false
   showSeconds: true
@@ -78,8 +84,11 @@ triggers:
   sign: '[HDV]'
   block_name: Hôtel des Ventes
   entity_name: Hôtel des Ventes
-configVersion: 27
+configVersion: 30
 restricted_items:
+  mcmmo:
+    lore:
+    - mcMMO Ability Tool
   '0':
     item: minecraft:bedrock
   '1':
@@ -89,6 +98,8 @@ restricted_items:
   '3':
     item: minecraft:structure_block
   example:
+    unbreakable: true
+    custom_model_data: 1
     name: \u00a7cVorpal Sword
     item: minecraft:diamond_sword
     lore:
