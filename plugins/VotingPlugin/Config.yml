@@ -407,7 +407,7 @@ GUI:
         Amount: 1
         Name: '&4All Voting Sites'
         Lore:
-        - '&8Clique pour voter'
+        - '&7Clique pour voter'
     AlreadyVotedItem:
       Material: 'RED_CONCRETE'
       Data: 0 
@@ -483,25 +483,25 @@ GUI:
       Item:
         Material: 'CLOCK'
         Name: '&eTotal quotidien'
-        Lore: '&8Total: &6&l%Total%'
+        Lore: '&7Total: &6&l%Total%'
         Amount: 1
     WeekTotal:
       Item:
         Material: 'CLOCK'
         Name: '&eTotal hebdomadaire'
-        Lore: '&8Total: &6&l%Total%'
+        Lore: '&7Total: &6&l%Total%'
         Amount: 1
     MonthTotal:
       Item:
         Material: 'CLOCK'
         Name: '&eTotal mensuel'
-        Lore: '&8Total: &6&l%Total%'
+        Lore: '&7Total: &6&l%Total%'
         Amount: 1
     AllTimeTotal:
       Item:
         Material: 'CLOCK'
         Name: '&eTotal général'
-        Lore: '&8Total: &6&l%Total%'
+        Lore: '&7Total: &6&l%Total%'
         Amount: 1
   VoteBest:
     Name: '&eMeilleurs voteurs'
@@ -509,19 +509,19 @@ GUI:
       Item:
         Material: 'CLOCK'
         Name: '&eMeilleur journalier'
-        Lore: '&8Joueur: &6&l%Best%'
+        Lore: '&7Joueur: &6&l%Best%'
         Amount: 1
     WeekBest:
       Item:
         Material: 'CLOCK'
         Name: '&eMeilleur hebdomadaire'
-        Lore: '&8Joueur: &6&l%Best%'
+        Lore: '&7Joueur: &6&l%Best%'
         Amount: 1
     MonthBest:
       Item:
         Material: 'CLOCK'
         Name: '&eMeilleur mensuel'
-        Lore: '&8Joueur: &6&l%Best%'
+        Lore: '&7Joueur: &6&l%Best%'
         Amount: 1
   VoteStreak:
     Name: 'VoteStreak: %player%'
@@ -574,7 +574,7 @@ BackButton:
   Amount: 1
   Name: '&eProfile'
   Lore:
-  - '&8Cliquez pour revenir à votre profile.'
+  - '&7Cliquez pour revenir à votre profile.'
 
 VoteShopBackButton: true
 VoteShopEnabled: true
@@ -594,8 +594,8 @@ Shop:
     Amount: 1
     Name: '&eFly 1H'
     Lore:
-    - '&8Mode Fly pendant &6&l1h'
-    - '&8Prix: &6&l15 &8points de vote'
+    - '&7Mode Fly pendant &6&l1h'
+    - '&7Prix: &6&l15 &7points de vote'
     Cost: 15
     Rewards:
       Items:
@@ -609,8 +609,8 @@ Shop:
     Amount: 1
     Name: '&e10 Niveaux d''expérience'
     Lore:
-    - '&6&l10 &8niveaux d''expérience'
-    - '&8Prix: &6&l7 &8points de vote'
+    - '&6&l10 &7niveaux d''expérience'
+    - '&7Prix: &6&l7 &7points de vote'
     Cost: 7
     Rewards:
       Items:
@@ -630,13 +630,13 @@ Shop:
 # First vote rewards
 FirstVote: 
   Messages:
-    Player: '&8Félicitation, tu viens d''effectuer ton premier vote!'
+    Player: '&7Félicitation, tu viens d''effectuer ton premier vote!'
 
 # All vote rewards
 # Reward for voting on all sites in one day
 AllSites: 
   Messages:
-    Player: '&8Bravo, tu as voté pour tous les sites possible pour aujourd''hui! Mais attention, tu peux voter sur certains sites toutes les 3h voir toutes les 1h.'
+    Player: '&7Bravo, tu as voté pour tous les sites possible pour aujourd''hui! Mais attention, tu peux voter sur certains sites toutes les 3h voir toutes les 1h.'
 
 Cumulative:
   # Number of votes required
