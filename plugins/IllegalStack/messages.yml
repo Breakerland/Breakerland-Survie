@@ -139,3 +139,12 @@ StaffMsgNoPerm: 'You do not have permission to use that IllegalStack feature, no
   required: ~perm~'
 DestroyedEnchantedItem: 'Destroyed an Illegally Enchanted Item ~item~ ~enchant~.(~lvl)
   found on player: ~player~'
+ShulkerPlace: Removed a shulker box containing illegally stacked, or enchanted items
+  on player ~player~  @
+HeadInsideSolidBlock: Stopped ~player~ 's head from being inside a solid block while
+  in a ~vehicle~ @
+ItemTypeRemoved: 'Found a blacklisted item type: ~item~ in ~player~''s inventory,
+  it has been removed'
+CustomAttribsRemoved2: Removed ~item~ with Custom Attributes worn by ~name~ (~attributes~)
+GenericItemRemoval: ~item~ removed by protection ~protection~, found on source ~source~
+StaffMsgUnderNether: ~name~ has been killed for flying under the nether floor @
