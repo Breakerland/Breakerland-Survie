@@ -84,7 +84,7 @@ meta-formatting:
     end-spacer: ''
   suffix:
     format:
-    - highest
+    - highest_on_track_special
     duplicates: first-only
     start-spacer: ''
     middle-spacer: ''
