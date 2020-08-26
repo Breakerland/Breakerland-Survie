@@ -4,7 +4,6 @@
 |       Anvil         |       2020-04-08      | https://www.spigotmc.org/resources/anvilgui.77142/ |
 |  ArmorStandTools    |          3.5.1        | https://www.spigotmc.org/resources/armor-stand-tools.2237/ |
 |    AuctionHouse     |          2.1-b6       | https://www.spigotmc.org/resources/auctionhouse.61836/ |
-|        AuthMe       |     5.6.0-SNAPSHOT    | https://ci.codemc.io/job/AuthMe/job/AuthMeReloaded/ |
 |      BreakerAgri    |           1.0         | |
 |  BreakerLandMenu    |           1.1         | |
 | BreakerLandPlugin   |           1.0         | |
@@ -25,7 +24,6 @@
 |    EssentialsX      |         2.18.0.3      | https://ci.ender.zone/job/EssentialsX/ |
 |  EssentialsXChat    |         2.18.0.3      | https://ci.ender.zone/job/EssentialsX/ |
 |  EssentialsXSpawn   |         2.18.0.3      | https://ci.ender.zone/job/EssentialsX/ |
-|  FastLoginBukkit    | 1.11-SNAPSHOT-f40e787 | https://ci.codemc.org/job/Games647/job/FastLogin/ |
 |   HeadDatabase      |         4.12.6        | https://www.spigotmc.org/resources/head-database.14280/ |
 | HolographicDisplays |          2.4.2        | https://dev.bukkit.org/projects/holographic-displays |
 |    IllegalStack     |          2.1.8        | https://www.spigotmc.org/resources/dupe-fixes-illegal-stack-remover.44411/ |
