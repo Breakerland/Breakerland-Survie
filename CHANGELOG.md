@@ -1,5 +1,15 @@
 # Changelog Breakerland
 
+## V6.12.0 - 13 juillet
+
+  - Mise à jour 1.16 Paper-89
+  - Fixe de nombreux crash serveur
+  - Fixe des ecrafts
+  - Ajout d'une routine de regen de l'end (uniquement l'île centrale)
+  - Ajout de la netherite au job mineur
+  - Ajout d'un anti x-ray
+  - Ajout des biomes Snowy Island et Bluelands
+
 ## V6.11.1 - 16 mai
 
  - Integration de Dynmap aux Warps
