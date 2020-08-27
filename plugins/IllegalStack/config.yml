@@ -28,9 +28,11 @@ Exploits:
     RemoveItemsOfType: []
     AllowStack:
     - POTION
-    FixOverstackedItemInstead: false
-    PreventOverStackedItemInHoppers: true
-    RemoveOverstackedItems: true
+	- SPLASH_POTION
+	- LINGERING_POTION
+    FixOverstackedItemInstead: true
+    PreventOverStackedItemInHoppers: false
+    RemoveOverstackedItems: false
     GroupStack: []
     StackWhiteListMode: true
   Looting:
