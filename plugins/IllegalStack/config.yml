@@ -9,7 +9,7 @@ Exploits:
     WatchForAutoFishMod: true
   Other:
     PreventBedrockDestruction: true
-    DisableChestsOnMobs: true
+    DisableChestsOnMobs: false
     PreventHoppersToUnloadedChunks: true
     PreventCommandsInBed: true
     PreventEndPortalDestruction: true
