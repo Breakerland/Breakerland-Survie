@@ -72,7 +72,7 @@ Database:
   UseUUIDSeparators: false
   # Options: auto, online, offline | auto will decide based on the server online mode option.
   # If you are using BungeeCord, set it to whatever you use on your BungeeCord server!!!
-  UUID_Type: online
+  UUID_Type: auto
   # Settings only for MySQL
   SQL:
     Host: "$mysql_host:$mysql_port"
@@ -103,8 +103,8 @@ Database:
     # If you like to change them after the tables have been generated alter the tables manually or delete them (the system then will regenerate them).
     Fields:
       User:
-        Player_ID: rowid
-        Name: user
+        Player_ID: player_id
+        Name: name
         UUID: uuid
       Backpack:
         Owner_ID: owner
