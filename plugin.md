@@ -32,6 +32,7 @@
 |       Lands         |          4.9.1        | https://www.spigotmc.org/resources/lands-minecraft-land-claim-plugin-grief-prevention-protection-gui-management-wars-1-15-support.53313/ |
 |      LuckPerms      |          5.1.26       | https://www.spigotmc.org/resources/luckperms-an-advanced-permissions-plugin.28140/ |
 |       Marriage      |          2.0.20       | https://www.spigotmc.org/resources/marriage-reloaded-1-15-1-8.18998/ |
+|       Minepacks     |          2.3.18       | https://www.spigotmc.org/resources/minepacks-backpack-plugin-mc-1-7-1-16.19286/ |
 |        MyPet        |  3.11-SNAPSHOT-B1550  | https://mypet-plugin.de/download |
 | MysqlInventoryBridge|          2.3.2        | https://www.spigotmc.org/resources/mysql-inventory-bridge.7849/ |
 |    PlaceHolderAPI   |          2.10.6       | https://www.spigotmc.org/resources/placeholderapi.6245/ |
