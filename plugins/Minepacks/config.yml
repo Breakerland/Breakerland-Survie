@@ -95,7 +95,7 @@ Database:
   Tables:
     # Table names
     # Don't change the players table if you have backpacks stored in your database already! Player id's might won't match anymore resulting data inconsistency.
-    User: co_user
+    User: backpack_players
     Backpack: backpacks
     Cooldown: backpack_cooldowns
     # Field settings for the tables
