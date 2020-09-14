@@ -182,11 +182,11 @@ ItemShortcut:
   # Prevents the backpack from being used as a hat
   BlockAsHat: true
   # Opens a container if right clicked while holding the backpack shortcut in the hand. This option will only work on MC 1.13 or newer.
-  OpenContainerOnRightClick: false
+  OpenContainerOnRightClick: true
   # The id of the slot that should be preferred when giving a player the shortcut item
   PreferredSlotId: 35
   # If this option is enabled the player will not be able to move the backpack item within their inventory
-  BlockItemFromMoving: true
+  BlockItemFromMoving: false
 
 Sound:
   # Enables all sound effects
