@@ -48,5 +48,7 @@
 |        Sleep        |           2.0         | https://www.spigotmc.org/resources/sleep.73285/ |
 |        Smelt        |           1.1         | https://www.spigotmc.org/resources/smelt.63890/ |
 |        Vault        |          1.7.2        | https://www.spigotmc.org/resources/vault.34315/ |
+|     ViaBackwards    |          3.2.0        | https://ci.viaversion.com/view/ViaBackwards/job/ViaBackwards/ |
+|      ViaVersion     |          3.2.0        | https://ci.viaversion.com/job/ViaVersion/ |
 |     VotingPlugin    |           5.22        | https://www.spigotmc.org/resources/votingplugin.15358/ |
 |       WorldEdit     |  7.2.0-SNAPSHOT+5093  | https://enginehub.org/worldedit/#downloads |
