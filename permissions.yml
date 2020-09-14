@@ -22,6 +22,8 @@ survivant:
     auctionhouse.use: true
   # AuthMe
     authme.player: true
+  # Minepacks
+    backpack.use: true
   # BreakerLandPlugin
     breakerlandmenu.menu.grades: true
     grade.aventurier: true

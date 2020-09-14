@@ -2239,15 +2239,44 @@ Config:
       skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0
       id: PLAYER_HEAD
       amount: '1'
-      durability: '0'
-      name: '&2&lGlobe de Transformations'
+      name: '&eBackpack'
+      lore:
+      - '&7Size I'
       hide-required-items-flags: true
-      one-time: true
       requires:
       - LEATHER;5
       - STRING;2;&2&lCorde tressée
       - TRIPWIRE_HOOK;2
       - SHULKER_BOX;1
       category: backpack
-      command: luckperms:lp user %player% permission set backpack.use survie
+    backpack_2:
+      skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0
+      id: PLAYER_HEAD
+      amount: '1'
+      name: '&eBackpack'
+      lore:
+      - '&7Size II'
+      hide-required-items-flags: true
+      permission: backpack.use
+      requires:
+      - PLAYER_HEAD;1;&eBackpack;&7Size I
+      - SHULKER_BOX;1
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      category: backpack
+      command: luckperms:lp user %player% permission set backpack.2 $server_name
+    backpack_3:
+      skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0
+      id: PLAYER_HEAD
+      amount: '1'
+      name: '&eBackpack'
+      lore:
+      - '&7Size III'
+      hide-required-items-flags: true
+      permission: backpack.2
+      requires:
+      - PLAYER_HEAD;1;&eBackpack;&7Size II
+      - SHULKER_BOX;1
+      - PLAYER_HEAD;1;&2&lGlobe de Transformations;SKULL-OWNER:null;SKULL-TEXTURE:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyMDgxNjNkYmJlZmU2YTlmNGQ0ZTE5YzM5Yzg5ZDg0ZDVjYjI4OTdlNWQ5MjQ5ODNiMzhmNmFiOTQxNjMifX19
+      category: backpack
+      command: luckperms:lp user %player% permission set backpack.3 $server_name
   hide-one-time-craftings: 'true'

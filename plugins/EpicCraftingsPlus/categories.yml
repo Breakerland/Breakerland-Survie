@@ -129,7 +129,7 @@ Inventory:
     name: '&6Informations'
     lore:
     - '&7Choisi une des catégories'
-    - '&7pour crée des objets unique!'
+    - '&7pour créer des objets unique!'
     slot: 40
     id: LEVER
   '20':
