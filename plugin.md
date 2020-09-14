@@ -41,6 +41,7 @@
 |    ProtocolLib      |     4.6.0-SNAPSHOT    | https://ci.dmulloy2.net/job/ProtocolLib/ |
 |       Quests        |          3.9.6        | https://ci.codemc.io/job/PikaMug/job/Quests/ |
 |      QuickShop      |         4.0.4.8       | https://www.spigotmc.org/resources/quickshop-reremake-1-15-ready-bees-bees-bee.62575/ |
+|   RandomTeleport    |           1.0         | https://github.com/Breakerland/RandomTeleport/releases/ |
 |      Referral       |           1.0         | |
 |     Regionerator    |          2.0.2        | https://www.spigotmc.org/resources/regionerator.12219/ |
 |     SimplePortal    |          1.4.7        | https://www.spigotmc.org/resources/1-16-ready-%E2%8D%9F-simple-portals-%E2%8D%9F-effective-regional-portals-bungeecord-compatible.56772/ |
