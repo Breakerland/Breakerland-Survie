@@ -12,7 +12,6 @@
 |    ChunkMaster      |          1.2.1        | https://www.spigotmc.org/resources/chunkmaster.71351/ |
 |      Citizens       |      2.0.27-b2058     | https://ci.citizensnpcs.co/job/Citizens2/ |
 |   CitizensBooks     |          2.6.0        | https://www.spigotmc.org/resources/citizensbooks.37465/ |
-|     CommandNPC      |          1.9.1        | https://www.spigotmc.org/resources/commandnpc.40295/ |
 |    CoreProtect      |           19.0        | https://www.spigotmc.org/resources/coreprotect.8631/updates |
 | CrazyEnchantments   |       8.1-SNAPSHOT    | https://jenkins.badbones69.com/job/Crazy-Enchantments/ |
 | CustomEnderChest    |          1.13.0       | https://www.spigotmc.org/resources/custom-enderchest.8868/ |
