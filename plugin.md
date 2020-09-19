@@ -3,7 +3,7 @@
 | AntiRedstoneClock   |          1.1.0        | https://www.spigotmc.org/resources/antiredstoneclock-worldguard-plotsquard-support-1-8-1-15.18557/ |
 |       Anvil         |       2020-04-08      | https://www.spigotmc.org/resources/anvilgui.77142/ |
 |  ArmorStandTools    |          3.5.1        | https://www.spigotmc.org/resources/armor-stand-tools.2237/ |
-|    AuctionHouse     |          2.1-b6       | https://www.spigotmc.org/resources/auctionhouse.61836/ |
+|    AuctionHouse     |          2.1.4        | https://www.spigotmc.org/resources/auctionhouse.61836/ |
 |      BreakerAgri    |           1.0         | |
 |  BreakerLandMenu    |           1.1         | |
 | BreakerLandPlugin   |           1.0         | |

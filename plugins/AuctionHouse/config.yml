@@ -1,6 +1,6 @@
 # 
 # AuctionHouse
-config_version: 30
+configVersion: 32
 economy: vault
 announce:
   discord:
@@ -13,7 +13,7 @@ announce:
     listings: false
     purchases: false
 updateTicks: 100
-locale: fr_FR
+locale: fr_fr
 decimal_format: '#,##0.00'
 strict: false
 chatHook: true
@@ -48,6 +48,7 @@ log:
   purged: true
 disabled-worlds: []
 auction:
+  preventFilledContainers: false
   integerPrice: false
   showRepairCost: true
   spawnerInfo: true
@@ -84,33 +85,76 @@ triggers:
   sign: '[HDV]'
   block_name: Hôtel des Ventes
   entity_name: Hôtel des Ventes
-configVersion: 30
 restricted_items:
-  mcmmo:
-    lore:
-    - mcMMO Ability Tool
-  '0':
-    item: minecraft:bedrock
-  '1':
-    item: minecraft:barrier
-  '2':
-    item: minecraft:command_block
-  '3':
-    item: minecraft:structure_block
-  example:
-    unbreakable: true
-    custom_model_data: 1
-    name: \u00a7cVorpal Sword
-    item: minecraft:diamond_sword
-    lore:
-    - Special Item
-    - Does not list in AuctionHouse
-    enchantments:
-    - ench: minecraft:sharpness
-      level: 10
-    - ench: minecraft:unbreaking
-      level: 3
-    - ench: minecraft:looting
-      level: 3
-    - ench: minecraft:fire_aspect
-      level: 2
+  ast_gui:
+    name: '\u00a7ePanel d''outil'
+    item: minecraft:nether_star
+  ast_rotate:
+    name: '\u00a7eRotation'
+    item: minecraft:magma_cream
+  ast_moveX:
+    name: '\u00a7eDéplacement X'
+    item: minecraft:shears
+  ast_moveY:
+    name: '\u00a7eDéplacement Y'
+    item: minecraft:shears
+  ast_moveZ:
+    name: '\u00a7eDéplacement Z'
+    item: minecraft:shears
+  ast_rHandX:
+    name: '\u00a7eBras droit X'
+    item: minecraft:torch
+  ast_rHandY:
+    name: '\u00a7eBras droit Y'
+    item: minecraft:torch
+  ast_rHandZ:
+    name: '\u00a7eBras droit Z'
+    item: minecraft:torch
+  ast_lHandX:
+    name: '\u00a7eBras gauche X'
+    item: minecraft:redstone_torch
+  ast_lHandY:
+    name: '\u00a7eBras gauche Y'
+    item: minecraft:redstone_torch
+  ast_lHandZ:
+    name: '\u00a7eBras gauche Z'
+    item: minecraft:redstone_torch
+  ast_rLegX:
+    name: '\u00a7eJambe droite X'
+    item: minecraft:bone
+  ast_rLegY:
+    name: '\u00a7eJambe droite Y'
+    item: minecraft:bone
+  ast_rLegZ:
+    name: '\u00a7eJambe droite Z'
+    item: minecraft:bone
+  ast_lLegX:
+    name: '\u00a7eJambe gauche X'
+    item: minecraft:blaze_rod
+  ast_lLegY:
+    name: '\u00a7eJambe gauche Y'
+    item: minecraft:blaze_rod
+  ast_lLegZ:
+    name: '\u00a7eJambe gauche Z'
+    item: minecraft:blaze_rod
+  ast_headX:
+    name: '\u00a7eTête X'
+    item: minecraft:jack_o_lantern
+  ast_headY:
+    name: '\u00a7eTête Y'
+    item: minecraft:jack_o_lantern
+  ast_headZ:
+    name: '\u00a7eTête Z'
+    item: minecraft:jack_o_lantern
+  ast_bodyX:
+    name: '\u00a7eCorp X'
+    item: minecraft:nether_brick
+  ast_bodyY:
+    name: '\u00a7eCorp Y'
+    item: minecraft:nether_brick
+  ast_bodyZ:
+    name: '\u00a7eCorp Z'
+    item: minecraft:nether_brick
+  backpack:
+    name: \u00a7eBackpack
+    item: minecraft:player_head
