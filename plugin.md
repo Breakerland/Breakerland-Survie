@@ -25,7 +25,7 @@
 |  EssentialsXSpawn   |         2.18.0.3      | https://ci.ender.zone/job/EssentialsX/ |
 |   HeadDatabase      |         4.12.6        | https://www.spigotmc.org/resources/head-database.14280/ |
 | HolographicDisplays |          2.4.2        | https://dev.bukkit.org/projects/holographic-displays |
-|    IllegalStack     |          2.1.8        | https://www.spigotmc.org/resources/dupe-fixes-illegal-stack-remover.44411/ |
+|    IllegalStack     |          2.2.0e       | https://www.spigotmc.org/resources/dupe-fixes-illegal-stack-remover.44411/ |
 |     ImageOnMap      |           4.0         | https://www.spigotmc.org/resources/imageonmap.26585/ |
 |        Jobs         |          4.16.0       | https://www.spigotmc.org/resources/jobs-reborn.4216/ |
 |       Lands         |          4.9.1        | https://www.spigotmc.org/resources/lands-minecraft-land-claim-plugin-grief-prevention-protection-gui-management-wars-1-15-support.53313/ |

@@ -148,3 +148,14 @@ ItemTypeRemoved: 'Found a blacklisted item type: ~item~ in ~player~''s inventory
 CustomAttribsRemoved2: Removed ~item~ with Custom Attributes worn by ~name~ (~attributes~)
 GenericItemRemoval: ~item~ removed by protection ~protection~, found on source ~source~
 StaffMsgUnderNether: ~name~ has been killed for flying under the nether floor @
+HeadInsideSolidBlock2: 'Stopped ~player~ ''s head from being inside a ~block~ Reason:
+  potential Xray Glitch'
+ItemTypeRemovedPlayerOnPlace: '~name~ attempted to place a blacklisted item type:
+  ~item~, it has been removed'
+ItemTypeRemovedPlayerOnDrop: '~name~ attempted to drop a blacklisted item type: ~item~,
+  it has been removed'
+CustomAttribsRemoved3: Removed ~item~ with Custom attributes found in ~name~'s inventory
+  (~attributes~)
+PlayerSpawnEggBlock: §cSorry you can not use spawn eggs to change spawner types!
+StaffMsgChangedSpawnerType: Player ~player~ used ~type~ to change a spawner type @
+StaffMsgBedExplosion: Prevented a bed from being used as an explosive @

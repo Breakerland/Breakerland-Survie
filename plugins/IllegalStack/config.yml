@@ -13,7 +13,8 @@ Exploits:
     PreventRailDupe: true
     PreventEndPortalDestruction: true
     PreventInvalidPotions: true
-    DisableChestsOnMobs: true
+    DisableChestsOnMobs: false
+    PreventBedExplosions: false
   MineCart:
     MinecartBlockWhiteList: []
     PreventHeadInsideBlocks: false
@@ -30,9 +31,9 @@ Exploits:
     - POTION
     - SPLASH_POTION
     - LINGERING_POTION
-    FixOverstackedItemInstead: true
-    PreventOverStackedItemInHoppers: false
-    RemoveOverstackedItems: false
+    FixOverstackedItemInstead: false
+    PreventOverStackedItemInHoppers: true
+    RemoveOverstackedItems: true
     GroupStack: []
     StackWhiteListMode: true
   Looting:
@@ -89,6 +90,12 @@ Exploits:
     BlockLoopedDroppers: false
   LavaDupe:
     PreventLavaDupe: true
+  Minecart:
+    AlsoPreventHeadInside:
+    - COMPOSTER
+  1_16_Exploits:
+    Dupes:
+      PreventPiglinDupe: true
 UserRequested:
   ItemRemoval:
     ItemNamesToRemove: []
@@ -104,6 +111,7 @@ UserRequested:
     BlockBadItemsFromCreativeTab: false
     HopperCheck:
       IgnoreAllHopperChecks: false
+    IgnoreAllShulkerPlaceChecks: false
   Cobble:
     PreventCobbleGenerators: false
   Mobs:
@@ -126,3 +134,5 @@ Misc:
   ItemScanTimer: 10
   InGameOffenseNotifications: true
   BreakMachinesInsteadOfDroppingItems: true
+  Spawners:
+    PreventSpawnEggsOnSpawners: true
