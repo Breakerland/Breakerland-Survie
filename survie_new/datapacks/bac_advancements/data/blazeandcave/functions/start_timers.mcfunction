@@ -29,6 +29,7 @@ scoreboard objectives add bac_part_of_raid dummy
 scoreboard objectives add bac_health health
 scoreboard objectives add bac_wiz_break dummy
 scoreboard objectives add bac_chorus_reset dummy
+scoreboard objectives add bac_hh_life dummy
 
 # # Ensures the Hardcore Mod (if installed) is ahead of the base datapack
 

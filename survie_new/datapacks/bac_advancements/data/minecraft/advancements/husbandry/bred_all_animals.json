@@ -7,7 +7,7 @@
         "description": {"translate":"Breed every type of animal"},
 		"frame": "challenge"
     },
-    "parent": "blazeandcave:animal/super_mooshroom",
+    "parent": "blazeandcave:animal/milkshroom",
     "rewards": {
         "experience": 100,
 		"function": "bc_rewards:animal/overpopulation"

@@ -6,7 +6,7 @@
         "title": {"translate":"War Pigs"},
         "description": {"translate":"Loot a chest in a Bastion Remnant"}
     },
-    "parent": "minecraft:nether/find_bastion",
+    "parent": "blazeandcave:nether/brute_force",
     "rewards": {
         "function": "bc_rewards:nether/war_pigs"
     },

@@ -6,7 +6,7 @@
         "title": {"translate":"Sushi"},
         "description": {"translate":"Eat some raw fish"}
     },
-    "parent": "minecraft:husbandry/fishy_business",
+    "parent": "blazeandcave:animal/delicious_fish",
 	"rewards": {
 		"function": "bc_rewards:animal/sushi"
     },		

@@ -1,2 +1,5 @@
 execute if score reward bac_settings matches 1 run tellraw @s {"color":"blue","text":" +1000 experience"}
 scoreboard players add @s bac_advancements 1
+
+execute if score trophy bac_settings matches 1 run give @s minecraft:polished_blackstone_slab{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":\"false\",\"bold\":\"true\",\"color\":\"#3C3947\",\"translate\":\"TARS\"}",Lore:["{\"color\":\"#3C3947\",\"translate\":\"Everybody good? Plenty of slaves for my robot colony?\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":\"false\",\"color\":\"light_purple\",\"translate\":\"No! Don't let me leave, Murph!\"}"]}} 1
+execute if score trophy bac_settings matches 1 run tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"TARS"}]}

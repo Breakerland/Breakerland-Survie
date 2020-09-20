@@ -1,0 +1,185 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_helmet"
+        },
+        "title": {"translate":"Armor Display"},
+        "description": {"translate":"Place all six sets of armor on six different armor stands"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:building/mannequin",
+    "rewards": {
+        "function": "bc_rewards:nether/armor_display",
+		"experience": 100
+    },		
+    "criteria": {
+        "leather": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:armor_stand",
+							"equipment": {
+								"head": {
+									"item": "minecraft:leather_helmet"
+								},
+								"chest": {
+									"item": "minecraft:leather_chestplate"
+								},
+								"legs": {
+									"item": "minecraft:leather_leggings"
+								},
+								"feet": {
+									"item": "minecraft:leather_boots"
+								}
+							}
+						}
+					}
+				]
+			}
+        },
+        "golden": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:armor_stand",
+							"equipment": {
+								"head": {
+									"item": "minecraft:golden_helmet"
+								},
+								"chest": {
+									"item": "minecraft:golden_chestplate"
+								},
+								"legs": {
+									"item": "minecraft:golden_leggings"
+								},
+								"feet": {
+									"item": "minecraft:golden_boots"
+								}
+							}
+						}
+					}
+				]
+			}
+        },
+        "chainmail": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:armor_stand",
+							"equipment": {
+								"head": {
+									"item": "minecraft:chainmail_helmet"
+								},
+								"chest": {
+									"item": "minecraft:chainmail_chestplate"
+								},
+								"legs": {
+									"item": "minecraft:chainmail_leggings"
+								},
+								"feet": {
+									"item": "minecraft:chainmail_boots"
+								}
+							}
+						}
+					}
+				]
+			}
+        },
+        "iron": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:armor_stand",
+							"equipment": {
+								"head": {
+									"item": "minecraft:iron_helmet"
+								},
+								"chest": {
+									"item": "minecraft:iron_chestplate"
+								},
+								"legs": {
+									"item": "minecraft:iron_leggings"
+								},
+								"feet": {
+									"item": "minecraft:iron_boots"
+								}
+							}
+						}
+					}
+				]
+			}
+        },
+        "diamond": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:armor_stand",
+							"equipment": {
+								"head": {
+									"item": "minecraft:diamond_helmet"
+								},
+								"chest": {
+									"item": "minecraft:diamond_chestplate"
+								},
+								"legs": {
+									"item": "minecraft:diamond_leggings"
+								},
+								"feet": {
+									"item": "minecraft:diamond_boots"
+								}
+							}
+						}
+					}
+				]
+			}
+        },
+        "netherite": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:armor_stand",
+							"equipment": {
+								"head": {
+									"item": "minecraft:netherite_helmet"
+								},
+								"chest": {
+									"item": "minecraft:netherite_chestplate"
+								},
+								"legs": {
+									"item": "minecraft:netherite_leggings"
+								},
+								"feet": {
+									"item": "minecraft:netherite_boots"
+								}
+							}
+						}
+					}
+				]
+			}
+        }
+    }
+}

@@ -6,7 +6,7 @@
         "title": {"translate":"So I got that going for me"},
         "description": {"translate":"Breed two llamas with hay"}
     },
-    "parent": "blazeandcave:animal/you_lead_ill_follow",
+    "parent": "blazeandcave:animal/stay_calmer",
 	"rewards": {
 		"function": "bc_rewards:animal/so_i_got_that_going_for_me"
     },		

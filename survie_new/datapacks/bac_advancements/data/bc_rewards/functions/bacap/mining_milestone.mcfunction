@@ -1,2 +1,5 @@
 execute if score reward bac_settings matches 1 run tellraw @s {"color":"blue","text":" +500 experience"}
 scoreboard players add @s bac_advancements 1
+
+execute if score trophy bac_settings matches 1 run give @s minecraft:iron_pickaxe{CustomModelData:131,HideFlags:71,Unbreakable:1,Enchantments:[{id:"minecraft:unbreaking",lvl:1}],display:{Name:"{\"italic\":\"false\",\"bold\":\"true\",\"color\":\"#8F8F8F\",\"translate\":\"Miner's Trophy\"}",Lore:["{\"color\":\"#8F8F8F\",\"translate\":\"Don't mine at night!\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":\"false\",\"color\":\"yellow\",\"translate\":\"Mining Milestone\"}"]}} 1
+execute if score trophy bac_settings matches 1 run tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Miner's Trophy"}]}

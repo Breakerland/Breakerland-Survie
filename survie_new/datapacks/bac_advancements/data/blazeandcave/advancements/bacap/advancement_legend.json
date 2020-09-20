@@ -9362,13 +9362,13 @@
 				}
 			}
         },
-		"diamonds_to_you": {
+		"diemonds": {
             "trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
 					"player": {
 						"advancements": {
-							"blazeandcave:weaponry/diamonds_to_you": "true"
+							"blazeandcave:weaponry/diemonds": "true"
 						}
 					}
 				}
@@ -10233,6 +10233,246 @@
 					"player": {
 						"advancements": {
 							"blazeandcave:nether/inception": "true"
+						}
+					}
+				}
+			}
+        },
+		"diamonds_to_you": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:mining/diamonds_to_you": "true"
+						}
+					}
+				}
+			}
+        },
+		"one_pickle_two_pickle_sea_pickle_four": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/one_pickle_two_pickle_sea_pickle_four": "true"
+						}
+					}
+				}
+			}
+        },
+		"harry_potter": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/harry_potter": "true"
+						}
+					}
+				}
+			}
+        },
+		"unmasked": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:farming/unmasked": "true"
+						}
+					}
+				}
+			}
+        },
+		"delicious_fish": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:animal/delicious_fish": "true"
+						}
+					}
+				}
+			}
+        },
+		"milkshroom": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:animal/milkshroom": "true"
+						}
+					}
+				}
+			}
+        },
+		"live_and_let_dye": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:animal/live_and_let_dye": "true"
+						}
+					}
+				}
+			}
+        },
+		"foxy_thievery": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:animal/foxy_thievery": "true"
+						}
+					}
+				}
+			}
+        },
+		"lead_the_way": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:animal/lead_the_way": "true"
+						}
+					}
+				}
+			}
+        },
+		"beeloons": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:animal/beeloons": "true"
+						}
+					}
+				}
+			}
+        },
+		"leader_of_the_animals": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:animal/leader_of_the_animals": "true"
+						}
+					}
+				}
+			}
+        },
+		"echolocation": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:biomes/echolocation": "true"
+						}
+					}
+				}
+			}
+        },
+		"lion_hunter": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:biomes/lion_hunter": "true"
+						}
+					}
+				}
+			}
+        },
+		"your_daily_fix": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:adventure/your_daily_fix": "true"
+						}
+					}
+				}
+			}
+        },
+		"im_not_lost_anymore": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:adventure/im_not_lost_anymore": "true"
+						}
+					}
+				}
+			}
+        },
+		"half_heart_life": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:weaponry/half_heart_life": "true"
+						}
+					}
+				}
+			}
+        },
+		"brute_force": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:nether/brute_force": "true"
+						}
+					}
+				}
+			}
+        },
+		"et_tu_brute": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:nether/et_tu_brute": "true"
+						}
+					}
+				}
+			}
+        },
+		"lava_fishing": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:nether/lava_fishing": "true"
+						}
+					}
+				}
+			}
+        },
+		"nether_rock_collection": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:nether/nether_rock_collection": "true"
 						}
 					}
 				}

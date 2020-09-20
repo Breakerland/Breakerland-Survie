@@ -8,7 +8,7 @@
         "description": {"translate":"Die twice within ten seconds"},
 		"hidden": "true"
     },
-    "parent": "blazeandcave:weaponry/diamonds_to_you",
+    "parent": "blazeandcave:weaponry/diemonds",
 	"rewards": {
 		"function": "bc_rewards:weaponry/loser"
     },		

@@ -6,7 +6,7 @@
         "title": {"translate":"Time to Farm!"},
         "description": {"translate":"Use planks and sticks to make a hoe"}
     },
-    "parent": "blazeandcave:bacap/time_to_chop",
+    "parent": "blazeandcave:bacap/time_to_dig",
 	"rewards": {
 		"function": "bc_rewards:bacap/time_to_farm"
     },		

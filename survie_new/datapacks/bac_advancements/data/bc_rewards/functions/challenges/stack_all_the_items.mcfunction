@@ -1,2 +1,5 @@
 execute if score reward bac_settings matches 1 run tellraw @s {"color":"blue","text":" +500 Experience"}
 scoreboard players add @s bac_advancements 1
+
+execute if score trophy bac_settings matches 1 run give @s minecraft:white_shulker_box{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":\"false\",\"bold\":\"true\",\"color\":\"#0097E3\",\"translate\":\"Doraemon's Pocket\"}",Lore:["{\"color\":\"#0097E3\",\"translate\":\"I hope I can get thousands of diamonds in here\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":\"false\",\"color\":\"red\",\"translate\":\"Stack All the Items!\"}"]}} 1
+execute if score trophy bac_settings matches 1 run tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Doraemon's Pocket"}]}

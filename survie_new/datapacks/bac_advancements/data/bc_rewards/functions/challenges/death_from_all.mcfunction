@@ -1,2 +1,5 @@
 execute if score reward bac_settings matches 1 run tellraw @s {"color":"blue","text":" +500 Experience"}
 scoreboard players add @s bac_advancements 1
+
+execute if score trophy bac_settings matches 1 run give @s minecraft:splash_potion{CustomPotionEffects:[{Id:7,Amplifier:2}],CustomPotionColor:8912896,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":\"false\",\"bold\":\"true\",\"color\":\"#880000\",\"translate\":\"Instant Death\"}",Lore:["{\"color\":\"#880000\",\"translate\":\"Since you like dying so much...\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":\"false\",\"color\":\"red\",\"translate\":\"Death From All\"}"]}} 1
+execute if score trophy bac_settings matches 1 run tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Instant Death"}]}

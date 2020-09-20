@@ -3,12 +3,12 @@
         "icon": {
             "item": "minecraft:diamond"
         },
-        "title": {"translate":"Diamonds to you!"},
+        "title": {"translate":"Diemonds!"},
         "description": {"translate":"Hit a mob with diamonds"}
     },
     "parent": "blazeandcave:weaponry/slapfish",
     "rewards": {
-        "function": "bc_rewards:weaponry/diamonds_to_you"
+        "function": "bc_rewards:weaponry/diemonds"
     },		
     "criteria": {
         "diamond": {

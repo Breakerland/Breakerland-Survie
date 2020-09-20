@@ -7,7 +7,7 @@
         "description": {"translate":"Breed a baby ocelot"},
 		"frame": "goal"
     },
-    "parent": "blazeandcave:biomes/tarzan",
+    "parent": "blazeandcave:biomes/lion_hunter",
 	"rewards": {
 		"function": "bc_rewards:biomes/simba"
     },		

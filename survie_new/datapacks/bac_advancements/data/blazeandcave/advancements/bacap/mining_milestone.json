@@ -900,6 +900,18 @@
 					}
 				}
 			}
+        },
+		"diamonds_to_you": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:mining/diamonds_to_you": "true"
+						}
+					}
+				}
+			}
         }
     }
 }

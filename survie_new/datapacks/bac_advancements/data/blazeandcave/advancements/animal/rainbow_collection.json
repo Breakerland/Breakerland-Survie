@@ -7,7 +7,7 @@
         "description": {"translate":"Gather all 16 colors of wool"},
 		"frame": "goal"
     },
-    "parent": "blazeandcave:animal/sheariously",
+    "parent": "blazeandcave:animal/live_and_let_dye",
     "rewards": {
         "experience": 50,
 		"function": "bc_rewards:animal/rainbow_collection"

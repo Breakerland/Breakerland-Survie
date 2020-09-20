@@ -1,0 +1,59 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:basalt"
+        },
+        "title": {"translate":"Nether Rock Collection"},
+        "description": {"translate":"Mine a stack of Netherrack, Basalt, Blackstone and Glowstone in the Nether"}
+    },
+    "parent": "blazeandcave:nether/dark_ages",
+	"rewards": {
+		"function": "bc_rewards:nether/nether_rock_collection"
+    },		
+    "criteria": {
+        "netherrack": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:netherrack",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "basalt": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:basalt",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "blackstone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:blackstone",
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "glowstone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:glowstone",
+						"count": 64
+                    }
+                ]
+            }
+        }
+    }
+}

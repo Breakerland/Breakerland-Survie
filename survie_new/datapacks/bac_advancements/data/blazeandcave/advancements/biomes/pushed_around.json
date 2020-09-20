@@ -6,7 +6,7 @@
         "title": {"translate":"Pushed Around"},
         "description": {"translate":"Enter a bubble column"}
     },
-    "parent": "blazeandcave:biomes/dolphin_dasher",
+    "parent": "blazeandcave:biomes/echolocation",
 	"rewards": {
 		"function": "bc_rewards:biomes/pushed_around"
     },

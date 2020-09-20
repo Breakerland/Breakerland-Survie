@@ -7,7 +7,7 @@
         "description": {"translate":"Kill a villager"},
 		"hidden": "true"
     },
-    "parent": "minecraft:adventure/summon_iron_golem",
+    "parent": "blazeandcave:adventure/your_daily_fix",
     "rewards": {
         "function": "bc_rewards:adventure/murderer"
     },		

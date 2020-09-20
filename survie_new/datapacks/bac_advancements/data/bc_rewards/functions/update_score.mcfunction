@@ -661,7 +661,7 @@ execute as @a[advancements={blazeandcave:weaponry/axeman=true}] run scoreboard p
 execute as @a[advancements={blazeandcave:weaponry/shovel_knight=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={blazeandcave:weaponry/expelliarmus=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={blazeandcave:weaponry/slapfish=true}] run scoreboard players add @s bac_advancements 1
-execute as @a[advancements={blazeandcave:weaponry/diamonds_to_you=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:weaponry/diemonds=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={blazeandcave:weaponry/pig_fishing_tournament=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={blazeandcave:weaponry/indiana_jones=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={blazeandcave:weaponry/when_pigs_finally_fly=true}] run scoreboard players add @s bac_advancements 1
@@ -947,3 +947,38 @@ execute as @a[advancements={blazeandcave:challenges/hearts_of_the_stack=true}] r
 execute as @a[advancements={blazeandcave:challenges/the_devils_distance=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={blazeandcave:challenges/ad_astra=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={blazeandcave:challenges/dragon_vs_wither_the_pre_sequel=true}] run scoreboard players add @s bac_advancements 1
+
+# The following advancements were added in version 1.11
+execute as @a[advancements={blazeandcave:bacap/time_to_dig=true}] run scoreboard players add @s bac_advancements 1
+
+execute as @a[advancements={blazeandcave:mining/diamonds_to_you=true}] run scoreboard players add @s bac_advancements 1
+
+execute as @a[advancements={blazeandcave:building/one_pickle_two_pickle_sea_pickle_four=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:building/harry_potter=true}] run scoreboard players add @s bac_advancements 1
+
+execute as @a[advancements={blazeandcave:farming/unmasked=true}] run scoreboard players add @s bac_advancements 1
+
+execute as @a[advancements={blazeandcave:animal/delicious_fish=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:animal/milkshroom=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:animal/live_and_let_dye=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:animal/foxy_thievery=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:animal/lead_the_way=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:animal/beeloons=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:animal/leader_of_the_animals=true}] run scoreboard players add @s bac_advancements 1
+
+execute as @a[advancements={blazeandcave:biomes/echolocation=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:biomes/lion_hunter=true}] run scoreboard players add @s bac_advancements 1
+
+execute as @a[advancements={blazeandcave:adventure/your_daily_fix=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:adventure/im_not_lost_anymore=true}] run scoreboard players add @s bac_advancements 1
+
+execute as @a[advancements={blazeandcave:combat/controlled_detonation=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:combat/miracle_drink=true}] run scoreboard players add @s bac_advancements 1
+
+execute as @a[advancements={blazeandcave:weaponry/half_heart_life=true}] run scoreboard players add @s bac_advancements 1
+
+execute as @a[advancements={blazeandcave:nether/brute_force=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:nether/et_tu_brute=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:nether/lava_fishing=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:nether/nether_rock_collection=true}] run scoreboard players add @s bac_advancements 1
+

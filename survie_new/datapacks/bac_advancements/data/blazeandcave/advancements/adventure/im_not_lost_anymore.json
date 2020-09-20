@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:blue_banner"
+        },
+        "title": {"translate":"I'm not lost anymore!"},
+        "description": {"translate":"Right-click a banner with a map"}
+    },
+    "parent": "blazeandcave:adventure/mapmakers_table",
+	"rewards": {
+		"function": "bc_rewards:adventure/im_not_lost_anymore"
+    },
+    "criteria": {
+        "map": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "minecraft:banners"
+					}
+				},
+				"item": {
+					"item": "minecraft:filled_map"
+				}
+			}
+		}
+    }
+}
