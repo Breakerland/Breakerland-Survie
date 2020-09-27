@@ -48,7 +48,7 @@
   "message.cancel.sucess.other": "&6Vous avez &eannulé &6la vente de &e{1}&6x &e{2} &6par {0}!",
   "message.cancel_all.none": "&6Vous n'avez pas de vente en cours.",
   "message.cancel_all.success": "&6Vous avez &eannulé &6toutes les ventes.",
-  "message.command.reloaded": "&8[&aGanymède&8] &eHôtel des ventes rechargé !",
+  "message.command.reloaded": "&eHôtel des ventes rechargé !",
   "message.config.reload": "&7Rechargement de la configuration..",
   "message.confirm_listing.title": "Paies {0}β de frais d'inscription.",
   "message.current_balance": "&9Compte en banque: &e{0}β",
@@ -73,7 +73,7 @@
   "message.help.ah": "&7&l&m---------------&7&l[ &6&lHDV &7&l]&m---------------\n&7/hdv &l- &8Ouvrir l'Hôtel de vente.",
   "message.help.ah_cancel": "&7/hdv annulé &l- &8Annule toutes vos ventes",
   "message.help.ah_expired": "&7/hdv expiré &l- &8Voir les ventes expirées",
-  "message.help.ah_list": ""
+  "message.help.ah_list": "",
   "message.help.ah_menu": "&7/hdv menu &l- &8Ouvrir l'HDV en mode menu.",
   "message.help.ah_reload": "",
   "message.help.ah_return": "&7/hdv retour &l- &8Récupérer tous vos ventes expirées",
@@ -185,7 +185,7 @@
   "warning.command.sleeping": "&cVous ne pouvez pas exécuter cette commande en dormant!",
   "warning.command.unknown": "&7Commande inconnue. Faites \"/help\" pour afficher l'aide.",
   "warning.expired_listings.return.none": "&cVous n'avez aucun article à retourner.",
-  "warning.listing.cooldown": "&6Vous devez attendre &e{0} &6avant de refaire la commande."
+  "warning.listing.cooldown": "&6Vous devez attendre &e{0} &6avant de refaire la commande.",
   "warning.listing.expired": "&cCet article n'est plus à vendre.",
   "warning.permission.deny": "&cVous n'avez pas la permission d'exécuter cette commande.",
   "warning.player_listings.none": "&cVous n'avez aucuns articles en vente",

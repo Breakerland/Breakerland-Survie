@@ -54,9 +54,23 @@ This text here will be shown if you type /vote
 
 #changelog
 &e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e- &6&lChangelog &e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-&6*&e-
+&e&nV6.12.1 - 14 septembre 2020
+&2+ &7Ajout des sacs à dos craftable au /mage .
+&2+ &7Ajout de la Perle de voyage permettant de vous téléporter aléatoirement.
+&2- &7Suppression du /rtp excepté pour les nouveaux.
+
+&e&nV6.12 - 13 juillet 2020
+&2+ &7Mise à jour 1.16
+&2+ &7Ajout de la netherite au job mineur
+&2+ &7Ajout d'un anti x-ray
+&2+ &7Ajout des biomes Snowy Island et Bluelands
+
+&e&nV6.11 - 16 mai 2020
+&2+ &7Ajout des warps
+
 &e&nV6.0 - 1 février 2020
-&7+ Activation de la perte du stuff à la mort stocké pendant 1h dans une pière tombale.
-&7+ Ajout de la commande /dback pour retourner son point de mort (prix selon grade).
-&7+ Apparition d'un coffre magique aléatoirement.
-&7+ Prix du /rtp défini selon le grade (gratuit pour les survivants).
-&7+ Ajout de la commande /changelog affichant les notes de mise à jour.
+&2+ &7Activation de la perte du stuff à la mort stocké pendant 1h dans une pière tombale.
+&2+ &7Ajout de la commande /dback pour retourner son point de mort (prix selon grade).
+&2+ &7Apparition d'un coffre magique aléatoirement.
+&2+ &7Prix du /rtp défini selon le grade (gratuit pour les survivants).
+&2+ &7Ajout de la commande /changelog affichant les notes de mise à jour.

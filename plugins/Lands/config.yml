@@ -1113,6 +1113,8 @@ random-teleport:
   # NOTE: World names are case-sensitive. If you don't enter them correctly, issues might occur.
   wild-worlds_list:
   - survie_new
+  - survie_new_nether
+  - survie_new_the_end
 
   distance:
     # Max distance from world spawn
