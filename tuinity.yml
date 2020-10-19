@@ -6,6 +6,7 @@ config-version-please-do-not-modify-me: 2
 world-settings:
   default:
     spawn-limits:
+      water-ambient: -1
       monsters: -1
       animals: -1
       water-animals: -1

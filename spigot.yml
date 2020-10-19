@@ -91,8 +91,8 @@ world-settings:
     mob-spawn-range: 5
     view-distance: default
     enable-zombie-pigmen-portal-spawns: true
-    item-despawn-rate: 1200
-    arrow-despawn-rate: 900
+    item-despawn-rate: 72000
+    arrow-despawn-rate: 6000
     wither-spawn-sound-radius: 0
     hanging-tick-frequency: 100
     zombie-aggressive-towards-villager: true
@@ -112,8 +112,8 @@ world-settings:
       flying-monsters: 45
       water: 16
       animals: 8
-      monsters: 16
-      raiders: 18
+      monsters: 18
+      raiders: 20
       misc: 4
       tick-inactive-villagers: false
       wake-up-inactive:
@@ -131,10 +131,10 @@ world-settings:
         flying-monsters-for: 100
     entity-tracking-range:
       players: 100
-      animals: 100
-      monsters: 100
-      misc: 100
-      other: 100
+      animals: 72
+      monsters: 72
+      misc: 72
+      other: 64
     hunger:
       jump-walk-exhaustion: 0.05
       jump-sprint-exhaustion: 0.2
