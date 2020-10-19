@@ -577,27 +577,35 @@ Jobs:
       oak_log:
         income: 6
         points: 6
-        experience: 6
+        experience: 5
       spruce_log:
-        income: 6.1
-        points: 6.1
-        experience: 3
-      birch_log:
         income: 6
         points: 6
-        experience: 6
+        experience: 5
+      birch_log:
+        income: 8
+        points: 8
+        experience: 6.5
       jungle_log:
-        income: 4.7
-        points: 4.7
-        experience: 3
+        income: 5
+        points: 5
+        experience: 4.5
       acacia_log:
-        income: 9
-        points: 9
-        experience: 3
+        income: 5
+        points: 5
+        experience: 4.5
       dark_oak_log:
-        income: 4.5
-        points: 4.5
-        experience: 3
+        income: 6
+        points: 6
+        experience: 5
+      warped_stem:
+        income: 5
+        points: 5
+        experience: 5
+      crimson_stem:
+        income: 5
+        points: 5
+        experience: 5
       oak_sapling:
         income: -4.0
         points: -4.0
@@ -728,6 +736,10 @@ Jobs:
         income: 4
         points: 3
         experience: 4
+      nether_gold_ore:
+        income: 5
+        points: 3
+        experience: 4
       ancient_debris:
         income: 15
         points: 5
@@ -814,6 +826,10 @@ Jobs:
         income: 60.0
         points: 60.0
         experience: 60.0
+      netherite_pickaxe:
+        income: 80.0
+        points: 70.0
+        experience: 70.0
     Smelt:
       coal:
         income: 3.0
@@ -2037,6 +2053,10 @@ Jobs:
         income: 1.0
         points: 1.0
         experience: 1.0
+      soul_soil:
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       soul_sand:
         income: 1.0
         points: 1.0
@@ -2786,7 +2806,11 @@ Jobs:
       enchanting_table:
         income: 98.0
         points: 98.0
-        experience: 98.0
+        experience: 98.0	
+      lodestone:
+        income: 30.0
+        points: 30.0
+        experience: 30.0
       beacon:
         income: 350.0
         points: 350.0

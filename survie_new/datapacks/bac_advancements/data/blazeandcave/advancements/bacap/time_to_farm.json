@@ -6,7 +6,7 @@
         "title": {"translate":"Time to Farm!"},
         "description": {"translate":"Use planks and sticks to make a hoe"}
     },
-    "parent": "blazeandcave:bacap/time_to_chop",
+    "parent": "blazeandcave:bacap/time_to_dig",
 	"rewards": {
 		"function": "bc_rewards:bacap/time_to_farm"
     },		
@@ -60,6 +60,16 @@
                     }
                 ]
             }
+        },
+        "netherite_hoe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:netherite_hoe"
+                    }
+                ]
+            }
         }
     },
     "requirements": [
@@ -68,7 +78,8 @@
         "stone_hoe",
 		"iron_hoe",
 		"diamond_hoe",
-		"golden_hoe"
+		"golden_hoe",
+		"netherite_hoe"
 		]
     ]
 }

@@ -79,7 +79,34 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
-                    "type": "zombie",
+                    "type": "stray",
+					"nbt": "{ArmorItems:[{},{},{},{id:\"minecraft:carved_pumpkin\",Count:1b}]}"
+                }
+            }
+        },
+        "player": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "player",
+					"nbt": "{ArmorItems:[{},{},{},{id:\"minecraft:carved_pumpkin\",Count:1b}]}"
+                }
+            }
+        },
+        "piglin": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "piglin",
+					"nbt": "{ArmorItems:[{},{},{},{id:\"minecraft:carved_pumpkin\",Count:1b}]}"
+                }
+            }
+        },
+        "piglin_brute": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "piglin_brute",
 					"nbt": "{ArmorItems:[{},{},{},{id:\"minecraft:carved_pumpkin\",Count:1b}]}"
                 }
             }
@@ -94,7 +121,10 @@
 		"drowned",
 		"skeleton",
 		"wither_skeleton",
-		"stray"
+		"stray",
+		"player",
+		"piglin",
+		"piglin_brute"
 		]
 	]
 }

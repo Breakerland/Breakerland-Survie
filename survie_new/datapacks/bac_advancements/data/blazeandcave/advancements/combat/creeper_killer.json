@@ -7,7 +7,7 @@
         "description": {"translate":"Collect a stack of gunpowder"},
 		"frame": "goal"
     },
-    "parent": "blazeandcave:combat/blast_shield",
+    "parent": "blazeandcave:combat/controlled_detonation",
     "rewards": {
 		"experience": 50,	
 		"function": "bc_rewards:combat/creeper_killer"

@@ -347,6 +347,14 @@
                     "type": "zoglin"
                 }
             }
+        },
+        "piglin_brute": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "piglin_brute"
+                }
+            }
         }
     }
 }

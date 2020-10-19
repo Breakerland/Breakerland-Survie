@@ -7,8 +7,10 @@
 pwarp:
   # Should we enable the gui?
   enabled: true
-  # The title of the gui (Can use color codes) the variable "%category%" will only work if it is enabled.
+  # The title of the gui (Can use color codes) the variable "[category]" will only work if it is enabled.
   title: '&e&lWarps [category] ([page]/[pages])'
+  # What is the size of this GUI? (multiples of 9 can only go up to 54)
+  size: 54
   # should /pwarp open the gui? if so you just do /pwarp open (if enabled)
   override-pwarp: false
 
@@ -47,13 +49,15 @@ pwarp:
     - 'HIDE_ATTRIBUTES'
 
     # The variable "[safe]" will display the message below if the warp is safe
-    warp-safe: '&eCliquez pour vous téléporter au Warp &6[warp]'
+    warp-safe: '&eCliquez pour vous téléporter à &6[warp]'
     # The variable "[safe]" will display the message below if the warp is not safe
     warp-not-safe: '&Ce Warpn n''''est pas sécurisé, double cliquez pour vous téléporter au Warp &6[warp]'
     # What is the icon for [rates_stars]?
     rates-stars: ⭐
     # What is displayed when there is no warp cost?
     no-warp-cost: '&80'
+    # What is displayed when there is a warp cost?
+    has-warp-cost: $[cost]
 
   clickable-items:
     next-page:

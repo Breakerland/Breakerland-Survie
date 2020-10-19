@@ -10,35 +10,14 @@
 # ----------------------------------------------------------#
 # 
 # Should ViaVersion check for updates?
-checkforupdates: true
+checkforupdates: false
 # Send the supported versions with the Status (Ping) response packet
 send-supported-versions: false
 # Block specific Minecraft protocols that ViaVersion allows
 # List of all Minecraft protocol versions: http://wiki.vg/Protocol_version_numbers or use a generator: https://via.krusic22.com
-block-protocols:
-- 498
-- 490
-- 485
-- 480
-- 477
-- 404
-- 401
-- 393
-- 340
-- 338
-- 335
-- 316
-- 315
-- 210
-- 110
-- 109
-- 108
-- 107
-- 47
-- 5
-- 4
+block-protocols: [498, 490, 485, 480, 477, 404, 401, 393, 340, 338, 335, 316, 315, 210, 110, 109, 108, 107, 47, 5, 4]
 # Change the blocked disconnect message
-block-disconnect-msg: You are using an unsupported Minecraft version!
+block-disconnect-msg: Veuillez vous connecter en version 1.15/1.16!
 # If you use ProtocolLib, we can't reload without kicking the players.
 # (We don't suggest using reload either, use a plugin manager)
 # You can customise the message we kick people with if you use ProtocolLib here.
@@ -69,7 +48,7 @@ tracking-warning-pps: 120
 # How many warnings over the interval can we have
 # This can never be higher than "tracking-period"
 tracking-max-warnings: 4
-tracking-max-kick-msg: You are sending too many packets, :(
+tracking-max-kick-msg: You are sending too many packets :(
 # 
 # ----------------------------------------------------------#
 #                 MULTIPLE VERSIONS OPTIONS                #
@@ -84,11 +63,11 @@ hologram-y: -0.96
 # In some cases when firing lots of pistons it crashes them.
 piston-animation-patch: false
 # Should we fix nbt for 1.12 and above clients in chat messages (causes invalid item)
-chat-nbt-fix: true
+chat-nbt-fix: false
 # Experimental - Should we fix shift quick move action for 1.12 clients (causes shift + double click not to work when moving items) (only works on 1.8-1.11.2 bukkit based servers)
 quick-move-action-fix: false
 # Should we use prefix for team colour on 1.13 and above clients
-team-colour-fix: true
+team-colour-fix: false
 # 1.13 introduced new auto complete which can trigger "Kicked for spamming" for servers older than 1.13, the following option will disable it completely.
 disable-1_13-auto-complete: false
 # The following option will delay the tab complete request in x ticks if greater than 0, if other tab-complete is received, the previous is cancelled
@@ -96,7 +75,7 @@ disable-1_13-auto-complete: false
 # For 1.13 clients the smallest (1 layer) snow doesn't have collision, this will send these as 2 snowlayers for 1.13+ clients to prevent them bugging through them
 fix-low-snow-collision: false
 # Infested blocks are instantly breakable for 1.13+ clients, resulting in them being unable to break them on sub 1.13 servers. This remaps them to their normal stone variants
-fix-infested-block-breaking: true
+fix-infested-block-breaking: false
 # In 1.14 the client page limit has been upped to 100 (from 50). Some anti-exploit plugins ban when clients go higher than 50. This option cuts edited books to 50 pages.
 truncate-1_14-books: false
 # This prevents clients using 1.9-1.13 on 1.8 servers from receiving no knockback/having velocity bugs whilst sneaking under a block.
@@ -106,14 +85,14 @@ change-1_9-hitbox: false
 # Another thing to remember is that those players might be missed by projectiles and other hits directed at the very top of their head whilst sneaking.
 change-1_14-hitbox: false
 # Fixes 1.14+ clients on sub 1.14 servers having a light value of 0 for non full blocks.
-fix-non-full-blocklight: true
+fix-non-full-blocklight: false
 # Fixes walk animation not shown when health is set to Float.NaN
-fix-1_14-health-nan: true
+fix-1_14-health-nan: false
 # Should 1.15+ clients respawn instantly / without showing a death screen?
 use-1_15-instant-respawn: false
 # 
 # Enable serverside block-connections for 1.13+ clients - all of the options in this section are built around this option
-serverside-blockconnections: true
+serverside-blockconnections: false
 # Sets the method for the block connections (world for highly experimental (USE AT OWN RISK) world-level or packet for packet-level)
 blockconnection-method: packet
 # When activated, only the most important blocks are stored in the blockstorage. (fences, glass panes etc. won't connect to solid blocks)
@@ -124,35 +103,39 @@ flowerstem-when-block-above: false
 # Vines that are not connected to blocks will be mapped to air, else 1.13+ would still be able to climb up on them.
 vine-climb-fix: false
 # 
+# Ignores incoming plugin channel messages of 1.16+ clients with channel names longer than 32 characters.
+# CraftBukkit had this limit hardcoded until 1.16, so we have to assume any server/proxy might have this arbitrary check present.
+ignore-long-1_16-channel-names: true
+# 
 # ----------------------------------------------------------#
 #             1.9+ CLIENTS ON 1.8 SERVERS OPTIONS          #
 # ----------------------------------------------------------#
 # 
 # No collide options, these allow you to configure how collision works.
 # Do you want us to prevent collision?
-prevent-collision: true
+prevent-collision: false
 # If the above is true, should we automatically team players until you do?
-auto-team: true
+auto-team: false
 # When enabled if certain metadata can't be read we won't tell you about it
 suppress-metadata-errors: false
 # When enabled 1.9+ will be able to block by using shields
-shield-blocking: true
+shield-blocking: false
 # Enable player tick simulation, this fixes eating, drinking, nether portals.
-simulate-pt: true
+simulate-pt: false
 # Should we use nms player to simulate packets, (may fix anti-cheat issues)
-nms-player-ticking: true
+nms-player-ticking: false
 # Should we patch boss bars so they work? (Default: true, disable if you're having issues)
-bossbar-patch: true
+bossbar-patch: false
 # If your boss bar flickers on 1.9+, set this to 'true'. It will keep all boss bars on 100% (not recommended)
 bossbar-anti-flicker: false
 # This will show the new effect indicator in the top-right corner for 1.9+ players.
-use-new-effect-indicator: true
+use-new-effect-indicator: false
 # Show the new death messages for 1.9+ on the death screen
 use-new-deathmessages: true
 # Should we cache our items, this will prevent server from being lagged out, however the cost is a constant task caching items
-item-cache: true
+item-cache: false
 # Patch the anti xray to work on 1.9+ (If your server is 1.8) This can cost more performance, so disable it if you don't use it.
-anti-xray-patch: true
+anti-xray-patch: false
 # Should we replace extended pistons to fix 1.10.1 (Only on chunk load)
 replace-pistons: false
 # What id should we replace with, default is air. (careful of players getting stuck standing on them)
@@ -160,6 +143,6 @@ replacement-piston-id: 0
 # Force the string -> json transform
 force-json-transform: false
 # Minimize the cooldown animation in 1.8 servers
-minimize-cooldown: true
+minimize-cooldown: false
 # Left handed handling on 1.8 servers
-left-handed-handling: true
+left-handed-handling: false

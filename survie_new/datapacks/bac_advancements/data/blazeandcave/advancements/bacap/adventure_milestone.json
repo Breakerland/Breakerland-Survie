@@ -948,6 +948,30 @@
 					}
 				}
 			}
+        },
+		"your_daily_fix": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:adventure/your_daily_fix": "true"
+						}
+					}
+				}
+			}
+        },
+		"im_not_lost_anymore": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:adventure/im_not_lost_anymore": "true"
+						}
+					}
+				}
+			}
         }
     }
 }

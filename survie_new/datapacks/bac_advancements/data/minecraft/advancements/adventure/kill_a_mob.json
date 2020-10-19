@@ -282,6 +282,14 @@
           "type": "minecraft:wither"
         }
       }
+    },
+    "minecraft:piglin_brute": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin_brute"
+        }
+      }
     }
   },
   "requirements": [
@@ -319,7 +327,8 @@
       "minecraft:zoglin",
       "minecraft:elder_guardian",
       "minecraft:ender_dragon",
-      "minecraft:wither"
+      "minecraft:wither",
+      "minecraft:piglin_brute"
     ]
   ]
 }

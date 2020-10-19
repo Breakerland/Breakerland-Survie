@@ -78,6 +78,18 @@ scoreboard players add @a bac_loser 1
 execute as @a[scores={bac_loser_death=1..}] run function blazeandcave:loser_death
 
 
+# # Loser! (Hardcore Mod) (loser_hurt function is only in Hardcore mod)
+# If the player has taken damage they have a score added
+execute as @a[scores={bac_loser_hurt=1..}] run function blazeandcave:loser_hurt
+
+# # Half-Heart Life
+# If the player is on half a heart of health they have a score added. Once this score reaches 60 they get the advancement
+execute as @a if score @s bac_health matches 1 run function blazeandcave:half_heart_life
+
+# If the player is not on half a heart the score is reset
+execute as @a unless score @s bac_health matches 1 run scoreboard players set @s bac_hh_life 0
+
+
 # # Art Gallery
 # If a player places a painting checks all paintings within 8 blocks
 execute as @a[scores={bac_painting=1..}] at @s run function blazeandcave:check_paintings

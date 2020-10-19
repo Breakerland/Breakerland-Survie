@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:totem_of_undying"
+        },
+        "title": {"translate":"Dead Really Don’t Die"},
+        "description": {"translate":"Give a zombie a Totem... so that you have to kill it twice"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:combat/zombie_slayer",
+    "rewards": {
+        "function": "bc_rewards:combat/dead_really_dont_die"
+    },
+	"criteria": {
+		"totem_of_undying": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"item": "minecraft:totem_of_undying"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:zombie"
+						}
+					}
+				]
+			}
+		}
+	}
+}

@@ -3,35 +3,35 @@ Categories:
   weapons_armor:
     name: '&c&lArmes'
     lore:
-    - '&7Ici tu peux crée toutes'
+    - '&7Ici tu peux créer toutes'
     - '&7les meilleures armes.'
     slot: 11
     id: STONE_SWORD
   matos:
     name: '&7&lMatériaux'
     lore:
-    - '&7Ici tu peux crée des'
+    - '&7Ici tu peux créer des'
     - '&7matériaux uniques.'
     slot: 33
     id: STICK
   outils:
     name: '&c&lOutils'
     lore:
-    - '&7Ici tu peux crée tous'
+    - '&7Ici tu peux créer tous'
     - '&7les meilleurs outils.'
     slot: 15
     id: STONE_PICKAXE
   armures:
     name: '&2&lArmures'
     lore:
-    - '&7Ici tu peux crée toutes'
+    - '&7Ici tu peux créer toutes'
     - '&7les meilleures armures.'
     slot: 13
     id: IRON_CHESTPLATE
   pierres:
     name: '&3&lPierres Précieuse'
     lore:
-    - '&7Ici tu peux crée toutes'
+    - '&7Ici tu peux créer toutes'
     - '&7les pierre préciseuse.'
     slot: 29
     id: DIAMOND
@@ -40,15 +40,24 @@ Categories:
     lore: 
     - '&7Pour t''équiper,'
     - '&7fait /artefact.'
-    slot: 22
+    slot: 21
     id: NETHER_STAR
   consommable:
     name: '&6&lConsommables'
     lore: 
-    - '&7Ici tu peux crée pleins'
+    - '&7Ici tu peux créer pleins'
     - '&7de consommables utiles.'
     slot: 31
     id: GOLDEN_APPLE
+  backpack:
+    name: '&5&lSac à dos'
+    lore: 
+    - '&7Viens confectionner'
+    - '&7ton sac à dos pour'
+    - '&7partir à l''aventure!'
+    slot: 23
+    id: PLAYER_HEAD
+    skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0
 #  christmas:
 #    name: '&4&lJoyeux Noël !'
 #    lore:
@@ -120,7 +129,7 @@ Inventory:
     name: '&6Informations'
     lore:
     - '&7Choisi une des catégories'
-    - '&7pour crée des objets unique!'
+    - '&7pour créer des objets unique!'
     slot: 40
     id: LEVER
   '20':

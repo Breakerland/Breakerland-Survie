@@ -23,7 +23,7 @@
 								"type": "minecraft:custom",
 								"stat": "minecraft:jump",
 								"value": {
-									"min": 10000
+									"min": 100000
 								}
 							}
 						]

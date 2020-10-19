@@ -18,6 +18,9 @@ tag @e[type=spider,tag=!spider_jockey,nbt={Passengers:[{id:"minecraft:skeleton"}
 # Gives Zombified Piglins riding a Strider a unique tag for the "This One's Mine!" advancement. Those that don't have one are given a different tag so they aren't checked anymore
 execute as @e[type=strider,tag=!zp_ridden,tag=!not_zp_ridden] at @s run function blazeandcave:strider_check
 
+# Gives mobs that are riding a Chicken a unique tag for the "Poultry Boy" advancement. Those that don't have one are given a different tag so they aren't checked anymore (Disabled since this advancement was cut again)
+#execute as @e[type=chicken,tag=!cj_ridden,tag=!not_cj_ridden] at @s run function blazeandcave:chicken_check
+
 # Gives baby zombie variants the 'baby' tag if they are a baby (Used for the "Family Reunion" advancement)
 execute as @e[type=#minecraft:zombies,tag=!bac_baby] run tag @s[nbt={IsBaby:1b}] add bac_baby
 

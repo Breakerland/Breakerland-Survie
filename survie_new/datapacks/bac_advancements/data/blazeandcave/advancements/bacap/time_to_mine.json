@@ -60,6 +60,16 @@
                     }
                 ]
             }
+        },
+        "netherite_pickaxe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:netherite_pickaxe"
+                    }
+                ]
+            }
         }
     },
     "requirements": [
@@ -68,7 +78,8 @@
         "stone_pickaxe",
 		"iron_pickaxe",
 		"diamond_pickaxe",
-		"golden_pickaxe"
+		"golden_pickaxe",
+		"netherite_pickaxe"
 		]
     ]
 }

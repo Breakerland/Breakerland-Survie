@@ -84,12 +84,12 @@ meta-formatting:
     end-spacer: ''
   suffix:
     format:
-    - highest
+    - highest_on_track_special
     duplicates: first-only
     start-spacer: ''
     middle-spacer: ''
     end-spacer: ''
-inheritance-traversal-algorithm: depth-first-pre-order
+inheritance-traversal-algorithm: breadth-first
 include-global: true
 include-global-world: true
 apply-global-groups: true

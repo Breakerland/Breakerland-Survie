@@ -612,6 +612,18 @@
 					}
 				}
 			}
+        },
+		"unmasked": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:farming/unmasked": "true"
+						}
+					}
+				}
+			}
         }
     }
 }

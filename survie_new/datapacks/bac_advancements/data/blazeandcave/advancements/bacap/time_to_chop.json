@@ -60,6 +60,16 @@
                     }
                 ]
             }
+        },
+        "netherite_axe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:netherite_axe"
+                    }
+                ]
+            }
         }
     },
     "requirements": [
@@ -68,7 +78,8 @@
         "stone_axe",
 		"iron_axe",
 		"diamond_axe",
-		"golden_axe"
+		"golden_axe",
+		"netherite_axe"
 		]
     ]
 }

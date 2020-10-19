@@ -1,2 +1,5 @@
 execute if score reward bac_settings matches 1 run tellraw @s {"color":"blue","text":" +500 Experience"}
 scoreboard players add @s bac_advancements 1
+
+execute if score trophy bac_settings matches 1 run give @s minecraft:totem_of_undying{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":\"false\",\"bold\":\"true\",\"color\":\"#EADB84\",\"translate\":\"Totem of Immortality\"}",Lore:["{\"color\":\"#EADB84\",\"translate\":\"You'll be immortal as long as you don't die\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":\"false\",\"color\":\"red\",\"translate\":\"Immortal\"}"]}} 1
+execute if score trophy bac_settings matches 1 run tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Totem of Immortality"}]}

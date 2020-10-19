@@ -7,9 +7,9 @@
 #    \_____|_|\__|_/___\___|_| |_|___/ |____/ \___/ \___/|_|\_\___/   #
 #                                                                     #
 version: 8
-metrics: true
-update_check: true
-auto_update: true
+metrics: false
+update_check: false
+auto_update: false
 lang:
   header: '&f[&6CitizensBooks&f] &r'
   no_permission: '&cYou don''''t have permission!'

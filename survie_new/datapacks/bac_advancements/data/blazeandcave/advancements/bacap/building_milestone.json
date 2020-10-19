@@ -888,6 +888,30 @@
 					}
 				}
 			}
+        },
+		"one_pickle_two_pickle_sea_pickle_four": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/one_pickle_two_pickle_sea_pickle_four": "true"
+						}
+					}
+				}
+			}
+        },
+		"harry_potter": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/harry_potter": "true"
+						}
+					}
+				}
+			}
         }
     }
 }

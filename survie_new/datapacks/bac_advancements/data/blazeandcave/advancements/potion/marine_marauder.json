@@ -12,11 +12,23 @@
 		"function": "bc_rewards:potion/marine_marauder"
     },		
     "criteria": {
-        "potion": {
+        "water_breathing": {
             "trigger": "minecraft:brewed_potion",
             "conditions": {
                 "potion": "minecraft:water_breathing"
             }
+        },
+		"long_water_breathing": {
+            "trigger": "minecraft:brewed_potion",
+            "conditions": {
+                "potion": "minecraft:long_water_breathing"
+            }
         }
-    }
+    },
+	"requirements": [
+		[
+			"water_breathing",
+			"long_water_breathing"
+		]
+	]
 }

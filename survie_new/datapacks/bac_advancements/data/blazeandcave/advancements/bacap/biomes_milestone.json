@@ -576,6 +576,30 @@
 					}
 				}
 			}
+        },
+		"echolocation": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:biomes/echolocation": "true"
+						}
+					}
+				}
+			}
+        },
+		"lion_hunter": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:biomes/lion_hunter": "true"
+						}
+					}
+				}
+			}
         }
     }
 }

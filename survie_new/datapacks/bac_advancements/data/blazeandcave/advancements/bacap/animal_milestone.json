@@ -1092,6 +1092,90 @@
 					}
 				}
 			}
+        },
+		"delicious_fish": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:animal/delicious_fish": "true"
+						}
+					}
+				}
+			}
+        },
+		"milkshroom": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:animal/milkshroom": "true"
+						}
+					}
+				}
+			}
+        },
+		"live_and_let_dye": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:animal/live_and_let_dye": "true"
+						}
+					}
+				}
+			}
+        },
+		"foxy_thievery": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:animal/foxy_thievery": "true"
+						}
+					}
+				}
+			}
+        },
+		"lead_the_way": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:animal/lead_the_way": "true"
+						}
+					}
+				}
+			}
+        },
+		"beeloons": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:animal/beeloons": "true"
+						}
+					}
+				}
+			}
+        },
+		"leader_of_the_animals": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:animal/leader_of_the_animals": "true"
+						}
+					}
+				}
+			}
         }
     }
 }

@@ -1,0 +1,74 @@
+# Amount of rows
+rows: 1
+alias: debug
+# Title of the GUI
+title: '&2Debug grade'
+# List of GUI slot
+0:
+  item: 'GRAY_STAINED_GLASS_PANE 1 title:&5Grade_Survivant'
+  click:
+    action:
+      scommand: 'luckperms:lp user {player} parent set default $server_name '
+      message: '&6Vous faites partie du groupe &eSurvivant&6!'
+1:
+  item: 'PURPLE_STAINED_GLASS_PANE 1 title:&5Grade_Aventurier'
+  click:
+    action:
+      scommand: 'luckperms:lp user {player} parent set aventurier $server_name '
+      message: '&6Vous faites partie du groupe &eAventurier&6!'
+2:
+  item: 'MAGENTA_STAINED_GLASS_PANE 1 title:&5Grade_Baron'
+  click:
+    action:
+      scommand: 'luckperms:lp user {player} parent set chevalier $server_name '
+      message: '&6Vous faites partie du groupe &eBaron&6!'
+3:
+  item: 'BLUE_STAINED_GLASS_PANE 1 title:&5Grade_Duc'
+  click:
+    action:
+      scommand: 'luckperms:lp user {player} parent set duc $server_name '
+      message: '&6Vous faites partie du groupe &eDuc&6!'
+4:
+  item: 'LIGHT_BLUE_STAINED_GLASS_PANE 1 title:&5Grade_Comte'
+  click:
+    action:
+      scommand: 'luckperms:lp user {player} parent set comte $server_name '
+      message: '&6Vous faites partie du groupe &eComte&6!'
+5:
+  item: 'LIME_STAINED_GLASS_PANE 1 title:&5Grade_Marquis'
+  click:
+    action:
+      scommand: 'luckperms:lp user {player} parent set marquis $server_name '
+      message: '&6Vous faites partie du groupe &eMarquis&6!'
+6:
+  item: 'GREEN_STAINED_GLASS_PANE 1 title:&5Grade_Héro'
+  click:
+    action:
+      scommand: 'luckperms:lp user {player} parent set héro $server_name '
+      message: '&6Vous faites partie du groupe &eHéro&6!'
+8:
+  item: 'BARRIER 1 title:&cQuitter'
+  click:
+    action:
+      close: true
+
+# item:        -- ItemStack icon.
+# keep-open:   -- If menu stay open after action.
+#
+# action/right/left:
+#   open:        -- Name of the other menu to open. It must be defined in "menus" folder.
+#   close:       -- Close opened menu.
+#   message:     -- Send player message.
+#   broadcast:   -- Broadcast message.
+#   pcommand:    -- Execute player command.
+#   scommand:    -- Execute server command.
+#
+# permission:  -- Permission needed to execute action.
+#
+# KIT ACTION
+# kit:         -- Buy level or next level of the player kit if it isn't specified
+#
+# BUY ACTION
+# buy:         -- Buy action is to purchased certains items
+#   price:     -- Price of the purchased (no price defined = 0)
+#   items:     -- List of items purchased (itemstack, level kit or command -> See kit example)

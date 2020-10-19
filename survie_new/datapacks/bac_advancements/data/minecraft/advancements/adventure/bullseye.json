@@ -17,16 +17,20 @@
             "trigger": "minecraft:target_hit",
             "conditions": {
                 "signal_strength": 15,
-				"projectile": {
-					"type": "minecraft:arrow"
-				},
-				"shooter": {
-					"distance": {
-						"horizontal": {
-							"min": 30
+				"projectile": [
+					{
+						"type": "minecraft:arrow",
+						"entity": "this",
+						"condition": "minecraft:entity_properties",
+							"predicate": {
+								"distance": {
+									"horizontal": {
+									"min": 30.0
+								}
+							}
 						}
 					}
-				}
+				]
             }
         }
     }

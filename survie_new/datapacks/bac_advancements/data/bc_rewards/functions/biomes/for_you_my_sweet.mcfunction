@@ -1,3 +1,5 @@
-execute if score reward bac_settings matches 1 run tellraw @s {"color":"light_purple","text":" A blessing in love"}
-execute if score reward bac_settings matches 1 run particle heart ~ ~1 ~ 1 1 1 1 100
+execute if score trophy bac_settings matches 1 run particle heart ~ ~1 ~ 1 1 1 1 100
 scoreboard players add @s bac_advancements 1
+
+execute if score trophy bac_settings matches 1 run give @s minecraft:poppy{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":\"false\",\"bold\":\"true\",\"color\":\"light_purple\",\"translate\":\"A blessing in love\"}",Lore:["{\"color\":\"light_purple\",\"translate\":\"Face your fears and ask your crush out!\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":\"false\",\"color\":\"light_purple\",\"translate\":\"For you, my sweet\"}"]}} 1
+execute if score trophy bac_settings matches 1 run tellraw @s {"color":"light_purple","text":" +1 ","extra":[{"translate":"A blessing in love"}]}

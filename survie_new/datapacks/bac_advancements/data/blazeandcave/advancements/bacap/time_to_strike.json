@@ -60,6 +60,16 @@
                     }
                 ]
             }
+        },
+        "netherite_sword": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:netherite_sword"
+                    }
+                ]
+            }
         }
     },
     "requirements": [
@@ -68,7 +78,8 @@
         "stone_sword",
 		"iron_sword",
 		"diamond_sword",
-		"golden_sword"
+		"golden_sword",
+		"netherite_sword"
 		]
     ]
 }

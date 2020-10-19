@@ -1,0 +1,185 @@
+VoteSites:
+  # minecraft-top.com
+  minecraft-top:
+    Enabled: true
+    Name: 'Minecraft-top.com'
+    ServiceSite: 'minecraft-top.com'
+    VoteURL: 'https://minecraft-top.com/vote/73'
+    VoteDelayMin: 90
+    Priority: 2
+    DisplayItem:
+      Material: 'ORANGE_CONCRETE'
+      Amount: 1
+      Lore:
+      - '&8Vous pouvez voter toutes les &e&l1h30'
+  # liste-serveur.fr
+  liste-serveur:
+    Enabled: true
+    Name: 'Liste-serveur.fr'
+    ServiceSite: 'liste-serveur.fr'
+    VoteURL: 'https://www.liste-serveur.fr/serveurs/minecraft/breakerland-9580/voter'
+    VoteDelay: 3
+    Priority: 1
+    DisplayItem:
+      Material: 'WHITE_CONCRETE'
+      Amount: 1
+      Lore:
+      - '&8Vous pouvez voter toutes les &e&l3h'
+  # liste-serv-minecraft.fr
+  liste-serv-minecraft:
+    Enabled: true
+    Name: 'Liste-serv-minecraft.fr'
+    ServiceSite: 'liste-serv-minecraft.fr'
+    VoteURL: 'https://liste-serv-minecraft.fr/serveur.php?id=313'
+    VoteDelay: 3
+    Priority: 1
+    DisplayItem:
+      Material: 'MAGENTA_CONCRETE'
+      Amount: 1
+      Lore:
+      - '&8Vous pouvez voter toutes les &e&l3h'
+  # liste-serveurs-minecraft.org
+  liste-serveurs-minecraft:
+    Enabled: true
+    Name: 'Liste-serveurs-minecraft.org'
+    ServiceSite: 'liste-serveurs-minecraft.org'
+    VoteURL: 'https://www.liste-serveurs-minecraft.org/serveur-minecraft/serveur-minecraft-breakerland/'
+    VoteDelay: 3
+    Priority: 1
+    DisplayItem:
+      Material: 'LIGHT_BLUE_CONCRETE'
+      Amount: 1
+      Lore:
+      - '&8Vous pouvez voter toutes les &e&l3h'
+  # minecraft-serveur.fr
+  minecraft-serveur:
+    Enabled: true
+    Name: 'Minecraft-serveur.fr'
+    ServiceSite: 'minecraft-serveur.fr'
+    VoteURL: 'https://minecraft-serveur.fr/server-breakerland.1362'
+    VoteDelay: 3
+    Priority: 1
+    DisplayItem:
+      Material: 'YELLOW_CONCRETE'
+      Amount: 1
+      Lore:
+      - '&8Vous pouvez voter toutes les &e&l3h'
+  liste-serveurs:
+    Enabled: true
+    Name: 'Liste-serveurs.fr'
+    Priority: 1
+    ServiceSite: 'liste-serveurs.fr'
+    VoteURL: 'https://www.liste-serveurs.fr/server-breakerland.54'
+    VoteDelay: 3
+    DisplayItem:
+      Material: 'LIME_CONCRETE'
+      Amount: 1
+      Lore:
+      - '&8Vous pouvez voter toutes les &e&l3h'
+  # Serveur-prive.net
+  serveur-prive:
+    Enabled: true
+    Name: 'Serveur-prive.net'
+    ServiceSite: 'serveur-prive.net'
+    VoteURL: 'https://serveur-prive.net/minecraft/breakerland-1868'
+    VoteDelay: 24
+    Priority: 0
+    DisplayItem:
+      Material: 'PINK_CONCRETE'
+      Amount: 1
+      Lore:
+      - '&8Vous pouvez voter toutes les &e&l24h'
+  # serveursminecraft.org
+  serveursminecraft:
+    Enabled: true
+    Name: 'Serveursminecraft.org'
+    ServiceSite: 'serveursminecraft.org'
+    VoteURL: 'https://www.serveursminecraft.org/serveur/3458/'
+    VoteDelay: 24
+    Priority: 0
+    DisplayItem:
+      Material: 'GRAY_CONCRETE'
+      Amount: 1
+  # serveur-minecraft.fr
+  serveur-minecraft:
+    Enabled: true
+    Name: 'Serveur-minecraft.fr'
+    ServiceSite: 'serveur-minecraft.fr'
+    VoteURL: 'https://serveur-minecraft.fr/server-breakerland.97'
+    VoteDelay: 24
+    Priority: 0
+    DisplayItem:
+      Material: 'LIGHT_GRAY_CONCRETE'
+      Amount: 1
+      Lore:
+      - '&8Vous pouvez voter toutes les &e&l24h'
+  # rpg-paradize.com
+  rpg-paradize:
+    Enabled: true
+    Name: 'RPG-paradize.com'
+    ServiceSite: 'rpg-paradize.com'
+    VoteURL: 'https://www.rpg-paradize.com/?page=vote&vote=112416'
+    VoteDelay: 24
+    Priority: 0
+    DisplayItem:
+      Material: 'CYAN_CONCRETE'
+      Amount: 1
+      Lore:
+      - '&8Vous pouvez voter toutes les &e&l24h'
+  # bedrock.serveurs-minecraft.org
+  bedrock.serveurs-minecraft:
+    Enabled: true
+    Name: 'Bedrock - Serveurs-minecraft.org'
+    ServiceSite: 'bedrock.serveurs-minecraft.org'
+    VoteURL: 'https://bedrock.serveurs-minecraft.org/vote.php?id=30'
+    VoteDelay: 24
+    Priority: 0
+    DisplayItem:
+      Material: 'PURPLE_CONCRETE'
+      Amount: 1
+      Lore:
+      - '&8Vous pouvez voter toutes les &e&l24h'
+  # serveurs-minecraft.org
+  serveurs-minecraft:
+    Enabled: true
+    Name: 'Java - Serveurs-minecraft.org'
+    ServiceSite: 'serveurs-minecraft.org'
+    VoteURL: 'https://www.serveurs-minecraft.org/vote.php?id=57264'
+    VoteDelay: 24
+    Priority: 0
+    DisplayItem:
+      Material: 'BLUE_CONCRETE'
+      Amount: 1
+      Lore:
+      - '&8Vous pouvez voter toutes les &e&l24h'
+  # topg.org
+  topg:
+    Enabled: true
+    Name: 'Topg.org'
+    ServiceSite: 'topg.org'
+    VoteURL: 'https://topg.org/fr/Minecraft/server-520668'
+    VoteDelay: 24
+    Priority: 0
+    DisplayItem:
+      Material: 'BROWN_CONCRETE'
+      Amount: 1
+      Lore:
+      - '&8Vous pouvez voter toutes les &e&l24h'
+  # liste-minecraft-serveurs.com
+  liste-minecraft-serveurs:
+    Enabled: true
+    Name: 'Liste-minecraft-serveurs.com'
+    ServiceSite: 'liste-minecraft-serveurs.com'
+    VoteURL: 'https://www.liste-minecraft-serveurs.com/Serveur/288'
+    VoteDelay: 24
+    Priority: 0
+    DisplayItem:
+      Material: 'GREEN_CONCRETE'
+      Amount: 1
+      Lore:
+      - '&8Vous pouvez voter toutes les &e&l24h'
+
+# Reward for any site
+# Similar to AnySiteReward
+# This requires the site to be configured in order to get the reward.
+EverySiteReward: 'main'

@@ -8,7 +8,7 @@
         "description": {"translate":"Kill a witch with a splash potion"},
 		"frame": "challenge"
     },
-    "parent": "blazeandcave:combat/witch",
+    "parent": "blazeandcave:combat/miracle_drink",
 	"rewards": {
 		"experience": 50,
 		"function": "bc_rewards:combat/taste_of_your_own_medicine"

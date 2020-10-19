@@ -16,6 +16,25 @@
             "conditions": {
                 "potion": "minecraft:strength"
             }
+        },
+        "long_strength": {
+            "trigger": "minecraft:brewed_potion",
+            "conditions": {
+                "potion": "minecraft:long_strength"
+            }
+        },
+        "strong_strength": {
+            "trigger": "minecraft:brewed_potion",
+            "conditions": {
+                "potion": "minecraft:strong_strength"
+            }
         }
-    }
+    },
+	"requirements": [
+		[
+			"strength",
+			"long_strength",
+			"strong_strength"
+		]
+	]
 }

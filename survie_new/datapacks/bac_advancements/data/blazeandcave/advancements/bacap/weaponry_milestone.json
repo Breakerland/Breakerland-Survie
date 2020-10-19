@@ -97,13 +97,13 @@
 				}
 			}
         },
-		"diamonds_to_you": {
+		"diemonds": {
             "trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
 					"player": {
 						"advancements": {
-							"blazeandcave:weaponry/diamonds_to_you": "true"
+							"blazeandcave:weaponry/diemonds": "true"
 						}
 					}
 				}
@@ -512,6 +512,18 @@
 					"player": {
 						"advancements": {
 							"blazeandcave:weaponry/who_ya_gonna_call": "true"
+						}
+					}
+				}
+			}
+        },
+		"half_heart_life": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:weaponry/half_heart_life": "true"
 						}
 					}
 				}

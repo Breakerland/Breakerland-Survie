@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:fishing_rod"
+        },
+        "title": {"translate":"Lava Fishing"},
+        "description": {"translate":"Reel in a Strider using a Fishing Rod"}
+    },
+    "parent": "blazeandcave:nether/what_a_fungi",
+	"rewards": {
+		"function": "bc_rewards:weaponry/lava_fishing"
+    },		
+    "criteria": {
+        "pig": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:strider"
+                }
+            }
+        }
+    }
+}

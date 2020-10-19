@@ -2,3 +2,6 @@ execute if score reward bac_settings matches 1 run give @s minecraft:emerald 32
 execute if score reward bac_settings matches 1 run tellraw @s {"color":"green","text":" +32 Emeralds"}
 execute if score reward bac_settings matches 1 run tellraw @s {"color":"blue","text":" +100 Experience"}
 scoreboard players add @s bac_advancements 1
+
+execute if score trophy bac_settings matches 1 run give @s minecraft:shield{CustomModelData:131,HideFlags:38,Unbreakable:1,display:{Name:"{\"italic\":\"false\",\"bold\":\"true\",\"color\":\"gold\",\"translate\":\"Ominous Shield\"}",Lore:["{\"color\":\"gold\",\"translate\":\"This shield certifies your rank as a \"}","{\"color\":\"gold\",\"translate\":\"Pillager of the Arch-Illager's forces\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":\"false\",\"color\":\"light_purple\",\"translate\":\"You are the Pillager\"}"]},BlockEntityTag:{Patterns:[{Pattern:"mr",Color:9},{Pattern:"bs",Color:8},{Pattern:"cs",Color:7},{Pattern:"bo",Color:8},{Pattern:"ms",Color:15},{Pattern:"hh",Color:8},{Pattern:"mc",Color:8},{Pattern:"bo",Color:15}]}} 1
+execute if score trophy bac_settings matches 1 run tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Ominous Shield"}]}

@@ -6,7 +6,7 @@
         "title": {"translate":"This Boat Has Legs"},
         "description": {"translate":"Ride a Strider with a Warped Fungus on a Stick"}
     },
-    "parent": "blazeandcave:nether/what_a_fungi",
+    "parent": "blazeandcave:nether/lava_fishing",
 	"rewards": {
 		"function": "bc_rewards:nether/this_boat_has_legs"
     },	

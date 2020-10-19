@@ -1032,6 +1032,54 @@
 					}
 				}
 			}
+        },
+		"brute_force": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:nether/brute_force": "true"
+						}
+					}
+				}
+			}
+        },
+		"et_tu_brute": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:nether/et_tu_brute": "true"
+						}
+					}
+				}
+			}
+        },
+		"lava_fishing": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:nether/lava_fishing": "true"
+						}
+					}
+				}
+			}
+        },
+		"nether_rock_collection": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:nether/nether_rock_collection": "true"
+						}
+					}
+				}
+			}
         }
     }
 }
