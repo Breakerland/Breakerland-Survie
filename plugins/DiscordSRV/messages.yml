@@ -16,6 +16,24 @@
 #                    example: &4
 # %name%:           person's effective name on Discord (nickname if present, username otherwise)
 #                    example: NotchIsMe
+# %username%:       person's username on Discord# Discord -> Minecraft message
+#
+# DiscordToMinecraftChatMessageFormat: the format used when sending messages from Discord to Minecraft
+# DiscordToMinecraftChatMessageFormatNoRole: the format used when sending messages from Discord to Minecraft when the person doesn't have any roles
+#
+# Available placeholders:
+# %allroles%:       all of the person's roles combined with DiscordToMinecraftAllRolesSeparator between them all
+#                    example: Owner | Developer | Boss man
+# %message%:        message content
+#                    example: Hello!
+# %toprole%:        person's highest ranking role
+#                    example: Owner
+# %toproleinitial%: first letter of the person's highest ranking role
+#                    example: O
+# %toprolecolor%:   approximate color of person's highest ranking role, definitions for this at DiscordChatChannelColorTranslations in config.yml
+#                    example: &4
+# %name%:           person's effective name on Discord (nickname if present, username otherwise)
+#                    example: NotchIsMe
 # %username%:       person's username on Discord
 #                    example: Notch
 # %channelname%:    name of the channel that the message is coming from
@@ -37,6 +55,10 @@ DiscordToMinecraftAllRolesSeparator: ""
 # %username%:     raw player username
 #                  example: jeb_
 # %displayname%:  display name from things like nicknames
+#                  example: BigBossManJeb
+# %usernamenoescapes%:     raw player username without escaping discord format (for use in inline code & code block markdown)
+#                  example: jeb_
+# %displaynamenoescapes%:  display name from things like nicknames without escaping discord format (for use in inline code & code block markdown)
 #                  example: BigBossManJeb
 # %message%:      message content
 #                  example: Hello!
@@ -152,6 +174,8 @@ DiscordChatChannelListCommandAllPlayersSeparator: ", "
 # Available placeholders for PlayerJoin/PlayerFirstJoin/PlayerLeave/PlayerDeath/PlayerAchievement:
 # %displayname%:         display name from things like nicknames
 # %username%:            raw player username
+# %displaynamenoescapes%:         display name from things like nicknames without escaping discord format (for use in inline code & code block markdown)
+# %usernamenoescapes%:            raw player username without escaping discord format (for use in inline code & code block markdown)
 # %date%:                current date & time
 # %embedavatarurl%:      the user's avatar
 # %botavatarurl%:        the bot's avatar
