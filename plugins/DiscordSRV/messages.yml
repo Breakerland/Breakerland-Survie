@@ -347,8 +347,8 @@ DiscordCommandFormat: "&7Rejoignez Discord en cliquant sur {INVITE} . Pour obten
 # DiscordChatChannelServerStartupMessage: message to be sent when server starts; leave blank to disable
 # DiscordChatChannelServerShutdownMessage: message to be sent when server shuts down; leave blank to disable
 #
-DiscordChatChannelServerStartupMessage: ":white_check_mark: **Le serveur $server_name vient de démarrer**"
-DiscordChatChannelServerShutdownMessage: ":octagonal_sign: **Le serveur $server_name vient de s'arrêter**"
+DiscordChatChannelServerStartupMessage: ":white_check_mark: **Le serveur $server_name_survie vient de démarrer**"
+DiscordChatChannelServerShutdownMessage: ":octagonal_sign: **Le serveur $server_name_survie vient de s'arrêter**"
 
 # Server watchdog message
 #
