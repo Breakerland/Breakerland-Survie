@@ -3,6 +3,7 @@ Available languages:
 en_US: English - UNITED STATES OF AMERICA
 cs_CZ: Czech - CZECHIA
 de_DE: German - GERMANY
+es_ES: Spanish - SPAIN
 es_MX: Spanish - MEXICO
 fr_FR: French - FRANCE
 he_IL: Hebrew - ISRAEL

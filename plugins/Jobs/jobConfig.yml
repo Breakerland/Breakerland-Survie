@@ -30,7 +30,7 @@ Jobs:
     - '  &7Planting trees'
     - '  &7Cutting down trees'
     - '  &7Killing players'
-    # The colour of the name, for a full list of supported colours, go to the message config.
+    # The colour of the name, for a full list of supported colours, go to the message config. Hex color codes are supported as of 1.16 minecraft version. Example: {#6600cc} or {#Brown}
     ChatColour: GREEN
     # [OPTIONAL] The colour of the boss bar: GREEN, BLUE, RED, WHITE, YELLOW, PINK, PURPLE.
     BossBarColour: WHITE
@@ -83,15 +83,17 @@ Jobs:
     rejoinCooldown: 10
     # GUI icon information when using GUI function
     Gui:
+      # You can use the custom player head:
+      # Item: player_head
+      #   CustomSkull: Notch
+
       # Name of the material
       Item: LOG:2
       # Enchants of the item
       Enchantments:
       - DURABILITY:1
-    # You can use the custom player head:
-    # Item: player_head
-    #   CustomSkull: Notch
-
+      # Slot number to show the item in the specified row
+      slot: 5
     # Defines maximum amount of daily quests player can have from THIS job
     # This will not have effect on overall quest amount player will have
     maxDailyQuests: 3
@@ -2806,7 +2808,7 @@ Jobs:
       enchanting_table:
         income: 98.0
         points: 98.0
-        experience: 98.0	
+        experience: 98.0
       lodestone:
         income: 30.0
         points: 30.0

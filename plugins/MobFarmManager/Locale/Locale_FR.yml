@@ -25,8 +25,9 @@ info:
   ArmorStandlLimit: '&6You cant place armor stand in this chunk. Max alowed is &e[amount]&6!'
   ItemFrameLimit: '&6You cant place item frame in this chunk. Max alowed is &e[amount]&6!'
   WolfCount: '&cTo many wolfs following you, &7[amount] &cgot seated down'
-  BlockLimit: '&cTo many [type] blocks in one chunk, &7You can only place &e[amount]
-    &7of them'
+  BlockLimit: '&cVous avez atteint la limite de &e[amount] &c[type] blocs dans ce
+    chunk. Veuillez considérer l''utilisation de système alternatif comme le flux
+    d''eau pour remplacer les hoppers.'
   cleanup: '&7Auto cleaned entities: &e[amount]'
 command:
   help:
@@ -58,9 +59,8 @@ command:
       info: '&2List chunks with most entities in them'
       args: '&3(range)'
     info:
-      RemovedList: '&6[target](&e[amount]&6)'
-      Removed: '&6Removed: [list]!'
-      List: '&e[place]. &6[x]&e:&6[z] &e(&6[amount]&e)'
+      ListP: '&e[place]. &6[x]&e:&6[z] &6Inside: &e[amount]'
+      around: ' &6Around: &7[near]'
       Command: /tppos [x] [y] [z] [world]
       Hover: '&6Teleport: &e[world]:[x]:[y]:[z]'
   hoppers:

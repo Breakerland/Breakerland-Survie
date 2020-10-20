@@ -1,0 +1,13 @@
+modify: true
+
+balance:
+  armorstand: |-
+    &6[TOP_PLACE]# [TOP_PLAYER]
+    &e[TOP_VALUE]
+  command: |-
+    &6-- Money Top --
+    &6#1. [TOP_PLAYER_1]: [TOP_VALUE_1]
+    &6#2. [TOP_PLAYER_2]: [TOP_VALUE_2]
+    &6#3. [TOP_PLAYER_3]: [TOP_VALUE_3]
+    &6#4. [TOP_PLAYER_4]: [TOP_VALUE_4]
+    &6#5. [TOP_PLAYER_5]: [TOP_VALUE_5]

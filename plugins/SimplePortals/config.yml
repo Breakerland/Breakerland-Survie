@@ -8,14 +8,10 @@ vehicle-teleportation: true
 use-portal-cooldown: true
 portal-cooldown-duration: 0
 throw-velocity: 1.35
-#teleport-sound: GHAST_CHARGE
-#teleport-visual-effect: CLOUD
-#selection-visual-effect: REDSTONE
-#region-visual-effect: REDSTONE
-teleport-sound: ""
-teleport-visual-effect: ""
-selection-visual-effect: ""
-region-visual-effect: ""
+teleport-sound: ''
+teleport-visual-effect: ''
+selection-visual-effect: ''
+region-visual-effect: ''
 selection-visual-duration: 10
 region-visual-duration: 20
 creature-spawning-blacklist:
@@ -25,3 +21,4 @@ creature-spawning-blacklist:
 block-creative-portal-entrance: false
 join-protection: true
 join-protection-cooldown: 5
+command-tick-delay: 5

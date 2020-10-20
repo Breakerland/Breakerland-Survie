@@ -140,3 +140,5 @@ item-pickups: true
 # Track all hopper transactions, such as when a hopper removes items from a
 # chest, furnace, or dispenser.
 hopper-transactions: true
+
+hover-events: false

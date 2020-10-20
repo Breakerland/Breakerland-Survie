@@ -75,6 +75,10 @@ Items:
     Has Hologram: true
     Max Stack Size: -1
     Display Name: Allium
+  ANCIENT_DEBRIS:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Ancient debris
   ANDESITE:
     Has Hologram: true
     Max Stack Size: -1
@@ -139,6 +143,10 @@ Items:
     Has Hologram: true
     Max Stack Size: -1
     Display Name: Barrier
+  BASALT:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Basalt
   BAT_SPAWN_EGG:
     Has Hologram: true
     Max Stack Size: -1
@@ -251,6 +259,22 @@ Items:
     Has Hologram: true
     Max Stack Size: -1
     Display Name: Birch wood
+  BLACKSTONE:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Blackstone
+  BLACKSTONE_SLAB:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Blackstone slab
+  BLACKSTONE_STAIRS:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Blackstone stairs
+  BLACKSTONE_WALL:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Blackstone wall
   BLACK_BANNER:
     Has Hologram: true
     Max Stack Size: -1
@@ -583,6 +607,10 @@ Items:
     Has Hologram: true
     Max Stack Size: -1
     Display Name: Cave spider spawn egg
+  CHAIN:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Chain
   CHAINMAIL_BOOTS:
     Has Hologram: true
     Max Stack Size: -1
@@ -627,6 +655,14 @@ Items:
     Has Hologram: true
     Max Stack Size: -1
     Display Name: Chipped anvil
+  CHISELED_NETHER_BRICKS:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Chiseled nether bricks
+  CHISELED_POLISHED_BLACKSTONE:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Chiseled polished blackstone
   CHISELED_QUARTZ_BLOCK:
     Has Hologram: true
     Max Stack Size: -1
@@ -787,6 +823,14 @@ Items:
     Has Hologram: true
     Max Stack Size: -1
     Display Name: Cow spawn egg
+  CRACKED_NETHER_BRICKS:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Cracked nether bricks
+  CRACKED_POLISHED_BLACKSTONE_BRICKS:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Cracked polished blackstone bricks
   CRACKED_STONE_BRICKS:
     Has Hologram: true
     Max Stack Size: -1
@@ -811,10 +855,78 @@ Items:
     Has Hologram: true
     Max Stack Size: -1
     Display Name: Creeper wall head
+  CRIMSON_BUTTON:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Crimson button
+  CRIMSON_DOOR:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Crimson door
+  CRIMSON_FENCE:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Crimson fence
+  CRIMSON_FENCE_GATE:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Crimson fence gate
+  CRIMSON_FUNGUS:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Crimson fungus
+  CRIMSON_HYPHAE:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Crimson hyphae
+  CRIMSON_NYLIUM:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Crimson nylium
+  CRIMSON_PLANKS:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Crimson planks
+  CRIMSON_PRESSURE_PLATE:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Crimson pressure plate
+  CRIMSON_ROOTS:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Crimson roots
+  CRIMSON_SIGN:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Crimson sign
+  CRIMSON_SLAB:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Crimson slab
+  CRIMSON_STAIRS:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Crimson stairs
+  CRIMSON_STEM:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Crimson stem
+  CRIMSON_TRAPDOOR:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Crimson trapdoor
+  CRIMSON_WALL_SIGN:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Crimson wall sign
   CROSSBOW:
     Has Hologram: true
     Max Stack Size: -1
     Display Name: Crossbow
+  CRYING_OBSIDIAN:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Crying obsidian
   CUT_RED_SANDSTONE:
     Has Hologram: true
     Max Stack Size: -1
@@ -1383,6 +1495,10 @@ Items:
     Has Hologram: true
     Max Stack Size: -1
     Display Name: Ghast tear
+  GILDED_BLACKSTONE:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Gilded blackstone
   GLASS:
     Has Hologram: true
     Max Stack Size: -1
@@ -1635,6 +1751,10 @@ Items:
     Has Hologram: true
     Max Stack Size: -1
     Display Name: Heavy weighted pressure plate
+  HOGLIN_SPAWN_EGG:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Hoglin spawn egg
   HONEYCOMB:
     Has Hologram: true
     Max Stack Size: -1
@@ -2123,6 +2243,10 @@ Items:
     Has Hologram: true
     Max Stack Size: -1
     Display Name: Llama spawn egg
+  LODESTONE:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Lodestone
   LOOM:
     Has Hologram: true
     Max Stack Size: -1
@@ -2307,6 +2431,10 @@ Items:
     Has Hologram: true
     Max Stack Size: -1
     Display Name: Music disc mellohi
+  MUSIC_DISC_PIGSTEP:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Music disc pigstep
   MUSIC_DISC_STAL:
     Has Hologram: true
     Max Stack Size: -1
@@ -2339,6 +2467,54 @@ Items:
     Has Hologram: true
     Max Stack Size: -1
     Display Name: Nautilus shell
+  NETHERITE_AXE:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Netherite axe
+  NETHERITE_BLOCK:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Netherite block
+  NETHERITE_BOOTS:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Netherite boots
+  NETHERITE_CHESTPLATE:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Netherite chestplate
+  NETHERITE_HELMET:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Netherite helmet
+  NETHERITE_HOE:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Netherite hoe
+  NETHERITE_INGOT:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Netherite ingot
+  NETHERITE_LEGGINGS:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Netherite leggings
+  NETHERITE_PICKAXE:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Netherite pickaxe
+  NETHERITE_SCRAP:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Netherite scrap
+  NETHERITE_SHOVEL:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Netherite shovel
+  NETHERITE_SWORD:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Netherite sword
   NETHERRACK:
     Has Hologram: true
     Max Stack Size: -1
@@ -2367,6 +2543,10 @@ Items:
     Has Hologram: true
     Max Stack Size: -1
     Display Name: Nether brick wall
+  NETHER_GOLD_ORE:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Nether gold ore
   NETHER_PORTAL:
     Has Hologram: true
     Max Stack Size: -1
@@ -2375,6 +2555,10 @@ Items:
     Has Hologram: true
     Max Stack Size: -1
     Display Name: Nether quartz ore
+  NETHER_SPROUTS:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Nether sprouts
   NETHER_STAR:
     Has Hologram: true
     Max Stack Size: -1
@@ -2563,6 +2747,14 @@ Items:
     Has Hologram: true
     Max Stack Size: -1
     Display Name: Phantom spawn egg
+  PIGLIN_BANNER_PATTERN:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Piglin banner pattern
+  PIGLIN_SPAWN_EGG:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Piglin spawn egg
   PIG_SPAWN_EGG:
     Has Hologram: true
     Max Stack Size: -1
@@ -2667,6 +2859,50 @@ Items:
     Has Hologram: true
     Max Stack Size: -1
     Display Name: Polished andesite stairs
+  POLISHED_BASALT:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Polished basalt
+  POLISHED_BLACKSTONE:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Polished blackstone
+  POLISHED_BLACKSTONE_BRICKS:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Polished blackstone bricks
+  POLISHED_BLACKSTONE_BRICK_SLAB:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Polished blackstone brick slab
+  POLISHED_BLACKSTONE_BRICK_STAIRS:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Polished blackstone brick stairs
+  POLISHED_BLACKSTONE_BRICK_WALL:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Polished blackstone brick wall
+  POLISHED_BLACKSTONE_BUTTON:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Polished blackstone button
+  POLISHED_BLACKSTONE_PRESSURE_PLATE:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Polished blackstone pressure plate
+  POLISHED_BLACKSTONE_SLAB:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Polished blackstone slab
+  POLISHED_BLACKSTONE_STAIRS:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Polished blackstone stairs
+  POLISHED_BLACKSTONE_WALL:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Polished blackstone wall
   POLISHED_DIORITE:
     Has Hologram: true
     Max Stack Size: -1
@@ -2751,6 +2987,14 @@ Items:
     Has Hologram: true
     Max Stack Size: -1
     Display Name: Potted cornflower
+  POTTED_CRIMSON_FUNGUS:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Potted crimson fungus
+  POTTED_CRIMSON_ROOTS:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Potted crimson roots
   POTTED_DANDELION:
     Has Hologram: true
     Max Stack Size: -1
@@ -2807,6 +3051,14 @@ Items:
     Has Hologram: true
     Max Stack Size: -1
     Display Name: Potted spruce sapling
+  POTTED_WARPED_FUNGUS:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Potted warped fungus
+  POTTED_WARPED_ROOTS:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Potted warped roots
   POTTED_WHITE_TULIP:
     Has Hologram: true
     Max Stack Size: -1
@@ -2959,6 +3211,10 @@ Items:
     Has Hologram: true
     Max Stack Size: -1
     Display Name: Quartz block
+  QUARTZ_BRICKS:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Quartz bricks
   QUARTZ_PILLAR:
     Has Hologram: true
     Max Stack Size: -1
@@ -3135,6 +3391,10 @@ Items:
     Has Hologram: true
     Max Stack Size: -1
     Display Name: Repeating command block
+  RESPAWN_ANCHOR:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Respawn anchor
   ROSE_BUSH:
     Has Hologram: true
     Max Stack Size: -1
@@ -3211,6 +3471,10 @@ Items:
     Has Hologram: true
     Max Stack Size: -1
     Display Name: Shield
+  SHROOMLIGHT:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Shroomlight
   SHULKER_BOX:
     Has Hologram: true
     Max Stack Size: -1
@@ -3323,10 +3587,34 @@ Items:
     Has Hologram: true
     Max Stack Size: -1
     Display Name: Snow block
+  SOUL_CAMPFIRE:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Soul campfire
+  SOUL_FIRE:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Soul fire
+  SOUL_LANTERN:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Soul lantern
   SOUL_SAND:
     Has Hologram: true
     Max Stack Size: -1
     Display Name: Soul sand
+  SOUL_SOIL:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Soul soil
+  SOUL_TORCH:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Soul torch
+  SOUL_WALL_TORCH:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Soul wall torch
   SPAWNER:
     Has Hologram: true
     Max Stack Size: -1
@@ -3491,6 +3779,10 @@ Items:
     Has Hologram: true
     Max Stack Size: -1
     Display Name: Stray spawn egg
+  STRIDER_SPAWN_EGG:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Strider spawn egg
   STRING:
     Has Hologram: true
     Max Stack Size: -1
@@ -3511,6 +3803,14 @@ Items:
     Has Hologram: true
     Max Stack Size: -1
     Display Name: Stripped birch wood
+  STRIPPED_CRIMSON_HYPHAE:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Stripped crimson hyphae
+  STRIPPED_CRIMSON_STEM:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Stripped crimson stem
   STRIPPED_DARK_OAK_LOG:
     Has Hologram: true
     Max Stack Size: -1
@@ -3543,6 +3843,14 @@ Items:
     Has Hologram: true
     Max Stack Size: -1
     Display Name: Stripped spruce wood
+  STRIPPED_WARPED_HYPHAE:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Stripped warped hyphae
+  STRIPPED_WARPED_STEM:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Stripped warped stem
   STRUCTURE_BLOCK:
     Has Hologram: true
     Max Stack Size: -1
@@ -3583,6 +3891,10 @@ Items:
     Has Hologram: true
     Max Stack Size: -1
     Display Name: Tall seagrass
+  TARGET:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Target
   TERRACOTTA:
     Has Hologram: true
     Max Stack Size: -1
@@ -3667,6 +3979,14 @@ Items:
     Has Hologram: true
     Max Stack Size: -1
     Display Name: Turtle spawn egg
+  TWISTING_VINES:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Twisting vines
+  TWISTING_VINES_PLANT:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Twisting vines plant
   VEX_SPAWN_EGG:
     Has Hologram: true
     Max Stack Size: -1
@@ -3695,6 +4015,78 @@ Items:
     Has Hologram: true
     Max Stack Size: -1
     Display Name: Wandering trader spawn egg
+  WARPED_BUTTON:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Warped button
+  WARPED_DOOR:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Warped door
+  WARPED_FENCE:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Warped fence
+  WARPED_FENCE_GATE:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Warped fence gate
+  WARPED_FUNGUS:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Warped fungus
+  WARPED_FUNGUS_ON_A_STICK:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Warped fungus on a stick
+  WARPED_HYPHAE:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Warped hyphae
+  WARPED_NYLIUM:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Warped nylium
+  WARPED_PLANKS:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Warped planks
+  WARPED_PRESSURE_PLATE:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Warped pressure plate
+  WARPED_ROOTS:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Warped roots
+  WARPED_SIGN:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Warped sign
+  WARPED_SLAB:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Warped slab
+  WARPED_STAIRS:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Warped stairs
+  WARPED_STEM:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Warped stem
+  WARPED_TRAPDOOR:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Warped trapdoor
+  WARPED_WALL_SIGN:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Warped wall sign
+  WARPED_WART_BLOCK:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Warped wart block
   WATER:
     Has Hologram: true
     Max Stack Size: -1
@@ -3703,6 +4095,14 @@ Items:
     Has Hologram: true
     Max Stack Size: -1
     Display Name: Water bucket
+  WEEPING_VINES:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Weeping vines
+  WEEPING_VINES_PLANT:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Weeping vines plant
   WET_SPONGE:
     Has Hologram: true
     Max Stack Size: -1
@@ -3875,6 +4275,10 @@ Items:
     Has Hologram: true
     Max Stack Size: -1
     Display Name: Yellow wool
+  ZOGLIN_SPAWN_EGG:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Zoglin spawn egg
   ZOMBIE_HEAD:
     Has Hologram: true
     Max Stack Size: -1
@@ -3883,10 +4287,6 @@ Items:
     Has Hologram: true
     Max Stack Size: -1
     Display Name: Zombie horse spawn egg
-  ZOMBIE_PIGMAN_SPAWN_EGG:
-    Has Hologram: true
-    Max Stack Size: -1
-    Display Name: Zombie pigman spawn egg
   ZOMBIE_SPAWN_EGG:
     Has Hologram: true
     Max Stack Size: -1
@@ -3899,3 +4299,11 @@ Items:
     Has Hologram: true
     Max Stack Size: -1
     Display Name: Zombie wall head
+  ZOMBIFIED_PIGLIN_SPAWN_EGG:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Zombified piglin spawn egg
+  ZOMBIE_PIGMAN_SPAWN_EGG:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Zombie pigman spawn egg

@@ -3,6 +3,8 @@ language: fr
 database:
   filename: chunkmaster.db
 generation:
+  unloading-period: 50
+  autostart: true
   pause-on-player-count: 1
   ignore-worldborder: true
   period: 2

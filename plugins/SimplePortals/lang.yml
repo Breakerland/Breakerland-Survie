@@ -39,5 +39,11 @@ enter-cooldown-message: '&cYou can''t enter this portal for another &e{time} &cs
 enter-no-permission-message: '&cYou don''t have permission to enter this portal.'
 portal-commands-message: '&aThe commands on the portal &e{name} &aare: &e{commands}'
 portal-toggle-message: '&aThe portal &e{name} &ahas been &e{status}&a.'
-cd-bypass: '&cIt seems your account has access to the ''simpleportals.cdbypass'' permission;
-  therefore, bypassed the portal cooldown feature.'
+world-invalid-message: '&cThe world &e{name} &cdoes not exist.'
+portal-title-message: '&aThe &e{name} &aportal has been used!'
+portal-subtitle-message: '&eWelcome to its destination!'
+portal-bar-message: '&aWelcome to the destination of the &e{name} &aportal!'
+portal-message-set: '&aThe message &e{message} &ahas been set as the &e{type} &amessage
+  for the &e{name} &aportal!'
+portal-link-message: '&aThe portal &e{name} &ahas been linked to the center of the
+  &e{other} &aportal!'

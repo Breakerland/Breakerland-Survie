@@ -1,0 +1,186 @@
+needConvertion: false
+debug: INFO
+
+reference:
+  type: mysql
+  host: $mysql_host
+  port: $mysql_port
+  user: $mysql_user_proxy
+  password: $mysql_password_proxy
+  database: $mysql_database_proxy
+  table: 'premium'
+  id: 'UUID'
+  name: 'Name'
+  premium: 'Premium'
+
+backend:
+  stats:
+    type: file
+    path: "survie_new/stats"
+    pattern: "%uuid%.json"
+  achievements:
+    type: file
+    path: "survie_new/achievements"
+    pattern: "%uuid%.json"
+  playerdata:
+    type: file
+    path: "survie_new/playerdata"
+    pattern: "%uuid%.dat"
+  EssentialsX:
+    type: file
+    path: "plugins/Essentials/userdata"
+    pattern: "%uuid%.yml"
+    dashes: true
+  Quests:
+    type: file
+    path: "plugins/Quests/data"
+    pattern: "%uuid%.yml"
+  AuctionHouse:
+    type: sql
+    path: "plugins/AuctionHouse/auctions.db"
+    table: listings
+    fields: seller_uuid,buyer_uuid,bidder_uuid
+  Coreprotect:
+    type: mysql
+    host: $mysql_host
+    port: $mysql_port
+    user: $mysql_user_survie
+    password: $mysql_password_survie
+    database: $mysql_database_survie
+    table: lands_players
+    fields: id
+  jobs:
+    type: mysql
+    host: $mysql_host
+    port: $mysql_port
+    user: $mysql_user_survie
+    password: $mysql_password_survie
+    database: $mysql_database_survie
+    table: jobs_users
+    fields: player_uuid
+  Lands_player:
+    type: mysql
+    host: $mysql_host
+    port: $mysql_port
+    user: $mysql_user_survie
+    password: $mysql_password_survie
+    database: $mysql_database_survie
+    table: co_user
+    fields: uuid
+  Lands_player:
+    type: mysql
+    host: $mysql_host
+    port: $mysql_port
+    user: $mysql_user_survie
+    password: $mysql_password_survie
+    database: $mysql_database_survie
+    table: lands_players
+    fields: id
+  Lands_lands:
+    type: mysql
+    host: $mysql_host
+    port: $mysql_port
+    user: $mysql_user_survie
+    password: $mysql_password_survie
+    database: $mysql_database_survie
+    table: lands_lands
+    fields: nuid,area,members
+  Martiage_marriages:
+    type: mysql
+    host: $mysql_host
+    port: $mysql_port
+    user: $mysql_user_survie
+    password: $mysql_password_survie
+    database: $mysql_database_survie
+    table: marriage_marriages
+    fields: player1,player2
+  Martiage_players:
+    type: mysql
+    host: $mysql_host
+    port: $mysql_port
+    user: $mysql_user_survie
+    password: $mysql_password_survie
+    database: $mysql_database_survie
+    table: marriage_players
+    fields: unique_user_id
+  Parkours:
+    type: mysql
+    host: $mysql_host
+    port: $mysql_port
+    user: $mysql_user_survie
+    password: $mysql_password_survie
+    database: $mysql_database_survie
+    table: parkours
+    fields: uuid
+  Pet_pets:
+    type: mysql
+    host: $mysql_host
+    port: $mysql_port
+    user: $mysql_user_survie
+    password: $mysql_password_survie
+    database: $mysql_database_survie
+    table: pet_pets
+    fields: owner_uuid
+  Pet_players:
+    type: mysql
+    host: $mysql_host
+    port: $mysql_port
+    user: $mysql_user_survie
+    password: $mysql_password_survie
+    database: $mysql_database_survie
+    table: pet_players
+    fields: internal_uuid
+  Playerwarps_players:
+    type: mysql
+    host: $mysql_host
+    port: $mysql_port
+    user: $mysql_user_survie
+    password: $mysql_password_survie
+    database: $mysql_database_survie
+    table: playerwarps_players
+    fields: uuid
+  Playerwarps_rates:
+    type: mysql
+    host: $mysql_host
+    port: $mysql_port
+    user: $mysql_user_survie
+    password: $mysql_password_survie
+    database: $mysql_database_survie
+    table: playerwarps_rates
+    fields: uuid
+  Playerwarps_warps:
+    type: mysql
+    host: $mysql_host
+    port: $mysql_port
+    user: $mysql_user_survie
+    password: $mysql_password_survie
+    database: $mysql_database_survie
+    table: playerwarps_warps
+    fields: uuid,visited
+  Playerinventory:
+    type: mysql
+    host: $mysql_host
+    port: $mysql_port
+    user: $mysql_user_survie
+    password: $mysql_password_survie
+    database: $mysql_database_survie
+    table: player_inventory
+    fields: player_uuid
+  Quickshop:
+    type: mysql
+    host: $mysql_host
+    port: $mysql_port
+    user: $mysql_user_survie
+    password: $mysql_password_survie
+    database: $mysql_database_survie
+    table: qs_shops
+    fields: owner
+  Quickshop_messages:
+    type: mysql
+    host: $mysql_host
+    port: $mysql_port
+    user: $mysql_user_survie
+    password: $mysql_password_survie
+    database: $mysql_database_survie
+    table: qs_messages
+    fields: owner

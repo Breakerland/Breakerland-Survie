@@ -30,7 +30,7 @@ EntitySpawn:
   PreventMobBuild: false
   # When set to true iron golems in villages will not spawn throw natural means
   PreventIronGolemSpawn: false
-  # If this set to true, chunks will be grouped up and counted as one. In example with range 2 all 10 chunks will be counted as one and limits will be used as for one chunk
+  # If this set to true, chunks will be grouped up and counted as one. In example with range 2 all 9 (3x3) chunks will be counted as one and limits will be used as for one chunk
   # This will give wider range of mob cleaning
   GroupChunks: true
   GroupChunksRadius: 3
@@ -42,7 +42,7 @@ RemoveExisting: true
 AutoClean:
   #  
   # Checks chunks around players for over populated farms
-  Use: true
+  Use: false
   #  
   # Informs users with mfm.cleaninform permission node how many entities we cleaned up and which ones in particular
   Inform: false
@@ -55,6 +55,11 @@ AutoClean:
   GroupChunks: true
   # Range around player in chunks to check. 2 means that 9 chunks will be checked, 3 - 25 chunks and so on
   # Max value is 5 to avoid unnecessary load on server
+  # 1 = 1x1 area = 1 total chunks
+  # 2 = 3x3 area = 9 total chunks
+  # 3 = 5x5 area = 25 total chunks
+  # 4 = 7x7 area = 49 total chunks
+  # 5 = 9x9 area = 81 total chunks
   ChunkRadius: 2
   # Defines range from 1 to 5 in chunks we will check around player when performing autoclean
   # This only applies when you dont have GroupChunks enabled
@@ -64,6 +69,11 @@ Commands:
     # Defines max amount of entities which we will remove from a chunk or chunk group when cleaning it
     # Set to 0 if you want to disable limit
     MaxRemoved: 0
+    # If this set to true, chunks will be grouped up and counted as one. In example with range 2 all 9 (3x3) chunks will be counted as one and limits will be used as for one chunk
+    # This will give wider range of mob cleaning
+    # This only applies for clean command. If you want to keep similar or same behavior as other options, like auto clean or spawn listener, set this to the same values as those ones
+    GroupChunks: false
+    GroupChunksRadius: 1
 #  
 # When this set to true, armor stands with items on it will be ignored on chunk cleanup
 # Recomended to keep it at true to avoid player item deletion
@@ -79,11 +89,11 @@ IgnoreFullItemFrames: true
 #  
 # When this set to true, tamed animals will be ignored
 # Recomended to keep it at true to avoid player animals being despawned
-IgnoreTamedAnimals: true
+IgnoreTamedAnimals: false
 #  
 # When this set to true, animals with custom name will be ignored
 # Recomended to keep it at true to avoid special player animals being despawned
-IgnoreNamedAnimals: true
+IgnoreNamedAnimals: false
 #  
 # When this set to true, animals with sadle will be ignored
 # Recomended to keep it at true to avoid special player animals being despawned
@@ -103,7 +113,7 @@ BlockTypes:
   # Limitations to how many particular block we can place in each chunk
   # This can be bypassed with mfm.bypasslimit.[btype] permission node
   List:
-    HOPPER: 100
+    HOPPER: 50
     PISTON: 100
     STICKY_PISTON: 100
     OBSERVER: 75
@@ -114,7 +124,7 @@ SpawnReasons:
   NATURAL: true
   JOCKEY: true
   CHUNK_GEN: false
-  SPAWNER: false
+  SPAWNER: true
   EGG: false
   SPAWNER_EGG: false
   LIGHTNING: true
@@ -143,7 +153,7 @@ SpawnReasons:
   PATROL: true
   BEEHIVE: true
   CUSTOM: false
-  DEFAULT: false
+  DEFAULT: true
 #  
 # Settup for entity groups
 # You can define different groups for different types of animals/monsters/entities
@@ -342,7 +352,7 @@ EntityTypes:
     Limit: 2
   BAT:
     Use: true
-    Limit: 10
+    Limit: 15
   WITCH:
     Use: false
     Limit: 10
@@ -351,10 +361,10 @@ EntityTypes:
     Limit: 20
   GUARDIAN:
     Use: false
-    Limit: 10
+    Limit: 15
   SHULKER:
     Use: false
-    Limit: 10
+    Limit: 15
   PIG:
     Use: true
     Limit: 20
@@ -372,40 +382,40 @@ EntityTypes:
     Limit: 20
   WOLF:
     Use: true
-    Limit: 10
+    Limit: 15
   MUSHROOM_COW:
     Use: true
     Limit: 15
   SNOWMAN:
     Use: true
-    Limit: 10
+    Limit: 15
   OCELOT:
     Use: true
-    Limit: 10
+    Limit: 15
   IRON_GOLEM:
     Use: true
-    Limit: 10
+    Limit: 15
   HORSE:
     Use: true
-    Limit: 10
+    Limit: 15
   RABBIT:
     Use: true
     Limit: 15
   POLAR_BEAR:
     Use: true
-    Limit: 10
+    Limit: 15
   LLAMA:
     Use: true
     Limit: 10
   LLAMA_SPIT:
     Use: true
-    Limit: 10
+    Limit: 15
   PARROT:
     Use: true
-    Limit: 10
-  VILLAGER:
-    Use: false
     Limit: 15
+  VILLAGER:
+    Use: true
+    Limit: 20
   ENDER_CRYSTAL:
     Use: false
     Limit: 10
@@ -414,49 +424,49 @@ EntityTypes:
     Limit: 15
   PHANTOM:
     Use: true
-    Limit: 10
+    Limit: 15
   TRIDENT:
     Use: false
     Limit: -1
   COD:
     Use: true
-    Limit: 10
+    Limit: 15
   SALMON:
     Use: true
-    Limit: 10
+    Limit: 15
   PUFFERFISH:
     Use: true
-    Limit: 10
+    Limit: 15
   TROPICAL_FISH:
     Use: true
-    Limit: 10
+    Limit: 15
   DROWNED:
     Use: false
-    Limit: 10
+    Limit: 15
   DOLPHIN:
     Use: true
-    Limit: 10
+    Limit: 15
   CAT:
     Use: true
-    Limit: 10
+    Limit: 15
   PANDA:
     Use: true
-    Limit: 10
+    Limit: 15
   PILLAGER:
     Use: false
     Limit: 15
   RAVAGER:
     Use: true
-    Limit: 10
+    Limit: 15
   TRADER_LLAMA:
     Use: true
-    Limit: 10
+    Limit: 15
   WANDERING_TRADER:
     Use: true
-    Limit: 10
+    Limit: 15
   FOX:
     Use: true
-    Limit: 10
+    Limit: 15
   BEE:
     Use: true
     Limit: 15
@@ -472,9 +482,12 @@ EntityTypes:
   ZOGLIN:
     Use: true
     Limit: 20
+  PIGLIN_BRUTE:
+    Use: true
+    Limit: -1
   FISHING_HOOK:
     Use: true
-    Limit: 10
+    Limit: 15
   LIGHTNING:
     Use: false
     Limit: -1

@@ -6,6 +6,96 @@
 
 MyPet:
   Pets:
+    PiglinBrute:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - gold_nugget
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+      GrowUpItem: experience_bottle
+    Hoglin:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - crimson_fungus
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+      GrowUpItem: experience_bottle
+    Piglin:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - gold_nugget
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+      GrowUpItem: experience_bottle
+    Strider:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - bone
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+      GrowUpItem: experience_bottle
+    Zoglin:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - crimson_fungus
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+      GrowUpItem: experience_bottle
+    ZombifiedPiglin:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - rotten_flesh
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+      GrowUpItem: experience_bottle
+    ZOMBIFIED_PIGLIN:
+      HP: 20.0
+      Speed: 0.3
+      Food:
+      - rotten_flesh
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
     Bee:
       HP: 20.0
       Speed: 0.3

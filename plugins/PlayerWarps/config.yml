@@ -5,7 +5,7 @@
 # Made with love
 
 # DO NOT TOUCH THIS!
-config-version: 68
+config-version: 74
 
 settings:
   # very useful to tell if there are any memory leaks or if the author needs
@@ -55,6 +55,7 @@ settings:
     category-command: true
     rate-command: true
     password-command: true
+    whitelist-command: false
     lock-command: true
     cost-command: true
     reset-command: true
@@ -73,6 +74,7 @@ settings:
     category-command-name: category
     rate-command-name: rate
     password-command-name: password
+    whitelist-command-name: whitelist
     lock-command-name: lock
     cost-command-name: tax
     reset-command-name: reset
@@ -270,6 +272,15 @@ settings:
       give-to-owner: true
       # Should the teleport pay only once for that warp?
       pay-once: false
+      # If you have the cost command enabled, do you want to be able to limit your players to set maximum warp costs? Set to -1 for unlimited.
+      max-cost: 500
+      # Here you can choose specific ranks that have the max cost, if you have not put a rank there the max will be above.
+      # WARNING This will not work if you're using the default Bukkit Permissions system due to vault not supporting groups.
+      max-ranks-cost:
+        # The rank VIP can only set a cost of $1000
+        vip: 1000
+        # The rank MVP doesn't have a limit.
+        MVP: -1
 
 
 
@@ -314,6 +325,8 @@ plugins:
     create: false
     # Should the warp get deleted once the plot is deleted?
     delete: true
+    # Should they only be able to set warps in lands? If disabled, they can set warps in their land or wilderness.
+    only-land: true
     lang:
       not-in-plot: '%prefix% &cSorry you can''t set a warp here, &cYou aren''t on a plot!'
       dont-own-plot: '%prefix% &cSorry you can''t set a warp here, because you dont own this plot!'
@@ -335,6 +348,8 @@ plugins:
     create: false
     # Should the warp get deleted once the island is deleted?
     delete: true
+    # Should they only be able to set warps in lands? If disabled, they can set warps in their land or wilderness.
+    only-land: true
     lang:
       not-in-island: '%prefix% &cSorry you can''t set a warp here, &cYou aren''t on a island!'
       dont-own-island: '%prefix% &cSorry you can''t set a warp here, because you don''t own this island.'
@@ -347,6 +362,8 @@ plugins:
     create: false
     # Should the warp get deleted once the island is deleted?
     delete: true
+    # Should they only be able to set warps in lands? If disabled, they can set warps in their land or wilderness.
+    only-land: true
     lang:
       not-in-island: '%prefix% &cSorry you can''t set a warp here, &cYou aren''t on a island!'
       dont-own-island: '%prefix% &cSorry you can''t set a warp here, because you don''t own this island.'
@@ -359,6 +376,8 @@ plugins:
     create: false
     # Should the warp get deleted once the claim is deleted?
     delete: true
+    # Should they only be able to set warps in lands? If disabled, they can set warps in their land or wilderness.
+    only-land: true
     lang:
       not-in-claim: '%prefix% &cSorry you can''t set a warp here, &cYou aren''t in a claim!'
       dont-own-claim: '%prefix% &cSorry you can''t set a warp here, because you don''t own this claim.'
@@ -371,6 +390,8 @@ plugins:
     create: false
     # Should the warp get deleted once the island is deleted?
     delete: true
+    # Should they only be able to set warps in lands? If disabled, they can set warps in their land or wilderness.
+    only-land: true
     lang:
       not-in-island: '%prefix% &cSorry you can''t set a warp here, &cYou aren''t on a island!'
       dont-own-island: '%prefix% &cSorry you can''t set a warp here, because you don''t own this island.'
@@ -383,6 +404,8 @@ plugins:
     create: false
     # Should the warp get deleted once the land is deleted?
     delete: true
+    # Should they only be able to set warps in lands? If disabled, they can set warps in their land or wilderness.
+    only-land: true
     lang:
       not-in-land: '&cDésolé, vous devez définir votre point de téléportation dans un terrain.'
       dont-own-land: Désolé, vous devez définir votre point de téléportation dans un terrain vous appartenant.
@@ -391,6 +414,8 @@ plugins:
     # Do you want to enable simpleskyblock support?
     # You need simpleskyblock installed for this to work!
     enabled: false
+    # Should they only be able to set warps in lands? If disabled, they can set warps in their land or wilderness.
+    only-land: true
     lang:
       not-in-island: '%prefix% &cSorry you can''t set a warp here, &cYou aren''t on a island!'
       dont-own-island: '%prefix% &cSorry you can''t set a warp here, because you don''t own this island.'
@@ -401,6 +426,8 @@ plugins:
     enabled: false
     # Should the warp get deleted once the faction is deleted?
     delete: true
+    # Should they only be able to set warps in lands? If disabled, they can set warps in their land or wilderness.
+    only-land: true
     lang:
       not-in-claim: '%prefix% &cSorry you can''t set a warp here, &cYou aren''t in a claim!'
       dont-own-claim: '%prefix% &cSorry you can''t set a warp here, because you don''t own this claim.'
@@ -411,6 +438,8 @@ plugins:
     enabled: false
     # Should the warp get deleted once the faction is deleted?
     delete: true
+    # Should they only be able to set warps in lands? If disabled, they can set warps in their land or wilderness.
+    only-land: true
     lang:
       not-in-claim: '%prefix% &cSorry you can''t set a warp here, &cYou aren''t in a claim!'
       dont-own-claim: '%prefix% &cSorry you can''t set a warp here, because you don''t own this claim.'
@@ -419,6 +448,8 @@ plugins:
     # Do you want to enable towny support?
     # You need towny installed for this to work!
     enabled: false
+    # Should they only be able to set warps in lands? If disabled, they can set warps in their land or wilderness.
+    only-land: true
     lang:
       not-in-town: '%prefix% &cSorry you can''t set a warp here, &cYou aren''t in a town!'
       dont-own-town: '%prefix% &cSorry you can''t set a warp here, because you don''t own this town.'

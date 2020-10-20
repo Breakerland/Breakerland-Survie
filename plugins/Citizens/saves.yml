@@ -34,9 +34,9 @@ npc:
         x: '9.4209'
         y: '29.0'
         z: '3.9052'
-        yaw: '27.5973'
-        pitch: '0.0'
-        bodyYaw: 27.597336
+        yaw: '129.5649'
+        pitch: '-0.2883'
+        bodyYaw: 129.56487
       skintrait:
         fetchDefaultSkin: true
         signature: q+PdjyTQFtYNX0NFqbrA6MyzIGvhwW8THa4EGY5F1GbKiGm+qkgYhRXuCRCWyWEP5+GCYMIeWc8gBNa/rksy02OnOeflhkZ5wrZDrMxV/DABj4pt1m5PiRzUGTmRFgiN7Ek5e+cAUR03zXeRDFum+aJ3zyZ8a7ATpXiNg1TXmwcs5hzjL+yNVASjBDjFJb/cklRzHeioMFs8vQe5CDno9aMoCaChdI4ql59TlWANmnAAwqNXyG+lKr4l64s4v01QFzGTSMv5+X/IQETJoW0uIQQzlCny+51GgrS+/aGLR7a5iyADcxtU6F4C3k4XQSzAtu1FwRRMxBt3KYk9cTMikxdiLGCDm4Qhn3w35AuHu2Xs5lMlJNonySS948JW1dfmCCDbhBd66LjGIaBD5Evo9yc4uraSDLO2rR04OXpTHWfZx4xM4LaVZyorIg91AYsQqUXxg/xJLoBP2xJ4iNkuZgxJ5UmSm8Yz44JUQ7AR7QvKjKQQ3+1qvcCjsv6IWIKHOHfZzL+aKeqca7oOuQ2r6ditjeVn99ux6QImcz1Mt63NOZHYWJGveNku5NO2e7QksHRB8FJFXOUx3zLlFgVhsC/yA+C5ERa5MnQ3xp8EEwE5Q6NNla521ZaijlbbZKqqh3sgiNiQRaW/qLqRXy9gdSf2t45GDz4HW1yBwfkkle0=
@@ -58,7 +58,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: location,equipment,scoreboardtrait,commandtrait,type,inventory,spawned,owner,skintrait,lookclose,mounttrait,gravity
+    traitnames: commandtrait,lookclose,location,skintrait,owner,inventory,type,spawned,equipment,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -93,9 +93,9 @@ npc:
         x: '16.4722'
         y: '66.0'
         z: '6.4854'
-        yaw: '11.5'
-        pitch: '50.1339'
-        bodyYaw: 11.499985
+        yaw: '106.733'
+        pitch: '8.7385'
+        bodyYaw: 106.732956
       gravity:
         enabled: false
       skintrait:
@@ -107,7 +107,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: equipment,location,scoreboardtrait,type,inventory,owner,spawned,skintrait,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,owner,inventory,type,spawned,equipment,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -141,9 +141,9 @@ npc:
         x: '45.6813'
         y: '32.0'
         z: '58.1923'
-        yaw: '154.5972'
-        pitch: '18.4148'
-        bodyYaw: 154.59723
+        yaw: '-136.914'
+        pitch: '7.6129'
+        bodyYaw: -136.91402
       gravity:
         enabled: false
       equipment:
@@ -153,19 +153,6 @@ npc:
           amount: 1
           durability: 0
           mdata: 3
-          meta:
-            unbreakable: false
-            repaircost: 0
-            skull:
-              texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTVhZmQ3Y2FjMzY1Mzk4YjE1YjAzNDlkNDkyZmNmZWQwYjdjZDE5NTZlNGUzNGQzYmQ1MTNkZjgxMTJiIn19fQ==
-              uuid: 6024e3e4-90ff-3654-b319-b5ab7112f838
-              properties:
-                textures:
-                  '0':
-                    name: textures
-                    value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTVhZmQ3Y2FjMzY1Mzk4YjE1YjAzNDlkNDkyZmNmZWQwYjdjZDE5NTZlNGUzNGQzYmQ1MTNkZjgxMTJiIn19fQ==
-              owner: eyj0zxh0dxjlcyi6eyjts0loijp7invybci6imh0dha6ly90zxh0dxjlcy5taw5ly3jhznqubmv0l3rlehr1cmuvntvhzmq3y2fjmzy1mzk4yje1yjazndlkndkyzmnmzwqwyjdjzde5ntzlnguzngqzymq1mtnkzjgxmtjiin19fq==
-            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAR0AAI9PXQACW1ldGEtdHlwZXQACGludGVybmFsdAALc2t1bGwtb3duZXJ1cQB+AAYAAAAEdAAISXRlbU1ldGF0AAVTS1VMTHQCCEg0c0lBQUFBQUFBQUFFM1BNVkxiUUJnRjRBMURab3lTaWk1OURpQWhwRURoZ29rSlNJTVhoR1dEVkVXMjF0YXUvbDJRdkpLOS95bTRCdzB6bVp3b09VUTZXTkpBK2VhOTRuME9JUTc1UEtrN2dLdjJic21CRGNndUxTUWpUOHdJRjdlVlcyNEZMQXdQYmRackYrNjR1UC9HVlcvbUN4NXlhZnVxQ01FY3Y5c0d1dGdFWUh4Um9XcTZ1ZXhkOEZ0Z1Zlc3RaTmNyM1Zjb0c5OGNMSVZFNDBtc0Q0MWduaEVGcWhKcVZkWUdwWks0YVRaR2xBSkxGaWlOb0ZZZHFsV0RSamFlMUtwR3NkcEtMVGhYM3ZHeUdRNGQ0bGpDUFdzMVorczlNdEJzcTd1V3JSMUN5SWNCK1Rncm9QdlBpdDM4MWw2OWplM1Z5TExpZE9MQ1pXUlprWnFaK2Zjb2pGNVo1eWZoaFdXOWJTM3JKb0RNajZ0Y0paWTFjeS84YTJEbjE1WTE3V2s2cTNLWitObkJEekhHekJ0YlZpWk92VXljSUIxQlRVZTF5U1dWK1UyeXlTd3JINTBHTk0yQm5rMlJuaVdZeWNRYnA3VE9MV3VjeGp4NlpTWERJU0dmeUU1VVdzVHV6NjkvL2o0OGgrbXZMNzhmbS8xL1I0UzhBSGZVTlBtL0FRQUF0ALBleWowenhoMGR4amxjeWk2ZXlqdHMwbG9panA3aW52eWJjaTZpbWgwZGhhNmx5OTB6eGgwZHhqbGN5NXRhdzVseTNqaHpucXVibXYwbDNybGVocjFjbXV2bnR2aHptcTN5MmZqbXp5MW16azR5amUxeWphem5kbGtuZGt5em1ubXp3cXd5amRqemRlNW50emxuZ3V6bmdxenltcTFtdG5rempneG10amlpbjE5ZnE9PQ==
       inventory:
         '0':
           type_namespace: minecraft
@@ -173,16 +160,6 @@ npc:
           amount: 1
           durability: 0
           mdata: 3
-          meta:
-            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAR0AAI9PXQACW1ldGEtdHlwZXQACGludGVybmFsdAALc2t1bGwtb3duZXJ1cQB+AAYAAAAEdAAISXRlbU1ldGF0AAVTS1VMTHQCCEg0c0lBQUFBQUFBQUFFM1BNVkxiUUJnRjRBMURab3lTaWk1OURpQWhwRURoZ29rSlNJTVhoR1dEVkVXMjF0YXUvbDJRdkpLOS95bTRCdzB6bVp3b09VUTZXTkpBK2VhOTRuME9JUTc1UEtrN2dLdjJic21CRGNndUxTUWpUOHdJRjdlVlcyNEZMQXdQYmRackYrNjR1UC9HVlcvbUN4NXlhZnVxQ01FY3Y5c0d1dGdFWUh4Um9XcTZ1ZXhkOEZ0Z1Zlc3RaTmNyM1Zjb0c5OGNMSVZFNDBtc0Q0MWduaEVGcWhKcVZkWUdwWks0YVRaR2xBSkxGaWlOb0ZZZHFsV0RSamFlMUtwR3NkcEtMVGhYM3ZHeUdRNGQ0bGpDUFdzMVorczlNdEJzcTd1V3JSMUN5SWNCK1Rncm9QdlBpdDM4MWw2OWplM1Z5TExpZE9MQ1pXUlprWnFaK2Zjb2pGNVo1eWZoaFdXOWJTM3JKb0RNajZ0Y0paWTFjeS84YTJEbjE1WTE3V2s2cTNLWitObkJEekhHekJ0YlZpWk92VXljSUIxQlRVZTF5U1dWK1UyeXlTd3JINTBHTk0yQm5rMlJuaVdZeWNRYnA3VE9MV3VjeGp4NlpTWERJU0dmeUU1VVdzVHV6NjkvL2o0OGgrbXZMNzhmbS8xL1I0UzhBSGZVTlBtL0FRQUF0ALBleWowenhoMGR4amxjeWk2ZXlqdHMwbG9panA3aW52eWJjaTZpbWgwZGhhNmx5OTB6eGgwZHhqbGN5NXRhdzVseTNqaHpucXVibXYwbDNybGVocjFjbXV2bnR2aHptcTN5MmZqbXp5MW16azR5amUxeWphem5kbGtuZGt5em1ubXp3cXd5amRqemRlNW50emxuZ3V6bmdxenltcTFtdG5rempneG10amlpbjE5ZnE9PQ==
-            skull:
-              owner: eyj0zxh0dxjlcyi6eyjts0loijp7invybci6imh0dha6ly90zxh0dxjlcy5taw5ly3jhznqubmv0l3rlehr1cmuvntvhzmq3y2fjmzy1mzk4yje1yjazndlkndkyzmnmzwqwyjdjzde5ntzlnguzngqzymq1mtnkzjgxmtjiin19fq==
-              uuid: 6024e3e4-90ff-3654-b319-b5ab7112f838
-              properties:
-                textures:
-                  '0':
-                    name: textures
-                    value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTVhZmQ3Y2FjMzY1Mzk4YjE1YjAzNDlkNDkyZmNmZWQwYjdjZDE5NTZlNGUzNGQzYmQ1MTNkZjgxMTJiIn19fQ==
       skintrait:
         fetchDefaultSkin: true
         signature: Bbq0HnrFTs1iJlz6uwlE9nNIndiciPlTBfcOQ4jB1tE10u7ikVfXYzPayzaSyl9JWa3cQpYJSJpruK9lyHvHiSXOM37b/BMsWTTF4D6DA7RkQu8SkFwn8Bd0JSZevTrCQESIIa0UPafyiiRQJkkm+NQPA725haTRaup9QEa+hEzmg416m+q3zZD92DZsv45uVi2joff9GGxepRWUpNTzmuqnEMzaqgyW+DD3EC0K6FNPnpkd9O773yuF22HYPyEjU0kl9TtKPs4zsuI5kCamyD89tlC6FtiCitWvmW2+UgGTbrweYd/MM1kNXP4LTORDPouvfzY1vGhMMPVUCrF27Y1WQRG7G3S8Xy9GncLxMDb44cJibXkjAnCctqbcKDr80tTk4Z5olrZsevSCS1qXZipXODey/Gwn3WRK8YwZAXs8b0LssL/9N53azljUyqzQAkkfz5NhQ30NcUK3AdfWZiK/m68e4hvulAaCQiGVBSRX0hV1Jdx01bPvl85ALFcUfDgisjY2XpZzZdf4nVKPw4ALDe2W30vym3XiAkNnqec4r1m+erh/Ci8XnkesMj0EKSu0KklIdpJVUPVN8JYy/5zQi3PDfjKWzbF7KO9qt6Br7f9RphjQSR4J/rwQnlomzoQ5sczz+fFLJEKSA6p0/pxquPupFjlKo1poUHxSa3g=
@@ -192,7 +169,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: equipment,location,scoreboardtrait,type,inventory,owner,skintrait,spawned,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,owner,inventory,type,equipment,spawned,scoreboardtrait,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -226,9 +203,9 @@ npc:
         x: '58.4356'
         y: '32.0'
         z: '49.5679'
-        yaw: '83.0764'
-        pitch: '10.0557'
-        bodyYaw: 83.076355
+        yaw: '138.5269'
+        pitch: '13.0502'
+        bodyYaw: 138.52689
       gravity:
         enabled: false
       equipment:
@@ -238,19 +215,6 @@ npc:
           amount: 1
           durability: 0
           mdata: 3
-          meta:
-            unbreakable: false
-            repaircost: 0
-            skull:
-              texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTg5YTRjMWE3YzgxZjM3NjVmNWE1ZTJjOTJlNGQ0OGVkOTczMGRhYzE4NzhkZmY0MWExOTFkNzhhMTY5ZDg5In19fQ==
-              uuid: 9aa7cde3-1df5-32f0-8dfc-a94ae90cff74
-              properties:
-                textures:
-                  '0':
-                    name: textures
-                    value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTg5YTRjMWE3YzgxZjM3NjVmNWE1ZTJjOTJlNGQ0OGVkOTczMGRhYzE4NzhkZmY0MWExOTFkNzhhMTY5ZDg5In19fQ==
-              owner: eyj0zxh0dxjlcyi6eyjts0loijp7invybci6imh0dha6ly90zxh0dxjlcy5taw5ly3jhznqubmv0l3rlehr1cmuvztg5ytrjmwe3yzgxzjm3njvmnwe1ztjjotjlngq0ogvkotczmgrhyze4nzhkzmy0mwexotfknzhhmty5zdg5in19fq==
-            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAR0AAI9PXQACW1ldGEtdHlwZXQACGludGVybmFsdAALc2t1bGwtb3duZXJ1cQB+AAYAAAAEdAAISXRlbU1ldGF0AAVTS1VMTHQCFEg0c0lBQUFBQUFBQUFFM1BRVTdiUUJRRzRDbWlVbkM1UXU4d3dZd3JGbG1nTmcyMmlFMkM2MkR2RW1maThYaG1USnl4NDVrN2NBRXVnTHJ2TlRnRnErNjY2YTVTZWJDQjVhLzNmdW4vSElRY2RIeGR0VUpjTmZXbUZIU0FEc09scE9nWE5SemJudUYxejBWdVNnK3kzbUZSbC96MlM2azZzOHBMcjVSd1owdFBtTE4zdjBRdjkwUVlsek9ydHUxS2RsaTRqYUNzR2VheTdhd3VpTkVObDN2cUdsdjBsa3RYOFU2cVBSMWF6WG10dVZERkZ0ZEZWOVU2dDdKb21MSDBWRmxXV1drdzlQcGFieXJJVEdwRDdMb2dwUnFlYmJhamtZTWNZTnpTUnBkMGQ0UUdtdmE2YmVqT1FRaDlHS0NQeVZLMHI3UUFaemN3OXlhQXVUN1FndmdhaThnSG1xOFNzL3JxZS80TDdlTGN1d1RhMnkvUUZrU2tic0F5TlFOYWdpL2R1YUFYYzZEOTZMSzRJR2s4NTlQRjJFMkJsdkdwRy9KRWhvdnhNSXNESHNXQkNDY3pIRTJTS29wek81M01XV3JIcHlIUU1wbGk2UFZSL0wyQ3pLWnhTckp2QmZGZmFMUFJDS0ZQNk1CZkErVHcvdUh4NmZQZmt6OTMvMzRHdjQvL2E0U2VBYTNIWWhmSEFRQUF0ALRleWowenhoMGR4amxjeWk2ZXlqdHMwbG9panA3aW52eWJjaTZpbWgwZGhhNmx5OTB6eGgwZHhqbGN5NXRhdzVseTNqaHpucXVibXYwbDNybGVocjFjbXV2enRnNXl0cmptd2UzeXpneHpqbTNuanZtbndlMXp0ampvdGpsbmdxMG9ndmtvdGN6bWdyaHl6ZTRuemhrem15MG13ZXhvdGZrbnpoaG10eTV6ZGc1aW4xOWZxPT0=
       inventory:
         '0':
           type_namespace: minecraft
@@ -258,16 +222,6 @@ npc:
           amount: 1
           durability: 0
           mdata: 3
-          meta:
-            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAR0AAI9PXQACW1ldGEtdHlwZXQACGludGVybmFsdAALc2t1bGwtb3duZXJ1cQB+AAYAAAAEdAAISXRlbU1ldGF0AAVTS1VMTHQCFEg0c0lBQUFBQUFBQUFFM1BRVTdiUUJRRzRDbWlVbkM1UXU4d3dZd3JGbG1nTmcyMmlFMkM2MkR2RW1maThYaG1USnl4NDVrN2NBRXVnTHJ2TlRnRnErNjY2YTVTZWJDQjVhLzNmdW4vSElRY2RIeGR0VUpjTmZXbUZIU0FEc09scE9nWE5SemJudUYxejBWdVNnK3kzbUZSbC96MlM2azZzOHBMcjVSd1owdFBtTE4zdjBRdjkwUVlsek9ydHUxS2RsaTRqYUNzR2VheTdhd3VpTkVObDN2cUdsdjBsa3RYOFU2cVBSMWF6WG10dVZERkZ0ZEZWOVU2dDdKb21MSDBWRmxXV1drdzlQcGFieXJJVEdwRDdMb2dwUnFlYmJhamtZTWNZTnpTUnBkMGQ0UUdtdmE2YmVqT1FRaDlHS0NQeVZLMHI3UUFaemN3OXlhQXVUN1FndmdhaThnSG1xOFNzL3JxZS80TDdlTGN1d1RhMnkvUUZrU2tic0F5TlFOYWdpL2R1YUFYYzZEOTZMSzRJR2s4NTlQRjJFMkJsdkdwRy9KRWhvdnhNSXNESHNXQkNDY3pIRTJTS29wek81M01XV3JIcHlIUU1wbGk2UFZSL0wyQ3pLWnhTckp2QmZGZmFMUFJDS0ZQNk1CZkErVHcvdUh4NmZQZmt6OTMvMzRHdjQvL2E0U2VBYTNIWWhmSEFRQUF0ALRleWowenhoMGR4amxjeWk2ZXlqdHMwbG9panA3aW52eWJjaTZpbWgwZGhhNmx5OTB6eGgwZHhqbGN5NXRhdzVseTNqaHpucXVibXYwbDNybGVocjFjbXV2enRnNXl0cmptd2UzeXpneHpqbTNuanZtbndlMXp0ampvdGpsbmdxMG9ndmtvdGN6bWdyaHl6ZTRuemhrem15MG13ZXhvdGZrbnpoaG10eTV6ZGc1aW4xOWZxPT0=
-            skull:
-              owner: eyj0zxh0dxjlcyi6eyjts0loijp7invybci6imh0dha6ly90zxh0dxjlcy5taw5ly3jhznqubmv0l3rlehr1cmuvztg5ytrjmwe3yzgxzjm3njvmnwe1ztjjotjlngq0ogvkotczmgrhyze4nzhkzmy0mwexotfknzhhmty5zdg5in19fq==
-              uuid: 9aa7cde3-1df5-32f0-8dfc-a94ae90cff74
-              properties:
-                textures:
-                  '0':
-                    name: textures
-                    value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTg5YTRjMWE3YzgxZjM3NjVmNWE1ZTJjOTJlNGQ0OGVkOTczMGRhYzE4NzhkZmY0MWExOTFkNzhhMTY5ZDg5In19fQ==
       skintrait:
         fetchDefaultSkin: true
         signature: ZOD6/kundH50Snb6pIvBB2lB7JPs3Jic5yXlesAeFqZ0NcZlw1U4Qjg16pJ3D+cvrQFspBJ1JwhxvIiKCSOPjhe49lpV6iDxQnY6mvmVW7PSdNF79+nBBbFk1knr5YTcTZ6VhIdOvZexcJhHheB2Cs7dwEA2hea9r8Gf95snwuCGMpLKX74jKjQxgZK3EClc22WYGms8CAeXrQbxstip0YZ80edfLU0gqI7vR+urIWJKRF9g/SmJfSFzDYH4DJejW1XFqL2Dft+vSyL0UnPqabB48U6vUusY1EQkifBKJhntqt8pIYsFHSXOOs0rCW7zYNYdyu7Tg7pJMbwsJqgpxzQnpoZ/sUP9U2Pl35guAtoDeumbKeSTr2xphNehQsEvTcGdI4WUPm785YUBCb//cNwvn+2uwKn8h1t4QGggY1Q9bhpYReOMnJ6kA3n1s+eq9hu7Giw6thk2XVG3eqgR/zlwaBy6eMOMSZW8lmBbdkgUjiDteyQTzEMWHnbjjd7DVNab1bz/OgtmtItpZvU9u5K3I1iz+2Kq3X9AQAZELCWU7uhnRliopqB6Qrz0MXwOShpyucUOcQlnjRRmITLZHvQFWhf5VhZXhMY3KiFd1velArEtvBkU59oZb7Av7OqyHwcz7e74eqpWa/SDnLKb5yJFoM5ghpacUZuthjKYHwA=
@@ -277,7 +231,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: location,equipment,scoreboardtrait,type,inventory,spawned,owner,skintrait,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,owner,inventory,type,spawned,equipment,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -310,9 +264,9 @@ npc:
         x: '54.4921'
         y: '32.0'
         z: '40.691'
-        yaw: '5.0339'
-        pitch: '15.0526'
-        bodyYaw: 5.0339355
+        yaw: '53.3679'
+        pitch: '8.2451'
+        bodyYaw: 53.36786
       gravity:
         enabled: false
       equipment: {}
@@ -325,7 +279,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: equipment,location,scoreboardtrait,type,inventory,skintrait,owner,spawned,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,owner,inventory,type,spawned,equipment,scoreboardtrait,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -359,9 +313,9 @@ npc:
         x: '46.6998'
         y: '31.0'
         z: '16.5284'
-        yaw: '150.0994'
-        pitch: '-21.157'
-        bodyYaw: 150.09937
+        yaw: '148.4874'
+        pitch: '-21.0243'
+        bodyYaw: 148.48737
       gravity:
         enabled: false
       skintrait:
@@ -373,7 +327,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: equipment,location,scoreboardtrait,type,inventory,owner,skintrait,spawned,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,owner,inventory,type,equipment,spawned,scoreboardtrait,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -410,9 +364,9 @@ npc:
         x: '9.4459'
         y: '29.0'
         z: '9.4384'
-        yaw: '28.7168'
-        pitch: '-9.1739'
-        bodyYaw: 28.716835
+        yaw: '153.997'
+        pitch: '0.0'
+        bodyYaw: 153.99701
       commandtrait:
         sequential: false
         cost: -1.0
@@ -434,7 +388,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: location,equipment,commandtrait,scoreboardtrait,type,inventory,owner,spawned,skintrait,lookclose,mounttrait,gravity
+    traitnames: commandtrait,lookclose,location,skintrait,owner,inventory,type,spawned,equipment,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -472,9 +426,9 @@ npc:
         x: '3.3751'
         y: '29.0'
         z: '8.9292'
-        yaw: '-30.0'
-        pitch: '-3.8689'
-        bodyYaw: -29.999973
+        yaw: '-148.294'
+        pitch: '0.0'
+        bodyYaw: -148.29398
       waypoints:
         linear:
           cachePaths: false
@@ -501,7 +455,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: equipment,location,waypoints,inventory,skintrait,spawned,lookclose,mounttrait,gravity,scoreboardtrait,commandtrait,type,owner
+    traitnames: lookclose,inventory,owner,waypoints,scoreboardtrait,mounttrait,commandtrait,location,skintrait,type,equipment,spawned,gravity
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -526,9 +480,9 @@ npc:
         x: '3.1329'
         y: '29.0'
         z: '4.0786'
-        yaw: '-32.0124'
-        pitch: '0.0'
-        bodyYaw: -32.012383
+        yaw: '174.7953'
+        pitch: '19.9153'
+        bodyYaw: 174.79529
       lookclose:
         range: '5.0'
         enabled: true
@@ -552,7 +506,7 @@ npc:
         executionMode: LINEAR
         commands:
           '0':
-            command: randomteleport
+            command: rtp
             hand: BOTH
             player: true
             op: false
@@ -562,7 +516,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: equipment,location,scoreboardtrait,commandtrait,type,inventory,owner,skintrait,spawned,lookclose,mounttrait,gravity
+    traitnames: commandtrait,lookclose,location,skintrait,owner,inventory,type,equipment,spawned,scoreboardtrait,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -583,7 +537,7 @@ npc:
         x: '13.7'
         y: '30.0'
         z: '41.4823'
-        yaw: '162.0948'
+        yaw: '167.6523'
         pitch: '0.0'
         bodyYaw: 146.0432
       waypoints:
@@ -619,7 +573,7 @@ npc:
       owner:
         owner: lori110301
         uuid: 87805ae2-4ca8-3e08-bcbf-0b767aa80877
-    traitnames: equipment,location,waypoints,inventory,spawned,lookclose,mounttrait,gravity,controllable,scoreboardtrait,cattrait,type,owner
+    traitnames: lookclose,inventory,owner,waypoints,scoreboardtrait,mounttrait,controllable,location,type,cattrait,spawned,equipment,gravity
     navigator:
       speedmodifier: '0.800000011920929'
       avoidwater: false
@@ -652,9 +606,9 @@ npc:
         x: '56.9418'
         y: '62.0'
         z: '60.1268'
-        yaw: '-32.6693'
-        pitch: '-8.7759'
-        bodyYaw: -32.669285
+        yaw: '-56.2643'
+        pitch: '-8.5541'
+        bodyYaw: -56.264294
       gravity:
         enabled: false
       spawned: true
@@ -679,7 +633,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: location,equipment,scoreboardtrait,commandtrait,type,inventory,spawned,owner,skintrait,lookclose,mounttrait,gravity
+    traitnames: commandtrait,lookclose,location,skintrait,owner,inventory,type,spawned,equipment,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -698,9 +652,9 @@ npc:
         x: '57.3404'
         y: '31.0'
         z: '46.4757'
-        yaw: '41.4829'
-        pitch: '0.0'
-        bodyYaw: 41.482895
+        yaw: '118.8347'
+        pitch: '7.8167'
+        bodyYaw: 118.834656
       spawned: true
       lookclose:
         range: '5.0'
@@ -724,16 +678,6 @@ npc:
           amount: 1
           durability: 0
           mdata: 3
-          meta:
-            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAR0AAI9PXQACW1ldGEtdHlwZXQACGludGVybmFsdAALc2t1bGwtb3duZXJ1cQB+AAYAAAAEdAAISXRlbU1ldGF0AAVTS1VMTHQCDEg0c0lBQUFBQUFBQUFFM1B2VTdjUUJRRjRBR0J0REhwZUFTa0tLWHRsUjFSdUVDUURiYlczZ0Q3ZzkxNTEyTm14dmZPZ3RkL00wMnFQQXhsSkZyZWhhZWdaalpOMHAycmU0cnpXWVJZNVBOZDFRTDhyTGNsQnpvaVIwbU9sTHhRSld3OU1Mc1lCR3dVOTgzZDdHelljdkg0amN0T3JUZmM1MmorTFBkQm5mL1g5WnE4OTBDTkJkUHlxVjFqWjhPNEJzcHFaNE50aHloQmlnZEhZY2UyRDhyVlJlVktiQjNVRWhCTGxMMWdxbWtkcVF2QW5ucjdqbkxMQ3B1U205eHJVU0NLZkZBb1FBc04yNElyTHAzejhpa0lMR0laeGlPdEcwNTNuOGlvb1VQVDFuUm5FVUlPUnVSNG1VUDdseGJaMmIyWmV4K1p1YUdoUmZNN0cyYWhvWVZ5cWRhWG9SL3VhZGNYL3RUUS9uVU5iZVZCT281WUptOE1iV2xQeDdkQXIyOE5iZEhGbUVCaWFDa3UyZXhINm1aWGxadmd3b2wxQWpGT01GbEZMSjB2bk1UUTR0VjNiOTlKM1VrVnp5ZmM1RDR6dEZoY0RDbEdrSWtNWmxlaEN2ZTBteUFnNUlRY2hvV0JITDAvdjc3OStoS2MvZm45OWZEMFlQcE15QWZ6WFRnYnh3RUFBQT09dAC0ZXlqMHp4aDBkeGpsY3lpNmV5anRzMGxvaWpwN2ludnliY2k2aW1oMGRoYTZseTkwenhoMGR4amxjeTV0YXc1bHkzamh6bnF1Ym12MGwzcmxlaHIxY211dm1tbmxuamcxeW12aG9neTJ6ZGsybm11MW16bmxtbWZtbndqaHl0dTFuemRsbXdlNW9neTJ5MmZrbXRmaW9neXd6amRtbWpheHltamx6anpsb2RpeWluMTlmcT09
-            skull:
-              owner: eyj0zxh0dxjlcyi6eyjts0loijp7invybci6imh0dha6ly90zxh0dxjlcy5taw5ly3jhznqubmv0l3rlehr1cmuvmmnlnjg1ymvhogy2zdk2nmu1mznlmmfmnwjhytu1nzdlmwe5ogy2y2fkmtfiogywzjdmmjaxymjlzjzlodiyin19fq==
-              uuid: f6a9bde0-7f26-3d23-b185-280213014ca9
-              properties:
-                textures:
-                  '0':
-                    name: textures
-                    value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmNlNjg1YmVhOGY2ZDk2NmU1MzNlMmFmNWJhYTU1NzdlMWE5OGY2Y2FkMTFiOGYwZjdmMjAxYmJlZjZlODIyIn19fQ==
       skintrait:
         fetchDefaultSkin: true
         signature: x3f5Yq0L8i+kLCj3t7w6PeJLa8QiWqxkXhfeNRwWGSJMLRFMYksowSrcwX6x9XkVyEgPpfi5L4o8q+27BNIdH/BRfLo8SZfjSg7z0nubQscdiTcP2fRrYpxW1n1dw0MZ3pR5xGzRpTOESxpzLBUCJfyDi7Xxa7v3CNgN4Dn9PfL8K3TPr/qGiKDdTxokJRK0TK4+GLg+k6HUOORged/dw57an0InBq3ghLwyqdbmz5KBqn/xhTBYgufy2IqJboZroXKtEPrQiMAy+fTY2rLHAnexPkcy+dGLoI+hv5BXndHL5ncIHGIHvawH4pSmpmYcJYJhhzucbHJbJSfH3BEvmPMsgxi+APWp2JNgpBv5sjGe9cMTT24BYfFGbf5/5Elg8KkKSjI/0kJ0ELjFY3l/amp2L3fBeeNBzQPzpzSakf2poqyzLWvjogZt6GMaJTpu0fi05qgN4wti4h28arvAr308XhYnloTfDbtFKZMsA9szcSspQ/iZwh4VPTXjKN+2g/lBkzqH6jzGweBBI+zwZVMmVGfUXR/KMchI/LvEIPc2Rofh6ELjjpy3KHUMYQ94SzWz4juxokDlUeXFZRHecEfbjPxUFHpXNmFG/peG/dx0dNvTdrAjFyrdcnahsbF+ZZx0HTNmb9GcVE+lhzrJCmRD9v8fwNnkyFWMYVZEwZM=
@@ -746,20 +690,10 @@ npc:
           amount: 1
           durability: 0
           mdata: 3
-          meta:
-            skull:
-              owner: eyj0zxh0dxjlcyi6eyjts0loijp7invybci6imh0dha6ly90zxh0dxjlcy5taw5ly3jhznqubmv0l3rlehr1cmuvmmnlnjg1ymvhogy2zdk2nmu1mznlmmfmnwjhytu1nzdlmwe5ogy2y2fkmtfiogywzjdmmjaxymjlzjzlodiyin19fq==
-              uuid: f6a9bde0-7f26-3d23-b185-280213014ca9
-              properties:
-                textures:
-                  '0':
-                    name: textures
-                    value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmNlNjg1YmVhOGY2ZDk2NmU1MzNlMmFmNWJhYTU1NzdlMWE5OGY2Y2FkMTFiOGYwZjdmMjAxYmJlZjZlODIyIn19fQ==
-            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAR0AAI9PXQACW1ldGEtdHlwZXQACGludGVybmFsdAALc2t1bGwtb3duZXJ1cQB+AAYAAAAEdAAISXRlbU1ldGF0AAVTS1VMTHQCDEg0c0lBQUFBQUFBQUFFM1B2VTdjUUJRRjRBR0J0REhwZUFTa0tLWHRsUjFSdUVDUURiYlczZ0Q3ZzkxNTEyTm14dmZPZ3RkL00wMnFQQXhsSkZyZWhhZWdaalpOMHAycmU0cnpXWVJZNVBOZDFRTDhyTGNsQnpvaVIwbU9sTHhRSld3OU1Mc1lCR3dVOTgzZDdHelljdkg0amN0T3JUZmM1MmorTFBkQm5mL1g5WnE4OTBDTkJkUHlxVjFqWjhPNEJzcHFaNE50aHloQmlnZEhZY2UyRDhyVlJlVktiQjNVRWhCTGxMMWdxbWtkcVF2QW5ucjdqbkxMQ3B1U205eHJVU0NLZkZBb1FBc04yNElyTHAzejhpa0lMR0laeGlPdEcwNTNuOGlvb1VQVDFuUm5FVUlPUnVSNG1VUDdseGJaMmIyWmV4K1p1YUdoUmZNN0cyYWhvWVZ5cWRhWG9SL3VhZGNYL3RUUS9uVU5iZVZCT281WUptOE1iV2xQeDdkQXIyOE5iZEhGbUVCaWFDa3UyZXhINm1aWGxadmd3b2wxQWpGT01GbEZMSjB2bk1UUTR0VjNiOTlKM1VrVnp5ZmM1RDR6dEZoY0RDbEdrSWtNWmxlaEN2ZTBteUFnNUlRY2hvV0JITDAvdjc3OStoS2MvZm45OWZEMFlQcE15QWZ6WFRnYnh3RUFBQT09dAC0ZXlqMHp4aDBkeGpsY3lpNmV5anRzMGxvaWpwN2ludnliY2k2aW1oMGRoYTZseTkwenhoMGR4amxjeTV0YXc1bHkzamh6bnF1Ym12MGwzcmxlaHIxY211dm1tbmxuamcxeW12aG9neTJ6ZGsybm11MW16bmxtbWZtbndqaHl0dTFuemRsbXdlNW9neTJ5MmZrbXRmaW9neXd6amRtbWpheHltamx6anpsb2RpeWluMTlmcT09
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: equipment,location,scoreboardtrait,type,inventory,spawned,skintrait,owner,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,inventory,owner,type,spawned,equipment,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -779,9 +713,9 @@ npc:
         x: '49.5005'
         y: '31.0'
         z: '57.2626'
-        yaw: '123.843'
-        pitch: '8.7739'
-        bodyYaw: 123.84296
+        yaw: '-145.7542'
+        pitch: '0.0'
+        bodyYaw: -145.75424
       spawned: true
       lookclose:
         range: '5.0'
@@ -805,19 +739,6 @@ npc:
           amount: 1
           durability: 0
           mdata: 3
-          meta:
-            unbreakable: false
-            repaircost: 0
-            skull:
-              texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDg4YWRiMjIxYzZlYTRmNGU4YWRiYTc2ZWY4NGMyODExYTYwODQ0YjQzMTNmYzkyM2QxMzU5YmNlNTE3MTRjYSJ9fX0=
-              uuid: 777799d5-db3b-3c0d-aec8-7b83bda64afa
-              properties:
-                textures:
-                  '0':
-                    name: textures
-                    value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDg4YWRiMjIxYzZlYTRmNGU4YWRiYTc2ZWY4NGMyODExYTYwODQ0YjQzMTNmYzkyM2QxMzU5YmNlNTE3MTRjYSJ9fX0=
-              owner: eyj0zxh0dxjlcyi6eyjts0loijp7invybci6imh0dha6ly90zxh0dxjlcy5taw5ly3jhznqubmv0l3rlehr1cmuvzdg4ywrimjixyzzlytrmngu4ywriytc2zwy4ngmyodexytywodq0yjqzmtnmyzkym2qxmzu5ymnlnte3mtrjysj9fx0=
-            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAR0AAI9PXQACW1ldGEtdHlwZXQACGludGVybmFsdAALc2t1bGwtb3duZXJ1cQB+AAYAAAAEdAAISXRlbU1ldGF0AAVTS1VMTHQCEEg0c0lBQUFBQUFBQUFFM1B6WExUTUJRRllNR1VtV0RLdTRnNE5wTXBYVENrMDlwVE84UnhmdVJkWWl1eFZFbHBIRG5XVlpjOEJTL0FzcXR1MmZNQ3JIZ1RWcWpaME9VOTl5ek81eUhrb2ZQcFhTdkUxMmEzWVlMMjBGbTZraFE5VWVEWW1ocFhob3NTV09odWZjQml4L2o5UjZhT3NDNVp5S1Q3MTZ0UXdQQkZOOUNyTGhEZzg5cXFmYnVXUnl6OFJ0QzYrVkRLOW1pcjdRQzZoa25PREZnclFEZFNiZHRUQnJyczJ3NEdhaXRoVjFFREdycGR0Y2ZBOTFacUpjSGVnZXp2amJSdEFGSUpwYWt2ZGNQaHdJY2JneTg5NURuR1BXMDBvNGUzcUtlcDBXMUREeDVDNkZVUHZabXZSSHVpeGJoWXVybkwyTTJOSEMzT3AxaU1JMGVMMUJ6V1g2SXdlcWJkZkE1dkhlMS8xOUVXZ1NCK1hCZHE0bWh6Zk90bmd0NWtqalk3RnFQdGdDd3lsdkRJRUZzSWttY3l2WjZkTXBLWC9XSkJCdWwxQXVQUmxTRTU2Y2FqQ1NaOFlwTThsY1RSa3Y3RUpIWVdFSm1LTkwveWt6empaQm9QTjB0OGlkQTc5RHFxSE9TczY3Ny8vblB4NmYzanI0ZHZQMy9FZnhINkI5blZvalhIQVFBQXQAtGV5ajB6eGgwZHhqbGN5aTZleWp0czBsb2lqcDdpbnZ5YmNpNmltaDBkaGE2bHk5MHp4aDBkeGpsY3k1dGF3NWx5M2poem5xdWJtdjBsM3JsZWhyMWNtdXZ6ZGc0eXdyaW1qaXh5enpseXRybW5ndTR5d3JpeXRjMnp3eTRuZ215b2RleHl0eXdvZHEweWpxem10bm15emt5bTJxeG16dTV5bW5sbnRlM210cmp5c2o5ZngwPQ==
       inventory:
         '0':
           type_namespace: minecraft
@@ -825,16 +746,6 @@ npc:
           amount: 1
           durability: 0
           mdata: 3
-          meta:
-            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAR0AAI9PXQACW1ldGEtdHlwZXQACGludGVybmFsdAALc2t1bGwtb3duZXJ1cQB+AAYAAAAEdAAISXRlbU1ldGF0AAVTS1VMTHQCEEg0c0lBQUFBQUFBQUFFM1B6WExUTUJRRllNR1VtV0RLdTRnNE5wTXBYVENrMDlwVE84UnhmdVJkWWl1eFZFbHBIRG5XVlpjOEJTL0FzcXR1MmZNQ3JIZ1RWcWpaME9VOTl5ek81eUhrb2ZQcFhTdkUxMmEzWVlMMjBGbTZraFE5VWVEWW1ocFhob3NTV09odWZjQml4L2o5UjZhT3NDNVp5S1Q3MTZ0UXdQQkZOOUNyTGhEZzg5cXFmYnVXUnl6OFJ0QzYrVkRLOW1pcjdRQzZoa25PREZnclFEZFNiZHRUQnJyczJ3NEdhaXRoVjFFREdycGR0Y2ZBOTFacUpjSGVnZXp2amJSdEFGSUpwYWt2ZGNQaHdJY2JneTg5NURuR1BXMDBvNGUzcUtlcDBXMUREeDVDNkZVUHZabXZSSHVpeGJoWXVybkwyTTJOSEMzT3AxaU1JMGVMMUJ6V1g2SXdlcWJkZkE1dkhlMS8xOUVXZ1NCK1hCZHE0bWh6Zk90bmd0NWtqalk3RnFQdGdDd3lsdkRJRUZzSWttY3l2WjZkTXBLWC9XSkJCdWwxQXVQUmxTRTU2Y2FqQ1NaOFlwTThsY1RSa3Y3RUpIWVdFSm1LTkwveWt6empaQm9QTjB0OGlkQTc5RHFxSE9TczY3Ny8vblB4NmYzanI0ZHZQMy9FZnhINkI5blZvalhIQVFBQXQAtGV5ajB6eGgwZHhqbGN5aTZleWp0czBsb2lqcDdpbnZ5YmNpNmltaDBkaGE2bHk5MHp4aDBkeGpsY3k1dGF3NWx5M2poem5xdWJtdjBsM3JsZWhyMWNtdXZ6ZGc0eXdyaW1qaXh5enpseXRybW5ndTR5d3JpeXRjMnp3eTRuZ215b2RleHl0eXdvZHEweWpxem10bm15emt5bTJxeG16dTV5bW5sbnRlM210cmp5c2o5ZngwPQ==
-            skull:
-              owner: eyj0zxh0dxjlcyi6eyjts0loijp7invybci6imh0dha6ly90zxh0dxjlcy5taw5ly3jhznqubmv0l3rlehr1cmuvzdg4ywrimjixyzzlytrmngu4ywriytc2zwy4ngmyodexytywodq0yjqzmtnmyzkym2qxmzu5ymnlnte3mtrjysj9fx0=
-              uuid: 777799d5-db3b-3c0d-aec8-7b83bda64afa
-              properties:
-                textures:
-                  '0':
-                    name: textures
-                    value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDg4YWRiMjIxYzZlYTRmNGU4YWRiYTc2ZWY4NGMyODExYTYwODQ0YjQzMTNmYzkyM2QxMzU5YmNlNTE3MTRjYSJ9fX0=
       skintrait:
         fetchDefaultSkin: true
         signature: HSlpuSiuByPndLUwuswEVmQAkbcNZ+9mE/Zy8xvJnxGzQM2k8AEG8OdV4/E8OfNBKdaRoDwMAvNKpB1Jtdj6g/rIUtMWUGDeIey/64K5Tf6sJ92neECYALG85wDGJJajBKTTuEDni+HD0OCmZWA1hmmzoP1vwod+fWNRNg47WFvuCFj/ZMcuHpDGs1D9l3vu2fxGPu3Th/yVIUKmG7oZFov/h0YUm7rfHOKvHZr4YPTslIisjp+Om2vUjsul4vXvSGPh33juSvz4zVbyF6Gjw6Cn64ChTgsXRH40voO10Muv3MHETK66XaVLkix/vkVVlWmDMbwGFVkohX3kGvv7fb9djR30fIEHsigW7ek/xxE9cOkj8RtFj3/8uJt31zP3L1NOJR8N5X8upTXEG9Ai+9S1A9e/Hy4gNBstXbIY0SxWAl0fsvlVDgQrC8xabgq4bGj6Miwxkbs/73HaDnXjfwBwrIdK7fKxbVmN71bx49qjCT9BWbzWPeekySDV+CSh9xSLP7LRWwU6AdpDh44bCBfBCB+9v8sYqFymplwJZ0pGWRCy0tL72yd2o2bONJv9PJJ4rDtyOdUOuIDDuOm+kjs0n6y5x7JySq6aVnaxOKnY/UBpkMR+EvIVEgH1w2XLGemVMmcCk0vtyG7UOob461g/JYNytjVS/urr8NnK13c=
@@ -844,7 +755,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: equipment,location,scoreboardtrait,type,inventory,spawned,skintrait,owner,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,inventory,owner,type,equipment,spawned,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -877,9 +788,9 @@ npc:
         x: '56.176'
         y: '31.0'
         z: '42.8454'
-        yaw: '25.5052'
+        yaw: '64.6402'
         pitch: '0.0'
-        bodyYaw: 25.505203
+        bodyYaw: 64.64024
       spawned: true
       type: PLAYER
       equipment: {}
@@ -892,7 +803,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: location,equipment,scoreboardtrait,type,inventory,spawned,owner,skintrait,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,inventory,owner,type,spawned,equipment,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -927,9 +838,9 @@ npc:
         x: '52.4245'
         y: '31.0'
         z: '39.2297'
-        yaw: '-17.754'
-        pitch: '4.8781'
-        bodyYaw: -17.754005
+        yaw: '45.3202'
+        pitch: '3.8207'
+        bodyYaw: 45.320236
       equipment: {}
       inventory: {}
       skintrait:
@@ -940,7 +851,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: equipment,location,scoreboardtrait,type,inventory,spawned,owner,skintrait,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,inventory,owner,type,spawned,equipment,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -996,7 +907,7 @@ npc:
         x: '31.3'
         y: '57.0'
         z: '-3.56'
-        yaw: '-138.5663'
+        yaw: '-130.555'
         pitch: '0.0'
         bodyYaw: -147.6889
       spawned: true
@@ -1008,7 +919,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: equipment,location,scoreboardtrait,type,waypoints,inventory,spawned,owner,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,inventory,owner,type,waypoints,equipment,spawned,scoreboardtrait,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1043,9 +954,9 @@ npc:
         x: '33.9149'
         y: '54.0'
         z: '41.5561'
-        yaw: '154.8789'
-        pitch: '-17.621'
-        bodyYaw: 154.8789
+        yaw: '165.8442'
+        pitch: '-8.3056'
+        bodyYaw: 165.84421
       spawned: true
       skintrait:
         fetchDefaultSkin: true
@@ -1056,7 +967,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: location,equipment,scoreboardtrait,type,inventory,owner,spawned,skintrait,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,owner,inventory,type,equipment,spawned,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1078,9 +989,9 @@ npc:
         x: '-25.5'
         y: '57.0'
         z: '49.5'
-        yaw: '-161.8713'
+        yaw: '160.436'
         pitch: '0.0'
-        bodyYaw: -161.8713
+        bodyYaw: 160.43602
       lookclose:
         range: '5.0'
         enabled: true
@@ -1102,7 +1013,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: location,equipment,scoreboardtrait,type,inventory,owner,skintrait,spawned,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,owner,inventory,type,equipment,spawned,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1125,9 +1036,9 @@ npc:
         x: '31.8567'
         y: '64.0'
         z: '68.4805'
-        yaw: '-81.4172'
-        pitch: '-10.3211'
-        bodyYaw: -81.41716
+        yaw: '-81.4525'
+        pitch: '-10.2168'
+        bodyYaw: -81.45247
       lookclose:
         range: '5.0'
         enabled: true
@@ -1150,7 +1061,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: equipment,location,scoreboardtrait,type,inventory,spawned,owner,skintrait,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,owner,inventory,type,equipment,spawned,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1228,7 +1139,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: equipment,location,scoreboardtrait,type,waypoints,inventory,owner,spawned,lookclose,mounttrait,gravity,armorstandtrait
+    traitnames: armorstandtrait,lookclose,location,owner,inventory,type,waypoints,equipment,spawned,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1251,9 +1162,9 @@ npc:
         x: '-2.7264'
         y: '28.0'
         z: '-4.3355'
-        yaw: '137.9076'
-        pitch: '7.5813'
-        bodyYaw: 137.90756
+        yaw: '16.8934'
+        pitch: '-7.9551'
+        bodyYaw: 16.893387
       lookclose:
         range: '5.0'
         enabled: true
@@ -1276,7 +1187,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: location,equipment,scoreboardtrait,type,inventory,spawned,owner,skintrait,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,owner,inventory,type,spawned,equipment,scoreboardtrait,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1313,9 +1224,9 @@ npc:
         x: '-1.6229'
         y: '59.0'
         z: '-52.5035'
-        yaw: '2.7157'
-        pitch: '-13.155'
-        bodyYaw: 2.7157059
+        yaw: '-82.449'
+        pitch: '0.0'
+        bodyYaw: -82.44896
       lookclose:
         range: '5.0'
         enabled: true
@@ -1338,7 +1249,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: location,equipment,scoreboardtrait,type,inventory,owner,spawned,skintrait,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,owner,inventory,type,spawned,equipment,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1370,9 +1281,9 @@ npc:
         x: '96.5708'
         y: '48.0'
         z: '42.6199'
-        yaw: '-173.578'
-        pitch: '-22.6454'
-        bodyYaw: -173.57805
+        yaw: '-153.3922'
+        pitch: '-18.3926'
+        bodyYaw: -153.39218
       gravity:
         enabled: false
       spawned: true
@@ -1399,7 +1310,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: location,equipment,waypoints,inventory,spawned,skintrait,skinlayers,lookclose,mounttrait,gravity,scoreboardtrait,type,owner
+    traitnames: lookclose,inventory,owner,waypoints,scoreboardtrait,mounttrait,skinlayers,location,skintrait,type,spawned,equipment,gravity
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1431,9 +1342,9 @@ npc:
         x: '-5.535'
         y: '30.0'
         z: '-33.027'
-        yaw: '-28.5744'
-        pitch: '-0.5781'
-        bodyYaw: -28.574356
+        yaw: '-28.2779'
+        pitch: '-0.5883'
+        bodyYaw: -28.277882
       gravity:
         enabled: false
       spawned: true
@@ -1447,7 +1358,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: location,equipment,scoreboardtrait,type,inventory,owner,skintrait,spawned,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,owner,inventory,type,equipment,spawned,scoreboardtrait,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1518,7 +1429,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: location,equipment,scoreboardtrait,type,inventory,skintrait,spawned,owner,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,inventory,owner,type,spawned,equipment,scoreboardtrait,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1547,12 +1458,12 @@ npc:
           '1': 360.0
       location:
         world: survie_new
-        x: '-40.5482'
-        y: '28.0'
-        z: '27.3521'
-        yaw: '40.7154'
-        pitch: '-32.9255'
-        bodyYaw: 40.71544
+        x: '-41.8052'
+        y: '31.5'
+        z: '27.3852'
+        yaw: '35.2718'
+        pitch: '-0.5329'
+        bodyYaw: 35.27176
       gravity:
         enabled: false
       spawned: true
@@ -1566,7 +1477,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: location,equipment,scoreboardtrait,type,inventory,skintrait,owner,spawned,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,owner,inventory,type,spawned,equipment,scoreboardtrait,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1605,9 +1516,9 @@ npc:
         x: '-57.695'
         y: '74.0'
         z: '-74.8301'
-        yaw: '-76.2937'
-        pitch: '-58.6782'
-        bodyYaw: -76.2937
+        yaw: '23.7723'
+        pitch: '-7.6205'
+        bodyYaw: 23.772293
       equipment:
         hand:
           type_namespace: minecraft
@@ -1628,7 +1539,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: equipment,location,scoreboardtrait,type,inventory,spawned,skintrait,owner,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,inventory,owner,type,equipment,spawned,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1667,9 +1578,9 @@ npc:
         x: '-21.126'
         y: '30.0'
         z: '-15.4067'
-        yaw: '-82.1957'
-        pitch: '-4.446'
-        bodyYaw: -82.195694
+        yaw: '-27.1042'
+        pitch: '-9.3653'
+        bodyYaw: -27.104237
       equipment:
         hand:
           type_namespace: minecraft
@@ -1690,7 +1601,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: equipment,location,scoreboardtrait,type,inventory,skintrait,spawned,owner,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,inventory,owner,type,equipment,spawned,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1729,9 +1640,9 @@ npc:
         x: '-61.5215'
         y: '76.0'
         z: '-48.5914'
-        yaw: '95.7427'
-        pitch: '28.1185'
-        bodyYaw: 95.74269
+        yaw: '116.5846'
+        pitch: '26.1236'
+        bodyYaw: 116.58464
       equipment:
         hand:
           type_namespace: minecraft
@@ -1752,7 +1663,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: location,equipment,scoreboardtrait,type,inventory,spawned,owner,skintrait,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,inventory,owner,type,spawned,equipment,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1791,9 +1702,9 @@ npc:
         x: '65.2348'
         y: '61.0'
         z: '2.3166'
-        yaw: '91.5048'
-        pitch: '-2.6228'
-        bodyYaw: 91.50479
+        yaw: '40.0686'
+        pitch: '-0.0107'
+        bodyYaw: 40.068558
       equipment:
         hand:
           type_namespace: minecraft
@@ -1814,7 +1725,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: equipment,location,scoreboardtrait,type,inventory,skintrait,spawned,owner,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,inventory,owner,type,equipment,spawned,scoreboardtrait,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1853,9 +1764,9 @@ npc:
         x: '69.4441'
         y: '66.0'
         z: '86.5832'
-        yaw: '35.7482'
-        pitch: '-8.3118'
-        bodyYaw: 35.748177
+        yaw: '103.2264'
+        pitch: '9.8772'
+        bodyYaw: 103.226364
       equipment:
         hand:
           type_namespace: minecraft
@@ -1876,7 +1787,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: location,equipment,scoreboardtrait,type,inventory,spawned,skintrait,owner,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,inventory,owner,type,spawned,equipment,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1915,9 +1826,9 @@ npc:
         x: '8.4551'
         y: '31.0'
         z: '77.4752'
-        yaw: '146.1415'
-        pitch: '8.4528'
-        bodyYaw: 146.14151
+        yaw: '-102.4908'
+        pitch: '-14.7542'
+        bodyYaw: -102.49075
       equipment:
         hand:
           type_namespace: minecraft
@@ -1938,7 +1849,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: location,equipment,scoreboardtrait,type,inventory,owner,skintrait,spawned,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,owner,inventory,type,equipment,spawned,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1958,9 +1869,9 @@ npc:
         x: '-36.6608'
         y: '33.0'
         z: '57.2522'
-        yaw: '-124.9994'
-        pitch: '-8.7696'
-        bodyYaw: -124.99939
+        yaw: '179.5758'
+        pitch: '0.0'
+        bodyYaw: 179.57582
       lookclose:
         range: '5.0'
         enabled: true
@@ -1984,7 +1895,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: location,equipment,scoreboardtrait,type,inventory,spawned,owner,skintrait,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,owner,inventory,type,spawned,equipment,scoreboardtrait,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2004,9 +1915,9 @@ npc:
         x: '30.4393'
         y: '30.0'
         z: '-10.5607'
-        yaw: '-19.696'
-        pitch: '-12.0279'
-        bodyYaw: -19.696022
+        yaw: '-44.2576'
+        pitch: '-9.2215'
+        bodyYaw: -44.257595
       inventory:
         '0':
           type_namespace: minecraft
@@ -2051,7 +1962,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: location,equipment,scoreboardtrait,type,waypoints,inventory,skintrait,owner,spawned,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,inventory,owner,type,waypoints,spawned,equipment,scoreboardtrait,gravity,mounttrait
     navigator:
       speedmodifier: '0.6000000238418579'
       avoidwater: false
@@ -2086,9 +1997,9 @@ npc:
         x: '-41.4468'
         y: '58.0'
         z: '2.5874'
-        yaw: '-154.5274'
-        pitch: '-1.8085'
-        bodyYaw: -154.52736
+        yaw: '7.0674'
+        pitch: '-12.2824'
+        bodyYaw: 7.0674133
       gravity:
         enabled: false
       skintrait:
@@ -2100,7 +2011,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: location,equipment,scoreboardtrait,type,inventory,owner,skintrait,spawned,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,owner,inventory,type,spawned,equipment,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2159,7 +2070,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: location,equipment,scoreboardtrait,type,inventory,spawned,skintrait,owner,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,inventory,owner,type,spawned,equipment,scoreboardtrait,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2195,9 +2106,9 @@ npc:
         x: '5.4744'
         y: '58.5'
         z: '5.5273'
-        yaw: '-88.7175'
-        pitch: '16.8441'
-        bodyYaw: -88.717476
+        yaw: '-93.1497'
+        pitch: '5.1143'
+        bodyYaw: -93.149734
       skintrait:
         fetchDefaultSkin: true
         signature: ToFbbZzjZgn8Q0/Wk3rjGFRMNo7dXIktZfIGZs3/mVQ8Q+DsC42gDvPkFqlMvywoizTscax3DmDK04flx/cXahYEsNj98L0HX16/sZO2h8pQGl2k0TWch22nMg9m+pT88fGZSUgye9qas3lNDtuD1IUXlyDpjY1y1czfcJTTVKES9LzghcubW8yRM/H2nUG3/zN1zq6EuBkHMk0C4b1BWmE789+wCr//gaLS1SGqz4ULLsWGlbQCLU2G7oNnBy4lS/Vw8lQkqf0yTZWNU95xuQ6a2HTDkqdOlZ3my2rJf03ZOXmE8O7kFpwp+g5BH6ADebPV4PSDfPqgP3MH4FBw4mYggFHATQYEU3sVKydJQ9uVWDKhombxS3fZTRdMT17tdGmcSaNHRxbobW4MWOxSsHVGJi6EtvEbEfDDGf9X1nOF42lCX9GbOdmgmjn+H8FIfaYRoPUqpX7SkMWq8u81hzqbMIp+Q36hGpziwt5YumvcoXWUkuutDLciSkW4cAa31/YO58ZgWzOXLQdvtjbSMT6zBOJO5PIvHLdRHRS+hxbyx3K8aLx3h4rZWeb5puAetoPC9wMbG+8JACB8nWAYl046rt+2egzfNV6fC1jlpoIz0mo68z6JsWqOh0BuKAJ0W+eeOZ8WpSq1PA5F/v9/O+NVeQA6XZWPCCTdl7YByjk=
@@ -2207,7 +2118,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: location,equipment,scoreboardtrait,type,inventory,owner,skintrait,spawned,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,owner,inventory,type,equipment,spawned,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2243,9 +2154,9 @@ npc:
         x: '2.2999'
         y: '30.0'
         z: '-33.6891'
-        yaw: '-40.8545'
-        pitch: '-2.8976'
-        bodyYaw: -40.85449
+        yaw: '-47.9451'
+        pitch: '-10.1005'
+        bodyYaw: -47.945126
       skintrait:
         fetchDefaultSkin: true
         signature: tiw9c6lFbY+TVy0/wL9ulSztbEAr1pI6xeot0botXA+obd6MyvrLFQvmwt5GEwAohDJeAODHzkoY3ikbpAlwSsWGJllaOfxlMpBWUvyLyndAZCmelL0VW3AeE1tpIBnPL58dzQaDTkJhlIdL6YnIAL/UirnvAvY+vhzSYjlZ7leKl0C9/O0SmLcd4O1eU0a1Z9iVKzWAt3dhmvkrl1lnIb5hVMNQHY7kFO6n2GcrOKkR0ECAU3q0LcW3MgvALWaZ1uHeGpOX8ICM7Lt4n46SnLORXpT9SOo7Jk8L6bwjyIUULL79YANiIMAOTPCyReU+r7Fkv08dGvMHMi+/wWkZH14wz4NmvDm7UeH1jlIGa4Adsm6Gj+DpdkFsKlhr34d+ZlxAGGi3Qh+QPzmJGeq3o3HU00Zq/AvaYzEZn8G9PZ129Nibs6RIEmAPZiUORtKZPt+2u87cTv7hGOcCft0ODjTSmdk3fDhEP5FG2t5Aok6jruLOfE7ecZlJuI9G6Is5UXrKKzb/z/fw/Wlk/6b0yfILtxORv+B/BFwS4aWmMkxVbdM7+ek1bmXkIoUH7RHwWCs0kk8D7TkjonDal2fkzfdC1L7ZjcbPwh09p4xoi5Lqy8ygAhWmhYqGaSoarWh2FSFFiuguX64DLN+OVgjmxMHtdUsSbQOrgugPqTsPJDI=
@@ -2255,7 +2166,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: equipment,location,scoreboardtrait,type,inventory,spawned,skintrait,owner,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,inventory,owner,type,spawned,equipment,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2322,7 +2233,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: equipment,location,scoreboardtrait,type,inventory,spawned,skintrait,owner,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,inventory,owner,type,equipment,spawned,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2358,9 +2269,9 @@ npc:
         x: '-10.7233'
         y: '79.0'
         z: '-68.6997'
-        yaw: '173.6431'
-        pitch: '17.7539'
-        bodyYaw: 173.64307
+        yaw: '62.5005'
+        pitch: '33.6194'
+        bodyYaw: 62.500534
       skintrait:
         fetchDefaultSkin: true
         signature: DkhEMpWubh8dResnLnIjmo92M2RlHVG4yK0g0kUkQvTtDgYI4Gr87jA7B3rGNGf957x82zYCVpQuS8Z5lRuCi0oQr77+ZJsxhTjsGyAsBwH02Je+17OTDre3brGUQzi3jLYejUvgTcI1UwhguNXyQQF7WFmI3exlH28IM+NyWRgK8qxw8/eNCCSxxAQRSXbPmhq3XMpTTPuC3Hv91HzUYfbN97PGVnGkvcFatTiejeJ3xWVeW+zrbeDSis6OMASBOrFYYZ54GDcDBs71iH9Fc+OzV9QKGjbxFbFsT9mG7nORIolvvRoknZjV24bvA2pFrJOeJxLxhUVXHiNzPdCzfgDWYvDUp7CeNHGDVlwbMyX4cAoiW1eKoY4JV+j/ZxF8Oo77b2HTX/5QllP99RQhngaK7SkNd9T5mwX5HkH+KQJvNwgfeFc/Ttp+W/9xIyfTzxpUg8qEI9MHk2eJ3ehkGK3XXDuFeghoofVOEu1J+zOtvup/bQSKpKYGwEKOikPb6+f4763jDYPLyQOUAyGDDLfFjRYR7wr7X3HlnR6Lziki6Fwtvrm9NdkHUPhhics9/xCWftxdWOhiulo+ubQ4CmVcDUHx+Ds4luf28r49Ds38sjifeKCWeLh3TOzSp3d5VKic49NZSMNrQlmmB2tB8/6OkxzLvYkVw06Gnkfe8b4=
@@ -2370,7 +2281,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: location,equipment,scoreboardtrait,type,inventory,owner,spawned,skintrait,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,inventory,owner,type,spawned,equipment,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2406,9 +2317,9 @@ npc:
         x: '66.2998'
         y: '71.0'
         z: '113.6997'
-        yaw: '-173.5207'
-        pitch: '9.1992'
-        bodyYaw: -173.52074
+        yaw: '-165.5624'
+        pitch: '19.8992'
+        bodyYaw: -165.56241
       waypoints:
         linear:
           cachePaths: false
@@ -2423,7 +2334,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: location,equipment,scoreboardtrait,type,waypoints,inventory,skintrait,spawned,owner,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,owner,inventory,type,waypoints,spawned,equipment,scoreboardtrait,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2483,9 +2394,9 @@ npc:
         x: '55.4057'
         y: '103.0'
         z: '-51.5161'
-        yaw: '178.4743'
-        pitch: '9.4413'
-        bodyYaw: 178.4743
+        yaw: '78.7511'
+        pitch: '-0.6328'
+        bodyYaw: 78.751144
       skintrait:
         fetchDefaultSkin: true
         signature: u3rsftQgChE5mYbNHlBZWV1J7Zfn1/nOB+ProMm3BJpHDybZ+nQpxelViY3BSsXvh1y6SxyblnPSyacjX1hXBF9RpZ5aWEe0VFARRfDB71UWo2wE3uIj1pGAJPY2SIIpdzcLeaXW6u6Cp+NOVy5ujWF2oSbCttJiIqOAl+o+Hn8rc1ThknXWyBGVYcrlJKbvrFujNRsbrXoD/ejkyn2t05nBu0NzWrcZx62zSMNT2K0zfFwq2r2osuz/gmH8HqS0AZkx+tAX4y0MoT0N/e6ciz+TUAFC/Jhf8zV7GLqJWlMFsNETIWlq7/6zXuVOhQR8RYZNQbjlKbtp2IRwU3uyg8WQso7Pbnh4Nx5VAZcqnulrNmhA/fiTu935A04b695Wpu1G8v1Haf/EGRQXenRZKJyh8E/v7tkwVeG2L++E//85eEpOxeLiTakjJzCOnzPDZCej8UgGDxtxTfERVkGr/dVM4Hm5TkRRKx65PhZZf82KSWPw/oPdau3dXBly/OwRRHFFrQd5lSWkVJNGM271YCLBZnOwhkv+USygtE53ImY7X5ilg9CJdVYoFARKdmgelp0Vko7QT5m/S6wf+hXr2gx7az7M8+51E9UeeggmsctudbyvdquMs+nRSsoJWdeYiFMtbeTBW4eif64iwgARFEEkB+9YveUv0KpTstci/RA=
@@ -2495,7 +2406,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: equipment,location,scoreboardtrait,type,inventory,owner,skintrait,spawned,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,owner,inventory,type,equipment,spawned,scoreboardtrait,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2517,9 +2428,9 @@ npc:
         x: '-37.5328'
         y: '75.0'
         z: '-40.508'
-        yaw: '102.0416'
-        pitch: '-1.7834'
-        bodyYaw: 102.04158
+        yaw: '47.4562'
+        pitch: '-38.223'
+        bodyYaw: 47.456238
       gravity:
         enabled: false
       lookclose:
@@ -2543,7 +2454,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: location,equipment,scoreboardtrait,type,inventory,spawned,owner,skintrait,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,owner,inventory,type,spawned,equipment,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2575,7 +2486,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: location,equipment,scoreboardtrait,type,inventory,spawned,owner,mounttrait,gravity,controllable
+    traitnames: controllable,location,owner,inventory,type,spawned,equipment,scoreboardtrait,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2590,9 +2501,9 @@ npc:
         x: '-1842.2998'
         y: '67.0'
         z: '1716.3451'
-        yaw: '135.1375'
-        pitch: '-20.0648'
-        bodyYaw: 135.13754
+        yaw: '-125.4132'
+        pitch: '0.0'
+        bodyYaw: -125.41321
       gravity:
         enabled: false
       type: PLAYER
@@ -2617,7 +2528,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: location,equipment,scoreboardtrait,type,inventory,skintrait,spawned,owner,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,inventory,owner,type,spawned,equipment,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2638,9 +2549,9 @@ npc:
         x: '-1830.3206'
         y: '67.0'
         z: '1754.6999'
-        yaw: '51.8178'
-        pitch: '4.0291'
-        bodyYaw: 51.817825
+        yaw: '55.2335'
+        pitch: '0.6676'
+        bodyYaw: 55.233536
       gravity:
         enabled: false
       type: PLAYER
@@ -2662,7 +2573,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: equipment,location,scoreboardtrait,type,inventory,owner,skintrait,spawned,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,owner,inventory,type,equipment,spawned,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2684,9 +2595,9 @@ npc:
         x: '-1836.4292'
         y: '67.0'
         z: '1741.4873'
-        yaw: '159.8345'
-        pitch: '0.0'
-        bodyYaw: 159.83453
+        yaw: '133.5889'
+        pitch: '-9.7438'
+        bodyYaw: 133.58893
       gravity:
         enabled: false
       type: PLAYER
@@ -2711,7 +2622,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: equipment,location,scoreboardtrait,type,inventory,skintrait,owner,spawned,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,inventory,owner,type,equipment,spawned,scoreboardtrait,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2733,9 +2644,9 @@ npc:
         x: '-1819.2219'
         y: '66.0'
         z: '1728.1174'
-        yaw: '105.7712'
-        pitch: '-22.3728'
-        bodyYaw: 105.77121
+        yaw: '-16.3943'
+        pitch: '-10.4234'
+        bodyYaw: -16.39434
       gravity:
         enabled: false
       type: PLAYER
@@ -2760,7 +2671,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: equipment,location,scoreboardtrait,type,inventory,spawned,skintrait,owner,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,inventory,owner,type,equipment,spawned,scoreboardtrait,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2780,9 +2691,9 @@ npc:
         x: '-1812.2327'
         y: '66.5'
         z: '1736.2073'
-        yaw: '-166.3041'
-        pitch: '-5.036'
-        bodyYaw: -166.30412
+        yaw: '-99.5648'
+        pitch: '-5.5407'
+        bodyYaw: -99.56484
       gravity:
         enabled: false
       type: PLAYER
@@ -2806,7 +2717,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: location,equipment,scoreboardtrait,type,inventory,owner,spawned,skintrait,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,owner,inventory,type,spawned,equipment,scoreboardtrait,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2840,9 +2751,9 @@ npc:
         x: '-1835.2424'
         y: '66.0'
         z: '1727.747'
-        yaw: '46.2616'
-        pitch: '-7.4033'
-        bodyYaw: 46.26155
+        yaw: '144.6191'
+        pitch: '-8.4474'
+        bodyYaw: 144.61914
       type: PLAYER
       spawned: true
       skintrait:
@@ -2854,7 +2765,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: location,equipment,scoreboardtrait,type,inventory,spawned,skintrait,owner,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,inventory,owner,type,equipment,spawned,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2893,9 +2804,9 @@ npc:
         x: '-1837.2998'
         y: '66.0'
         z: '1731.4999'
-        yaw: '99.336'
-        pitch: '-10.1717'
-        bodyYaw: 99.336
+        yaw: '162.5027'
+        pitch: '-10.388'
+        bodyYaw: 162.50269
       type: PLAYER
       spawned: true
       skintrait:
@@ -2907,7 +2818,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: location,equipment,scoreboardtrait,type,waypoints,inventory,spawned,owner,skintrait,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,owner,inventory,type,waypoints,equipment,spawned,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '0.699999988079071'
       avoidwater: false
@@ -2955,7 +2866,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: equipment,location,scoreboardtrait,type,inventory,skintrait,owner,spawned,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,inventory,owner,type,equipment,spawned,scoreboardtrait,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3003,7 +2914,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: location,equipment,scoreboardtrait,type,inventory,owner,skintrait,spawned,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,owner,inventory,type,spawned,equipment,scoreboardtrait,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3037,9 +2948,9 @@ npc:
         x: '-1848.0951'
         y: '67.0'
         z: '1761.3856'
-        yaw: '161.9182'
-        pitch: '-9.6991'
-        bodyYaw: 161.91818
+        yaw: '110.2669'
+        pitch: '-9.1098'
+        bodyYaw: 110.26686
       type: PLAYER
       spawned: true
       skintrait:
@@ -3051,7 +2962,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: location,equipment,scoreboardtrait,type,inventory,spawned,owner,skintrait,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,owner,inventory,type,spawned,equipment,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3085,9 +2996,9 @@ npc:
         x: '-1838.3031'
         y: '66.0'
         z: '1761.2617'
-        yaw: '89.6902'
-        pitch: '-17.8372'
-        bodyYaw: 89.690186
+        yaw: '89.5612'
+        pitch: '-10.3963'
+        bodyYaw: 89.56119
       type: PLAYER
       spawned: true
       skintrait:
@@ -3099,7 +3010,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: location,equipment,scoreboardtrait,type,inventory,spawned,skintrait,owner,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,inventory,owner,type,equipment,spawned,scoreboardtrait,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3133,9 +3044,9 @@ npc:
         x: '14.2599'
         y: '66.0'
         z: '22.1722'
-        yaw: '-103.8956'
-        pitch: '0.0'
-        bodyYaw: -103.895645
+        yaw: '-128.6983'
+        pitch: '-16.8367'
+        bodyYaw: -128.69829
       type: PLAYER
       spawned: true
       commandtrait:
@@ -3159,7 +3070,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: location,equipment,commandtrait,scoreboardtrait,type,inventory,spawned,skintrait,owner,lookclose,mounttrait,gravity
+    traitnames: commandtrait,lookclose,location,skintrait,inventory,owner,type,spawned,equipment,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3177,7 +3088,7 @@ npc:
         x: '10.7288'
         y: '30.0'
         z: '-23.3283'
-        yaw: '42.9959'
+        yaw: '67.5813'
         pitch: '0.0'
         bodyYaw: 46.794
       gravity:
@@ -3215,7 +3126,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: location,equipment,profession,waypoints,inventory,villagertrait,spawned,lookclose,mounttrait,gravity,commandtrait,scoreboardtrait,type,owner
+    traitnames: lookclose,owner,inventory,waypoints,scoreboardtrait,mounttrait,commandtrait,location,type,profession,equipment,spawned,gravity,villagertrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3236,9 +3147,9 @@ npc:
         x: '80.6997'
         y: '65.0'
         z: '61.6852'
-        yaw: '122.2038'
-        pitch: '-10.0809'
-        bodyYaw: 122.2038
+        yaw: '132.7709'
+        pitch: '0.0'
+        bodyYaw: 132.77094
       lookclose:
         range: '5.0'
         enabled: true
@@ -3263,7 +3174,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: location,equipment,scoreboardtrait,type,inventory,owner,spawned,skintrait,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,owner,inventory,type,spawned,equipment,scoreboardtrait,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3284,9 +3195,9 @@ npc:
         x: '19.9931'
         y: '37.0'
         z: '-8.7'
-        yaw: '-136.4442'
-        pitch: '39.4586'
-        bodyYaw: -136.44424
+        yaw: '-139.7683'
+        pitch: '57.5845'
+        bodyYaw: -139.76826
       lookclose:
         range: '5.0'
         enabled: true
@@ -3311,7 +3222,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: location,equipment,scoreboardtrait,type,inventory,skintrait,spawned,owner,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,inventory,owner,type,equipment,spawned,scoreboardtrait,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3357,7 +3268,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: equipment,location,foxtrait,scoreboardtrait,type,inventory,owner,spawned,lookclose,mounttrait,gravity
+    traitnames: foxtrait,lookclose,location,owner,inventory,type,spawned,equipment,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3380,9 +3291,9 @@ npc:
         x: '30.9435'
         y: '64.0'
         z: '70.0177'
-        yaw: '-96.9329'
-        pitch: '-10.143'
-        bodyYaw: -96.93286
+        yaw: '-97.3804'
+        pitch: '-10.1476'
+        bodyYaw: -97.38044
       lookclose:
         range: '5.0'
         enabled: true
@@ -3403,7 +3314,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: location,equipment,scoreboardtrait,type,inventory,spawned,skintrait,owner,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,inventory,owner,type,spawned,equipment,scoreboardtrait,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3451,7 +3362,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: equipment,location,scoreboardtrait,type,inventory,spawned,owner,skintrait,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,owner,inventory,type,equipment,spawned,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3549,7 +3460,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: equipment,location,scoreboardtrait,type,inventory,poses,followtrait,owner,skintrait,spawned,mounttrait,gravity
+    traitnames: poses,location,skintrait,inventory,owner,type,equipment,spawned,gravity,scoreboardtrait,mounttrait,followtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3583,9 +3494,9 @@ npc:
         x: '51.3697'
         y: '31.0'
         z: '59.5833'
-        yaw: '-179.2397'
-        pitch: '5.2375'
-        bodyYaw: -179.23975
+        yaw: '-156.7305'
+        pitch: '4.8622'
+        bodyYaw: -156.73047
       spawned: true
       skintrait:
         fetchDefaultSkin: true
@@ -3595,7 +3506,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: equipment,location,scoreboardtrait,type,inventory,owner,skintrait,spawned,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,owner,inventory,type,equipment,spawned,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3629,9 +3540,9 @@ npc:
         x: '47.2685'
         y: '31.0'
         z: '56.1788'
-        yaw: '139.0527'
-        pitch: '4.484'
-        bodyYaw: 139.05267
+        yaw: '-108.8867'
+        pitch: '-7.5904'
+        bodyYaw: -108.88668
       spawned: true
       skintrait:
         fetchDefaultSkin: true
@@ -3641,7 +3552,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: location,equipment,scoreboardtrait,type,inventory,skintrait,spawned,owner,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,inventory,owner,type,spawned,equipment,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3675,9 +3586,9 @@ npc:
         x: '55.4362'
         y: '31.0'
         z: '57.6297'
-        yaw: '126.0748'
-        pitch: '0.0'
-        bodyYaw: 126.074844
+        yaw: '158.6903'
+        pitch: '5.0416'
+        bodyYaw: 158.69034
       spawned: true
       skintrait:
         fetchDefaultSkin: true
@@ -3687,7 +3598,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: location,equipment,scoreboardtrait,type,inventory,spawned,owner,skintrait,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,owner,inventory,type,spawned,equipment,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3710,9 +3621,9 @@ npc:
         x: '-26.9507'
         y: '31.0'
         z: '-3.65'
-        yaw: '-67.4296'
+        yaw: '-131.9542'
         pitch: '0.0'
-        bodyYaw: -67.42955
+        bodyYaw: -131.95424
       lookclose:
         range: '5.0'
         enabled: true
@@ -3736,7 +3647,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: location,equipment,scoreboardtrait,type,waypoints,inventory,owner,spawned,lookclose,mounttrait,beetrait,gravity
+    traitnames: lookclose,location,beetrait,inventory,owner,type,waypoints,spawned,equipment,scoreboardtrait,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3762,9 +3673,9 @@ npc:
         x: '15.6332'
         y: '28.0'
         z: '16.0861'
-        yaw: '-138.4987'
-        pitch: '7.7112'
-        bodyYaw: -138.49867
+        yaw: '-130.4385'
+        pitch: '7.7826'
+        bodyYaw: -130.43854
       lookclose:
         range: '5.0'
         enabled: true
@@ -3800,7 +3711,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: location,equipment,scoreboardtrait,type,inventory,skintrait,spawned,owner,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,inventory,owner,type,equipment,spawned,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3839,9 +3750,9 @@ npc:
         x: '70.7914'
         y: '80.0'
         z: '11.6068'
-        yaw: '-139.3349'
+        yaw: '-148.4652'
         pitch: '0.0'
-        bodyYaw: -139.33488
+        bodyYaw: -148.46516
       pushable:
         toggle: true
         returnable: false
@@ -3849,7 +3760,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: equipment,location,scoreboardtrait,type,waypoints,inventory,owner,spawned,lookclose,mounttrait,beetrait,gravity
+    traitnames: lookclose,location,beetrait,inventory,owner,type,waypoints,equipment,spawned,scoreboardtrait,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3890,9 +3801,9 @@ npc:
         x: '22.9989'
         y: '67.0'
         z: '18.6637'
-        yaw: '122.4928'
+        yaw: '-170.2948'
         pitch: '0.0'
-        bodyYaw: 122.49277
+        bodyYaw: -170.2948
       pushable:
         toggle: true
         returnable: false
@@ -3900,7 +3811,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: location,equipment,scoreboardtrait,type,waypoints,inventory,spawned,owner,lookclose,mounttrait,beetrait,gravity
+    traitnames: lookclose,location,beetrait,owner,inventory,type,waypoints,spawned,equipment,scoreboardtrait,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -3941,9 +3852,9 @@ npc:
         x: '-26.7998'
         y: '56.0'
         z: '33.1519'
-        yaw: '-87.9197'
+        yaw: '-72.5284'
         pitch: '0.0'
-        bodyYaw: -87.91969
+        bodyYaw: -72.52844
       pushable:
         toggle: true
         returnable: false
@@ -3951,7 +3862,7 @@ npc:
       owner:
         owner: Toryar
         uuid: 56415987-0ceb-33f2-9316-1535dd9df2bf
-    traitnames: equipment,location,scoreboardtrait,type,waypoints,inventory,spawned,owner,lookclose,mounttrait,beetrait,gravity
+    traitnames: lookclose,location,beetrait,owner,inventory,type,waypoints,spawned,equipment,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4004,7 +3915,7 @@ npc:
       owner:
         owner: AlexRex_
         uuid: 3ceab397-7f3b-3a60-a691-88d8efd340c9
-    traitnames: location,equipment,scoreboardtrait,type,inventory,owner,skintrait,spawned,lookclose,mounttrait,gravity,controllable
+    traitnames: controllable,lookclose,location,skintrait,owner,inventory,type,spawned,equipment,scoreboardtrait,gravity,mounttrait
     navigator:
       speedmodifier: '50.0'
       avoidwater: false
@@ -4027,9 +3938,9 @@ npc:
         x: '43.5383'
         y: '31.0'
         z: '56.5343'
-        yaw: '169.8751'
-        pitch: '8.9229'
-        bodyYaw: 169.87508
+        yaw: '-121.7057'
+        pitch: '0.0'
+        bodyYaw: -121.70574
       lookclose:
         range: '5.0'
         enabled: true
@@ -4050,7 +3961,7 @@ npc:
       owner:
         owner: LLIcocoman
         uuid: 3144935a-3fc1-3c6a-82ed-43966b0e8363
-    traitnames: location,equipment,scoreboardtrait,type,inventory,spawned,skintrait,owner,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,inventory,owner,type,equipment,spawned,scoreboardtrait,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4073,9 +3984,9 @@ npc:
         x: '56.5296'
         y: '31.0'
         z: '55.246'
-        yaw: '105.3398'
-        pitch: '0.0'
-        bodyYaw: 105.33981
+        yaw: '151.5736'
+        pitch: '3.2079'
+        bodyYaw: 151.57356
       lookclose:
         range: '5.0'
         enabled: true
@@ -4096,7 +4007,7 @@ npc:
       owner:
         owner: LLIcocoman
         uuid: 3144935a-3fc1-3c6a-82ed-43966b0e8363
-    traitnames: location,equipment,scoreboardtrait,type,inventory,owner,spawned,skintrait,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,owner,inventory,type,spawned,equipment,scoreboardtrait,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4119,9 +4030,9 @@ npc:
         x: '56.3851'
         y: '31.0'
         z: '44.462'
-        yaw: '32.1153'
+        yaw: '77.1389'
         pitch: '0.0'
-        bodyYaw: 32.11535
+        bodyYaw: 77.13895
       lookclose:
         range: '5.0'
         enabled: true
@@ -4142,7 +4053,7 @@ npc:
       owner:
         owner: LLIcocoman
         uuid: 3144935a-3fc1-3c6a-82ed-43966b0e8363
-    traitnames: equipment,location,scoreboardtrait,type,inventory,owner,skintrait,spawned,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,inventory,owner,type,equipment,spawned,scoreboardtrait,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4165,9 +4076,9 @@ npc:
         x: '56.4092'
         y: '31.0'
         z: '52.5336'
-        yaw: '77.6564'
-        pitch: '0.0'
-        bodyYaw: 77.65643
+        yaw: '157.1483'
+        pitch: '8.026'
+        bodyYaw: 157.14835
       lookclose:
         range: '5.0'
         enabled: true
@@ -4188,7 +4099,7 @@ npc:
       owner:
         owner: LLIcocoman
         uuid: 3144935a-3fc1-3c6a-82ed-43966b0e8363
-    traitnames: location,equipment,scoreboardtrait,type,inventory,skintrait,spawned,owner,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,owner,inventory,type,spawned,equipment,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4211,9 +4122,9 @@ npc:
         x: '40.5647'
         y: '31.0'
         z: '54.5728'
-        yaw: '-165.0033'
-        pitch: '2.102'
-        bodyYaw: -165.00327
+        yaw: '-113.2001'
+        pitch: '0.0'
+        bodyYaw: -113.20014
       lookclose:
         range: '5.0'
         enabled: true
@@ -4234,7 +4145,7 @@ npc:
       owner:
         owner: LLIcocoman
         uuid: 3144935a-3fc1-3c6a-82ed-43966b0e8363
-    traitnames: equipment,location,scoreboardtrait,type,inventory,spawned,skintrait,owner,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,skintrait,inventory,owner,type,equipment,spawned,scoreboardtrait,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4263,7 +4174,7 @@ npc:
       owner:
         owner: NaathanJL
         uuid: cabbe980-7a9b-305a-b4eb-8860e64bc2a5
-    traitnames: location,equipment,scoreboardtrait,type,inventory,owner,spawned,mounttrait,gravity
+    traitnames: location,owner,inventory,type,equipment,spawned,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4292,7 +4203,7 @@ npc:
       owner:
         owner: NaathanJL
         uuid: cabbe980-7a9b-305a-b4eb-8860e64bc2a5
-    traitnames: location,equipment,scoreboardtrait,type,inventory,owner,spawned,mounttrait,gravity
+    traitnames: location,owner,inventory,type,equipment,spawned,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4333,7 +4244,7 @@ npc:
       owner:
         owner: NaathanJL
         uuid: cabbe980-7a9b-305a-b4eb-8860e64bc2a5
-    traitnames: equipment,location,scoreboardtrait,type,inventory,spawned,owner,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,inventory,owner,type,spawned,equipment,scoreboardtrait,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4362,7 +4273,7 @@ npc:
       owner:
         owner: NaathanJL
         uuid: cabbe980-7a9b-305a-b4eb-8860e64bc2a5
-    traitnames: equipment,location,scoreboardtrait,type,inventory,spawned,owner,mounttrait,gravity
+    traitnames: location,inventory,owner,type,spawned,equipment,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4391,7 +4302,7 @@ npc:
       owner:
         owner: NaathanJL
         uuid: cabbe980-7a9b-305a-b4eb-8860e64bc2a5
-    traitnames: location,equipment,scoreboardtrait,type,inventory,spawned,owner,mounttrait,gravity
+    traitnames: location,owner,inventory,type,spawned,equipment,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4432,7 +4343,7 @@ npc:
       owner:
         owner: NaathanJL
         uuid: cabbe980-7a9b-305a-b4eb-8860e64bc2a5
-    traitnames: location,equipment,scoreboardtrait,type,inventory,owner,spawned,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,inventory,owner,type,equipment,spawned,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4461,7 +4372,7 @@ npc:
       owner:
         owner: NaathanJL
         uuid: cabbe980-7a9b-305a-b4eb-8860e64bc2a5
-    traitnames: equipment,location,scoreboardtrait,type,inventory,spawned,owner,mounttrait,gravity
+    traitnames: location,inventory,owner,type,spawned,equipment,scoreboardtrait,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4490,7 +4401,7 @@ npc:
       owner:
         owner: NaathanJL
         uuid: cabbe980-7a9b-305a-b4eb-8860e64bc2a5
-    traitnames: equipment,location,scoreboardtrait,type,inventory,spawned,owner,mounttrait,gravity
+    traitnames: location,inventory,owner,type,equipment,spawned,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4531,7 +4442,7 @@ npc:
       owner:
         owner: NaathanJL
         uuid: cabbe980-7a9b-305a-b4eb-8860e64bc2a5
-    traitnames: equipment,location,scoreboardtrait,type,inventory,owner,spawned,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,owner,inventory,type,equipment,spawned,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4572,7 +4483,7 @@ npc:
       owner:
         owner: NaathanJL
         uuid: cabbe980-7a9b-305a-b4eb-8860e64bc2a5
-    traitnames: location,equipment,scoreboardtrait,type,inventory,spawned,owner,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,inventory,owner,type,spawned,equipment,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4596,7 +4507,7 @@ npc:
       owner:
         owner: NaathanJL
         uuid: cabbe980-7a9b-305a-b4eb-8860e64bc2a5
-    traitnames: location,equipment,scoreboardtrait,type,inventory,owner,spawned,mounttrait,gravity
+    traitnames: location,owner,inventory,type,equipment,spawned,scoreboardtrait,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4637,7 +4548,7 @@ npc:
       owner:
         owner: NaathanJL
         uuid: cabbe980-7a9b-305a-b4eb-8860e64bc2a5
-    traitnames: location,equipment,scoreboardtrait,type,inventory,owner,spawned,lookclose,mounttrait,gravity
+    traitnames: lookclose,location,owner,inventory,type,spawned,equipment,gravity,scoreboardtrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -4666,7 +4577,7 @@ npc:
       owner:
         owner: NaathanJL
         uuid: cabbe980-7a9b-305a-b4eb-8860e64bc2a5
-    traitnames: location,equipment,scoreboardtrait,type,inventory,owner,spawned,mounttrait,gravity
+    traitnames: location,inventory,owner,type,equipment,spawned,scoreboardtrait,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

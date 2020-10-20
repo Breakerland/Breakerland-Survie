@@ -58,9 +58,8 @@ command:
       info: '&2List chunks with most entities in them'
       args: '&3(range)'
     info:
-      RemovedList: '&6[target](&e[amount]&6)'
-      Removed: '&6Removed: [list]!'
-      List: '&e[place]. &6[x]&e:&6[z] &e(&6[amount]&e)'
+      ListP: '&e[place]. &6[x]&e:&6[z] &6Inside: &e[amount]'
+      around: ' &6Around: &7[near]'
       Command: /tppos [x] [y] [z] [world]
       Hover: '&6Teleport: &e[world]:[x]:[y]:[z]'
   hoppers:

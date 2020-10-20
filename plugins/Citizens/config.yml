@@ -35,7 +35,11 @@ npc:
     use-new-finder: false
     new-finder:
       iterations-per-tick: 25000
+      check-bounding-boxes: false
+      open-doors: false
     disable-mc-fallback-navigation: true
+    minecraft:
+      max-fall-distance: 3
   default:
     look-close:
       enabled: false
@@ -62,6 +66,7 @@ npc:
     max-speed: 100
   tablist:
     disable: true
+    remove-packet-delay: 1
   chunks:
     always-keep-loaded: false
   skins:
@@ -90,6 +95,9 @@ npc:
     max-ground-speed: 0.5
   player-scoreboard-teams:
     enable: true
+  hologram:
+    default-line-height: 0.4
+  always-use-name-holograms: false
 advanced:
   check-minecraft-version: true
 economy:

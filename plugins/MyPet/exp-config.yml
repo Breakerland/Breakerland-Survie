@@ -9,6 +9,24 @@ Custom:
     Max: 300.0
     Min: 150.0
 Default:
+  PIGLIN_BRUTE:
+    Min: 20.0
+    Max: 23.0
+  ZOMBIFIED_PIGLIN:
+    Min: 5.0
+    Max: 5.0
+  HOGLIN:
+    Min: 5.0
+    Max: 5.0
+  PIGLIN:
+    Min: 1.0
+    Max: 3.0
+  STRIDER:
+    Min: 1.0
+    Max: 2.0
+  ZOGLIN:
+    Min: 5.0
+    Max: 5.0
   BEE:
     Min: 1.0
     Max: 3.0

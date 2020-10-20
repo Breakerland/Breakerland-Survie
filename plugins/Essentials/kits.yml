@@ -9,6 +9,11 @@
 # Set delay to -1 for a one time kit.
 # For more information, visit http://wiki.ess3.net/wiki/Kits
 kits:
+  colors:
+    delay: 6000
+    items:
+    - writtenbook 1 title:&4Book_&9o_&6Colors author:KHobbits lore:Ingame_color_codes
+      book:Colors
   Survivant:
     delay: 172800
     items:
@@ -24,6 +29,19 @@ kits:
     - leather_boots 1 color:9607320
     - bone_meal 32
     - wheat_seeds 32
+  Baron:
+    delay: 172800
+    items:
+    - iron_pickaxe 1 durability:1 dig_speed:1
+    - dried_kelp 32
+    - iron_axe 1 durability:1 dig_speed:1
+    - iron_shovel 1 durability:1 dig_speed:1
+    - iron_sword 1 durability:1 damage_all:1
+    - leather_boots 1 protection_environmental:2 color:14120622
+    - leather_leggings 1 protection_environmental:2 color:14120622
+    - leather_chestplate 1 protection_environmental:2 color:14120622
+    - leather_helmet 1 protection_environmental:2 color:14120622
+    - experience_bottle 6
   Aventurier:
     delay: 172800
     items:
@@ -36,7 +54,7 @@ kits:
     - stone_axe 1 durability:1
     - stone_pickaxe 1 durability:1
     - stone_shovel 1 durability:1
-  Baron:
+  Comte:
     delay: 172800
     items:
     - iron_pickaxe 1 durability:1 dig_speed:1

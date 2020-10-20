@@ -1,0 +1,16 @@
+# General Messages (Rasa2l 3ama)
+
+general:
+  nametag:
+    prefix: '&8[&6UltimateStacker&8]'
+# Command Messages # (Ras2l amier)
+command:
+  give:
+    success: ‘&7La8ad istalamt &6%type%&7.'
+# Event Messages (Ras2l 7adath)
+event:
+  general:
+    nopermission: '&canta la tmtlek sala7ya letf3al zalek!'
+  egg:
+    needmore: '&7Ta7taj &6%amount% &7Baid al wa7ish l2lta7wil hatha al khali8.'
+    sametype: ‘&7Hatha bilfi3l e36ti &6%type%s&7.'

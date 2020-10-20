@@ -119,10 +119,10 @@ Mobs:
     Display Name: Ghast
     Max Stack Size: -1
     Kill Whole Stack: false
-  PIG_ZOMBIE:
+  ZOMBIFIED_PIGLIN:
     Enabled: true
-    Nerfed: true
-    Display Name: Pig zombie
+    Nerfed: false
+    Display Name: Zombified piglin
     Max Stack Size: -1
     Kill Whole Stack: false
   ENDERMAN:
@@ -387,5 +387,35 @@ Mobs:
     Enabled: true
     Nerfed: true
     Display Name: Bee
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  HOGLIN:
+    Enabled: true
+    Nerfed: false
+    Display Name: Hoglin
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  PIGLIN:
+    Enabled: true
+    Nerfed: false
+    Display Name: Piglin
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  STRIDER:
+    Enabled: true
+    Nerfed: false
+    Display Name: Strider
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  ZOGLIN:
+    Enabled: true
+    Nerfed: false
+    Display Name: Zoglin
+    Max Stack Size: -1
+    Kill Whole Stack: false
+  PIG_ZOMBIE:
+    Enabled: true
+    Nerfed: true
+    Display Name: Pig zombie
     Max Stack Size: -1
     Kill Whole Stack: false

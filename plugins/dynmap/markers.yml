@@ -3,6 +3,19 @@
 icons: {
     }
 sets:
+    chunkmaster:
+        hide: false
+        circles: {
+            }
+        deficon: default
+        areas: {
+            }
+        label: Chunkmaster
+        markers: {
+            }
+        lines: {
+            }
+        layerprio: 0
     Quêtes:
         hide: false
         circles: {
@@ -201,14 +214,6 @@ sets:
             }
         label: Warps
         markers:
-            CMJN:
-                world: survie_new
-                markup: false
-                x: 3878.5419040761894
-                icon: pin
-                y: 154.875
-                z: 630.4490153766938
-                label: CMJN
             yohan:
                 world: survie_new
                 markup: false
@@ -217,6 +222,14 @@ sets:
                 y: 57.0
                 z: 1188.7138649163132
                 label: yohan
+            SunnyCorp:
+                world: survie_new
+                markup: false
+                x: -12486.173439232862
+                icon: pin
+                y: 76.0
+                z: -21076.620764486364
+                label: SunnyCorp
             CharoShop:
                 world: survie_new
                 markup: false
@@ -225,6 +238,86 @@ sets:
                 y: 115.0
                 z: -3834.9256731106507
                 label: CharoShop
+            CocotaZ:
+                world: survie_new
+                markup: false
+                x: -8919.94132730737
+                icon: pin
+                y: 18.0
+                z: 2759.5665736574506
+                label: CocotaZ
+            ChillZone:
+                world: survie_new
+                markup: false
+                x: 3890.4707088710206
+                icon: pin
+                y: 30.0
+                z: 632.7126106296296
+                label: ChillZone
+            Grano:
+                world: survie_new
+                markup: false
+                x: 3802.7906344562107
+                icon: pin
+                y: 66.0
+                z: 2127.2655837634875
+                label: Grano
+            NaathanJL:
+                world: survie_new
+                markup: false
+                x: -1833.9099390658882
+                icon: pin
+                y: 22.0
+                z: -13817.670681587915
+                label: NaathanJL
+            CMJN:
+                world: survie_new
+                markup: false
+                x: 3878.5419040761894
+                icon: pin
+                y: 154.875
+                z: 630.4490153766938
+                label: CMJN
+            Cap_des_Maudits:
+                world: survie_new
+                markup: false
+                x: 5806.672741524851
+                icon: pin
+                y: 65.0
+                z: 6982.202259046721
+                label: Cap_des_Maudits
+            Loan:
+                world: survie_new
+                markup: false
+                x: 3894.552159574274
+                icon: pin
+                y: 61.0
+                z: 5001.054373077367
+                label: Loan
+            BestWarpEver:
+                world: survie_new
+                markup: false
+                x: 8632.5
+                icon: pin
+                y: 68.0
+                z: -1087.5
+                label: BestWarpEver
+            Vii:
+                world: survie_new
+                markup: false
+                x: 3396.1089815353607
+                icon: pin
+                y: 65.0
+                z: -13846.911807646826
+                label: Vii
+            OvexiShop:
+                world: survie_new
+                markup: false
+                x: 16893.533484847845
+                icon: pin
+                y: 25.0
+                z: 20127.444832808967
+                label: OvexiShop
             benji:
                 world: survie_new
                 markup: false

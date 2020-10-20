@@ -349,7 +349,7 @@ parallelrendercnt: 6
 updaterate: 2000
 
 # If nonzero, server will pause fullrender/radiusrender processing when 'fullrenderplayerlimit' or more users are logged in
-fullrenderplayerlimit: 5
+fullrenderplayerlimit: 3
 # If nonzero, server will pause update render processing when 'updateplayerlimit' or more users are logged in
 updateplayerlimit: 10
 # Target limit on server thread use - msec per tick

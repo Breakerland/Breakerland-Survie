@@ -164,6 +164,12 @@ general:
         lost: '&8{0}: We''ve lost the war with {1} deaths.'
         draw: '&8{0}: The war ended in a draw with {1} kills and {2} deaths.'
   unlimited: '&aunlimited'
+  area:
+    description:
+      default: '&7This is the default area. New claims will belong to this area.'
+      sub: '&7This is a sub area, which can have special flags and members.'
+      rented: '&7This area is rented by player {player}.'
+      sold: '&7This area is sold to player {player}.'
 help:
   command:
     help: '&8/&7Lands help &8[&aPage&8] - &eObtenir de l''aide'
@@ -277,8 +283,7 @@ message:
     vehicle: '&cYou''re not allowed to use vehicles here. &7This area belongs to land&2
       {land}&7.'
     fly: '&cYou''re not allowed to fly here. &7This area belongs to land&2 {land}&7.'
-    teleport: '&cYou''re not allowed to use this item to teleport into the land&4
-      {land}&c. &7You''re not trusted in this land.'
+    teleport: ''
     position: '&cYou''re not allowed to do this for the land&4 {land} &cat your current
       position. &8Bypass permission: {bypass}'
   event:
@@ -575,6 +580,9 @@ command:
         {area} &7Land:&2 {area}&8)&7.'
       revoke: '&7Successfully revoked the invite for player&3 {player} &7in area&6
         {area} &8(&7Land:&2 {land}&8)&7. The player isn''t trusted.'
+      rental: '&cYou can''t untrust the tenant&4 {player} &cof area&4 {area}&c. &7To
+        remove the area for rental, use &8/&3Lands rent remove &7while standing on
+        the area.'
     land:
       already: '&7The player&3 {player} &7isn''t trusted in any areas of the land&2
         {land}&7.'
@@ -651,6 +659,11 @@ command:
         &7Please trust them first.'
       success: '&7Successfully set role&3 {role} &7for player&3 {player} &7in areas
         of land&2 {land}&7, in which they''re trusted.'
+    area:
+      untrusted: '&cThe player&4 {player} &cisn''t trusted in the area&4 {area} &cof
+        land&4 {land}&c. &7Please trust them first.'
+      success: '&7Successfully set role&3 {role} &7for player&3 {player} &7in the
+        area&6 {area} &7of land&2 {land}&7.'
   setspawn:
     force-land: '&cYou can only set the land spawn on your land. &7Go to your land&2
       {land} &7first. &8A administrator can change that in config.'
@@ -803,6 +816,8 @@ command:
          &7Time left:&5 {left}
          &8Rent: ${cost} each {time}
         &7---------<- &5&lRented Info &r&7->---------
+      expire: '&cYou can''t add any more time to your rental of area&4 {area}&c. &7The
+        land&2 {land} &7removed it for rental. It will expire in&5 {time}&7.'
     cancel:
       success: '&7You cancelled the rental of area&6 {area}&7. You no longer have
         access to this area.'

@@ -1,4 +1,13 @@
-# General Messages
+######################################################
+# New messages added for UltimateStacker v1.11.4.    #
+#                                                    #
+# These translations were found untranslated, join   #
+# our translation Discord https://discord.gg/f7fpZEf #
+# to request an official update!                     #
+#                                                    #
+# event.egg.needmore                                 #
+# event.egg.sametype                                 #
+######################################################
 
 general:
   nametag:
@@ -11,3 +20,6 @@ command:
 event:
   general:
     nopermission: '&cDu har ikke tillatelse til dette.'
+  egg:
+    needmore: '&7Du trenger &6%amount% &7Monster Egg for å gjøre om denne spawneren.'
+    sametype: '&7Dette spawner alerede &6%type%s&7.'

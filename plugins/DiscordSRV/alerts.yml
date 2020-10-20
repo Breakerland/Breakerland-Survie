@@ -99,15 +99,19 @@ Alerts:
   # Example config to send /gamemode messages
   #- Trigger: /gamemode
   #  Channel: gamemode
+  #  Conditions:
+  #    - '#player.hasPermission("minecraft.command.gamemode") == true'
   #  Embed:
   #    Color: "#ff0000"
   #    Author:
   #      ImageUrl: "{embedavatarurl}"
-  #      Name: "{username} changed gamemode to ${args[0]}"
+  #      Name: "{username} changed gamemode to ${#args.get(0)}"
 
   # Example config to send /me commands
   #- Trigger: /me
   #  Channel: me
+  #  Conditions:
+  #    - '#player.hasPermission("minecraft.command.me") == true || #player.hasPermission("essentials.me") == true'
   #  Embed:
   #    Color: "#00ff00"
   #    Author:

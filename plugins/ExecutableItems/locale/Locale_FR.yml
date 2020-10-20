@@ -1,0 +1,28 @@
+receiveItem: '&a&l[ExecutableItems] &aTu as recu &e%quantity% &ax &e%item%'
+fullInventory: '&c&l[ExecutableItems] &cTon inventaire est plein,  le surplus de &6%item%
+  &ca été jeté à tes pieds'
+timeLeft: '&cVeuillez attendre encore &e%time% &cavant de pouvoir utiliser cet item.'
+requirePermission: '&c&l[ExecutableItems] &c Tu n''as pas la permission requise pour
+  effectuer cette action !'
+giveMessage: '&a&l[ExecutableItems] &aTu as donné &6%quantity% &e%item% &aà &e%player%'
+setActionbarOn: '&aTa barre d''action est  désormais &a&lON &apour ExecutableItems'
+setActionbarOff: '&cTa barre d''action est  désormais &4&lOFF &cpour ExecutableItems'
+haveActionbarOn: '&aTa barre d''action est déjà &a&lON &apour ExecutableItems'
+haveActionbarOff: '&cTa barre d''action est déjà &4&lOFF &cpour ExecutableItems'
+actionbarMessage: '&a&lTemps restant pour &e&l%item% &a&l: &e&l%time%'
+actionbarEnd: '&c&lDESACTIVATION DE &e&l%item%'
+use: '&7&oUtilisation restante: '
+noHit: '&c&l[ExecutableItems] &cAucun joueur n''a été touché'
+validHit: '&a&l[ExecutableItems] &aBien joué tu as touché le joueur %player% !'
+receivedHit: '&e&l[ExecutableItems] &eLe joueur &6%player% &et''a touché avec l''item
+  exécutable: %item%'
+confirmMessage: '&7➤ Clic encore une fois pour confirmer l''utilisation de l''item'''
+cancelCraft: '&cTu ne peux pas faire de craft avec un ExecutableItems'
+pickupLimitMessage: '&4&l[ExecutableItems] &cTu ne peux pas avoir plus de %limit%
+  ExecutableItems'
+disableWorld: '&4&l[ExecutableItems] &cTu ne peux pas utiliser cet ExecutableItem
+  dans ce monde'
+errorMoney: '&4&l[ExecutableItems] &cTu n''as pas: &6%amount%$ &csur ton compte !
+  &6(&eTu as actuellement: &a%balance%$&6)'
+newBalance: '&6&l[ExecutableItems] &eTransaction: &c-%amount%$ &eTa nouvelle balance:
+  &a%balance%$'

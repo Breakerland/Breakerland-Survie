@@ -59,9 +59,9 @@ Spawners:
   GHAST:
     Max Stack Size: -1
     Display Name: Ghast
-  PIG_ZOMBIE:
+  ZOMBIFIED_PIGLIN:
     Max Stack Size: -1
-    Display Name: Pig zombie
+    Display Name: Zombified piglin
   ENDERMAN:
     Max Stack Size: -1
     Display Name: Enderman
@@ -194,3 +194,18 @@ Spawners:
   BEE:
     Max Stack Size: -1
     Display Name: Bee
+  HOGLIN:
+    Max Stack Size: -1
+    Display Name: Hoglin
+  PIGLIN:
+    Max Stack Size: -1
+    Display Name: Piglin
+  STRIDER:
+    Max Stack Size: -1
+    Display Name: Strider
+  ZOGLIN:
+    Max Stack Size: -1
+    Display Name: Zoglin
+  PIG_ZOMBIE:
+    Max Stack Size: -1
+    Display Name: Pig zombie

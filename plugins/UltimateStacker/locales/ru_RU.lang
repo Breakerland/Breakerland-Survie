@@ -1,0 +1,17 @@
+# Основные сообщения
+general:
+  nametag:
+    prefix: '&8[&6UltimateStacker&8]'
+# Сообщения команд
+command:
+  give:
+    success: '&7Вам был выдан &6%type%&7.'
+# Сообщения событий
+event:
+  general:
+    nopermission: '&cУ вас недостаточно разрешений.'
+  egg:
+    needmore: '&7Вам нужно &6%amount% &7яиц для создания этого спавнера.'
+    sametype: '&7Этот тип моба &6%type% &7уже спавнится.'
+
+# Translated by Yonter#9299 on 08.06.2020.

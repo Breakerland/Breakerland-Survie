@@ -1,8 +1,8 @@
-# Regionerator configuration
+# Square around each player's current chunk to flag.
 chunk-flag-radius: 4
 seconds-per-flag: 15
 minutes-per-flag-autosave: 5
-days-till-flag-expires: 14
+days-till-flag-expires: 15
 delete-new-unvisited-chunks: false
 ticks-per-deletion: 5
 chunks-per-deletion: 256

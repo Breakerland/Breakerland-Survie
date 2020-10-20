@@ -12,7 +12,7 @@ title: '&2Achat de grade'
       balance: 15000
     action:
       balance: 15000
-      scommand: 'luckperms:lp user {player} parent add aventurier $server_name'
+      scommand: 'luckperms:lp user {player} parent add aventurier survie'
       broadcast: '&6{player} vient d''acquérir le grade &5&lAventurier&r&6!'
 1:
   item: 'MAGENTA_STAINED_GLASS_PANE 1 title:&dGrade_Baron description:&ePrix:_50_000β||&e&oKit_Baron||&e&o4_homes||&e&o15_items_HDV||&e&o/balancetop||&e&o/exp'
@@ -22,7 +22,7 @@ title: '&2Achat de grade'
       balance: 50000
     action:
       balance: 50000
-      scommand: 'luckperms:lp user {player} parent add chevalier $server_name'
+      scommand: 'luckperms:lp user {player} parent add chevalier survie'
       broadcast: '&6{player} vient d''acquérir le grade &d&lBaron&r&6!'
 2:
   item: 'BLUE_STAINED_GLASS_PANE 1 title:&3Grade_Duc description:&ePrix:_200_000β||&e&oKit_Duc||&e&o6_homes||&e&o20_items_HDV||&e&oMembre_de_2_Terrains||&e&o/craft||&e&o/near||&e&o/l_setrole'
@@ -32,7 +32,7 @@ title: '&2Achat de grade'
       balance: 200000
     action:
       balance: 200000
-      scommand: 'luckperms:lp user {player} parent add duc $server_name'
+      scommand: 'luckperms:lp user {player} parent add duc survie'
       broadcast: '&6{player} vient d''acquérir le grade &3&lDuc&r&6!'
 3:
   item: 'LIGHT_BLUE_STAINED_GLASS_PANE 1 title:&bGrade_Comte description:&ePrix:_560_000β||&e&oKit_Comte||&e&o8_homes||&e&o40_items_HDV||&e&o2_Terrains||&e&oMembre_de_3_Terrains||&e&oCréation_de_shop_(/qs)||&e&oCréation_de_warp_(/warp)'
@@ -42,7 +42,7 @@ title: '&2Achat de grade'
       balance: 560000
     action:
       balance: 560000
-      scommand: 'luckperms:lp user {player} parent add comte $server_name'
+      scommand: 'luckperms:lp user {player} parent add comte survie'
       broadcast: '&6{player} vient d''acquérir le grade &b&lComte&r&6!'
 4:
   item: 'LIME_STAINED_GLASS_PANE 1 title:&aGrade_Marquis description:&ePrix:_1_120_000β||&e&oKit_Marquis||&e&o10_warps||&e&oWarps_payants_(/warp_tax)||&e&oPoubelle_(/trash)||&e&oEnderchest_(/ec)'
@@ -52,7 +52,7 @@ title: '&2Achat de grade'
       balance: 1120000
     action:
       balance: 1120000
-      scommand: 'luckperms:lp user {player} parent add marquis $server_name'
+      scommand: 'luckperms:lp user {player} parent add marquis survie'
       broadcast: '&6{player} vient d''acquérir le grade &a&lMarquis&r&6!'
 5:
   item: 'GREEN_STAINED_GLASS_PANE 1 title:&2Grade_Héro_ou_Prince description:&ePrix:_2_420_000β'
@@ -62,7 +62,7 @@ title: '&2Achat de grade'
       balance: 2420000
     action:
       balance: 2420000
-      scommand: 'luckperms:lp user {player} parent add héro $server_name'
+      scommand: 'luckperms:lp user {player} parent add héro survie'
       broadcast: '&6{player} vient d''acquérir le grade &2&lHéro&r&6!'
 6:
   item: 'YELLOW_STAINED_GLASS_PANE 1 title:&6Grade_Légende_ou_Roi description:&ePrix:7_620_000β'
@@ -72,7 +72,7 @@ title: '&2Achat de grade'
       balance: 7620000
     action:
       balance: 7620000
-      scommand: 'luckperms:lp user {player} parent add légende $server_name'
+      scommand: 'luckperms:lp user {player} parent add légende survie'
       broadcast: '&6{player} vient d''acquérir le grade &6&lLégende&r&6!'
 7:
   item: 'BLACK_STAINED_GLASS_PANE 1 title:&0Grade_Fantôme_ou_Empereur description:&ePrix:_21_620_000β'
@@ -82,7 +82,7 @@ title: '&2Achat de grade'
       balance: 21620000
     action:
       balance: 21620000
-      scommand: 'luckperms:lp user {player} parent add fantôme $server_name'
+      scommand: 'luckperms:lp user {player} parent add fantôme survie'
       broadcast: '&6{player} vient d''acquérir le grade &0&lFantôme&r&6!'
 8:
   item: 'BARRIER 1 title:&cQuitter'
