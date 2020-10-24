@@ -98,6 +98,12 @@ npc:
   hologram:
     default-line-height: 0.4
   always-use-name-holograms: false
+  commands:
+    error-messages:
+      maximum-times-used: Vous avez atteint la limite d'utilisation ({0}).
+      no-permission: Vous n'avez pas la permission.
+      not-enough-money: Vous devez avoir au moins {0}ß.
+      on-cooldown: Merci d'attendre encore {0} secondes.
 advanced:
   check-minecraft-version: true
 economy:
