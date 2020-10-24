@@ -17,7 +17,7 @@
 |          DiscordSRV            |     1.20.1-SNAPSHOT   | https://www.spigotmc.org/resources/discordsrv.18494/ |
 |            Dynmap              |        3.1-beta-4     | https://www.spigotmc.org/resources/dynmap.274/ |
 |       EpicCraftingsPlus        |          6.3.5        | https://www.spigotmc.org/resources/epiccraftingsplus-fully-configurable-crafts-1-8-1-16.39967/ |
-|       EpicWorldGenerator       |          8.1.34       | https://www.spigotmc.org/resources/epicworldgenerator-1-14-1-14-4-support-all-update-aquatic-features.8067/ |
+|       EpicWorldGenerator       |          8.1.35       | https://www.spigotmc.org/resources/epicworldgenerator-1-14-1-14-4-support-all-update-aquatic-features.8067/ |
 |          EssentialsX           |         2.18.1.28     | https://www.spigotmc.org/resources/essentialsx.9089 |
 |        EssentialsXChat         |         2.18.1.28     | https://www.spigotmc.org/resources/essentialsx.9089 |
 |        EssentialsXSpawn        |         2.18.1.28     | https://www.spigotmc.org/resources/essentialsx.9089 |
