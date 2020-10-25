@@ -68,8 +68,6 @@ survivant:
     essentials.back.ondeath: false
     essentials.afk.auto: true
     essentials.afk: true
-  # FastLoginBukkit
-    fastlogin.bukkit.command.*: true
   # Jobs
     jobs.use: true
     jobs.max.1: true
@@ -127,6 +125,9 @@ survivant:
     pw.list: true
     pw.warp: true
     pw.open: true
+  # Purpur
+    purpur.drop.spawner: true
+    purpur.place.spawner: true
   # Quests
     quests.top: true
     quests.take: true
