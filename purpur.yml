@@ -23,7 +23,7 @@ settings:
     afk-broadcast-back: §e§o%s est désormais actif
     afk-tab-list-prefix: '[AFK] '
     ping-command-output: §aLa latence de %s est de %sms
-    cannot-ride-mob: '§cVous n'avez pas l''autorisation de monter cet animal'
+    cannot-ride-mob: '§cVous n''avez pas l''autorisation de monter cet animal'
   blocks:
     disable-mushroom-updates: false
     barrel:
