@@ -1,4 +1,4 @@
 prefix: '&8[&6RandomTeleport&8]'
 noWorld: '%prefix% &cYou can''t teleport you in this world.'
-usage: '&8Veuilliez utiliser /%cmd%'
+usage: '&8Veuilliez utiliser /<command>'
 noRTP: '&cLe RTP n''est utilisable que pour les nouveaux arrivants ! Tu peux toujours utiliser la perle du voyage au /mage'
