@@ -1,0 +1,310 @@
+End:
+  last-fill-material: AIR
+  point-1:
+    world: survie_new
+    x: -29.0
+    y: 35.0
+    z: 11.0
+  point-2:
+    world: survie_new
+    x: -29.0
+    y: 30.0
+    z: 1.0
+  teleport-location:
+    world: survie_new_the_end
+    x: -9.272405878929083
+    y: 61.0
+    z: -16.88784733489241
+    yaw: -359.91077
+    pitch: -1.5242369
+  commands-only: false
+  commands: []
+  disabled: false
+creatif:
+  last-fill-material: AIR
+  point-1:
+    world: survie_new
+    x: 41.0
+    y: 35.0
+    z: 1.0
+  point-2:
+    world: survie_new
+    x: 41.0
+    y: 29.0
+    z: 11.0
+  teleport-location:
+    world: survie_new
+    x: 41.0
+    y: 37.0
+    z: 1.0
+    yaw: 0.0
+    pitch: 0.0
+  commands-only: false
+  commands: []
+  portal-server: creatif
+  disabled: false
+panthon01-01:
+  last-fill-material: AIR
+  point-1:
+    world: survie_new
+    x: 55.0
+    y: 36.0
+    z: -46.0
+  point-2:
+    world: survie_new
+    x: 55.0
+    y: 29.0
+    z: -46.0
+  teleport-location:
+    world: survie_new
+    x: -882.466775004804
+    y: 74.0
+    z: -961.5372898682922
+    yaw: -89.250946
+    pitch: -0.14999121
+  commands-only: false
+  commands: []
+  disabled: false
+panthon01-02:
+  last-fill-material: AIR
+  point-1:
+    world: survie_new
+    x: 56.0
+    y: 36.0
+    z: -45.0
+  point-2:
+    world: survie_new
+    x: 56.0
+    y: 29.0
+    z: -45.0
+  teleport-location:
+    world: survie_new
+    x: -882.466775004804
+    y: 74.0
+    z: -961.5372898682922
+    yaw: -89.250946
+    pitch: -0.14999121
+  commands-only: false
+  commands: []
+  disabled: false
+panthon01-03:
+  last-fill-material: AIR
+  point-1:
+    world: survie_new
+    x: 57.0
+    y: 36.0
+    z: -44.0
+  point-2:
+    world: survie_new
+    x: 57.0
+    y: 29.0
+    z: -44.0
+  teleport-location:
+    world: survie_new
+    x: -882.333968040886
+    y: 74.0
+    z: -961.5099947118689
+    yaw: -89.85083
+    pitch: -0.14995755
+  commands-only: false
+  commands: []
+  disabled: false
+panthon01-04:
+  last-fill-material: AIR
+  point-1:
+    world: survie_new
+    x: 58.0
+    y: 36.0
+    z: -43.0
+  point-2:
+    world: survie_new
+    x: 58.0
+    y: 29.0
+    z: -43.0
+  teleport-location:
+    world: survie_new
+    x: -882.333968040886
+    y: 74.0
+    z: -961.5099947118689
+    yaw: -89.85083
+    pitch: -0.14995755
+  commands-only: false
+  commands: []
+  disabled: false
+panthon01-0-back:
+  last-fill-material: AIR
+  point-1:
+    world: survie_new
+    x: -885.0
+    y: 77.0
+    z: -962.0
+  point-2:
+    world: survie_new
+    x: -885.0
+    y: 73.0
+    z: -962.0
+  teleport-location:
+    world: survie_new
+    x: 55.14067094545997
+    y: 30.0
+    z: -42.20444330306925
+    yaw: -315.89993
+    pitch: 2.3999932
+  commands-only: false
+  commands: []
+  disabled: false
+kalaistar:
+  last-fill-material: AIR
+  point-1:
+    world: survie_new
+    x: 58.0
+    y: 34.0
+    z: -39.0
+  point-2:
+    world: survie_new
+    x: 58.0
+    y: 29.0
+    z: -41.0
+  teleport-location:
+    world: survie_new
+    x: 5954.979834730927
+    y: 66.0
+    z: -5113.412749085796
+    yaw: -3.919378E-4
+    pitch: 0.15001148
+  commands-only: false
+  commands: []
+  disabled: false
+watson44:
+  last-fill-material: AIR
+  point-1:
+    world: survie_new
+    x: 58.0
+    y: 34.0
+    z: -39.0
+  point-2:
+    world: survie_new
+    x: 58.0
+    y: 29.0
+    z: -41.0
+  teleport-location:
+    world: survie_new
+    x: 5805.5
+    y: 112.0
+    z: -5057.5
+    yaw: 270.87683
+    pitch: -2.6077032E-7
+  commands-only: false
+  commands: []
+  disabled: false
+Village-Du-Desert:
+  last-fill-material: AIR
+  point-1:
+    world: survie_new
+    x: 38.0
+    y: 42.0
+    z: 75.0
+  point-2:
+    world: survie_new
+    x: 35.0
+    y: 38.0
+    z: 75.0
+  teleport-location:
+    world: survie_new
+    x: -1800.5
+    y: 68.10644578243279
+    z: 1735.5
+    yaw: -270.4507
+    pitch: 75.299995
+  commands-only: false
+  commands: []
+  disabled: false
+Pantheon-Ianito:
+  last-fill-material: AIR
+  point-1:
+    world: survie_new
+    x: 49.0
+    y: 34.0
+    z: -47.0
+  point-2:
+    world: survie_new
+    x: 47.0
+    y: 29.0
+    z: -47.0
+  teleport-location:
+    world: survie_new
+    x: -11512.67392349116
+    y: 64.0
+    z: -5274.442577567254
+    yaw: -271.20258
+    pitch: -1.2000617
+  commands-only: false
+  commands: []
+  disabled: false
+Nether:
+  last-fill-material: AIR
+  point-1:
+    world: survie_new
+    x: 1.0
+    y: 35.0
+    z: 41.0
+  point-2:
+    world: survie_new
+    x: 11.0
+    y: 30.0
+    z: 41.0
+  teleport-location:
+    world: survie_new_nether
+    x: 4.164712772933503
+    y: 63.0
+    z: 6.217498736429826
+    yaw: -213.9325
+    pitch: 49.35
+  commands-only: false
+  commands: []
+  disabled: false
+Christophe_:
+  last-fill-material: AIR
+  point-1:
+    world: survie_new
+    x: 53.0
+    y: 34.0
+    z: -46.0
+  point-2:
+    world: survie_new
+    x: 51.0
+    y: 29.0
+    z: -46.0
+  teleport-location:
+    world: survie_new
+    x: -17721.487710410896
+    y: 28.0
+    z: -37992.490940941
+    yaw: 0.3136518
+    pitch: -0.75001025
+  commands-only: false
+  commands: []
+  disabled: false
+Survie:
+  last-fill-material: AIR
+  point-1:
+    world: survie_new
+    x: 1.0
+    y: 34.0
+    z: -29.0
+  point-2:
+    world: survie_new
+    x: 11.0
+    y: 29.0
+    z: -29.0
+  teleport-location:
+    world: survie_new
+    x: 1.0
+    y: 36.0
+    z: -29.0
+    yaw: 0.0
+    pitch: 0.0
+  commands-only: true
+  commands:
+  - rtp {player} survie_new true:CONSOLE
+  disabled: false
