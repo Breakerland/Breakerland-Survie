@@ -22,3 +22,7 @@ block-creative-portal-entrance: false
 join-protection: true
 join-protection-cooldown: 5
 command-tick-delay: 5
+titles:
+  fade-in: 0
+  fade-out: 0
+  display-time: 5

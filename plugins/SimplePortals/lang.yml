@@ -47,3 +47,4 @@ portal-message-set: '&aThe message &e{message} &ahas been set as the &e{type} &a
   for the &e{name} &aportal!'
 portal-link-message: '&aThe portal &e{name} &ahas been linked to the center of the
   &e{other} &aportal!'
+portal-dm-message: '&aAll messages for the portal &e{name} &ahave been disabled!'
