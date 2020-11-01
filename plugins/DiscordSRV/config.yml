@@ -47,7 +47,7 @@ Experiment_JdbcUsername: "$mysql_user_proxy"
 Experiment_JdbcPassword: "$mysql_password_proxy"
 Experiment_WebhookChatMessageDelivery: true
 Experiment_WebhookChatMessageUsernameFormat: "%username%"
-Experiment_WebhookChatMessageUsernameFromDiscord: false
+Experiment_WebhookChatMessageUsernameFromDiscord: true
 Experiment_EmbedAvatarUrl: https://minotar.net/helm/{username}
 #Experiment_EmbedAvatarUrl: https://minotar.net/helm/{username}/{size}
 Experiment_WebhookChatMessageAvatarFromDiscord: true
