@@ -16,20 +16,6 @@ send-supported-versions: false
 # Block specific Minecraft protocols that ViaVersion allows
 # List of all Minecraft protocol versions: http://wiki.vg/Protocol_version_numbers or use a generator: https://via.krusic22.com
 block-protocols:
-- 578
-- 575
-- 573
-- 498
-- 490
-- 485
-- 480
-- 477
-- 404
-- 401
-- 393
-- 340
-- 338
-- 335
 - 316
 - 315
 - 210
