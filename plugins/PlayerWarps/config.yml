@@ -104,11 +104,11 @@ settings:
       # What is the port? Most database ports are 3306.
       port: $mysql_port
       # What is your database name?
-      database: $mysql_database_survie
+      database: $mysql_database_$server_name
       # What is your database username?
-      username: $mysql_user_survie
+      username: $mysql_user_$server_name
       # What is your database password?
-      password: $mysql_password_survie
+      password: $mysql_password_$server_name
 
     # How often should the GUI refresh in every server? If the time is low the more lag the plugin could produce. This is in seconds.
     refresh-time: 0

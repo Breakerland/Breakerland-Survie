@@ -20,9 +20,9 @@ database:
   mysql: true
   host: $mysql_host
   port: $mysql_port
-  database: $mysql_database_survie
-  user: $mysql_user_survie
-  password: $mysql_password_survie
+  database: $mysql_database_$server_name
+  user: $mysql_user_$server_name
+  password: $mysql_password_$server_name
   prefix: qs_
   usessl: true
   queue: true

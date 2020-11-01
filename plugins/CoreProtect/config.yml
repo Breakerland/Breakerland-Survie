@@ -11,9 +11,9 @@ use-mysql: true
 table-prefix: co_
 mysql-host: $mysql_host
 mysql-port: $mysql_port
-mysql-database: $mysql_database_survie
-mysql-username: $mysql_user_survie
-mysql-password: $mysql_password_survie
+mysql-database: $mysql_database_$server_name
+mysql-username: $mysql_user_$server_name
+mysql-password: $mysql_password_$server_name
 
 # If enabled, CoreProtect will check for updates when your server starts up.
 # If an update is available, you'll be notified via your server console.

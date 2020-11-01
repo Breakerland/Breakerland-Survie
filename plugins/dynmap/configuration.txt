@@ -29,9 +29,9 @@ storage:
   type: mysql
   hostname: $mysql_host
   port: $mysql_port
-  database: $mysql_database_survie
-  userid: $mysql_user_survie
-  password: $mysql_password_survie
+  database: $mysql_database_$server_name
+  userid: $mysql_user_$server_name
+  password: $mysql_password_$server_name
   prefix: "dynmap_"
   flags: "?allowReconnect=true"
   

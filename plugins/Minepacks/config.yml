@@ -76,9 +76,9 @@ Database:
   # Settings only for MySQL
   SQL:
     Host: "$mysql_host:$mysql_port"
-    Database: "$mysql_database_survie"
-    User: "$mysql_user_survie"
-    Password: "$mysql_password_survie"
+    Database: "$mysql_database_$server_name"
+    User: "$mysql_user_$server_name"
+    Password: "$mysql_password_$server_name"
     # The max amount of connections to the database the connection pool will open
     MaxConnections: 2
     # Sets the max lifetime of the connection in seconds. -1 = Default (30min)

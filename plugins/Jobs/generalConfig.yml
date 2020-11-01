@@ -13,10 +13,10 @@ storage:
   method: mysql
 # Requires Mysql.
 mysql:
-  username: $mysql_user_survie
-  password: $mysql_password_survie
+  username: $mysql_user_$server_name
+  password: $mysql_password_$server_name
   hostname: $mysql_host:$mysql_port
-  database: $mysql_database_survie
+  database: $mysql_database_$server_name
   table-prefix: jobs_
   verify-server-certificate: false
   use-ssl: true

@@ -60,7 +60,7 @@ world-settings:
         explosion-effect: DESTROY
       dispenser:
         apply-cursed-to-armor-slots: true
-        place-anvils: false
+        place-anvils: true
       farmland:
         gets-moist-from-below: false
       furnace:
@@ -312,7 +312,7 @@ world-settings:
         brain-ticks: 1
         use-brain-ticks-only-when-lagging: true
         can-be-leashed: false
-        bypass-mob-griefing: false
+        bypass-mob-griefing: true
         follow-emerald-blocks: false
         can-breed: true
         spawn-iron-golem:
