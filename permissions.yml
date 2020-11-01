@@ -22,15 +22,11 @@ survivant:
     auctionhouse.use: true
   # AuthMe
     authme.player: true
-  # Minepacks
-    backpack.use: true
   # BreakerLandPlugin
     breakerlandmenu.menu.grades: true
     grade.aventurier: true
   # BreakerLandPvp
     pvptoggle.toggle: true
-  # CustomEnderChest
-    customenderchest.level.2: true
   # DeathBack
     dback.survivant: true
   # EpicCraftingsPlus
@@ -119,6 +115,8 @@ survivant:
     lands.role.visitor.setting.*: true
     lands.members.*: true
     lands.settings.*: true
+  # Minepacks
+    backpack.use: true
   # PlayerWarps
     pw.rate: true
     pw.warp: true
@@ -126,6 +124,7 @@ survivant:
     pw.warp: true
     pw.open: true
   # Purpur
+    purpur.enderchest.rows.two : true
     purpur.drop.spawner: true
     purpur.place.spawner: true
   # Quests
@@ -307,8 +306,6 @@ marquis:
 héro:
   default: false
   children:
-  # CustomEnderChest
-    customenderchest.level.3: true
   # EssentialsX
     essentials.kits.héro: true
     essentials.sethome.multiple.héro: true
@@ -319,20 +316,22 @@ héro:
     mypet.command.respawn: true
   # Music
     music.command: true
+  # Purpur
+    purpur.enderchest.rows.three: true
   # Skin
     skinsetter.set: true
 
 légende:
   default: false
   children:
-  # CustomEnderChest
-    customenderchest.level.4: true
+  # Purpur
+    purpur.enderchest.rows.four: true
 
 empereur:
   default: false
   children:
-  # CustomEnderChest
-    customenderchest.level.5: true
+  # Purpur
+    purpur.enderchest.rows.five: true
 
 premium:
   default: false

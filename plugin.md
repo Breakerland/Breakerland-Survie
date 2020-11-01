@@ -12,7 +12,6 @@
 |         CitizensBooks          |          2.6.1        | https://www.spigotmc.org/resources/citizensbooks.37465/ |
 |          CoreProtect           |           19.2        | https://www.spigotmc.org/resources/coreprotect.8631/ |
 |       CrazyEnchantments        |       8.1-SNAPSHOT    | https://jenkins.badbones69.com/job/Crazy-Enchantments/ |
-|       CustomEnderChest         |          1.13.1       | https://www.spigotmc.org/resources/custom-enderchest.8868/ |
 |            DBack               |           1.0         | |
 |          DiscordSRV            |     1.20.1-SNAPSHOT   | https://www.spigotmc.org/resources/discordsrv.18494/ |
 |            Dynmap              |        3.1-beta-4     | https://www.spigotmc.org/resources/dynmap.274/ |
