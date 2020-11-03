@@ -28,6 +28,12 @@ Pour les informations de connexion avec Votifier.
 Votifier port: '$votifier_port'
 ```
 
+### Dynmap
+Pour les informations de connexion avec Dynmap.
+```bash
+Dynmap port: '$dynmap_port'
+```
+
 ### Base de donnée
 Il est préférable de favoriser l'utilisation de MySQL ou MariaDB lorsqu'il l'est possible.
 Pour les informations de connexion, veuillez utiliser les variables suivantes :
