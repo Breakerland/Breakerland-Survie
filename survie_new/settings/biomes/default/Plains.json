@@ -701,7 +701,7 @@
   "customStructures": [
     {
       "name": "CUSTOM_Building_Plains_Castel01",
-      "density": 4.0E-6,
+      "density": 4.0E-7,
       "size": "MEDIUM",
       "provider": "EWG",
       "type": "TREES",

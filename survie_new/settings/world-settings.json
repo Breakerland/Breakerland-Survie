@@ -1,5 +1,5 @@
 {
-  "pluginVersion": "8.1.7",
+  "pluginVersion": "8.1.33",
   "useLavaOceans": false,
   "useFastOres": false,
   "useVanillaOreAlgorithm": true,
@@ -11,15 +11,15 @@
   "seaLevel": 62,
   "bedrockLevel": 1,
   "transitionModifier": 0,
-  "maxCaveHeight": 120,
+  "maxCaveHeight": 185,
   "minCaveHeight": 8,
-  "mapScale": 1.0,
+  "mapScale": 0.9,
   "oceanModifier": 1.0,
   "globalTreeModifier": 1.0,
-  "mineshaftChance": 0.01,
-  "biomeTypeSize": 1400.0,
+  "mineshaftChance": 0.04,
+  "biomeTypeSize": 1200.0,
   "oceanSize": 900.0,
-  "biomeSize": 400.0,
+  "biomeSize": 750.0,
   "worldSizeX": -1,
   "orgWorldSizeY": -1,
   "orgWorldSizeX": -1,
@@ -28,11 +28,11 @@
   "worldCenterZ": 0,
   "flatAreas": [
     {
-      "radius": 30,
+      "radius": 80,
       "xLocation": 0,
       "zLocation": 0,
-      "baseLevel": 90,
-      "outerRadius": 50
+      "baseLevel": 70,
+      "outerRadius": 40
     }
   ],
   "biomeTypes": {
@@ -53,6 +53,10 @@
       "percentage": -1.0
     },
     "FOREST": {
+      "enabled": true,
+      "percentage": -1.0
+    },
+    "RIVER": {
       "enabled": true,
       "percentage": -1.0
     },
@@ -92,7 +96,8 @@
       "TREES_pine_small_2",
       "TREES_pine_small_3",
       "TREES_pine_tiny",
-      "TREES_pine_tiny_2"
+      "TREES_pine_tiny_2",
+      "CUSTOM_BOX_Tree_Taiga_Normal_01"
     ],
     "BIRCH": [
       "TREES_birch_normal",
