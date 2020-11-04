@@ -39,7 +39,7 @@ settings:
   console-has-all-permissions: true
   chunk-tasks-per-tick: 1000
   load-permissions-yml-before-plugins: true
-  bungee-online-mode: false
+  bungee-online-mode: true
   region-file-cache-size: 512
   incoming-packet-spam-threshold: 300
   save-player-data: true
