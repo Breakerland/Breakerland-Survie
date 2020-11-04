@@ -31,7 +31,7 @@ Votifier port: '$votifier_port'
 ### Dynmap
 Pour les informations de connexion avec Dynmap.
 ```bash
-Dynmap port: '$dynmap_port'
+Dynmap port: '$dynmap_port_survie'
 ```
 
 ### Base de donnée
