@@ -1120,7 +1120,7 @@ random-teleport:
   # Wait time until the player will be teleported.
   wait_3: 0
   # Command (/Lands wild) cooldown
-  cooldown: 15
+  cooldown: 0
   # Teleportation cost
   costs_4: 0
 
