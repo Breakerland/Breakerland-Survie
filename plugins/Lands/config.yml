@@ -108,8 +108,10 @@ land:
     # Max land name length
     # The maximum possible length is 32 (including color codes)
     name-length: 15
-    # Should colors in land names be allowed?
+    # Should colors be allowed in land names?
     color_2: true
+    # Should numbers be allowed in land names?
+    numbers: true
     # Automatically claim chunk on players location?
     chunk-claim: true
 
@@ -127,8 +129,6 @@ land:
   claimblock:
     # Should only the owner of the claim block be able to use it?
     only-owner: true
-    # Should a claim with a claimblock be free of charge (money)?
-    free-claim: true
 
   # Landspawn settings
   spawn:
@@ -186,14 +186,6 @@ land:
     delete: false
     # Should /Lands chat messages be forwarded to console?
     chat: false
-
-  # Send a message if you enter / leave a land.
-  # You can configure the display mode (title, chat, actionbar) in your language file.
-  # Read the language file description to learn how to display messages as a title, actionbar or chat message.
-  # To disable land titles just set the title messages in your language config to ''
-  titles:
-    # Display safezone titles? You can set a custom default title in your language config. Titles for already exsiting lands can be edited in the land menu.
-    safezone: false
 
   # Rename settings
   # Command: /Lands rename
@@ -272,6 +264,13 @@ land:
         area_assign:
           default_76: false
           display_69: false
+        #
+        # WAR_MANAGE
+        # Should this role be able to declare and manage the war of a land?
+        # This also contains setting a tribute.
+        war_manage:
+          default_78: false
+          display_82: false
 
     # Admins are members of a land, which have the admin role.
     # NOTE: Admins are NOT server administrators. You can change the role name in your language configuration file.
@@ -332,6 +331,10 @@ land:
     # Lands will always try to set the member with the highest role
     # as the new owner.
     replace-owner: true
+    # Should lands ignore players, which data recently got deleted (for example, if you delete your primary world; this would delete his stats)
+    # NOTE: It is recommended to keep this enabled, otherwise it will delete/untrust players which data has been deleted in the primary world.
+    ignore-missing: true
+
 
   # Specified combat settings which do not affect wars.
   combat:
@@ -460,7 +463,7 @@ chunk:
   # This affects the following settings (flags).
   setting-menu_2: true
 
-  # These settings are chunk specific settings, wich can be set for specific chunks or the whole land.
+  # These settings are chunk specific settings, which can be set for specific chunks or the whole land.
   # They are DEFAULT settings, which means that they will only apply to new land creations.
   setting:
     #
@@ -641,8 +644,14 @@ chunk:
         vehicle_use:
           default_95: false
           display_74: true
+        #
+        # ITEM_PICKUP
+        # Should this role be able to pickup items?
+        item_pickup:
+          default_97: true
+          display_79: true
 
-    # Members are all players, wich are trusted in the chunk and have no admin role.
+    # Members are all players, which are trusted in the chunk and have no admin role.
     member:
       setting:
         #
@@ -734,6 +743,12 @@ chunk:
         vehicle_use:
           default_95: false
           display_74: true
+        #
+        # ITEM_PICKUP
+        # Should this role be able to pickup items?
+        item_pickup:
+          default_98: true
+          display_80: true
 
       management:
         #
@@ -759,6 +774,14 @@ chunk:
         player_untrust:
           default_31: false
           display_32: false
+        #
+        # PLAYER_BAN
+        # Should this role be able to ban players?
+        # They can only edit players, which have a lower role than their own role.
+        # NOTE: It's recommended to let this deactivated for this role.
+        player_ban:
+          default_82: false
+          display_83: true
         #
         # SETTING_EDIT_LAND
         # Should this role be able to edit land settings?
@@ -876,6 +899,12 @@ chunk:
         vehicle_use:
           default_95: false
           display_74: true
+        #
+        # ITEM_PICKUP
+        # Should this role be able to pickup items?
+        item_pickup:
+          default_99: true
+          display_81: true
 
       management:
         #
@@ -901,6 +930,14 @@ chunk:
         player_untrust:
           default_40: true
           display_49: true
+        #
+        # PLAYER_BAN
+        # Should this role be able to ban players?
+        # They can only edit players, which have a lower role than their own role.
+        # NOTE: It's recommended to let this deactivated for this role.
+        player_ban:
+          default_83: false
+          display_84: true
         #
         # SETTING_EDIT_LAND
         # Should this role be able to edit land settings?
@@ -954,6 +991,11 @@ top-lands:
     # You can set this to AIR, if you want to disable this.
     # NOTE: It may take up to two minutes to update the item.
     item: AIR
+  # Exclude lands from being in top lists from players
+  # with these UUIDs. Get UID from player name: https://mcuuid.net/
+  # NOTE: Changes to this option might take a few minutes to take effect.
+  exclude-uids_list: []
+
 
 
 # Visualization settings
@@ -985,6 +1027,7 @@ visualization:
       # Fuchsia: 16711935
       # Purple: 8388736
       # Orange: 16753920
+      # NOTE: Only the color of REDSTONE and SPELL_MOB particle can be changed.
       color: 16753920
       # Duration in seconds
       duration: 20
@@ -992,24 +1035,28 @@ visualization:
     # If the player is the land owner.
     own:
       particle_3: REDSTONE
+      # NOTE: Only the color of REDSTONE and SPELL_MOB particle can be changed.
       color_3: 65280
       duration_3: 4
       rows_3: 2
     # If the player is trusted in the land.
     trusted:
       particle_4: REDSTONE
+      # NOTE: Only the color of REDSTONE and SPELL_MOB particle can be changed.
       color_4: 16776960
       duration_4: 4
       rows_4: 2
     # If player isn't trusted in the land.
     untrusted:
       particle_5: REDSTONE
+      # NOTE: Only the color of REDSTONE and SPELL_MOB particle can be changed.
       color_5: 16711680
       duration_5: 4
       rows_5: 2
     # Visualize selection mode (/Lands selection)
     selection:
       particle_8: REDSTONE
+      # NOTE: Only the color of REDSTONE and SPELL_MOB particle can be changed.
       color_8: 16753920
       # Will stay permanent until selection mode is disabled.
       # You can change that by editing this value.
@@ -1060,17 +1107,10 @@ command:
       - war
       - w
 
-    # Set aliases for the /Nations command
-    # This is only needed, if nations are enabled.
-    # NOTE: This setting requires server reload / restart.
-    nations_list:
-      - nation
-      - n
-
   # Block commands
   # They are not case-sensitive.
   blacklist:
-    # This affects all players wich are standing in a land, where they aren't trusted.
+    # This affects all players which are standing in a land, where they aren't trusted.
     nottrusted_list:
     - sethome
     - esethome
@@ -1180,32 +1220,12 @@ database:
 integration:
   # Management integrations
   manager:
-    # WorldGuard
-    WorldGuard:
-      enabled_5: false
-      # Should Lands deny claiming in WorldGuard regions?
-      # NOTE: It's recommended to let this enabled.
-      deny-claim: true
-      # Should players be able to random teleport (/Lands wild) to WorldGuard regions?
-      random-teleport: true
-
     # WorldEdit
     WorldEdit:
       # Disallow WorldEdit use in other players lands, where the player isn't trusted?
       # Bypass permission: lands.bypass.worldedit
       enabled_7: true
 
-    # Griefprevention
-    GriefPrevention:
-      enabled_6: false
-      # Should Lands deny claiming in GriefPrevention regions?
-      deny-claim_2: true
-
-    # Residence
-    Residence:
-      enabled_15: false
-      # Should Lands deny claiming in Residence regions?
-      deny-claim_3: true
 
   # Economy settings
   economy:

@@ -1195,7 +1195,7 @@ gui:
         name: '&6Break Blocks'
         lore:
         - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Modifiable: {unlocked}'
         - ' '
         - '&7Allow this role to'
         - '&7break blocks?'
@@ -1206,7 +1206,7 @@ gui:
         name: '&6Place Blocks'
         lore:
         - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Modifiable: {unlocked}'
         - ' '
         - '&7Allow this role to'
         - '&7place blocks?'
@@ -1217,7 +1217,7 @@ gui:
         name: '&6Block Ignite'
         lore:
         - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Modifiable: {unlocked}'
         - ' '
         - '&7Allow this role to'
         - '&7ignite blocks?'
@@ -1228,7 +1228,7 @@ gui:
         name: '&6General Interaction'
         lore:
         - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Modifiable: {unlocked}'
         - ' '
         - '&7Allow this role to'
         - '&7interact?'
@@ -1239,7 +1239,7 @@ gui:
         name: '&6Open Doors'
         lore:
         - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Modifiable: {unlocked}'
         - ' '
         - '&7Allow this role to'
         - '&7open doors?'
@@ -1250,7 +1250,7 @@ gui:
         name: '&6Open Containers'
         lore:
         - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Modifiable: {unlocked}'
         - ' '
         - '&7Allow this role to'
         - '&7open containers?'
@@ -1261,7 +1261,7 @@ gui:
         name: '&6Use Redstone'
         lore:
         - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Modifiable: {unlocked}'
         - ' '
         - '&7Allow this role to'
         - '&7use levers etc.?'
@@ -1272,7 +1272,7 @@ gui:
         name: '&6Trade with Villagers'
         lore:
         - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Modifiable: {unlocked}'
         - ' '
         - '&7Allow this role to'
         - '&7trade with villagers?'
@@ -1283,7 +1283,7 @@ gui:
         name: '&6Attack Players'
         lore:
         - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Modifiable: {unlocked}'
         - ' '
         - '&7Allow this role to'
         - '&7attack players?'
@@ -1298,7 +1298,7 @@ gui:
         name: '&6Attack Animals'
         lore:
         - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Modifiable: {unlocked}'
         - ' '
         - '&7Allow this role to'
         - '&7attack animals?'
@@ -1309,7 +1309,7 @@ gui:
         name: '&6Fly'
         lore:
         - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Modifiable: {unlocked}'
         - ' '
         - '&7Allow this role to'
         - '&7use &8/&aFly &7here?'
@@ -1320,7 +1320,7 @@ gui:
         name: '&6Teleport to Spawn'
         lore:
         - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Modifiable: {unlocked}'
         - ' '
         - '&7Allow this role to'
         - '&7teleport to the spawn?'
@@ -1331,7 +1331,7 @@ gui:
         name: '&6Assign Chunks to Areas'
         lore:
         - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Modifiable: {unlocked}'
         - ' '
         - '&7Allow this role to'
         - '&7assign chunks to areas?'
@@ -1342,7 +1342,7 @@ gui:
         name: '&6Trust Players'
         lore:
         - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Modifiable: {unlocked}'
         - ' '
         - '&7Allow this role to'
         - '&7trust other players?'
@@ -1353,7 +1353,7 @@ gui:
         name: '&6Set Roles'
         lore:
         - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Modifiable: {unlocked}'
         - ' '
         - '&7Allow this role to'
         - '&7set roles for players?'
@@ -1368,7 +1368,7 @@ gui:
         name: '&6Untrust Players'
         lore:
         - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Modifiable: {unlocked}'
         - ' '
         - '&7Allow this role to'
         - '&7untrust players?'
@@ -1383,7 +1383,7 @@ gui:
         name: '&6Edit Land Settings'
         lore:
         - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Modifiable: {unlocked}'
         - ' '
         - '&7Allow this role to'
         - '&7edit land settings?'
@@ -1394,7 +1394,7 @@ gui:
         name: '&6Edit Role Settings'
         lore:
         - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Modifiable: {unlocked}'
         - ' '
         - '&7Allow this role to'
         - '&7edit role settings?'
@@ -1413,7 +1413,7 @@ gui:
         name: '&6Edit Advanced Role Settings'
         lore:
         - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Modifiable: {unlocked}'
         - ' '
         - '&7Allow this role to'
         - '&7edit advanced role settings?'
@@ -1428,7 +1428,7 @@ gui:
         name: '&6Edit Taxes'
         lore:
         - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Modifiable: {unlocked}'
         - ' '
         - '&7Allow this role to'
         - '&7edit taxes?'
@@ -1443,7 +1443,7 @@ gui:
         name: '&6Enter this Area'
         lore:
         - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Modifiable: {unlocked}'
         - ' '
         - '&7Allow this role to'
         - '&7enter this area?'
@@ -1454,7 +1454,7 @@ gui:
         name: '&6Claim Land'
         lore:
         - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Modifiable: {unlocked}'
         - ' '
         - '&7Allow this role to'
         - '&7claim chunks for this land?'
@@ -1465,7 +1465,7 @@ gui:
         name: '&6Claim Land at Border'
         lore:
         - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Modifiable: {unlocked}'
         - ' '
         - '&7Allow this role to'
         - '&7claim chunks for their'
@@ -1478,7 +1478,7 @@ gui:
         name: '&6Set Landspawn'
         lore:
         - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Modifiable: {unlocked}'
         - ' '
         - '&7Allow this role to'
         - '&7edit the spawnpoint of this land?'
@@ -1489,7 +1489,7 @@ gui:
         name: '&6Withdraw Money from Land Bank'
         lore:
         - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Modifiable: {unlocked}'
         - ' '
         - '&7Allow this role to'
         - '&7withdraw money from'
@@ -1504,7 +1504,7 @@ gui:
         name: '&6Assign Areas'
         lore:
         - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Modifiable: {unlocked}'
         - ' '
         - '&7Allow this role to create areas'
         - '&7and assign land to it?'
@@ -1515,7 +1515,7 @@ gui:
         name: '&6Use Vehicles'
         lore:
         - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Modifiable: {unlocked}'
         - ' '
         - '&7Allow this role to'
         - '&7use vehicles?'
@@ -1526,12 +1526,38 @@ gui:
         name: '&6Manage War'
         lore:
         - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Modifiable: {unlocked}'
         - ' '
         - '&7Allow this role to be able'
         - '&7to declare and manage the'
         - '&7war for your land?'
         material: IRON_SWORD
+        from: 10
+        to: 27
+      item_pickup:
+        name: '&6Ramasser les objets'
+        lore:
+        - '&7Status: {enabled}'
+        - '&7Modifiable: {unlocked}'
+        - ' '
+        - '&7Autorise ce rôle à ramasser'
+        - '&7les objets sur le sol?'
+        material: HOPPER
+        from: 10
+        to: 27
+      player_ban:
+        name: '&6Gestion des bannissements'
+        lore:
+        - '&7Status: {enabled}'
+        - '&7Modifiable: {unlocked}'
+        - ' '
+        - '&7Autorise ce role à bannir'
+        - '&7ou debannir un joueur?'
+        - ' '
+        - '&8- &7Ils ne seront pas autorisé'
+        - '  &7à bannir les joueurs possédant'
+        - '  &7un rôle supérieur.'
+        material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
         from: 10
         to: 27
     a:
@@ -1617,7 +1643,7 @@ gui:
         name: '&6Entity Griefing'
         lore:
         - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Modifiable: {unlocked}'
         - ' '
         - '&7Allow entities to'
         - '&7grief blocks?'
@@ -1632,7 +1658,7 @@ gui:
         name: '&6TNT Griefing'
         lore:
         - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Modifiable: {unlocked}'
         - ' '
         - '&7Allow TNT blocks to'
         - '&7explode?'
@@ -1648,7 +1674,7 @@ gui:
         name: '&6Allow Pistons from Wilderness'
         lore:
         - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Modifiable: {unlocked}'
         - ' '
         - '&7Allow pistons to grief blocks?'
         - ' '
@@ -1664,7 +1690,7 @@ gui:
         name: '&6Allow Water from Wilderness'
         lore:
         - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Modifiable: {unlocked}'
         - ' '
         - '&7Allow water from wilderness'
         - '&7to flow into your land?'
@@ -1680,7 +1706,7 @@ gui:
         name: '&6Monster Spawning'
         lore:
         - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Modifiable: {unlocked}'
         - ' '
         - '&7Allow monsters to'
         - '&7spawn?'
@@ -1694,7 +1720,7 @@ gui:
         name: '&6Animal Spawning'
         lore:
         - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Modifiable: {unlocked}'
         - ' '
         - '&7Allow animals to'
         - '&7spawn?'
@@ -1708,7 +1734,7 @@ gui:
         name: '&6Fire Spread'
         lore:
         - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Modifiable: {unlocked}'
         - ' '
         - '&7Allow fire to spread'
         - '&7inside your land?'
@@ -1722,7 +1748,7 @@ gui:
         name: '&6Leaf Decay'
         lore:
         - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Modifiable: {unlocked}'
         - ' '
         - '&7Should leaves decay'
         - '&7inside your land?'
@@ -1733,7 +1759,7 @@ gui:
         name: '&6Plant Growth'
         lore:
         - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Modifiable: {unlocked}'
         - ' '
         - '&7Should plants be able to grow?'
         material: VINE

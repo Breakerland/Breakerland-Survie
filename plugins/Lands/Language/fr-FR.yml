@@ -105,14 +105,20 @@ general:
     friendly: '&5▉ '
     current-location: '&e▉ '
     wilderness: '&2▉ '
-    top: '&7-<----------<- &6Carte des terrains &7->---------->-'
     info:
       wilderness: ' &2▉ &7= Terrain libre'
       yours: ' &a▉ &7= Vos terrains'
       trusted: ' &5▉ &7= Amis'
       others: ' &c▉ &7= Autres'
       position: ' &e▉ &7= Position'
-    bottom: '&7-<----------<- &6Carte des terrains &7->---------->-'
+    hover:
+      wilderness: '&7Cette parcelle est libre. Cliquez pour le claim.'
+      yours: '&7Cette parcelle vous appartient. Cliquez pour afficher les informations de la parcelle&3
+        {land}&7.'
+      trusted: '&7Vous êtes membre de ce terrain. Cliquez pour afficher les informations du terrain&3
+        {land}&7.'
+      others: '&7Vous n''êtes pas membre de ce terrain. Cliquez pour afficher les informations du terrain&3 {land}&7.'
+      position: '&7Votre position.'
   wars:
     nametag:
       enemy: '&cENEMY &8| '
@@ -420,6 +426,7 @@ command:
         than color codes.'
       color: '&cYou''re not allowed to use color codes for this name. &7Please remove
         any color codes from your input.'
+      number: '&cVous n''êtes pas autorisé à utiliser des nombres dans le nom. &7Merci d''utiliser uniquement des lettres. Interdit:&3 {invalid}'
     number: '&cYour input&4 {input} &cisn''t a number. &7The&3 {argument} &7argument
       needs to be a number.'
   help:
@@ -857,6 +864,9 @@ command:
           [T]&7Land:&a {land} &8[&8CLICK&8][H]&7Click here to visualize this land.[/H][C]lands view[/C][/T]
           &7Cost:&c ${cost}
           &7---------<- &5&lLand Buy &r&7->---------
+  map:
+    header: '&7-<------------<- &6Terrains &7->------------>-[newline]'
+    footer: '[newline]&7-<------------<- &6Terrains &7->------------>-'
 list:
   swear-words:
   - fuck
