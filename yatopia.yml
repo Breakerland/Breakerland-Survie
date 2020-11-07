@@ -1,0 +1,47 @@
+# This is the main configuration file for Yatopia.
+# Yatopia contains many breaking changes and settings, so know what you are doing!
+# You have been warned!
+
+verbose: false
+brand-name: Breakerland
+config-version: 1
+settings:
+  pistonPushLimit: 12
+  fixFallDistance: true
+  disableEntityStuckChecks: false
+  itemStuckSleepTicks: 15
+  fire-block-physics-event: true
+  villager:
+    simplerVillagerBehavior: false
+    villagersHideAtNight: false
+  checks:
+    flight: true
+    vehicle-flight: false
+  intervals:
+    player-time-statistics: 1
+  criterion-triggers:
+    location: true
+    enter-block: true
+    tick: true
+worlds:
+  default:
+    tick-empty-hoppers: true
+    use-block-distance-in-portal-search-radius: true
+    disable-observer-clocks: true
+    fast-feature-search-dont-load: true
+    ticks-per:
+      full-hopper-cooldown: 128
+    collisions:
+      players: true
+      animals: true
+      ambient: true
+      monsters: true
+      villagers: true
+      pillagers: true
+      iron-golems: true
+      misc: true
+      items: true
+      water-creature: true
+      water-ambient: true
+    pigmen:
+      dont-target-unless-hit: false
