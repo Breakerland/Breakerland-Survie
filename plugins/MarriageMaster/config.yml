@@ -45,20 +45,20 @@ Database:
       #     intervalChecked (like interval, but also ensures that the player is already offline for at lest the interval time)
       #     ondisconnect (player instantly gets uncached as soon as he disconnects from the server, may adds overhead if other plugins try to access the player data when they go offline, also it may be problematic for players with unstable connections)
       #     ondisconnectdelayed (player gets uncached x seconds after he went offline, adds overhead on disconnect, you shouldn't use this with a lot of players joining and leaving.)
-      Strategy: interval
+      Strategy: ondisconnectdelayed
       # Used for the interval based uncaching algorithms. Also used as delay for ondisconnectdelayed. Value in seconds. Default: 600 = 10 minutes
       Interval: 600
-      Delay: 600
+      Delay: 120
 
 Marriage:
   # Defines if players need to get married by a priest or if they can marry each other on their own.
   RequirePriest: true
   # This option defines if a priest is needed to divorce 2 players or if they can divorce on their own.
   # Options: true, false, auto (auto will copy the RequirePriest value)
-  DivorceRequiresPriest: auto
+  DivorceRequiresPriest: false
   AllowMultiplePartners: false
   # This setting disables the "/marry setpriest" command players can still be promoted to a priest with the "marry.priest" permission.
-  DisableSetPriestCommand: false
+  DisableSetPriestCommand: true
   Surnames:
     Enable: false
     Force: false
@@ -89,9 +89,9 @@ Prefix:
   String: "<heart>{PartnerName}<heart>"
   OnLineBeginning: true
 Suffix:
-  Enable: false
+  Enable: true
   # Placeholders: {Surname}, {PartnerName}, {PartnerDisplayName}, {StatusHeart}, {MagicHeart}
-  String: "{Surname}"
+  String: "{StatusHeart}"
 
 Gift:
   Enable: true
@@ -158,7 +158,7 @@ Range:
   Marry: 25.0
   Divorce: 25.0
   Backpack: 5
-  Gift: 0
+  Gift: -1
   Kiss: 2
   KissInteract: 5
   Hug: 2
