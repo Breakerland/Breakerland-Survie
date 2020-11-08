@@ -22,7 +22,7 @@ Database:
   # If you are using BungeeCord, set it to whatever you use on your BungeeCord server!!!
   UUID_Type: auto
   SQL:
-    Host: '$mysql_host'
+    Host: '$mysql_host:$mysql_port'
     Database: '$mysql_database_proxy'
     User: '$mysql_user_proxy'
     Password: '$mysql_password_proxy'
