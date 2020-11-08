@@ -12,12 +12,28 @@
     },	
     "criteria": {
         "night_vision": {
-            "trigger": "minecraft:effects_changed",
+            "trigger": "minecraft:consume_item",
             "conditions": {
-                "effects": {
-                    "minecraft:night_vision": {}
+                "item": {
+                    "item": "minecraft:potion",
+					"nbt": "{Potion:\"minecraft:night_vision\"}"
+                }
+            }
+        },
+        "long_night_vision": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:potion",
+					"nbt": "{Potion:\"minecraft:long_night_vision\"}"
                 }
             }
         }
-    }
+    },
+	"requirements": [
+		[
+			"night_vision",
+			"long_night_vision"
+		]
+	]
 }

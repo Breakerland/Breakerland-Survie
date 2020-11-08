@@ -1,6 +1,9 @@
 # Function that updates your advancement score depending on how many advancements you have obtained in your world so far
 # For use if you have a world that ran 1.5 or an earlier version of the pack and updated to 1.5.1 but want to see your score
 
+# Display message
+tellraw @s {"color":"green","text":"The advancement count of all players currently online has been updated."}
+
 # Set to 0
 scoreboard players set @a bac_advancements 0
 
@@ -955,6 +958,7 @@ execute as @a[advancements={blazeandcave:mining/diamonds_to_you=true}] run score
 
 execute as @a[advancements={blazeandcave:building/one_pickle_two_pickle_sea_pickle_four=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={blazeandcave:building/harry_potter=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:building/armor_display=true}] run scoreboard players add @s bac_advancements 1
 
 execute as @a[advancements={blazeandcave:farming/unmasked=true}] run scoreboard players add @s bac_advancements 1
 
@@ -974,6 +978,7 @@ execute as @a[advancements={blazeandcave:adventure/im_not_lost_anymore=true}] ru
 
 execute as @a[advancements={blazeandcave:combat/controlled_detonation=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={blazeandcave:combat/miracle_drink=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:combat/dead_really_dont_die=true}] run scoreboard players add @s bac_advancements 1
 
 execute as @a[advancements={blazeandcave:weaponry/half_heart_life=true}] run scoreboard players add @s bac_advancements 1
 

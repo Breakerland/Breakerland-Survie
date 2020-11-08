@@ -816,6 +816,42 @@
 					}
 				}
 			}
+        },
+		"controlled_detonation": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/controlled_detonation": "true"
+						}
+					}
+				}
+			}
+        },
+		"miracle_drink": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/miracle_drink": "true"
+						}
+					}
+				}
+			}
+        },
+		"dead_really_dont_die": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/dead_really_dont_die": "true"
+						}
+					}
+				}
+			}
         }
     }
 }

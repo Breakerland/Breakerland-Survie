@@ -63,19 +63,6 @@
                     }
                 }
             }
-        },
-        "ender_dragon": {
-            "trigger": "minecraft:player_killed_entity",
-            "conditions": {
-                "entity": {
-                    "type": "ender_dragon"
-                },
-                "killing_blow": {
-                    "source_entity": {
-                        "nbt": "{Inventory:[{Slot:103b,id:\"minecraft:dragon_head\"}]}"
-                    }
-                }
-            }
         }	
     },
     "requirements": [
@@ -83,8 +70,7 @@
         "creeper",
         "zombie",
 		"skeleton",
-		"wither_skeleton",
-		"ender_dragon"
+		"wither_skeleton"
 		]
     ]
 }

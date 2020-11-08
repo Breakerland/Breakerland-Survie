@@ -10238,6 +10238,18 @@
 				}
 			}
         },
+		"time_to_dig": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:bacap/time_to_dig": "true"
+						}
+					}
+				}
+			}
+        },
 		"diamonds_to_you": {
             "trigger": "minecraft:location",
 			"conditions": {
@@ -10269,6 +10281,18 @@
 					"player": {
 						"advancements": {
 							"blazeandcave:building/harry_potter": "true"
+						}
+					}
+				}
+			}
+        },
+		"armor_display": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/armor_display": "true"
 						}
 					}
 				}
@@ -10413,6 +10437,42 @@
 					"player": {
 						"advancements": {
 							"blazeandcave:adventure/im_not_lost_anymore": "true"
+						}
+					}
+				}
+			}
+        },
+		"controlled_detonation": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/controlled_detonation": "true"
+						}
+					}
+				}
+			}
+        },
+		"miracle_drink": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/miracle_drink": "true"
+						}
+					}
+				}
+			}
+        },
+		"dead_really_dont_die": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:combat/dead_really_dont_die": "true"
 						}
 					}
 				}

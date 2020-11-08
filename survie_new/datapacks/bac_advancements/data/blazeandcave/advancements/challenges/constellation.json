@@ -10,7 +10,7 @@
     "parent": "blazeandcave:challenges/the_world_is_ending",
 	"rewards": {
 		"experience": 200,
-		"function": "bc_rewards:challenges/warlock"
+		"function": "bc_rewards:challenges/constellation"
     },		
     "criteria": {
         "nether_star": {

@@ -1,8 +1,9 @@
 # Function runs at the beginning of a load
 
-# # Adds/updates scoreboard objectives
+# # Adds/updates scoreboard objectives and settings
 scoreboard objectives add bac_advancements dummy {"text":"Advancements"}
 scoreboard objectives add bac_settings dummy
+scoreboard objectives add bac_trophy_given dummy
 
 # The following are used for statistical advancements
 scoreboard objectives add bac_day_count dummy

@@ -1,5 +1,4 @@
 execute if score reward bac_settings matches 1 run tellraw @s {"color":"blue","text":" +1000 experience"}
-execute if score reward bac_settings matches 1 run tellraw @s {"color":"gold","text":" Cavinator1's Head"}
 scoreboard players add @s bac_advancements 1
 
 execute if score trophy bac_settings matches 1 run give @s minecraft:leather_chestplate{CustomModelData:131,HideFlags:70,Unbreakable:1,display:{color:16774656,Name:"{\"italic\":\"false\",\"bold\":\"true\",\"color\":\"#FFF600\",\"translate\":\"Yellow T-Shirt\"}",Lore:["{\"color\":\"#FFF600\",\"translate\":\"I completed BlazeandCave's Advancements Pack\"}","{\"color\":\"#FFF600\",\"translate\":\"and all I got was this lousy T-shirt\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":\"false\",\"color\":\"gold\",\"translate\":\"Advancement Legend\"}"]}} 1

@@ -12,17 +12,39 @@
 		"function": "bc_rewards:potion/tank"
     },	
     "criteria": {
-        "resistance": {
-            "trigger": "minecraft:effects_changed",
+        "turtle_master": {
+            "trigger": "minecraft:consume_item",
             "conditions": {
-                "effects": {
-                    "minecraft:resistance": {
-						"amplifier": {
-							"min": 2
-						}
-					}
+                "item": {
+                    "item": "minecraft:potion",
+					"nbt": "{Potion:\"minecraft:turtle_master\"}"
+                }
+            }
+        },
+        "strong_turtle_master": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:potion",
+					"nbt": "{Potion:\"minecraft:strong_turtle_master\"}"
+                }
+            }
+        },
+        "long_turtle_master": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:potion",
+					"nbt": "{Potion:\"minecraft:long_turtle_master\"}"
                 }
             }
         }
-    }
+    },
+	"requirements": [
+		[
+			"turtle_master",
+			"strong_turtle_master",
+			"long_turtle_master"
+		]
+	]
 }

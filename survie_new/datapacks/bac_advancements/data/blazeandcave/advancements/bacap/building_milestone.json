@@ -912,6 +912,18 @@
 					}
 				}
 			}
+        },
+		"armor_display": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"advancements": {
+							"blazeandcave:building/armor_display": "true"
+						}
+					}
+				}
+			}
         }
     }
 }

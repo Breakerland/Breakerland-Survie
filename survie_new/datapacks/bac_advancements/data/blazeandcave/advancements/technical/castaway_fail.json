@@ -319,7 +319,17 @@
                     "item": "minecraft:honey_bottle"
                 }
             }
-        }
+        },
+        "cake": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"block": "minecraft:cake"
+					}
+				}
+			}
+		}
     },
 	"requirements": [
 		[
@@ -362,7 +372,8 @@
 			"sweet_berries",
 			"potion",
 			"milk_bucket",
-			"honey_bottle"
+			"honey_bottle",
+			"cake"
 		]
 	]
 }

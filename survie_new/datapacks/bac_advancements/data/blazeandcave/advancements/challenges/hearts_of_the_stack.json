@@ -10,7 +10,7 @@
     "parent": "blazeandcave:challenges/root",
 	"rewards": {
 		"experience": 200,
-		"function": "bc_rewards:challenges/abyss_lord"
+		"function": "bc_rewards:challenges/hearts_of_the_stack"
     },		
     "criteria": {
         "heart_of_the_sea": {

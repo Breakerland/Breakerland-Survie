@@ -211,12 +211,6 @@
 				"loot_table": "minecraft:chests/village/village_savanna_house"
 			}
 		},
-        "village_shepherd": {
-			"trigger": "minecraft:player_generates_container_loot",
-			"conditions": {
-				"loot_table": "minecraft:chests/village/village_shepherd"
-			}
-		},
         "village_snowy_house": {
 			"trigger": "minecraft:player_generates_container_loot",
 			"conditions": {

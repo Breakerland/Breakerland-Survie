@@ -81,7 +81,7 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
-                    "type": "zombie",
+                    "type": "stray",
 					"nbt": "{ArmorItems:[{},{},{},{id:\"minecraft:jack_o_lantern\",Count:1b}]}"
                 }
             }

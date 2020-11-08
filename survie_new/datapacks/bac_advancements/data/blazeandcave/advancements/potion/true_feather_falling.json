@@ -12,12 +12,28 @@
     },	
     "criteria": {
         "slow_falling": {
-            "trigger": "minecraft:effects_changed",
+            "trigger": "minecraft:consume_item",
             "conditions": {
-                "effects": {
-                    "minecraft:slow_falling": {}
+                "item": {
+                    "item": "minecraft:potion",
+					"nbt": "{Potion:\"minecraft:slow_falling\"}"
+                }
+            }
+        },
+        "long_slow_falling": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:potion",
+					"nbt": "{Potion:\"minecraft:long_slow_falling\"}"
                 }
             }
         }
-    }
+    },
+	"requirements": [
+		[
+			"slow_falling",
+			"long_slow_falling"
+		]
+	]
 }

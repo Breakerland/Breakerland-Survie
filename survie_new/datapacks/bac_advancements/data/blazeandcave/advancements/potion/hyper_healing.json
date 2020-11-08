@@ -12,12 +12,38 @@
     },	
     "criteria": {
         "regeneration": {
-            "trigger": "minecraft:effects_changed",
+            "trigger": "minecraft:consume_item",
             "conditions": {
-                "effects": {
-                    "minecraft:regeneration": {}
+                "item": {
+                    "item": "minecraft:potion",
+					"nbt": "{Potion:\"minecraft:regeneration\"}"
+                }
+            }
+        },
+        "strong_regeneration": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:potion",
+					"nbt": "{Potion:\"minecraft:strong_regeneration\"}"
+                }
+            }
+        },
+        "long_regeneration": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:potion",
+					"nbt": "{Potion:\"minecraft:long_regeneration\"}"
                 }
             }
         }
-    }
+    },
+	"requirements": [
+		[
+			"regeneration",
+			"strong_regeneration",
+			"long_regeneration"
+		]
+	]
 }

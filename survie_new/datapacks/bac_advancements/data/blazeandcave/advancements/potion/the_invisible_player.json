@@ -12,12 +12,28 @@
     },	
     "criteria": {
         "invisibility": {
-            "trigger": "minecraft:effects_changed",
+            "trigger": "minecraft:consume_item",
             "conditions": {
-                "effects": {
-                    "minecraft:invisibility": {}
+                "item": {
+                    "item": "minecraft:potion",
+					"nbt": "{Potion:\"minecraft:invisibility\"}"
+                }
+            }
+        },
+        "long_invisibility": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:potion",
+					"nbt": "{Potion:\"minecraft:long_invisibility\"}"
                 }
             }
         }
-    }
+    },
+	"requirements": [
+		[
+			"invisibility",
+			"long_invisibility"
+		]
+	]
 }
