@@ -89,7 +89,7 @@ Prefix:
   String: "<heart>{PartnerName}<heart>"
   OnLineBeginning: true
 Suffix:
-  Enable: true
+  Enable: false
   # Placeholders: {Surname}, {PartnerName}, {PartnerDisplayName}, {StatusHeart}, {MagicHeart}
   String: "{StatusHeart}"
 
