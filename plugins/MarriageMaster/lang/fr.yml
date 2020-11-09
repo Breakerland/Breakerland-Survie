@@ -45,7 +45,7 @@ Language:
       TargetSet: "[\"\",{\"text\":\"Vous parlez désormais en privé avec votre partenaire.\",\"color\":\"gray\"}]"
       DisplayNameAll: "Tous vos partenaires"
       # Placeholders: {SenderDisplayName}, {SenderName}, {ReceiverDisplayName}, {ReceiverName}, {Message}, {MagicHeart}
-      Format: "[\"\",{\"text\":\"{MagicHeart}\"},{\"text\":\" {SenderDisplayName}\"},{\"text\":\" => \",\"color\":\"gold\"},{\"text\":\"{ReceiverDisplayName}\"},{\"text\":\": \",\"color\":\"white\"},{\"text\":\"{Message}\"}]"
+      Format: "[\"\",{\"text\":\"{SenderName} \",\"color\":\"gray\"},{\"text\":\"{MagicHeart}\"},{\"text\":\" {Message}\",\"color\":\"white\"}]"
     Gift:
       OnlyInSurvival: "[\"\",{\"text\":\"Vous ne pouvez offrir d'objet à votre partenaire qu'en mode survie.\",\"color\":\"red\"}]"
       NoItemInHand: "[\"\",{\"text\":\"Vous ne tenez aucun objet à offrir.\",\"color\":\"red\"}]"
@@ -228,8 +228,8 @@ Language:
       # You can change this message if you like to, but don't cry if the link isn't linking to the plugin anymore!
       UpdateAvailable: "[{\"text\":\"Une mise à jour est disponible! Merci de vous rendre sur \\\"\",\"color\":\"gray\"},{\"text\":\"https://www.spigotmc.org/resources/marriage-master-mc-1-7-1-9.19273/\",\"color\":\"yellow\",\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.spigotmc.org/resources/marriage-master-mc-1-7-1-9.19273/\"}},{\"text\":\"\\\" pour la télécharger!\"}]"
     Help:
-      Header: "&7&l&m--------------&7&l[ &r&6&lMariage &7&l]&m--------------"
-      Footer: "&7&l&m--------------&7&l[ &r&6&lMariage &7&l]&m--------------"
+      Header: "&7&l&m--------------&7&l[&r &6&lMariage &7&l]&m--------------"
+      Footer: "&7&l&m--------------&7&l[&r &6&lMariage &7&l]&m--------------"
       # Allows you to define messages that should be sent if the player uses the "/marry" command without any parameters (HelpMode must be set to CustomHelp in the config)
       CustomHelp:
         # Will be used if the player is married
