@@ -757,7 +757,7 @@ chunk:
         # NOTE: It's recommended to let this deactivated for this role.
         player_trust:
           default_29: false
-          display_30: false
+          display_30: true
         #
         # PLAYER_SETROLE
         # Should this role be able to set roles for other players.
@@ -789,7 +789,7 @@ chunk:
         # NOTE: It's recommended to let this deactivated for this role.
         setting_edit_land:
           default_59: false
-          display_33: false
+          display_33: true
         #
         # SETTING_EDIT_ROLE
         # Should this role be able to edit role settings?
@@ -798,14 +798,13 @@ chunk:
         # They can only edit roles, which are lower than their own role.
         setting_edit_role:
           default_77: false
-          display_34: false
-        #
+          display_34: true
         # SETTING_EDIT_TAXES
         # Should this role be able to edit tax settings?
         # NOTE: It's recommended to let this deactivated for this role.
         setting_edit_taxes:
           default_80: false
-          display_36: false
+          display_36: true
 
     # Admins are members, which got promoted to the admin role (not server admin).
     admin:
