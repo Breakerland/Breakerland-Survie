@@ -53,7 +53,7 @@ DiscordToMinecraftAllRolesSeparator: ""
 #                  Exemple : Sun Jan 1 15:30:45 PDT 2017
 # PlaceholderAPI les placeholders sont compatibles
 #
-MinecraftChatToDiscordMessageFormat: "%displayname% » %message%
+MinecraftChatToDiscordMessageFormat: "%displayname% » %message%"
 MinecraftChatToDiscordMessageFormatNoPrimaryGroup: "%displayname% » %message%"
 
 # Message de plugin de canal de conversation
