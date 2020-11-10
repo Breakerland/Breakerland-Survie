@@ -191,7 +191,7 @@ DiscordChatChannelListCommandExpirationDeleteRequest: true
 # DiscordChatChannelDiscordFilters: filtres regex à appliquer aux messages de discussion envoyés à Minecraft, si le résultat est vide, le message ne sera pas envoyé du tout
 #
 DiscordChatChannelGameFilters: {}
-DiscordChatChannelDiscordFilters: {".*Online players\\(.*": "", ".*\\*\\*No online players\\*\\*.*": "", "@(everyone|here|staff|fondateur|administratrice|développeuse|bot|webmaster|architecte|animatrice|architecte \(test\)|scribe|scribe \(test\)|animatrice \(test\)|survivant|Premium|Aventurier|Baron|Duc|Comte|Marquis)": "$1"}
+DiscordChatChannelDiscordFilters: {".*Online players\\(.*": "", ".*\\*\\*No online players\\*\\*.*": "", "@(everyone|here|staff|fondateur|administratrice|développeuse|bot|webmaster|architecte|animatrice|architecte (test)|scribe|scribe (test)|animatrice (test)|survivant|Premium|Aventurier|Baron|Duc|Comte|Marquis)": "$1"}
 
 # Mse à jour des informations du canal
 #
