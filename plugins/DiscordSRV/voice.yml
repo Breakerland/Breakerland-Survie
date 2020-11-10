@@ -1,28 +1,28 @@
-# This is the configuration file for DiscordSRV's voice module.
-# It is an experimental feature. Things may not work properly.
-# If you do play around with this module, please send us feedback about any
-# issues on our Discord. https://discordsrv.com/discord
+# Ceci est le fichier de configuration du module vocal de DiscordSRV.
+# C'est une fonctionnalité expérimentale. Les choses peuvent ne pas fonctionner correctement.
+# Si vous jouez avec ce module, veuillez nous envoyer vos commentaires sur
+# problèmes sur notre discorde. https://discordsrv.com/discord
 #
 
-# Whether or not to enable the voice module
+# Activer ou non le module vocal
 Voice enabled: false
-# Amount of ticks between network updates
+# Nombre de ticks entre les mises à jour du réseau
 Tick speed: 5
-# The main category that the voice module will create/delete/move voice channels in
-# No channels other than the lobby channel (below) should be in this category
+# La catégorie principale dans laquelle le module vocal créera / supprimera / déplacera des canaux vocaux
+# Aucun canal autre que le canal du lobby (ci-dessous) ne devrait être dans cette catégorie
 Voice category: 000000000000000000
-# The lobby channel (inside the voice category) that people will be moved to
-# when they are not in range of any networks. This is also the channel people will
-# join to be connected to the proximity voice network.
+# Le canal du lobby (à l'intérieur de la catégorie de voix) vers lequel les gens seront déplacés
+# quand ils ne sont à portée d'aucun réseau. C'est aussi le canal que les gens vont
+# rejoindre pour être connecté au réseau vocal de proximité.
 Lobby channel: 000000000000000000
-# Mutes users in the lobby who have the Speak and Mute Others permissions in the lobby
+# Met en sourdine les utilisateurs du hall qui ont les autorisations Parler et Muet autres dans le hall
 Mute users who bypass speak permissions in the lobby: false
 
-Network: 
-  # Maximum distance between players in order to be connected
+Network:
+  # Distance maximale entre les joueurs pour pouvoir être connecté
   Strength: 40
-  # Once a player has joined a network, they can be
-  # strength + falloff blocks away before being disconnected
+  # Une fois qu'un joueur a rejoint un réseau, il peut être
+  # strength + falloff avant d'être déconnecté
   Falloff: 5
-  # Whether or not to allow VAD in voice channels
+  # Autoriser ou non VAD dans les canaux vocaux
   Allow voice activation detection: true

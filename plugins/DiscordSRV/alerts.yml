@@ -5,6 +5,13 @@
 # Refer to the Bukkit API javadoc to find events & properties to use:
 #  https://hub.spigotmc.org/javadocs/bukkit
 # Helpful resources for learning how to use SpEL:
+#  https://docs.spring.io/spring/docs/4.2.x/spring# This is an /advanced/ feature of DiscordSRV that allows you to send messages to Discord when a game event happens
+# or when a command is run. You will need a working knowledge of how Bukkit events work and their properties.
+# If you aren't sure about what you're doing here, maybe ask a developer or join our support server @ discordsrv.com/discord
+#
+# Refer to the Bukkit API javadoc to find events & properties to use:
+#  https://hub.spigotmc.org/javadocs/bukkit
+# Helpful resources for learning how to use SpEL:
 #  https://docs.spring.io/spring/docs/4.2.x/spring-framework-reference/html/expressions.html
 #  https://dzone.com/articles/learn-spring-expression-language-with-examples
 #
@@ -75,7 +82,7 @@
 #        IconUrl: ""
 #      Timestamp: false # set to true to use the time the message was sent or use a epoch timestamp for a specific time (https://www.epochconverter.com/)
 #
-Alerts: 
+Alerts:
   # Example config to send messages to the "fish" DiscordSRV channel when a player successfully catches a fish
   #- Trigger: PlayerFishEvent
   #  Channel: fish
