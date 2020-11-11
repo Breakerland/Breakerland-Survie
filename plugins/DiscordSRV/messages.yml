@@ -164,7 +164,7 @@ DiscordChatChannelListCommandAllPlayersSeparator: ", "
 # %message%:     message tel que vu dans le jeu
 #
 MinecraftPlayerJoinMessage:
-  Enabled: true
+  Enabled: false
   Webhook:
     Enable: false
     AvatarUrl: "%botavatarurl%"
