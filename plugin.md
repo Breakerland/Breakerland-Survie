@@ -20,6 +20,7 @@
 |          EssentialsX           |         2.18.1.28     | https://www.spigotmc.org/resources/essentialsx.9089 |
 |        EssentialsXChat         |         2.18.1.28     | https://www.spigotmc.org/resources/essentialsx.9089 |
 |        EssentialsXSpawn        |         2.18.1.28     | https://www.spigotmc.org/resources/essentialsx.9089 |
+|        ExecutableItems         |          2.5.6.2      | https://www.spigotmc.org/resources/executableitems-1-12-1-16-command-items-with-gui.77578/ |
 |          HeadDatabase          |         4.12.6        | https://www.spigotmc.org/resources/head-database.14280/ |
 |       HolographicDisplays      |          2.4.5        | https://dev.bukkit.org/projects/holographic-displays |
 |          IllegalStack          |          2.2.0e       | https://www.spigotmc.org/resources/dupe-fixes-illegal-stack-remover.44411/ |
