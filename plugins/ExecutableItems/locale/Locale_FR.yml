@@ -26,3 +26,9 @@ errorMoney: '&4&l[ExecutableItems] &cTu n''as pas: &6%amount%$ &csur ton compte 
   &6(&eTu as actuellement: &a%balance%$&6)'
 newBalance: '&6&l[ExecutableItems] &eTransaction: &c-%amount%$ &eTa nouvelle balance:
   &a%balance%$'
+requiredEIFirstPart: '&4Required ExecutableItem(s): '
+requiredEIQuantity: ' &cx &6'
+requiredEISeparator: '&c | '
+requiredItemsFirstPart: '&4Required Item(s): '
+requiredItemsQuantity: ' &cx &6'
+requiredItemsSeparator: '&c | '

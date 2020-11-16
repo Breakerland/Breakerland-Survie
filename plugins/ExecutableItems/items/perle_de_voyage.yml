@@ -1,0 +1,34 @@
+name: '&b&lPerle de voyage'
+lore:
+- '&7Cette perle vous permet'
+- '&7de voyager dans les terres'
+- '&7encore inexplorées.'
+material: CHORUS_FRUIT
+glow: false
+cancel-item-drop: false
+cancel-item-place: true
+cancel-deposit-in-chest: false
+cancel-item-craft: true
+locked-in-inventory: false
+disableStack: false
+keepItemOnDeath: false
+give-first-join: false
+give-slot: 0
+hideEnchantments: false
+hideAttributes: false
+usage: 1
+usageLimit: -1
+disable-world: []
+unbreakable: false
+activators:
+  activator1:
+    activator: CONSUME
+    displayName: an activator
+    usageModification: 0
+    cooldown: 120
+    displayCooldownMessage: false
+    commands:
+    - randomteleport %player% force
+    conditions:
+      playerConditions: {}
+      customConditions: {}

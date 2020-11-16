@@ -15,30 +15,9 @@
 # DISCORD HERE : https://discord.com/invite/7n8wHXu
 # material ID : https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
 # particle ID: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html
-# enchantment 1.13 or +: https://minecraft-fr.gamepedia.com/Enchantement
-# enchantment 1.12: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html
 # head VALUE: https://minecraft-heads.com/custom-heads
 # -
 # EN / FR / ES / HU
 locale: FR
-items:
-  perle_de_voyage:
-    name: '&b&lPerle de voyage'
-    lore:
-    - '&7Cette perle vous permet'
-    - '&7de voyager dans les terres'
-    - '&7encore inexplorées.'
-    material: CHORUS_FRUIT
-    glow: false
-    cancel-item-drop: false
-    usage: 1
-    activators:
-      activator1:
-        commands:
-        - randomteleport %player% force
-        activator: CONSUME
-        cooldown: 120
-        sneaking: false
-        needConfirmBeforeUse: false
 pickup-limit: -1
 disable-world: []
