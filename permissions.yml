@@ -115,6 +115,8 @@ survivant:
     lands.role.visitor.setting.*: true
     lands.members.*: true
     lands.settings.*: true
+  # MarriageMaster
+    marry.user: true
   # Minepacks
     backpack.use: true
   # PlayerWarps
