@@ -139,13 +139,9 @@ survivant:
   # QuickShop
     quickshop.use: true
   # SimplePortal
-    simpleportals.portal.*: true
     simpleportals.switchserver: true
   # Sleep
     sleep.cancel: true
-  # UltimateStacker
-    ultimatestacker.egg.*: true
-    ultimatestacker.spawner.silktouch: true
   # VotingPlugin
     votingplugin.player: true
 
@@ -202,7 +198,7 @@ baron:
     lands.command.top: true
   # MyPet
     mypet.leash.*: true
-    mypet.shop.access.*: true
+    mypet.shop.access.all: true
     mypet.skilltree.combat: true
     mypet.command.trade.*: true
     mypet.command.capturehelper: true
