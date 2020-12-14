@@ -27,74 +27,76 @@ DiscordToMinecraftChatMessageFormat: "[%toprolecolor%%toproleinitial%&f] %toprol
 DiscordToMinecraftChatMessageFormatNoRole: "[&7S&f] &7%name% » &f%message%"
 DiscordToMinecraftAllRolesSeparator: ""
 
-# Minecraft -> Message Discord
+# Minecraft -> Discord message
 #
-# MinecraftChatToDiscordMessageFormat: format des messages pour les messages de Minecraft vers Discord
-# MinecraftChatToDiscordMessageFormatNoPrimaryGroup: format MinecraftChatToDiscordMessageFormat
-#                                                    lorsque le joueur n'a pas de groupe
+# MinecraftChatToDiscordMessageFormat: the format used when sending messages from Minecraft to Discord
+# MinecraftChatToDiscordMessageFormatNoPrimaryGroup: used in place of MinecraftChatToDiscordMessageFormat
+#                                                    when no primary group for the player was found
 #
-# Placeholders disponibles :
-# %username%:     nom Minecraft du joueur
-#                  Exemple : jeb_
-# %displayname%:  nom Minecraft du joueur (surnom compris)
-#                  Exemple : BigBossManJeb
-# %usernamenoescapes%:     nom Minecraft du joueur sans échapper au format discord (à utiliser dans le code en ligne et le marquage de bloc de code)
+# Available placeholders:
+# %username%:     raw player username
 #                  example: jeb_
-# %displaynamenoescapes%:  nom Minecraft du joueur (surnom compris) sans échapper au format discord (à utiliser dans le code en ligne et le marquage de bloc de code)
+# %displayname%:  display name from things like nicknames
 #                  example: BigBossManJeb
-# %message%:      contenu du message
-#                  Exemple : Hello!
-# %primarygroup%: nom du premier groupe du joueur
-# %world%:        nom du monde dans lequel se trouve le joueur
-#                  Exemple : world
-# %worldalias%:   alias du monde dans lequel se trouve le joueur
-#                  Exemple : Mainland
-# %date%:         date et heure actuelle
-#                  Exemple : Sun Jan 1 15:30:45 PDT 2017
-# PlaceholderAPI les placeholders sont compatibles
+# %usernamenoescapes%:     raw player username without escaping discord format (for use in inline code & code block markdown)
+#                  example: jeb_
+# %displaynamenoescapes%:  display name from things like nicknames without escaping discord format (for use in inline code & code block markdown)
+#                  example: BigBossManJeb
+# %message%:      message content
+#                  example: Hello!
+# %primarygroup%: the name of the user's primary group
+# %world%:        name of world player is in
+#                  example: world
+# %worldalias%:   alias of world player is in via Multiverse-Core
+#                  example: Mainland
+# %date%:         current date & time
+#                  example: Sun Jan 1 15:30:45 PDT 2017
+# %channelname%:  the name of the channel that the message was sent in, if the message was sent in a channel at all
+#                  example: Global
+# PlaceholderAPI placeholders are also supported
 #
 MinecraftChatToDiscordMessageFormat: "%displayname% » %message%"
 MinecraftChatToDiscordMessageFormatNoPrimaryGroup: "%displayname% » %message%"
 
-# Message de plugin de canal de conversation
-# Message spécial lorsque qu'un plugin de message est accroché à Discord
-# Il modifie ce que le message serait comme dans le jeu pour inclure des informations
+# Chat channel plugin message
+# This is a special message that's only used when a supported chat channel plugin is hooked
+# It modifies what the message would be like in-game to include information related to the channel the message is from
 #
-# Placeholders disponibles :
-# %channelcolor%:    le caractère de couleur correspondant au canal
-#                     Exemple : les messages du canal sont en rouge, cela remplacerait par la couleur rouge
-# %channelname%:     le nom littéral du canal, généralement le nom que le serveur voit
-#                     Exemple : staff
-# %channelnickname%: le surnom du canal, généralement le nom du channel que les joueurs voient
-#                     Exemple : Staff
-# %message%:         le message après traitement via DiscordToMinecraftChatMessageFormat / DiscordToMinecraftChatMessageFormatNoRole
-#                     Exemple : jeb_ > Hello from the server!
+# Available placeholders:
+# %channelcolor%:    the color character corresponding to the channel
+#                     example: messages from the channel are in red, this would replace with the red color
+# %channelname%:     the literal name of the channel, usually the name only the server sees internally
+#                     example: staff
+# %channelnickname%: the formal nickname of the channel, usually the name of the channel that players see
+#                     example: Staff
+# %message%:         the message after processing through DiscordToMinecraftChatMessageFormat / DiscordToMinecraftChatMessageFormatNoRole
+#                     example: jeb_ > Hello from the server!
 #
 ChatChannelHookMessageFormat: "%channelcolor%[%channelnickname%]&r %message%"
 
-# Messages Dynmap
+# Dynmap messages
 #
-# DynmapNameFormat: le format de la partie nom d'utilisateur du message envoyé à Dynmap (cela peut être masqué en fonction des paramètres de dynmap)
-# DynmapChatFormat: le format de la partie message du message envoyé à Dynmap
+# DynmapNameFormat: the format for the username part of the message sent to Dynmap (this may be hidden depending on dynmap settings)
+# DynmapChatFormat: the format for the message part of the message sent to Dynmap
 #
-# Placeholders disponibles :
-# Identique à Discord -> Espaces réservés Minecraft
+# Available placeholders:
+# Same as Discord -> Minecraft placeholders
 #
-# DynmapDiscordFormat: le format des messages Dynmap vers Discord
+# DynmapDiscordFormat: the format for Dynmap messages going to Discord
 #
-# Placeholders disponibles :
-# %message%:  contenu du message
-#              Exemple: Hello!
-# %name%:     le nom d'utilisateur du message envoyé sur le chat Web Dynmap (peut être vide)
-#              Exemple: Notch
-# PlaceholderAPI les placeholders sont compatibles
+# Available placeholders:
+# %message%:  message content
+#              example: Hello!
+# %name%:     the username for the message sent on the Dynmap web chat (could be blank)
+#              example: Notch
+# PlaceholderAPI placeholders are also supported
 #
 DynmapNameFormat: "[%toprolecolor%%toproleinitial%&f] %toprolecolor%%name%"
 DynmapChatFormat: " &7» &f%message%"
 DynmapDiscordFormat: "[Dynmap] %name% » %message%"
 
-# Message de la console Channel Discord
-# C'est le format utilisé lors de l'envoi d'une ligne de la console à la console, si elle est activée
+# Discord console channel message
+# This is the format used when sending a line from the console to the console channel, if enabled
 #
 # Placeholders disponibles :
 # %date%:  date et heure actuelle
@@ -151,9 +153,11 @@ DiscordChatChannelListCommandAllPlayersSeparator: ", "
 # Fields:     le format est "titre;valeur;inline" (par ex. "Qui a rejoint??;%displayname%;true") ou "vide" pour ajouter un champ vide
 # Timestamp:  défini sur true pour utiliser l'heure d'envoi du message ou utiliser un horodatage d'époque pour une heure spécifique (https://www.epochconverter.com/)
 #
-# Espaces réservés disponibles pour PlayerJoin/PlayerFirstJoin/PlayerLeave/PlayerDeath/PlayerAchievement:
-# %displayname%:         nom du joueur (ou surnom)
-# %username%:            nom du joueur
+# Available placeholders for PlayerJoin/PlayerFirstJoin/PlayerLeave/PlayerDeath/PlayerAchievement:
+# %displayname%:         display name from things like nicknames
+# %username%:            raw player username
+# %displaynamenoescapes%:         display name from things like nicknames without escaping discord format (for use in inline code & code block markdown)
+# %usernamenoescapes%:            raw player username without escaping discord format (for use in inline code & code block markdown)
 # %date%:                current date & time
 # %embedavatarurl%:      l'avatar de l'utilisateur
 # %botavatarurl%:        l'avatar du bot
@@ -345,9 +349,15 @@ ChannelTopicUpdaterConsoleChannelTopicAtServerShutdownFormat: "Serveur $server_n
 #
 DiscordCommandFormat: "&7Rejoignez Discord en cliquant sur {INVITE} . Pour obtenir de l'aide tapez \"/discord ?\""
 
-# Message de démarrage et arrêt du serveur
-# DiscordChatChannelServerStartupMessage: message à envoyer lorsque le serveur démarre; laissez vide pour désactiver
-# DiscordChatChannelServerShutdownMessage: message à envoyer lorsque le serveur s'arrête; laissez vide pour désactiver
+# No permission message
+NoPermissionMessage: "&cVous n'avez pas la permission d'exécuter cette commande."
+
+# Unknown command message
+UnknownCommandMessage: "&bCommande inconnue!"
+
+# Server startup/shutdown messages
+# DiscordChatChannelServerStartupMessage: message to be sent when server starts; leave blank to disable
+# DiscordChatChannelServerShutdownMessage: message to be sent when server shuts down; leave blank to disable
 #
 DiscordChatChannelServerStartupMessage: ":white_check_mark: **Le serveur $server_name vient de démarrer**"
 DiscordChatChannelServerShutdownMessage: ":octagonal_sign: **Le serveur $server_name vient de s'arrêter**"
@@ -365,19 +375,38 @@ DiscordChatChannelServerShutdownMessage: ":octagonal_sign: **Le serveur $server_
 #
 ServerWatchdogMessage: ""
 
-# Messages de lien de compte
-# Ce sont des messages utilisés lorsque les comptes sont liés
+# Account link messages
+# These are messages used when accounts are linked
 #
-# Placeholders disponibles :
-# CodeGenerated:          %code%:         code généré pour les joueurs voulant lier leur compte
-#                         %botname%:      nom du bot sur Discord
-# DiscordAccountLinked:   %name%:         le nom du joueur de Minecraft sur lequel le compte Discord est lié
-#                         %displayname%:  le nom d'affichage du lecteur Minecraft auquel le compte Discord de l'utilisateur était lié
-#                         %uuid%:         l'UUID du joueur de Minecraft sur lequel le compte Discord est lié
-# MinecraftAccountLinked: %id%:           l'ID Discord de l'utilisateur auquel le compte Minecraft est lié
-#                         %username%:     le nom Discord de l'utilisateur auquel le compte Minecraft est lié
+# Available placeholders:
+# CodeGenerated:                %code%:         the code generated for the player to link their account with
+#                               %botname%:      the name of the bot on Discord
+# DiscordAccountLinked:         %name%:         the name of the Minecraft player that the user's Discord account was linked to
+#                               %displayname%:  the display name of the Minecraft player that the user's Discord account was linked to
+#                               %uuid%:         the uuid of the Minecraft player that the user's Discord account was linked to
+# DiscordAccountAlreadyLinked:  %uuid%:         the Minecraft uuid of the user's linked Minecraft account
+#                               %username%:     the Minecraft username of the user's linked Minecraft account
+# DiscordLinkedAccountRequired  %message%:      the message the user was not able to send because they were not linked
+# MinecraftAccountLinked:       %id%:           the discord id of the Discord user that the user's Minecraft account was linked to
+#                               %username%:     the discord name of the Discord user that the user's Minecraft account was linked to
+# LinkedCommandSuccess:         %name%:         the discord username of the Discord user that the user's Minecraft account is linked to
+# UnlinkCommandSuccess:         %name%:         the discord username of the Discord user that the user's Minecraft account was linked to
+# MinecraftNobodyFound:         %target%:       the input that led to no results being found
 #
+# Discord
 CodeGenerated: "Votre code est : %code%. Envoyez ce code en message privé à (%botname%) pour lier votre compte Discord à Minecraft."
+UnknownCode: "Code inconnu, veuillez réessayer."
+InvalidCode: "Mauvais code? Il doit être composé de 4 nombres."
+DiscordAccountLinked: "Votre compte Discord est désormais lié à %name%"
+DiscordAccountAlreadyLinked: "Vous êtes déjà lié au compte %username%"
+DiscordLinkedAccountRequired: "Impossible d'envoyer le message suivant sur le serveur tant que vous n'avez pas connecté votre compte Minecraft au compte Discord. Liez le en faisant `/discord link`. \n```%message%```"
+DiscordLinkedAccountCheckFailed: "Impossible de vérifier si votre compte est lié, merci de réessayer plus tard"
+# Minecraft
 ClickToCopyCode: "Cliquez pour copier"
-DiscordAccountLinked: "Votre compte Discord est désormais lié à %name% (%uuid%)"
 MinecraftAccountLinked: "&7Votre compte est désormais lié à %username%."
+MinecraftAccountAlreadyLinked: "&bYour Minecraft account is already associated with a Discord account. Should you have permission to, you can unlink your account with /discord unlink."
+LinkedCommandSuccess: "&bVotre compte Minecraft est désormais associé au compte %name%."
+UnlinkCommandSuccess: "&bVotre compte Minecraft n'est désormais plus associé au compte %name%."
+MinecraftNoLinkedAccount: "&cVotre compte Minecraft n'est associé à aucun compte Discord."
+LinkingError: "&cImpossible pour le moment de lier votre compte. Veuillez ouvrir un ticket support."
+MinecraftNobodyFound: "&cAucune information trouvée liée au Discord ID/pseudo Discord/pseudo Minecraft/UUID Minecraft pour la recherche \"%target%\"."

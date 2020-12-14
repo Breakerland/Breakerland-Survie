@@ -18,11 +18,12 @@ Lobby channel: 000000000000000000
 # Met en sourdine les utilisateurs du hall qui ont les autorisations Parler et Muet autres dans le hall
 Mute users who bypass speak permissions in the lobby: false
 
-Network:
-  # Distance maximale entre les joueurs pour pouvoir être connecté
-  Strength: 40
-  # Une fois qu'un joueur a rejoint un réseau, il peut être
-  # strength + falloff avant d'être déconnecté
+Network: 
+  # Maximum distance between players in order to be connected
+  Vertical Strength: 40
+  Horizontal Strength: 80
+  # Once a player has joined a network, they can be
+  # strength + falloff blocks away before being disconnected
   Falloff: 5
   # Autoriser ou non VAD dans les canaux vocaux
   Allow voice activation detection: true

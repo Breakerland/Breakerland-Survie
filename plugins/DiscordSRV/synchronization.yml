@@ -13,21 +13,24 @@ NicknameSynchronizationEnabled: true
 NicknameSynchronizationCycleTime: 5
 NicknameSynchronizationFormat: "%username%"
 
-# Synchronisation Groupe Minecraft <-> Rôle Discord
-# Nécessite Vault
+# Minecraft group <-> Discord role synchronization
+# Requires Vault
 #
-# GroupRoleSynchronizationGroupsAndRolesToSync: ce sont des rôles / groupes que vous aimeriez synchroniser entre Discord et Minecraft
-#                                               {"MC_GROUP_NAME": "DISCORD_ROLE_ID"} est le format à utiliser lors de l'ajout de paires de groupes / rôles supplémentaires
-#                                               pour obtenir les ID de rôle de votre Discord, exécutez "/discord debug" et regardez la première section
-# GroupRoleSynchronizationMinecraftIsAuthoritative: si les changements de groupe Minecraft remplacent ou non les changements de rôle de Discord
-# GroupRoleSynchronizationEnableDenyPermission: si les autorisations discordsrv.sync.deny.<groupe> sont activées ou non
-# GroupRoleSynchronizationPrimaryGroupOnly: si vrai, seul le groupe principal du joueur est compté pour la synchronisation,
-#                                           sinon, la synchronisation de groupe compte tous les groupes dans lesquels se trouve le lecteur, y compris les groupes parents
-# GroupRoleSynchronizationOnLink: s'il faut ou non resynchroniser lorsqu'un joueur établit un lien
-# GroupRoleSynchronizationCycleTime: nombre de minutes entre le déclenchement de la synchronisation pour tous les joueurs en ligne
+# GroupRoleSynchronizationGroupsAndRolesToSync: these are roles/groups you'd like synchronized between Discord and Minecraft
+#                                               {"MC_GROUP_NAME": "DISCORD_ROLE_ID"} is the format to go by when adding more group/role pairs
+#                                               to get your Discord guild's role IDs, run "/discord debug" and look at the first section
+# GroupRoleSynchronizationMinecraftIsAuthoritative: whether or not Minecraft group changes override Discord role changes
+# GroupRoleSynchronizationOneWay: whether or not to synchronise only one way, the way it is synchronised depends on the value
+#                                 of GroupRoleSynchronizationMinecraftIsAuthoritative.
+# GroupRoleSynchronizationEnableDenyPermission: whether or not discordsrv.sync.deny.<group> permissions are enabled
+# GroupRoleSynchronizationPrimaryGroupOnly: if true, only the player's primary group is counted for synchronization,
+#                                           otherwise, group sync counts all groups the player is in, including parent groups
+# GroupRoleSynchronizationOnLink: whether or not to resync when a player links
+# GroupRoleSynchronizationCycleTime: amount of minutes between repeatedly triggering synchronization for all online players
 #
 GroupRoleSynchronizationGroupsAndRolesToSync: {"default": "641779737588400179", "aventurier": "619570647936401413", "chevalier": "619681329881022485", "duc": "619681398126542868", "comte":"634429468760604702", "marquis": "634429720045289483", "premium": "627644912443326474"}
 GroupRoleSynchronizationMinecraftIsAuthoritative: true
+GroupRoleSynchronizationOneWay: false
 GroupRoleSynchronizationEnableDenyPermission: false
 GroupRoleSynchronizationPrimaryGroupOnly: false
 GroupRoleSynchronizationOnLink: true
