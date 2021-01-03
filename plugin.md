@@ -23,7 +23,7 @@
 |        ExecutableItems         |          2.5.6.2      | https://www.spigotmc.org/resources/executableitems-1-12-1-16-command-items-with-gui.77578/ |
 |          HeadDatabase          |         4.12.6        | https://www.spigotmc.org/resources/head-database.14280/ |
 |       HolographicDisplays      |          2.4.5        | https://dev.bukkit.org/projects/holographic-displays |
-|          IllegalStack          |          2.2.0e       | https://www.spigotmc.org/resources/dupe-fixes-illegal-stack-remover.44411/ |
+|          IllegalStack          |          2.2.1a       | https://www.spigotmc.org/resources/dupe-fixes-illegal-stack-remover.44411/ |
 |           ImageOnMap           |           4.0         | https://www.spigotmc.org/resources/imageonmap.26585/ |
 |              Jobs              |          4.16.2       | https://www.spigotmc.org/resources/jobs-reborn.4216/ |
 |             Lands              |          4.11.1       | https://www.spigotmc.org/resources/lands-minecraft-land-claim-plugin-grief-prevention-protection-gui-management-wars-1-15-support.53313/ |

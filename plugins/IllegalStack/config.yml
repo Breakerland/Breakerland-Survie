@@ -96,6 +96,7 @@ Exploits:
   1_16_Exploits:
     Dupes:
       PreventPiglinDupe: true
+  RecordDupe: true
 UserRequested:
   ItemRemoval:
     ItemNamesToRemove: []
