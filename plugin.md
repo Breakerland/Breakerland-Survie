@@ -26,7 +26,7 @@
 |          IllegalStack          |          2.2.1a       | https://www.spigotmc.org/resources/dupe-fixes-illegal-stack-remover.44411/ |
 |           ImageOnMap           |           4.0         | https://www.spigotmc.org/resources/imageonmap.26585/ |
 |              Jobs              |          4.16.2       | https://www.spigotmc.org/resources/jobs-reborn.4216/ |
-|             Lands              |          4.11.1       | https://www.spigotmc.org/resources/lands-minecraft-land-claim-plugin-grief-prevention-protection-gui-management-wars-1-15-support.53313/ |
+|             Lands              |          5.1.6        | https://www.spigotmc.org/resources/lands-minecraft-land-claim-plugin-grief-prevention-protection-gui-management-wars-1-15-support.53313/ |
 |        LuckPerms-Bukkit        |          5.2.12       | https://www.spigotmc.org/resources/luckperms-an-advanced-permissions-plugin.28140/ |
 |         MarriageMaster         |          2.2.8        | https://www.spigotmc.org/resources/marriage-master-mc-1-7-1-16.19273/ |
 |           Minepacks            |          2.3.19       | https://www.spigotmc.org/resources/minepacks-backpack-plugin-mc-1-7-1-16.19286/ |
