@@ -27,6 +27,7 @@ NicknameSynchronizationFormat: "%username%"
 #                                           otherwise, group sync counts all groups the player is in, including parent groups
 # GroupRoleSynchronizationOnLink: whether or not to resync when a player links
 # GroupRoleSynchronizationCycleTime: amount of minutes between repeatedly triggering synchronization for all online players
+# GroupRoleSynchronizationCycleCompletely: whether or not synchronizations running on a timer should synchronize every member in the bots Discord servers
 #
 GroupRoleSynchronizationGroupsAndRolesToSync: {"default": "641779737588400179", "aventurier": "619570647936401413", "chevalier": "619681329881022485", "duc": "619681398126542868", "comte":"634429468760604702", "marquis": "634429720045289483", "premium": "627644912443326474"}
 GroupRoleSynchronizationMinecraftIsAuthoritative: true
@@ -35,6 +36,7 @@ GroupRoleSynchronizationEnableDenyPermission: false
 GroupRoleSynchronizationPrimaryGroupOnly: false
 GroupRoleSynchronizationOnLink: true
 GroupRoleSynchronizationCycleTime: 5
+GroupRoleSynchronizationCycleCompletely: false
 
 # Synchronisation des bannissements
 # Lorsqu'un joueur est interdit sur le serveur quand ils ont un compte Discord lié, vous pouvez éventuellement les interdire sur le serveur Discord et vice versa

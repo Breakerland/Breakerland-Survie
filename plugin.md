@@ -13,7 +13,7 @@
 |          CoreProtect           |           19.2        | https://www.spigotmc.org/resources/coreprotect.8631/ |
 |       CrazyEnchantments        |       8.1-SNAPSHOT    | https://jenkins.badbones69.com/job/Crazy-Enchantments/ |
 |            DBack               |           1.0         | |
-|          DiscordSRV            |     1.20.1-SNAPSHOT   | https://www.spigotmc.org/resources/discordsrv.18494/ |
+|          DiscordSRV            |     1.21.3-SNAPSHOT   | https://www.spigotmc.org/resources/discordsrv.18494/ |
 |            Dynmap              |        3.1-beta-4     | https://www.spigotmc.org/resources/dynmap.274/ |
 |       EpicCraftingsPlus        |          6.3.5        | https://www.spigotmc.org/resources/epiccraftingsplus-fully-configurable-crafts-1-8-1-16.39967/ |
 |       EpicWorldGenerator       |          8.1.37       | https://www.spigotmc.org/resources/epicworldgenerator-1-14-1-14-4-support-all-update-aquatic-features.8067/ |

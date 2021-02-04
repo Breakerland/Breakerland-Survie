@@ -2,7 +2,7 @@
 # Besoin d'aide? Rejoignez notre Discord, https://discordsrv.com/discord
 
 # Don't touch pls
-ConfigVersion: 1.21.1-SNAPSHOT
+ConfigVersion: 1.21.3
 
 # Bot token; Vous ne savez pas ce que c'est ? Regardez la vidéo sur la page du plugin
 BotToken: $discord_token
@@ -60,7 +60,6 @@ ForceTLSv12: true
 NoopHostnameVerifier: false
 ParseEmojisToNames: true
 MaximumAttemptsForSystemDNSBeforeUsingFallbackDNS: 3
-DisableMentionFiltering: false
 
 # Crochets de plugin
 #
@@ -103,6 +102,7 @@ DiscordChatChannelDiscordToMinecraft: true
 DiscordChatChannelMinecraftToDiscord: true
 DiscordChatChannelTruncateLength: 256
 DiscordChatChannelTranslateMentions: true
+DiscordChatChannelAllowedMentions: [user, channel, emote]
 DiscordChatChannelPrefixRequiredToProcessMessage: ""
 DiscordChatChannelRolesAllowedToUseColorCodesInChat: ["Premium"]
 DiscordChatChannelBroadcastDiscordMessagesToConsole: false
@@ -224,9 +224,8 @@ DiscordCannedResponses: {"!ip": "breakerland.fr", "!site": "https://breakerland.
 # %discordname%:         Nom Discord du joueur
 #                         Exemple: Notch
 #
-# MinecraftDiscordAccountLinkedRoleToAddUserTo: rôle à mettre au joueur qui vient de lié son compte
-# MinecraftDiscordAccountLinkedSetDiscordNicknameAsInGameName: le nom discord du joueur doit-il être modifié par son nom Minecraft ?
-# MinecraftDiscordAccountLinkedAllowRelinkBySendingANewCode: permet d'envoyer un nouveau code au bot pour dissocier et relier le nouveau code
+# MinecraftDiscordAccountLinkedRoleNameToAddUserTo: the name of a discord role to add a discord user to when they link their account
+# MinecraftDiscordAccountLinkedAllowRelinkBySendingANewCode: allows sending a new code to the bot to unlink and relink with the new code
 #
 MinecraftDiscordAccountLinkedConsoleCommands: ["", "", ""]
 MinecraftDiscordAccountUnlinkedConsoleCommands: ["", "", ""]
@@ -236,7 +235,6 @@ MinecraftDiscordAccountLinkedAllowRelinkBySendingANewCode: true
 # Server watchdog
 #
 #
-# ServerWatchdogEnabled: surveillement ou non
 # ServerWatchdogTimeout: temps en seconde avant que le surveillement envoie un message (La détection de crash de spigot utilise 60)
 #                        la valeur minimum est 10
 # ServerWatchdogMessageCount: nombre de fois que le message est envoyé
