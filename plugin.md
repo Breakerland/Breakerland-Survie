@@ -38,7 +38,7 @@
 |          PlayerWarps           |          6.2.3        | https://www.spigotmc.org/resources/⭐-player-warps-⭐-➢-let-your-players-set-warps-1-8-1-16-1.66692/ |
 |          ProtocolLib           |     4.6.0-SNAPSHOT    | https://www.spigotmc.org/resources/protocollib.1997/ |
 |            Quests              |          4.0.0        | https://www.spigotmc.org/resources/quests.3711/ |
-|           QuickShop            |         4.0.4.14      | https://www.spigotmc.org/resources/quickshop-reremake-1-15-ready-bees-bees-bee.62575/ |
+|           QuickShop            |         4.0.7.6       | https://www.spigotmc.org/resources/quickshop-reremake-1-15-ready-bees-bees-bee.62575/ |
 |         RandomTeleport         |           1.0         | https://github.com/Breakerland/RandomTeleport/releases/ |
 |           Referral             |           1.0         | |
 |          Regionerator          |          2.2.0        | https://www.spigotmc.org/resources/regionerator.12219/ |

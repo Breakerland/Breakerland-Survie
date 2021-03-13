@@ -1,12 +1,17 @@
+# =================================
+# =    QuickShop  Configuration   =
+# =================================
 # 
-# whether to use decimal format output.
-config-version: 111
+# Notes:Please read the example.config.yml file to get commented example config file.
+# Please read the example.config.yml file to get commented example config file.
+# Please read the example.config.yml file to get commented example config file.
+
+config-version: 125
 language: fr
 dev-mode: false
 tax: 0.0
 tax-account: tax
 show-tax: true
-log-actions: true
 whole-number-prices-only: false
 force-bukkit-chat-handler: false
 disabled-metrics: true
@@ -109,6 +114,16 @@ shop:
   use-enchantment-for-enchanted-book: false
   protection-checking-blacklist:
   - disabled_world
+  sending-stock-message-to-staffs: false
+  finding:
+    distance: 0
+    limit: 10
+    oldLogic: false
+    all: false
+    exclude-out-of-stock: false
+  protection-checking-handler: 0
+  protection-checking-listener-blacklist:
+  - ignored_listener
 blacklist:
 - Bedrock
 lockette:
@@ -123,6 +138,7 @@ plugin:
     enable: true
     only: false
   LWC: true
+  BKCommonLib: true
 effect:
   sound:
     ontabcomplete: true
@@ -166,6 +182,7 @@ integration:
     - MODIFY
     trade: []
     ignore-disabled-worlds: false
+    delete-shop-on-resident-leave: false
   worldguard:
     enable: false
     create:
@@ -214,6 +231,15 @@ integration:
     enable: true
     whitelist-mode: false
     ignore-disabled-worlds: true
+    delete-on-lose-permission: false
+  griefprevention:
+    enable: false
+    whitelist-mode: false
+    create: &id002 []
+    trade: *id002
+  fabledskyblock:
+    enable: false
+    whitelist-mode: false
 protect:
   explode: true
   hopper: true
@@ -223,3 +249,15 @@ use-caching: false
 custom-item-stacksize: []
 debug:
   shop-deletion: false
+  disable-debuglogger: false
+  adventure: false
+logging:
+  enable: true
+  log-actions: true
+  log-balance: true
+  file-size: 10
+trying-fix-banlance-insuffient: false
+config-damaged: false
+chat-type: 0
+currency: ''
+alternate-currency-symbol-list: []
