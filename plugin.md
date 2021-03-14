@@ -41,7 +41,7 @@
 |           QuickShop            |         4.0.7.6       | https://www.spigotmc.org/resources/quickshop-reremake-1-15-ready-bees-bees-bee.62575/ |
 |         RandomTeleport         |           1.0         | https://github.com/Breakerland/RandomTeleport/releases/ |
 |           Referral             |           1.0         | |
-|          Regionerator          |          2.2.0        | https://www.spigotmc.org/resources/regionerator.12219/ |
+|          Regionerator          |          2.2.2        | https://www.spigotmc.org/resources/regionerator.12219/ |
 |          SimplePortals         |          1.5.1        | https://www.spigotmc.org/resources/1-16-ready-%E2%8D%9F-simple-portals-%E2%8D%9F-effective-regional-portals-bungeecord-compatible.56772/ |
 |             Sleep              |           2.0         | https://www.spigotmc.org/resources/sleep.73285/ |
 |             Vault              |          1.7.3        | https://www.spigotmc.org/resources/vault.34315/ |
