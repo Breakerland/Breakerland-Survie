@@ -5,14 +5,40 @@
 # Made with love
 
 category:
-  # Should you enable a category gui meaning players will have to sort their warp into a category.
+  # Should you enable a category gui meaning players will have to sort their warp into a category?
   enabled: true
   # The title of the gui (Can use color codes)
-  title: '&e&lWarps joueur'
+  title: "&e&lWarps joueur"
   # What is the size of this GUI? (multiples of 9 can only go up to 54)
   size: 27
   # What is the default category for a warp to be placed into?
-  default: Autres
+  default: "Autres"
+  # Should sponsor warps be enabled?
+  sponsor: true
+  
+  sponsor-item:
+    name: "[warp]"
+    lore:
+    - "&ePropriétaire : &8[owner]"
+    - "&eVisites : &8[visits]"
+    - "&eDescription : "
+    - "&8[desc]"
+    - "&eCoût de téléportation : &e&l[cost]&8ß"
+
+  # How many sponsors can a player have?
+  sponsor-per-player: 1
+
+  no-permission:
+    # If a player does not have access to view the category, should the item be replaced?
+    enabled: true
+    item:
+      # Set the material to AIR if you dont want the item to appear.
+      name: "&cPermissions insuffisantes !"
+      material: "BARRIER"
+      data: 0
+      lore:
+      - "&cVous ne pouvez voir cette catégorie."
+      amount: 1
 
   items:
     1:
@@ -146,6 +172,7 @@ category:
       # This is the name of the item.
       # This is the item material.
       # This is the data item
+      # What is the lore of item?
       # You can add lores!
       # example of what you can do:
       # lore:
@@ -154,8 +181,6 @@ category:
       # commands that will be executed on click.
       # [server] means the command is executed as the console
       # [player] means the command is executed as the player
-      # commands:
-      #   - "[server] msg %player% you clicked this item!"
       # These only work if the skull is a ITEM_SKULL and the data is 3!
       #texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZmOGFmYjI3YmFmYzc3YzJiODI1OTljMmY3YjhmMWY2ODMxMGU2YWE5MDRmMDUxYjA3YWIxYzJiNmIifX19 - Skull texture
       #owner: Glass - Skull owner
@@ -166,7 +191,7 @@ category:
       material: BOOK
       data: 0
       lore:
-      - '&8Cliquez pour voir la liste des points de téléportation.'
+      - "&8Cliquez pour voir la liste des points de téléportation."
       slot: 4
       amount: 1
     Villes:
@@ -174,7 +199,7 @@ category:
       material: BELL
       data: 0
       lore:
-      - '&8Cliquez pour voir la liste des villes à visiter.'
+      - "&8Cliquez pour voir la liste des villes à visiter."
       slot: 11
       amount: 1
     Bases:
@@ -182,7 +207,7 @@ category:
       material: RED_BED
       data: 0
       lore:
-      - '&8Cliquez pour voir la liste des bases à visiter.'
+      - "&8Cliquez pour voir la liste des bases à visiter."
       slot: 14
       amount: 1
     Magasins:
@@ -190,7 +215,7 @@ category:
       material: CHEST
       data: 0
       lore:
-      - '&8Cliquez pour voir la liste des magasins à visiter.'
+      - "&8Cliquez pour voir la liste des magasins à visiter."
       slot: 12
       amount: 1
     Farms:
@@ -198,7 +223,7 @@ category:
       material: DIAMOND_HOE
       data: 0
       lore:
-      - '&8Cliquez pour voir la liste des farms à visiter.'
+      - "&8Cliquez pour voir la liste des farms à visiter."
       slot: 13
       amount: 1
     Autres:
@@ -206,8 +231,8 @@ category:
       material: PAPER
       data: 0
       lore:
-      - '&8Cliquez pour voir la liste des autres'
-      - '&8points de téléportations à visiter.'
+      - "&8Cliquez pour voir la liste des autres"
+      - "&8points de téléportations à visiter."
       slot: 15
       amount: 1
     # What are the items to click on to go to a certain category?
@@ -221,3 +246,14 @@ category:
       # These only work if the skull is a ITEM_SKULL and the data is 3!
       #texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzIzZDFjNDVmNDlkZTllOGE4YTEzZDViOWMyYTU4ZDYxZjcyNTljZDQ2OGYzM2M0NzI0Njg2Y2FlODlhOTMifX19 - Skull texture
       #owner: All - Skull owner
+
+      # How should the player pay in for this sponsor? If the option below is disabled, the player will have to pay using an item
+      # Time in seconds
+      # How should the player pay in for this sponsor? If the option below is disabled, the player will have to pay using an item
+      # Time in seconds
+      # How should the player pay in for this sponsor? If the option below is disabled, the player will have to pay using an item
+      # Time in seconds
+      # How should the player pay in for this sponsor? If the option below is disabled, the player will have to pay using an item
+      # Time in seconds
+      # How should the player pay in for this sponsor? If the option below is disabled, the player will have to pay using an item
+      # Time in seconds

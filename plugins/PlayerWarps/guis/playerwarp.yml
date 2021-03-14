@@ -8,18 +8,41 @@ pwarp:
   # Should we enable the gui?
   enabled: true
   # The title of the gui (Can use color codes) the variable "[category]" will only work if it is enabled.
-  title: '&e&lWarps [category] ([page]/[pages])'
+  title: "&e&lWarps [category] ([page]/[pages])"
   # What is the size of this GUI? (multiples of 9 can only go up to 54)
   size: 54
   # should /pwarp open the gui? if so you just do /pwarp open (if enabled)
   override-pwarp: false
+
+  # Searching for warps through the GUI
+  search:
+    # Should the feature be enabled?
+    # You will need ProtocolLib for this to work.
+    enabled: true
+    # What is the title for the inventory?
+    title: "&e&lRechercher [search] - [category] ([page]/[pages])"
+    # What are the premade lines in the sign? %search% is the variable they have to enter the warp in.
+    lines:
+    - "%search%"
+    - "----------------"
+    - "Merci d'entrer"
+    - "votre recherche."
+
+    item:
+      material: "OAK_SIGN"
+      data: 0
+      name: "&6Rechercher"
+      lore:
+      - "&8Cliquez pour rechercher un warp."
+      slot: 46
+      glowing: false
 
   icon:
     # Should the default icon of the item be their skull?
     skull: true
     # If the option is disabled above, you can choose the default item here.
     # What is the item material?
-    material: DIAMOND_AXE
+    material: "DIAMOND_AXE"
     # What is the item id?
     data: 0
     # These only work if the skull is a SKULL_ITEM and the data is 3!
@@ -28,36 +51,49 @@ pwarp:
 
     # This is the name of the skull in the gui. IT NEEDS THE [warp] PLACEHOLDER OTHERWISE IT
     # WILL BREAK AND YOU WONT BE ABLE TO TELEPORT TO IT IN THE GUI!
-    name: '&6[warp]'
+    name: "&6[warp]"
     # you can add multiple lores bc i god <3
-    # If you're using SQL you can use the placeholder [server] to tell the player the server.
+    # If you"re using SQL you can use the placeholder [server] to tell the player the server.
+    # You can always use [world_type] and the return types are in the config.yml
     lore:
-    - '&e[safe]'
-    - ''
-    - '&ePropriétaire: &8[owner]'
-    - '&eVisites: &8[visits]'
-    - '&eDescription: '
-    - '&8[desc]'
-    - '&eCategorie: &8[category]'
-    - '&eNote moyenne: &8[rates_average]/5 &7(&e[rates_stars]&7)'
-    - '&eCoût de téléportation: &e&l[cost]&8ß'
+    - "&e[safe]"
+    - ""
+    - "&ePropriétaire : &8[owner]"
+    - "&eVisites : &8[visits]"
+    - "&eDescription : "
+    - "&8[desc]"
+    - "&eCategorie : &8[category]"
+    - "&eNote moyenne : &8[rates_average]/5 &7(&e[rates_stars]&7)"
+    - "&eCoût de téléportation : &e&l[cost]&8ß"
     # Should the item appear with the glowing effect?
     glowing: false
 
+    locked:
+      # Should warps appear if the warp is locked in the GUI?
+      enabled: false
+      # If the above option is enabled, should the icon player warp icon be changed?
+      icon-changed: false
+      # If the above option is enabled, what is the icon going to be changed to?
+      icon: "BARRIER"
+
     # Here are the available item flags https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/ItemFlag.html
     item-flags:
-    - 'HIDE_ATTRIBUTES'
+    - "HIDE_ATTRIBUTES"
 
     # The variable "[safe]" will display the message below if the warp is safe
-    warp-safe: '&eCliquez pour vous téléporter à &6[warp]'
+    warp-safe: "&eCliquez pour vous téléporter à &6[warp]"
     # The variable "[safe]" will display the message below if the warp is not safe
-    warp-not-safe: '&Ce Warpn n''''est pas sécurisé, double cliquez pour vous téléporter au Warp &6[warp]'
+    warp-not-safe: "&Ce Warpn n''est pas sécurisé, double cliquez pour vous téléporter au Warp &6[warp]"
     # What is the icon for [rates_stars]?
-    rates-stars: ⭐
+    rates-stars: "⭐"
     # What is displayed when there is no warp cost?
-    no-warp-cost: '&80'
+    no-warp-cost: "&80"
     # What is displayed when there is a warp cost?
-    has-warp-cost: $[cost]
+    has-warp-cost: "$[cost]"
+    # The variable "[banned]" will display the message below if a player is banned
+    player-banned: "&cYou are banned from this warp."
+    # The variable "[banned]" will display the message below if a player is not banned
+    player-not-banned: ""
 
   clickable-items:
     next-page:
@@ -65,7 +101,7 @@ pwarp:
       material: ARROW
       data: 0
       lore:
-      - '&8Cliquez pour vous rendre à la page suivante.'
+      - "&8Cliquez pour vous rendre à la page suivante."
       slot: 50
       glowing: false
     previous-page:
@@ -73,7 +109,7 @@ pwarp:
       material: BARRIER
       data: 0
       lore:
-      - '&8Cliquez pour vous rendre à la page précédente.'
+      - "&8Cliquez pour vous rendre à la page précédente."
       slot: 48
       glowing: false
     refresh:
@@ -81,7 +117,7 @@ pwarp:
       material: SUNFLOWER
       data: 0
       lore:
-      - '&8Cliquez pour rafraichir la page.'
+      - "&8Cliquez pour rafraichir la page."
       slot: 49
       glowing: false
     category:
@@ -89,7 +125,7 @@ pwarp:
       material: BOOK
       data: 0
       lore:
-      - '&8Cliquez pour revenir aux catégories.'
+      - "&8Cliquez pour revenir aux catégories."
       slot: 45
       glowing: false
     mywarps:
@@ -97,7 +133,7 @@ pwarp:
       material: ENDER_PEARL
       data: 0
       lore:
-      - '&8Cliquez pour voir vos Warps.'
+      - "&8Cliquez pour voir vos Warps."
       slot: 53
       glowing: false
       # This is the name of the next page item

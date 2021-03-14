@@ -6,7 +6,7 @@
 
 managewarp:
   # The title of the gui (Can use color codes)
-  title: '&e&lGestion des Warps'
+  title: "&e&lGestion des Warps"
   # What is the size of this GUI? (multiples of 9 can only go up to 54)
   size: 27
 
@@ -16,7 +16,7 @@ managewarp:
       material: BOOK
       data: 0
       lore:
-      - '&8Cliquez pour revenir au menu principal.'
+      - "&8Cliquez pour revenir au menu principal."
       slot: 22
       glowing: false
 
@@ -143,9 +143,9 @@ managewarp:
       slot: 11
       amount: 1
       lore:
-      - '&8Cliquez pour supprimer le warp &6[warp] &c&l(IRREVERSIBLE)'
+      - "&8Cliquez pour supprimer le warp &6[warp] &c&l(IRREVERSIBLE)"
       commands:
-      - '[player] pwarp remove %warp%'
+      - "[player] pwarp remove %warp%"
       back: false
     21:
       name: '&eSe téléporter'
@@ -154,9 +154,9 @@ managewarp:
       slot: 13
       amount: 1
       lore:
-      - '&8Cliquez pour vous téléporter au warp &6[warp]'
+      - "&8Cliquez pour vous téléporter au warp &6[warp]"
       commands:
-      - '[player] pwarp %warp%'
+      - "[player] pwarp %warp%"
       back: false
     22:
       name: '&eOuvrir/Fermer'
@@ -165,9 +165,9 @@ managewarp:
       slot: 15
       amount: 1
       lore:
-      - '&8Cliquez pour ouvrir/fermer le warp &6[warp]'
+      - "&8Cliquez pour ouvrir/fermer le warp &6[warp]"
       commands:
-      - '[player] pwarp lock %warp%'
+      - "[player] pwarp lock %warp%"
       back: false
     # What are the items that are placed into the GUI to make it more pretty?
       # This is the name of the item.
@@ -186,6 +186,18 @@ managewarp:
       # These only work if the skull is a ITEM_SKULL and the data is 3!
       #texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZmOGFmYjI3YmFmYzc3YzJiODI1OTljMmY3YjhmMWY2ODMxMGU2YWE5MDRmMDUxYjA3YWIxYzJiNmIifX19 - Skull texture
       #owner: Glass - Skull owner
+      # [server] means the command is executed as the console
+      # [player] means the command is executed as the player
+      # [server] means the command is executed as the console
+      # [player] means the command is executed as the player
+      # [server] means the command is executed as the console
+      # [player] means the command is executed as the player
+      # [server] means the command is executed as the console
+      # [player] means the command is executed as the player
+      # [server] means the command is executed as the console
+      # [player] means the command is executed as the player
+      # [server] means the command is executed as the console
+      # [player] means the command is executed as the player
       # [server] means the command is executed as the console
       # [player] means the command is executed as the player
       # [server] means the command is executed as the console

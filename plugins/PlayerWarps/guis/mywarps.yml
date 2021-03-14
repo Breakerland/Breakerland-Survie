@@ -5,26 +5,30 @@
 # Made with love
 
 mywarps:
-  # Should you enable my warps gui meaning players will be able to manage their own warps.
+  # Should you enable my warps gui meaning players will be able to manage their own warps?
   enabled: true
   # The title of the gui (Can use color codes)
-  title: '&e&lMes Warps ([page]/[pages])'
+  title: "&e&lMes Warps ([page]/[pages])"
   # What is the size of this GUI? (multiples of 9 can only go up to 54)
   size: 36
 
   icon:
     # What is the lore of the icon shown in the menu?
     lore:
-    - '&eCliquez pour gérer vos Warps.'
-    - ''
-    - '&eVisites: &8[visits]'
-    - '&eDescription: '
-    - '&8[desc]'
-    - '&eCréé le: &8[date]'
-    - '&eCategorie: &8[category]'
-    - '&eNombre de vote: &8[rates]'
-    - '&eNote moyenne: &8[rates_average]'
-    - '&eCoût de téléportation: &8[cost]ß'
+    - "&eCliquez pour gérer vos Warps."
+    - ""
+    - "&eVisites: &8[visits]"
+    - "&eDescription: "
+    - "&8[desc]"
+    - "&eCréé le: &8[date]"
+    - "&eCategorie: &8[category]"
+    - "&eNombre de vote: &8[rates]"
+    - "&eNote moyenne: &8[rates_average]"
+    - "&eCoût de téléportation: &8[cost]ß"
+
+  # No warps action, what should be executed if the player tries to open the menu but has no warps?
+  no-warp-actions:
+  - "[message]&cVous n'avez aucun warp actuellement !"
 
   clickable-items:
     next-page:
@@ -32,7 +36,7 @@ mywarps:
       material: ARROW
       data: 0
       lore:
-      - '&8Cliquez pour vous rendre à la page suivante.'
+      - "&8Cliquez pour vous rendre à la page suivante."
       slot: 32
       glowing: false
     previous-page:
@@ -40,7 +44,7 @@ mywarps:
       material: BARRIER
       data: 0
       lore:
-      - '&8Cliquez pour vous rendre à la page précédente.'
+      - "&8Cliquez pour vous rendre à la page précédente."
       slot: 30
       glowing: false
     menu:
@@ -48,7 +52,7 @@ mywarps:
       material: BOOK
       data: 0
       lore:
-      - '&8Cliquez pour vous rendre au menu principal.'
+      - "&8Cliquez pour vous rendre au menu principal."
       slot: 31
       glowing: false
       # This is the name of the next page item

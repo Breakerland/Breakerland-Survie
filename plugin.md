@@ -35,7 +35,7 @@
 |      MysqlInventoryBridge      |          2.4.1        | https://www.spigotmc.org/resources/mysql-inventory-bridge.7849/ |
 |         PCGF_PluginLib         |          1.0.30       | https://ci.pcgamingfreaks.at/job/PluginLib/ |
 |         PlaceHolderAPI         |          2.10.9       | https://www.spigotmc.org/resources/placeholderapi.6245/ |
-|          PlayerWarps           |          6.2.3        | https://www.spigotmc.org/resources/⭐-player-warps-⭐-➢-let-your-players-set-warps-1-8-1-16-1.66692/ |
+|          PlayerWarps           |          6.5.0        | https://www.spigotmc.org/resources/⭐-player-warps-⭐-➢-let-your-players-set-warps-1-8-1-16-1.66692/ |
 |          ProtocolLib           |     4.6.0-SNAPSHOT    | https://www.spigotmc.org/resources/protocollib.1997/ |
 |            Quests              |          4.0.0        | https://www.spigotmc.org/resources/quests.3711/ |
 |           QuickShop            |         4.0.7.6       | https://www.spigotmc.org/resources/quickshop-reremake-1-15-ready-bees-bees-bee.62575/ |

@@ -5,14 +5,18 @@
 # Made with love
 
 visitedwarps:
-  # Should you enable a warps gui meaning players will be able to manage their own warps.
+  # Should you enable a warps gui?
   enabled: true
   # The title of the gui (Can use color codes)
-  title: '&e&lWarps visités'
+  title: "&e&lWarps visités"
   # What is the size of this GUI? (multiples of 9 can only go up to 54)
   size: 36
   # What are the max warps that are shown in the GUI? (If it reaches the max it will delete the first one every time)
   max-warps: 27
+
+  # No warps action, what should be executed if the player tries to open the menu but has no warps?
+  no-warp-actions:
+  - "[message]&cVous n'avez aucun warp actuellement !"
 
   clickable-items:
     menu:
@@ -20,7 +24,7 @@ visitedwarps:
       material: BOOK
       data: 0
       lore:
-      - '&8Cliquez pour revenir au menu principal.'
+      - "&8Cliquez pour revenir au menu principal."
       slot: 31
       glowing: false
 
