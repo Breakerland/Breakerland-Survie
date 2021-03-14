@@ -3,7 +3,7 @@ chunk-flag-radius: 4
 seconds-per-flag: 15
 minutes-per-flag-autosave: 5
 days-till-flag-expires: 15
-delete-new-unvisited-chunks: false
+delete-new-unvisited-chunks: true
 ticks-per-deletion: 5
 chunks-per-deletion: 256
 hours-between-cycles: 24
