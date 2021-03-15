@@ -96,16 +96,16 @@ lang:
   # The variable %cmd% is any command from the config.yml :)
   help-console:
   - "&7&l&m----------&7&l[ &b&lPlayer Warps &7&l]&m----------"
-    - "%prefix% &d/%cmd% help &7&l- &bDisplays this menu."
-    - "%prefix% &d/%cmd% remove <warp> &7&l- &bRemoves the warp."
-    - "%prefix% &d/%cmd% list &7&l- &bLists all the current player warps."
-    - "%prefix% &d/%cmd% reload &7&l- &bReloads all the config files"
-    # This is useful for if you want to sell warp amounts on your store, but what happends if a player already has 5 playerwarps.
-    # This just simply gives them more warps. For example if a player has 10 warps (pw.limit.10) and you do /pw addwarps *player* 10. They will now have 20 warps.
-    - "%prefix% &d/%cmd% addwarps <player> <amount> &7&l- &bAdd more warps to a player via command."
-    - "%prefix% &d/%cmd% category <warp> <category> &7&l- &bSet a warp category."
-    - "%prefix% &d/%cmd% removeall <player> &7&l- &bRemoves all players warps."
-    - "%prefix% &d/%cmd% setowner <warp> <player> &7&l- &bTransfer ownership."
+  - "%prefix% &d/%cmd% help &7&l- &bDisplays this menu."
+  - "%prefix% &d/%cmd% remove <warp> &7&l- &bRemoves the warp."
+  - "%prefix% &d/%cmd% list &7&l- &bLists all the current player warps."
+  - "%prefix% &d/%cmd% reload &7&l- &bReloads all the config files"
+  # This is useful for if you want to sell warp amounts on your store, but what happends if a player already has 5 playerwarps.
+  # This just simply gives them more warps. For example if a player has 10 warps (pw.limit.10) and you do /pw addwarps *player* 10. They will now have 20 warps.
+  - "%prefix% &d/%cmd% addwarps <player> <amount> &7&l- &bAdd more warps to a player via command."
+  - "%prefix% &d/%cmd% category <warp> <category> &7&l- &bSet a warp category."
+  - "%prefix% &d/%cmd% removeall <player> &7&l- &bRemoves all players warps."
+  - "%prefix% &d/%cmd% setowner <warp> <player> &7&l- &bTransfer ownership."
   - "&7&l&m----------&7&l[ &b&lPlayer Warps &7&l]&m----------"
 
   # error messages.
