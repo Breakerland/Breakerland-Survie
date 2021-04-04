@@ -1,12 +1,14 @@
 # PlayerWarps by Olzie-12
 # https://www.spigotmc.org/resources/66692/
-# We also have a discord server for help: https://discord.gg/bAHuRJq
+# We also have a discord server for help: https://olziedev.com/discord or check docs https://docs.olziedev.com/projects/playerwarps
 # Also if you find any bugs be happy to report them i will fix them :)
 # Made with love
 
-managewarp:
+visitedit:
+  # Should you enable the gui?
+  enabled: true
   # The title of the gui (Can use color codes)
-  title: "&e&lGestion des Warps"
+  title: "&e&lGestion des visites"
   # What is the size of this GUI? (multiples of 9 can only go up to 54)
   size: 27
 
@@ -23,132 +25,133 @@ managewarp:
   items:
     1:
       name: ' '
-      material: GRAY_STAINED_GLASS_PANE
-      data: 0
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+      data: 3
       slot: 0
       amount: 1
       glowing: false
     2:
       name: ' '
-      material: GRAY_STAINED_GLASS_PANE
-      data: 0
+      material: MAGENTA_STAINED_GLASS_PANE
+      data: 2
       slot: 1
       amount: 1
     3:
       name: ' '
-      material: GRAY_STAINED_GLASS_PANE
-      data: 0
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+      data: 3
       slot: 2
       amount: 1
     4:
       name: ' '
-      material: GRAY_STAINED_GLASS_PANE
-      data: 0
+      material: MAGENTA_STAINED_GLASS_PANE
+      data: 2
       slot: 3
       amount: 1
     5:
       name: ' '
-      material: GRAY_STAINED_GLASS_PANE
-      data: 0
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+      data: 3
       slot: 4
       amount: 1
     6:
       name: ' '
-      material: GRAY_STAINED_GLASS_PANE
-      data: 0
+      material: MAGENTA_STAINED_GLASS_PANE
+      data: 2
       slot: 5
       amount: 1
     7:
       name: ' '
-      material: GRAY_STAINED_GLASS_PANE
-      data: 0
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+      data: 3
       slot: 6
       amount: 1
     8:
       name: ' '
-      material: GRAY_STAINED_GLASS_PANE
-      data: 0
+      material: MAGENTA_STAINED_GLASS_PANE
+      data: 2
       slot: 7
       amount: 1
     9:
       name: ' '
-      material: GRAY_STAINED_GLASS_PANE
-      data: 0
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+      data: 3
       slot: 8
       amount: 1
     10:
       name: ' '
-      material: GRAY_STAINED_GLASS_PANE
-      data: 0
+      material: MAGENTA_STAINED_GLASS_PANE
+      data: 2
       slot: 9
       amount: 1
     11:
       name: ' '
-      material: GRAY_STAINED_GLASS_PANE
-      data: 0
+      material: MAGENTA_STAINED_GLASS_PANE
+      data: 2
       slot: 17
       amount: 1
     12:
       name: ' '
-      material: GRAY_STAINED_GLASS_PANE
-      data: 0
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+      data: 3
       slot: 18
       amount: 1
     13:
       name: ' '
-      material: GRAY_STAINED_GLASS_PANE
-      data: 0
+      material: MAGENTA_STAINED_GLASS_PANE
+      data: 2
       slot: 19
       amount: 1
     14:
       name: ' '
-      material: GRAY_STAINED_GLASS_PANE
-      data: 0
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+      data: 3
       slot: 20
       amount: 1
     15:
       name: ' '
-      material: GRAY_STAINED_GLASS_PANE
-      data: 0
+      material: MAGENTA_STAINED_GLASS_PANE
+      data: 2
       slot: 21
       amount: 1
     16:
       name: ' '
-      material: GRAY_STAINED_GLASS_PANE
-      data: 0
+      material: MAGENTA_STAINED_GLASS_PANE
+      data: 3
       slot: 23
       amount: 1
     17:
       name: ' '
-      material: GRAY_STAINED_GLASS_PANE
-      data: 0
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+      data: 2
       slot: 24
       amount: 1
     18:
       name: ' '
-      material: GRAY_STAINED_GLASS_PANE
-      data: 0
+      material: MAGENTA_STAINED_GLASS_PANE
+      data: 3
       slot: 25
       amount: 1
     19:
       name: ' '
-      material: GRAY_STAINED_GLASS_PANE
-      data: 0
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+      data: 2
       slot: 26
       amount: 1
     20:
-      name: '&eSupprimer'
-      material: BARRIER
+      name: '&eNotes'
+      material: DIAMOND
       data: 0
       slot: 11
       amount: 1
       lore:
-      - "&8Cliquez pour supprimer le warp &6[warp] &c&l(IRREVERSIBLE)"
+      - "&8Cliquez pour noter le warp &6[warp]"
       commands:
-      - "[player] pwarp remove %warp%"
+      - "[chat_wait] &8Veuillez entre une note comprise entre 0 et 5:[player] warp rate %warp% %value%"
+      - "[close]"
       back: false
     21:
-      name: '&eSe téléporter'
+      name: '&eTeleportation'
       material: ENDER_EYE
       data: 0
       slot: 13
@@ -156,18 +159,18 @@ managewarp:
       lore:
       - "&8Cliquez pour vous téléporter au warp &6[warp]"
       commands:
-      - "[player] pwarp %warp%"
+      - "[player] warp %warp%"
       back: false
     22:
-      name: '&eOuvrir/Fermer'
-      material: OAK_DOOR
+      name: '&eFavoris'
+      material: NETHER_STAR
       data: 0
       slot: 15
       amount: 1
       lore:
-      - "&8Cliquez pour ouvrir/fermer le warp &6[warp]"
+      - "&8Cliquez pour ajouter/supprimer des favoris &6[warp]"
       commands:
-      - "[player] pwarp lock %warp%"
+      - "[player] warp favourite %warp%"
       back: false
     # What are the items that are placed into the GUI to make it more pretty?
       # This is the name of the item.

@@ -1,82 +1,82 @@
 # PlayerWarps by Olzie-12
 # https://www.spigotmc.org/resources/66692/
-# We also have a discord server for help: https://discord.gg/bAHuRJq
+# We also have a discord server for help: https://olziedev.com/discord or check docs https://docs.olziedev.com/projects/playerwarps
 # Also if you find any bugs be happy to report them i will fix them :)
 # Made with love
 
-visitedwarps:
+favourite:
   # Should you enable a warps gui?
   enabled: true
   # The title of the gui (Can use color codes)
-  title: "&e&lWarps visités"
+  title: "&e&lWarps Favoris"
   # What is the size of this GUI? (multiples of 9 can only go up to 54)
-  size: 36
+  size: 54
   # What are the max warps that are shown in the GUI? (If it reaches the max it will delete the first one every time)
-  max-warps: 27
+  max-warps: 45
 
   # No warps action, what should be executed if the player tries to open the menu but has no warps?
   no-warp-actions:
-  - "[message]&cVous n'avez aucun warp actuellement !"
+  - "[message] &cVous n'avez actuellement aucun favori !"
 
   clickable-items:
     menu:
-      name: '&eRetour au menu'
+      name: '&bGo back to menu'
       material: BOOK
       data: 0
       lore:
-      - "&8Cliquez pour revenir au menu principal."
-      slot: 31
+      - "&dClick&b to go back to the menu."
+      slot: 49
       glowing: false
 
   items:
     1:
       name: ' '
       material: LIGHT_BLUE_STAINED_GLASS_PANE
-      data: 0
-      slot: 27
+      data: 3
+      slot: 45
       amount: 1
       glowing: false
     2:
       name: ' '
       material: MAGENTA_STAINED_GLASS_PANE
-      data: 0
-      slot: 28
+      data: 2
+      slot: 46
       amount: 1
     3:
       name: ' '
       material: LIGHT_BLUE_STAINED_GLASS_PANE
-      data: 0
-      slot: 29
+      data: 3
+      slot: 47
       amount: 1
     4:
       name: ' '
       material: MAGENTA_STAINED_GLASS_PANE
-      data: 0
-      slot: 30
+      data: 2
+      slot: 48
       amount: 1
     5:
       name: ' '
       material: MAGENTA_STAINED_GLASS_PANE
-      data: 0
-      slot: 32
+      data: 2
+      slot: 50
       amount: 1
     6:
       name: ' '
       material: LIGHT_BLUE_STAINED_GLASS_PANE
-      data: 0
-      slot: 33
+      data: 3
+      slot: 51
       amount: 1
     7:
       name: ' '
       material: MAGENTA_STAINED_GLASS_PANE
-      data: 0
-      slot: 34
+      data: 2
+      slot: 52
       amount: 1
     8:
       name: ' '
       material: LIGHT_BLUE_STAINED_GLASS_PANE
-      data: 0
-      slot: 35
+      data: 3
+      slot: 53
       amount: 1
       # This is the name of the item.
       # This is the item material. To disable set this to AIR
