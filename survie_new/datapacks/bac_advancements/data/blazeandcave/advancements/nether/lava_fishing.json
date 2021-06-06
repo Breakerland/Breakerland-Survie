@@ -8,7 +8,7 @@
     },
     "parent": "blazeandcave:nether/what_a_fungi",
 	"rewards": {
-		"function": "bc_rewards:weaponry/lava_fishing"
+		"function": "bc_rewards:nether/lava_fishing"
     },		
     "criteria": {
         "pig": {

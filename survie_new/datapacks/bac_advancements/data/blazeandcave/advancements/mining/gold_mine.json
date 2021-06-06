@@ -14,73 +14,73 @@
         "mesa": {
             "trigger": "minecraft:location",
             "conditions": {
-                "feature": "Mineshaft",
+                "feature": "mineshaft",
                 "biome": "minecraft:badlands",				
 				"position": {
 					"y": {
 						"min": 64.0
 					}
-				}				
+				}
             }
         },
         "mesa_clear_rock": {
             "trigger": "minecraft:location",
             "conditions": {
-                "feature": "Mineshaft",
+                "feature": "mineshaft",
                 "biome": "minecraft:badlands_plateau",				
 				"position": {
 					"y": {
 						"min": 64.0
 					}
-				}				
+				}			
             }
         },
         "mesa_rock": {
             "trigger": "minecraft:location",
             "conditions": {
-                "feature": "Mineshaft",
+                "feature": "mineshaft",
                 "biome": "minecraft:wooded_badlands_plateau",				
 				"position": {
 					"y": {
 						"min": 64.0
 					}
-				}				
+				}
             }
         },	
         "mutated_mesa": {
             "trigger": "minecraft:location",
             "conditions": {
-                "feature": "Mineshaft",
+                "feature": "mineshaft",
                 "biome": "minecraft:eroded_badlands",				
 				"position": {
 					"y": {
 						"min": 64.0
 					}
-				}				
+				}
             }
         },
         "mutated_mesa_clear_rock": {
             "trigger": "minecraft:location",
             "conditions": {
-                "feature": "Mineshaft",
+                "feature": "mineshaft",
                 "biome": "minecraft:modified_badlands_plateau",				
 				"position": {
 					"y": {
 						"min": 64.0
 					}
-				}				
+				}
             }
         },
         "mutated_mesa_rock": {
             "trigger": "minecraft:location",
             "conditions": {
-                "feature": "Mineshaft",
+                "feature": "mineshaft",
                 "biome": "minecraft:modified_wooded_badlands_plateau",				
 				"position": {
 					"y": {
 						"min": 64.0
 					}
-				}				
+				}
             }
         }	
     },

@@ -18,12 +18,28 @@
             "conditions": {
                 "entity": {
                     "type": "zombified_piglin",
-					"nbt": "{Tags:[\"strider_jockey\"]}"
+					"vehicle": {
+						"type": "strider"
+					}
                 }
             }
         },
         "on_a_strider": {
-            "trigger": "minecraft:impossible"
-        }
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"vehicle": {
+								"type": "strider",
+								"nbt": "{Tags:[zp_ridden]}"
+							}
+						}
+                    }
+                ]
+            }
+		}
     }
 }

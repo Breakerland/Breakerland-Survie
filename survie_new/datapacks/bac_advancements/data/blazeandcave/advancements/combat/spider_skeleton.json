@@ -13,14 +13,31 @@
 		"function": "bc_rewards:combat/spider_skeleton"
     },	
     "criteria": {
-        "invisible_spider": {
+        "spider": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:spider",
-                    "nbt": "{Tags:[spider_jockey]}"
+                    "type": "spider",
+					"nbt": "{Passengers:[{id:\"minecraft:skeleton\"}]}"
+                }
+            }
+        },
+        "skeleton": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "skeleton",
+					"vehicle": {
+						"type": "spider"
+					}
                 }
             }
         }
-    }
+    },
+	"requirements": [
+		[
+			"spider",
+			"skeleton"
+		]
+	]
 }

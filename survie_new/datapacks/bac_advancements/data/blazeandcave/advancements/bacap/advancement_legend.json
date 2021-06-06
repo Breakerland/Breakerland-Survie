@@ -2,7 +2,7 @@
     "display": {
         "icon": {
             "item": "minecraft:player_head",
-			"nbt": "{SkullOwner:\"Cavinator1\"}"
+			"nbt": "{SkullOwner:{Id:[I;-1915600451,-335789442,-1161758725,291830941],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDk5YzBkYjJhMjE2MjU1OGVmYThhYTU2MmM5YWU3YmFiZmU3MWQwODNkYzA5MmEwNTIzM2EzMWQ4YmRiM2JhYSJ9fX0=\"}]}}}"
         },
         "title": {"translate":"Advancement Legend"},
         "description": {"translate":"Complete every single advancement in BlazeandCave's Advancements Pack"},
@@ -2078,13 +2078,13 @@
 				}
 			}
         },
-		"eskimo": {
+		"barbearian": {
             "trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
 					"player": {
 						"advancements": {
-							"blazeandcave:biomes/eskimo": "true"
+							"blazeandcave:biomes/barbearian": "true"
 						}
 					}
 				}
@@ -8822,13 +8822,13 @@
 				}
 			}
         },
-		"happy_birthday": {
+		"happy_new_year": {
             "trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
 					"player": {
 						"advancements": {
-							"blazeandcave:statistics/happy_birthday": "true"
+							"blazeandcave:statistics/happy_new_year": "true"
 						}
 					}
 				}
@@ -10382,13 +10382,13 @@
 				}
 			}
         },
-		"leader_of_the_animals": {
+		"follow_the_leader": {
             "trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
 					"player": {
 						"advancements": {
-							"blazeandcave:animal/leader_of_the_animals": "true"
+							"blazeandcave:animal/follow_the_leader": "true"
 						}
 					}
 				}

@@ -26,6 +26,27 @@
 					}
 				]
 			}
+		},
+        "efficiency_book": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"stored_enchantments": [
+							{
+								"enchantment": "minecraft:efficiency",
+								"levels": 5
+							}
+						]
+					}
+				]
+			}
 		}
-    }
+    },	
+    "requirements": [
+        [
+            "efficiency",
+            "efficiency_book"
+		]
+    ]
 }

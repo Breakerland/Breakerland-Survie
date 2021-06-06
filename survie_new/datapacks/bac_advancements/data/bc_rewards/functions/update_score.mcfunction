@@ -210,7 +210,7 @@ execute as @a[advancements={blazeandcave:combat/desert_nomad=true}] run scoreboa
 execute as @a[advancements={blazeandcave:combat/dungeon_crawler=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={blazeandcave:combat/ender_worm=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={blazeandcave:combat/enderman_destroyer=true}] run scoreboard players add @s bac_advancements 1
-execute as @a[advancements={blazeandcave:biomes/eskimo=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:biomes/barbearian=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={blazeandcave:combat/ew_ew_ew=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={blazeandcave:combat/freezing=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={blazeandcave:combat/frosty=true}] run scoreboard players add @s bac_advancements 1
@@ -738,7 +738,7 @@ execute as @a[advancements={blazeandcave:statistics/overlevelling=true}] run sco
 execute as @a[advancements={blazeandcave:statistics/xp_grinder=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={blazeandcave:statistics/the_first_night=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={blazeandcave:statistics/passing_the_time=true}] run scoreboard players add @s bac_advancements 1
-execute as @a[advancements={blazeandcave:statistics/happy_birthday=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:statistics/happy_new_year=true}] run scoreboard players add @s bac_advancements 1
 
 execute as @a[advancements={blazeandcave:potion/mad_scientist=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={blazeandcave:potion/a_furious_test_subject=true}] run scoreboard players add @s bac_advancements 1
@@ -968,7 +968,7 @@ execute as @a[advancements={blazeandcave:animal/live_and_let_dye=true}] run scor
 execute as @a[advancements={blazeandcave:animal/foxy_thievery=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={blazeandcave:animal/lead_the_way=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={blazeandcave:animal/beeloons=true}] run scoreboard players add @s bac_advancements 1
-execute as @a[advancements={blazeandcave:animal/leader_of_the_animals=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:animal/follow_the_leader=true}] run scoreboard players add @s bac_advancements 1
 
 execute as @a[advancements={blazeandcave:biomes/echolocation=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={blazeandcave:biomes/lion_hunter=true}] run scoreboard players add @s bac_advancements 1

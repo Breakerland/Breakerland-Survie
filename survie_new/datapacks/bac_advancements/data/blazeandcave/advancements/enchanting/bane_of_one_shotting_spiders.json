@@ -26,6 +26,27 @@
 					}
 				]
 			}
+		},
+        "bane_of_arthropods_book": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"stored_enchantments": [
+							{
+								"enchantment": "minecraft:bane_of_arthropods",
+								"levels": 5
+							}
+						]
+					}
+				]
+			}
 		}
-    }
+    },	
+    "requirements": [
+        [
+            "bane_of_arthropods",
+            "bane_of_arthropods_book"
+		]
+    ]
 }

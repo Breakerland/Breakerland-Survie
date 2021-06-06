@@ -4,7 +4,7 @@
             "item": "minecraft:bone"
         },
         "title": {"translate":"The Undead Cavalry"},
-        "description": {"translate":"Encounter and defeat a skeleton horse in a thunderstorm"},
+        "description": {"translate":"Ride a Skeleton Horse"},
         "frame": "goal"
     },
     "parent": "blazeandcave:combat/skeleton_smiter",
@@ -13,12 +13,20 @@
     },		
     "criteria": {
         "skeleton_horse": {
-            "trigger": "minecraft:player_killed_entity",
+            "trigger": "minecraft:location",
             "conditions": {
-				"entity": {
-					"type": "minecraft:skeleton_horse"
-				}
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"vehicle": {
+								"type": "skeleton_horse"
+							}
+						}
+                    }
+                ]
             }
-        }		
+		}		
     }
 }

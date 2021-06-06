@@ -39,6 +39,44 @@
 					}
 				]
 			}
+		},
+        "binding_curse_book": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"stored_enchantments": [
+							{
+								"enchantment": "minecraft:binding_curse"
+							}
+						]
+					}
+				]
+			}
+		},
+        "vanishing_curse_book": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"stored_enchantments": [
+							{
+								"enchantment": "minecraft:vanishing_curse"
+							}
+						]
+					}
+				]
+			}
 		}
-    }
+    },	
+    "requirements": [
+        [
+            "binding_curse",
+            "binding_curse_book"
+		],
+        [
+            "vanishing_curse",
+            "vanishing_curse_book"
+		]
+    ]
 }

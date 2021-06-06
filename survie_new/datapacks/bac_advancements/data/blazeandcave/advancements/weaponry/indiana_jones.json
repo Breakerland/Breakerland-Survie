@@ -219,14 +219,6 @@
                 }
             }
         },
-        "vindicator": {
-            "trigger": "minecraft:fishing_rod_hooked",
-            "conditions": {
-                "entity": {
-                    "type": "minecraft:vindicator"
-                }
-            }
-        },
         "endermite": {
             "trigger": "minecraft:fishing_rod_hooked",
             "conditions": {
@@ -240,14 +232,6 @@
             "conditions": {
                 "entity": {
                     "type": "minecraft:vex"
-                }
-            }
-        },
-        "skeleton_horse": {
-            "trigger": "minecraft:fishing_rod_hooked",
-            "conditions": {
-                "entity": {
-                    "type": "minecraft:skeleton_horse"
                 }
             }
         },
@@ -314,7 +298,6 @@
 		"ravager",
 		"endermite",
 		"vex",
-		"skeleton_horse",
 		"piglin",
 		"hoglin",
 		"zoglin",

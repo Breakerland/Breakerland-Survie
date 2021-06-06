@@ -12,7 +12,15 @@
     },		
     "criteria": {
         "bell": {
-            "trigger": "minecraft:impossible"
-        }
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"block": "minecraft:bell"
+					},
+					"feature": "village"
+				}
+			}
+		}
     }
 }

@@ -39,6 +39,44 @@
 					}
 				]
 			}
+		},
+        "knockback_book": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"stored_enchantments": [
+							{
+								"enchantment": "minecraft:knockback"
+							}
+						]
+					}
+				]
+			}
+		},
+        "punch_book": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"stored_enchantments": [
+							{
+								"enchantment": "minecraft:punch"
+							}
+						]
+					}
+				]
+			}
 		}
-    }
+    },	
+    "requirements": [
+        [
+            "knockback",
+            "knockback_book"
+		],
+        [
+            "punch",
+            "punch_book"
+		]
+    ]
 }

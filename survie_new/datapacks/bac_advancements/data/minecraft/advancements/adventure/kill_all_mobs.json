@@ -229,14 +229,6 @@
         }
       }
     },
-    "minecraft:skeleton_horse": {
-      "trigger": "minecraft:player_killed_entity",
-      "conditions": {
-        "entity": {
-          "type": "minecraft:skeleton_horse"
-        }
-      }
-    },
     "minecraft:piglin": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {

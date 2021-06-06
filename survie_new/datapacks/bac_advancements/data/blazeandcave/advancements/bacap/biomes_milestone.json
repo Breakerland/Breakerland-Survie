@@ -109,13 +109,13 @@
 				}
 			}
         },
-		"eskimo": {
+		"barbearian": {
             "trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
 					"player": {
 						"advancements": {
-							"blazeandcave:biomes/eskimo": "true"
+							"blazeandcave:biomes/barbearian": "true"
 						}
 					}
 				}

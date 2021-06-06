@@ -109,13 +109,13 @@
 				}
 			}
         },
-		"happy_birthday": {
+		"happy_new_year": {
             "trigger": "minecraft:location",
 			"conditions": {
 				"player":  {
 					"player": {
 						"advancements": {
-							"blazeandcave:statistics/happy_birthday": "true"
+							"blazeandcave:statistics/happy_new_year": "true"
 						}
 					}
 				}

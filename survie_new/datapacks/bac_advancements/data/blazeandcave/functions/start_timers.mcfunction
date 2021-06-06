@@ -19,13 +19,13 @@ scoreboard objectives add bac_ten_withers dummy
 scoreboard objectives add bac_dvd dummy
 scoreboard objectives add bac_dvd2eb dummy
 scoreboard objectives add bac_dveps dummy
+scoreboard objectives add bac_withercool dummy
 scoreboard objectives add bac_eventhorizon dummy
 scoreboard objectives add bac_event_death deathCount
 scoreboard objectives add bac_loser dummy
 scoreboard objectives add bac_loser_death deathCount
 scoreboard objectives add bac_loser_hurt minecraft.custom:minecraft.damage_taken
 scoreboard objectives add bac_loser_count dummy
-scoreboard objectives add bac_ring_bell minecraft.custom:minecraft.bell_ring
 scoreboard objectives add bac_part_of_raid dummy
 scoreboard objectives add bac_health health
 scoreboard objectives add bac_wiz_break dummy

@@ -9,7 +9,7 @@
     },
     "parent": "blazeandcave:building/mannequin",
     "rewards": {
-        "function": "bc_rewards:nether/armor_display",
+        "function": "bc_rewards:building/armor_display",
 		"experience": 100
     },		
     "criteria": {

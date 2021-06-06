@@ -26,6 +26,27 @@
 					}
 				]
 			}
+		},
+        "smite_book": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"stored_enchantments": [
+							{
+								"enchantment": "minecraft:smite",
+								"levels": 5
+							}
+						]
+					}
+				]
+			}
 		}
-    }
+    },	
+    "requirements": [
+        [
+            "smite",
+            "smite_book"
+		]
+    ]
 }

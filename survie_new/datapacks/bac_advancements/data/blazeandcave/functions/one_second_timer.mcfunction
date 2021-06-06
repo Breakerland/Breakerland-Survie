@@ -1,21 +1,11 @@
 # Function runs once per second
 
-# # Oh, look it dings! and Hell's Bells
-execute as @a at @s if score @s bac_ring_bell matches 1.. run function blazeandcave:bell_ring
-
 # # Free Diver and Sleep with the Fishes (stay underwater)
 execute as @a at @s if block ~ ~ ~ #minecraft:underwater_blocks run scoreboard players add @a bac_underwater 1
 execute as @a at @s unless block ~ ~ ~ #minecraft:underwater_blocks run scoreboard players set @s bac_underwater 0
 execute as @a at @s if block ~ ~1.7 ~ #minecraft:non_underwater_blocks run scoreboard players set @s bac_underwater 0
 advancement grant @a[scores={bac_underwater=120..}] only blazeandcave:biomes/free_diver
 advancement grant @a[scores={bac_underwater=1200..}] only blazeandcave:biomes/sleep_with_the_fishes
-
-# Gives baby hoglins with baby piglins riding them a unique tag for the "Giddy Up!" advancement. It is also removed if the piglin gets off
-tag @e[type=hoglin] remove piglin_jockey
-tag @e[type=hoglin,nbt={Passengers:[{id:"minecraft:piglin"}]}] add piglin_jockey
-
-# If a player is riding a strider they are given the respective advancement criteria for the "SHROOM ON A STICK!" and "This One's Mine!" advancements
-execute as @a at @s if entity @e[type=strider,distance=..2] run function blazeandcave:riding_strider
 
 # All mobs with Wave set to 1 or higher (part of a raid) get given a special tag for being detected by advancements
 execute as @e[type=#minecraft:raiders] store result score @s bac_part_of_raid run data get entity @s Wave
@@ -81,6 +71,7 @@ execute as @a[scores={bac_loser_death=1..}] run function blazeandcave:loser_deat
 # # Loser! (Hardcore Mod) (loser_hurt function is only in Hardcore mod)
 # If the player has taken damage they have a score added
 execute as @a[scores={bac_loser_hurt=1..}] run function blazeandcave:loser_hurt
+
 
 # # Half-Heart Life
 # If the player is on half a heart of health they have a score added. Once this score reaches 60 they get the advancement
@@ -154,10 +145,12 @@ execute as @a[advancements={blazeandcave:technical/kill_dragon=true}] run advanc
 # # Dragon vs Wither: The Pre-Sequel
 # A player gains the score '1' in bac_dveps upon respawning the wither
 execute as @a[advancements={blazeandcave:technical/respawn_wither=true}] run scoreboard players set @s bac_dveps 1
+execute as @a[advancements={blazeandcave:technical/respawn_wither=true}] run scoreboard players set @s bac_withercool 11
 execute as @a[advancements={blazeandcave:technical/respawn_wither=true}] run advancement revoke @s only blazeandcave:technical/respawn_wither
 
-# It is set back to '0' if they touch the ground OR are not wearing a dragon head, which will disqualify their eligibility for obtaining this advancement
-execute as @a[scores={bac_dveps=1}] unless entity @s[nbt={OnGround:0b,Inventory:[{Slot:103b,id:"minecraft:dragon_head"}]}] run scoreboard players set @s bac_dveps 0
+# It is set back to '0' if they touch the ground OR are not wearing a dragon head OR more than 5 seconds has passed since spawning the Wither. Failing will disqualify their eligibility for obtaining this advancement
+scoreboard players remove @a[scores={bac_withercool=1..}] bac_withercool 1
+execute as @a[scores={bac_dveps=1}] unless score @s bac_withercool matches 1.. unless entity @s[nbt={OnGround:0b,Inventory:[{Slot:103b,id:"minecraft:dragon_head"}]}] run scoreboard players set @s bac_dveps 0
 
 # If the player successfully kills the Wither still with a score of '1' they will gain the advancement
 execute as @a[advancements={blazeandcave:technical/kill_wither=true},scores={bac_dveps=1}] run advancement grant @s only blazeandcave:challenges/dragon_vs_wither_the_pre_sequel

@@ -5,8 +5,7 @@
         },
         "title": {"translate":"Spawn Camping"},
         "description": {"translate":"Travel close to 0,0 coordinates and place down a campfire"},
-		"frame": "challenge",
-		"hidden": "true"
+		"frame": "goal"
     },
     "parent": "blazeandcave:mining/delicious_hot_schmoes",
 	"rewards": {

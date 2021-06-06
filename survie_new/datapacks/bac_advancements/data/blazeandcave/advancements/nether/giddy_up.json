@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:saddle"
+            "item": "minecraft:hoglin_spawn_egg"
         },
         "title": {"translate":"Giddy Up!"},
         "description": {"translate":"Punch a baby Hoglin that is being ridden by a baby Piglin"},
@@ -17,8 +17,11 @@
             "trigger": "minecraft:player_hurt_entity",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:hoglin",
-                    "nbt": "{Tags:[piglin_jockey]}"
+                    "type": "hoglin",
+					"flags": {
+						"is_baby": true
+					},
+					"nbt": "{Passengers:[{id:\"minecraft:piglin\"}]}"
                 }
             }
         }

@@ -53,6 +53,62 @@
 					}
 				]
 			}
+		},
+        "respiration_book": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"stored_enchantments": [
+							{
+								"enchantment": "minecraft:respiration"
+							}
+						]
+					}
+				]
+			}
+		},
+        "aqua_affinity_book": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"stored_enchantments": [
+							{
+								"enchantment": "minecraft:aqua_affinity"
+							}
+						]
+					}
+				]
+			}
+		},
+        "depth_strider_book": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"stored_enchantments": [
+							{
+								"enchantment": "minecraft:depth_strider"
+							}
+						]
+					}
+				]
+			}
 		}
-    }
+    },	
+    "requirements": [
+        [
+            "respiration",
+            "respiration_book"
+		],
+        [
+            "aqua_affinity",
+            "aqua_affinity_book"
+		],
+        [
+            "depth_strider",
+            "depth_strider_book"
+		]
+    ]
 }

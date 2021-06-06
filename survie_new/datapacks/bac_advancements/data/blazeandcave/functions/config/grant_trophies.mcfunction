@@ -1,19 +1,20 @@
 # Function that grants you trophies depending on how many advancements that grant you trophies you have obtained in your world so far
 # For use if you have a world that ran 1.10.2 or an earlier version of the pack and updated to 1.11 but want to get the trophies of advancements that you've already obtained
-# Note: Rewards will be disabled and trophies enabled. Afterwards the advancement scoreboard counter will be updated.
+# Note: Rewards will stay in the selected setting (except during this function) and trophies will be enabled. Afterwards the advancement scoreboard counter will be updated.
 
 
-# Saves the values of reward and trophy
+# Saves the value of reward
 execute if score reward bac_settings matches 1 run scoreboard players set extra_reward bac_settings 1
 execute unless score reward bac_settings matches 1 run scoreboard players set extra_reward bac_settings 0
-execute if score trophy bac_settings matches 1 run scoreboard players set extra_trophy bac_settings 1
-execute unless score trophy bac_settings matches 1 run scoreboard players set extra_trophy bac_settings 0
 
-# Disable rewards
+# Disable rewards temporarily
 scoreboard players set reward bac_settings 0
 
+# Enables trophies
+scoreboard players set trophy bac_settings 1
 
-# Go through every advancement, and grants 1 trophy if you have obtained that advancement
+
+# Goes through every advancement, and grants 1 trophy if you have obtained that advancement
 
 # Vanilla Stuff
 execute as @s[advancements={minecraft:husbandry/break_diamond_hoe=true}] run function bc_rewards:farming/serious_dedication
@@ -134,7 +135,7 @@ execute as @s[advancements={blazeandcave:statistics/kill_or_be_killed=true}] run
 execute as @s[advancements={blazeandcave:statistics/scourge_of_the_west=true}] run function bc_rewards:statistics/scourge_of_the_west
 execute as @s[advancements={blazeandcave:statistics/did_you_just_run_across_earth=true}] run function bc_rewards:statistics/did_you_just_run_across_earth
 execute as @s[advancements={blazeandcave:statistics/olympic_gold_medallist=true}] run function bc_rewards:statistics/olympic_gold_medallist
-execute as @s[advancements={blazeandcave:statistics/happy_birthday=true}] run function bc_rewards:statistics/happy_birthday
+execute as @s[advancements={blazeandcave:statistics/happy_new_year=true}] run function bc_rewards:statistics/happy_new_year
 execute as @s[advancements={blazeandcave:statistics/lightning_mcpig=true}] run function bc_rewards:statistics/lightning_mcpig
 execute as @s[advancements={blazeandcave:statistics/global_railway_network=true}] run function bc_rewards:statistics/global_railway_network
 execute as @s[advancements={blazeandcave:statistics/ancient_kung_fu_master=true}] run function bc_rewards:statistics/ancient_kung_fu_master
@@ -203,15 +204,8 @@ execute as @s[advancements={blazeandcave:bacap/root=true}] run function bc_rewar
 execute if score extra_reward bac_settings matches 1 run scoreboard players set reward bac_settings 1
 execute unless score extra_reward bac_settings matches 1 run scoreboard players set reward bac_settings 0
 
-# Enables trophies
-scoreboard players set trophy bac_settings 1
+# Resets temporary reward value
+scoreboard players set extra_reward bac_settings 0
 
 # Message if trophies have been granted
 tellraw @s {"color":"green","text":"You have been granted trophies."}
-
-
-
-# Disables trophy granting and deletes temporary values
-scoreboard players set extra_reward bac_settings 0
-scoreboard players set extra_trophy bac_settings 0
-
