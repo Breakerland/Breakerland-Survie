@@ -45,7 +45,5 @@
 |          SimplePortals         |          1.5.1        | https://www.spigotmc.org/resources/1-16-ready-%E2%8D%9F-simple-portals-%E2%8D%9F-effective-regional-portals-bungeecord-compatible.56772/ |
 |             Sleep              |           2.0         | https://www.spigotmc.org/resources/sleep.73285/ |
 |             Vault              |          1.7.3        | https://www.spigotmc.org/resources/vault.34315/ |
-|          ViaBackwards          |          3.2.0        | https://www.spigotmc.org/resources/viabackwards.27448/ |
-|           ViaVersion           |          3.2.0        | https://www.spigotmc.org/resources/viaversion.19254/ |
 |          VotingPlugin          |         5.24.1        | https://www.spigotmc.org/resources/votingplugin.15358/ |
 |           WorldEdit            |  7.2.0-SNAPSHOT+5479  | https://enginehub.org/worldedit/#downloads |
